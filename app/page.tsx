@@ -1,8 +1,6 @@
 export default function Home() {
   return <h1>TEST DOMOVNIGURU</h1>
 }
-export default function HomePage() {
-  return (
     <main>
       <section className="container hero">
         <h1 className="h1">Praktický pomocník pro domácnost.</h1>
