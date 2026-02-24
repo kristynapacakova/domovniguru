@@ -1,3 +1,6 @@
+export default function Home() {
+  return <h1>TEST DOMOVNIGURU</h1>
+}
 export default function HomePage() {
   return (
     <main>
