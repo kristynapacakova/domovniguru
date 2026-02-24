@@ -21,3 +21,12 @@ export default function SifonPage() {
     </main>
   );
 }
+<div className="card" style={{ marginTop: 30 }}>
+  <div className="cardTitle">Může se hodit</div>
+  <p className="cardDesc" style={{ marginTop: 10 }}>
+    Pokud řešíš rekonstrukci koupelny, podívej se i na naše kalkulačky.
+  </p>
+  <a href="/kalkulacky" className="btnPrimary" style={{ marginTop: 14, display: "inline-block" }}>
+    Zobrazit kalkulačky
+  </a>
+</div>
