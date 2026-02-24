@@ -16,7 +16,7 @@ const items = [
   desc: "m² + rezerva + počet balení podle velikosti balíku.",
   href: "/kalkulacky/kolik-laminatu",
   tag: "Podlahy",
-}
+},
   {
     title: "Kolik betonu potřebuji",
     desc: "Objem, přepočet na pytle a rezerva podle použití.",
