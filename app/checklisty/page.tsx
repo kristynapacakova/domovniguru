@@ -1,135 +1,72 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 
-export default function ChecklistyInteraktivni() {
-  // Stav pro zaškrtnuté položky
-  const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
-
+export default function RozcestnikChecklisty() {
   const checklisty = [
-    {
-      id: "jaro",
-      icon: "🌱",
-      title: "Jarní údržba domu",
-      items: [
-        "Vyčistit okapy a svody od listí",
-        "Zkontrolovat střechu po zimě (uvolněné tašky)",
-        "Přepnout okna na letní režim (seřízení kování)",
-        "Větrat sklep a kontrolovat vlhkost",
-        "Zprovoznit venkovní přívod vody",
-        "Zkontrolovat stav fasády (praskliny)"
-      ]
+    { 
+      id: "jarni-udrzba", 
+      icon: "🌱", 
+      title: "Jarní údržba domu", 
+      desc: "Kompletní technický audit od střechy po zahradu po zimní sezóně." 
     },
-    {
-      id: "zima",
-      icon: "❄️",
-      title: "Příprava na zimu",
-      items: [
-        "Odvzdušnit všechny radiátory",
-        "Vypustit vodu z venkovních kohoutů",
-        "Zimní režim na oknech (zvýšení přítlaku)",
-        "Kontrola a vyčištění komína",
-        "Výměna baterií v termostatu",
-        "Zkontrolovat těsnění kolem vchodových dveří"
-      ]
+    { 
+      id: "priprava-na-zimu", 
+      icon: "❄️", 
+      title: "Příprava na zimu", 
+      desc: "Zabezpečení topení, oken a venkovních rozvodů před mrazy." 
+    },
+    { 
+      id: "stehovani", 
+      icon: "🏠", 
+      title: "Stěhování", 
+      desc: "Administrativní i praktický seznam úkolů při změně bydlení." 
     }
   ];
 
-  const toggleItem = (listId: string, index: number) => {
-    const key = `${listId}-${index}`;
-    setCheckedItems(prev => ({ ...prev, [key]: !prev[key] }));
-  };
-
-  const handlePrint = () => {
-    window.print();
-  };
-
   return (
     <div style={{ background: "#fafaf8", minHeight: "100vh", padding: "60px 0" }}>
-      <div className="no-print" style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 32px" }}>
+      <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 32px" }}>
         
         <header style={{ marginBottom: "60px", borderBottom: "1px solid #e5e5e0", paddingBottom: "40px" }}>
           <div style={{ fontSize: "11px", fontWeight: 600, textTransform: "uppercase", color: "#888", letterSpacing: "0.15em", marginBottom: "15px" }}>Sezónní údržba</div>
           <h1 style={{ fontFamily: "DM Serif Display, serif", fontSize: "56px", margin: 0, fontWeight: 400 }}>Checklisty</h1>
           <p style={{ color: "#666", fontSize: "18px", marginTop: "15px", maxWidth: "600px", fontWeight: 300 }}>
-            Odškrtněte si hotové úkoly přímo zde, nebo si seznam vytiskněte do PDF pro práci v terénu.
+            Vyberte si konkrétní seznam úkolů. Každý checklist si můžete interaktivně odškrtat nebo vytisknout jako PDF.
           </p>
-          <button 
-            onClick={handlePrint}
-            style={{ marginTop: "30px", background: "#111", color: "#fff", border: "none", padding: "12px 24px", borderRadius: "6px", cursor: "pointer", fontWeight: 600, fontSize: "14px" }}
-          >
-            🖨️ Stáhnout jako PDF / Tisknout
-          </button>
         </header>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "30px" }}>
-          {checklisty.map((list) => (
-            <div key={list.id} className="printable-list" style={{ background: "#fff", border: "1px solid #e5e5e0", borderRadius: "16px", padding: "40px" }}>
-              <div style={{ fontSize: "32px", marginBottom: "20px" }}>{list.icon}</div>
-              <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "28px", marginBottom: "25px" }}>{list.title}</h2>
-              
-              <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
-                {list.items.map((item, idx) => {
-                  const isChecked = checkedItems[`${list.id}-${idx}`];
-                  return (
-                    <div 
-                      key={idx} 
-                      onClick={() => toggleItem(list.id, idx)}
-                      style={{ 
-                        display: "flex", 
-                        alignItems: "center", 
-                        gap: "12px", 
-                        cursor: "pointer",
-                        padding: "8px",
-                        borderRadius: "8px",
-                        transition: "0.2s",
-                        background: isChecked ? "#f8faf8" : "transparent"
-                      }}
-                    >
-                      <div style={{ 
-                        width: "22px", 
-                        height: "22px", 
-                        border: isChecked ? "none" : "2px solid #ddd", 
-                        background: isChecked ? "#22c55e" : "#fff",
-                        borderRadius: "6px",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        color: "#fff",
-                        fontSize: "14px"
-                      }}>
-                        {isChecked && "✓"}
-                      </div>
-                      <span style={{ 
-                        fontSize: "16px", 
-                        color: isChecked ? "#aaa" : "#444",
-                        textDecoration: isChecked ? "line-through" : "none",
-                        fontWeight: 300
-                      }}>
-                        {item}
-                      </span>
-                    </div>
-                  );
-                })}
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "25px" }}>
+          {checklisty.map(c => (
+            <Link key={c.id} href={`/checklisty/${c.id}`} style={{ textDecoration: "none", color: "inherit" }}>
+              <div className="checklist-card" style={{ 
+                background: "#fff", 
+                padding: "40px", 
+                borderRadius: "16px", 
+                border: "1px solid #e5e5e0", 
+                height: "100%",
+                transition: "0.3s ease"
+              }}>
+                <div style={{ fontSize: "40px", marginBottom: "20px" }}>{c.icon}</div>
+                <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "26px", marginBottom: "12px" }}>{c.title}</h2>
+                <p style={{ color: "#888", fontSize: "15px", lineHeight: 1.6, marginBottom: "25px", fontWeight: 300 }}>{c.desc}</p>
+                <div style={{ fontWeight: 600, fontSize: "12px", textTransform: "uppercase", letterSpacing: "0.05em", color: "#111", borderTop: "1px solid #f5f5f0", paddingTop: "20px" }}>
+                  Zobrazit seznam →
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
 
-      {/* CSS pro tisk */}
       <style>{`
-        @media print {
-          .no-print { visibility: hidden; }
-          .printable-list { 
-            visibility: visible; 
-            position: absolute; 
-            left: 0; top: 0; 
-            width: 100%; 
-            border: none !important;
-            padding: 0 !important;
-          }
-          body { background: white !important; }
+        .checklist-card:hover {
+          border-color: #111;
+          transform: translateY(-5px);
+          box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        }
+        @media (max-width: 900px) {
+          div[style*="gridTemplateColumns"] { grid-template-columns: 1fr !important; }
         }
       `}</style>
     </div>
