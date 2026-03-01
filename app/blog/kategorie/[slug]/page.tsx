@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { use } from "react";
 
 // 1. Jednoduchá konfigurace kategorií
 const CATEGORIES = {
@@ -11,17 +11,9 @@ const CATEGORIES = {
 };
 
 export default function CategoryPage({ params }) {
-  // 2. Bezpečné získání slugu
-  // React.use(params) je nejmodernější cesta, ale zkusíme tohle, co funguje i ve starších verzích
-  const [resolvedParams, setResolvedParams] = React.useState(null);
-
-  React.useEffect(() => {
-    Promise.resolve(params).then(setResolvedParams);
-  }, [params]);
-
-  if (!resolvedParams) return <div style={{ padding: '20px' }}>Načítám...</div>;
-
-  const slug = resolvedParams.slug || "malovani";
+  // 2. Bezpečné získání slugu pro Next.js 15
+  const resolvedParams = use(params);
+  const slug = resolvedParams?.slug || "malovani";
   const cat = CATEGORIES[slug] || CATEGORIES.malovani;
 
   return (
