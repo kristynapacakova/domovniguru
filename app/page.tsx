@@ -1,6 +1,3 @@
-// app/page.tsx – DomovniGuru Homepage
-// Zachovává design z předchozí verze + přidává sekci "Nejnovější z blogu"
-
 export default function DomovniGuru() {
   const kalkulacky = [
     { icon: "🪣", tag: "Kalkulačka", title: "Kolik barvy potřebuji?", desc: "Plocha, vrstvy, litry. Bez přemýšlení.", href: "/kalkulacky/kolik-barvy" },
