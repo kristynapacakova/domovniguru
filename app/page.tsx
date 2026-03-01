@@ -13,27 +13,107 @@ export default function DomovniGuru() {
   ];
 
   return (
-    <div style={{ background: "#fafaf8", minHeight: "100vh", paddingBottom: "100px" }}>
+    <div className="main-wrapper">
       <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+        
+        .main-wrapper { 
+          font-family: 'DM Sans', sans-serif; 
+          background: #fafaf8; 
+          color: #0f0f0e; 
+          min-height: 100vh;
+        }
+
         .wrap { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
-        .hero { padding: 72px 0 52px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: end; border-bottom: 1px solid rgba(15,15,14,0.1); }
-        .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #78776e; margin-bottom: 18px; }
-        .h1 { font-family: 'DM Serif Display', serif; font-size: clamp(38px, 5vw, 60px); line-height: 1.06; color: #0f0f0e; }
+        
+        .hero { 
+          padding: 80px 0 60px; 
+          display: grid; 
+          grid-template-columns: 1.2fr 0.8fr; 
+          gap: 60px; 
+          align-items: end; 
+          border-bottom: 1px solid rgba(15,15,14,0.1); 
+        }
+
+        .eyebrow { 
+          font-size: 11px; 
+          font-weight: 600; 
+          letter-spacing: 0.12em; 
+          text-transform: uppercase; 
+          color: #78776e; 
+          margin-bottom: 20px; 
+        }
+
+        .h1 { 
+          font-family: 'DM Serif Display', serif; 
+          font-size: clamp(40px, 6vw, 64px); 
+          line-height: 1.05; 
+          margin: 0;
+        }
+
         .h1 em { font-style: italic; color: #78776e; }
-        .hero-desc { font-size: 17px; line-height: 1.65; color: #78776e; font-weight: 300; margin-bottom: 28px; }
-        .section { padding: 52px 0 0; }
-        .section-header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(15,15,14,0.1); padding-bottom: 12px; margin-bottom: 24px; }
-        .section-label { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #78776e; }
-        .kalk-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-        .kalk-card { border: 1px solid rgba(15,15,14,0.1); border-radius: 12px; padding: 20px 22px; background: #fff; text-decoration: none; color: inherit; transition: all 150ms; display: block; }
-        .kalk-card:hover { box-shadow: 0 8px 28px rgba(0,0,0,0.08); transform: translateY(-2px); }
-        .kalk-icon { font-size: 28px; margin-bottom: 12px; display: block; }
-        .kalk-tag { font-size: 10px; font-weight: 600; text-transform: uppercase; color: #78776e; margin-bottom: 6px; }
-        .kalk-title { font-family: 'DM Serif Display', serif; font-size: 16px; line-height: 1.25; margin-bottom: 5px; color: #0f0f0e; }
-        .kalk-desc { font-size: 13px; line-height: 1.5; color: #78776e; font-weight: 300; }
-        .kalk-arrow { margin-top: 14px; font-size: 12px; font-weight: 600; color: #0f0f0e; }
-        @media (max-width: 900px) { .hero { grid-template-columns: 1fr; padding: 40px 0; } .kalk-grid { grid-template-columns: 1fr 1fr; } }
-        @media (max-width: 600px) { .kalk-grid { grid-template-columns: 1fr; } }
+
+        .hero-desc { 
+          font-size: 18px; 
+          line-height: 1.6; 
+          color: #78776e; 
+          margin-bottom: 30px; 
+        }
+
+        .section { padding: 60px 0; }
+        
+        .section-header { 
+          display: flex; 
+          justify-content: space-between; 
+          align-items: baseline; 
+          border-bottom: 1px solid rgba(15,15,14,0.1); 
+          padding-bottom: 15px; 
+          margin-bottom: 30px; 
+        }
+
+        .section-label { 
+          font-size: 11px; 
+          font-weight: 600; 
+          text-transform: uppercase; 
+          letter-spacing: 0.1em; 
+          color: #78776e; 
+        }
+
+        .kalk-grid { 
+          display: grid; 
+          grid-template-columns: repeat(3, 1fr); 
+          gap: 20px; 
+        }
+
+        .kalk-card { 
+          background: #ffffff; 
+          border: 1px solid rgba(15,15,14,0.1); 
+          border-radius: 16px; 
+          padding: 28px; 
+          text-decoration: none; 
+          color: inherit; 
+          transition: all 0.3s ease;
+        }
+
+        .kalk-card:hover { 
+          transform: translateY(-4px); 
+          box-shadow: 0 12px 30px rgba(0,0,0,0.06); 
+          border-color: rgba(15,15,14,0.2);
+        }
+
+        .kalk-icon { font-size: 32px; display: block; margin-bottom: 20px; }
+        .kalk-tag { font-size: 10px; font-weight: 600; text-transform: uppercase; color: #78776e; margin-bottom: 8px; }
+        .kalk-title { font-family: 'DM Serif Display', serif; font-size: 19px; margin-bottom: 10px; }
+        .kalk-desc { font-size: 14px; line-height: 1.5; color: #78776e; }
+        .kalk-arrow { margin-top: 20px; font-size: 13px; font-weight: 600; border-top: 1px solid rgba(15,15,14,0.05); padding-top: 15px; }
+
+        @media (max-width: 900px) {
+          .hero { grid-template-columns: 1fr; padding: 60px 0 40px; }
+          .kalk-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 600px) {
+          .kalk-grid { grid-template-columns: 1fr; }
+        }
       `}</style>
 
       <div className="wrap">
@@ -58,7 +138,7 @@ export default function DomovniGuru() {
                 <div className="kalk-tag">{k.tag}</div>
                 <div className="kalk-title">{k.title}</div>
                 <div className="kalk-desc">{k.desc}</div>
-                <div className="kalk-arrow">Spustit →</div>
+                <div className="kalk-arrow">Spustit výpočet →</div>
               </Link>
             ))}
           </div>
