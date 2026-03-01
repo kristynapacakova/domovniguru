@@ -1,43 +1,43 @@
+"use client";
+import React from "react";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Návody | DomovniGuru",
-  description: "Praktické návody pro domácnost a opravy.",
-};
+export default function NavodyHub() {
+  const navody = [
+    { icon: "🔧", time: "10 min", title: "Jak vyčistit sifon?", desc: "Smradí odpad nebo pomalu odtéká? Vyřeš to za 10 minut." },
+    { icon: "🚿", time: "30 min", title: "Jak utěsnit vanu silikonem?", desc: "Plíseň ve spáře nebo zatékání? Krok za krokem." },
+    { icon: "🪟", time: "15 min", title: "Jak nastavit okna na zimu?", desc: "Přetočení kování = teplejší byt a nižší účty." },
+    { icon: "🧹", time: "20 min", title: "Jak vyčistit spáry v dlažbě?", desc: "Zčernalé spáry bez drhnutí. Funguje to." },
+    { icon: "💡", time: "25 min", title: "Jak vyměnit zásuvku?", desc: "Bezpečně, levně a bez elektrikáře." },
+    { icon: "🌡️", time: "10 min", title: "Jak odvzdušnit radiátor?", desc: "Studený radiátor nahoře? Takhle to napravíš." },
+  ];
 
-const items = [
-  {
-    title: "Jak vyčistit sifon",
-    desc: "Když odpad smrdí nebo špatně odtéká.",
-    href: "/navody/jak-vycistit-sifon",
-    tag: "Koupelna",
-  },
-];
-
-export default function NavodyPage() {
   return (
-    <main className="container" style={{ padding: "44px 0 60px" }}>
-      <h1 className="h1">Návody</h1>
-      <p className="p" style={{ maxWidth: 760, marginTop: 12 }}>
-        Rychlé postupy „problém → řešení“. Krátce, prakticky, bez omáčky.
-      </p>
+    <div style={{ background: "#fafaf8", minHeight: "100vh", paddingTop: "60px" }}>
+      <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 32px" }}>
+        <header style={{ marginBottom: "60px", borderBottom: "1px solid #e5e5e0", paddingBottom: "40px" }}>
+          <div style={{ fontSize: "11px", fontWeight: 600, textTransform: "uppercase", color: "#888", letterSpacing: "0.15em", marginBottom: "15px" }}>Kutilské postupy</div>
+          <h1 style={{ fontFamily: "DM Serif Display, serif", fontSize: "56px", margin: 0, fontWeight: 400 }}>Návody</h1>
+          <p style={{ color: "#666", fontSize: "18px", marginTop: "15px", maxWidth: "600px", fontWeight: 300, lineHeight: 1.6 }}>
+            Jednoduché postupy pro opravy a údržbu domácnosti, které zvládnete sami bez drahých řemeslníků.
+          </p>
+        </header>
 
-      <div style={{ marginTop: 22, display: "grid", gap: 12 }}>
-        {items.map((it) => (
-          <Link
-            key={it.href}
-            href={it.href}
-            className="card"
-            style={{ textDecoration: "none" }}
-          >
-            <div style={{ display: "flex", justifyContent: "space-between", gap: 10 }}>
-              <div className="cardTitle">{it.title}</div>
-              <span className="pill">{it.tag}</span>
-            </div>
-            <div className="cardDesc">{it.desc}</div>
-          </Link>
-        ))}
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px", paddingBottom: "80px" }}>
+          {navody.map((n, i) => (
+            <Link key={i} href="#" className="dg-card">
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: "10px", fontWeight: 700, color: "#888", marginBottom: "15px", textTransform: "uppercase" }}>
+                <span>Návod</span><span>⏱ {n.time}</span>
+              </div>
+              <span style={{ fontSize: "32px", display: "block", marginBottom: "15px" }}>{n.icon}</span>
+              <div style={{ fontFamily: "DM Serif Display, serif", fontSize: "22px", margin: "10px 0", lineHeight: 1.2 }}>{n.title}</div>
+              <p style={{ fontSize: "14px", color: "#666", margin: 0, fontWeight: 300, lineHeight: 1.5 }}>{n.desc}</p>
+              <div style={{ marginTop: "25px", fontWeight: 600, fontSize: "13px", paddingTop: "20px", borderTop: "1px solid #f5f5f0" }}>Číst návod →</div>
+            </Link>
+          ))}
+        </div>
       </div>
-    </main>
+      <style>{`.dg-card { background: #fff; border: 1px solid #e5e5e0; border-radius: 12px; padding: 30px; text-decoration: none; color: inherit; transition: 0.3s ease; } .dg-card:hover { border-color: #111; transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.06); }`}</style>
+    </div>
   );
 }
