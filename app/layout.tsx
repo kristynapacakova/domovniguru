@@ -6,25 +6,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="cs">
       <body>
         <nav style={{ 
-          position: 'sticky', 
-          top: 0, 
-          zIndex: 100, 
-          background: 'rgba(255,255,255,0.8)', 
-          backdropFilter: 'blur(12px)',
-          borderBottom: '1px solid #eee' 
+          position: 'sticky', top: 0, zIndex: 100, 
+          background: 'rgba(255,255,255,0.8)', backdropFilter: 'blur(12px)',
+          borderBottom: '1px solid #e5e5e0' 
         }}>
           <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 32px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Link href="/" style={{ fontWeight: 'bold', fontSize: '20px', textDecoration: 'none', color: '#000' }}>DomovniGuru</Link>
+            <Link href="/" style={{ fontWeight: '600', fontSize: '18px', textDecoration: 'none', color: '#000', letterSpacing: '-0.02em' }}>DomovniGuru</Link>
             <div style={{ display: 'flex', gap: '24px' }}>
-              <Link href="/kalkulacky" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Kalkulačky</Link>
-              <Link href="/navody" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Návody</Link>
-              <Link href="/checklisty" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Checklisty</Link>
-              <Link href="/blog" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Blog</Link>
-              <Link href="/o-webu" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>O webu</Link>
+              <Link href="/kalkulacky" className="nav-l">Kalkulačky</Link>
+              <Link href="/navody" className="nav-l">Návody</Link>
+              <Link href="/checklisty" className="nav-l">Checklisty</Link>
+              <Link href="/blog" className="nav-l">Blog</Link>
+              <Link href="/o-webu" className="nav-l">O webu</Link>
             </div>
           </div>
+          <style>{`.nav-l { font-size: 12px; font-weight: 600; text-transform: uppercase; color: #666; text-decoration: none; letter-spacing: 0.05em; } .nav-l:hover { color: #000; }`}</style>
         </nav>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
