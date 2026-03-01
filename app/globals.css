@@ -2,10 +2,9 @@
 
 :root {
   --bg: #fafaf8;
-  --surface: #f2f1ed;
   --text: #0f0f0e;
   --muted: #78776e;
-  --border: rgba(15, 15, 14, 0.10);
+  --border: rgba(15, 15, 14, 0.1);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -22,7 +21,7 @@ body {
   padding: 0 32px;
 }
 
-/* Styl pro menu, který bude na všech stránkách */
+/* Opravená navigace bez chyb */
 .main-nav {
   position: sticky;
   top: 0;
@@ -53,11 +52,9 @@ body {
 
 .nav-links a {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: var(--muted);
   text-decoration: none;
   letter-spacing: 0.05em;
 }
-
-.nav-links a:hover { color: var(--text); }
