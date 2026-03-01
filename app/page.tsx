@@ -126,19 +126,6 @@ export default function DomovniGuru() {
       `}</style>
 
       <div className="dg">
-        <nav className="nav">
-          <div className="nav-inner">
-            <Link href="/" className="brand">DomovniGuru</Link>
-            <div className="nav-links">
-              <Link href="/kalkulacky">Kalkulačky</Link>
-              <Link href="/navody">Návody</Link>
-              <Link href="/checklisty">Checklisty</Link>
-              <Link href="/blog">Blog</Link>
-              <Link href="/o-nas">O webu</Link>
-            </div>
-          </div>
-        </nav>
-
         <div className="wrap">
           <header className="hero">
             <div>
