@@ -7,14 +7,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <nav style={{ 
           position: 'sticky', top: 0, zIndex: 100, 
-          background: 'rgba(250,250,248,0.9)', backdropFilter: 'blur(16px)',
-          borderBottom: '1px solid rgba(15,15,14,0.1)' 
+          background: 'rgba(255,255,255,0.8)', backdropFilter: 'blur(12px)',
+          borderBottom: '1px solid #eee' 
         }}>
-          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 32px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Link href="/" style={{ fontFamily: 'serif', fontSize: '18px', textDecoration: 'none', color: '#0f0f0e', fontWeight: 'bold' }}>DomovniGuru</Link>
-            <div style={{ display: 'flex', gap: '28px' }}>
-              <Link href="/kalkulacky" style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', color: '#78776e', textDecoration: 'none' }}>Kalkulačky</Link>
-              <Link href="/navody" style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', color: '#78776e', textDecoration: 'none' }}>Návody</Link>
+          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 32px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Link href="/" style={{ fontWeight: 'bold', fontSize: '20px', textDecoration: 'none', color: '#000' }}>DomovniGuru</Link>
+            <div style={{ display: 'flex', gap: '24px' }}>
+              <Link href="/kalkulacky" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Kalkulačky</Link>
+              <Link href="/navody" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Návody</Link>
+              <Link href="/checklisty" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Checklisty</Link>
+              <Link href="/blog" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>Blog</Link>
+              <Link href="/o-nas" style={{ fontSize: '13px', fontWeight: 500, textTransform: 'uppercase', color: '#666', textDecoration: 'none' }}>O webu</Link>
             </div>
           </div>
         </nav>
