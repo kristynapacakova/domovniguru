@@ -2,12 +2,13 @@
 import React from "react";
 import Link from "next/link";
 
-// Oprava pro tvůj TypeScript error ze screenshotů
+// 1. Typy pro TypeScript (řeší error z tvých fotek)
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-const CAT_CONFIG: Record<string, { title: string; emoji: string; color: string; desc: string }> = {
+// 2. Data pro kategorie (barvy a texty laděné podle tvého screenshotu)
+const CAT_DATA: Record<string, { title: string; emoji: string; color: string; desc: string }> = {
   malovani: { 
     title: "Malování & barvy", 
     emoji: "🎨", 
@@ -35,73 +36,64 @@ const CAT_CONFIG: Record<string, { title: string; emoji: string; color: string; 
 };
 
 export default function CategoryPage({ params }: Props) {
+  // Rozbalení parametrů pro Next.js 15+
   const resolvedParams = React.use(params);
   const slug = resolvedParams?.slug || "malovani";
-  const cfg = CAT_CONFIG[slug] || CAT_CONFIG.malovani;
+  const cfg = CAT_DATA[slug] || CAT_DATA.malovani;
 
   return (
-    <div className="min-h-screen bg-white font-sans text-[#1c1917]">
-      {/* Hlavní kontejner jako na tvém screenshotu */}
-      <div className="max-w-[1100px] mx-auto px-6 py-12">
+    <div className="min-h-screen bg-white">
+      {/* Hlavní kontejner s max. šířkou pro uhlazený vzhled */}
+      <div className="max-w-[1100px] mx-auto px-6 py-12 lg:py-20 font-sans">
         
-        {/* Horní navigace v uhlazeném stylu */}
-        <nav className="flex items-center gap-2 text-[13px] font-medium text-black/40 uppercase tracking-wider mb-12">
+        {/* Navigace */}
+        <nav className="flex items-center gap-2 text-[12px] font-bold text-slate-300 uppercase tracking-[0.15em] mb-12">
           <Link href="/" className="hover:text-black transition-colors">Domů</Link>
-          <span>/</span>
+          <span className="opacity-50">/</span>
           <Link href="/blog" className="hover:text-black transition-colors">Blog</Link>
-          <span>/</span>
-          <span className="text-black/80">{cfg.title}</span>
+          <span className="opacity-50">/</span>
+          <span className="text-slate-900">{cfg.title}</span>
         </nav>
 
-        {/* Hero sekce s ikonou */}
-        <header className={`${cfg.color} rounded-[32px] p-12 md:p-20 mb-16 border border-black/[0.03] relative overflow-hidden`}>
+        {/* Hero sekce - Ta velká barevná karta */}
+        <header className={`${cfg.color} rounded-[48px] p-10 md:p-24 mb-16 relative overflow-hidden border border-black/[0.02]`}>
           <div className="max-w-2xl relative z-10">
-            <div className="text-sm font-bold text-black/30 uppercase tracking-[0.2em] mb-6">Praktický průvodce</div>
-            <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-6 leading-[1.1]">
-              {cfg.emoji} {cfg.title}
+            <div className="inline-block px-4 py-1 rounded-full bg-white/50 text-[11px] font-bold uppercase tracking-widest text-slate-500 mb-8">
+              Kategorie
+            </div>
+            <h1 className="text-5xl md:text-7xl font-black tracking-tight text-slate-900 mb-8 leading-[0.9]">
+              {cfg.emoji} <br className="md:hidden" /> {cfg.title}
             </h1>
-            <p className="text-lg md:text-xl text-black/50 leading-relaxed font-medium">
+            <p className="text-lg md:text-2xl text-slate-500/80 leading-relaxed font-medium">
               {cfg.desc}
             </p>
           </div>
-          {/* Velké deco emoji v pozadí */}
-          <div className="absolute -right-10 -bottom-10 text-[240px] opacity-[0.03] pointer-events-none select-none rotate-12">
+          {/* Dekorace v pozadí */}
+          <div className="absolute -right-20 -bottom-20 text-[300px] opacity-[0.04] pointer-events-none select-none rotate-12">
             {cfg.emoji}
           </div>
         </header>
 
-        {/* Sekce s články - čisté bílé karty s jemným stínem */}
+        {/* Mřížka s články - čisté bílé karty s jemným stínem */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="group bg-white border border-[#ececec] rounded-2xl p-8 hover:shadow-[0_20px_40px_rgba(0,0,0,0.04)] hover:border-black/10 transition-all duration-500 cursor-pointer">
-              <div className="flex items-center justify-between mb-8">
-                <div className="flex items-center gap-3">
-                   <div className="w-10 h-10 rounded-full bg-[#f5f5f5] flex items-center justify-center text-lg">{cfg.emoji}</div>
-                   <span className="text-[11px] font-bold uppercase tracking-widest text-black/40">Návod • 10 min</span>
-                </div>
+          {[1, 2].map((i) => (
+            <div key={i} className="group bg-white border border-slate-100 rounded-[32px] p-8 md:p-10 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.05)] hover:border-slate-200 transition-all duration-500 cursor-pointer">
+              <div className="flex items-center gap-3 mb-8">
+                <div className="w-8 h-8 rounded-lg bg-slate-50 flex items-center justify-center text-sm">{cfg.emoji}</div>
+                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Návod • 10 min čtení</span>
               </div>
-              <h3 className="text-2xl font-bold mb-4 leading-snug group-hover:text-black">
-                Jak efektivně plánovat projekt v sekci {cfg.title}
+              <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4 leading-tight group-hover:text-blue-600 transition-colors">
+                Jak připravit podklad pro {cfg.title}
               </h3>
-              <p className="text-black/40 leading-relaxed mb-8">
-                Pár základních pravidel, která vám ušetří polovinu času a spoustu zbytečných nákupů materiálu.
+              <p className="text-slate-400 leading-relaxed mb-10 font-medium">
+                Základem každého úspěšného projektu je příprava. Ukážeme vám, na co nezapomenout, aby výsledek vydržel roky.
               </p>
-              <div className="flex items-center gap-2 font-bold text-sm">
-                Otevřít návod <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
+              <div className="flex items-center gap-2 font-bold text-sm text-slate-900">
+                Přečíst návod <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
               </div>
             </div>
           ))}
         </div>
-
-        {/* Spodní rozcestník */}
-        <footer className="mt-24 pt-12 border-t border-[#f0f0f0] flex justify-between items-center">
-          <Link href="/blog" className="text-[13px] font-bold text-black/40 hover:text-black transition-colors uppercase tracking-widest">
-            ← Ostatní kategorie
-          </Link>
-          <div className="text-[13px] font-bold text-black/20 uppercase tracking-widest">
-            DomovníGuru 2026
-          </div>
-        </footer>
 
       </div>
     </div>
