@@ -1,39 +1,111 @@
-import "./globals.css";
+import type { Metadata } from "next";
 import Link from "next/link";
+import "./globals.css";
 
-export const metadata = {
-  title: "DomovniGuru",
-  description: "Praktický průvodce domácností",
+export const metadata: Metadata = {
+  title: {
+    default: "DomovniGuru – Praktický průvodce domácností",
+    template: "%s | DomovniGuru",
+  },
+  description:
+    "Kalkulačky na materiál, návody krok za krokem a sezónní checklisty. Zjisti, co koupit, kolik potřebuješ a jak to vyřešit.",
+  metadataBase: new URL("https://domovniguru.cz"),
+  openGraph: {
+    siteName: "DomovniGuru",
+    locale: "cs_CZ",
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="cs">
-      <head>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-      </head>
-      <body style={{ margin: 0, background: "#fafaf8", fontFamily: "'DM Sans', sans-serif" }}>
-        <nav style={{ 
-          position: 'sticky', top: 0, zIndex: 100, 
-          background: 'rgba(250, 250, 248, 0.9)', backdropFilter: 'blur(12px)',
-          borderBottom: '1px solid #e5e5e0' 
-        }}>
-          <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 32px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Link href="/" style={{ fontWeight: '600', fontSize: '18px', textDecoration: 'none', color: '#000', letterSpacing: '-0.02em' }}>DomovniGuru</Link>
-            <div style={{ display: 'flex', gap: '24px' }}>
-              <Link href="/kalkulacky" className="nav-link">Kalkulačky</Link>
-              <Link href="/navody" className="nav-link">Návody</Link>
-              <Link href="/checklisty" className="nav-link">Checklisty</Link>
-              <Link href="/blog" className="nav-link">Blog</Link>
-              <Link href="/o-webu" className="nav-link">O webu</Link>
+      <body>
+        {/* ── Navigation ── */}
+        <nav className="main-nav">
+          <div className="wrap">
+            <div className="nav-inner">
+              <Link href="/" className="nav-brand">
+                DomovniGuru
+              </Link>
+              <div className="nav-links">
+                <Link href="/kalkulacky">Kalkulačky</Link>
+                <Link href="/navody">Návody</Link>
+                <Link href="/checklisty">Checklisty</Link>
+                <Link href="/blog">Blog</Link>
+                <Link href="/o-webu">O webu</Link>
+              </div>
             </div>
           </div>
-          <style>{`
-            .nav-link { font-size: 12px; font-weight: 600; text-transform: uppercase; color: #666; text-decoration: none; letter-spacing: 0.05em; transition: 0.2s; }
-            .nav-link:hover { color: #000; }
-          `}</style>
         </nav>
+
+        {/* ── Page content ── */}
         <main>{children}</main>
+
+        {/* ── Footer ── */}
+        <footer className="site-footer">
+          <div className="wrap">
+            <div className="footer-grid">
+              {/* Brand */}
+              <div>
+                <Link href="/" className="footer-brand">
+                  DomovniGuru
+                </Link>
+                <p className="footer-tagline">
+                  Praktické kalkulačky, návody a checklisty
+                  <br />
+                  pro každého majitele domu nebo bytu.
+                </p>
+              </div>
+
+              {/* Kalkulačky */}
+              <div>
+                <div className="footer-col-title">Kalkulačky</div>
+                <div className="footer-links">
+                  <Link href="/kalkulacky/kolik-barvy">Barva</Link>
+                  <Link href="/kalkulacky/kolik-laminatu">Laminát</Link>
+                  <Link href="/kalkulacky/kolik-dlazby">Dlažba</Link>
+                  <Link href="/kalkulacky/kolik-betonu">Beton</Link>
+                  <Link href="/kalkulacky/kolik-tapet">Tapety</Link>
+                </div>
+              </div>
+
+              {/* Blog */}
+              <div>
+                <div className="footer-col-title">Blog</div>
+                <div className="footer-links">
+                  <Link href="/blog/kategorie/malovani">Malování</Link>
+                  <Link href="/blog/kategorie/elektrika">Elektrika</Link>
+                  <Link href="/blog/kategorie/zahrada">Zahrada</Link>
+                  <Link href="/blog/kategorie/stehovani">Stěhování</Link>
+                  <Link href="/blog/kategorie/sezonni-udrzba">Sezónní údržba</Link>
+                </div>
+              </div>
+
+              {/* Web */}
+              <div>
+                <div className="footer-col-title">Web</div>
+                <div className="footer-links">
+                  <Link href="/navody">Návody</Link>
+                  <Link href="/checklisty">Checklisty</Link>
+                  <Link href="/o-webu">O webu</Link>
+                  <Link href="/kontakt">Kontakt</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="footer-bottom">
+              <span>© {new Date().getFullYear()} DomovniGuru</span>
+              <div className="footer-bottom-links">
+                <Link href="/soukromi">Soukromí</Link>
+                <Link href="/podminky">Podmínky</Link>
+              </div>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );
