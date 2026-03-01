@@ -3,9 +3,10 @@ import React from "react";
 import Link from "next/link";
 
 export default function RozcestnikNavody() {
+  // Tady jsou ID nastavená PŘESNĚ podle tvých složek na screenshotu
   const clanky = [
     { 
-      id: "silikon", // Tady jsme to zkrátili
+      id: "jak-utesnit-vanu-silikonem", 
       title: "Jak utěsnit vanu silikonem?", 
       desc: "Plesnivé spáry nebo zatékání za vanu? Naučte se trik s mýdlovou vodou.",
       icon: "🚿",
@@ -40,25 +41,44 @@ export default function RozcestnikNavody() {
                 padding: "40px", 
                 borderRadius: "20px", 
                 border: "1px solid #e5e5e0",
-                transition: "all 0.3s ease",
+                transition: "0.3s ease",
                 cursor: "pointer",
                 height: "100%",
                 display: "flex",
                 flexDirection: "column"
-              }}>
+              }} className="card-hover">
+                
                 <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "20px", fontSize: "12px", fontWeight: 700, color: "#aaa" }}>
                   <span>NÁVOD</span>
                   <span>⏱ {c.time}</span>
                 </div>
+
                 <div style={{ fontSize: "40px", marginBottom: "20px" }}>{c.icon}</div>
-                <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "28px", marginBottom: "15px" }}>{c.title}</h2>
-                <p style={{ color: "#666", lineHeight: 1.6, marginBottom: "30px", flexGrow: 1 }}>{c.desc}</p>
-                <div style={{ borderTop: "1px solid #eee", paddingTop: "20px", fontWeight: 700 }}>Číst →</div>
+                
+                <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "28px", marginBottom: "15px", lineHeight: 1.2 }}>
+                  {c.title}
+                </h2>
+                
+                <p style={{ color: "#666", lineHeight: 1.6, marginBottom: "30px", flexGrow: 1 }}>
+                  {c.desc}
+                </p>
+
+                <div style={{ borderTop: "1px solid #eee", paddingTop: "20px", fontWeight: 700 }}>
+                  Číst →
+                </div>
               </div>
             </Link>
           ))}
         </div>
       </div>
+
+      <style>{`
+        .card-hover:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+          border-color: #111 !important;
+        }
+      `}</style>
     </div>
   );
 }
