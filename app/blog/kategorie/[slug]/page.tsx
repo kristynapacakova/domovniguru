@@ -1,7 +1,6 @@
 "use client";
 import React, { use } from "react";
 
-// 1. Jednoduchá konfigurace kategorií
 const CATEGORIES = {
   malovani: { title: "Malování", icon: "🎨", color: "#f5f0e8" },
   elektrika: { title: "Elektrika", icon: "⚡", color: "#eef2f8" },
@@ -11,7 +10,7 @@ const CATEGORIES = {
 };
 
 export default function CategoryPage({ params }) {
-  // 2. Bezpečné získání slugu pro Next.js 15
+  // Tato řádka je u Next.js 15 naprosto klíčová:
   const resolvedParams = use(params);
   const slug = resolvedParams?.slug || "malovani";
   const cat = CATEGORIES[slug] || CATEGORIES.malovani;
@@ -39,8 +38,10 @@ export default function CategoryPage({ params }) {
           borderRadius: '24px', 
           border: '1px solid #e7e5e4' 
         }}>
-          <p>Tady se brzy objeví seznam článků pro kategorii <strong>{cat.title}</strong>.</p>
-          <a href="/blog" style={{ color: 'black', fontWeight: 'bold', textDecoration: 'none' }}>← Zpět na blog</a>
+          <p>Sekce se připravuje pro kategorii: <strong>{cat.title}</strong>.</p>
+          <a href="/blog" style={{ color: 'black', fontWeight: 'bold', textDecoration: 'none', borderBottom: '2px solid black' }}>
+            ← Zpět na přehled blogu
+          </a>
         </div>
       </div>
     </div>
