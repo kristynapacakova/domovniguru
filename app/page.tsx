@@ -166,11 +166,11 @@ export default function DomovniGuru() {
           <div>
             <div style={{ fontSize: '28px', fontFamily: 'DM Serif Display, serif' }}>100 článků v 5 kategoriích</div>
             <div className="tag-cloud">
-              <span className="tag">Malování & barvy 20</span>
-              <span className="tag">Elektrika & osvětlení 20</span>
-              <span className="tag">Zahrada & terasa 20</span>
-              <span className="tag">Stěhování & rekonstrukce 20</span>
-              <span className="tag">Sezónní údržba 20</span>
+              <span className="tag">Malování & barvy</span>
+              <span className="tag">Elektrika & osvětlení</span>
+              <span className="tag">Zahrada & terasa</span>
+              <span className="tag">Stěhování & rekonstrukce</span>
+              <span className="tag">Sezónní údržba</span>
             </div>
           </div>
           <Link href="/blog" className="btn btn-black" style={{ background: '#fff', color: '#000' }}>Procházet blog →</Link>
