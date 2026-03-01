@@ -10,9 +10,15 @@ const CATEGORIES = {
 };
 
 export default function CategoryPage({ params }) {
-  // Tato řádka je u Next.js 15 naprosto klíčová:
+  // 1. Rozbalíme parametry pomocí use() - nutné pro Next.js 15
   const resolvedParams = use(params);
-  const slug = resolvedParams?.slug || "malovani";
+  
+  // 2. Ošetření chyby: Pokud params ještě nejsou, nebo slug chybí
+  if (!resolvedParams || !resolvedParams.slug) {
+    return <div style={{ padding: '20px' }}>Načítám kategorii...</div>;
+  }
+
+  const slug = resolvedParams.slug;
   const cat = CATEGORIES[slug] || CATEGORIES.malovani;
 
   return (
@@ -27,19 +33,14 @@ export default function CategoryPage({ params }) {
       }}>
         <div style={{ fontSize: '64px', marginBottom: '20px' }}>{cat.icon}</div>
         <h1 style={{ fontSize: '40px', fontWeight: '800', margin: '0' }}>{cat.title}</h1>
-        <p style={{ color: '#78716c', marginTop: '10px' }}>Všechny články a návody pro tuto kategorii.</p>
+        <p style={{ color: '#78716c', marginTop: '10px' }}>Všechny články pro kategorii {cat.title}</p>
       </div>
 
       <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-        <h2 style={{ fontSize: '24px', marginBottom: '20px' }}>Články v této kategorii</h2>
-        <div style={{ 
-          backgroundColor: 'white', 
-          padding: '30px', 
-          borderRadius: '24px', 
-          border: '1px solid #e7e5e4' 
-        }}>
-          <p>Sekce se připravuje pro kategorii: <strong>{cat.title}</strong>.</p>
-          <a href="/blog" style={{ color: 'black', fontWeight: 'bold', textDecoration: 'none', borderBottom: '2px solid black' }}>
+        <div style={{ backgroundColor: 'white', padding: '30px', borderRadius: '24px', border: '1px solid #e7e5e4' }}>
+          <p>Zde se brzy objeví návody pro <strong>{cat.title}</strong>.</p>
+          <hr style={{ margin: '20px 0', border: '0', borderTop: '1px solid #eee' }} />
+          <a href="/blog" style={{ color: 'black', fontWeight: 'bold', textDecoration: 'none' }}>
             ← Zpět na přehled blogu
           </a>
         </div>
