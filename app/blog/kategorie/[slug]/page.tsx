@@ -11,9 +11,17 @@ const CATEGORIES = {
 };
 
 export default function CategoryPage({ params }) {
-  // 2. Bezpečné získání slugu z URL
-  // Pokud params ještě nejsou načtené, použijeme 'malovani' jako základ
-  const slug = params?.slug || "malovani";
+  // 2. Bezpečné získání slugu
+  // React.use(params) je nejmodernější cesta, ale zkusíme tohle, co funguje i ve starších verzích
+  const [resolvedParams, setResolvedParams] = React.useState(null);
+
+  React.useEffect(() => {
+    Promise.resolve(params).then(setResolvedParams);
+  }, [params]);
+
+  if (!resolvedParams) return <div style={{ padding: '20px' }}>Načítám...</div>;
+
+  const slug = resolvedParams.slug || "malovani";
   const cat = CATEGORIES[slug] || CATEGORIES.malovani;
 
   return (
@@ -32,7 +40,7 @@ export default function CategoryPage({ params }) {
       </div>
 
       <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-        <h2 style={{ fontSize: '24px', marginBottom: '20px' }}>Články v přípravě...</h2>
+        <h2 style={{ fontSize: '24px', marginBottom: '20px' }}>Články v této kategorii</h2>
         <div style={{ 
           backgroundColor: 'white', 
           padding: '30px', 
