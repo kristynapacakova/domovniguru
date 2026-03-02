@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-// ─── Types ───────────────────────────────────────────────────────────────────
-
 type Article = {
   id: number;
   cat: string;
@@ -19,66 +17,61 @@ type CatConfig = {
   desc: string;
 };
 
-// ─── Category config ─────────────────────────────────────────────────────────
-
 const CAT_CONFIG: Record<string, CatConfig> = {
   malovani: {
     label: "Malování & barvy",
     icon: "🎨",
-    desc:  "Jak malovat, jakou barvu vybrat a jak opravit chyby. Průvodce pro každý povrch i každého kutila.",
+    desc: "Jak malovat, jakou barvu vybrat a jak opravit chyby. Průvodce pro každý povrch i každého kutila.",
   },
   elektrika: {
     label: "Elektrika & osvětlení",
     icon: "⚡",
-    desc:  "Zásuvky, jističe, LED žárovky a chytrá domácnost. Bezpečné postupy i pro laiky.",
+    desc: "Zásuvky, jističe, LED žárovky a chytrá domácnost. Bezpečné postupy i pro laiky.",
   },
   zahrada: {
     label: "Zahrada & terasa",
     icon: "🌿",
-    desc:  "Trávník, záhony, pergola, závlaha. Jak mít zahradu v pořádku celý rok.",
+    desc: "Trávník, záhony, pergola, závlaha. Jak mít zahradu v pořádku celý rok.",
   },
   stehovani: {
     label: "Stěhování & rekonstrukce",
     icon: "🏠",
-    desc:  "Od výběru firmy po rekonstrukci koupelny. Vše, co potřebuješ vědět.",
+    desc: "Od výběru firmy po rekonstrukci koupelny. Vše, co potřebuješ vědět.",
   },
   "sezonni-udrzba": {
     label: "Sezónní údržba",
     icon: "❄️",
-    desc:  "Příprava na zimu i na léto. Checklisty, návody a tipy pro každé roční období.",
+    desc: "Příprava na zimu i na léto. Checklisty, návody a tipy pro každé roční období.",
   },
 };
 
-// ─── Articles per category ────────────────────────────────────────────────────
-// Key must match the folder slug (e.g. /blog/kategorie/malovani)
-
 const ARTICLES_BY_CAT: Record<string, Article[]> = {
   malovani: [
-    { id: 1,  cat: "malovani",  title: "Jak malovat zeď – kompletní průvodce pro začátečníky",  desc: "Krok za krokem: příprava podkladu, nátěr, výběr barvy.",            slug: "jak-malovat-zed",                     read: "5 min" },
-    { id: 2,  cat: "malovani",  title: "Kolik barvy potřebuji? Kalkulačka + vzorec",            desc: "Vzorec, tipy na rezervu a výběr správné barvy.",                   slug: "kolik-barvy-potrebuji",               read: "3 min" },
-    { id: 3,  cat: "malovani",  title: "Latexová vs. akrylátová barva – jaký je rozdíl?",       desc: "Srovnání dvou nejpopulárnějších barev na zeď.",                    slug: "latexova-vs-akrylatova-barva",        read: "4 min" },
-    { id: 4,  cat: "malovani",  title: "Jak odstranit starou barvu ze zdi",                     desc: "Škrabka, teplovzdušná pistole nebo chemie?",                       slug: "jak-odstranit-starou-barvu",          read: "4 min" },
-    { id: 5,  cat: "malovani",  title: "Jak malovat rohy a lišty bez přetahování",              desc: "Technika štětcem, páska. Výsledek jako od malíře.",                 slug: "jak-malovat-rohy-a-listy",            read: "3 min" },
-    { id: 6,  cat: "malovani",  title: "Jakou barvu zvolit do vlhkých prostor?",                desc: "Koupelna, kuchyň, sklep – odolnost vůči vlhkosti.",                 slug: "barva-do-vlhkych-prostoru",           read: "4 min" },
-    { id: 7,  cat: "malovani",  title: "Jak malovat přes tmavou barvu na světlo",               desc: "Jak přemalovat tmavou zeď bez šmouh.",                             slug: "malovat-pres-tmavou-barvu",           read: "3 min" },
-    { id: 8,  cat: "malovani",  title: "Penetrace před malováním – kdy je nutná?",              desc: "Kdy přeskočit a kdy je opravdu potřeba.",                          slug: "penetrace-pred-malovanim",            read: "4 min" },
-    { id: 9,  cat: "malovani",  title: "Jak se zbavit plísně na zdi natrvalo",                  desc: "Příčina, postup čištění a prevence opakování.",                    slug: "jak-odstranit-plisen-na-zdi",         read: "5 min" },
-    { id: 10, cat: "malovani",  title: "Malování stropu – jak neskapat barvu všude",            desc: "Správný váleček, ochrana podlahy, technika tahů.",                  slug: "jak-malovat-strop",                   read: "4 min" },
-    { id: 11, cat: "malovani",  title: "Fasádní barva – jak vybrat a jak nanášet",              desc: "Silikonová, akrylátová nebo minerální?",                           slug: "fasadni-barva-vyber",                 read: "5 min" },
-    { id: 12, cat: "malovani",  title: "Jak opravit škrábance a díry ve zdi před malováním",    desc: "Tmel, sádra nebo sprej? Jak vyrovnat povrch.",                     slug: "opravit-skrabance-diry-ve-zdi",       read: "3 min" },
-    { id: 13, cat: "malovani",  title: "Barvy do dětského pokoje – co je bezpečné?",            desc: "Bez škodlivých emisí, snadná údržba.",                             slug: "barvy-do-detskeho-pokoje",            read: "4 min" },
-    { id: 14, cat: "malovani",  title: "Jak malovat bez válenku – jen štětcem",                 desc: "Kdy se váleček nehodí a jak dosáhnout rovnoměrného výsledku.",    slug: "malovat-jen-stetcem",                 read: "3 min" },
-    { id: 15, cat: "malovani",  title: "Jak celý byt vymalovat za víkend",                      desc: "Plán na 2 dny: pořadí místností, schnutí, příprava.",              slug: "malovat-cely-byt-za-vikend",          read: "5 min" },
-    { id: 16, cat: "malovani",  title: "Efektové barvy a techniky – štuk, beton, patina",       desc: "Dekorativní omítky krok za krokem.",                               slug: "efektove-barvy-techniky",             read: "6 min" },
-    { id: 17, cat: "malovani",  title: "Venkovní dřevo – jak natřít plot, terasu nebo fasádu",  desc: "Výběr laku nebo oleje, postup nanášení.",                          slug: "natrit-venkovni-drevo",               read: "5 min" },
-    { id: 18, cat: "malovani",  title: "Jak správně míchat barvy – RAL a NCS systém",           desc: "Co je RAL kód a jak objednat přesný odstín.",                      slug: "michani-barev-ral-ncs",               read: "4 min" },
-    { id: 19, cat: "malovani",  title: "Jak malovat radiátory a kovové povrchy",                desc: "Speciální barva, příprava povrchu, počet vrstev.",                  slug: "malovat-radiatory-kovy",              read: "4 min" },
-    { id: 20, cat: "malovani",  title: "Barva se loupe – co jde špatně a jak to napravit",      desc: "Nejčastější příčiny a řešení.",                                    slug: "barva-se-loupe",                      read: "4 min" },
+    { id: 1,  cat: "malovani", title: "Jak malovat zeď – kompletní průvodce pro začátečníky",  desc: "Krok za krokem: příprava podkladu, nátěr, výběr barvy.",            slug: "jak-malovat-zed",                     read: "5 min" },
+    { id: 2,  cat: "malovani", title: "Kolik barvy potřebuji? Kalkulačka + vzorec",            desc: "Vzorec, tipy na rezervu a výběr správné barvy.",                   slug: "kolik-barvy-potrebuji",               read: "3 min" },
+    { id: 3,  cat: "malovani", title: "Latexová vs. akrylátová barva – jaký je rozdíl?",       desc: "Srovnání dvou nejpopulárnějších barev na zeď.",                    slug: "latexova-vs-akrylatova-barva",        read: "4 min" },
+    { id: 4,  cat: "malovani", title: "Jak odstranit starou barvu ze zdi",                     desc: "Škrabka, teplovzdušná pistole nebo chemie?",                       slug: "jak-odstranit-starou-barvu",          read: "4 min" },
+    { id: 5,  cat: "malovani", title: "Jak malovat rohy a lišty bez přetahování",              desc: "Technika štětcem, páska. Výsledek jako od malíře.",                 slug: "jak-malovat-rohy-a-listy",            read: "3 min" },
+    { id: 6,  cat: "malovani", title: "Jakou barvu zvolit do vlhkých prostor?",                desc: "Koupelna, kuchyň, sklep – odolnost vůči vlhkosti.",                 slug: "barva-do-vlhkych-prostoru",           read: "4 min" },
+    { id: 7,  cat: "malovani", title: "Jak malovat přes tmavou barvu na světlo",               desc: "Jak přemalovat tmavou zeď bez šmouh.",                             slug: "malovat-pres-tmavou-barvu",           read: "3 min" },
+    { id: 8,  cat: "malovani", title: "Penetrace před malováním – kdy je nutná?",              desc: "Kdy přeskočit a kdy je opravdu potřeba.",                          slug: "penetrace-pred-malovanim",            read: "4 min" },
+    { id: 9,  cat: "malovani", title: "Jak se zbavit plísně na zdi natrvalo",                  desc: "Příčina, postup čištění a prevence opakování.",                    slug: "jak-odstranit-plisen-na-zdi",         read: "5 min" },
+    { id: 10, cat: "malovani", title: "Malování stropu – jak neskapat barvu všude",            desc: "Správný váleček, ochrana podlahy, technika tahů.",                  slug: "jak-malovat-strop",                   read: "4 min" },
+    { id: 11, cat: "malovani", title: "Fasádní barva – jak vybrat a jak nanášet",              desc: "Silikonová, akrylátová nebo minerální?",                           slug: "fasadni-barva-vyber",                 read: "5 min" },
+    { id: 12, cat: "malovani", title: "Jak opravit škrábance a díry ve zdi před malováním",    desc: "Tmel, sádra nebo sprej? Jak vyrovnat povrch.",                     slug: "opravit-skrabance-diry-ve-zdi",       read: "3 min" },
+    { id: 13, cat: "malovani", title: "Barvy do dětského pokoje – co je bezpečné?",            desc: "Bez škodlivých emisí, snadná údržba.",                             slug: "barvy-do-detskeho-pokoje",            read: "4 min" },
+    { id: 14, cat: "malovani", title: "Jak malovat bez válenku – jen štětcem",                 desc: "Kdy se váleček nehodí a jak dosáhnout rovnoměrného výsledku.",    slug: "malovat-jen-stetcem",                 read: "3 min" },
+    { id: 15, cat: "malovani", title: "Jak celý byt vymalovat za víkend",                      desc: "Plán na 2 dny: pořadí místností, schnutí, příprava.",              slug: "malovat-cely-byt-za-vikend",          read: "5 min" },
+    { id: 16, cat: "malovani", title: "Efektové barvy a techniky – štuk, beton, patina",       desc: "Dekorativní omítky krok za krokem.",                               slug: "efektove-barvy-techniky",             read: "6 min" },
+    { id: 17, cat: "malovani", title: "Venkovní dřevo – jak natřít plot, terasu nebo fasádu",  desc: "Výběr laku nebo oleje, postup nanášení.",                          slug: "natrit-venkovni-drevo",               read: "5 min" },
+    { id: 18, cat: "malovani", title: "Jak správně míchat barvy – RAL a NCS systém",           desc: "Co je RAL kód a jak objednat přesný odstín.",                      slug: "michani-barev-ral-ncs",               read: "4 min" },
+    { id: 19, cat: "malovani", title: "Jak malovat radiátory a kovové povrchy",                desc: "Speciální barva, příprava povrchu, počet vrstev.",                  slug: "malovat-radiatory-kovy",              read: "4 min" },
+    { id: 20, cat: "malovani", title: "Barva se loupe – co jde špatně a jak to napravit",      desc: "Nejčastější příčiny a řešení.",                                    slug: "barva-se-loupe",                      read: "4 min" },
   ],
   elektrika: [
     { id: 21, cat: "elektrika", title: "Jak vyměnit zásuvku sám – bezpečný postup",             desc: "Vypni jistič, odšroubuj, přepoj. Krok za krokem.",                 slug: "jak-vymenit-zasuvku",                 read: "5 min" },
     { id: 22, cat: "elektrika", title: "Jak vyměnit vypínač světla",                            desc: "Jednopólový nebo dvojitý – postup a bezpečnost.",                  slug: "jak-vymenit-vypinac",                 read: "4 min" },
-    { id: 23, cat: "elektrika", title: "LED vs. žárovky – co se skutečně vyplatí?",             desc: "Spotřeba, životnost, cena. Kdy přejít na LED?",                    slug: "led-vs-zarovky-srovnani",             read: "4 min" },
+    { id: 23, cat: "elektrika", title: "LED vs. žárovky – co se skutečně vyplatí?",             desc: "Spotřeba, životnost, cena. Kdy přejít na LED?",                    slug: "led-vs-zarovky",                      read: "4 min" },
     { id: 24, cat: "elektrika", title: "Jak vybrat správnou LED žárovku (Kelvin, lumen, CRI)",  desc: "Co znamenají čísla na krabičce.",                                  slug: "jak-vybrat-led-zarovku",              read: "5 min" },
     { id: 25, cat: "elektrika", title: "Jak zapojit nové světlo na strop",                      desc: "Krabice, L, N, PE vodiče – správné zapojení.",                     slug: "zapojit-svetlo-na-strop",             read: "5 min" },
     { id: 26, cat: "elektrika", title: "Proč mi vypadává jistič?",                              desc: "Přetížení, zkrat nebo vadný spotřebič?",                           slug: "proc-vypadava-jistic",                read: "4 min" },
@@ -98,29 +91,29 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 40, cat: "elektrika", title: "Jak číst elektroměr a hlídat spotřebu",                desc: "Jednosazbový, dvousazbový, chytrý.",                               slug: "jak-cist-elektromer",                 read: "4 min" },
   ],
   zahrada: [
-    { id: 41, cat: "zahrada",   title: "Jak připravit zahradu na jaro",                         desc: "Co udělat v březnu a dubnu.",                                      slug: "zahrada-priprava-na-jaro",            read: "6 min" },
-    { id: 42, cat: "zahrada",   title: "Jak postavit vyvýšený záhon",                           desc: "Dřevěný nebo z betonu? Za víkend.",                                slug: "vyvseny-zahon-postup",                read: "6 min" },
-    { id: 43, cat: "zahrada",   title: "Jak ošetřit dřevěnou terasu na jaře",                   desc: "Broušení, čištění, impregnace nebo olej.",                         slug: "osetrit-drevenou-terasu",             read: "5 min" },
-    { id: 44, cat: "zahrada",   title: "Jak se zbavit plevele bez chemie",                       desc: "Mulčování, ocet, vroucí voda.",                                    slug: "zbavit-se-plevele-bez-chemie",        read: "4 min" },
-    { id: 45, cat: "zahrada",   title: "Jak vybudovat závlahový systém",                         desc: "Kapková závlaha nebo postřikovače.",                               slug: "zavlaha-zahrada-postup",              read: "6 min" },
-    { id: 46, cat: "zahrada",   title: "Jak sekat trávník správně",                              desc: "Výška, frekvence, okraje.",                                        slug: "jak-sekat-travnik",                   read: "4 min" },
-    { id: 47, cat: "zahrada",   title: "Jak opravit poškozený trávník",                          desc: "Přísev, odvzdušnění nebo vápnění.",                                slug: "opravit-travnik-ples-mech",           read: "5 min" },
-    { id: 48, cat: "zahrada",   title: "Jak zařídit terasu na balkoně",                          desc: "Nábytek, rostliny, osvětlení pro balkon.",                         slug: "terasa-na-balkone",                   read: "5 min" },
-    { id: 49, cat: "zahrada",   title: "Jak kompostovat doma a na zahradě",                      desc: "Kompostér nebo hromada?",                                          slug: "jak-kompostovat",                     read: "4 min" },
-    { id: 50, cat: "zahrada",   title: "Jak zasít anglický trávník od nuly",                     desc: "Příprava půdy, setí a zálivka.",                                   slug: "zasit-travnik-od-nuly",               read: "5 min" },
-    { id: 51, cat: "zahrada",   title: "Jak postavit zahradní plot ze dřeva",                    desc: "Kůly, latě, impregnace.",                                          slug: "zahradni-plot-ze-dreva",              read: "6 min" },
-    { id: 52, cat: "zahrada",   title: "Jak přezimovat zahradní rostliny",                       desc: "Co zakrýt, přestěhovat, nechat.",                                  slug: "prezimovat-zahradni-rostliny",        read: "5 min" },
-    { id: 53, cat: "zahrada",   title: "Jak se zbavit krtků",                                    desc: "Ultrazvuk, pachové odpuzovače.",                                   slug: "zbavit-se-krtku",                     read: "4 min" },
-    { id: 54, cat: "zahrada",   title: "Jak správně zalévat zahradu",                            desc: "Ráno nebo večer? Zásady zálivky.",                                 slug: "jak-spravne-zalevat",                 read: "4 min" },
-    { id: 55, cat: "zahrada",   title: "Jak postavit pergolu na terasu",                         desc: "Dřevěná nebo hliníková – stavba a kotvení.",                       slug: "pergola-postup-stavba",               read: "7 min" },
-    { id: 56, cat: "zahrada",   title: "Jak hnojit zahradu",                                     desc: "Organicky i minerálně.",                                           slug: "jak-hnojit-zahradu",                  read: "5 min" },
-    { id: 57, cat: "zahrada",   title: "Bylinkové zahrádka na parapetu nebo balkoně",            desc: "Výběr bylinek, substrát, zálivka.",                                slug: "bylinkova-zahradka",                  read: "4 min" },
-    { id: 58, cat: "zahrada",   title: "Jak pokládat betonové dlaždice na terasu",               desc: "Příprava podloží, spád, spárování.",                               slug: "pokladat-betonove-dlazdice",          read: "6 min" },
-    { id: 59, cat: "zahrada",   title: "Jak ošetřit zahradní nábytek před zimou",                desc: "Dřevo, ratan, kov nebo plast.",                                    slug: "osetrit-zahradni-nabytek",            read: "4 min" },
-    { id: 60, cat: "zahrada",   title: "Jak vybrat zahradní gril",                               desc: "Plyn, uhlí nebo elektrika? Srovnání.",                             slug: "vybrat-zahradni-gril",                read: "5 min" },
+    { id: 41, cat: "zahrada", title: "Jak připravit zahradu na jaro",                           desc: "Co udělat v březnu a dubnu.",                                      slug: "jarni-zahrada",                       read: "6 min" },
+    { id: 42, cat: "zahrada", title: "Jak postavit vyvýšený záhon",                             desc: "Dřevěný nebo z betonu? Za víkend.",                                slug: "vyvseny-zahon-postup",                read: "6 min" },
+    { id: 43, cat: "zahrada", title: "Jak ošetřit dřevěnou terasu před zimou",                  desc: "Broušení, čištění, impregnace nebo olej.",                         slug: "drevo-terasa-zima",                   read: "4 min" },
+    { id: 44, cat: "zahrada", title: "Jak se zbavit plevele bez chemie",                         desc: "Mulčování, ocet, vroucí voda.",                                    slug: "zbavit-se-plevele-bez-chemie",        read: "4 min" },
+    { id: 45, cat: "zahrada", title: "Jak vybudovat závlahový systém",                           desc: "Kapková závlaha nebo postřikovače.",                               slug: "zavlaha-zahrada-postup",              read: "6 min" },
+    { id: 46, cat: "zahrada", title: "Jak sekat trávník správně",                                desc: "Výška, frekvence, okraje.",                                        slug: "jak-sekat-travnik",                   read: "4 min" },
+    { id: 47, cat: "zahrada", title: "Jak opravit poškozený trávník",                            desc: "Přísev, odvzdušnění nebo vápnění.",                                slug: "opravit-travnik-ples-mech",           read: "5 min" },
+    { id: 48, cat: "zahrada", title: "Jak zařídit terasu na balkoně",                            desc: "Nábytek, rostliny, osvětlení pro balkon.",                         slug: "terasa-na-balkone",                   read: "5 min" },
+    { id: 49, cat: "zahrada", title: "Jak kompostovat doma a na zahradě",                        desc: "Kompostér nebo hromada?",                                          slug: "jak-kompostovat",                     read: "4 min" },
+    { id: 50, cat: "zahrada", title: "Jak zasít anglický trávník od nuly",                       desc: "Příprava půdy, setí a zálivka.",                                   slug: "zasit-travnik-od-nuly",               read: "5 min" },
+    { id: 51, cat: "zahrada", title: "Jak postavit zahradní plot ze dřeva",                      desc: "Kůly, latě, impregnace.",                                          slug: "zahradni-plot-ze-dreva",              read: "6 min" },
+    { id: 52, cat: "zahrada", title: "Jak přezimovat zahradní rostliny",                         desc: "Co zakrýt, přestěhovat, nechat.",                                  slug: "prezimovat-zahradni-rostliny",        read: "5 min" },
+    { id: 53, cat: "zahrada", title: "Jak se zbavit krtků",                                      desc: "Ultrazvuk, pachové odpuzovače.",                                   slug: "zbavit-se-krtku",                     read: "4 min" },
+    { id: 54, cat: "zahrada", title: "Jak správně zalévat zahradu",                              desc: "Ráno nebo večer? Zásady zálivky.",                                 slug: "jak-spravne-zalevat",                 read: "4 min" },
+    { id: 55, cat: "zahrada", title: "Jak postavit pergolu na terasu",                           desc: "Dřevěná nebo hliníková – stavba a kotvení.",                       slug: "pergola-postup-stavba",               read: "7 min" },
+    { id: 56, cat: "zahrada", title: "Jak hnojit zahradu",                                       desc: "Organicky i minerálně.",                                           slug: "jak-hnojit-zahradu",                  read: "5 min" },
+    { id: 57, cat: "zahrada", title: "Bylinkové zahrádka na parapetu nebo balkoně",              desc: "Výběr bylinek, substrát, zálivka.",                                slug: "bylinkova-zahradka",                  read: "4 min" },
+    { id: 58, cat: "zahrada", title: "Jak pokládat betonové dlaždice na terasu",                 desc: "Příprava podloží, spád, spárování.",                               slug: "pokladat-betonove-dlazdice",          read: "6 min" },
+    { id: 59, cat: "zahrada", title: "Jak ošetřit zahradní nábytek před zimou",                  desc: "Dřevo, ratan, kov nebo plast.",                                    slug: "osetrit-zahradni-nabytek",            read: "4 min" },
+    { id: 60, cat: "zahrada", title: "Jak vybrat zahradní gril",                                 desc: "Plyn, uhlí nebo elektrika? Srovnání.",                             slug: "vybrat-zahradni-gril",                read: "5 min" },
   ],
   stehovani: [
-    { id: 61, cat: "stehovani", title: "Checklist stěhování – na co nezapomenout",               desc: "Od výpovědi po přihlášení.",                                       slug: "checklist-stehovani",                 read: "5 min" },
+    { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },
     { id: 62, cat: "stehovani", title: "Jak naplánovat rekonstrukci bytu",                        desc: "Rozpočet, pořadí prací, řemeslníci.",                              slug: "planovani-rekonstrukce-bytu",         read: "7 min" },
     { id: 63, cat: "stehovani", title: "Kolik stojí rekonstrukce koupelny v roce 2025?",          desc: "Průměrné ceny materiálu i práce.",                                 slug: "cena-rekonstrukce-koupelny",          read: "5 min" },
     { id: 64, cat: "stehovani", title: "Jak vybrat dobrou stěhovací firmu",                       desc: "Na co se ptát a jak se vyhnout překvapením.",                      slug: "vybrat-stehovaci-firmu",              read: "4 min" },
@@ -139,16 +132,16 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 77, cat: "stehovani", title: "Jak odhalit skryté vady bytu před koupí",                 desc: "Checklist kupce.",                                                 slug: "odhalit-skryte-vady-bytu",            read: "5 min" },
     { id: 78, cat: "stehovani", title: "Jak zbavit byt zápachu po rekonstrukci",                  desc: "Rychlé větrání a neutralizace pachů.",                             slug: "zbavit-byt-zapachu-po-rekonstrukci", read: "3 min" },
     { id: 79, cat: "stehovani", title: "Jak přihlásit trvalý pobyt na nové adrese",               desc: "Postup, dokumenty, lhůty.",                                        slug: "prihlasit-trvaly-pobyt",              read: "3 min" },
-    { id: 80, cat: "stehovani", title: "Jak odstranit tapety ze zdi",                             desc: "Voda, párovač nebo chemie?",                                       slug: "odstranit-tapety-ze-zdi",             read: "4 min" },
+    { id: 80, cat: "stehovani", title: "Co zkontrolovat při přebírání nového bytu",               desc: "Elektrika, voda, topení, dokumenty.",                              slug: "prebrani-bytu-checklist",             read: "4 min" },
   ],
   "sezonni-udrzba": [
-    { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "dum-priprava-na-zimu",                read: "5 min" },
-    { id: 82,  cat: "sezonni-udrzba", title: "Jak odvzdušnit radiátory",                         desc: "Studený radiátor nahoře? Za 10 minut.",                            slug: "jak-odvzdusnit-radiatory",            read: "4 min" },
+    { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "jak-pripravit-dum-na-zimu",           read: "5 min" },
+    { id: 82,  cat: "sezonni-udrzba", title: "Jak odvzdušnit radiátory",                         desc: "Studený radiátor nahoře? Za 10 minut.",                            slug: "jak-odvzdusit-radiatory",             read: "3 min" },
     { id: 83,  cat: "sezonni-udrzba", title: "Jak vyčistit okapy na podzim",                     desc: "Listí a mech – bezpečné čištění.",                                 slug: "jak-vycistit-okapy",                  read: "4 min" },
     { id: 84,  cat: "sezonni-udrzba", title: "Jak přezimovat zahradní vodovodní přípojku",       desc: "Aby nezamrzla a nepraskla.",                                       slug: "prezimovat-zahradni-vodu",            read: "3 min" },
-    { id: 85,  cat: "sezonni-udrzba", title: "Jak nastavit okna na zimní těsnění",               desc: "Přetočení kliky, úspora tepla.",                                   slug: "okna-zimni-tesneni",                  read: "3 min" },
+    { id: 85,  cat: "sezonni-udrzba", title: "Jak utěsnit okna na zimu",                         desc: "Těsnicí páska, silikon, zimní nastavení.",                         slug: "jak-utesnit-okna-na-zimu",            read: "4 min" },
     { id: 86,  cat: "sezonni-udrzba", title: "Jak zkontrolovat kotel před topnou sezónou",       desc: "Co si sám prověříš.",                                              slug: "zkontrolovat-kotel-pred-zimou",       read: "5 min" },
-    { id: 87,  cat: "sezonni-udrzba", title: "Jak utěsnit průvany u dveří a oken",               desc: "Pásky, prahy, lišty.",                                             slug: "utesnit-pruvany",                     read: "4 min" },
+    { id: 87,  cat: "sezonni-udrzba", title: "Jak vymalovat byt před stěhováním",                desc: "Načasování, pořadí místností, kolik barvy.",                       slug: "malovani-pred-stehovani",             read: "5 min" },
     { id: 88,  cat: "sezonni-udrzba", title: "Jak ošetřit auto na zimu",                         desc: "Vosk, konzervace, podběhy.",                                       slug: "auto-na-zimu-karoserie",              read: "4 min" },
     { id: 89,  cat: "sezonni-udrzba", title: "Kdy přejít na zimní pneumatiky?",                  desc: "Zákon a zdravý rozum.",                                            slug: "zimni-pneumatiky-kdy",                read: "4 min" },
     { id: 90,  cat: "sezonni-udrzba", title: "Jak vyčistit komín",                               desc: "Kdy svépomocí a kdy kominík.",                                     slug: "vycistit-komin",                      read: "4 min" },
@@ -165,13 +158,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
   ],
 };
 
-// ─── Static params (SSG) ─────────────────────────────────────────────────────
-
 export function generateStaticParams() {
   return Object.keys(CAT_CONFIG).map((slug) => ({ slug }));
 }
-
-// ─── Metadata ─────────────────────────────────────────────────────────────────
 
 export async function generateMetadata({
   params,
@@ -186,8 +175,6 @@ export async function generateMetadata({
     description: cfg.desc,
   };
 }
-
-// ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default async function KategoriePage({
   params,
@@ -205,8 +192,6 @@ export default async function KategoriePage({
   return (
     <div>
       <div className="wrap">
-
-        {/* ── Category hero ── */}
         <header className="cat-hero">
           <div>
             <nav className="breadcrumb">
@@ -220,13 +205,11 @@ export default async function KategoriePage({
             <p className="cat-desc">{cfg.desc}</p>
             <p className="cat-count-badge">📄 {articles.length} článků</p>
           </div>
-          {/* decorative large icon */}
           <div aria-hidden style={{ fontSize: 80, opacity: 0.10, lineHeight: 1 }}>
             {cfg.icon}
           </div>
         </header>
 
-        {/* ── Articles ── */}
         <section className="sec">
           <div className="sec-head">
             <span className="sec-label">Všechny články</span>
@@ -246,7 +229,6 @@ export default async function KategoriePage({
           </div>
         </section>
 
-        {/* ── Other categories ── */}
         <section className="sec" style={{ paddingBottom: 80 }}>
           <div className="sec-head">
             <span className="sec-label">Další kategorie</span>
@@ -262,7 +244,6 @@ export default async function KategoriePage({
             ))}
           </div>
         </section>
-
       </div>
     </div>
   );
