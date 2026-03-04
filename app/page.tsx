@@ -17,11 +17,11 @@ const KALKULACKY = [
 
 const NAVODY = [
   { icon: "🔧", time: "10 min", title: "Jak vyčistit sifon?",              desc: "Smradí odpad nebo pomalu odtéká? Vyřeš to za 10 minut.", href: "/navody/jak-vycistit-sifon" },
-  { icon: "🚿", time: "30 min", title: "Jak utěsnit vanu silikonem?",      desc: "Plíseň ve spáře nebo zatékání? Krok za krokem.",        href: "/navody/jak-utesnit-vanu" },
-  { icon: "🪟", time: "15 min", title: "Jak nastavit okna na zimu?",       desc: "Přetočení kování = teplejší byt a nižší účty.",         href: "/navody/nastaveni-oken" },
-  { icon: "🧹", time: "20 min", title: "Jak vyčistit spáry v dlažbě?",    desc: "Zčernalé spáry bez drhnutí. Funguje.",                  href: "/navody/cisteni-spar" },
-  { icon: "💡", time: "25 min", title: "Jak vyměnit zásuvku?",             desc: "Bezpečně, levně, bez elektrikáře.",                     href: "/navody/vymena-zasuvky" },
-  { icon: "🌡️", time: "10 min", title: "Jak odvzdušnit radiátor?",        desc: "Studený radiátor nahoře? Takhle to napravíš.",          href: "/navody/odvzdusneni-radiatoru" },
+  { icon: "🚿", time: "30 min", title: "Jak utěsnit vanu silikonem?",      desc: "Plíseň ve spáře nebo zatékání? Krok za krokem.",        href: "/navody/jak-utesnit-vanu-silikonem" },
+  { icon: "🪟", time: "15 min", title: "Jak nastavit okna na zimu?",       desc: "Přetočení kování = teplejší byt a nižší účty.",         href: "/navody/jak-nastavit-okna-na-zimu" },
+  { icon: "🧹", time: "20 min", title: "Jak vyčistit spáry v dlažbě?",    desc: "Zčernalé spáry bez drhnutí. Funguje.",                  href: "/navody/jak-vycistit-spary-v-dlazbe" },
+  { icon: "💡", time: "25 min", title: "Jak vyměnit zásuvku?",             desc: "Bezpečně, levně, bez elektrikáře.",                     href: "/navody/jak-vymenit-zasuvku" },
+  { icon: "🌡️", time: "10 min", title: "Jak odvzdušnit radiátor?",        desc: "Studený radiátor nahoře? Takhle to napravíš.",          href: "/navody/jak-odvzdusnit-radiator" },
 ] as const;
 
 const CHECKLISTY = [
