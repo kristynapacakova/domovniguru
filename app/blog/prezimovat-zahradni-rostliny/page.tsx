@@ -44,106 +44,83 @@ export default function ArticlePage() {
 
             {/* HERO ILLUSTRATION */}
             <div className="hero-illustration" aria-hidden="true">
-              <svg viewBox="0 0 760 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
-                <rect width="760" height="200" fill="#f0f4f8"/>
-                <line x1="0" y1="172" x2="760" y2="172" stroke="#c8b89a" strokeWidth="1" opacity="0.4"/>
-
-                {/* === SNĚHOVÉ VLOČKY === */}
-                {[60, 160, 280, 420, 560, 680, 730].map((x, i) => (
-                  <g key={i} transform={`translate(${x}, ${10 + (i % 3) * 14})`} opacity="0.3">
-                    <line x1="0" y1="-6" x2="0" y2="6" stroke="#a0b8d0" strokeWidth="1.5" strokeLinecap="round"/>
-                    <line x1="-6" y1="0" x2="6" y2="0" stroke="#a0b8d0" strokeWidth="1.5" strokeLinecap="round"/>
-                    <line x1="-4" y1="-4" x2="4" y2="4" stroke="#a0b8d0" strokeWidth="1" strokeLinecap="round"/>
-                    <line x1="4" y1="-4" x2="-4" y2="4" stroke="#a0b8d0" strokeWidth="1" strokeLinecap="round"/>
+              <svg viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
+                <rect width="760" height="220" fill="#f0f4f8"/>
+                {/* Sněhové vločky */}
+                {[80, 230, 380, 530, 680].map((x, i) => (
+                  <g key={i} transform={`translate(${x}, ${16 + (i%2)*12})`} opacity="0.25">
+                    <line x1="0" y1="-7" x2="0" y2="7" stroke="#a0b8d0" strokeWidth="1.5" strokeLinecap="round"/>
+                    <line x1="-7" y1="0" x2="7" y2="0" stroke="#a0b8d0" strokeWidth="1.5" strokeLinecap="round"/>
+                    <line x1="-5" y1="-5" x2="5" y2="5" stroke="#a0b8d0" strokeWidth="1" strokeLinecap="round"/>
+                    <line x1="5" y1="-5" x2="-5" y2="5" stroke="#a0b8d0" strokeWidth="1" strokeLinecap="round"/>
                   </g>
                 ))}
-
-                {/* === LEFT: rostlina zakrytá jutou === */}
-                <g transform="translate(60, 20)">
-                  {/* Kůl */}
-                  <line x1="40" y1="152" x2="40" y2="50" stroke="#c8a97a" strokeWidth="2" strokeLinecap="round" strokeDasharray="4 2" opacity="0.6"/>
-                  <line x1="80" y1="152" x2="80" y2="50" stroke="#c8a97a" strokeWidth="2" strokeLinecap="round" strokeDasharray="4 2" opacity="0.6"/>
-                  {/* Juta — kužel */}
-                  <path d="M10 152 L40 50 L80 50 L110 152 Z" fill="#c8a97a" opacity="0.35"/>
-                  <path d="M10 152 L40 50 L80 50 L110 152 Z" fill="none" stroke="#c8a97a" strokeWidth="1.5" opacity="0.6"/>
-                  {/* Horizontální pruhy — textura juty */}
-                  <line x1="16" y1="130" x2="104" y2="130" stroke="#c8a97a" strokeWidth="0.8" opacity="0.4"/>
-                  <line x1="22" y1="108" x2="98" y2="108" stroke="#c8a97a" strokeWidth="0.8" opacity="0.4"/>
-                  <line x1="28" y1="86" x2="92" y2="86" stroke="#c8a97a" strokeWidth="0.8" opacity="0.4"/>
-                  <line x1="34" y1="64" x2="86" y2="64" stroke="#c8a97a" strokeWidth="0.8" opacity="0.4"/>
-                  {/* Provázek — uvázání dole */}
-                  <path d="M18 148 Q60 142 102 148" stroke="#9a7a5a" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                  {/* Sníh na vrchu */}
-                  <ellipse cx="60" cy="50" rx="18" ry="5" fill="white" opacity="0.8"/>
+                <line x1="190" y1="20" x2="190" y2="190" stroke="#c8b89a" strokeWidth="0.5" opacity="0.3"/>
+                <line x1="380" y1="20" x2="380" y2="190" stroke="#c8b89a" strokeWidth="0.5" opacity="0.3"/>
+                <line x1="570" y1="20" x2="570" y2="190" stroke="#c8b89a" strokeWidth="0.5" opacity="0.3"/>
+                {/* 1. ZAKRYTÍ */}
+                <g transform="translate(35, 25)">
+                  <path d="M16 148 L60 42 L104 148 Z" fill="#c8a97a" opacity="0.28"/>
+                  <path d="M16 148 L60 42 L104 148 Z" fill="none" stroke="#c8a97a" strokeWidth="2" opacity="0.7"/>
+                  <line x1="22" y1="128" x2="98" y2="128" stroke="#c8a97a" strokeWidth="0.8" opacity="0.5"/>
+                  <line x1="28" y1="108" x2="92" y2="108" stroke="#c8a97a" strokeWidth="0.8" opacity="0.5"/>
+                  <line x1="34" y1="88" x2="86" y2="88" stroke="#c8a97a" strokeWidth="0.8" opacity="0.5"/>
+                  <line x1="40" y1="68" x2="80" y2="68" stroke="#c8a97a" strokeWidth="0.8" opacity="0.5"/>
+                  <path d="M22 144 Q60 138 98 144" stroke="#9a7a5a" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+                  <ellipse cx="60" cy="43" rx="14" ry="4" fill="white" opacity="0.9"/>
                 </g>
-                <text x="120" y="192" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#c8b89a" textAnchor="middle" letterSpacing="0.08em">ZAKRYTÍ</text>
-
-                {/* === CENTER-LEFT: nádoba přesazená dovnitř === */}
-                <g transform="translate(240, 60)">
-                  {/* Okno — rám */}
-                  <rect x="0" y="0" width="100" height="90" rx="4" fill="none" stroke="#c8b89a" strokeWidth="2"/>
-                  <rect x="4" y="4" width="92" height="82" rx="2" fill="#e8f0f8" opacity="0.4"/>
-                  {/* Kříž okna */}
-                  <line x1="50" y1="4" x2="50" y2="86" stroke="#c8b89a" strokeWidth="1.5" opacity="0.6"/>
-                  <line x1="4" y1="45" x2="96" y2="45" stroke="#c8b89a" strokeWidth="1.5" opacity="0.6"/>
-                  {/* Květináč na parapetu */}
-                  <rect x="30" y="60" width="40" height="22" rx="3" fill="#c8a97a" opacity="0.5"/>
-                  <rect x="26" y="58" width="48" height="6" rx="2" fill="#b89870" opacity="0.6"/>
-                  {/* Rostlina v nádobě */}
-                  <line x1="50" y1="58" x2="50" y2="32" stroke="#3a5c2e" strokeWidth="2" strokeLinecap="round"/>
-                  <path d="M50 48 Q38 40 34 28" stroke="#3a5c2e" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                  <path d="M50 42 Q62 34 66 22" stroke="#3a5c2e" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                  <circle cx="34" cy="24" r="8" fill="#4a7c3f" opacity="0.8"/>
-                  <circle cx="66" cy="18" r="7" fill="#4a7c3f" opacity="0.8"/>
-                  <circle cx="50" cy="28" r="7" fill="#5a8c4f" opacity="0.7"/>
+                <text x="95" y="208" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#a0a898" textAnchor="middle" letterSpacing="0.1em">ZAKRYTÍ</text>
+                {/* 2. DOVNITŘ */}
+                <g transform="translate(215, 30)">
+                  <rect x="5" y="0" width="130" height="140" rx="6" fill="none" stroke="#c8b89a" strokeWidth="2"/>
+                  <rect x="10" y="5" width="120" height="130" rx="3" fill="#deeaf5" opacity="0.35"/>
+                  <line x1="70" y1="5" x2="70" y2="135" stroke="#c8b89a" strokeWidth="1.5" opacity="0.5"/>
+                  <line x1="10" y1="70" x2="135" y2="70" stroke="#c8b89a" strokeWidth="1.5" opacity="0.5"/>
+                  <rect x="0" y="135" width="140" height="8" rx="3" fill="#c8b89a" opacity="0.4"/>
+                  <rect x="44" y="100" width="52" height="32" rx="4" fill="#c8a97a" opacity="0.55"/>
+                  <rect x="40" y="96" width="60" height="8" rx="3" fill="#b89870" opacity="0.65"/>
+                  <line x1="70" y1="96" x2="70" y2="52" stroke="#3a5c2e" strokeWidth="2.5" strokeLinecap="round"/>
+                  <path d="M70 76 Q52 64 46 46" stroke="#3a5c2e" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                  <path d="M70 66 Q88 54 94 36" stroke="#3a5c2e" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                  <circle cx="44" cy="40" r="12" fill="#4a7c3f" opacity="0.85"/>
+                  <circle cx="96" cy="30" r="11" fill="#4a7c3f" opacity="0.85"/>
+                  <circle cx="70" cy="42" r="10" fill="#5a8c4f" opacity="0.7"/>
                 </g>
-                <text x="290" y="192" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#c8b89a" textAnchor="middle" letterSpacing="0.08em">DOVNITŘ</text>
-
-                {/* === CENTER-RIGHT: mulčování === */}
-                <g transform="translate(410, 80)">
-                  {/* Stonek */}
-                  <line x1="60" y1="92" x2="60" y2="20" stroke="#5a3e28" strokeWidth="2.5" strokeLinecap="round"/>
-                  <line x1="60" y1="60" x2="36" y2="36" stroke="#5a3e28" strokeWidth="1.5" strokeLinecap="round"/>
-                  <line x1="60" y1="50" x2="84" y2="28" stroke="#5a3e28" strokeWidth="1.5" strokeLinecap="round"/>
-                  {/* Uschlé listy — zimní */}
-                  <ellipse cx="32" cy="32" rx="10" ry="6" fill="#9a7a5a" opacity="0.6" transform="rotate(-30 32 32)"/>
-                  <ellipse cx="88" cy="24" rx="9" ry="5" fill="#9a7a5a" opacity="0.6" transform="rotate(20 88 24)"/>
-                  <ellipse cx="60" cy="14" rx="8" ry="5" fill="#9a7a5a" opacity="0.5"/>
-                  {/* Mulč — vrstva */}
-                  <ellipse cx="60" cy="92" rx="52" ry="10" fill="#8B6914" opacity="0.25"/>
-                  <ellipse cx="60" cy="92" rx="52" ry="10" fill="none" stroke="#8B6914" strokeWidth="1" opacity="0.4"/>
-                  {/* Mulč textura — kousky */}
-                  {[20,32,44,54,66,76,88,100].map((x, i) => (
-                    <rect key={i} x={x} y={86 + (i%3)*3} width={6+(i%3)*2} height="4" rx="1" fill="#8B6914" opacity="0.35" transform={`rotate(${i*15} ${x+3} 88)`}/>
+                <text x="285" y="208" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#a0a898" textAnchor="middle" letterSpacing="0.1em">DOVNITŘ</text>
+                {/* 3. MULČOVÁNÍ */}
+                <g transform="translate(400, 22)">
+                  <line x1="80" y1="152" x2="80" y2="58" stroke="#5a3e28" strokeWidth="3" strokeLinecap="round"/>
+                  <line x1="80" y1="110" x2="50" y2="78" stroke="#5a3e28" strokeWidth="2" strokeLinecap="round"/>
+                  <line x1="80" y1="94" x2="110" y2="64" stroke="#5a3e28" strokeWidth="2" strokeLinecap="round"/>
+                  <line x1="80" y1="78" x2="60" y2="52" stroke="#5a3e28" strokeWidth="1.5" strokeLinecap="round"/>
+                  <ellipse cx="46" cy="72" rx="13" ry="8" fill="#b89870" opacity="0.55" transform="rotate(-30 46 72)"/>
+                  <ellipse cx="114" cy="58" rx="12" ry="7" fill="#b89870" opacity="0.55" transform="rotate(25 114 58)"/>
+                  <ellipse cx="56" cy="46" rx="10" ry="6" fill="#b89870" opacity="0.5" transform="rotate(-15 56 46)"/>
+                  <ellipse cx="80" cy="152" rx="64" ry="13" fill="#8B6914" opacity="0.2"/>
+                  <ellipse cx="80" cy="152" rx="64" ry="13" fill="none" stroke="#8B6914" strokeWidth="1.5" opacity="0.35"/>
+                  {[28,42,56,68,82,96,110,122].map((x, i) => (
+                    <rect key={i} x={x} y={148+(i%3)*3} width={8+(i%2)*3} height="5" rx="2" fill="#8B6914" opacity="0.4" transform={`rotate(${i*20} ${x+4} 151)`}/>
                   ))}
-                  {/* Popisek mulče */}
-                  <text x="60" y="110" fontFamily="var(--font-sans,sans-serif)" fontSize="7" fill="#9a8a7a" textAnchor="middle" letterSpacing="0.06em">MULČ</text>
                 </g>
-                <text x="470" y="192" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#c8b89a" textAnchor="middle" letterSpacing="0.08em">MULČOVÁNÍ</text>
-
-                {/* === RIGHT: nádoba s nohama (izolace) === */}
-                <g transform="translate(570, 40)">
-                  {/* Nádoba */}
-                  <path d="M20 130 Q18 140 30 145 L90 145 Q102 140 100 130 L90 60 L30 60 Z" fill="none" stroke="#c8b89a" strokeWidth="2"/>
-                  <rect x="30" y="55" width="60" height="10" rx="3" fill="none" stroke="#c8b89a" strokeWidth="1.5"/>
-                  {/* Bublinkový obal — izolace */}
-                  <path d="M20 130 Q18 140 30 145 L90 145 Q102 140 100 130 L90 60 L30 60 Z" fill="#a0b8d0" opacity="0.12"/>
-                  {/* Bublinky */}
-                  {[35,50,65,80,95,40,55,70,85,45,60,75,90].map((x, i) => (
-                    <circle key={i} cx={x} cy={75 + (i%5)*12} r="4" fill="none" stroke="#a0b8d0" strokeWidth="1" opacity="0.5"/>
+                <text x="475" y="208" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#a0a898" textAnchor="middle" letterSpacing="0.1em">MULČOVÁNÍ</text>
+                {/* 4. IZOLACE */}
+                <g transform="translate(590, 22)">
+                  <path d="M18 152 Q16 162 30 167 L122 167 Q136 162 134 152 L122 60 L30 60 Z" fill="#a0b8d0" opacity="0.12"/>
+                  <path d="M18 152 Q16 162 30 167 L122 167 Q136 162 134 152 L122 60 L30 60 Z" fill="none" stroke="#c8b89a" strokeWidth="2"/>
+                  <rect x="26" y="54" width="100" height="12" rx="4" fill="none" stroke="#c8b89a" strokeWidth="2"/>
+                  {[38,56,74,92,110,46,64,82,100,42,60,78,96].map((x, i) => (
+                    <circle key={i} cx={x} cy={78+(i%5)*15} r="6" fill="none" stroke="#a0b8d0" strokeWidth="1" opacity="0.45"/>
                   ))}
-                  {/* Rostlina */}
-                  <line x1="60" y1="55" x2="60" y2="10" stroke="#3a5c2e" strokeWidth="2" strokeLinecap="round"/>
-                  <path d="M60 35 Q46 26 42 12" stroke="#3a5c2e" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                  <path d="M60 28 Q74 20 78 6" stroke="#3a5c2e" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                  <circle cx="42" cy="8" r="9" fill="#4a7c3f" opacity="0.85"/>
-                  <circle cx="78" cy="2" r="8" fill="#4a7c3f" opacity="0.85"/>
-                  {/* Nohy — dřevěné podložky */}
-                  <rect x="28" y="145" width="14" height="8" rx="2" fill="#c8a97a" opacity="0.7"/>
-                  <rect x="78" y="145" width="14" height="8" rx="2" fill="#c8a97a" opacity="0.7"/>
+                  <line x1="76" y1="54" x2="76" y2="8" stroke="#3a5c2e" strokeWidth="2.5" strokeLinecap="round"/>
+                  <path d="M76 34 Q58 24 52 6" stroke="#3a5c2e" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                  <path d="M76 26 Q94 16 100 0" stroke="#3a5c2e" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                  <circle cx="50" cy="2" r="12" fill="#4a7c3f" opacity="0.85"/>
+                  <circle cx="102" cy="-4" r="11" fill="#4a7c3f" opacity="0.85"/>
+                  <circle cx="76" cy="4" r="10" fill="#5a8c4f" opacity="0.7"/>
+                  <rect x="30" y="167" width="20" height="10" rx="3" fill="#c8a97a" opacity="0.7"/>
+                  <rect x="102" y="167" width="20" height="10" rx="3" fill="#c8a97a" opacity="0.7"/>
                 </g>
-                <text x="630" y="192" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#c8b89a" textAnchor="middle" letterSpacing="0.08em">IZOLACE</text>
-
+                <text x="665" y="208" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#a0a898" textAnchor="middle" letterSpacing="0.1em">IZOLACE</text>
               </svg>
             </div>
 
