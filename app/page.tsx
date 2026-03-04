@@ -100,7 +100,7 @@ export default function HomePage() {
                 <input
                   className="hero-search-input"
                   type="text"
-                  placeholder="Co hledáš? Třeba „jak malovat zeď"…"
+                  placeholder={'Co hledáš? Třeba "jak malovat zeď"...'}
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && handleSearch(query)}
