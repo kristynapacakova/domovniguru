@@ -53,10 +53,6 @@ const BLOG_CATS = [
   { label: "Sezónní údržba",            href: "/blog/kategorie/sezonni-udrzba", count: 20 },
 ] as const;
 
-const SUGGESTIONS = [
-  "jak malovat zeď", "rajčata", "zalévat", "LED žárovky", "radiátor", "stěhování",
-];
-
 // ─── Page ────────────────────────────────────────────────────────────────────
 
 export default function HomePage() {
@@ -81,14 +77,6 @@ export default function HomePage() {
               Méně přemýšlení,<br />
               <em>více hotovo.</em>
             </h1>
-          </div>
-          <div>
-            <p className="hero-desc">
-              Kalkulačky na materiál, návody krok za krokem a checklisty pro každou sezónu.
-              Rychle zjistíš, co koupit, kolik toho potřebuješ a jak to vyřešit bez stresu.
-            </p>
-
-            {/* ── Search bar ── */}
             <div className="hero-search-wrap">
               <div className="hero-search-box">
                 <span className="hero-search-icon">
@@ -100,7 +88,7 @@ export default function HomePage() {
                 <input
                   className="hero-search-input"
                   type="text"
-                  placeholder={'Co hledáš? Třeba "jak malovat zeď"...'}
+                  placeholder={'Co hledas? Treba "jak malovat zed"...'}
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && handleSearch(query)}
@@ -110,16 +98,14 @@ export default function HomePage() {
                   Hledat
                 </button>
               </div>
-              <div className="hero-search-suggestions">
-                {SUGGESTIONS.map((s) => (
-                  <button key={s} className="hero-search-tag" onClick={() => handleSearch(s)}>
-                    {s}
-                  </button>
-                ))}
-              </div>
             </div>
-
-            <div className="btn-row" style={{ marginTop: 24 }}>
+          </div>
+          <div>
+            <p className="hero-desc">
+              Kalkulačky na materiál, návody krok za krokem a checklisty pro každou sezónu.
+              Rychle zjistíš, co koupit, kolik toho potřebuješ a jak to vyřešit bez stresu.
+            </p>
+            <div className="btn-row">
               <Link href="/kalkulacky" className="btn btn-black">Kalkulačky →</Link>
               <Link href="/navody"     className="btn btn-outline">Návody</Link>
               <Link href="/blog"       className="btn btn-outline">Blog</Link>
