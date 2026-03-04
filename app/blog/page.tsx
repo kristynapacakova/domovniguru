@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
@@ -139,7 +139,7 @@ const ARTICLES: Article[] = [
   { id: 100, cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak správně topit v topné sezóně",                     desc: "Teploty, přetápění, větrání.",                                                    slug: "jak-spravne-topit",                   read: "4 min" },
 ];
 
-export default function BlogPage() {
+function BlogContent() {
   const searchParams = useSearchParams();
   const [activeCat, setActiveCat] = useState<string>("vse");
   const [search,    setSearch]    = useState<string>("");
@@ -183,7 +183,7 @@ export default function BlogPage() {
           </div>
           <input
             className="search-input"
-            placeholder="Hledat článek…"
+            placeholder="Hledat článek..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
@@ -191,7 +191,7 @@ export default function BlogPage() {
 
         <p className="results-meta">
           {filtered.length} článků
-          {search && ` pro „${search}"`}
+          {search && ` pro "${search}"`}
           {activeCat !== "vse" && ` · ${activeCatLabel}`}
         </p>
 
@@ -216,5 +216,13 @@ export default function BlogPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function BlogPage() {
+  return (
+    <Suspense fallback={<div className="wrap" style={{ padding: "80px 0", color: "var(--muted)" }}>Načítám...</div>}>
+      <BlogContent />
+    </Suspense>
   );
 }
