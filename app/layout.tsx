@@ -30,7 +30,7 @@ export default function RootLayout({
           <div className="wrap">
             <div className="nav-inner">
               <Link href="/" className="nav-brand">
-                🐼 DomovniGuru
+                🐼 Domovni<strong>Guru</strong>
               </Link>
               <div className="nav-links">
                 <Link href="/kalkulacky">Kalkulačky</Link>
@@ -51,7 +51,7 @@ export default function RootLayout({
               {/* Brand */}
               <div>
                 <Link href="/" className="footer-brand">
-                  🐼 DomovniGuru
+                  🐼 Domovni<strong>Guru</strong>
                 </Link>
                 <p className="footer-tagline">
                   Praktické kalkulačky, návody a checklisty
