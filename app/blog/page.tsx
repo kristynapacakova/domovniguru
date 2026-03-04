@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 type Article = {
@@ -139,8 +140,14 @@ const ARTICLES: Article[] = [
 ];
 
 export default function BlogPage() {
+  const searchParams = useSearchParams();
   const [activeCat, setActiveCat] = useState<string>("vse");
   const [search,    setSearch]    = useState<string>("");
+
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q) setSearch(q);
+  }, [searchParams]);
 
   const filtered = ARTICLES.filter((a) => {
     const matchCat    = activeCat === "vse" || a.cat === activeCat;
