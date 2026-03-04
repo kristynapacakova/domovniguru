@@ -1,11 +1,8 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+"use client";
 
-export const metadata: Metadata = {
-  title: "DomovniGuru – Praktický průvodce domácností",
-  description:
-    "Kalkulačky na materiál, návody krok za krokem a sezónní checklisty. Rychle zjistíš, co koupit, kolik potřebuješ a jak to doma vyřešit.",
-};
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -49,16 +46,29 @@ const BLOG_POSTS = [
 ] as const;
 
 const BLOG_CATS = [
-  { label: "Malování & barvy",          href: "/blog/kategorie/malovani",      count: 20 },
-  { label: "Elektrika & osvětlení",     href: "/blog/kategorie/elektrika",     count: 20 },
-  { label: "Zahrada & terasa",          href: "/blog/kategorie/zahrada",       count: 20 },
-  { label: "Stěhování & rekonstrukce", href: "/blog/kategorie/stehovani",     count: 20 },
-  { label: "Sezónní údržba",           href: "/blog/kategorie/sezonni-udrzba", count: 20 },
+  { label: "Malování & barvy",          href: "/blog/kategorie/malovani",       count: 20 },
+  { label: "Elektrika & osvětlení",     href: "/blog/kategorie/elektrika",      count: 20 },
+  { label: "Zahrada & terasa",          href: "/blog/kategorie/zahrada",        count: 22 },
+  { label: "Stěhování & rekonstrukce",  href: "/blog/kategorie/stehovani",      count: 20 },
+  { label: "Sezónní údržba",            href: "/blog/kategorie/sezonni-udrzba", count: 20 },
 ] as const;
+
+const SUGGESTIONS = [
+  "jak malovat zeď", "rajčata", "zalévat", "LED žárovky", "radiátor", "stěhování",
+];
 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
 export default function HomePage() {
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+
+  function handleSearch(q: string) {
+    const trimmed = q.trim();
+    if (!trimmed) return;
+    router.push(`/blog?q=${encodeURIComponent(trimmed)}`);
+  }
+
   return (
     <div style={{ paddingBottom: 0 }}>
 
@@ -77,7 +87,39 @@ export default function HomePage() {
               Kalkulačky na materiál, návody krok za krokem a checklisty pro každou sezónu.
               Rychle zjistíš, co koupit, kolik toho potřebuješ a jak to vyřešit bez stresu.
             </p>
-            <div className="btn-row">
+
+            {/* ── Search bar ── */}
+            <div className="hero-search-wrap">
+              <div className="hero-search-box">
+                <span className="hero-search-icon">
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <circle cx="7.5" cy="7.5" r="5.5" stroke="currentColor" strokeWidth="1.8"/>
+                    <line x1="11.5" y1="11.5" x2="16" y2="16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/>
+                  </svg>
+                </span>
+                <input
+                  className="hero-search-input"
+                  type="text"
+                  placeholder="Co hledáš? Třeba „jak malovat zeď"…"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && handleSearch(query)}
+                  autoComplete="off"
+                />
+                <button className="hero-search-btn" onClick={() => handleSearch(query)}>
+                  Hledat
+                </button>
+              </div>
+              <div className="hero-search-suggestions">
+                {SUGGESTIONS.map((s) => (
+                  <button key={s} className="hero-search-tag" onClick={() => handleSearch(s)}>
+                    {s}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="btn-row" style={{ marginTop: 24 }}>
               <Link href="/kalkulacky" className="btn btn-black">Kalkulačky →</Link>
               <Link href="/navody"     className="btn btn-outline">Návody</Link>
               <Link href="/blog"       className="btn btn-outline">Blog</Link>
@@ -194,6 +236,72 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
+
+      <style>{`
+        .hero-search-wrap { margin-top: 28px; }
+        .hero-search-box {
+          display: flex;
+          align-items: center;
+          background: #fff;
+          border: 1.5px solid #e2dbd0;
+          border-radius: 12px;
+          padding: 6px 6px 6px 16px;
+          gap: 8px;
+          box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+          transition: border-color 150ms, box-shadow 150ms;
+        }
+        .hero-search-box:focus-within {
+          border-color: #1a1814;
+          box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+        }
+        .hero-search-icon { color: #9a9187; display: flex; flex-shrink: 0; }
+        .hero-search-input {
+          flex: 1;
+          border: none;
+          outline: none;
+          font-size: 15px;
+          font-weight: 300;
+          color: #1a1814;
+          background: transparent;
+          font-family: var(--font-sans, sans-serif);
+          min-width: 0;
+        }
+        .hero-search-input::placeholder { color: #b0a898; }
+        .hero-search-btn {
+          flex-shrink: 0;
+          background: #1a1814;
+          color: #fff;
+          border: none;
+          border-radius: 8px;
+          padding: 10px 20px;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: 0.04em;
+          cursor: pointer;
+          font-family: var(--font-sans, sans-serif);
+          transition: background 150ms;
+        }
+        .hero-search-btn:hover { background: #2a2a28; }
+        .hero-search-suggestions {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+          margin-top: 12px;
+        }
+        .hero-search-tag {
+          background: transparent;
+          border: 1px solid #e2dbd0;
+          border-radius: 999px;
+          padding: 4px 12px;
+          font-size: 12px;
+          font-weight: 400;
+          color: #9a9187;
+          cursor: pointer;
+          font-family: var(--font-sans, sans-serif);
+          transition: border-color 120ms, color 120ms;
+        }
+        .hero-search-tag:hover { border-color: #1a1814; color: #1a1814; }
+      `}</style>
 
     </div>
   );
