@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
-
 export const metadata: Metadata = {
   title: {
     default: "DomovniGuru – Praktický průvodce domácností",
@@ -15,7 +14,6 @@ export const metadata: Metadata = {
     locale: "cs_CZ",
   },
 };
-
 export default function RootLayout({
   children,
 }: {
@@ -29,7 +27,7 @@ export default function RootLayout({
           <div className="wrap">
             <div className="nav-inner">
               <Link href="/" className="nav-brand">
-                DomovniGuru
+                🐼 DomovniGuru
               </Link>
               <div className="nav-links">
                 <Link href="/kalkulacky">Kalkulačky</Link>
@@ -41,10 +39,8 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-
         {/* ── Page content ── */}
         <main>{children}</main>
-
         {/* ── Footer ── */}
         <footer className="site-footer">
           <div className="wrap">
@@ -52,7 +48,7 @@ export default function RootLayout({
               {/* Brand */}
               <div>
                 <Link href="/" className="footer-brand">
-                  DomovniGuru
+                  🐼 DomovniGuru
                 </Link>
                 <p className="footer-tagline">
                   Praktické kalkulačky, návody a checklisty
@@ -60,7 +56,6 @@ export default function RootLayout({
                   pro každého majitele domu nebo bytu.
                 </p>
               </div>
-
               {/* Kalkulačky */}
               <div>
                 <div className="footer-col-title">Kalkulačky</div>
@@ -72,7 +67,6 @@ export default function RootLayout({
                   <Link href="/kalkulacky/kolik-tapet">Tapety</Link>
                 </div>
               </div>
-
               {/* Blog */}
               <div>
                 <div className="footer-col-title">Blog</div>
@@ -84,7 +78,6 @@ export default function RootLayout({
                   <Link href="/blog/kategorie/sezonni-udrzba">Sezónní údržba</Link>
                 </div>
               </div>
-
               {/* Web */}
               <div>
                 <div className="footer-col-title">Web</div>
@@ -96,7 +89,6 @@ export default function RootLayout({
                 </div>
               </div>
             </div>
-
             <div className="footer-bottom">
               <span>© {new Date().getFullYear()} DomovniGuru</span>
               <div className="footer-bottom-links">
