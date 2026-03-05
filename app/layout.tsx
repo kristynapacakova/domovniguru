@@ -73,7 +73,7 @@ export default function RootLayout({
                   <span className="footer-stat-label">článků zdarma</span>
                 </div>
                 <div className="footer-stat">
-                  <span className="footer-stat-num">8</span>
+                  <span className="footer-stat-num">10+</span>
                   <span className="footer-stat-label">kalkulaček pro každý projekt</span>
                 </div>
                 <div className="footer-stat">
@@ -112,21 +112,11 @@ export default function RootLayout({
               <div>
                 <div className="footer-col-title">Oblíbené návody</div>
                 <div className="footer-links">
-                  <Link href="/navody/jak-utesnit-vanu-silikonem">Utěsnit vanu silikonem</Link>
-                  <Link href="/navody/jak-odvzdusnit-radiator">Odvzdušnit radiátor</Link>
-                  <Link href="/navody/jak-nastavit-okna-na-zimu">Nastavit okna na zimu</Link>
-                  <Link href="/navody/jak-vycistit-spary-v-dlazbe">Vyčistit spáry v dlažbě</Link>
-                  <Link href="/navody/jak-vymenit-zasuvku">Vyměnit zásuvku</Link>
-                </div>
-              </div>
-
-              <div>
-                <div className="footer-col-title">Checklisty</div>
-                <div className="footer-links">
-                  <Link href="/checklisty/jarni-udrzba">🌱 Jarní údržba domu</Link>
-                  <Link href="/checklisty/stehovani">📦 Stěhování</Link>
-                  <Link href="/checklisty/zimni-priprava">❄️ Zimní příprava</Link>
-                  <Link href="/checklisty">Všechny checklisty →</Link>
+                  <Link href="/navody/jak-utesnit-vanu-silikonem">🚿 Utěsnit vanu silikonem</Link>
+                  <Link href="/navody/jak-odvzdusnit-radiator">🌡️ Odvzdušnit radiátor</Link>
+                  <Link href="/navody/jak-nastavit-okna-na-zimu">🪟 Nastavit okna na zimu</Link>
+                  <Link href="/navody/jak-vycistit-spary-v-dlazbe">🧹 Vyčistit spáry v dlažbě</Link>
+                  <Link href="/navody/jak-vymenit-zasuvku">💡 Vyměnit zásuvku</Link>
                 </div>
               </div>
 
@@ -135,6 +125,7 @@ export default function RootLayout({
                 <div className="footer-links">
                   <Link href="/o-webu">O webu</Link>
                   <Link href="/navody">Všechny návody</Link>
+                  <Link href="/checklisty">Checklisty</Link>
                   <Link href="/sablony">🖨️ 3D šablony</Link>
                   <Link href="/blog">Blog</Link>
                 </div>
