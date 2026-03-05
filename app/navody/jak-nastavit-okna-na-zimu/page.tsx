@@ -140,7 +140,7 @@ export default function JakNastavitOknaNaZimu() {
               <div className="related-grid">
                 {[
                   { title: "Jak utěsnit vanu silikonem?", href: "/navody/jak-utesnit-vanu-silikonem", time: "30 min" },
-                  { title: "Jak odvzdušnit radiátor?", href: "/navody/jak-odvzdusit-radiator", time: "10 min" },
+                  { title: "Jak odvzdušnit radiátor?", href: "/navody/jak-odvzdusnit-radiator", time: "10 min" },
                   { title: "Jak vyčistit sifon?", href: "/navody/jak-vycistit-sifon", time: "10 min" },
                 ].map(r => (
                   <Link key={r.href} href={r.href} className="card">
