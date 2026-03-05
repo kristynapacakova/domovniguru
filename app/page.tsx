@@ -75,7 +75,7 @@ export default function HomePage() {
             <p className="hero-eyebrow">Praktický průvodce domácností</p>
             <h1 className="hero-h1">
               Méně přemýšlení,<br />
-              <em>více hotovo.</em>
+              <em>rovnou na věc.</em>
             </h1>
             <div className="hero-search-wrap">
               <div className="hero-search-box">
