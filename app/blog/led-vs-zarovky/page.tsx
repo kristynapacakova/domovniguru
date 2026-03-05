@@ -14,7 +14,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 const RELATED = [
   { title: "Jak vyměnit vypínač – krok za krokem", href: "/blog/jak-vymenit-vypinac", read: "4 min" },
   { title: "Jak připravit dům na zimu – checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
-  { title: "Jak odvzdušnit radiátory", href: "/blog/jak-odvzdusit-radiatory", read: "3 min" },
+  { title: "Jak odvzdušnit radiátory", href: "/blog/jak-odvzdusnit-radiatory", read: "3 min" },
   { title: "Jak utěsnit okna na zimu", href: "/blog/jak-utesnit-okna-na-zimu", read: "4 min" },
 ];
 
