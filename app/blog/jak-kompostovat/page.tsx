@@ -218,7 +218,7 @@ export default function ArticlePage() {
               <div style={{ fontSize: 32, marginBottom: 10 }}>🌱</div>
               <div className="sidebar-cta-title">Vyvýšený záhon</div>
               <p className="sidebar-cta-desc">Postav si záhon za víkend a dej do něj svůj čerstvý kompost.</p>
-              <Link href="/blog/vyvseny-zahon-postup" className="btn btn-black" style={{ width: "100%", justifyContent: "center", marginTop: 14 }}>Číst článek →</Link>
+              <Link href="/blog/vyvyseny-zahon-postup" className="btn btn-black" style={{ width: "100%", justifyContent: "center", marginTop: 14 }}>Číst článek →</Link>
             </div>
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
