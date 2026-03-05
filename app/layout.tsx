@@ -69,14 +69,17 @@ export default function RootLayout({
 
               <div className="footer-stats">
                 <div className="footer-stat">
+                  <span className="footer-stat-icon">📚</span>
                   <span className="footer-stat-num">100+</span>
                   <span className="footer-stat-label">článků zdarma</span>
                 </div>
                 <div className="footer-stat">
+                  <span className="footer-stat-icon">🧮</span>
                   <span className="footer-stat-num">10+</span>
                   <span className="footer-stat-label">kalkulaček pro každý projekt</span>
                 </div>
                 <div className="footer-stat">
+                  <span className="footer-stat-icon">🔧</span>
                   <span className="footer-stat-num">✓</span>
                   <span className="footer-stat-label">praktické návody</span>
                 </div>
@@ -184,7 +187,7 @@ export default function RootLayout({
           .footer-sub {
             font-size: 13px;
             line-height: 1.65;
-            color: #9a8a7a;
+            color: #c8b8a8;
             margin: 0;
             font-weight: 300;
           }
@@ -199,6 +202,11 @@ export default function RootLayout({
             flex-direction: column;
             align-items: center;
             text-align: center;
+          }
+          .footer-stat-icon {
+            font-size: 22px;
+            margin-bottom: 6px;
+            display: block;
           }
           .footer-stat-num {
             font-family: var(--font-serif, serif);
@@ -231,17 +239,12 @@ export default function RootLayout({
             font-weight: 700;
             letter-spacing: 0.12em;
             text-transform: uppercase;
-            color: #484038;
+            color: #706050;
             margin-bottom: 14px;
-          }
-          .footer-links {
-            display: flex;
-            flex-direction: column;
-            gap: 9px;
           }
           .footer-links a {
             font-size: 13px;
-            color: #706860;
+            color: #a09080;
             text-decoration: none;
             font-weight: 400;
             transition: color 150ms;
