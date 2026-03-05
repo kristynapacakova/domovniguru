@@ -92,7 +92,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
   ],
   zahrada: [
     { id: 41, cat: "zahrada", title: "Jak připravit zahradu na jaro",                           desc: "Co udělat v březnu a dubnu.",                                      slug: "jarni-zahrada",                       read: "6 min" },
-    { id: 42, cat: "zahrada", title: "Jak postavit vyvýšený záhon",                             desc: "Dřevěný nebo z betonu? Za víkend.",                                slug: "vyvseny-zahon-postup",                read: "6 min" },
+    { id: 42, cat: "zahrada", title: "Jak postavit vyvýšený záhon",                             desc: "Dřevěný nebo z betonu? Za víkend.",                                slug: "vyvyseny-zahon-postup",                read: "6 min" },
     { id: 43, cat: "zahrada", title: "Jak ošetřit dřevěnou terasu před zimou",                  desc: "Broušení, čištění, impregnace nebo olej.",                         slug: "drevo-terasa-zima",                   read: "4 min" },
     { id: 44, cat: "zahrada", title: "Jak se zbavit plevele bez chemie",                         desc: "Mulčování, ocet, vroucí voda.",                                    slug: "zbavit-se-plevele-bez-chemie",        read: "4 min" },
     { id: 45, cat: "zahrada", title: "Jak vybudovat závlahový systém",                           desc: "Kapková závlaha nebo postřikovače.",                               slug: "zavlaha-zahrada-postup",              read: "6 min" },
