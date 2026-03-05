@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
+
 export const metadata: Metadata = {
   title: {
     default: "DomovniGuru – Praktický průvodce domácností",
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
     locale: "cs_CZ",
   },
 };
+
 export default function RootLayout({
   children,
 }: {
@@ -42,65 +44,254 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
+
         {/* ── Page content ── */}
         <main>{children}</main>
+
         {/* ── Footer ── */}
         <footer className="site-footer">
           <div className="wrap">
-            <div className="footer-grid">
-              {/* Brand */}
-              <div>
+
+            {/* Horní blok — tagline + stats */}
+            <div className="footer-top">
+              <div className="footer-hero">
                 <Link href="/" className="footer-brand">
                   🐼 Domovni<strong>Guru</strong>
                 </Link>
                 <p className="footer-tagline">
-                  Praktické kalkulačky, návody a checklisty
-                  <br />
-                  pro každého majitele domu nebo bytu.
+                  Méně přemýšlení, <em>rovnou na věc.</em>
+                </p>
+                <p className="footer-sub">
+                  Kalkulačky, návody a checklisty pro každého kdo chce mít doma pořádek — bez zbytečného guglení.
                 </p>
               </div>
-              {/* Kalkulačky */}
-              <div>
-                <div className="footer-col-title">Kalkulačky</div>
-                <div className="footer-links">
-                  <Link href="/kalkulacky/kolik-barvy">Barva</Link>
-                  <Link href="/kalkulacky/kolik-laminatu">Laminát</Link>
-                  <Link href="/kalkulacky/kolik-dlazby">Dlažba</Link>
-                  <Link href="/kalkulacky/kolik-betonu">Beton</Link>
-                  <Link href="/kalkulacky/kolik-tapet">Tapety</Link>
+
+              <div className="footer-stats">
+                <div className="footer-stat">
+                  <span className="footer-stat-num">100+</span>
+                  <span className="footer-stat-label">článků a návodů</span>
                 </div>
-              </div>
-              {/* Blog */}
-              <div>
-                <div className="footer-col-title">Blog</div>
-                <div className="footer-links">
-                  <Link href="/blog/kategorie/malovani">Malování</Link>
-                  <Link href="/blog/kategorie/elektrika">Elektrika</Link>
-                  <Link href="/blog/kategorie/zahrada">Zahrada</Link>
-                  <Link href="/blog/kategorie/stehovani">Stěhování</Link>
-                  <Link href="/blog/kategorie/sezonni-udrzba">Sezónní údržba</Link>
+                <div className="footer-stat">
+                  <span className="footer-stat-num">8</span>
+                  <span className="footer-stat-label">kalkulaček zdarma</span>
                 </div>
-              </div>
-              {/* Web */}
-              <div>
-                <div className="footer-col-title">Web</div>
-                <div className="footer-links">
-                  <Link href="/navody">Návody</Link>
-                  <Link href="/checklisty">Checklisty</Link>
-                  <Link href="/o-webu">O webu</Link>
-                  <Link href="/kontakt">Kontakt</Link>
+                <div className="footer-stat">
+                  <span className="footer-stat-num">0 reklam</span>
+                  <span className="footer-stat-label">čisté čtení</span>
                 </div>
               </div>
             </div>
+
+            <div className="footer-divider" />
+
+            {/* Navigační sloupce */}
+            <div className="footer-grid">
+              <div>
+                <div className="footer-col-title">Kalkulačky</div>
+                <div className="footer-links">
+                  <Link href="/kalkulacky/kolik-barvy">🎨 Kolik barvy?</Link>
+                  <Link href="/kalkulacky/kolik-laminatu">🪵 Kolik laminátu?</Link>
+                  <Link href="/kalkulacky/kolik-dlazby">⬛ Kolik dlažby?</Link>
+                  <Link href="/kalkulacky/kolik-betonu">🪨 Kolik betonu?</Link>
+                  <Link href="/kalkulacky/kolik-tapet">🖼 Kolik tapet?</Link>
+                </div>
+              </div>
+
+              <div>
+                <div className="footer-col-title">Témata blogu</div>
+                <div className="footer-links">
+                  <Link href="/blog/kategorie/malovani">🖌 Malování & barvy</Link>
+                  <Link href="/blog/kategorie/elektrika">⚡ Elektrika & osvětlení</Link>
+                  <Link href="/blog/kategorie/zahrada">🌿 Zahrada & terasa</Link>
+                  <Link href="/blog/kategorie/stehovani">📦 Stěhování & rekonstrukce</Link>
+                  <Link href="/blog/kategorie/sezonni-udrzba">🍂 Sezónní údržba</Link>
+                </div>
+              </div>
+
+              <div>
+                <div className="footer-col-title">Oblíbené návody</div>
+                <div className="footer-links">
+                  <Link href="/navody/jak-utesnit-vanu-silikonem">Utěsnit vanu silikonem</Link>
+                  <Link href="/navody/jak-odvzdusnit-radiator">Odvzdušnit radiátor</Link>
+                  <Link href="/navody/jak-nastavit-okna-na-zimu">Nastavit okna na zimu</Link>
+                  <Link href="/navody/jak-vycistit-spary-v-dlazbe">Vyčistit spáry v dlažbě</Link>
+                  <Link href="/navody/jak-vymenit-zasuvku">Vyměnit zásuvku</Link>
+                </div>
+              </div>
+
+              <div>
+                <div className="footer-col-title">O projektu</div>
+                <div className="footer-links">
+                  <Link href="/o-webu">O webu</Link>
+                  <Link href="/navody">Všechny návody</Link>
+                  <Link href="/checklisty">Checklisty</Link>
+                  <Link href="/blog">Blog</Link>
+                </div>
+                <div className="footer-cta-mini">
+                  <span>🐼</span>
+                  <span>Náš guru nikdy nespí.<br />Ptej se kdykoliv.</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Dolní pruh */}
             <div className="footer-bottom">
-              <span>© {new Date().getFullYear()} DomovniGuru</span>
+              <span className="footer-copy">
+                © {new Date().getFullYear()} DomovniGuru &mdash; děláno s láskou k domovu 🏠
+              </span>
               <div className="footer-bottom-links">
                 <Link href="/soukromi">Soukromí</Link>
                 <Link href="/podminky">Podmínky</Link>
               </div>
             </div>
+
           </div>
         </footer>
+
+        <style>{`
+          .site-footer {
+            background: #1a1916;
+            color: #a09890;
+            margin-top: 80px;
+            padding: 56px 0 0;
+          }
+          .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+            margin-bottom: 40px;
+          }
+          .footer-hero { max-width: 380px; }
+          .footer-brand {
+            font-family: var(--font-sans, sans-serif);
+            font-size: 20px;
+            font-weight: 700;
+            color: #f5f0e8;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+            display: inline-block;
+            margin-bottom: 14px;
+          }
+          .footer-brand strong { font-weight: 900; }
+          .footer-tagline {
+            font-family: var(--font-serif, serif);
+            font-size: 22px;
+            color: #f5f0e8;
+            font-weight: 400;
+            line-height: 1.3;
+            margin: 0 0 10px;
+          }
+          .footer-tagline em { color: #c8a97a; font-style: italic; }
+          .footer-sub {
+            font-size: 13px;
+            line-height: 1.65;
+            color: #605850;
+            margin: 0;
+            font-weight: 300;
+          }
+          .footer-stats {
+            display: flex;
+            gap: 40px;
+            flex-shrink: 0;
+            align-items: center;
+          }
+          .footer-stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+          }
+          .footer-stat-num {
+            font-family: var(--font-serif, serif);
+            font-size: 30px;
+            font-weight: 400;
+            color: #f5f0e8;
+            line-height: 1;
+            margin-bottom: 6px;
+          }
+          .footer-stat-label {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #504840;
+          }
+          .footer-divider {
+            height: 1px;
+            background: #252220;
+            margin-bottom: 40px;
+          }
+          .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            margin-bottom: 48px;
+          }
+          .footer-col-title {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #484038;
+            margin-bottom: 14px;
+          }
+          .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+          }
+          .footer-links a {
+            font-size: 13px;
+            color: #706860;
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 150ms;
+            line-height: 1.4;
+          }
+          .footer-links a:hover { color: #c8a97a; }
+          .footer-cta-mini {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            margin-top: 20px;
+            padding: 12px 14px;
+            background: #201d1a;
+            border-radius: 8px;
+            border: 1px solid #2a2622;
+            font-size: 12px;
+            line-height: 1.55;
+            color: #504840;
+          }
+          .footer-cta-mini span:first-child { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+          .footer-bottom {
+            border-top: 1px solid #201e1b;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+          }
+          .footer-copy { font-size: 12px; color: #383028; }
+          .footer-bottom-links { display: flex; gap: 20px; }
+          .footer-bottom-links a {
+            font-size: 12px;
+            color: #383028;
+            text-decoration: none;
+            transition: color 150ms;
+          }
+          .footer-bottom-links a:hover { color: #706860; }
+
+          @media (max-width: 960px) {
+            .footer-top { flex-direction: column; gap: 32px; }
+            .footer-stats { justify-content: flex-start; }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+          }
+          @media (max-width: 600px) {
+            .footer-grid { grid-template-columns: 1fr; }
+            .footer-bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+          }
+        `}</style>
       </body>
     </html>
   );
