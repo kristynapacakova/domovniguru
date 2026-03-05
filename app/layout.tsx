@@ -38,6 +38,7 @@ export default function RootLayout({
                 <Link href="/kalkulacky">Kalkulačky</Link>
                 <Link href="/navody">Návody</Link>
                 <Link href="/checklisty">Checklisty</Link>
+                <Link href="/sablony">3D šablony</Link>
                 <Link href="/blog">Blog</Link>
                 <Link href="/o-webu">O webu</Link>
               </div>
@@ -69,15 +70,15 @@ export default function RootLayout({
               <div className="footer-stats">
                 <div className="footer-stat">
                   <span className="footer-stat-num">100+</span>
-                  <span className="footer-stat-label">článků a návodů</span>
+                  <span className="footer-stat-label">článků zdarma</span>
                 </div>
                 <div className="footer-stat">
                   <span className="footer-stat-num">8</span>
-                  <span className="footer-stat-label">kalkulaček zdarma</span>
+                  <span className="footer-stat-label">kalkulaček pro každý projekt</span>
                 </div>
                 <div className="footer-stat">
-                  <span className="footer-stat-num">6</span>
-                  <span className="footer-stat-label">návodů krok za krokem</span>
+                  <span className="footer-stat-num">✓</span>
+                  <span className="footer-stat-label">praktické návody</span>
                 </div>
               </div>
             </div>
@@ -120,19 +121,22 @@ export default function RootLayout({
               </div>
 
               <div>
-                <div className="footer-col-title">O projektu</div>
-                <div className="footer-links">
-                  <Link href="/o-webu">O webu</Link>
-                  <Link href="/navody">Všechny návody</Link>
-                  <Link href="/checklisty">Checklisty</Link>
-                  <Link href="/blog">Blog</Link>
-                </div>
-                <div className="footer-col-title" style={{marginTop: 20}}>Checklisty</div>
+                <div className="footer-col-title">Checklisty</div>
                 <div className="footer-links">
                   <Link href="/checklisty/jarni-udrzba">🌱 Jarní údržba domu</Link>
                   <Link href="/checklisty/stehovani">📦 Stěhování</Link>
                   <Link href="/checklisty/zimni-priprava">❄️ Zimní příprava</Link>
                   <Link href="/checklisty">Všechny checklisty →</Link>
+                </div>
+              </div>
+
+              <div>
+                <div className="footer-col-title">O projektu</div>
+                <div className="footer-links">
+                  <Link href="/o-webu">O webu</Link>
+                  <Link href="/navody">Všechny návody</Link>
+                  <Link href="/sablony">🖨️ 3D šablony</Link>
+                  <Link href="/blog">Blog</Link>
                 </div>
               </div>
             </div>
@@ -189,7 +193,7 @@ export default function RootLayout({
           .footer-sub {
             font-size: 13px;
             line-height: 1.65;
-            color: #605850;
+            color: #9a8a7a;
             margin: 0;
             font-weight: 300;
           }
@@ -218,7 +222,7 @@ export default function RootLayout({
             font-weight: 600;
             letter-spacing: 0.08em;
             text-transform: uppercase;
-            color: #504840;
+            color: #706050;
           }
           .footer-divider {
             height: 1px;
