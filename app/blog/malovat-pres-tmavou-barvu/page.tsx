@@ -44,52 +44,65 @@ export default function ArticlePage() {
 
             {/* HERO ILLUSTRATION */}
             <div className="hero-illustration" aria-hidden="true">
-              <svg viewBox="0 0 760 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
-                <rect width="760" height="200" fill="#fdf8f2"/>
+              <svg viewBox="0 0 760 210" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
+                <rect width="760" height="210" fill="#fdf8f2"/>
 
-                {/* LEFT: tmavá zeď */}
-                <rect x="40" y="30" width="170" height="140" rx="4" fill="#3a4a6a"/>
-                <rect x="40" y="30" width="170" height="140" rx="4" fill="none" stroke="#2a3a5a" strokeWidth="1.5"/>
-                <text x="125" y="108" fontFamily="var(--font-sans,sans-serif)" fontSize="11" fill="white" textAnchor="middle" opacity="0.6">tmavě modrá</text>
-                <text x="125" y="192" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#c8b89a" textAnchor="middle" letterSpacing="0.08em">PŘED</text>
+                {/* === LEVÁ TŘETINA: tmavá zeď === */}
+                <rect x="30" y="25" width="190" height="150" rx="6" fill="#3a4a6a"/>
+                {/* Jemná cihlová textura */}
+                {[50,75,100,125,150].map((y,i)=><line key={i} x1="30" y1={y} x2="220" y2={y} stroke="#2e3d58" strokeWidth="0.8"/>)}
+                {[80,130,180].map((x,i)=><line key={i} x1={x} y1="25" x2={x} y2="175" stroke="#2e3d58" strokeWidth="0.8"/>)}
+                {/* Kapky vlhkosti / šmouhy */}
+                <path d="M70 40 Q72 60 70 80" stroke="#2a3a5a" strokeWidth="2" strokeLinecap="round" opacity="0.6"/>
+                <path d="M150 50 Q152 70 150 95" stroke="#2a3a5a" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
+                {/* Popisek */}
+                <rect x="50" y="155" width="120" height="22" rx="4" fill="#2a3a5a" opacity="0.5"/>
+                <text x="110" y="170" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#a0b4d0" textAnchor="middle" letterSpacing="0.06em">TMAVÁ ZEĎ</text>
+                <text x="125" y="198" fontFamily="var(--font-sans,sans-serif)" fontSize="8" fill="#c8b89a" textAnchor="middle" letterSpacing="0.10em">PŘED</text>
 
-                {/* CENTER: postup — váleček se základním nátěrem */}
-                <g transform="translate(295, 40)">
-                  {/* Váleček */}
-                  <rect x="50" y="0" width="8" height="60" rx="2" fill="#c8b89a" opacity="0.7"/>
-                  <rect x="30" y="55" width="48" height="22" rx="4" fill="#e8e0d4" opacity="0.8"/>
-                  <rect x="30" y="55" width="48" height="22" rx="4" fill="none" stroke="#c8b89a" strokeWidth="1.5"/>
-                  {/* Barva na válečku — šedavý základní nátěr */}
-                  <rect x="32" y="57" width="44" height="18" rx="3" fill="#b0b0b0" opacity="0.5"/>
-                  {/* Zeď s přechodem */}
-                  <rect x="0" y="82" width="108" height="72" rx="4" fill="#3a4a6a"/>
-                  <rect x="0" y="82" width="108" height="36" rx="0" fill="#909090" opacity="0.8"/>
-                  <rect x="0" y="82" width="108" height="72" rx="4" fill="none" stroke="#c8b89a" strokeWidth="1.5"/>
-                  <text x="54" y="165" fontFamily="var(--font-sans,sans-serif)" fontSize="8" fill="#9a8a7a" textAnchor="middle">základní nátěr</text>
+                {/* === STŘED: základní nátěr === */}
+                {/* Váleček — hezky nakreslený */}
+                <g transform="translate(310, 20)">
+                  {/* Tyč */}
+                  <rect x="64" y="0" width="6" height="50" rx="3" fill="#c8a97a"/>
+                  {/* Ohnutí */}
+                  <path d="M67 48 Q67 68 47 68" stroke="#c8a97a" strokeWidth="5" fill="none" strokeLinecap="round"/>
+                  {/* Váleček tělo */}
+                  <rect x="10" y="60" width="74" height="28" rx="10" fill="#e8e0d4"/>
+                  <rect x="10" y="60" width="74" height="28" rx="10" fill="none" stroke="#c8b89a" strokeWidth="1.5"/>
+                  {/* Barva na válečku — šedý základ */}
+                  <rect x="12" y="62" width="70" height="24" rx="9" fill="#9a9a9a" opacity="0.45"/>
+                  {/* Zeď pod válečkem — přechod tmavá→šedá→bílá */}
+                  <rect x="0" y="96" width="94" height="80" rx="4" fill="#3a4a6a"/>
+                  <rect x="0" y="96" width="94" height="40" rx="0" fill="#8a8a8a" opacity="0.75"/>
+                  <rect x="0" y="96" width="94" height="20" rx="0" fill="#c8c8c8" opacity="0.6"/>
+                  <rect x="0" y="96" width="94" height="80" rx="4" fill="none" stroke="#c8b89a" strokeWidth="1.5"/>
+                  {/* Popisek */}
+                  <rect x="4" y="158" width="86" height="18" rx="4" fill="#c8b89a" opacity="0.2"/>
+                  <text x="47" y="170" fontFamily="var(--font-sans,sans-serif)" fontSize="8" fill="#9a8a7a" textAnchor="middle" letterSpacing="0.06em">ZÁKLADNÍ NÁTĚR</text>
                 </g>
-                <text x="349" y="192" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#c8b89a" textAnchor="middle" letterSpacing="0.08em">ZÁKLADNÍ NÁTĚR</text>
+                <text x="357" y="198" fontFamily="var(--font-sans,sans-serif)" fontSize="8" fill="#c8b89a" textAnchor="middle" letterSpacing="0.10em">PŘÍPRAVA</text>
 
-                {/* RIGHT: světlá čistá zeď */}
-                <rect x="540" y="30" width="180" height="140" rx="4" fill="#f5f0e8"/>
-                <rect x="540" y="30" width="180" height="140" rx="4" fill="none" stroke="#e0d8cc" strokeWidth="1.5"/>
-                {/* Jemná textura */}
-                {[0,1,2,3].map(i => (
-                  <line key={i} x1="540" y1={60+i*26} x2="720" y2={60+i*26} stroke="#e8e0d4" strokeWidth="0.5" opacity="0.5"/>
-                ))}
-                <text x="630" y="108" fontFamily="var(--font-sans,sans-serif)" fontSize="11" fill="#c8b89a" textAnchor="middle" opacity="0.8">bílá / světlá</text>
-                {/* Fajfka */}
-                <circle cx="630" cy="95" r="22" fill="none" stroke="#5a9e6f" strokeWidth="1.5" opacity="0.4"/>
-                <path d="M619 95 L627 103 L642 84" stroke="#5a9e6f" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-                <text x="630" y="192" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#c8b89a" textAnchor="middle" letterSpacing="0.08em">VÝSLEDEK</text>
+                {/* === PRAVÁ TŘETINA: světlá čistá zeď === */}
+                <rect x="540" y="25" width="190" height="150" rx="6" fill="#f5f0e8"/>
+                <rect x="540" y="25" width="190" height="150" rx="6" fill="none" stroke="#e0d8cc" strokeWidth="1.5"/>
+                {/* Jemná textura světlé zdi */}
+                {[55,85,115,145].map((y,i)=><line key={i} x1="540" y1={y} x2="730" y2={y} stroke="#e8e0d4" strokeWidth="0.5" opacity="0.6"/>)}
+                {/* Zelená fajfka */}
+                <circle cx="635" cy="100" r="30" fill="none" stroke="#5a9e6f" strokeWidth="2" opacity="0.35"/>
+                <path d="M620 100 L631 111 L651 86" stroke="#5a9e6f" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                {/* Popisek */}
+                <rect x="570" y="155" width="120" height="22" rx="4" fill="#5a9e6f" opacity="0.15"/>
+                <text x="630" y="170" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#5a9e6f" textAnchor="middle" letterSpacing="0.06em">ČISTÝ VÝSLEDEK</text>
+                <text x="635" y="198" fontFamily="var(--font-sans,sans-serif)" fontSize="8" fill="#c8b89a" textAnchor="middle" letterSpacing="0.10em">PO</text>
 
                 {/* Šipky */}
-                <path d="M215 100 L288 100" stroke="#c8b89a" strokeWidth="1.2" strokeLinecap="round"/>
-                <path d="M284 96 L289 100 L284 104" stroke="#c8b89a" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-                <path d="M412 100 L532 100" stroke="#c8b89a" strokeWidth="1.2" strokeLinecap="round"/>
-                <path d="M528 96 L533 100 L528 104" stroke="#c8b89a" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                <path d="M224 100 L304 100" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round"/>
+                <path d="M299 95 L305 100 L299 105" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                <path d="M410 100 L533 100" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round"/>
+                <path d="M528 95 L534 100 L528 105" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
               </svg>
             </div>
-
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>
               <ol className="toc-list">
