@@ -149,7 +149,7 @@ export default function JakVymenit_Zasuvku() {
               <h2>Související návody</h2>
               <div className="related-grid">
                 {[
-                  { title: "Jak odvzdušnit radiátor?", href: "/navody/jak-odvzdusit-radiator", time: "10 min" },
+                  { title: "Jak odvzdušnit radiátor?", href: "/navody/jak-odvzdusnit-radiator", time: "10 min" },
                   { title: "Jak nastavit okna na zimu?", href: "/navody/jak-nastavit-okna-na-zimu", time: "15 min" },
                   { title: "Jak utěsnit vanu silikonem?", href: "/navody/jak-utesnit-vanu-silikonem", time: "30 min" },
                 ].map(r => (
