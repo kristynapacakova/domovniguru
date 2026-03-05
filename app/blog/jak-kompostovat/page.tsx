@@ -20,7 +20,7 @@ const jsonLd = {
 
 const RELATED = [
   { title: "Jak se zbavit plevele bez chemie", href: "/blog/zbavit-se-plevele-bez-chemie", read: "4 min" },
-  { title: "Jak postavit vyvýšený záhon", href: "/blog/vyvseny-zahon-postup", read: "6 min" },
+  { title: "Jak postavit vyvýšený záhon", href: "/blog/vyvyseny-zahon-postup", read: "6 min" },
   { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "6 min" },
   { title: "Jak sekat trávník správně", href: "/blog/jak-sekat-travnik", read: "4 min" },
 ];
