@@ -76,8 +76,8 @@ export default function RootLayout({
                   <span className="footer-stat-label">kalkulaček zdarma</span>
                 </div>
                 <div className="footer-stat">
-                  <span className="footer-stat-num">0 reklam</span>
-                  <span className="footer-stat-label">čisté čtení</span>
+                  <span className="footer-stat-num">6</span>
+                  <span className="footer-stat-label">návodů krok za krokem</span>
                 </div>
               </div>
             </div>
@@ -127,9 +127,12 @@ export default function RootLayout({
                   <Link href="/checklisty">Checklisty</Link>
                   <Link href="/blog">Blog</Link>
                 </div>
-                <div className="footer-cta-mini">
-                  <span>🐼</span>
-                  <span>Náš guru nikdy nespí.<br />Ptej se kdykoliv.</span>
+                <div className="footer-col-title" style={{marginTop: 20}}>Checklisty</div>
+                <div className="footer-links">
+                  <Link href="/checklisty/jarni-udrzba">🌱 Jarní údržba domu</Link>
+                  <Link href="/checklisty/stehovani">📦 Stěhování</Link>
+                  <Link href="/checklisty/zimni-priprava">❄️ Zimní příprava</Link>
+                  <Link href="/checklisty">Všechny checklisty →</Link>
                 </div>
               </div>
             </div>
@@ -250,20 +253,7 @@ export default function RootLayout({
             line-height: 1.4;
           }
           .footer-links a:hover { color: #c8a97a; }
-          .footer-cta-mini {
-            display: flex;
-            align-items: flex-start;
-            gap: 8px;
-            margin-top: 20px;
-            padding: 12px 14px;
-            background: #201d1a;
-            border-radius: 8px;
-            border: 1px solid #2a2622;
-            font-size: 12px;
-            line-height: 1.55;
-            color: #504840;
-          }
-          .footer-cta-mini span:first-child { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+          
           .footer-bottom {
             border-top: 1px solid #201e1b;
             padding: 20px 0;
