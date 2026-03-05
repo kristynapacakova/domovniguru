@@ -18,7 +18,7 @@ const jsonLd = {
 };
 
 const RELATED = [
-  { title: "Jak postavit vyvýšený záhon", href: "/blog/vyvseny-zahon-postup", read: "6 min" },
+  { title: "Jak postavit vyvýšený záhon", href: "/blog/vyvyseny-zahon-postup", read: "6 min" },
   { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "6 min" },
   { title: "Jak kompostovat doma a na zahradě", href: "/blog/jak-kompostovat", read: "4 min" },
   { title: "Jak správně zalévat zahradu", href: "/blog/jak-spravne-zalevat", read: "4 min" },
