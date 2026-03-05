@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut | DomovniGuru",
   description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-odvzdusit-radiator" },
+  alternates: { canonical: "https://domovniguru.cz/navody/jak-odvzdusnit-radiator" },
 };
 
 export default function JakOdvzdusnitRadiator() {
