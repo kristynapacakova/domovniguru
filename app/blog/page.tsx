@@ -21,8 +21,8 @@ type Category = {
 };
 
 const CATS: Category[] = [
-  { key: "vse",       label: "Vše",                         count: 103 },
-  { key: "malovani",  label: "🎨 Malování & barvy",         count: 20  },
+  { key: "vse",       label: "Vše",                         count: 104 },
+  { key: "malovani",  label: "🎨 Malování & barvy",         count: 21  },
   { key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 20  },
   { key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 22  },
   { key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 20  },
@@ -30,7 +30,7 @@ const CATS: Category[] = [
 ];
 
 const ARTICLES: Article[] = [
-  // ── Malování (1–20) ──────────────────────────────────────────────────────
+  // ── Malování (1–20 + 104) ────────────────────────────────────────────────
   { id: 1,  cat: "malovani",  catLabel: "Malování & barvy",         title: "Jak malovat zeď – kompletní průvodce pro začátečníky",  desc: "Krok za krokem: příprava podkladu, nátěr, výběr barvy.",                          slug: "jak-malovat-zed",                     read: "5 min" },
   { id: 2,  cat: "malovani",  catLabel: "Malování & barvy",         title: "Kolik barvy potřebuji? Kalkulačka + vzorec",            desc: "Spočítej přesné množství barvy na místnost.",                                     slug: "kolik-barvy-potrebuji",               read: "3 min" },
   { id: 3,  cat: "malovani",  catLabel: "Malování & barvy",         title: "Latexová vs. akrylátová barva – jaký je rozdíl?",       desc: "Srovnání dvou nejpopulárnějších barev na zeď.",                                   slug: "latexova-vs-akrylatova-barva",        read: "4 min" },
@@ -51,6 +51,7 @@ const ARTICLES: Article[] = [
   { id: 18, cat: "malovani",  catLabel: "Malování & barvy",         title: "Jak správně míchat barvy – RAL a NCS systém",           desc: "Co je RAL kód a jak objednat přesný odstín.",                                    slug: "michani-barev-ral-ncs",               read: "4 min" },
   { id: 19, cat: "malovani",  catLabel: "Malování & barvy",         title: "Jak malovat radiátory a kovové povrchy",                desc: "Speciální barva, příprava povrchu, počet vrstev.",                                slug: "malovat-radiatory-kovy",              read: "4 min" },
   { id: 20, cat: "malovani",  catLabel: "Malování & barvy",         title: "Barva se loupe – co jde špatně a jak to napravit",      desc: "Nejčastější příčiny a řešení.",                                                   slug: "barva-se-loupe",                      read: "4 min" },
+  { id: 104, cat: "malovani", catLabel: "Malování & barvy",         title: "Jak vybrat barvu na zeď – psychologie barev a typy pojiv", desc: "Psychologie barev, omyvatelnost, testování vzorků a RAL systém. Průvodce pro každou místnost.", slug: "jak-vybrat-barvu-na-zed", read: "9 min" },
   // ── Elektrika (21–40) ────────────────────────────────────────────────────
   { id: 21, cat: "elektrika", catLabel: "Elektrika & osvětlení",    title: "Jak vyměnit zásuvku sám – bezpečný postup",             desc: "Vypni jistič, odšroubuj, přepoj. Krok za krokem.",                               slug: "jak-vymenit-zasuvku",                 read: "5 min" },
   { id: 22, cat: "elektrika", catLabel: "Elektrika & osvětlení",    title: "Jak vyměnit vypínač světla",                            desc: "Jednopólový nebo dvojitý – postup a bezpečnost.",                                 slug: "jak-vymenit-vypinac",                 read: "4 min" },
