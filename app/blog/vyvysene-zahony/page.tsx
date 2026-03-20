@@ -52,8 +52,8 @@ export default function ArticlePage() {
 
             {/* HERO ILLUSTRATION — průřez záhonem */}
             <div className="hero-illustration" aria-hidden="true">
-              <svg viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
-                <rect width="760" height="220" fill="#f5f2ec"/>
+              <svg viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
+                <rect width="900" height="220" fill="#f5f2ec"/>
                 <defs>
                   <linearGradient id="vetveGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stopColor="#8B6340"/>
