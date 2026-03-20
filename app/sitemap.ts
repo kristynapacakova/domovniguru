@@ -36,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog/jak-sekat-travnik`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/blog/terasa-na-balkone`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/blog/jak-kompostovat`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE}/blog/tepelne-cerpadlo-pruvodce`, changeFrequency: "monthly", priority: 0.8 },
     // Kalkulačky
     { url: `${BASE}/kalkulacky/kolik-barvy`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-laminatu`, changeFrequency: "monthly", priority: 0.7 },
