@@ -317,7 +317,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Odvzdušňování za chodu čerpadla:</strong> Pohybující se voda nedovolí vzduchu správně uniknout. Vždy vypni čerpadlo před odvzdušněním.</li>
                 <li><strong>Příliš velké otevření ventilu:</strong> Stačí čtvrt otáčky. Větší otevření způsobí silný proud vody a špinění okolí.</li>
-                <li><strong:>Odvzdušnění jen jednoho radiátoru:</strong> Vzduch bývá ve více místech. Projdi všechny radiátory v domě.</li>
+                <li><strong>Odvzdušnění jen jednoho radiátoru:</strong> Vzduch bývá ve více místech. Projdi všechny radiátory v domě.</li>
                 <li><strong>Nekontrolování tlaku po odvzdušnění:</strong> Zapomenutý nízký tlak poškozuje soustavu a kotel. Vždy zkontroluj a případně doplň vodu.</li>
                 <li><strong>Ignorování opakovaného poklesu tlaku:</strong> Pokud tlak klesá opakovaně, je to příznak netěsnosti — ne důvod k pravidelnému doplňování.</li>
               </ul>
