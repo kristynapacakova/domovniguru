@@ -24,7 +24,7 @@ export default function JarniZahradaPage() {
           </h1>
           
           {/* ✅ OPRAVA: rodič musí mít position:relative A pevnou výšku */}
-          <div className="relative w-full h-64 sm:h-80 md:h-96 rounded-2xl mb-4 overflow-hidden shadow-lg border border-slate-200">
+          <div className="relative w-full h-52 sm:h-64 md:h-72 rounded-2xl mb-4 overflow-hidden shadow-lg border border-slate-200">
             <Image 
               src="/images/zahrada-jaro-hero.png" 
               alt="Krásně upravená jarní zahrada s rozkvetlými stromy, připravenými záhony a zahradním nářadím"
