@@ -47,7 +47,8 @@ export default function RootLayout({
         </nav>
 
         {/* ── Page content ── */}
-        <main>{children}</main>
+        {/* ✅ OPRAVA: přidán wrap pro omezení šířky obsahu */}
+        <main className="wrap">{children}</main>
 
         {/* ── Footer ── */}
         <footer className="site-footer">
