@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata = {
   title: 'Jak připravit zahradu na jaro: Kompletní průvodce a checklist',
@@ -23,16 +22,12 @@ export default function JarniZahradaPage() {
             Jak připravit zahradu na jaro: Kompletní průvodce a checklist 2026
           </h1>
           
-          {/* ✅ OPRAVA: rodič musí mít position:relative A pevnou výšku */}
-          <div className="relative w-full h-52 sm:h-64 md:h-72 rounded-2xl mb-4 overflow-hidden shadow-lg border border-slate-200">
-            <Image 
-              src="/images/zahrada-jaro-hero.png" 
-              alt="Krásně upravená jarní zahrada s rozkvetlými stromy, připravenými záhony a zahradním nářadím"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
+          {/* OBRÁZEK - standardní img tag, žádné fill problémy */}
+          <img
+            src="/images/zahrada-jaro-hero.png"
+            alt="Krásně upravená jarní zahrada s rozkvetlými stromy, připravenými záhony a zahradním nářadím"
+            className="w-full h-64 object-cover rounded-2xl mb-4 shadow-lg border border-slate-200"
+          />
           <p className="text-sm text-slate-400 italic text-center mb-8">Příprava v březnu je základem úspěšné sezóny.</p>
 
           <p className="text-xl text-slate-600 mb-8 leading-relaxed">
