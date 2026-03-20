@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak připravit zahradu na jaro – kompletní checklist 2025",
@@ -263,6 +264,11 @@ export default function ArticlePage() {
             </section>
 
             {/* RELATED */}
+            <ShareButtons
+              url="https://domovniguru.cz/blog/jarni-zahrada"
+              title="Jak připravit zahradu na jaro – kompletní checklist 2025"
+            />
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
