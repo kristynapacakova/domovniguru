@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-// 1. METADATA - tohle uvidí lidi v Googlu
 export const metadata = {
   title: 'Jak připravit zahradu na jaro: Kompletní průvodce a checklist',
   description: 'Nepodceňte jarní start! Přinášíme podrobný návod na vertikutaci trávníku, prořezávání dřevin a přípravu záhonů pro bohatou úrodu.',
@@ -19,14 +18,13 @@ export default function JarniZahradaPage() {
       </nav>
 
       <article>
-        {/* NADPIS A ÚVOD */}
         <header className="mb-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900 leading-tight">
             Jak připravit zahradu na jaro: Kompletní průvodce a checklist 2026
           </h1>
           
-          {/* HLAVNÍ OBRÁZEK - REÁLNÝ */}
-          <div className="relative w-full aspect-video rounded-2xl mb-4 overflow-hidden shadow-lg border border-slate-200">
+          {/* ✅ OPRAVA: rodič musí mít position:relative A pevnou výšku */}
+          <div className="relative w-full h-64 sm:h-80 md:h-96 rounded-2xl mb-4 overflow-hidden shadow-lg border border-slate-200">
             <Image 
               src="/images/zahrada-jaro-hero.png" 
               alt="Krásně upravená jarní zahrada s rozkvetlými stromy, připravenými záhony a zahradním nářadím"
@@ -42,7 +40,7 @@ export default function JarniZahradaPage() {
           </p>
         </header>
 
-        {/* TABULKA - Google miluje data */}
+        {/* TABULKA */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4 text-slate-900">Časový plán jarních prací</h2>
           <div className="overflow-x-auto border border-slate-200 rounded-lg shadow-sm">
