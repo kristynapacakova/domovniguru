@@ -21,12 +21,12 @@ type Category = {
 };
 
 const CATS: Category[] = [
-  { key: "vse",       label: "Vše",                         count: 102 },
+  { key: "vse",       label: "Vše",                         count: 103 },
   { key: "malovani",  label: "🎨 Malování & barvy",         count: 20  },
   { key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 20  },
   { key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 22  },
   { key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 20  },
-  { key: "sezonni",   label: "❄️ Sezónní údržba",          count: 20  },
+  { key: "sezonni",   label: "❄️ Sezónní údržba",          count: 21  },
 ];
 
 const ARTICLES: Article[] = [
@@ -116,7 +116,7 @@ const ARTICLES: Article[] = [
   { id: 78, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak zbavit byt zápachu po rekonstrukci",                desc: "Rychlé větrání a neutralizace pachů.",                                            slug: "zbavit-byt-zapachu-po-rekonstrukci",  read: "3 min" },
   { id: 79, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak přihlásit trvalý pobyt na nové adrese",             desc: "Postup, dokumenty, lhůty.",                                                       slug: "prihlasit-trvaly-pobyt",              read: "3 min" },
   { id: 80, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Co zkontrolovat při přebírání nového bytu",             desc: "Elektrika, voda, topení, dokumenty.",                                             slug: "prebrani-bytu-checklist",             read: "4 min" },
-  // ── Sezónní (81–100) ─────────────────────────────────────────────────────
+  // ── Sezónní (81–100 + 103) ───────────────────────────────────────────────
   { id: 81,  cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak připravit dům na zimu – kompletní checklist",       desc: "Kotel, okna, okapy, voda – co zkontrolovat.",                                    slug: "jak-pripravit-dum-na-zimu",           read: "5 min" },
   { id: 82,  cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak odvzdušnit radiátory – krok za krokem",             desc: "Studený radiátor nahoře? Za 10 minut to vyřešíš.",                               slug: "jak-odvzdusnit-radiatory",             read: "3 min" },
   { id: 83,  cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak vyčistit okapy na podzim",                         desc: "Listí, mech – bezpečné čištění.",                                                 slug: "jak-vycistit-okapy",                  read: "4 min" },
@@ -137,6 +137,7 @@ const ARTICLES: Article[] = [
   { id: 98,  cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak pečovat o septik a žumpu",                         desc: "Frekvence vyvážení, životnost.",                                                  slug: "pece-o-septik-zumpu",                 read: "4 min" },
   { id: 99,  cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak odlehčit střechu od sněhu",                        desc: "Kdy je nebezpečný a jak ho odstranit.",                                           slug: "odlehcit-strechu-od-snehu",           read: "4 min" },
   { id: 100, cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak správně topit v topné sezóně",                     desc: "Teploty, přetápění, větrání.",                                                    slug: "jak-spravne-topit",                   read: "4 min" },
+  { id: 103, cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací", desc: "Srovnání typů, reálné úspory, návratnost a dotace NZÚ 2026.",         slug: "tepelne-cerpadlo-pruvodce",           read: "11 min" },
 ];
 
 function BlogContent() {
