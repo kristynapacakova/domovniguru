@@ -1,19 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak vybrat správnou LED žárovku – Kelvin, lumen, CRI 2025",
-  description: "Co znamenají čísla na krabičce LED žárovky? Průvodce výběrem podle místnosti, teploty světla a objímky.",
+  title: "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami",
+  description: "Watt vs. lumen, Kelviny, CRI index, patice E27/E14/GU10. Kompletní průvodce výběrem LED žárovky pro každou místnost a reálné úspory při výměně.",
   alternates: { canonical: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku" },
-  openGraph: { title: "Jak vybrat správnou LED žárovku", description: "Kelvin, lumen, CRI – co znamenají čísla na krabičce.", url: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-01T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory. Průvodce výběrem LED pro každou místnost.", url: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
+  twitter: { card: "summary_large_image", title: "Jak vybrat LED žárovku 2026", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-vybrat-led-zarovku#article", "headline": "Jak vybrat správnou LED žárovku", "datePublished": "2025-02-01T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-vybrat-led-zarovku#article", "headline": "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat LED žárovku", "LED žárovka watt lumen", "teplota světla Kelviny", "CRI index", "úspora LED žárovky", "E27 E14 GU10"] }] };
 
 const RELATED = [
   { title: "LED vs. žárovky – co se skutečně vyplatí?", href: "/blog/led-vs-zarovky", read: "4 min" },
-  { title: "Jak zapojit nové světlo na strop", href: "/blog/zapojit-svetlo-na-strop", read: "5 min" },
   { title: "Jak snížit účet za elektřinu doma", href: "/blog/snizit-ucet-za-elektrinu", read: "5 min" },
+  { title: "Jak osvětlit kuchyňskou linku", href: "/blog/osvetlit-kuchynskou-linku", read: "4 min" },
   { title: "Jak nainstalovat stmívač světla", href: "/blog/instalovat-stmivac", read: "4 min" },
 ];
 
@@ -24,6 +26,8 @@ export default function ArticlePage() {
       <div className="wrap">
         <div className="article-layout">
           <article className="article-body">
+
+            {/* BREADCRUMB */}
             <nav className="breadcrumb" aria-label="Breadcrumb">
               <Link href="/">Domů</Link><span className="breadcrumb-sep">/</span>
               <Link href="/blog">Blog</Link><span className="breadcrumb-sep">/</span>
@@ -31,167 +35,420 @@ export default function ArticlePage() {
               <span>Jak vybrat LED žárovku</span>
             </nav>
 
+            {/* HEADER */}
             <header className="article-header">
               <div className="article-meta-top">
                 <Link href="/blog/kategorie/elektrika" className="article-cat-pill">⚡ Elektrika & osvětlení</Link>
-                <span className="article-read-time">⏱ 5 min čtení</span>
+                <span className="article-read-time">⏱ 8 min čtení</span>
               </div>
-              <h1 className="article-h1">Jak vybrat správnou LED žárovku</h1>
-              <p className="article-lead">Kelvin, lumen, CRI, E27, GU10 — krabička od LED žárovky vypadá jako technická dokumentace. Tady je co každé číslo znamená a jak vybrat žárovku pro každou místnost.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <h1 className="article-h1">Jak vybrat LED žárovku: Průvodce parametry, barvou světla a úsporami</h1>
+              <p className="article-lead">Krabička od LED žárovky je plná čísel — watt, lumen, kelvin, CRI. Víme co každé číslo znamená a jak ho použít pro výběr správné žárovky do každé místnosti. Plus reálné úspory při výměně celého bytu.</p>
+              <div className="article-meta-row"><span>Aktualizováno: 21. března 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons
+                url="https://domovniguru.cz/blog/jak-vybrat-led-zarovku"
+                title="Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami"
+              />
             </header>
 
             {/* HERO ILLUSTRATION */}
             <div className="hero-illustration" aria-hidden="true">
-              <svg viewBox="0 0 760 180" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
-                <rect width="760" height="180" fill="#fdf8f2"/>
+              <svg viewBox="0 0 760 210" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
+                <rect width="760" height="210" fill="#fdf8f0"/>
+                <defs>
+                  <linearGradient id="ledBgGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                    <stop offset="0%" stopColor="#fdf6e8"/>
+                    <stop offset="100%" stopColor="#f8f0e0"/>
+                  </linearGradient>
+                  <linearGradient id="kelvinGrad" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+                    <stop offset="0%" stopColor="#ffcc44"/>
+                    <stop offset="35%" stopColor="#fff4cc"/>
+                    <stop offset="65%" stopColor="#f0f8ff"/>
+                    <stop offset="100%" stopColor="#b0d0ff"/>
+                  </linearGradient>
+                </defs>
 
-                {/* Teplá žárovka — 2700K */}
-                <g transform="translate(60, 20)">
-                  <ellipse cx="70" cy="75" rx="45" ry="50" fill="#f4c842" opacity="0.25"/>
-                  <ellipse cx="70" cy="75" rx="30" ry="34" fill="#f4c842" opacity="0.35"/>
-                  <ellipse cx="70" cy="60" rx="22" ry="26" fill="none" stroke="#f4c842" strokeWidth="2" opacity="0.7"/>
-                  <rect x="58" y="84" width="24" height="10" rx="2" fill="#c8a97a" opacity="0.6"/>
-                  <rect x="60" y="92" width="20" height="18" rx="3" fill="#c8b89a" opacity="0.5"/>
-                  <rect x="62" y="108" width="16" height="8" rx="2" fill="#9a8a7a" opacity="0.6"/>
-                  {/* Teplé paprsky */}
-                  {[0,45,90,135,180,225,270,315].map((angle,i)=>{
-                    const r1=36, r2=50;
-                    const a = angle * Math.PI / 180;
-                    return <line key={i} x1={70+r1*Math.cos(a)} y1={60+r1*Math.sin(a)} x2={70+r2*Math.cos(a)} y2={60+r2*Math.sin(a)} stroke="#f4c842" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
-                  })}
-                </g>
-                <text x="130" y="158" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#9a8a7a" textAnchor="middle">2700 K – teplá</text>
+                <rect width="760" height="210" fill="url(#ledBgGrad)"/>
 
-                {/* Neutrální žárovka — 4000K */}
-                <g transform="translate(290, 20)">
-                  <ellipse cx="70" cy="75" rx="45" ry="50" fill="#f0f4e8" opacity="0.3"/>
-                  <ellipse cx="70" cy="75" rx="30" ry="34" fill="#e8f0d8" opacity="0.4"/>
-                  <ellipse cx="70" cy="60" rx="22" ry="26" fill="none" stroke="#a0b870" strokeWidth="2" opacity="0.7"/>
-                  <rect x="58" y="84" width="24" height="10" rx="2" fill="#c8a97a" opacity="0.6"/>
-                  <rect x="60" y="92" width="20" height="18" rx="3" fill="#c8b89a" opacity="0.5"/>
-                  <rect x="62" y="108" width="16" height="8" rx="2" fill="#9a8a7a" opacity="0.6"/>
-                  {[0,45,90,135,180,225,270,315].map((angle,i)=>{
-                    const r1=36, r2=50;
-                    const a = angle * Math.PI / 180;
-                    return <line key={i} x1={70+r1*Math.cos(a)} y1={60+r1*Math.sin(a)} x2={70+r2*Math.cos(a)} y2={60+r2*Math.sin(a)} stroke="#a0b870" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
-                  })}
+                {/* === KLASICKÁ ŽÁROVKA (vlevo) === */}
+                <g transform="translate(48, 20)">
+                  {/* Baňka */}
+                  <ellipse cx="45" cy="52" rx="38" ry="42" fill="#f5e8c0" stroke="#d4c080" strokeWidth="1.5" opacity="0.9"/>
+                  {/* Záře kolem */}
+                  <ellipse cx="45" cy="52" rx="48" ry="52" fill="#f9d84a" opacity="0.08"/>
+                  {/* Vlákno */}
+                  <path d="M38 55 Q40 40 42 55 Q44 70 46 55 Q48 40 50 55 Q52 70 54 55" stroke="#e09020" strokeWidth="1.8" fill="none" strokeLinecap="round"/>
+                  <line x1="38" y1="55" x2="38" y2="72" stroke="#c07010" strokeWidth="1.2"/>
+                  <line x1="54" y1="55" x2="54" y2="72" stroke="#c07010" strokeWidth="1.2"/>
+                  {/* Patice */}
+                  <rect x="30" y="88" width="30" height="8" rx="2" fill="#b0a080" stroke="#908060" strokeWidth="1"/>
+                  <rect x="32" y="96" width="26" height="14" rx="1" fill="#989070" stroke="#807850" strokeWidth="1"/>
+                  {[35,39,43,47,51,55].map((x,i)=>(
+                    <line key={i} x1={x} y1="96" x2={x} y2="110" stroke="#706840" strokeWidth="0.7" opacity="0.5"/>
+                  ))}
+                  {/* Popisky */}
+                  <text x="45" y="128" textAnchor="middle" fontSize="9" fill="#8a7040" fontWeight="700">KLASICKÁ</text>
+                  <text x="45" y="140" textAnchor="middle" fontSize="8" fill="#a09060">60 W = 60 W</text>
+                  {/* Křížek */}
+                  <circle cx="80" cy="30" r="10" fill="#e07a5f" opacity="0.15"/>
+                  <path d="M74 24 L86 36 M86 24 L74 36" stroke="#c05030" strokeWidth="2" strokeLinecap="round"/>
+                  {/* Spotřeba */}
+                  <rect x="5" y="150" width="80" height="22" rx="4" fill="#e07a5f" opacity="0.12"/>
+                  <text x="45" y="165" textAnchor="middle" fontSize="8" fill="#c05030" fontWeight="600">💸 800 Kč/rok</text>
                 </g>
-                <text x="360" y="158" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#9a8a7a" textAnchor="middle">4000 K – neutrální</text>
 
-                {/* Studená žárovka — 6500K */}
-                <g transform="translate(520, 20)">
-                  <ellipse cx="70" cy="75" rx="45" ry="50" fill="#deeaf5" opacity="0.3"/>
-                  <ellipse cx="70" cy="75" rx="30" ry="34" fill="#d0e4f4" opacity="0.4"/>
-                  <ellipse cx="70" cy="60" rx="22" ry="26" fill="none" stroke="#7ab0d0" strokeWidth="2" opacity="0.7"/>
-                  <rect x="58" y="84" width="24" height="10" rx="2" fill="#c8a97a" opacity="0.6"/>
-                  <rect x="60" y="92" width="20" height="18" rx="3" fill="#c8b89a" opacity="0.5"/>
-                  <rect x="62" y="108" width="16" height="8" rx="2" fill="#9a8a7a" opacity="0.6"/>
-                  {[0,45,90,135,180,225,270,315].map((angle,i)=>{
-                    const r1=36, r2=50;
-                    const a = angle * Math.PI / 180;
-                    return <line key={i} x1={70+r1*Math.cos(a)} y1={60+r1*Math.sin(a)} x2={70+r2*Math.cos(a)} y2={60+r2*Math.sin(a)} stroke="#7ab0d0" strokeWidth="1.5" strokeLinecap="round" opacity="0.5"/>
-                  })}
+                {/* Šipka přechodu */}
+                <g transform="translate(148, 85)">
+                  <path d="M0 20 L35 20" stroke="#c8b89a" strokeWidth="2" strokeLinecap="round"/>
+                  <path d="M31 15 L37 20 L31 25" stroke="#c8b89a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                  <text x="18" y="12" textAnchor="middle" fontSize="8" fill="#a09070">náhrada</text>
                 </g>
-                <text x="590" y="158" fontFamily="var(--font-sans,sans-serif)" fontSize="9" fill="#9a8a7a" textAnchor="middle">6500 K – studená</text>
+
+                {/* === LED ŽÁROVKA (střed-vlevo) === */}
+                <g transform="translate(195, 20)">
+                  {/* Baňka */}
+                  <ellipse cx="45" cy="52" rx="38" ry="42" fill="#e8f4ff" stroke="#90c0e0" strokeWidth="1.5" opacity="0.95"/>
+                  {/* Záře */}
+                  <ellipse cx="45" cy="52" rx="50" ry="55" fill="#a0d8ff" opacity="0.06"/>
+                  {/* LED čipy */}
+                  {[[30,48],[45,38],[60,48],[35,60],[55,60],[45,62]].map(([x,y],i)=>(
+                    <g key={i}>
+                      <rect x={x-5} y={y-4} width="10" height="8" rx="2" fill="#40a8e0" opacity="0.8"/>
+                      <ellipse cx={x} cy={y} rx="3" ry="2.5" fill="#80d8ff" opacity="0.9"/>
+                    </g>
+                  ))}
+                  {/* Dissipátor */}
+                  <rect x="27" y="90" width="36" height="10" rx="2" fill="#70a0c0" stroke="#5080a0" strokeWidth="1"/>
+                  {[30,36,42,48,54,60].map((x,i)=>(
+                    <line key={i} x1={x} y1="90" x2={x} y2="100" stroke="#4070a0" strokeWidth="1" opacity="0.6"/>
+                  ))}
+                  {/* Patice */}
+                  <rect x="30" y="100" width="30" height="8" rx="2" fill="#b0a080" stroke="#908060" strokeWidth="1"/>
+                  <rect x="32" y="108" width="26" height="12" rx="1" fill="#989070" stroke="#807850" strokeWidth="1"/>
+                  {/* Popisky */}
+                  <text x="45" y="133" textAnchor="middle" fontSize="9" fill="#2a6090" fontWeight="700">LED</text>
+                  <text x="45" y="145" textAnchor="middle" fontSize="8" fill="#4080b0">9 W = 60 W světla</text>
+                  {/* Fajfka */}
+                  <circle cx="80" cy="30" r="10" fill="#5a9e6f" opacity="0.15"/>
+                  <path d="M74 30 L78 35 L86 23" stroke="#3a7e4f" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                  {/* Úspora */}
+                  <rect x="5" y="152" width="80" height="22" rx="4" fill="#5a9e6f" opacity="0.12"/>
+                  <text x="45" y="167" textAnchor="middle" fontSize="8" fill="#3a7e4f" fontWeight="600">💰 120 Kč/rok</text>
+                </g>
+
+                {/* === KELVIN SPEKTRUM (vpravo) === */}
+                <g transform="translate(320, 15)">
+                  <text x="200" y="12" textAnchor="middle" fontSize="10" fill="#6a5a3a" fontWeight="700" letterSpacing="0.05em">TEPLOTA SVĚTLA (KELVINY)</text>
+                  {/* Barevný pruh */}
+                  <rect x="0" y="20" width="400" height="28" rx="6" fill="url(#kelvinGrad)" stroke="#e0d8c8" strokeWidth="1"/>
+                  {/* Svislé dělicí čáry */}
+                  {[0,100,200,300,400].map((x,i)=>(
+                    <line key={i} x1={x} y1="20" x2={x} y2="48" stroke="#c0b090" strokeWidth="0.5" opacity="0.4"/>
+                  ))}
+                  {/* Kelviny */}
+                  {[
+                    {x:0,   label:"2700 K"},
+                    {x:100, label:"3000 K"},
+                    {x:200, label:"4000 K"},
+                    {x:300, label:"5000 K"},
+                    {x:400, label:"6500 K"},
+                  ].map(({x,label})=>(
+                    <text key={label} x={x} y="60" textAnchor="middle" fontSize="8" fill="#8a7050" fontWeight="600">{label}</text>
+                  ))}
+                  {/* Popisy místností */}
+                  {[
+                    {x:30,  icon:"🛏️", name:"Ložnice"},
+                    {x:110, icon:"🛋️", name:"Obývák"},
+                    {x:205, icon:"🍳", name:"Kuchyně"},
+                    {x:305, icon:"💼", name:"Pracovna"},
+                    {x:385, icon:"🔧", name:"Garáž"},
+                  ].map(({x,icon,name})=>(
+                    <g key={name}>
+                      <line x1={x} y1="48" x2={x} y2="70" stroke="#c0b090" strokeWidth="1" strokeDasharray="2,2" opacity="0.6"/>
+                      <text x={x} y="83" textAnchor="middle" fontSize="11">{icon}</text>
+                      <text x={x} y="96" textAnchor="middle" fontSize="7.5" fill="#6a5a3a" fontWeight="600">{name}</text>
+                    </g>
+                  ))}
+
+                  {/* Legenda teplé/studené */}
+                  <text x="30" y="115" textAnchor="middle" fontSize="8" fill="#c08020" fontWeight="600">← Teplá bílá</text>
+                  <text x="370" y="115" textAnchor="middle" fontSize="8" fill="#4060c0" fontWeight="600">Studená bílá →</text>
+
+                  {/* Úspora blok */}
+                  <rect x="100" y="125" width="200" height="32" rx="6" fill="#5a9e6f" opacity="0.12" stroke="#5a9e6f" strokeWidth="1"/>
+                  <text x="200" y="141" textAnchor="middle" fontSize="10" fill="#3a7e4f" fontWeight="700">💰 Úspora až 85 % energie</text>
+                  <text x="200" y="153" textAnchor="middle" fontSize="8" fill="#5a9e6f">oproti klasické žárovce</text>
+                </g>
+
+                {/* === DOLNÍ LIŠTA v SVG === */}
+                <rect y="190" width="760" height="20" fill="#f5f0e8" opacity="0.8"/>
+                <text x="95"  y="203" textAnchor="middle" fontSize="8" fill="#8a7040" fontWeight="600" letterSpacing="0.04em">💡 VLÁKNO VS. LED ČIPY</text>
+                <text x="285" y="203" textAnchor="middle" fontSize="8" fill="#8a7040" fontWeight="600" letterSpacing="0.04em">🌡️ 2700–6500 K SPEKTRUM</text>
+                <text x="475" y="203" textAnchor="middle" fontSize="8" fill="#8a7040" fontWeight="600" letterSpacing="0.04em">💰 ÚSPORA AŽ 85 %</text>
+                <text x="650" y="203" textAnchor="middle" fontSize="8" fill="#8a7040" fontWeight="600" letterSpacing="0.04em">⏱️ ŽIVOTNOST 15 000+ HODIN</text>
               </svg>
-              <div style={{display:"flex",justifyContent:"space-around",padding:"4px 60px 12px",fontSize:"9px",letterSpacing:"0.1em",color:"#c8b89a",textTransform:"uppercase"}}>
-                <span>Ložnice, obývák</span>
-                <span>Kuchyně, pracovna</span>
-                <span>Garáž, sklep</span>
-              </div>
             </div>
 
+            {/* TOC */}
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>
               <ol className="toc-list">
-                <li><a href="#kelvin">Teplota světla – Kelvin (K)</a></li>
-                <li><a href="#lumen">Jas – lumen (lm)</a></li>
-                <li><a href="#cri">Index podání barev – CRI</a></li>
-                <li><a href="#objimky">Typy objímek</a></li>
-                <li><a href="#mistnosti">Co kam – podle místnosti</a></li>
-                <li><a href="#stmivani">Stmívatelné LED</a></li>
+                <li><a href="#watt-lumen">Watt vs. lumen – co vlastně kupujeme</a></li>
+                <li><a href="#kelviny">Teplota světla – Kelviny a barva</a></li>
+                <li><a href="#krabicka">Na co koukat na krabičce</a></li>
+                <li><a href="#mistnosti">Jakou LED do které místnosti</a></li>
+                <li><a href="#uspory">Reálné úspory při výměně žárovek</a></li>
+                <li><a href="#chyby">Nejčastější chyby při výběru LED</a></li>
+                <li><a href="#faq">FAQ</a></li>
               </ol>
             </nav>
 
-            <section id="kelvin">
-              <h2>Teplota světla – Kelvin (K)</h2>
-              <p>Kelvin říká jak "teplé" nebo "studené" světlo bude. Nemá nic společného s teplotou žárovky — je to jen popis barvy světla.</p>
+            {/* SECTION 1 */}
+            <section id="watt-lumen">
+              <h2>Watt vs. lumen – co vlastně kupujeme</h2>
+              <p>Největší zmatek při výběru LED žárovky způsobuje to, že jsme zvyklí porovnávat žárovky podle wattů — ale watt měří <strong>příkon (spotřebu energie)</strong>, ne jas. U klasických žárovek byl příkon a jas přímočaře propojený — 60 W znamenalo vždy přibližně stejný jas. U LED to neplatí.</p>
+              <p>Správná jednotka pro porovnání jasu je <strong>lumen (lm)</strong>. Čím více lumenů, tím jasnější světlo. LED žárovky jsou výrazně efektivnější — na stejný jas spotřebují 5–10× méně energie.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
-                  <thead><tr><th>Hodnota</th><th>Barva světla</th><th>Vhodné pro</th></tr></thead>
+                  <thead>
+                    <tr>
+                      <th>Klasická žárovka</th>
+                      <th>Světelný tok (lm)</th>
+                      <th>LED náhrada (W)</th>
+                      <th>Úspora energie</th>
+                      <th>Roční úspora (Kč)*</th>
+                    </tr>
+                  </thead>
                   <tbody>
-                    <tr><td>2700–3000 K</td><td>Teplá bílá (žlutavá)</td><td>Ložnice, obývák, jídelna</td></tr>
-                    <tr><td>3500–4000 K</td><td>Neutrální bílá</td><td>Kuchyně, koupelna, pracovna</td></tr>
-                    <tr><td>5000–6500 K</td><td>Studená bílá (namodralá)</td><td>Garáž, sklep, průmyslové prostory</td></tr>
+                    <tr>
+                      <td><strong>25 W</strong></td>
+                      <td>220–250 lm</td>
+                      <td>3–4 W LED</td>
+                      <td>85 %</td>
+                      <td>~110 Kč</td>
+                    </tr>
+                    <tr>
+                      <td><strong>40 W</strong></td>
+                      <td>400–450 lm</td>
+                      <td>5–6 W LED</td>
+                      <td>85 %</td>
+                      <td>~175 Kč</td>
+                    </tr>
+                    <tr>
+                      <td><strong>60 W</strong></td>
+                      <td>700–800 lm</td>
+                      <td>8–10 W LED</td>
+                      <td>85 %</td>
+                      <td>~260 Kč</td>
+                    </tr>
+                    <tr>
+                      <td><strong>75 W</strong></td>
+                      <td>900–1000 lm</td>
+                      <td>11–13 W LED</td>
+                      <td>83 %</td>
+                      <td>~320 Kč</td>
+                    </tr>
+                    <tr>
+                      <td><strong>100 W</strong></td>
+                      <td>1300–1500 lm</td>
+                      <td>14–16 W LED</td>
+                      <td>85 %</td>
+                      <td>~430 Kč</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
-              <div className="article-tip"><strong>💡 Doporučení:</strong> Pro domácnost volte 2700–3000 K — studená světla (6500 K) jsou nepříjemná pro dlouhodobý pobyt a narušují spánek.</div>
+              <p style={{fontSize:"12px",color:"#9a8a7a"}}>* Výpočet při 4 hodinách svícení denně, cena elektřiny 6 Kč/kWh</p>
+              <div className="article-tip"><strong>💡 Tip:</strong> Na krabičce hledej <strong>lm (lumen)</strong> jako hlavní parametr jasu — ne watty. Pro běžné svícení v místnosti potřebuješ 300–500 lm na m² plochy.</div>
             </section>
 
-            <section id="lumen">
-              <h2>Jas – lumen (lm)</h2>
-              <p>Lumen měří kolik světla žárovka skutečně vydá — ne kolik energie spotřebuje. Watty u LED nemají smysl porovnávat se starými žárovkami přímo — proto je na krabičce vždy uvedena i "ekvivalentní" hodnota.</p>
+            {/* SECTION 2 — KELVINY */}
+            <section id="kelviny">
+              <h2>Teplota světla – Kelviny a barva světla</h2>
+              <p>Druhý nejdůležitější parametr po jasu je <strong>teplota světla v Kelvinech (K)</strong>. Určuje barvu světla — od teplé žluté přes neutrální bílou až po studenou modrobílou. Stejně jako jas ovlivňuje to, jak se v místnosti cítíme.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
-                  <thead><tr><th>Stará žárovka</th><th>Odpovídá LED</th><th>Lumeny</th></tr></thead>
+                  <thead>
+                    <tr>
+                      <th>Teplota světla</th>
+                      <th>Kelviny</th>
+                      <th>Barva světla</th>
+                      <th>Doporučená místnost</th>
+                      <th>Efekt</th>
+                    </tr>
+                  </thead>
                   <tbody>
-                    <tr><td>40 W</td><td>~5–6 W LED</td><td>~450 lm</td></tr>
-                    <tr><td>60 W</td><td>~8–9 W LED</td><td>~800 lm</td></tr>
-                    <tr><td>75 W</td><td>~11–12 W LED</td><td>~1050 lm</td></tr>
-                    <tr><td>100 W</td><td>~14–15 W LED</td><td>~1520 lm</td></tr>
+                    <tr>
+                      <td><strong>Teplá bílá</strong></td>
+                      <td>2 700 K</td>
+                      <td>🟡 Žlutooranžová</td>
+                      <td>Ložnice, obývák, restaurace</td>
+                      <td>Útulnost, relaxace, spánek</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Teplá bílá</strong></td>
+                      <td>3 000 K</td>
+                      <td>🟡 Teplá bílá</td>
+                      <td>Obývák, chodba, koupelna</td>
+                      <td>Příjemná, neunavuje oči</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Neutrální bílá</strong></td>
+                      <td>4 000 K</td>
+                      <td>⬜ Čistá bílá</td>
+                      <td>Kuchyně, koupelna, pracovna</td>
+                      <td>Soustředění, přesné vnímání barev</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Studená bílá</strong></td>
+                      <td>5 000–5 500 K</td>
+                      <td>🔵 Chladná bílá</td>
+                      <td>Pracovna, dílna, obchod</td>
+                      <td>Bdělost, produktivita</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Denní světlo</strong></td>
+                      <td>6 500 K</td>
+                      <td>🔵 Modrobílá</td>
+                      <td>Garáž, sklep, průmysl</td>
+                      <td>Maximální ostrost, technické práce</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
+              <div className="article-tip"><strong>💡 Tip:</strong> Do ložnice vždy 2 700–3 000 K — studené světlo (5 000+ K) potlačuje tvorbu melatoninu a zhoršuje kvalitu spánku. Do kuchyně 4 000 K pro přesné vnímání barev při vaření.</div>
             </section>
 
-            <section id="cri">
-              <h2>Index podání barev – CRI</h2>
-              <p>CRI (Color Rendering Index) říká jak věrně světlo zobrazuje barvy. Stupnice 0–100, kde 100 = přirozené sluneční světlo.</p>
+            {/* SECTION 3 — KRABIČKA CHECKLIST */}
+            <section id="krabicka">
+              <h2>Na co koukat na krabičce – checklist parametrů</h2>
+              <p>Krabička od LED žárovky obsahuje všechny klíčové informace — ale jen pokud víš co hledáš. Tady jsou parametry v pořadí důležitosti.</p>
               <ul>
-                <li><strong>CRI 80+</strong> — standard pro domácnost, barvy vypadají přirozeně</li>
-                <li><strong>CRI 90+</strong> — doporučeno pro koupelnu, šatnu a místa kde záleží na barvách</li>
-                <li><strong>CRI 95+</strong> — profesionální použití (ateliér, galerie, obchod s oblečením)</li>
+                <li>
+                  <strong>✅ Lumen (lm) — jas:</strong> Hlavní parametr. Pro čtení a práci potřebuješ min. 800 lm, pro ambient osvětlení stačí 400–600 lm. Vyhni se žárovkám které udávají jen watty bez lumenů.
+                </li>
+                <li>
+                  <strong>✅ Kelviny (K) — teplota světla:</strong> 2 700 K = teplá útulná, 4 000 K = neutrální pracovní, 6 500 K = studená technická. Viz tabulka výše.
+                </li>
+                <li>
+                  <strong>✅ CRI / Ra — index podání barev:</strong> Udává jak věrně žárovka zobrazuje barvy oproti přirozenému světlu. Hodnota 0–100, přičemž 100 = sluneční světlo. Pro domácnost hledej min. <strong>Ra 80</strong>, pro koupelnu a šatnu ideálně <strong>Ra 90+</strong>. Levné žárovky mají Ra 60–70 — barvy oblečení a potravin budou vypadat jinak než ve skutečnosti.
+                </li>
+                <li>
+                  <strong>✅ Životnost v hodinách:</strong> Kvalitní LED vydrží 15 000–25 000 hodin. Při 4 hodinách svícení denně = 10–17 let. Vyhni se žárovkám s životností pod 10 000 hodin — jsou levné ale krátkodobé.
+                </li>
+                <li>
+                  <strong>✅ Počet spínacích cyklů:</strong> LED žárovky mají omezený počet zapnutí/vypnutí — kvalitní zvládnou 50 000+ cyklů. Do místností s pohybovým senzorem nebo kde se světlo často přepíná (WC, chodba) kupuj žárovky s vysokým počtem cyklů.
+                </li>
+                <li>
+                  <strong>✅ Patice — E27, E14, GU10:</strong> E27 je standardní velká závitová patice (obývák, ložnice). E14 je malá závitová (lustry, nástěnky). GU10 je bodová (koupelna, kuchyňská linka). Vždy zkontroluj patici svítidla před nákupem.
+                </li>
+                <li>
+                  <strong>✅ Stmívatelnost (dimmable):</strong> Ne každá LED je stmívatelná. Pokud máš stmívač, kupuj explicitně označené žárovky <em>dimmable</em> — ostatní blikají nebo se poškodí.
+                </li>
               </ul>
-              <p>Levné žárovky mívají CRI 70–75 — barvy pod nimi vypadají vybledlé a nezdravě. Vždy hledej min. CRI 80.</p>
+              <div className="article-tip"><strong>💡 Tip:</strong> Index CRI/Ra je na krabičkách levných žárovek záměrně skrytý nebo chybí — je to červená vlajka. Kvalitní výrobci (Philips, Osram, LEDVANCE) ho vždy uvádějí.</div>
             </section>
 
-            <section id="objimky">
-              <h2>Typy objímek</h2>
-              <div className="article-table-wrap">
-                <table className="article-table">
-                  <thead><tr><th>Označení</th><th>Popis</th><th>Typické použití</th></tr></thead>
-                  <tbody>
-                    <tr><td>E27</td><td>Velký závit, ⌀27 mm</td><td>Lustr, stojací lampa, klasické svítidlo</td></tr>
-                    <tr><td>E14</td><td>Malý závit, ⌀14 mm</td><td>Noční lampička, dekorativní svítidlo</td></tr>
-                    <tr><td>GU10</td><td>Bajonet, otočný zámek</td><td>Bodovky, podhledová svítidla</td></tr>
-                    <tr><td>GU5.3 / MR16</td><td>Dvě nožičky, ⌀5,3 mm</td><td>Bodovky s transformátorem (12V)</td></tr>
-                    <tr><td>G9</td><td>Dvě nožičky smyčka</td><td>Nástěnná svítidla, lustry</td></tr>
-                  </tbody>
-                </table>
-              </div>
-            </section>
-
+            {/* SECTION 4 */}
             <section id="mistnosti">
-              <h2>Co kam – podle místnosti</h2>
+              <h2>Jakou LED do které místnosti</h2>
+              <p>Shrnutí doporučení pro každou místnost na základě jasu, teploty světla a speciálních požadavků.</p>
               <ul>
-                <li><strong>Obývák:</strong> 2700–3000 K, 800–1200 lm na svítidlo, CRI 80+</li>
-                <li><strong>Ložnice:</strong> 2700 K, 400–800 lm, stmívatelné pro atmosféru</li>
-                <li><strong>Kuchyně:</strong> 3500–4000 K, 800–1200 lm, CRI 90+ (barvy jídla)</li>
-                <li><strong>Koupelna:</strong> 3000–4000 K, 800–1000 lm, CRI 90+ (líčení, holení)</li>
-                <li><strong>Pracovna:</strong> 4000 K, 500–800 lm na pracovní plochu, CRI 80+</li>
-                <li><strong>Dětský pokoj:</strong> 3000–4000 K, stmívatelné, CRI 90+</li>
+                <li><strong>Ložnice:</strong> 300–500 lm, 2 700–3 000 K, Ra 80+. Stmívatelná žárovka ideální — večer ztlumit pro pohodlnější usínání.</li>
+                <li><strong>Obývací pokoj:</strong> 400–800 lm podle velikosti, 2 700–3 000 K pro odpočinkovou zónu, 4 000 K pro pracovní koutek. Kombinace více světelných bodů s různými teplotami světla.</li>
+                <li><strong>Kuchyně:</strong> 500–800 lm, 4 000 K (neutrální bílá pro přesné vnímání barev jídla). Pod skříňky přidat LED pásky nebo bodovky (GU10) pro osvětlení pracovní plochy.</li>
+                <li><strong>Koupelna:</strong> 500–700 lm, 3 000–4 000 K, <strong>Ra 90+</strong> (pro přesné vnímání barvy pleti při líčení a holení). Nutné IP44 krytí v zóně u sprchy/vany.</li>
+                <li><strong>Pracovna:</strong> 500–1 000 lm, 4 000–5 000 K. Dostatečný jas zabraňuje únavě očí. Přímé osvětlení pracovní plochy (lampa) + nepřímé ambientní osvětlení.</li>
+                <li><strong>Dětský pokoj:</strong> 300–500 lm, 3 000 K (ne příliš studené). Noční osvětlení 2 700 K nebo s červeným filtrem aby nerušilo spánek.</li>
+                <li><strong>Garáž / sklep / dílna:</strong> 800–1 500 lm, 5 000–6 500 K pro maximální viditelnost detailů. LED trubice nebo průmyslová svítidla pro rovnoměrné osvětlení.</li>
               </ul>
             </section>
 
-            <section id="stmivani">
-              <h2>Stmívatelné LED</h2>
-              <p>Ne každá LED žárovka jde stmívat — na krabičce musí být výslovně uvedeno "dimmable" nebo "stmívatelná". Obyčejná LED žárovka ve stmívači bude blikat nebo se úplně vypne.</p>
-              <p>Navíc potřebuješ <strong>kompatibilní stmívač</strong> — starý stmívač pro žárovky (odporový nebo indukční) s LED nefunguje. Potřebuješ stmívač označený jako "LED compatible" nebo "universal dimmer".</p>
-              <div className="article-tip"><strong>💡 Tip:</strong> Před koupí stmívatelných LED zkontroluj seznam kompatibilních žárovek v návodu ke stmívači — nebo kup stmívač a žárovky od stejného výrobce.</div>
+            {/* SECTION 5 */}
+            <section id="uspory">
+              <h2>Reálné úspory při výměně žárovek v bytě</h2>
+              <p>Výměna všech žárovek v bytě za LED je jedna z mála investic do domácnosti která se vrátí do roka. Počítejme reálný příklad pro průměrný byt 3+kk s 15 žárovkami.</p>
+              <ul>
+                <li><strong>Průměrný byt 3+kk:</strong> 15 žárovek, průměrně 60 W klasická žárovka, svícení 4 hodiny denně</li>
+                <li><strong>Roční spotřeba před výměnou:</strong> 15 × 60 W × 4 h × 365 = 1 314 kWh → při 6 Kč/kWh = <strong>7 884 Kč/rok</strong></li>
+                <li><strong>Roční spotřeba po výměně (LED 9 W):</strong> 15 × 9 W × 4 h × 365 = 197 kWh → = <strong>1 183 Kč/rok</strong></li>
+                <li><strong>Roční úspora: 6 701 Kč</strong></li>
+                <li><strong>Pořizovací cena LED žárovek:</strong> 15 × 100 Kč = 1 500 Kč</li>
+                <li><strong>Návratnost investice: méně než 3 měsíce</strong></li>
+              </ul>
+              <div className="article-tip"><strong>💡 Tip:</strong> Nekupuj všechny žárovky najednou — začni od těch kde svítíš nejvíc (obývák, kuchyně). Vrátí se nejrychleji. Méně používané prostory (sklep, WC) vyměň postupně.</div>
             </section>
 
+            {/* SECTION 6 */}
+            <section id="chyby">
+              <h2>Nejčastější chyby při výběru LED žárovky</h2>
+              <ul>
+                <li><strong>Výběr podle wattů místo lumenů:</strong> „9W LED = 60W klasická" je orientační, ale různé LED mají různou efektivitu. Vždy porovnávej lumeny.</li>
+                <li><strong>Ignorování teploty světla:</strong> Studená LED (6 500 K) v ložnici ruší spánek, teplá LED (2 700 K) v pracovně způsobuje únavu a ospalost.</li>
+                <li><strong>Stmívač + nestmívatelná LED:</strong> Způsobuje blikání, přehřívání a předčasné selhání žárovky. Zkontroluj kompatibilitu stmívače i žárovky.</li>
+                <li><strong>Nízký CRI bez povšimnutí:</strong> Ra 65 žárovka v šatně způsobí, že barvy oblečení budou vypadat jinak než venku. Vždy min. Ra 80, v koupelně Ra 90+.</li>
+                <li><strong>Koupě nejlevnější možné žárovky:</strong> Čínské no-name žárovky za 20 Kč mívají kratší životnost, špatný CRI a mohou elektromagneticky rušit WiFi a jiná zařízení. Philips, Osram nebo LEDVANCE za 60–100 Kč jsou spolehlivější investicí.</li>
+              </ul>
+            </section>
+
+            {/* SECTION 7 — FAQ */}
+            <section id="faq">
+              <h2>Časté otázky (FAQ)</h2>
+              <div className="faq-list">
+                <details className="faq-item">
+                  <summary className="faq-summary">
+                    Proč LED žárovka po vypnutí mírně svítí?
+                    <span className="faq-icon">▾</span>
+                  </summary>
+                  <div className="faq-body">
+                    Toto je běžný jev způsobený dvěma věcmi: (1) Indukční napětí ze souběžně vedených kabelů v elektroinstalaci — malé množství proudu prochází i vypnutým obvodem. (2) Nevhodný stmívač nebo spínač se signalizační LED diodou — tato dioda pouští malý proud přes obvod i ve vypnutém stavu. Řešení: vyměň spínač za typ bez signalizační LED, nebo nainstaluj tzv. „bleed resistor" (bypass). Zdraví ani bezpečnost to neohrožuje, ale obtěžuje to.
+                  </div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">
+                    Co je to stmívatelná LED a jak ji poznám?
+                    <span className="faq-icon">▾</span>
+                  </summary>
+                  <div className="faq-body">
+                    Stmívatelná LED (dimmable) obsahuje speciální elektroniku která umožňuje plynulou regulaci jasu pomocí stmívače. Na krabičce hledej označení <strong>„dimmable"</strong> nebo symbol stmívání. Pozor: ne každá stmívatelná LED je kompatibilní s každým stmívačem. Výrobci uvádějí seznam kompatibilních stmívačů — zkontroluj ho před nákupem. Nestmívatelná LED v obvodu se stmívačem bliká, může bzučet a zkracuje si životnost.
+                  </div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">
+                    Jak ušetřím co nejvíce při výměně žárovek v bytě?
+                    <span className="faq-icon">▾</span>
+                  </summary>
+                  <div className="faq-body">
+                    Prioritizuj podle hodin svícení: obývák a kuchyně svítí nejvíc — tam se investice vrátí nejrychleji. Sklep a WC svítí méně — tam klasické žárovky ještě doslužují. Kupuj žárovky v sadách (3–5 kusů) — cena za kus je nižší. Hledej energetický štítek třídy <strong>A nebo A+</strong>. Vyhni se výprodejovým „energeticky úsporným" žárovkám starší generace (spiral CFL) — LED je efektivnější, spouští se okamžitě a neobsahuje rtuť.
+                  </div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">
+                    Může LED žárovka fungovat v uzavřeném svítidle?
+                    <span className="faq-icon">▾</span>
+                  </summary>
+                  <div className="faq-body">
+                    Záleží na žárovce. LED žárovky jsou citlivé na teplo — v uzavřeném svítidle bez cirkulace vzduchu se přehřívají, zkracuje se jejich životnost a může klesat jas. Hledej žárovky označené <strong>„suitable for enclosed fixtures"</strong> nebo „pro uzavřená svítidla" — mají lepší tepelný management. Případně použij menší žárovky s nižším příkonem (méně tepla) nebo svítidlo vyměň za otevřené.
+                  </div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">
+                    Jaký je rozdíl mezi E27, E14 a GU10 paticí?
+                    <span className="faq-icon">▾</span>
+                  </summary>
+                  <div className="faq-body">
+                    <strong>E27</strong> (Edison 27 mm) je standardní velká závitová patice — nejrozšířenější, používá se v lustrech, stojacích lampách a nástěnkách. <strong>E14</strong> (Edison 14 mm) je malá závitová — typická pro dekorativní svítidla, lustry s více rameny a malé nástěnky. <strong>GU10</strong> je bodová bajonetová patice — používá se v podhledových a koupelnových svítidlech. Před koupí vždy fyzicky zkontroluj patici svítidla nebo vyšroubuj starú žárovku a zkontroluj označení na její patici.
+                  </div>
+                </details>
+              </div>
+            </section>
+
+            {/* SHARE BOTTOM */}
+            <ShareButtons
+              url="https://domovniguru.cz/blog/jak-vybrat-led-zarovku"
+              title="Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami"
+            />
+
+            {/* RELATED */}
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -204,18 +461,21 @@ export default function ArticlePage() {
                 ))}
               </div>
             </section>
+
           </article>
 
+          {/* SIDEBAR */}
           <aside className="article-sidebar">
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Obsah</div>
               <nav><ul className="sidebar-toc">
-                <li><a href="#kelvin">Kelvin – teplota světla</a></li>
-                <li><a href="#lumen">Lumen – jas</a></li>
-                <li><a href="#cri">CRI – podání barev</a></li>
-                <li><a href="#objimky">Typy objímek</a></li>
-                <li><a href="#mistnosti">Co kam</a></li>
-                <li><a href="#stmivani">Stmívatelné LED</a></li>
+                <li><a href="#watt-lumen">Watt vs. lumen</a></li>
+                <li><a href="#kelviny">Teplota světla</a></li>
+                <li><a href="#krabicka">Co na krabičce</a></li>
+                <li><a href="#mistnosti">Která LED kam</a></li>
+                <li><a href="#uspory">Reálné úspory</a></li>
+                <li><a href="#chyby">Nejčastější chyby</a></li>
+                <li><a href="#faq">FAQ</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -225,6 +485,7 @@ export default function ArticlePage() {
           </aside>
         </div>
       </div>
+
       <style>{`
         .article-layout{display:grid;grid-template-columns:1fr 280px;gap:56px;padding:48px 0 80px;align-items:start}
         .article-header{margin-bottom:32px}
@@ -249,12 +510,20 @@ export default function ArticlePage() {
         .article-body ul,.article-body ol{padding-left:22px;margin-bottom:16px;display:flex;flex-direction:column;gap:8px}
         .article-body li{font-size:15px;line-height:1.6;color:#2a2a28;font-weight:300}
         .article-body strong{font-weight:600;color:var(--text)}
+        .article-body em{font-style:italic;color:var(--muted)}
         .article-tip{background:#fffbeb;border-left:3px solid #f59e0b;border-radius:0 8px 8px 0;padding:14px 18px;font-size:14px;line-height:1.6;color:#78716c;margin:20px 0}
         .article-table-wrap{overflow-x:auto;margin:16px 0 24px}
         .article-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5}
         .article-table th{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:10px 14px;text-align:left;border-bottom:2px solid var(--border);background:var(--surface)}
         .article-table td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top;color:#2a2a28;font-weight:300}
         .article-table tr:last-child td{border-bottom:none}
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin-top:16px}
+        .faq-item{border:1px solid var(--border);border-radius:10px;overflow:hidden}
+        .faq-summary{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;cursor:pointer;font-size:15px;font-weight:500;color:var(--text);background:var(--surface);list-style:none;gap:12px}
+        .faq-summary:hover{background:#e8e7e2}
+        .faq-icon{flex-shrink:0;color:var(--muted);transition:transform 200ms;font-size:14px}
+        details[open] .faq-icon{transform:rotate(180deg)}
+        .faq-body{padding:14px 18px;font-size:14px;line-height:1.7;color:#4a4a48;font-weight:300;border-top:1px solid var(--border);background:#fff}
         .related-section{margin-top:56px}
         .related-section h2{font-family:var(--font-serif);font-size:22px;font-weight:400;margin-bottom:20px;padding-top:24px;border-top:1px solid var(--border)}
         .related-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
