@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-
+import PaintCalculator from "@/app/components/PaintCalculator";
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2025",
   description: "Tmavá zeď pod světlou barvou? Bez správného postupu budou šmouhy. Tady je jak to vyřešit napoprvé.",
