@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-
+import PaintCalculator from "@/app/components/PaintCalculator";
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Jak malovat rohy a lišty bez přetahování – čistý výsledek 2025",
   description: "Technika štětcem, malířská páska a správný postup. Rohy a lišty bez šmouh jako od profesionála.",
