@@ -4,10 +4,9 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami",
-  description: "Watt vs. lumen, Kelviny, CRI index, patice E27/E14/GU10. Kompletní průvodce výběrem LED žárovky pro každou místnost a reálné úspory při výměně.",
+  description: "Watt vs. lumen, Kelviny, CRI index, patice E27/E14/GU10. Průvodce výběrem LED žárovky pro každou místnost.",
   alternates: { canonical: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku" },
-  openGraph: { title: "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory. Průvodce výběrem LED pro každou místnost.", url: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
-  twitter: { card: "summary_large_image", title: "Jak vybrat LED žárovku 2026", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory." },
+  openGraph: { title: "Jak vybrat LED žárovku 2026", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory.", url: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article" },
 };
 
 const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-vybrat-led-zarovku#article", "headline": "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat LED žárovku", "LED žárovka watt lumen", "teplota světla Kelviny", "CRI index", "úspora LED žárovky", "E27 E14 GU10"] }] };
