@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-
+import PaintCalculator from "@/app/components/PaintCalculator";
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Jak vymalovat byt před stěhováním – průvodce a načasování 2025",
   description: "Malovat před nebo po stěhování? Jak vymalovat prázdný byt efektivně, v jakém pořadí a co neopomenout. Průvodce krok za krokem.",
