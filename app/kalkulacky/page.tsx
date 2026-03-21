@@ -10,6 +10,7 @@ export default function KalkulackyHub() {
     { icon: "🌿", title: "Kolik tapet potřebuji?", desc: "Obvod místnosti, výška, počet rolí.", href: "/kalkulacky/kolik-tapet" },
     { icon: "💧", title: "Kolik tepelné izolace?", desc: "Plocha stěny, tloušťka, počet desek.", href: "/kalkulacky/tepelna-izolace" },
     { icon: "♨️", title: "Návratnost tepelného čerpadla", desc: "Investice, dotace NZÚ, roky návratnosti.", href: "/kalkulacky/tepelne-cerpadlo" },
+    { icon: "💡", title: "Kolik ušetřím LED žárovkami?", desc: "Příkon, počet žárovek, roční úspora v Kč.", href: "/kalkulacky/led-uspora" }, 
   ];
   return (
     <div style={{ background: "#fafaf8", minHeight: "100vh", paddingTop: "60px" }}>
