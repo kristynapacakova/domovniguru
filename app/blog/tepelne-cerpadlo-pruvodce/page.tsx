@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 import HeatPumpCalculator from "@/app/components/HeatPumpCalculator";
-<HeatPumpCalculator />
+
 export const metadata: Metadata = {
   title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026",
   description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám.",
@@ -228,6 +228,7 @@ export default function ArticlePage() {
             {/* SECTION 3 — TABULKA NÁVRATNOSTI */}
             <section id="navratnost">
               <h2>Úspory a návratnost investice v roce 2026</h2>
+              <HeatPumpCalculator />
               <p>Návratnost závisí na aktuálních cenách energií, velikosti domu, kvalitě zateplení a typu stávajícího topení. Níže jsou realistické odhady pro průměrný rodinný dům 150 m² v ČR.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
