@@ -52,8 +52,8 @@ export default function ArticlePage() {
 
             {/* HERO ILLUSTRATION */}
             <div className="hero-illustration" aria-hidden="true">
-              <svg viewBox="0 0 760 185" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
-                <rect width="760" height="185" fill="#f0f4f8"/>
+              <svg viewBox="0 0 760 210" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
+                <rect width="760" height="210" fill="#f0f4f8"/>
                 <defs>
                   <linearGradient id="tcSkyGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stopColor="#daeef8"/>
@@ -69,83 +69,77 @@ export default function ArticlePage() {
                   </linearGradient>
                 </defs>
 
-                {/* Pozadí */}
-                <rect width="760" height="148" fill="url(#tcSkyGrad)"/>
-                <rect y="148" width="760" height="37" fill="url(#tcGroundGrad)"/>
+                {/* Pozadí obloha */}
+                <rect width="760" height="155" fill="url(#tcSkyGrad)"/>
+                {/* Tráva */}
+                <rect y="155" width="760" height="35" fill="url(#tcGroundGrad)"/>
+                {/* Lišta dole — bílá */}
+                <rect y="190" width="760" height="20" fill="#f0f4f8"/>
 
-                {/* Teplota venku — vlevo */}
-                <rect x="10" y="55" width="68" height="50" rx="8" fill="#4a6a8a" opacity="0.1" stroke="#4a6a8a" strokeWidth="1"/>
-                <text x="44" y="74" textAnchor="middle" fontSize="13">🌡️</text>
-                <text x="44" y="89" textAnchor="middle" fontSize="10" fill="#3a5a7a" fontWeight="700">–20 °C</text>
-                <text x="44" y="100" textAnchor="middle" fontSize="7" fill="#5a7a9a">funguje!</text>
+                {/* === BLOK 1: –20°C === */}
+                <rect x="10" y="52" width="72" height="52" rx="8" fill="#4a6a8a" opacity="0.1" stroke="#4a6a8a" strokeWidth="1"/>
+                <text x="46" y="72" textAnchor="middle" fontSize="12">🌡️</text>
+                <text x="46" y="87" textAnchor="middle" fontSize="10" fill="#3a5a7a" fontWeight="700">–20 °C</text>
+                <text x="46" y="98" textAnchor="middle" fontSize="7" fill="#5a7a9a">funguje!</text>
 
-                {/* Vzduch šipka → čerpadlo */}
-                <path d="M82 100 L138 100" stroke="#4a9aba" strokeWidth="1.8" strokeDasharray="5,3" strokeLinecap="round"/>
-                <path d="M134 95 L140 100 L134 105" stroke="#4a9aba" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-                <text x="110" y="92" textAnchor="middle" fontSize="8" fill="#4a7a9a" fontWeight="600">Vzduch</text>
+                {/* Šipka vzduch → TČ */}
+                <path d="M86 98 L136 98" stroke="#4a9aba" strokeWidth="1.8" strokeDasharray="5,3" strokeLinecap="round"/>
+                <path d="M132 93 L138 98 L132 103" stroke="#4a9aba" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                <text x="111" y="90" textAnchor="middle" fontSize="8" fill="#4a7a9a" fontWeight="600">Vzduch</text>
 
-                {/* Venkovní jednotka */}
-                <g transform="translate(142, 72)">
-                  <rect x="0" y="0" width="70" height="52" rx="5" fill="#4a6a8a" stroke="#3a5a7a" strokeWidth="1.5"/>
-                  <rect x="4" y="4" width="62" height="44" rx="3" fill="#3a5a7a" opacity="0.35"/>
-                  {[12,22,32,42,52,62].map((x,i)=>(
-                    <line key={i} x1={x} y1="6" x2={x} y2="46" stroke="#5a8ab0" strokeWidth="0.7" opacity="0.5"/>
-                  ))}
-                  {[10,18,26,34,42].map((y,i)=>(
-                    <line key={i} x1="5" y1={y} x2="65" y2={y} stroke="#5a8ab0" strokeWidth="0.7" opacity="0.5"/>
-                  ))}
-                  <circle cx="35" cy="26" r="16" fill="#2a4a6a" opacity="0.45" stroke="#4a7a9a" strokeWidth="1"/>
-                  <circle cx="35" cy="26" r="4" fill="#6a9aba"/>
-                  {[0,60,120,180,240,300].map((deg,i)=>(
-                    <path key={i} d={`M35 26 Q${35+12*Math.cos((deg-20)*Math.PI/180)} ${26+12*Math.sin((deg-20)*Math.PI/180)} ${35+14*Math.cos(deg*Math.PI/180)} ${26+14*Math.sin(deg*Math.PI/180)}`} stroke="#6a9aba" strokeWidth="1.8" fill="none" strokeLinecap="round" opacity="0.8"/>
-                  ))}
-                  <text x="35" y="60" textAnchor="middle" fontSize="6" fill="#7ab0d0" fontWeight="600">TEPELNÉ ČERPADLO</text>
+                {/* === BLOK 2: Venkovní jednotka === */}
+                <g transform="translate(140, 68)">
+                  <rect x="0" y="0" width="72" height="52" rx="5" fill="#4a6a8a" stroke="#3a5a7a" strokeWidth="1.5"/>
+                  <rect x="4" y="4" width="64" height="44" rx="3" fill="#3a5a7a" opacity="0.35"/>
+                  {[12,22,32,42,52,62].map((x,i)=>(<line key={i} x1={x} y1="6" x2={x} y2="46" stroke="#5a8ab0" strokeWidth="0.7" opacity="0.5"/>))}
+                  {[10,18,26,34,42].map((y,i)=>(<line key={i} x1="5" y1={y} x2="67" y2={y} stroke="#5a8ab0" strokeWidth="0.7" opacity="0.5"/>))}
+                  <circle cx="36" cy="26" r="16" fill="#2a4a6a" opacity="0.45" stroke="#4a7a9a" strokeWidth="1"/>
+                  <circle cx="36" cy="26" r="4" fill="#6a9aba"/>
+                  {[0,60,120,180,240,300].map((deg,i)=>(<path key={i} d={`M36 26 Q${36+12*Math.cos((deg-20)*Math.PI/180)} ${26+12*Math.sin((deg-20)*Math.PI/180)} ${36+14*Math.cos(deg*Math.PI/180)} ${26+14*Math.sin(deg*Math.PI/180)}`} stroke="#6a9aba" strokeWidth="1.8" fill="none" strokeLinecap="round" opacity="0.8"/>))}
                 </g>
+                {/* Popisek TČ dole v trávě */}
+                <text x="176" y="172" textAnchor="middle" fontSize="7" fill="#5a7090" fontWeight="600" letterSpacing="0.05em">VENKOVNÍ JEDNOTKA</text>
 
                 {/* Elektřina shora */}
-                <path d="M177 72 L177 45 L310 45" stroke="#f0c040" strokeWidth="1.5" strokeDasharray="4,3" strokeLinecap="round"/>
-                <text x="242" y="38" textAnchor="middle" fontSize="8" fill="#c09020" fontWeight="600">⚡ 1 kW elektřiny</text>
+                <path d="M176 68 L176 40 L318 40" stroke="#f0c040" strokeWidth="1.5" strokeDasharray="4,3" strokeLinecap="round"/>
+                <text x="246" y="33" textAnchor="middle" fontSize="8" fill="#b08010" fontWeight="600">⚡ 1 kW elektřiny</text>
 
-                {/* Energie → dům — oblouk pod COP */}
-                <path d="M212 98 Q280 98 280 75 Q280 52 430 62" stroke="#e07040" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
-                <path d="M426 57 L432 62 L426 67" stroke="#e07040" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                {/* Energie oblouk → dům */}
+                <path d="M212 94 Q265 94 265 70 Q265 46 430 60" stroke="#e07040" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+                <path d="M426 55 L432 60 L426 65" stroke="#e07040" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
 
-                {/* COP rámeček — pod elektřinou, vlevo od domu */}
-                <rect x="290" y="42" width="90" height="28" rx="6" fill="#e07040" opacity="0.13"/>
-                <text x="335" y="55" textAnchor="middle" fontSize="10" fill="#c05020" fontWeight="700">COP 3–5×</text>
-                <text x="335" y="65" textAnchor="middle" fontSize="8" fill="#c05020">= 3–5 kW tepla</text>
+                {/* COP — nad obloukem, uprostřed */}
+                <rect x="290" y="36" width="92" height="30" rx="6" fill="#e07040" opacity="0.13"/>
+                <text x="336" y="50" textAnchor="middle" fontSize="10" fill="#c05020" fontWeight="700">COP 3–5×</text>
+                <text x="336" y="61" textAnchor="middle" fontSize="8" fill="#c05020">= 3–5 kW tepla</text>
 
-                {/* DŮM — posunut doprava aby nebyl překrytý */}
-                <g transform="translate(432, 22)">
-                  <polygon points="0,58 82,58 41,6" fill="#8B5E3C"/>
-                  <rect x="8" y="58" width="66" height="84" fill="url(#tcHouseGrad)" stroke="#d0c8b8" strokeWidth="1"/>
-                  <rect x="13" y="70" width="20" height="18" rx="2" fill="#a8d8f0" stroke="#c0d8e8" strokeWidth="1"/>
-                  <line x1="23" y1="70" x2="23" y2="88" stroke="#c0d8e8" strokeWidth="0.8"/>
-                  <line x1="13" y1="79" x2="33" y2="79" stroke="#c0d8e8" strokeWidth="0.8"/>
-                  <rect x="46" y="98" width="18" height="44" rx="2" fill="#8B6340" stroke="#7a5030" strokeWidth="1"/>
-                  <circle cx="61" cy="119" r="1.5" fill="#c8a870"/>
-                  <rect x="58" y="12" width="10" height="18" fill="#7a5030"/>
-                  {[0,1,2].map(i=>(
-                    <path key={i} d={`M${63+i} 10 Q${65+i} 4 ${63+i} 0`} stroke="#f0a060" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.6"/>
-                  ))}
+                {/* === BLOK 3: Dům === */}
+                <g transform="translate(432, 18)">
+                  <polygon points="0,60 84,60 42,6" fill="#8B5E3C"/>
+                  <rect x="8" y="60" width="68" height="90" fill="url(#tcHouseGrad)" stroke="#d0c8b8" strokeWidth="1"/>
+                  <rect x="14" y="72" width="22" height="20" rx="2" fill="#a8d8f0" stroke="#c0d8e8" strokeWidth="1"/>
+                  <line x1="25" y1="72" x2="25" y2="92" stroke="#c0d8e8" strokeWidth="0.8"/>
+                  <line x1="14" y1="82" x2="36" y2="82" stroke="#c0d8e8" strokeWidth="0.8"/>
+                  <rect x="46" y="102" width="20" height="48" rx="2" fill="#8B6340" stroke="#7a5030" strokeWidth="1"/>
+                  <circle cx="62" cy="124" r="2" fill="#c8a870"/>
+                  <rect x="58" y="12" width="10" height="20" fill="#7a5030"/>
+                  {[0,1,2].map(i=>(<path key={i} d={`M${63+i} 10 Q${65+i} 3 ${63+i} -2`} stroke="#f0a060" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.6"/>))}
                 </g>
+                <text x="474" y="172" textAnchor="middle" fontSize="7" fill="#7a6040" fontWeight="600" letterSpacing="0.05em">VYTÁPĚNÝ DŮM</text>
 
-                {/* Úspora — vpravo */}
-                <rect x="640" y="50" width="68" height="54" rx="8" fill="#5a9e6f" opacity="0.13" stroke="#5a9e6f" strokeWidth="1.5"/>
-                <text x="674" y="72" textAnchor="middle" fontSize="18">💰</text>
-                <text x="674" y="89" textAnchor="middle" fontSize="11" fill="#3a7e4f" fontWeight="700">–60 %</text>
+                {/* === BLOK 4: Úspora === */}
+                <rect x="638" y="48" width="72" height="58" rx="8" fill="#5a9e6f" opacity="0.13" stroke="#5a9e6f" strokeWidth="1.5"/>
+                <text x="674" y="70" textAnchor="middle" fontSize="20">💰</text>
+                <text x="674" y="88" textAnchor="middle" fontSize="12" fill="#3a7e4f" fontWeight="700">–60 %</text>
                 <text x="674" y="100" textAnchor="middle" fontSize="8" fill="#5a9e6f">na vytápění</text>
 
-                {/* Popisky dole — v zelené trávě */}
-                <text x="177" y="168" textAnchor="middle" fontSize="8" fill="#6a8aaa" fontWeight="600" letterSpacing="0.04em">VENKOVNÍ JEDNOTKA</text>
-                <text x="473" y="168" textAnchor="middle" fontSize="8" fill="#7a6040" fontWeight="600" letterSpacing="0.04em">VYTÁPĚNÝ DŮM</text>
+                {/* === DOLNÍ LIŠTA — 4 texty v SVG, nikdy se nezlomí === */}
+                <rect y="190" width="760" height="20" fill="#e8f0f8" opacity="0.6"/>
+                <text x="95" y="203" textAnchor="middle" fontSize="8" fill="#5a7a9a" fontWeight="600" letterSpacing="0.05em">🌡️ VZDUCH JAKO ZDROJ TEPLA</text>
+                <text x="285" y="203" textAnchor="middle" fontSize="8" fill="#5a7a9a" fontWeight="600" letterSpacing="0.05em">⚡ 1 KW → 3–5 KW TEPLA</text>
+                <text x="475" y="203" textAnchor="middle" fontSize="8" fill="#5a7a9a" fontWeight="600" letterSpacing="0.05em">💰 ÚSPORA 50–70 %</text>
+                <text x="650" y="203" textAnchor="middle" fontSize="8" fill="#5a7a9a" fontWeight="600" letterSpacing="0.05em">✅ FUNGUJE I PŘI –20 °C</text>
               </svg>
-              <div style={{display:"flex",justifyContent:"space-around",alignItems:"center",padding:"8px 20px 10px",fontSize:"9px",letterSpacing:"0.07em",color:"#6a8aaa",textTransform:"uppercase",background:"#f0f4f8"}}>
-                <span>🌡️ Vzduch jako zdroj tepla</span>
-                <span>⚡ 1 kW → 3–5 kW tepla</span>
-                <span>💰 Úspora 50–70 %</span>
-                <span>✅ Funguje i při –20 °C</span>
-              </div>
             </div>
 
             {/* TOC */}
