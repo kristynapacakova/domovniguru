@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-
+import PaintCalculator from "@/app/components/PaintCalculator";
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Penetrace před malováním – kdy je nutná a kdy ji přeskočit? 2025",
   description: "Penetrace před malováním: kdy ji použít, kdy ji vynechat a jak ji správně nanést. Kompletní průvodce pro každý typ podkladu.",
