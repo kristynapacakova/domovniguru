@@ -50,121 +50,106 @@ export default function ArticlePage() {
               />
             </header>
 
-            {/* HERO ILLUSTRATION */}
+            {/* HERO ILLUSTRATION — opravené SVG */}
             <div className="hero-illustration" aria-hidden="true">
-              <svg viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
-                <rect width="900" height="220" fill="#f0f4f8"/>
+              <svg viewBox="0 0 760 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
+                <rect width="760" height="200" fill="#f0f4f8"/>
                 <defs>
-                  <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                  <linearGradient id="tcSkyGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stopColor="#daeef8"/>
                     <stop offset="100%" stopColor="#eef4f8"/>
                   </linearGradient>
-                  <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                  <linearGradient id="tcGroundGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stopColor="#c8d8b0"/>
                     <stop offset="100%" stopColor="#a8b890"/>
                   </linearGradient>
-                  <linearGradient id="houseGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                  <linearGradient id="tcHouseGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
                     <stop offset="0%" stopColor="#f5f0e8"/>
                     <stop offset="100%" stopColor="#e8e0d0"/>
                   </linearGradient>
                 </defs>
 
                 {/* Pozadí */}
-                <rect width="900" height="175" fill="url(#skyGrad)"/>
-                <rect y="175" width="900" height="45" fill="url(#groundGrad)"/>
+                <rect width="760" height="158" fill="url(#tcSkyGrad)"/>
+                <rect y="158" width="760" height="42" fill="url(#tcGroundGrad)"/>
 
-                {/* ── DŮM ── */}
-                <g transform="translate(530, 40)">
-                  {/* Střecha */}
-                  <polygon points="0,70 90,70 45,10" fill="#8B5E3C"/>
-                  <polygon points="0,70 90,70 45,10" fill="#7a5030" opacity="0.3"/>
-                  {/* Stěny */}
-                  <rect x="10" y="70" width="70" height="90" fill="url(#houseGrad)" stroke="#d0c8b8" strokeWidth="1"/>
-                  {/* Okno */}
-                  <rect x="20" y="85" width="22" height="20" rx="2" fill="#a8d8f0" stroke="#c0d8e8" strokeWidth="1"/>
-                  <line x1="31" y1="85" x2="31" y2="105" stroke="#c0d8e8" strokeWidth="0.8"/>
-                  <line x1="20" y1="95" x2="42" y2="95" stroke="#c0d8e8" strokeWidth="0.8"/>
-                  {/* Dveře */}
-                  <rect x="50" y="115" width="20" height="45" rx="2" fill="#8B6340" stroke="#7a5030" strokeWidth="1"/>
-                  <circle cx="67" cy="137" r="2" fill="#c8a870"/>
-                  {/* Komín */}
-                  <rect x="62" y="18" width="12" height="25" fill="#7a5030"/>
-                  {/* Teplý vzduch z komína */}
-                  {[0,1,2].map(i=>(
-                    <path key={i} d={`M${68+i*2} 16 Q${70+i*3} 8 ${67+i*2} 2`} stroke="#f0a060" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.6"/>
-                  ))}
-                </g>
+                {/* Teplota venku — vlevo */}
+                <rect x="14" y="68" width="72" height="46" rx="8" fill="#4a6a8a" opacity="0.1" stroke="#4a6a8a" strokeWidth="1"/>
+                <text x="50" y="87" textAnchor="middle" fontSize="13">🌡️</text>
+                <text x="50" y="102" textAnchor="middle" fontSize="10" fill="#3a5a7a" fontWeight="700">–20 °C</text>
+                <text x="50" y="113" textAnchor="middle" fontSize="7" fill="#5a7a9a">funguje!</text>
 
-                {/* ── VENKOVNÍ JEDNOTKA ── */}
-                <g transform="translate(280, 110)">
-                  <rect x="0" y="0" width="80" height="55" rx="6" fill="#4a6a8a" stroke="#3a5a7a" strokeWidth="1.5"/>
-                  <rect x="5" y="5" width="70" height="45" rx="4" fill="#3a5a7a" opacity="0.4"/>
-                  {/* Mřížka ventilátoru */}
-                  {[15,25,35,45,55,65].map((x,i)=>(
-                    <line key={i} x1={x} y1="8" x2={x} y2="47" stroke="#5a8ab0" strokeWidth="0.8" opacity="0.6"/>
+                {/* Vzduch → čerpadlo */}
+                <path d="M90 115 L148 115" stroke="#4a9aba" strokeWidth="1.8" strokeDasharray="5,3" strokeLinecap="round"/>
+                <path d="M144 110 L150 115 L144 120" stroke="#4a9aba" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                <text x="119" y="107" textAnchor="middle" fontSize="8" fill="#4a7a9a" fontWeight="600">Vzduch</text>
+
+                {/* Venkovní jednotka */}
+                <g transform="translate(152, 85)">
+                  <rect x="0" y="0" width="72" height="50" rx="5" fill="#4a6a8a" stroke="#3a5a7a" strokeWidth="1.5"/>
+                  <rect x="4" y="4" width="64" height="42" rx="3" fill="#3a5a7a" opacity="0.35"/>
+                  {/* Mřížka */}
+                  {[12,22,32,42,52,62].map((x,i)=>(
+                    <line key={i} x1={x} y1="6" x2={x} y2="44" stroke="#5a8ab0" strokeWidth="0.7" opacity="0.5"/>
                   ))}
-                  {[12,20,28,36,44].map((y,i)=>(
-                    <line key={i} x1="8" y1={y} x2="72" y2={y} stroke="#5a8ab0" strokeWidth="0.8" opacity="0.6"/>
+                  {[10,18,26,34,42].map((y,i)=>(
+                    <line key={i} x1="6" y1={y} x2="66" y2={y} stroke="#5a8ab0" strokeWidth="0.7" opacity="0.5"/>
                   ))}
                   {/* Ventilátor */}
-                  <circle cx="40" cy="28" r="18" fill="#2a4a6a" opacity="0.5" stroke="#4a7a9a" strokeWidth="1"/>
-                  <circle cx="40" cy="28" r="4" fill="#6a9aba"/>
+                  <circle cx="36" cy="25" r="16" fill="#2a4a6a" opacity="0.45" stroke="#4a7a9a" strokeWidth="1"/>
+                  <circle cx="36" cy="25" r="4" fill="#6a9aba"/>
                   {[0,60,120,180,240,300].map((deg,i)=>(
-                    <path key={i} d={`M40 28 Q${40+14*Math.cos((deg-20)*Math.PI/180)} ${28+14*Math.sin((deg-20)*Math.PI/180)} ${40+16*Math.cos(deg*Math.PI/180)} ${28+16*Math.sin(deg*Math.PI/180)}`} stroke="#6a9aba" strokeWidth="2" fill="none" strokeLinecap="round" opacity="0.8"/>
+                    <path key={i} d={`M36 25 Q${36+12*Math.cos((deg-20)*Math.PI/180)} ${25+12*Math.sin((deg-20)*Math.PI/180)} ${36+14*Math.cos(deg*Math.PI/180)} ${25+14*Math.sin(deg*Math.PI/180)}`} stroke="#6a9aba" strokeWidth="1.8" fill="none" strokeLinecap="round" opacity="0.8"/>
                   ))}
-                  {/* Štítek */}
-                  <rect x="8" y="48" width="64" height="10" rx="2" fill="#2a4a6a" opacity="0.5"/>
-                  <text x="40" y="56" textAnchor="middle" fontSize="6" fill="#a0c8e0" fontWeight="600" letterSpacing="0.05em">TEPELNÉ ČERPADLO</text>
+                  {/* Label */}
+                  <text x="36" y="56" textAnchor="middle" fontSize="6" fill="#a0c8e0" fontWeight="600" letterSpacing="0.04em">TČ</text>
                 </g>
 
-                {/* ── ŠIPKY ENERGIE ── */}
-                {/* Vzduch → čerpadlo */}
-                <g opacity="0.8">
-                  <path d="M180 137 L270 137" stroke="#4a9aba" strokeWidth="2" strokeDasharray="6,3" strokeLinecap="round"/>
-                  <path d="M266 132 L274 137 L266 142" stroke="#4a9aba" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-                  <text x="220" y="128" textAnchor="middle" fontSize="9" fill="#4a7a9a" fontWeight="600">Vzduch</text>
-                  <text x="220" y="138" textAnchor="middle" fontSize="8" fill="#6a9aba">venkovní</text>
+                {/* Elektřina → čerpadlo shora */}
+                <path d="M188 85 L188 58 L290 58" stroke="#f0c040" strokeWidth="1.5" strokeDasharray="4,3" strokeLinecap="round"/>
+                <text x="238" y="52" textAnchor="middle" fontSize="8" fill="#c09020" fontWeight="600">⚡ 1 kW elektřiny</text>
+
+                {/* Čerpadlo → dům trubka */}
+                <path d="M224 110 Q310 110 310 85 Q310 65 380 72" stroke="#e07040" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
+                <path d="M376 67 L382 72 L376 77" stroke="#e07040" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+
+                {/* COP rámeček */}
+                <rect x="268" y="78" width="88" height="28" rx="6" fill="#e07040" opacity="0.13"/>
+                <text x="312" y="91" textAnchor="middle" fontSize="10" fill="#c05020" fontWeight="700">COP 3–5×</text>
+                <text x="312" y="101" textAnchor="middle" fontSize="8" fill="#c05020">= 3–5 kW tepla</text>
+
+                {/* DŮM */}
+                <g transform="translate(382, 35)">
+                  <polygon points="0,60 80,60 40,8" fill="#8B5E3C"/>
+                  <rect x="8" y="60" width="64" height="82" fill="url(#tcHouseGrad)" stroke="#d0c8b8" strokeWidth="1"/>
+                  {/* Okno */}
+                  <rect x="14" y="72" width="20" height="18" rx="2" fill="#a8d8f0" stroke="#c0d8e8" strokeWidth="1"/>
+                  <line x1="24" y1="72" x2="24" y2="90" stroke="#c0d8e8" strokeWidth="0.8"/>
+                  <line x1="14" y1="81" x2="34" y2="81" stroke="#c0d8e8" strokeWidth="0.8"/>
+                  {/* Dveře */}
+                  <rect x="44" y="100" width="18" height="42" rx="2" fill="#8B6340" stroke="#7a5030" strokeWidth="1"/>
+                  <circle cx="59" cy="120" r="1.5" fill="#c8a870"/>
+                  {/* Komín */}
+                  <rect x="56" y="14" width="10" height="20" fill="#7a5030"/>
+                  {[0,1,2].map(i=>(
+                    <path key={i} d={`M${61+i} 12 Q${63+i} 6 ${61+i} 2`} stroke="#f0a060" strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.6"/>
+                  ))}
                 </g>
 
-                {/* Čerpadlo → dům (trubky) */}
-                <path d="M360 137 Q430 137 430 100 Q430 70 530 80" stroke="#e07040" strokeWidth="2.5" strokeLinecap="round" fill="none"/>
-                <path d="M526 75 L532 80 L526 85" stroke="#e07040" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-                {/* Elektřina → čerpadlo */}
-                <g opacity="0.8">
-                  <path d="M320 110 L320 75 L200 75" stroke="#f0c040" strokeWidth="1.5" strokeDasharray="4,3" strokeLinecap="round"/>
-                  <text x="255" y="68" textAnchor="middle" fontSize="9" fill="#c09020" fontWeight="600">⚡ Elektřina (1 kW)</text>
-                </g>
-
-                {/* COP popis */}
-                <rect x="420" y="88" width="100" height="30" rx="6" fill="#e07040" opacity="0.15"/>
-                <text x="470" y="102" textAnchor="middle" fontSize="10" fill="#c05020" fontWeight="700">COP 3–5×</text>
-                <text x="470" y="113" textAnchor="middle" fontSize="8" fill="#c05020">= 3–5 kW tepla</text>
-
-                {/* ── PENĚŽENKA / ÚSPORY ── */}
-                <g transform="translate(720, 60)">
-                  <rect x="0" y="0" width="70" height="45" rx="8" fill="#5a9e6f" opacity="0.15" stroke="#5a9e6f" strokeWidth="1.5"/>
-                  <text x="35" y="18" textAnchor="middle" fontSize="18">💰</text>
-                  <text x="35" y="34" textAnchor="middle" fontSize="10" fill="#3a7e4f" fontWeight="700">–60 %</text>
-                  <text x="35" y="44" textAnchor="middle" fontSize="8" fill="#5a9e6f">na vytápění</text>
-                </g>
-
-                {/* Teplota venku */}
-                <g transform="translate(60, 80)">
-                  <rect x="0" y="0" width="80" height="50" rx="8" fill="#4a6a8a" opacity="0.1" stroke="#4a6a8a" strokeWidth="1"/>
-                  <text x="40" y="18" textAnchor="middle" fontSize="14">🌡️</text>
-                  <text x="40" y="33" textAnchor="middle" fontSize="11" fill="#3a5a7a" fontWeight="700">–20 °C</text>
-                  <text x="40" y="44" textAnchor="middle" fontSize="8" fill="#5a7a9a">funguje!</text>
-                </g>
+                {/* Úspora — vpravo */}
+                <rect x="582" y="55" width="66" height="52" rx="8" fill="#5a9e6f" opacity="0.13" stroke="#5a9e6f" strokeWidth="1.5"/>
+                <text x="615" y="76" textAnchor="middle" fontSize="18">💰</text>
+                <text x="615" y="92" textAnchor="middle" fontSize="10" fill="#3a7e4f" fontWeight="700">–60 %</text>
+                <text x="615" y="103" textAnchor="middle" fontSize="7" fill="#5a9e6f">na vytápění</text>
 
                 {/* Popisky dole */}
-                <text x="320" y="200" textAnchor="middle" fontSize="9" fill="#6a8aaa" fontWeight="600" letterSpacing="0.05em">VENKOVNÍ JEDNOTKA</text>
-                <text x="575" y="200" textAnchor="middle" fontSize="9" fill="#8B6340" fontWeight="600" letterSpacing="0.05em">VYTÁPĚNÝ DŮM</text>
+                <text x="188" y="178" textAnchor="middle" fontSize="8" fill="#6a8aaa" fontWeight="600" letterSpacing="0.04em">VENKOVNÍ JEDNOTKA</text>
+                <text x="422" y="178" textAnchor="middle" fontSize="8" fill="#8B6340" fontWeight="600" letterSpacing="0.04em">VYTÁPĚNÝ DŮM</text>
               </svg>
-              <div style={{display:"flex",justifyContent:"space-around",padding:"8px 30px 12px",fontSize:"9px",letterSpacing:"0.1em",color:"#6a8aaa",textTransform:"uppercase",background:"#f0f4f8"}}>
-                <span>🌡️ Venkovní vzduch jako zdroj</span>
-                <span>⚡ 1 kW elektřiny → 3–5 kW tepla</span>
-                <span>💰 Úspora 50–70 % nákladů</span>
+              <div style={{display:"flex",justifyContent:"space-around",padding:"8px 24px 10px",fontSize:"9px",letterSpacing:"0.08em",color:"#6a8aaa",textTransform:"uppercase",background:"#f0f4f8",flexWrap:"wrap",gap:"4px"}}>
+                <span>🌡️ Vzduch jako zdroj tepla</span>
+                <span>⚡ 1 kW → 3–5 kW tepla</span>
+                <span>💰 Úspora 50–70 %</span>
                 <span>✅ Funguje i při –20 °C</span>
               </div>
             </div>
@@ -218,7 +203,7 @@ export default function ArticlePage() {
                       <td><strong>Vzduch–voda</strong></td>
                       <td>Venkovní vzduch</td>
                       <td>200–400 tis. Kč</td>
-                      <td>⭐⭐ Nízká – venkovní + vnitřní jednotka</td>
+                      <td>⭐⭐ Nízká</td>
                       <td>3,2–4,0</td>
                       <td>Většina rodinných domů, retrofit</td>
                     </tr>
@@ -226,7 +211,7 @@ export default function ArticlePage() {
                       <td><strong>Země–voda</strong></td>
                       <td>Zemní kolektor / vrt</td>
                       <td>350–600 tis. Kč</td>
-                      <td>⭐⭐⭐⭐ Vysoká – vrt nebo výkop</td>
+                      <td>⭐⭐⭐⭐ Vysoká</td>
                       <td>4,0–5,0</td>
                       <td>Novostavby, domy s pozemkem</td>
                     </tr>
@@ -234,7 +219,7 @@ export default function ArticlePage() {
                       <td><strong>Vzduch–vzduch</strong></td>
                       <td>Venkovní vzduch</td>
                       <td>50–150 tis. Kč</td>
-                      <td>⭐ Velmi nízká – jako klimatizace</td>
+                      <td>⭐ Velmi nízká</td>
                       <td>2,8–3,5</td>
                       <td>Byty, chaty, doplňkové vytápění</td>
                     </tr>
@@ -242,7 +227,7 @@ export default function ArticlePage() {
                       <td><strong>Voda–voda</strong></td>
                       <td>Podzemní voda</td>
                       <td>400–700 tis. Kč</td>
-                      <td>⭐⭐⭐⭐⭐ Velmi vysoká – studny</td>
+                      <td>⭐⭐⭐⭐⭐ Velmi vysoká</td>
                       <td>4,5–6,0</td>
                       <td>Domy u spodní vody, high-end</td>
                     </tr>
@@ -313,21 +298,11 @@ export default function ArticlePage() {
               <h2>5 věcí, které musíš zkontrolovat než si čerpadlo objednáš</h2>
               <p>Tepelné čerpadlo není plug-and-play. Aby fungovalo efektivně a investice se vrátila, dům musí splňovat určité podmínky.</p>
               <ul>
-                <li>
-                  <strong>✅ 1. Zateplení domu:</strong> Čerpadlo funguje nejlépe v dobře zatepleném domě. Pokud máš tepelnou ztrátu nad 10 kW (starší nezateplený dům), nejdřív zateplit — pak čerpadlo. Jinak budeš platit za velké čerpadlo které běží na plný výkon celou zimu.
-                </li>
-                <li>
-                  <strong>✅ 2. Topný systém — výstupní teplota:</strong> Zkontroluj na jakou teplotu topí tvoje soustava. Podlahové topení (35–45 °C) je ideální. Starší radiátory na 70–90 °C vyžadují buď výměnu za větší, nebo speciální čerpadlo s vyšší výstupní teplotou (s nižším COP).
-                </li>
-                <li>
-                  <strong>✅ 3. Elektrická přípojka a jističe:</strong> Čerpadla vzduch–voda mají příkon 3–6 kW. Zkontroluj zda máš dostatečně dimenzovanou přípojku a jističe. Některé domy vyžadují posílení přípojky (náklad 20–50 tis. Kč navíc).
-                </li>
-                <li>
-                  <strong>✅ 4. Místo pro venkovní jednotku a hlučnost:</strong> Venkovní jednotka vydává 45–60 dB(A) — jako tichá konverzace. Musí být umístěna min. 3 m od hranice souseda (dle zákona o ochraně zdraví). Zkontroluj vzdálenosti a případně naplánuj protihlukovou clonu.
-                </li>
-                <li>
-                  <strong>✅ 5. Zásobník teplé vody (TV):</strong> Čerpadlo samo o sobě neohřeje teplou vodu instantně — potřebuješ zásobník 200–300 litrů. Pokud ho nemáš, připočti k nákladům dalších 20–40 tis. Kč za bojler.
-                </li>
+                <li><strong>✅ 1. Zateplení domu:</strong> Čerpadlo funguje nejlépe v dobře zatepleném domě. Pokud máš tepelnou ztrátu nad 10 kW (starší nezateplený dům), nejdřív zateplit — pak čerpadlo. Jinak budeš platit za velké čerpadlo které běží na plný výkon celou zimu.</li>
+                <li><strong>✅ 2. Topný systém — výstupní teplota:</strong> Zkontroluj na jakou teplotu topí tvoje soustava. Podlahové topení (35–45 °C) je ideální. Starší radiátory na 70–90 °C vyžadují buď výměnu za větší, nebo speciální čerpadlo s vyšší výstupní teplotou (s nižším COP).</li>
+                <li><strong>✅ 3. Elektrická přípojka a jističe:</strong> Čerpadla vzduch–voda mají příkon 3–6 kW. Zkontroluj zda máš dostatečně dimenzovanou přípojku a jističe. Některé domy vyžadují posílení přípojky (náklad 20–50 tis. Kč navíc).</li>
+                <li><strong>✅ 4. Místo pro venkovní jednotku a hlučnost:</strong> Venkovní jednotka vydává 45–60 dB(A). Musí být umístěna min. 3 m od hranice souseda. Zkontroluj vzdálenosti a případně naplánuj protihlukovou clonu.</li>
+                <li><strong>✅ 5. Zásobník teplé vody (TV):</strong> Čerpadlo neohřeje vodu instantně — potřebuješ zásobník 200–300 litrů. Pokud ho nemáš, připočti k nákladům dalších 20–40 tis. Kč za bojler.</li>
               </ul>
             </section>
 
@@ -361,7 +336,7 @@ export default function ArticlePage() {
             <section id="chyby">
               <h2>Nejčastější chyby při výběru a instalaci</h2>
               <ul>
-                <li><strong>Předimenzování čerpadla:</strong> Větší neznamená lepší. Čerpadlo které běží v krátkých cyklech (časté zapínání/vypínání) je neefektivní a opotřebovává kompresor. Nech si udělat správný výpočet tepelné ztráty.</li>
+                <li><strong>Předimenzování čerpadla:</strong> Větší neznamená lepší. Čerpadlo které běží v krátkých cyklech je neefektivní a opotřebovává kompresor. Nech si udělat správný výpočet tepelné ztráty.</li>
                 <li><strong>Instalace bez modernizace topné soustavy:</strong> Zapojení čerpadla do staré vysokoteplotní soustavy bez úpravy radiátorů vede k nízkému COP a vysokým účtům.</li>
                 <li><strong>Ignorování hlučnosti:</strong> Levná čerpadla mohou být hlučná. Zkontroluj hlučnost při plném výkonu (A-vážená hladina), ne jen v tichém režimu.</li>
                 <li><strong>Výběr pouze podle ceny:</strong> Nejlevnější čerpadlo má obvykle nižší SCOP a kratší životnost. Rozdíl 50 000 Kč v pořizovací ceně se vrátí za 3–4 roky na nižších provozních nákladech.</li>
@@ -406,16 +381,16 @@ export default function ArticlePage() {
                     <span className="faq-icon">▾</span>
                   </summary>
                   <div className="faq-body">
-                    Ano — většina moderních čerpadel vzduch–voda umí reverzní provoz (chlazení). Při podlahovém topení funguje jako pasivní chlazení (cirkulace studené vody podlahou), při aktivním chlazení dosahuje EER 3–4. Čerpadlo vzduch–vzduch funguje jako plnohodnotná klimatizace. Chlazení není podporováno dotacemi NZÚ.
+                    Ano — většina moderních čerpadel vzduch–voda umí reverzní provoz (chlazení). Při podlahovém topení funguje jako pasivní chlazení, při aktivním chlazení dosahuje EER 3–4. Čerpadlo vzduch–vzduch funguje jako plnohodnotná klimatizace. Chlazení není podporováno dotacemi NZÚ.
                   </div>
                 </details>
                 <details className="faq-item">
                   <summary className="faq-summary">
-                    Jak dlouho trvá instalace a musím být doma bez tepla?
+                    Jak dlouho trvá instalace a musím být bez tepla?
                     <span className="faq-icon">▾</span>
                   </summary>
                   <div className="faq-body">
-                    Instalace standardního čerpadla vzduch–voda trvá 2–3 dny. Profesionální firma naplánuje instalaci tak, aby byl výpadek topení minimální — obvykle 4–8 hodin během připojování. Doporučujeme instalaci naplánovat na jaro nebo léto, kdy výpadek topení nevadí. V zimě je instalace možná, ale komplikovanější.
+                    Instalace standardního čerpadla vzduch–voda trvá 2–3 dny. Profesionální firma naplánuje instalaci tak, aby byl výpadek topení minimální — obvykle 4–8 hodin během připojování. Doporučujeme instalaci naplánovat na jaro nebo léto. V zimě je instalace možná, ale komplikovanější.
                   </div>
                 </details>
               </div>
@@ -460,7 +435,7 @@ export default function ArticlePage() {
             </div>
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
-              <Link href="/blog/kategorie/sezonni-udrzba" className="sidebar-cat-link">❄️ Sezónní údržba<span>20 článků →</span></Link>
+              <Link href="/blog/kategorie/sezonni-udrzba" className="sidebar-cat-link">❄️ Sezónní údržba<span>21 článků →</span></Link>
             </div>
           </aside>
         </div>
