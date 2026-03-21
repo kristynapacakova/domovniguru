@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PaintCalculator from "@/app/components/PaintCalculator";
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
-
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Latexová vs. akrylátová barva – jaký je rozdíl? 2025",
   description:
