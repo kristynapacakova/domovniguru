@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
-
+import HeatPumpCalculator from "@/app/components/HeatPumpCalculator";
+<HeatPumpCalculator />
 export const metadata: Metadata = {
   title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026",
   description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám.",
