@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-
 export default function KalkulackyHub() {
   const kalkulacky = [
     { icon: "🪣", title: "Kolik barvy potřebuji?", desc: "Plocha, vrstvy, litry. Bez přemýšlení.", href: "/kalkulacky/kolik-barvy" },
@@ -10,13 +9,11 @@ export default function KalkulackyHub() {
     { icon: "🏗️", title: "Kolik betonu potřebuji?", desc: "Objem, pytlů nebo m³ hotového betonu.", href: "/kalkulacky/kolik-betonu" },
     { icon: "🌿", title: "Kolik tapet potřebuji?", desc: "Obvod místnosti, výška, počet rolí.", href: "/kalkulacky/kolik-tapet" },
     { icon: "💧", title: "Kolik tepelné izolace?", desc: "Plocha stěny, tloušťka, počet desek.", href: "/kalkulacky/tepelna-izolace" },
+    { icon: "♨️", title: "Návratnost tepelného čerpadla", desc: "Investice, dotace NZÚ, roky návratnosti.", href: "/kalkulacky/tepelne-cerpadlo" },
   ];
-
   return (
     <div style={{ background: "#fafaf8", minHeight: "100vh", paddingTop: "60px" }}>
       <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "0 32px" }}>
-        
-        {/* HLAVIČKA STRÁNKY */}
         <header style={{ marginBottom: "60px", borderBottom: "1px solid #e5e5e0", paddingBottom: "40px" }}>
           <div style={{ fontSize: "11px", fontWeight: 600, textTransform: "uppercase", color: "#888", letterSpacing: "0.15em", marginBottom: "15px" }}>
             Materiály a výpočty
@@ -28,8 +25,6 @@ export default function KalkulackyHub() {
             Přesné výpočty pro vaši rekonstrukci. Vyberte si, co právě řešíte, a my vám spočítáme přesné množství materiálu.
           </p>
         </header>
-
-        {/* MŘÍŽKA S KALKULAČKAMI */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px", paddingBottom: "80px" }}>
           {kalkulacky.map((k, i) => (
             <Link key={i} href={k.href} className="kalk-card">
@@ -44,7 +39,6 @@ export default function KalkulackyHub() {
           ))}
         </div>
       </div>
-
       <style>{`
         .kalk-card { 
           background: #fff; 
