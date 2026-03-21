@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-
+import PaintCalculator from "@/app/components/PaintCalculator";
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025",
   description: "Spočítej přesné množství barvy na místnost. Vzorec, tabulka spotřeby a tipy jak nekoupit zbytečně moc nebo málo.",
