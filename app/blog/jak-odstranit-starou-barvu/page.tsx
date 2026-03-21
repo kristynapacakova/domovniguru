@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-
+import PaintCalculator from "@/app/components/PaintCalculator";
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Jak odstranit starou barvu ze zdi – škrabka, teplo nebo chemie 2025",
   description: "Škrabka, teplovzdušná pistole nebo chemický odstraňovač? Srovnání metod a postup krok za krokem.",
