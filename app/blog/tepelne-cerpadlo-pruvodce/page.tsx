@@ -4,10 +4,9 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026",
-  description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám. Vše co potřebuješ vědět před nákupem.",
+  description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám.",
   alternates: { canonical: "https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce" },
-  openGraph: { title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026", description: "Srovnání typů, reálné úspory, návratnost a dotace. Průvodce pro každého kdo přemýšlí o tepelném čerpadle.", url: "https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-20T08:00:00Z", authors: ["DomovniGuru"] },
-  twitter: { card: "summary_large_image", title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026", description: "Srovnání typů, reálné úspory, návratnost a dotace." },
+  openGraph: { title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ.", url: "https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article" },
 };
 
 const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#article", "headline": "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-20T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["tepelné čerpadlo", "tepelné čerpadlo vzduch voda", "tepelné čerpadlo cena", "dotace tepelné čerpadlo", "nová zelená úsporám tepelné čerpadlo", "tepelné čerpadlo návratnost"] }] };
