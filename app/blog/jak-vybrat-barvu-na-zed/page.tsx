@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
-
+import PaintCalculator from "@/app/components/PaintCalculator";
+<PaintCalculator />
 export const metadata: Metadata = {
   title: "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026",
   description: "Jak vybrat správnou barvu do každé místnosti? Psychologie barev, srovnání latexových a akrylátových barev, testování vzorků a praktické tipy. Průvodce 2026.",
