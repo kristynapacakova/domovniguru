@@ -21,8 +21,10 @@ export default function SoilCalculator() {
   }, [shape, width, length, height]);
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(`Budu potřebovat ${result} litrů hlíny. Spočítáno na DomovniGuru.cz`);
-    alert("Výsledek zkopírován do schránky!");
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(`Budu potřebovat ${result} litrů hlíny. Spočítáno na DomovniGuru.cz`);
+      alert("Výsledek zkopírován do schránky!");
+    }
   };
 
   return (
@@ -34,7 +36,7 @@ export default function SoilCalculator() {
       margin: "20px 0",
       color: "#333" 
     }}>
-      <h3 style={{ marginTop: 0, fontFamily: "var(--font-serif)", fontSize: "24px" }}>🌱 Kalkulačka objemu zeminy</h3>
+      <h3 style={{ marginTop: 0, fontSize: "24px" }}>🌱 Kalkulačka objemu zeminy</h3>
       
       <div style={{ display: "flex", gap: "10px", marginBottom: "20px" }}>
         <button 
