@@ -20,7 +20,6 @@ export default function NavodSilikon() {
 
   return (
     <>
-      {/* Celý článek vkládáme do tvého wrapu, aby ladil se zbytkem webu */}
       <div className="wrap" style={{ padding: "40px 0" }}>
         <article className="article-body" style={{ maxWidth: "800px", margin: "0 auto" }}>
           
@@ -64,7 +63,7 @@ export default function NavodSilikon() {
             <h2 id="krok1">Krok 1: Totální odstranění starého silikonu</h2>
             <p>
               Tohle je ta nejméně zábavná část, ale pokud ji odfláknete, nový silikon na starém nebude držet. Starý tmel musíte vyškrábnout <strong>úplně celý</strong>. 
-              Použijte odlamovací nůž nebo speciální plastovou škrabku, abyste nepoškrábali akrylátovou vanu. Zbytky "duchů" silikonu odstraňte chemickým odstraňovačem silikonu.
+              Použijte odlamovací nůž nebo speciální plastovou škrabku, abyste nepoškrábali akrylátovou vanu. Zbytky silikonu odstraňte chemickým odstraňovačem silikonu.
             </p>
 
             <h2 id="krok2">Krok 2: Odmaštění (Základ úspěchu)</h2>
@@ -93,7 +92,7 @@ export default function NavodSilikon() {
 
           <footer style={{ marginTop: "60px", padding: "30px", borderTop: "1px solid #eee", textAlign: "center" }}>
             <p style={{ color: "#888" }}>Máte hotovo? Nechte silikon zrát aspoň 12 hodin, než se do vany pustíte se sprchou.</p>
-          </footer staff>
+          </footer>
         </article>
       </div>
 
@@ -101,8 +100,8 @@ export default function NavodSilikon() {
         .breadcrumb { font-size: 13px; color: #888; margin-bottom: 20px; }
         .breadcrumb a { color: #888; text-decoration: none; }
         .breadcrumb-sep { margin: 0 8px; }
-        .article-cat-pill { background: #3a3a38; color: #fff; padding: 4px 12px; borderRadius: 4px; fontSize: 10px; fontWeight: 700; margin-right: 15px; }
-        .article-read-time { fontSize: 12px; color: #888; }
+        .article-cat-pill { background: #3a3a38; color: #fff; padding: 4px 12px; border-radius: 4px; font-size: 10px; font-weight: 700; margin-right: 15px; }
+        .article-read-time { font-size: 12px; color: #888; }
         .content-rich-text h2 { font-family: var(--font-serif); font-size: 32px; margin-top: 50px; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
         @media (max-width: 600px) {
           .article-h1 { font-size: 32px !important; }
