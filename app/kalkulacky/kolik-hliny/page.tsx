@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import SoilCalculator from "@/app/components/SoilCalculator";
+import dynamic from "next/dynamic"; // 1. Importujeme dynamický import
 import ShareButtons from "@/app/components/ShareButtons";
+
+// 2. Načteme kalkulačku dynamicky (vypne SSR pro tuto komponentu)
+const SoilCalculator = dynamic(() => import("@/app/components/SoilCalculator"), {
+  ssr: false,
+});
 
 export const metadata: Metadata = {
   title: "Kalkulačka objemu zeminy: Kolik litrů substrátu koupit? 2026",
@@ -24,6 +29,7 @@ export default function SoilCalculatorPage() {
           tento nástroj vám přesně spočítá, kolik 20l nebo 50l pytlů budete v obchodě potřebovat.
         </p>
 
+        {/* Kalkulačka se nyní načte bezpečně až v prohlížeči */}
         <SoilCalculator />
 
         <div style={{ marginTop: "60px", padding: "30px", background: "#f8f9fa", borderRadius: "12px" }}>
