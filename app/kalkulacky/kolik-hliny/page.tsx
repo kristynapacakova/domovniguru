@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import ShareButtons from "@/app/components/ShareButtons";
+import ShareButtons from "../../components/ShareButtons";
 
-// Změna cesty na relativní (z této složky o dvě úrovně nahoru a do components)
+// Načtení kalkulačky relativní cestou
 const SoilCalculator = dynamic(() => import("../../components/SoilCalculator"), {
   ssr: false,
 });
@@ -33,8 +33,9 @@ export default function SoilCalculatorPage() {
         <div style={{ marginTop: "60px", padding: "30px", background: "#f8f9fa", borderRadius: "12px" }}>
           <h3>Jak měřit květináče?</h3>
           <p>
-            Vždy měřte <strong>vnitřní rozměr</strong> nádoby. Pokud má květináč kónický tvar, 
-            zadejte průměrný rozměr mezi horním a spodním okrajem.
+            Vždy měřte <strong>vnitřní rozměr</strong> nádoby. Pokud má květináč kónický tvar (dole je užší), 
+            zadejte průměrný rozměr mezi horním a spodním okrajem, abyste získali co nejpřesnější výsledek. 
+            Nezapomeňte, že hlína se časem trochu "sesedne", takže doporučujeme koupit o 5–10 % substrátu více.
           </p>
         </div>
 
