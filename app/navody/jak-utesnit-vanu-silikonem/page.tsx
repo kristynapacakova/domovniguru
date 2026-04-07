@@ -1,82 +1,113 @@
-"use client";
-import React from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
+import ShareButtons from "@/app/components/ShareButtons";
+
+export const metadata: Metadata = {
+  title: "Jak nasilikonovat vanu jako profík: Návod krok za krokem 2026",
+  description: "Plesnivé rohy nebo zatékání za vanu? Naučte se, jak starý silikon odstranit, odmastit spáry a nanést nový tmel tak, aby vydržel roky.",
+  alternates: { canonical: "https://domovniguru.cz/navody/jak-utesnit-vanu-silikonem" },
+};
 
 export default function NavodSilikon() {
   const nastroje = [
     "Kvalitní sanitární silikon (s protiplísňovou úpravou)",
     "Aplikační pistole na kartuše",
-    "Rozprašovač s vodou a trochou jaru (mýdlová voda)",
-    "Silikonová stěrka nebo vlastní prst",
-    "Papírové utěrky (hodně!)",
-    "Technický benzín nebo líh na odmaštění"
+    "Rozprašovač s mýdlovou vodou",
+    "Silikonová stěrka (sada pro různé poloměry)",
+    "Papírové utěrky (na přebytečný tmel)",
+    "Technický benzín na dokonalé odmaštění"
   ];
 
   return (
-    <div style={{ background: "#fafaf8", minHeight: "100vh", padding: "60px 0" }}>
-      <article style={{ maxWidth: "800px", margin: "0 auto", padding: "0 32px" }}>
-        
-        <Link href="/navody" style={{ fontSize: "12px", color: "#888", textDecoration: "none", fontWeight: 600, textTransform: "uppercase" }}>
-          ← Zpět na návody
-        </Link>
+    <>
+      {/* Celý článek vkládáme do tvého wrapu, aby ladil se zbytkem webu */}
+      <div className="wrap" style={{ padding: "40px 0" }}>
+        <article className="article-body" style={{ maxWidth: "800px", margin: "0 auto" }}>
+          
+          <nav className="breadcrumb">
+            <Link href="/">Domů</Link><span className="breadcrumb-sep">/</span>
+            <Link href="/navody">Návody</Link><span className="breadcrumb-sep">/</span>
+            <span>Silikonování vany</span>
+          </nav>
 
-        <header style={{ margin: "40px 0 60px" }}>
-          <div style={{ display: "flex", gap: "10px", marginBottom: "20px" }}>
-            <span style={{ background: "#111", color: "#fff", padding: "4px 12px", borderRadius: "4px", fontSize: "10px", fontWeight: 700 }}>KOUPELNA</span>
-            <span style={{ fontSize: "12px", color: "#888", fontWeight: 500 }}>⏱ 30 min práce</span>
-          </div>
-          <h1 style={{ fontFamily: "DM Serif Display, serif", fontSize: "56px", margin: 0, lineHeight: 1.1 }}>
-            Jak nasilikonovat vanu jako profík
-          </h1>
-          <p style={{ fontSize: "20px", color: "#666", marginTop: "25px", lineHeight: 1.6, fontWeight: 300 }}>
-            Plesnivé rohy nebo zatékání za vanu? Nový silikon osvěží celou koupelnu. Tajemství není v pistoli, ale v mýdlové vodě.
-          </p>
-        </header>
+          <header className="article-header" style={{ margin: "30px 0" }}>
+            <div className="article-meta-top">
+              <span className="article-cat-pill">🚿 KOUPELNA</span>
+              <span className="article-read-time">⏱ 30 min práce</span>
+            </div>
+            <h1 className="article-h1" style={{ fontSize: "clamp(32px, 5vw, 56px)", lineHeight: "1.1" }}>
+              Jak nasilikonovat vanu jako profík v roce 2026
+            </h1>
+            <p className="article-lead" style={{ fontSize: "20px", marginTop: "20px" }}>
+              Plesnivé rohy nebo zatékání za vanu? Nový silikon osvěží celou koupelnu. Tajemství není v drahé pistoli, ale v přípravě a mýdlové vodě.
+            </p>
+            <div style={{ marginTop: "20px" }}>
+               <ShareButtons 
+                url="https://domovniguru.cz/navody/jak-utesnit-vanu-silikonem" 
+                title="Jak nasilikonovat vanu jako profík 2026" 
+               />
+            </div>
+          </header>
 
-        <section style={{ background: "#f2f2ee", borderRadius: "16px", padding: "40px", marginBottom: "60px" }}>
-          <h3 style={{ fontFamily: "DM Serif Display, serif", fontSize: "24px", marginBottom: "20px" }}>Co budete potřebovat:</h3>
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "15px" }}>
-            {nastroje.map((n, i) => (
-              <li key={i} style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "15px", color: "#444" }}>
-                <span style={{ color: "#111", fontWeight: "bold" }}>•</span> {n}
-              </li>
-            ))}
-          </ul>
-        </section>
+          <section style={{ background: "#f8f4f0", borderRadius: "16px", padding: "30px", marginBottom: "40px", border: "1px solid #eee" }}>
+            <h3 style={{ fontSize: "22px", marginBottom: "20px", fontFamily: "var(--font-serif)" }}>Co budete potřebovat:</h3>
+            <ul style={{ listStyle: "none", padding: 0, display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "10px" }}>
+              {nastroje.map((n, i) => (
+                <li key={i} style={{ fontSize: "15px", display: "flex", alignItems: "start", gap: "8px" }}>
+                  <span style={{ color: "#c8a97a" }}>✔</span> {n}
+                </li>
+              ))}
+            </ul>
+          </section>
 
-        <div style={{ color: "#1a1a1a", lineHeight: 1.8, fontSize: "18px", fontWeight: 300 }}>
-          <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "32px" }}>Krok 1: Odstranění starého silikonu</h2>
-          <p>
-            Tohle je ta nejnudnější část, ale nejdůležitější. Starý silikon musíte vyškrábnout **úplně celý**. Použijte nůž nebo speciální škrabku. Povrch musí být hladký a čistý.
-          </p>
+          <div className="content-rich-text" style={{ fontSize: "18px", lineHeight: "1.8", fontWeight: 300 }}>
+            <h2 id="krok1">Krok 1: Totální odstranění starého silikonu</h2>
+            <p>
+              Tohle je ta nejméně zábavná část, ale pokud ji odfláknete, nový silikon na starém nebude držet. Starý tmel musíte vyškrábnout <strong>úplně celý</strong>. 
+              Použijte odlamovací nůž nebo speciální plastovou škrabku, abyste nepoškrábali akrylátovou vanu. Zbytky "duchů" silikonu odstraňte chemickým odstraňovačem silikonu.
+            </p>
 
-          <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "32px", marginTop: "40px" }}>Krok 2: Odmaštění (Klíč k úspěchu)</h2>
-          <p>
-            I když to vypadá čistě, přejeďte spáru hadříkem s technickým benzínem nebo lihem. Pokud tam zůstane mastnota z mýdla, nový silikon se za měsíc odlepí a začne tam zatékat.
-          </p>
+            <h2 id="krok2">Krok 2: Odmaštění (Základ úspěchu)</h2>
+            <p>
+              I když povrch vypadá čistě, přejeďte spáru hadříkem namočeným v <strong>technickém benzínu</strong> nebo lihu. Pokud tam zůstane neviditelná mastnota z mýdla nebo kožního tuku, nový silikon se za pár měsíců odchlípne a začne pod něj zatékat voda.
+            </p>
 
-          <div style={{ background: "#fff", border: "2px solid #111", padding: "30px", borderRadius: "12px", margin: "40px 0" }}>
-            <h4 style={{ margin: "0 0 10px 0", textTransform: "uppercase", fontSize: "14px" }}>💡 Guru Tip: Napusťte vanu</h4>
-            <p style={{ margin: 0, fontSize: "16px" }}>
-              Před silikonováním napusťte vanu vodou. Vana si "sedne" o pár milimetrů níž. Pokud byste silikonovali prázdnou vanu, mohl by silikon po prvním vykoupání (pod vaší vahou) prasknout.
+            <div className="article-tip" style={{ background: "#fff", border: "2px solid #3a3a38", padding: "25px", borderRadius: "12px", margin: "40px 0" }}>
+              <h4 style={{ margin: "0 0 10px 0", textTransform: "uppercase", fontSize: "14px", fontWeight: 700 }}>💡 GURU TIP PRO ROK 2026: NAPUSŤTE VANU</h4>
+              <p style={{ margin: 0, fontSize: "16px" }}>
+                Před samotným nanášením silikonu napusťte vanu vodou (ideálně do poloviny). Vana si pod váhou vody "sedne" o 1–2 mm. Pokud byste silikonovali prázdnou vanu, mohl by čerstvý silikon při prvním koupání pod vaší vahou prasknout nebo se odtrhnout od zdi. Vypusťte ji až po vytvrdnutí (cca 24h).
+              </p>
+            </div>
+
+            <h2 id="krok3">Krok 3: Plynulá aplikace</h2>
+            <p>
+              Seřízněte špičku kartuše pod úhlem 45 stupňů tak, aby šířka otvoru odpovídala šířce spáry. Pomocí aplikační pistole nanášejte silikon plynulým tahem k sobě. Snažte se o rovnoměrnou "housenku" bez přerušování.
+            </p>
+
+            <h2 id="krok4">Krok 4: Mýdlové kouzlo</h2>
+            <p>
+              Tady dělají amatéři největší chybu – olíznou si prst. Sliny obsahují bakterie, které v silikonu časem vytvoří černé tečky (plíseň). 
+              Místo toho celou čerstvou spáru postříkejte rozprašovačem s <strong>mýdlovou vodou</strong> (voda + jar). Poté stěrkou jedním tahem silikon uhlaďte. Díky mýdlu se přebytečný silikon nepřilepí na vanu ani na dlaždice a vytvoří dokonalý náběh.
             </p>
           </div>
 
-          <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "32px", marginTop: "40px" }}>Krok 3: Aplikace silikonu</h2>
-          <p>
-            Seřízněte špičku kartuše pod úhlem 45 stupňů. Pomalu a plynule nanášejte silikon do spáry. Nesnažte se o dokonalost hned teď, stačí tam mít souvislou "housenku" materiálu.
-          </p>
+          <footer style={{ marginTop: "60px", padding: "30px", borderTop: "1px solid #eee", textAlign: "center" }}>
+            <p style={{ color: "#888" }}>Máte hotovo? Nechte silikon zrát aspoň 12 hodin, než se do vany pustíte se sprchou.</p>
+          </footer staff>
+        </article>
+      </div>
 
-          <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "32px", marginTop: "40px" }}>Krok 4: Uhlazení (Tady se děje kouzlo)</h2>
-          <p>
-            Celou spáru postříkejte rozprašovačem s **mýdlovou vodou**. Poté stěrkou (nebo prstem) jedním plynulým pohybem silikon uhlaďte. Díky mýdlu se silikon nepřilepí tam, kam nemá, a vytvoří krásný hladký náběh.
-          </p>
-        </div>
-
-        <footer style={{ marginTop: "80px", textAlign: "center", borderTop: "1px solid #eee", paddingTop: "40px" }}>
-          <p style={{ color: "#888", fontSize: "14px" }}>Povedlo se? Pošlete nám fotku vaší nové koupelny!</p>
-        </footer>
-      </article>
-    </div>
+      <style>{`
+        .breadcrumb { font-size: 13px; color: #888; margin-bottom: 20px; }
+        .breadcrumb a { color: #888; text-decoration: none; }
+        .breadcrumb-sep { margin: 0 8px; }
+        .article-cat-pill { background: #3a3a38; color: #fff; padding: 4px 12px; borderRadius: 4px; fontSize: 10px; fontWeight: 700; margin-right: 15px; }
+        .article-read-time { fontSize: 12px; color: #888; }
+        .content-rich-text h2 { font-family: var(--font-serif); font-size: 32px; margin-top: 50px; margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        @media (max-width: 600px) {
+          .article-h1 { font-size: 32px !important; }
+        }
+      `}</style>
+    </>
   );
 }
