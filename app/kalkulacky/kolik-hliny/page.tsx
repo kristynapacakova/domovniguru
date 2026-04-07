@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import ShareButtons from "../../components/ShareButtons";
-
-// Načtení kalkulačky relativní cestou
-const SoilCalculator = dynamic(() => import("../../components/SoilCalculator"), {
-  ssr: false,
-});
+import SoilClient from "./SoilClient"; // Importujeme ten most
 
 export const metadata: Metadata = {
   title: "Kalkulačka objemu zeminy: Kolik litrů substrátu koupit? 2026",
@@ -25,17 +20,17 @@ export default function SoilCalculatorPage() {
           Kalkulačka objemu zeminy a substrátu
         </h1>
         <p style={{ fontSize: "18px", color: "#666", marginBottom: "40px" }}>
-          Neodhadujte litry od oka. Tento nástroj vám přesně spočítá, kolik 20l nebo 50l pytlů budete v obchodě potřebovat.
+          Neodhadujte litry od oka. Tento nástroj vám přesně spočítá, kolik pytlů budete v obchodě potřebovat.
         </p>
 
-        <SoilCalculator />
+        {/* Teď je to čisté a bezpečné */}
+        <SoilClient />
 
         <div style={{ marginTop: "60px", padding: "30px", background: "#f8f9fa", borderRadius: "12px" }}>
           <h3>Jak měřit květináče?</h3>
           <p>
-            Vždy měřte <strong>vnitřní rozměr</strong> nádoby. Pokud má květináč kónický tvar (dole je užší), 
-            zadejte průměrný rozměr mezi horním a spodním okrajem, abyste získali co nejpřesnější výsledek. 
-            Nezapomeňte, že hlína se časem trochu "sesedne", takže doporučujeme koupit o 5–10 % substrátu více.
+            Vždy měřte <strong>vnitřní rozměr</strong> nádoby. Pokud má květináč kónický tvar, 
+            zadejte průměrný rozměr mezi horním a spodním okrajem.
           </p>
         </div>
 
