@@ -6,18 +6,17 @@ export const metadata: Metadata = {
   title: "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026",
   description: "Černá, zelená i bílá plíseň v bytě: příčiny, zdravotní rizika a ověřené metody likvidace. Krok za krokem návod jak plíseň odstranit a zabránit jejímu návratu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" },
-  "keywords": ["jak odstranit plíseň", "plíseň v bytě", "likvidace plísně v bytě", "jak se zbavit plísně na zdi", "plíseň na zdi odstranění", "černá plíseň na zdi", "plíseň v rohu zdi"]
-  openGraph: { title: "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně. Savo vs. fungicidy vs. chytrá houba.", url: "https://domovniguru.cz/blog/jak-odstranit-plisen-na-zdi", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-20T08:00:00Z", authors: ["DomovniGuru"] },
-  twitter: { card: "summary_large_image", title: "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně." },
+  openGraph: { title: "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně. Savo vs. fungicidy vs. ocet.", url: "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
+  twitter: { card: "summary_large_image", title: "Jak se zbavit plísně v bytě jednou provždy 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-odstranit-plisen-na-zdi#article", "headline": "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-20T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit plíseň", "plíseň v bytě", "černá plíseň na zdi", "jak se zbavit plísně", "plíseň prevence"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi#article", "headline": "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit plisen", "plisen v byte", "likvidace plisne v byte", "jak se zbavit plisne na zdi", "plisen na zdi odstraneni", "cerna plisen na zdi", "plisen v rohu zdi", "jak se zbavit plisne bez ventilace"] }] };
 
 const RELATED = [
-  { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
-  { title: "Jak ošetřit dřevěnou terasu před zimou", href: "/blog/drevo-terasa-zima", read: "4 min" },
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
-  { title: "Stěhování do nového – kompletní checklist", href: "/blog/stehovani-checklist", read: "5 min" },
+  { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
+  { title: "Jak ošetřit dřevěnou terasu před zimou", href: "/blog/drevo-terasa-zima", read: "4 min" },
+  { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "4 min" },
 ];
 
 export default function ArticlePage() {
@@ -28,7 +27,6 @@ export default function ArticlePage() {
         <div className="article-layout">
           <article className="article-body">
 
-            {/* BREADCRUMB */}
             <nav className="breadcrumb" aria-label="Breadcrumb">
               <Link href="/">Domů</Link><span className="breadcrumb-sep">/</span>
               <Link href="/blog">Blog</Link><span className="breadcrumb-sep">/</span>
@@ -36,137 +34,76 @@ export default function ArticlePage() {
               <span>Plíseň v bytě</span>
             </nav>
 
-            {/* HEADER */}
             <header className="article-header">
               <div className="article-meta-top">
                 <Link href="/blog/kategorie/sezonni-udrzba" className="article-cat-pill">🍂 Sezónní údržba</Link>
-                <span className="article-read-time">⏱ 9 min čtení</span>
+                <span className="article-read-time">⏱ 10 min čtení</span>
               </div>
               <h1 className="article-h1">Jak se zbavit plísně v bytě jednou provždy</h1>
               <p className="article-lead">Plíseň na zdi není jen estetický problém – je to zdravotní riziko. Ukážeme ti jak ji správně odstranit, co ji způsobuje a hlavně jak zajistit, aby se nikdy nevrátila.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 20. března 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons
-                url="https://domovniguru.cz/blog/jak-odstranit-plisen-na-zdi"
-                title="Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026"
-              />
+              <div className="article-meta-row"><span>Aktualizováno: 12. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" title="Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026" />
             </header>
 
-            {/* HERO ILLUSTRATION */}
             <div className="hero-illustration" aria-hidden="true">
               <svg viewBox="0 0 760 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
                 <rect width="760" height="200" fill="#f8f6f4"/>
                 <defs>
                   <linearGradient id="wallBg" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
-                    <stop offset="0%" stopColor="#f0ede8"/>
-                    <stop offset="100%" stopColor="#e8e4de"/>
+                    <stop offset="0%" stopColor="#f0ede8"/><stop offset="100%" stopColor="#e8e4de"/>
                   </linearGradient>
                 </defs>
-
-                {/* === PANEL 1: Plíseň na rohu === */}
                 <g transform="translate(20, 20)">
                   <rect x="0" y="0" width="200" height="160" rx="6" fill="url(#wallBg)" stroke="#ddd8d0" strokeWidth="1"/>
-                  {/* Roh zdi */}
                   <rect x="80" y="0" width="3" height="160" fill="#d8d4ce" opacity="0.5"/>
-                  {/* Plíseň — černé skvrny */}
-                  {[[72,120],[78,108],[85,118],[68,130],[75,140],[90,128],[82,98],[65,118],[92,112]].map(([x,y],i)=>(
-                    <ellipse key={i} cx={x} cy={y} rx={4+Math.sin(i)*2} ry={3+Math.cos(i)*2} fill="#2d2820" opacity={0.55+i*0.04}/>
-                  ))}
-                  {[[72,120],[78,108],[85,118],[68,130]].map(([x,y],i)=>(
-                    <ellipse key={i} cx={x} cy={y} rx={2} ry={2} fill="#1a1410" opacity={0.7}/>
-                  ))}
-                  {/* Vlhkost — modré kapky */}
-                  {[[60,90],[88,85],[74,78]].map(([x,y],i)=>(
-                    <ellipse key={i} cx={x} cy={y} rx="3" ry="4" fill="#6ba3c8" opacity="0.4"/>
-                  ))}
-                  {/* Label */}
+                  {[[72,120],[78,108],[85,118],[68,130],[75,140],[90,128],[82,98],[65,118],[92,112]].map(([x,y],i)=>(<ellipse key={i} cx={x} cy={y} rx={4+Math.sin(i)*2} ry={3+Math.cos(i)*2} fill="#2d2820" opacity={0.55+i*0.04}/>))}
+                  {[[60,90],[88,85],[74,78]].map(([x,y],i)=>(<ellipse key={i} cx={x} cy={y} rx="3" ry="4" fill="#6ba3c8" opacity="0.4"/>))}
                   <rect x="20" y="8" width="100" height="18" rx="4" fill="#e07a5f" opacity="0.15"/>
-                  <text x="70" y="21" textAnchor="middle" fontSize="9" fill="#c0503a" fontWeight="600" letterSpacing="0.05em">PROBLÉM</text>
+                  <text x="70" y="21" textAnchor="middle" fontSize="9" fill="#c0503a" fontWeight="600">PROBLÉM</text>
                 </g>
-
-                {/* Šipka 1→2 */}
                 <path d="M228 100 L268 100" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round"/>
                 <path d="M264 95 L270 100 L264 105" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-                {/* === PANEL 2: Čištění === */}
                 <g transform="translate(276, 20)">
                   <rect x="0" y="0" width="200" height="160" rx="6" fill="url(#wallBg)" stroke="#ddd8d0" strokeWidth="1"/>
-                  {/* Zbytky plísně (světlejší) */}
-                  {[[72,120],[78,108],[85,118]].map(([x,y],i)=>(
-                    <ellipse key={i} cx={x} cy={y} rx="3" ry="3" fill="#2d2820" opacity="0.2"/>
-                  ))}
-                  {/* Sprej / lahvička */}
+                  {[[72,120],[78,108],[85,118]].map(([x,y],i)=>(<ellipse key={i} cx={x} cy={y} rx="3" ry="3" fill="#2d2820" opacity="0.2"/>))}
                   <g transform="translate(95, 55)">
                     <rect x="8" y="20" width="22" height="36" rx="4" fill="#4a90d9" opacity="0.85"/>
                     <rect x="12" y="14" width="14" height="10" rx="2" fill="#3a7abf"/>
                     <path d="M8 28 L2 22 L8 22" fill="#3a7abf" opacity="0.7"/>
-                    {/* Štítok */}
-                    <rect x="10" y="26" width="18" height="10" rx="2" fill="#fff" opacity="0.4"/>
-                    <text x="19" y="34" textAnchor="middle" fontSize="5" fill="#fff" fontWeight="700">CLEAN</text>
                   </g>
-                  {/* Sprej kapky */}
-                  {[[80,72],[74,78],[70,68],[76,62]].map(([x,y],i)=>(
-                    <circle key={i} cx={x} cy={y} r="2" fill="#4a90d9" opacity="0.4"/>
-                  ))}
-                  {/* Houba/utěrka */}
-                  <g transform="translate(40, 100)">
-                    <rect x="0" y="0" width="34" height="22" rx="4" fill="#f0c040" opacity="0.8"/>
-                    <rect x="0" y="12" width="34" height="10" rx="2" fill="#d8a830" opacity="0.6"/>
-                    {[6,12,18,24].map((x,i)=>(
-                      <line key={i} x1={x} y1="0" x2={x} y2="12" stroke="#c89820" strokeWidth="0.8" opacity="0.4"/>
-                    ))}
-                  </g>
+                  {[[80,72],[74,78],[70,68],[76,62]].map(([x,y],i)=>(<circle key={i} cx={x} cy={y} r="2" fill="#4a90d9" opacity="0.4"/>))}
                   <rect x="20" y="8" width="100" height="18" rx="4" fill="#f0c040" opacity="0.15"/>
-                  <text x="70" y="21" textAnchor="middle" fontSize="9" fill="#b07800" fontWeight="600" letterSpacing="0.05em">ČIŠTĚNÍ</text>
+                  <text x="70" y="21" textAnchor="middle" fontSize="9" fill="#b07800" fontWeight="600">ČIŠTĚNÍ</text>
                 </g>
-
-                {/* Šipka 2→3 */}
                 <path d="M484 100 L524 100" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round"/>
                 <path d="M520 95 L526 100 L520 105" stroke="#c8b89a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-
-                {/* === PANEL 3: Čistá zeď + větrání === */}
                 <g transform="translate(532, 20)">
                   <rect x="0" y="0" width="200" height="160" rx="6" fill="#f5f9f5" stroke="#c8ddc8" strokeWidth="1"/>
-                  {/* Čistá zeď */}
-                  <rect x="80" y="0" width="3" height="160" fill="#c8d8c8" opacity="0.4"/>
-                  {/* Okno — větrání */}
-                  <rect x="110" y="30" width="60" height="70" rx="3" fill="#d8eef8" stroke="#a0c8e0" strokeWidth="1.5"/>
-                  <line x1="140" y1="30" x2="140" y2="100" stroke="#a0c8e0" strokeWidth="1"/>
-                  <line x1="110" y1="65" x2="170" y2="65" stroke="#a0c8e0" strokeWidth="1"/>
-                  {/* Větrací šipky */}
-                  {[0,1,2].map(i=>(
-                    <g key={i}>
-                      <path d={`M${155+i*0} ${45+i*8} Q${165+i*0} ${49+i*8} ${155+i*0} ${53+i*8}`} stroke="#6ab8e0" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.7"/>
-                    </g>
-                  ))}
-                  {/* Fajfka — ok */}
                   <circle cx="45" cy="80" r="18" fill="#5a9e6f" opacity="0.12"/>
                   <path d="M36 80 L42 86 L54 72" stroke="#5a9e6f" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
                   <rect x="20" y="8" width="100" height="18" rx="4" fill="#5a9e6f" opacity="0.15"/>
-                  <text x="70" y="21" textAnchor="middle" fontSize="9" fill="#3a7e4f" fontWeight="600" letterSpacing="0.05em">VÝSLEDEK</text>
+                  <text x="70" y="21" textAnchor="middle" fontSize="9" fill="#3a7e4f" fontWeight="600">VÝSLEDEK</text>
                 </g>
               </svg>
               <div style={{display:"flex",justifyContent:"space-around",padding:"8px 30px 12px",fontSize:"9px",letterSpacing:"0.1em",color:"#a09080",textTransform:"uppercase",background:"#f8f6f4"}}>
-                <span>🔴 Plíseň a vlhkost</span>
-                <span>🧴 Správný postup čištění</span>
-                <span>✅ Čistá zeď a prevence</span>
+                <span>🔴 Plíseň a vlhkost</span><span>🧴 Správný postup čištění</span><span>✅ Čistá zeď a prevence</span>
               </div>
             </div>
 
-            {/* TOC */}
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>
               <ol className="toc-list">
                 <li><a href="#priciny">Proč plíseň vzniká – skutečné příčiny</a></li>
                 <li><a href="#typy">Typy plísní a jejich nebezpečnost</a></li>
                 <li><a href="#likvidace">Jak plíseň odstranit krok za krokem</a></li>
-                <li><a href="#metody">Srovnání metod likvidace</a></li>
-                <li><a href="#prevence">Prevence – 5 kroků jak plíseň zastavit</a></li>
+                <li><a href="#metody">Srovnání metod – Savo vs. fungicidy vs. ocet</a></li>
+                <li><a href="#roh">Plíseň v rohu zdi a za nábytkem</a></li>
+                <li><a href="#prevence">Prevence – jak plíseň zastavit jednou provždy</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ol>
             </nav>
 
-            {/* SECTION 1 */}
             <section id="priciny">
               <h2>Proč plíseň vzniká – skutečné příčiny</h2>
               <p>Plíseň není smůla ani nečistota. Je to přirozená reakce na konkrétní podmínky: <strong>vlhkost, teplo a nedostatek proudění vzduchu</strong>. Bez pochopení příčin je jakékoli čištění jen dočasné řešení – plíseň se vrátí.</p>
@@ -180,71 +117,31 @@ export default function ArticlePage() {
               <div className="article-tip"><strong>💡 Tip:</strong> Kup si vlhkoměr (100–200 Kč) a změř vlhkost v každé místnosti. Ideální rozmezí je <strong>40–60 %</strong>. Pokud máš dlouhodobě nad 65 %, plíseň je jen otázkou času.</div>
             </section>
 
-            {/* SECTION 2 — TABULKA TYPŮ */}
             <section id="typy">
               <h2>Typy plísní a jejich nebezpečnost</h2>
               <p>Ne každá plíseň je stejně nebezpečná. Barva ti dá první orientaci – ale definitivní diagnózu provede jen laboratorní test.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
-                  <thead>
-                    <tr>
-                      <th>Typ plísně</th>
-                      <th>Barva / vzhled</th>
-                      <th>Nejčastější místo</th>
-                      <th>Zdravotní riziko</th>
-                      <th>Obtížnost odstranění</th>
-                    </tr>
-                  </thead>
+                  <thead><tr><th>Typ plísně</th><th>Barva / vzhled</th><th>Nejčastější místo</th><th>Zdravotní riziko</th><th>Obtížnost odstranění</th></tr></thead>
                   <tbody>
-                    <tr>
-                      <td><strong>Cladosporium</strong></td>
-                      <td>Zelená až černá, sametová</td>
-                      <td>Okna, záclony, koupelna</td>
-                      <td>⚠️ Střední – alergie, astma</td>
-                      <td>Nízká</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Aspergillus</strong></td>
-                      <td>Zelená, žlutá, černá</td>
-                      <td>Stěny, strop, klimatizace</td>
-                      <td>⚠️⚠️ Vysoké – nebezpečný pro imunokompromitované</td>
-                      <td>Střední</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Stachybotrys (černá)</strong></td>
-                      <td>Černá, lesklá, mazlavá</td>
-                      <td>Vlhké stěny, sádrokarton</td>
-                      <td>🔴 Velmi vysoké – toxiny, nemoci dýchacích cest</td>
-                      <td>Vysoká – nutný odborník</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Penicillium</strong></td>
-                      <td>Modrá až zelená, prašná</td>
-                      <td>Tapety, izolace, potraviny</td>
-                      <td>⚠️ Střední – alergie</td>
-                      <td>Střední</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Bílá plíseň</strong></td>
-                      <td>Bílá, bavlnitá</td>
-                      <td>Půda, dřevo, sklep</td>
-                      <td>⚠️ Nízké až střední</td>
-                      <td>Nízká</td>
-                    </tr>
+                    <tr><td><strong>Cladosporium</strong></td><td>Zelená až černá, sametová</td><td>Okna, záclony, koupelna</td><td>⚠️ Střední – alergie, astma</td><td>Nízká</td></tr>
+                    <tr><td><strong>Aspergillus</strong></td><td>Zelená, žlutá, černá</td><td>Stěny, strop, klimatizace</td><td>⚠️⚠️ Vysoké – nebezpečný pro imunokompromitované</td><td>Střední</td></tr>
+                    <tr><td><strong>Stachybotrys (černá)</strong></td><td>Černá, lesklá, mazlavá</td><td>Vlhké stěny, sádrokarton</td><td>🔴 Velmi vysoké – toxiny, nemoci dýchacích cest</td><td>Vysoká – nutný odborník</td></tr>
+                    <tr><td><strong>Penicillium</strong></td><td>Modrá až zelená, prašná</td><td>Tapety, izolace, potraviny</td><td>⚠️ Střední – alergie</td><td>Střední</td></tr>
+                    <tr><td><strong>Bílá plíseň</strong></td><td>Bílá, bavlnitá</td><td>Půda, dřevo, sklep</td><td>⚠️ Nízké až střední</td><td>Nízká</td></tr>
                   </tbody>
                 </table>
               </div>
               <div className="article-tip"><strong>⚠️ Varování:</strong> Pokud najdeš lesklou černou plíseň (Stachybotrys), <strong>nečisti ji sám</strong>. Mechanické narušení uvolní toxické spóry do vzduchu. Kontaktuj odbornou firmu na sanaci plísní.</div>
             </section>
 
-            {/* SECTION 3 */}
             <section id="likvidace">
               <h2>Jak plíseň odstranit krok za krokem</h2>
               <p>Správný postup likvidace plísně není složitý, ale musíš dodržet pořadí. Přeskočení jakéhokoli kroku znamená, že plíseň se vrátí – obvykle do 2–3 měsíců.</p>
               <ul>
                 <li><strong>Krok 1 – Ochrana:</strong> Nasaď respirátor (min. FFP2), gumové rukavice a brýle. Nikdy nečisti plíseň bez ochrany – vdechnutí spór způsobuje zdravotní problémy.</li>
                 <li><strong>Krok 2 – Větrání místnosti:</strong> Otevři okna a dveře. Plíseň čisti vždy v dobře větraném prostoru – přípravky jsou toxické a spóry se při čištění uvolňují do vzduchu.</li>
-                <li><strong>Krok 3 – Nanes přípravek:</strong> Aplikuj zvolený přípravek (Savo, fungicid) na postižené místo. Nech působit dle návodu – minimálně 15–30 minut. Nespěchej.</li>
+                <li><strong>Krok 3 – Nanes přípravek:</strong> Aplikuj zvolený přípravek (Savo, fungicid) na postižené místo. Nechej působit dle návodu – minimálně 15–30 minut. Nespěchej.</li>
                 <li><strong>Krok 4 – Mechanické odstranění:</strong> Odstraň plíseň tvrdým kartáčem nebo houbou. Použitý materiál ihned uzavři do plastového sáčku a vyhoď. Nepřenášej ho přes byt.</li>
                 <li><strong>Krok 5 – Opakovaný nátěr:</strong> Po osušení nanes přípravek znovu a nech zaschnout. Tím zničíš zbývající spóry.</li>
                 <li><strong>Krok 6 – Přetření:</strong> Postižené místo přetři protiplísňovou barvou nebo nátěrem. Běžná malířská barva plíseň nezastaví.</li>
@@ -252,169 +149,88 @@ export default function ArticlePage() {
               </ul>
             </section>
 
-            {/* SECTION 4 — TABULKA METOD */}
             <section id="metody">
-              <h2>Srovnání metod likvidace plísně</h2>
-              <p>Na trhu existuje řada přípravků. Každý má jiné složení, účinnost a vhodnost pro různé situace. Tato tabulka ti pomůže vybrat správně.</p>
+              <h2>Srovnání metod likvidace – Savo vs. fungicidy vs. ocet</h2>
+              <p>Na trhu existuje řada přípravků. Každý má jiné složení, účinnost a vhodnost pro různé situace.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
-                  <thead>
-                    <tr>
-                      <th>Metoda</th>
-                      <th>Složení</th>
-                      <th>Účinnost</th>
-                      <th>Bezpečnost</th>
-                      <th>Cena</th>
-                      <th>Vhodné pro</th>
-                    </tr>
-                  </thead>
+                  <thead><tr><th>Metoda</th><th>Složení</th><th>Účinnost</th><th>Bezpečnost</th><th>Cena</th><th>Vhodné pro</th></tr></thead>
                   <tbody>
-                    <tr>
-                      <td><strong>Savo (chlornan sodný)</strong></td>
-                      <td>Chlor ~5 %</td>
-                      <td>⭐⭐⭐⭐ Vysoká</td>
-                      <td>Dráždivé, nutná ventilace</td>
-                      <td>~50 Kč/l</td>
-                      <td>Koupelna, spáry, omítka</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Bezchlórové fungicidy</strong><br/><small>(HG, Anti-Schimmel)</small></td>
-                      <td>Kvartérní amoniové soli</td>
-                      <td>⭐⭐⭐⭐⭐ Velmi vysoká</td>
-                      <td>Bezpečnější, bez zápachu</td>
-                      <td>~200–400 Kč</td>
-                      <td>Stěny, strop, citlivé plochy</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Chytrá houba / melamin</strong></td>
-                      <td>Mechanická abraze</td>
-                      <td>⭐⭐ Nízká (povrchová)</td>
-                      <td>Bezpečná</td>
-                      <td>~20–50 Kč</td>
-                      <td>Doplněk, ne hlavní metoda</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Ocet (bílý, 10 %)</strong></td>
-                      <td>Kyselina octová</td>
-                      <td>⭐⭐⭐ Střední</td>
-                      <td>Bezpečný, přírodní</td>
-                      <td>~30 Kč/l</td>
-                      <td>Lehká plíseň, prevence</td>
-                    </tr>
-                    <tr>
-                      <td><strong>Profesionální sanace</strong></td>
-                      <td>Průmyslové biocidy</td>
-                      <td>⭐⭐⭐⭐⭐ Maximální</td>
-                      <td>Odborný zásah</td>
-                      <td>3 000–15 000 Kč</td>
-                      <td>Rozsáhlá nebo toxická plíseň</td>
-                    </tr>
+                    <tr><td><strong>Savo (chlornan sodný)</strong></td><td>Chlor ~5 %</td><td>⭐⭐⭐⭐ Vysoká</td><td>Dráždivé, nutná ventilace</td><td>~50 Kč/l</td><td>Koupelna, spáry, omítka</td></tr>
+                    <tr><td><strong>Bezchlórové fungicidy</strong><br/><small>(HG, Anti-Schimmel)</small></td><td>Kvartérní amoniové soli</td><td>⭐⭐⭐⭐⭐ Velmi vysoká</td><td>Bezpečnější, bez zápachu</td><td>~200–400 Kč</td><td>Stěny, strop, citlivé plochy</td></tr>
+                    <tr><td><strong>Ocet (bílý, 10 %)</strong></td><td>Kyselina octová</td><td>⭐⭐⭐ Střední</td><td>Bezpečný, přírodní</td><td>~30 Kč/l</td><td>Lehká plíseň, prevence</td></tr>
+                    <tr><td><strong>Chytrá houba / melamin</strong></td><td>Mechanická abraze</td><td>⭐⭐ Nízká (povrchová)</td><td>Bezpečná</td><td>~20–50 Kč</td><td>Doplněk, ne hlavní metoda</td></tr>
+                    <tr><td><strong>Profesionální sanace</strong></td><td>Průmyslové biocidy</td><td>⭐⭐⭐⭐⭐ Maximální</td><td>Odborný zásah</td><td>3 000–15 000 Kč</td><td>Rozsáhlá nebo toxická plíseň</td></tr>
                   </tbody>
                 </table>
               </div>
             </section>
 
-            {/* SECTION 5 — PREVENCE CHECKLIST */}
+            <section id="roh">
+              <h2>Plíseň v rohu zdi a za nábytkem – jak na ni bez ventilace</h2>
+              <p>Nejčastější místa výskytu plísně jsou <strong>rohy místností, ostění oken a stěny za nábytkem</strong> — tedy přesně tam kde proudění vzduchu chybí úplně. Právě absence ventilace způsobuje kondenzaci a ideální podmínky pro růst plísně.</p>
+              <p>Roh místnosti je tepelný most — stěna se zde ochlazuje nejrychleji a dosahuje rosného bodu jako první. Po vyčištění je nutné roh ošetřit tepelně izolační stěrkou nebo přidat vnitřní zateplení, jinak se plíseň vrátí do 3 měsíců garantovaně.</p>
+              <ul>
+                <li><strong>Plíseň v koupelně bez okna:</strong> Bez přirozeného větrání je koupelnový ventilátor nutností. Spouštěj ho vždy při sprchování a nechej běžet ještě 15 minut po skončení. Bez odtahu vlhkosti se plíseň vrátí do 1–2 měsíců i po dokonalém vyčištění.</li>
+                <li><strong>Plíseň na ostění okna:</strong> Typický příznak tepelného mostu v rámu nebo špatného těsnění. Zkontroluj zda okno správně těsní a přepni na zimní nastavení kování.</li>
+                <li><strong>Plíseň za skříní:</strong> Odsuň nábytek, vyčisti zeď a nenechávej skříň zpět na stejné místo bez vzduchové mezery. Minimálně <strong>5–8 cm od zdi</strong> je nutných.</li>
+                <li><strong>Plíseň na stropě:</strong> Nejčastěji způsobena zatékáním shora nebo kondenzací vlhkého vzduchu. Zkontroluj zda nehrozí zatékání — tmavé skvrny bez plísně naznačují vodu, ne vlhkost vzduchu.</li>
+              </ul>
+              <div className="article-tip"><strong>💡 Tip:</strong> Pro rohy bez přístupu vzduchu pomáhá malý odvlhčovač (600–1 500 Kč) umístěný poblíž. Stačí provoz 2–3 hodiny denně aby se vlhkost udržela pod 60 %.</div>
+            </section>
+
             <section id="prevence">
-              <h2>Prevence – 5 kroků jak plíseň zastavit jednou provždy</h2>
+              <h2>Prevence – jak plíseň zastavit jednou provždy</h2>
               <p>Likvidace plísně je jen polovina práce. Bez změny podmínek se plíseň vrátí. Tady jsou konkrétní kroky které fungují.</p>
               <ul>
-                <li>
-                  <strong>✅ Větrání 2× denně po dobu 10 minut (křížové větrání):</strong> Otevři okna na protilehlých stranách bytu. Za 10 minut vyměníš celý vzduch v místnosti bez výrazného ochlazení. Zvlášť důležité po sprchování a vaření.
-                </li>
-                <li>
-                  <strong>✅ Udržuj vlhkost vzduchu pod 60 %:</strong> Pořiď vlhkoměr a odvlhčovač do místností s vyšší vlhkostí (koupelna, ložnice). Při vlhkosti pod 60 % plíseň nemůže růst.
-                </li>
-                <li>
-                  <strong>✅ Odsuň nábytek min. 5 cm od vnějších zdí:</strong> Za nábytkem přisunutým ke zdi se hromadí studený vzduch a vlhkost. Vzduchová mezera zabrání kondenzaci a umožní cirkulaci.
-                </li>
-                <li>
-                  <strong>✅ Zkontroluj rosný bod a zateplení:</strong> Pokud se plíseň vrací stále na stejné místo, jde pravděpodobně o tepelný most. Řešení je zateplení zevnitř (minerální vata, tepelně izolační omítka) nebo zvenku.
-                </li>
-                <li>
-                  <strong>✅ Používej protiplísňovou barvu při malování:</strong> Při rekonstrukci nebo přemalování vždy použij barvu s fungicidní přísadou. Přidává jen 10–20 % k ceně a výrazně zpomaluje návrat plísně.
-                </li>
+                <li><strong>✅ Větrání 2× denně po dobu 10 minut:</strong> Otevři okna na protilehlých stranách bytu. Za 10 minut vyměníš celý vzduch bez výrazného ochlazení. Zvlášť důležité po sprchování a vaření.</li>
+                <li><strong>✅ Udržuj vlhkost vzduchu pod 60 %:</strong> Pořiď vlhkoměr a odvlhčovač do problematických místností. Při vlhkosti pod 60 % plíseň nemůže růst.</li>
+                <li><strong>✅ Odsuň nábytek min. 5 cm od vnějších zdí:</strong> Za nábytkem přisunutým ke zdi se hromadí studený vzduch a vlhkost. Vzduchová mezera zabrání kondenzaci.</li>
+                <li><strong>✅ Zkontroluj tepelné mosty a zateplení:</strong> Pokud se plíseň vrací stále na stejné místo, jde pravděpodobně o tepelný most. Řešením je zateplení zevnitř nebo zvenku.</li>
+                <li><strong>✅ Používej protiplísňovou barvu při malování:</strong> Při přemalování vždy použij barvu s fungicidní přísadou. Přidává jen 10–20 % k ceně a výrazně zpomaluje návrat plísně.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Po sprchování vždy nechej dveře od koupelny otevřené a zapni ventilátor. Vlhkost ze sprchy je největší zdroj plísně v průměrném bytě.</div>
             </section>
 
-            {/* SECTION 6 */}
             <section id="chyby">
               <h2>Nejčastější chyby při odstraňování plísně</h2>
               <ul>
                 <li><strong>Přetření plísně barvou bez předchozího ošetření:</strong> Barva plíseň nezabije – jen ji zakryje. Za 2–4 týdny probublá zpět.</li>
-                <li><strong>Čištění suchou kartáčem:</strong> Mechanické narušení bez přípravku rozhodí spóry do celé místnosti. Vždy nejdříve nanes přípravek, pak teprve kartáčuj.</li>
-                <li><strong>Použití studeného nebo vlhkého přípravku:</strong> Savo a fungicidy fungují nejlépe na suché a teplé ploše. Nevynakládej úsilí na mokrou nebo studenou zeď.</li>
+                <li><strong>Čištění suchým kartáčem:</strong> Mechanické narušení bez přípravku rozhodí spóry do celé místnosti. Vždy nejdříve nanes přípravek, pak teprve kartáčuj.</li>
+                <li><strong>Použití přípravku na mokrou nebo studenou zeď:</strong> Fungicidy fungují nejlépe na suché a teplé ploše.</li>
                 <li><strong>Ignorování příčiny:</strong> Největší chyba ze všech. Bez odstranění tepelného mostu nebo zlepšení větrání se plíseň vrátí garantovaně.</li>
-                <li><strong>Nedostatečná ochrana:</strong> Čištění bez respirátoru a rukavic způsobuje vdechnutí spór a kontakt s agresivními chemikáliemi.</li>
+                <li><strong>Čištění bez ochrany:</strong> Respirátor FFP2 a gumové rukavice jsou nutností — ne volbou.</li>
               </ul>
             </section>
 
-            {/* SECTION 7 — FAQ */}
             <section id="faq">
               <h2>Časté otázky (FAQ)</h2>
               <div className="faq-list">
                 <details className="faq-item">
-                  <summary className="faq-summary">
-                    Je plíseň v bytě důvod k reklamaci u pronajímatele?
-                    <span className="faq-icon">▾</span>
-                  </summary>
-                  <div className="faq-body">
-                    Ano, pokud je způsobena stavební závadou (tepelný most, netěsnost, závada hydroizolace). Pronajímatel je povinen udržovat byt ve způsobilém stavu. Zdokumentuj plíseň fotografiemi, změř vlhkost a informuj pronajímatele písemně. Pokud plíseň vznikla tvým nedostatečným větráním, odpovědnost je na tobě.
-                  </div>
+                  <summary className="faq-summary">Je plíseň v bytě důvod k reklamaci u pronajímatele?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Ano, pokud je způsobena stavební závadou (tepelný most, netěsnost, závada hydroizolace). Pronajímatel je povinen udržovat byt ve způsobilém stavu. Zdokumentuj plíseň fotografiemi, změř vlhkost a informuj pronajímatele písemně. Pokud plíseň vznikla tvým nedostatečným větráním, odpovědnost je na tobě.</div>
                 </details>
                 <details className="faq-item">
-                  <summary className="faq-summary">
-                    Může plíseň způsobit zdravotní problémy?
-                    <span className="faq-icon">▾</span>
-                  </summary>
-                  <div className="faq-body">
-                    Ano. Plísňové spóry způsobují alergické reakce, chronický kašel, záněty dýchacích cest a zhoršení astmatu. Toxická černá plíseň (Stachybotrys) produkuje mykotoxiny které mohou způsobit závažné nemoci, zejména u dětí, seniorů a lidí s oslabenou imunitou. Při opakovaných respiračních potížích bez zjevné příčiny nech byt vyšetřit.
-                  </div>
+                  <summary className="faq-summary">Může plíseň způsobit zdravotní problémy?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Ano. Plísňové spóry způsobují alergické reakce, chronický kašel, záněty dýchacích cest a zhoršení astmatu. Toxická černá plíseň (Stachybotrys) produkuje mykotoxiny které mohou způsobit závažné nemoci, zejména u dětí, seniorů a lidí s oslabenou imunitou.</div>
                 </details>
                 <details className="faq-item">
-                  <summary className="faq-summary">
-                    Pomáhá ocet na plíseň?
-                    <span className="faq-icon">▾</span>
-                  </summary>
-                  <div className="faq-body">
-                    Bílý ocet (alespoň 10%) má mírné fungicidní účinky a je bezpečný. Na lehkou nebo čerstvou plíseň může pomoci. Na rozvinutou nebo opakující se plíseň ale nestačí – doporučujeme ho jako doplněk prevence (pravidelné otírání rizikových míst), ne jako hlavní metodu likvidace.
-                  </div>
+                  <summary className="faq-summary">Pomáhá ocet na plíseň?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Bílý ocet (alespoň 10%) má mírné fungicidní účinky a je bezpečný. Na lehkou nebo čerstvou plíseň může pomoci. Na rozvinutou nebo opakující se plíseň ale nestačí — doporučujeme ho jako doplněk prevence, ne jako hlavní metodu likvidace.</div>
                 </details>
                 <details className="faq-item">
-                  <summary className="faq-summary">
-                    Jak dlouho trvá než se plíseň vrátí po vyčištění?
-                    <span className="faq-icon">▾</span>
-                  </summary>
-                  <div className="faq-body">
-                    Pokud neodstraníš příčinu, plíseň se vrátí typicky za 2–6 měsíců. Pokud použiješ kvalitní fungicid, přetřeš protiplísňovou barvou a zlepšíš větrání, může byt zůstat bez plísně roky. Klíč je v kombinaci chemického ošetření a změny podmínek – jedno bez druhého nestačí.
-                  </div>
+                  <summary className="faq-summary">Jak dlouho trvá než se plíseň vrátí po vyčištění?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Pokud neodstraníš příčinu, plíseň se vrátí typicky za 2–6 měsíců. Pokud použiješ kvalitní fungicid, přetřeš protiplísňovou barvou a zlepšíš větrání, může byt zůstat bez plísně roky. Klíč je v kombinaci chemického ošetření a změny podmínek.</div>
                 </details>
                 <details className="faq-item">
-                  <summary className="faq-summary">
-                    Kdy volat odbornou firmu na sanaci plísně?
-                    <span className="faq-icon">▾</span>
-                  </summary>
-                  <div className="faq-body">
-                    Odborníka vol vždy když: (1) plíseň pokrývá plochu větší než 1 m², (2) plíseň je lesklá černá (možný Stachybotrys), (3) plíseň se vrací na stejné místo i po opakovaném ošetření, (4) plíseň je uvnitř zdi nebo pod podlahou. Průměrná cena sanace je 3 000–15 000 Kč podle rozsahu.
-                  </div>
+                  <summary className="faq-summary">Kdy volat odbornou firmu na sanaci plísně?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Odborníka vol vždy když: (1) plíseň pokrývá plochu větší než 1 m², (2) plíseň je lesklá černá (možný Stachybotrys), (3) plíseň se vrací na stejné místo i po opakovaném ošetření, (4) plíseň je uvnitř zdi nebo pod podlahou. Průměrná cena sanace je 3 000–15 000 Kč podle rozsahu.</div>
                 </details>
               </div>
             </section>
-            <section id="bez-ventilu">
-  <h2>Jak se zbavit plísně v rohu a za nábytkem – bez ventilace</h2>
-  <p>Nejčastější místa výskytu plísně jsou rohy místností, ostění oken a stěny za nábytkem — tedy přesně tam kde proudění vzduchu chybí úplně. Právě absence ventilace způsobuje kondenzaci a ideální podmínky pro růst plísně.</p>
-  <p>Postup likvidace plísně v rohu zdi je stejný jako obecný návod výše, ale vyžaduje extra pozornost na dvě věci. Za prvé — roh je tepelný most kde se stěna ochlazuje nejrychleji. Po vyčištění je nutné roh ošetřit tepelně izolační stěrkou nebo přidat vnitřní zateplení, jinak se plíseň vrátí do 3 měsíců. Za druhé — za nábytkem přisunutým ke zdi se vzduch nehýbe vůbec. Minimální vzduchová mezera je 5–8 cm.</p>
-  <div className="article-tip"><strong>💡 Tip:</strong> Pro rohy bez přístupu vzduchu pomáhá malý ventilátor nebo odvlhčovač umístěný poblíž. Stačí provoz 2–3 hodiny denně aby se vlhkost udržela pod 60 %.</div>
-</section>
 
-            {/* SHARE BOTTOM */}
-            <ShareButtons
-              url="https://domovniguru.cz/blog/jak-odstranit-plisen-na-zdi"
-              title="Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026"
-            />
+            <ShareButtons url="https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" title="Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026" />
 
-            {/* RELATED */}
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -430,7 +246,6 @@ export default function ArticlePage() {
 
           </article>
 
-          {/* SIDEBAR */}
           <aside className="article-sidebar">
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Obsah</div>
@@ -439,6 +254,7 @@ export default function ArticlePage() {
                 <li><a href="#typy">Typy plísní</a></li>
                 <li><a href="#likvidace">Jak plíseň odstranit</a></li>
                 <li><a href="#metody">Srovnání metod</a></li>
+                <li><a href="#roh">Plíseň v rohu a za nábytkem</a></li>
                 <li><a href="#prevence">Prevence</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
                 <li><a href="#faq">FAQ</a></li>
@@ -446,7 +262,7 @@ export default function ArticlePage() {
             </div>
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
-              <Link href="/blog/kategorie/sezonni-udrzba" className="sidebar-cat-link">🍂 Sezónní údržba<span>20 článků →</span></Link>
+              <Link href="/blog/kategorie/sezonni-udrzba" className="sidebar-cat-link">🍂 Sezónní údržba<span>21 článků →</span></Link>
             </div>
           </aside>
         </div>
