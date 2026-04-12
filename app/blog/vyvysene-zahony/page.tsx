@@ -16,7 +16,7 @@ const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
   { title: "Jak ošetřit dřevěnou terasu před zimou", href: "/blog/drevo-terasa-zima", read: "4 min" },
   { title: "Jak se zbavit plísně v bytě jednou provždy", href: "/blog/jak-odstranit-plisen-na-zdi", read: "9 min" },
-  { title: "Jak připravit dům na zimu – checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
+  { title: "Příprava domu na zimu - kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
 ];
 
 export default function ArticlePage() {
