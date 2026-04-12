@@ -5,7 +5,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Příprava domu na zimu: Kompletní checklist údržby a úspor 2026",
   description: "Okapy, střecha, kotel, okna, komín, zahrada. Kompletní checklist co zkontrolovat před zimou aby dům vydržel, topení fungovalo a účty byly co nejnižší.",
-  alternates: { canonical: "https://domovniguru.cz/blog/priprava-domu-na-zimu" },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/priprava-domu-na-zimu" },
   openGraph: { title: "Příprava domu na zimu: Kompletní checklist údržby a úspor 2026", description: "Ultimátní průvodce zazimováním domu – exteriér, interiér, kotel, okna, zahrada.", url: "https://domovniguru.cz/blog/priprava-domu-na-zimu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Příprava domu na zimu: Kompletní checklist 2026", description: "Okapy, střecha, kotel, okna, komín, zahrada – vše co zkontrolovat před zimou." },
 };
