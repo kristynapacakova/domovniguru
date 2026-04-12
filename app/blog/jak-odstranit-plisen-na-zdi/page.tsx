@@ -5,7 +5,8 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026",
   description: "Černá, zelená i bílá plíseň v bytě: příčiny, zdravotní rizika a ověřené metody likvidace. Krok za krokem návod jak plíseň odstranit a zabránit jejímu návratu.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" },
+  "keywords": ["jak odstranit plíseň", "plíseň v bytě", "likvidace plísně v bytě", "jak se zbavit plísně na zdi", "plíseň na zdi odstranění", "černá plíseň na zdi", "plíseň v rohu zdi"]
   openGraph: { title: "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně. Savo vs. fungicidy vs. chytrá houba.", url: "https://domovniguru.cz/blog/jak-odstranit-plisen-na-zdi", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-20T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně." },
 };
@@ -15,7 +16,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
   { title: "Jak ošetřit dřevěnou terasu před zimou", href: "/blog/drevo-terasa-zima", read: "4 min" },
-  { title: "Jak připravit dům na zimu – checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
+  { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
   { title: "Stěhování do nového – kompletní checklist", href: "/blog/stehovani-checklist", read: "5 min" },
 ];
 
@@ -400,6 +401,12 @@ export default function ArticlePage() {
                 </details>
               </div>
             </section>
+            <section id="bez-ventilu">
+  <h2>Jak se zbavit plísně v rohu a za nábytkem – bez ventilace</h2>
+  <p>Nejčastější místa výskytu plísně jsou rohy místností, ostění oken a stěny za nábytkem — tedy přesně tam kde proudění vzduchu chybí úplně. Právě absence ventilace způsobuje kondenzaci a ideální podmínky pro růst plísně.</p>
+  <p>Postup likvidace plísně v rohu zdi je stejný jako obecný návod výše, ale vyžaduje extra pozornost na dvě věci. Za prvé — roh je tepelný most kde se stěna ochlazuje nejrychleji. Po vyčištění je nutné roh ošetřit tepelně izolační stěrkou nebo přidat vnitřní zateplení, jinak se plíseň vrátí do 3 měsíců. Za druhé — za nábytkem přisunutým ke zdi se vzduch nehýbe vůbec. Minimální vzduchová mezera je 5–8 cm.</p>
+  <div className="article-tip"><strong>💡 Tip:</strong> Pro rohy bez přístupu vzduchu pomáhá malý ventilátor nebo odvlhčovač umístěný poblíž. Stačí provoz 2–3 hodiny denně aby se vlhkost udržela pod 60 %.</div>
+</section>
 
             {/* SHARE BOTTOM */}
             <ShareButtons
