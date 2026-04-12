@@ -5,15 +5,14 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026",
   description: "Studený radiátor nahoře? Odvzdušnění zvládnete sami za 10 minut. Kompletní návod krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-odvzdusnit-radiatory" },
-  openGraph: { title: "Jak odvzdušnit radiátor 2026", description: "Studený radiátor nahoře? Za 10 minut to vyřešíš.", url: "https://domovniguru.cz/blog/jak-odvzdusnit-radiatory", siteName: "DomovniGuru", locale: "cs_CZ", type: "article" },
-};
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory" },
+openGraph: { title: "Jak odvzdušnit radiátor 2026", description: "Studený radiátor nahoře? Za 10 minut to vyřešíš.", url: "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-odvzdusnit-radiatory#article", "headline": "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-20T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odvzdušnit radiátor", "odvzdušnění radiátoru", "studený radiátor nahoře", "radiátor nefunguje", "úspora tepla radiátor"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory#article", "headline": "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odvzdušnit radiátor", "odvzdušnění radiátoru", "studený radiátor nahoře", "jak odvzdušnit radiátor bez ventilu", "radiátor nefunguje", "úspora tepla radiátor"] }] };
 
 const RELATED = [
-  { title: "Jak připravit dům na zimu – kompletní checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
-  { title: "Jak zkontrolovat kotel před topnou sezónou", href: "/blog/zkontrolovat-kotel-pred-zimou", read: "5 min" },
+  { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
+  { title: "Jak se zbavit plísně v bytě jednou provždy", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
   { title: "Jak ušetřit na vytápění bez výměny kotle", href: "/blog/usetrit-na-vytapeni", read: "5 min" },
   { title: "Tepelné čerpadlo: Kompletní průvodce výběrem a instalací", href: "/blog/tepelne-cerpadlo-pruvodce", read: "11 min" },
 ];
@@ -212,6 +211,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup odvzdušnění krok za krokem</a></li>
                 <li><a href="#tlak">Kontrola tlaku v soustavě</a></li>
                 <li><a href="#uspora">Kolik ušetříš</a></li>
+                <li><a href="#bez-ventilu">Radiátor bez ventilu</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ol>
@@ -321,6 +321,16 @@ export default function ArticlePage() {
                 <li><strong>Ignorování opakovaného poklesu tlaku:</strong> Pokud tlak klesá opakovaně, je to příznak netěsnosti — ne důvod k pravidelnému doplňování.</li>
               </ul>
             </section>
+            <section id="bez-ventilu">
+  <h2>Jak odvzdušnit radiátor bez odvzdušňovacího ventilu</h2>
+  <p>Starší radiátory — zejména litinové nebo paneláková tělesa — někdy nemají klasický odvzdušňovací ventil s čtyřhrannou hlavicí. V takovém případě máš dvě možnosti.</p>
+  <ul>
+    <li><strong>Automatický odvzdušňovací ventil:</strong> Nejjednodušší řešení — nahraď zátku v horním rohu radiátoru automatickým odvzdušňovacím ventilem (cena 50–150 Kč, montáž svépomocí). Ventil odvzdušňuje průběžně sám.</li>
+    <li><strong>Odvzdušnění přes kotel:</strong> Moderní kondenzační kotle mají vlastní odvzdušňovací ventil. Pokud jsou všechny radiátory studené nahoře, může stačit odvzdušnit přímo kotel — postup najdeš v návodu ke kotli.</li>
+    <li><strong>Instalatér:</strong> Pokud radiátor nemá žádný přístupový bod, zavolej topenáře. Montáž odvzdušňovacího ventilu trvá 15 minut a stojí 300–600 Kč včetně práce.</li>
+  </ul>
+  <div className="article-tip"><strong>💡 Tip:</strong> Automatické odvzdušňovací ventily jsou nejlepší investice do topné soustavy za méně než 200 Kč. Instaluj je na všechny radiátory a nikdy víc nebudeš muset ručně odvzdušňovat.</div>
+</section>
 
             {/* SECTION 8 — FAQ */}
             <section id="faq">
@@ -376,7 +386,7 @@ export default function ArticlePage() {
 
             {/* SHARE BOTTOM */}
             <ShareButtons
-              url="https://domovniguru.cz/blog/jak-odvzdusnit-radiatory"
+              url="https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory"
               title="Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026"
             />
 
@@ -407,6 +417,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup krok za krokem</a></li>
                 <li><a href="#tlak">Kontrola tlaku</a></li>
                 <li><a href="#uspora">Kolik ušetříš</a></li>
+                <li><a href="#bez-ventilu">Radiátor bez ventilu</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ul></nav>
