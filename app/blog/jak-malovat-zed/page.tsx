@@ -2,18 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
-<PaintCalculator />
+
 export const metadata: Metadata = {
-  title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2025",
-  description:
-    "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování. Průvodce pro každého.",
-  alternates: {
-    canonical: "https://domovniguru.cz/blog/jak-malovat-zed",
-  },
-  openGraph: {
-    title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2025",
-    description:
-      "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování.",
+  title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
+  description: "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování. Průvodce pro každého.",
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-zed" },
+  openGraph: { title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026", description: "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování.", url: "https://www.domovniguru.cz/blog/jak-malovat-zed", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
+  twitter: { card: "summary_large_image", title: "Jak malovat zeď – kompletní průvodce 2026", description: "Příprava podkladu, penetrace, výběr barvy, technika. Průvodce krok za krokem." },
+};
     url: "https://domovniguru.cz/blog/jak-malovat-zed",
     siteName: "DomovniGuru",
     locale: "cs_CZ",
@@ -38,25 +34,25 @@ const jsonLd = {
     // Article
     {
       "@type": "Article",
-      "@id": "https://domovniguru.cz/blog/jak-malovat-zed#article",
+      "@id": "https://www.domovniguru.cz/blog/jak-malovat-zed#article",
       "headline": "Jak malovat zeď – kompletní průvodce pro začátečníky 2025",
       "description":
         "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování.",
-      "datePublished": "2025-01-15T08:00:00Z",
-      "dateModified": "2025-03-01T08:00:00Z",
+      "datePublished": "2026-04-12T08:00:00Z",
+      "dateModified": "2026-04-12T08:00:00Z",
       "author": {
         "@type": "Organization",
         "name": "DomovniGuru",
-        "url": "https://domovniguru.cz",
+        "url": "https://www.domovniguru.cz",
       },
       "publisher": {
         "@type": "Organization",
         "name": "DomovniGuru",
-        "url": "https://domovniguru.cz",
+        "url": "https://www.domovniguru.cz",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://domovniguru.cz/blog/jak-malovat-zed",
+        "@id": "https://www.domovniguru.cz/blog/jak-malovat-zed",
       },
       "inLanguage": "cs",
       "keywords": [
@@ -133,14 +129,25 @@ const jsonLd = {
   ],
 };
 
+href="/downloads/checklist-malovani-zdi.pdf"
+  download
+  style={{
+    display: "inline-flex", alignItems: "center", gap: "8px",
+    background: "#3a3a38", color: "#fff", borderRadius: "8px",
+    padding: "12px 20px", fontWeight: 600, fontSize: "14px",
+    textDecoration: "none", margin: "20px 0",
+  }}
+>
+  📥 Stáhnout checklist zdarma (PDF)
+</a>
+    
 // ─── Related articles ─────────────────────────────────────────────────────────
 
 const RELATED = [
-  { title: "Latexová vs. akrylátová barva – jaký je rozdíl?",    href: "/blog/latexova-vs-akrylatova-barva",  read: "4 min" },
-  { title: "Penetrace před malováním – kdy je nutná?",           href: "/blog/penetrace-pred-malovanim",      read: "4 min" },
-  { title: "Jak malovat přes tmavou barvu na světlo",            href: "/blog/malovat-pres-tmavou-barvu",     read: "3 min" },
-  { title: "Jak malovat rohy a lišty bez přetahování",           href: "/blog/jak-malovat-rohy-a-listy",      read: "3 min" },
-  { title: "Jak se zbavit plísně na zdi natrvalo",               href: "/blog/jak-odstranit-plisen-na-zdi",   read: "5 min" },
+  { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "3 min" },
+  { title: "Jak se zbavit plísně na zdi natrvalo", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
+  { title: "Jak vybrat barvu na zeď", href: "/blog/jak-vybrat-barvu-na-zed", read: "5 min" },
+  { title: "Jak malovat radiátor", href: "/blog/jak-malovat-radiator", read: "4 min" },
 ];
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
@@ -188,7 +195,7 @@ export default function ArticlePage() {
                 místnosti k perfektnímu výsledku krok za krokem.
               </p>
               <div className="article-meta-row">
-                <span>Aktualizováno: 1. března 2025</span>
+                <span>Aktualizováno: 12. dubna 2026</span>
                 <span>·</span>
                 <span>DomovniGuru</span>
               </div>
