@@ -7,7 +7,17 @@ export const metadata: Metadata = {
   title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
   description: "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování. Průvodce pro každého.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-zed" },
-  openGraph: { title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026", description: "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování.", url: "https://www.domovniguru.cz/blog/jak-malovat-zed", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: {
+  title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
+  description: "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování.",
+  url: "https://www.domovniguru.cz/blog/jak-malovat-zed",
+  siteName: "DomovniGuru",
+  locale: "cs_CZ",
+  type: "article",
+  publishedTime: "2025-01-15T08:00:00Z",
+  modifiedTime: "2026-04-12T08:00:00Z",
+  authors: ["DomovniGuru"],
+},
   twitter: { card: "summary_large_image", title: "Jak malovat zeď – kompletní průvodce 2026", description: "Příprava podkladu, penetrace, výběr barvy, technika. Průvodce krok za krokem." },
 };
     url: "https://domovniguru.cz/blog/jak-malovat-zed",
