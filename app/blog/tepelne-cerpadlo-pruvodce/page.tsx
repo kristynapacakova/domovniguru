@@ -5,18 +5,19 @@ import HeatPumpCalculator from "@/app/components/HeatPumpCalculator";
 
 export const metadata: Metadata = {
   title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026",
-  description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám.",
-  alternates: { canonical: "https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce" },
-  openGraph: { title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ.", url: "https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article" },
+  description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám 2026.",
+  alternates: { canonical: "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce" },
+  openGraph: { title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ.", url: "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
+  twitter: { card: "summary_large_image", title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#article", "headline": "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-20T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["tepelné čerpadlo", "tepelné čerpadlo vzduch voda", "tepelné čerpadlo cena", "dotace tepelné čerpadlo", "nová zelená úsporám tepelné čerpadlo", "tepelné čerpadlo návratnost"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#article", "headline": "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["tepelné čerpadlo", "tepelné čerpadlo vzduch voda", "tepelné čerpadlo cena", "dotace tepelné čerpadlo", "nová zelená úsporám tepelné čerpadlo", "tepelné čerpadlo návratnost"] }] };
 
 const RELATED = [
-  { title: "Jak připravit dům na zimu – kompletní checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
-  { title: "Jak se zbavit plísně v bytě jednou provždy", href: "/blog/jak-odstranit-plisen-na-zdi", read: "9 min" },
+  { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
+  { title: "Jak se zbavit plísně v bytě jednou provždy", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
+  { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
   { title: "Jak ušetřit na vytápění bez výměny kotle", href: "/blog/usetrit-na-vytapeni", read: "5 min" },
-  { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "4 min" },
 ];
 
 export default function ArticlePage() {
@@ -43,9 +44,9 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací</h1>
               <p className="article-lead">Tepelné čerpadlo může snížit náklady na vytápění o 50–70 %. Ale jen pokud si vyberete správný typ a máte dům připravený. Tenhle průvodce ti ukáže vše co potřebuješ vědět — než podepíšeš smlouvu.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 20. března 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 12. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
-                url="https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce"
+                url="https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce"
                 title="Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026"
               />
             </header>
@@ -387,7 +388,7 @@ export default function ArticlePage() {
 
             {/* SHARE BOTTOM */}
             <ShareButtons
-              url="https://domovniguru.cz/blog/tepelne-cerpadlo-pruvodce"
+              url="https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce"
               title="Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026"
             />
 
