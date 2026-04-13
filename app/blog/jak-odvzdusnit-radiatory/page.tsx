@@ -6,8 +6,9 @@ export const metadata: Metadata = {
   title: "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026",
   description: "Studený radiátor nahoře? Odvzdušnění zvládnete sami za 10 minut. Kompletní návod krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory" },
-openGraph: { title: "Jak odvzdušnit radiátor 2026", description: "Studený radiátor nahoře? Za 10 minut to vyřešíš.", url: "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
-
+  openGraph: { title: "Jak odvzdušnit radiátor 2026", description: "Studený radiátor nahoře? Za 10 minut to vyřešíš.", url: "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
+  twitter: { card: "summary_large_image", title: "Jak odvzdušnit radiátor 2026", description: "Studený radiátor nahoře? Za 10 minut to vyřešíš." },
+};
 const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory#article", "headline": "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odvzdušnit radiátor", "odvzdušnění radiátoru", "studený radiátor nahoře", "jak odvzdušnit radiátor bez ventilu", "radiátor nefunguje", "úspora tepla radiátor"] }] };
 
 const RELATED = [
