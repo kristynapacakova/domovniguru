@@ -135,8 +135,8 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 80, cat: "stehovani", title: "Co zkontrolovat při přebírání nového bytu",               desc: "Elektrika, voda, topení, dokumenty.",                              slug: "prebrani-bytu-checklist",             read: "4 min" },
   ],
   "sezonni-udrzba": [
-    { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "jak-pripravit-dum-na-zimu",           read: "5 min" },
-    { id: 82,  cat: "sezonni-udrzba", title: "Jak odvzdušnit radiátory",                         desc: "Studený radiátor nahoře? Za 10 minut.",                            slug: "jak-odvzdusit-radiatory",             read: "3 min" },
+    { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "priprava-domu-na-zimu",               read: "5 min" },
+    { id: 82,  cat: "sezonni-udrzba", title: "Jak odvzdušnit radiátory",                         desc: "Studený radiátor nahoře? Za 10 minut.",                            slug: "jak-odvzdusnit-radiatory",             read: "3 min" },
     { id: 83,  cat: "sezonni-udrzba", title: "Jak vyčistit okapy na podzim",                     desc: "Listí a mech – bezpečné čištění.",                                 slug: "jak-vycistit-okapy",                  read: "4 min" },
     { id: 84,  cat: "sezonni-udrzba", title: "Jak přezimovat zahradní vodovodní přípojku",       desc: "Aby nezamrzla a nepraskla.",                                       slug: "prezimovat-zahradni-vodu",            read: "3 min" },
     { id: 85,  cat: "sezonni-udrzba", title: "Jak utěsnit okna na zimu",                         desc: "Těsnicí páska, silikon, zimní nastavení.",                         slug: "jak-utesnit-okna-na-zimu",            read: "4 min" },
