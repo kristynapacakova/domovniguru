@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 },
   twitter: { card: "summary_large_image", title: "Jak malovat zeď – kompletní průvodce 2026", description: "Příprava podkladu, penetrace, výběr barvy, technika. Průvodce krok za krokem." },
 };
-    url: "https://domovniguru.cz/blog/jak-malovat-zed",
+    url: "https://www.domovniguru.cz/blog/jak-malovat-zed",
     siteName: "DomovniGuru",
     locale: "cs_CZ",
     type: "article",
