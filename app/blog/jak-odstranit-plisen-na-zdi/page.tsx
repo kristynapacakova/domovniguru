@@ -19,6 +19,12 @@ const RELATED = [
   { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "4 min" },
 ];
 
+const DOWNLOADS = [
+  { icon: "📋", title: "Checklist odstranění plísně", sub: "Krok za krokem · ochrana · přípravky · prevence", href: "/downloads/plisen-checklist.pdf", highlight: false },
+  { icon: "🌡️", title: "Deník vlhkosti — 2 týdny", sub: "Tisknutelná tabulka · důkaz pro pronajímatele", href: "/downloads/plisen-denik-vlhkosti.pdf", highlight: false },
+  { icon: "📄", title: "Dopis pronajímateli", sub: "Šablona reklamace · § 2257 OZ", href: "/downloads/plisen-dopis-pronajimateli.pdf", highlight: true },
+];
+
 export default function ArticlePage() {
   return (
     <>
@@ -45,6 +51,37 @@ export default function ArticlePage() {
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" title="Jak se zbavit plísně v bytě jednou provždy – kompletní průvodce 2026" />
             </header>
 
+            {/* ── KE STAŽENÍ — hned pod headerem ── */}
+            <div style={{ margin: "0 0 36px", background: "#f8f4f0", borderRadius: "14px", padding: "20px 24px", border: "1px solid #e8e0d8" }}>
+              <div style={{ fontSize: "11px", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", color: "#8a8a80", marginBottom: "14px" }}>
+                📥 Ke stažení zdarma
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))", gap: "10px" }}>
+                {DOWNLOADS.map(r => (
+                  <a key={r.href} href={r.href} download style={{
+                    display: "flex", flexDirection: "column", gap: "8px",
+                    background: "#fff",
+                    border: r.highlight ? "2px solid #f59e0b" : "1px solid #e8e0d8",
+                    borderRadius: "10px", padding: "16px", textDecoration: "none",
+                    position: "relative",
+                  }}>
+                    {r.highlight && (
+                      <span style={{ position: "absolute", top: "-10px", left: "12px", background: "#fffbeb", color: "#7a5800", fontSize: "10px", fontWeight: 700, padding: "2px 8px", borderRadius: "6px", border: "1px solid #f59e0b" }}>
+                        Nejstahovanější
+                      </span>
+                    )}
+                    <span style={{ fontSize: "20px" }}>{r.icon}</span>
+                    <span style={{ fontSize: "13px", fontWeight: 700, color: "#1a1a18", lineHeight: 1.3 }}>{r.title}</span>
+                    <span style={{ fontSize: "11px", color: "#8a8a80", lineHeight: 1.4 }}>{r.sub}</span>
+                    <span style={{ marginTop: "4px", paddingTop: "10px", borderTop: "1px solid #e8e0d8", fontSize: "12px", fontWeight: 700, color: r.highlight ? "#7a5800" : "#3a3a38" }}>
+                      ↓ Stáhnout PDF · A4
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* ── HERO ILUSTRACE ── */}
             <div className="hero-illustration" aria-hidden="true">
               <svg viewBox="0 0 760 200" fill="none" xmlns="http://www.w3.org/2000/svg" className="hero-svg">
                 <rect width="760" height="200" fill="#f8f6f4"/>
@@ -203,24 +240,6 @@ export default function ArticlePage() {
               </ul>
             </section>
 
-            <section id="ke-stazeni">
-  <h2>Ke stažení zdarma</h2>
-  <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(200px,1fr))", gap:"12px", marginTop:"16px" }}>
-    {[
-      { icon:"📋", title:"Checklist odstranění plísně", sub:"Krok za krokem · A4", href:"/downloads/plisen-checklist.pdf" },
-      { icon:"🌡️", title:"Deník vlhkosti — 2 týdny", sub:"Tisknutelná tabulka · A4", href:"/downloads/plisen-denik-vlhkosti.pdf" },
-      { icon:"📄", title:"Dopis pronajímateli", sub:"Šablona reklamace · A4", href:"/downloads/plisen-dopis-pronajimateli.pdf" },
-    ].map(r => (
-      <a key={r.href} href={r.href} download style={{ display:"flex", flexDirection:"column", gap:"6px", background:"#f8f4f0", border:"1px solid #e8e0d8", borderRadius:"10px", padding:"16px", textDecoration:"none" }}>
-        <span style={{ fontSize:"24px" }}>{r.icon}</span>
-        <span style={{ fontSize:"14px", fontWeight:600, color:"#2a2a28" }}>{r.title}</span>
-        <span style={{ fontSize:"12px", color:"#8a8a80" }}>{r.sub}</span>
-        <span style={{ fontSize:"12px", fontWeight:600, color:"#3a3a38", marginTop:"4px" }}>📥 Stáhnout PDF</span>
-      </a>
-    ))}
-  </div>
-</section>
-            
             <section id="faq">
               <h2>Časté otázky (FAQ)</h2>
               <div className="faq-list">
@@ -279,6 +298,15 @@ export default function ArticlePage() {
               </ul></nav>
             </div>
             <div className="sidebar-widget">
+              <div className="sidebar-widget-title">📥 Ke stažení</div>
+              {DOWNLOADS.map(r => (
+                <a key={r.href} href={r.href} download style={{ display:"flex", alignItems:"center", gap:"8px", padding:"8px 0", borderBottom:"1px solid var(--border)", textDecoration:"none" }}>
+                  <span style={{ fontSize:"14px" }}>{r.icon}</span>
+                  <span style={{ fontSize:"12px", fontWeight:600, color:"#2a2a28", lineHeight:1.3 }}>{r.title}</span>
+                </a>
+              ))}
+            </div>
+            <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
               <Link href="/blog/kategorie/sezonni-udrzba" className="sidebar-cat-link">🍂 Sezónní údržba<span>21 článků →</span></Link>
             </div>
@@ -296,7 +324,7 @@ export default function ArticlePage() {
         .article-h1{font-family:var(--font-serif);font-size:clamp(26px,3.5vw,40px);line-height:1.1;font-weight:400;letter-spacing:-.01em;margin-bottom:16px}
         .article-lead{font-size:18px;line-height:1.65;color:var(--muted);font-weight:300;margin-bottom:14px}
         .article-meta-row{display:flex;gap:8px;font-size:12px;color:var(--muted);font-weight:500}
-        .hero-illustration{margin:28px 0 36px;border-radius:12px;overflow:hidden;border:1px solid var(--border)}
+        .hero-illustration{margin:0 0 36px;border-radius:12px;overflow:hidden;border:1px solid var(--border)}
         .hero-svg{width:100%;height:auto;display:block}
         .toc{background:var(--surface);border-radius:10px;padding:20px 24px;margin-bottom:40px}
         .toc-label{font-size:11px;font-weight:700;letter-spacing:.10em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
