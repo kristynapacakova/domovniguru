@@ -203,6 +203,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="ke-stazeni">
+  <h2>Ke stažení zdarma</h2>
+  <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(200px,1fr))", gap:"12px", marginTop:"16px" }}>
+    {[
+      { icon:"📋", title:"Checklist odstranění plísně", sub:"Krok za krokem · A4", href:"/downloads/plisen-checklist.pdf" },
+      { icon:"🌡️", title:"Deník vlhkosti — 2 týdny", sub:"Tisknutelná tabulka · A4", href:"/downloads/plisen-denik-vlhkosti.pdf" },
+      { icon:"📄", title:"Dopis pronajímateli", sub:"Šablona reklamace · A4", href:"/downloads/plisen-dopis-pronajimateli.pdf" },
+    ].map(r => (
+      <a key={r.href} href={r.href} download style={{ display:"flex", flexDirection:"column", gap:"6px", background:"#f8f4f0", border:"1px solid #e8e0d8", borderRadius:"10px", padding:"16px", textDecoration:"none" }}>
+        <span style={{ fontSize:"24px" }}>{r.icon}</span>
+        <span style={{ fontSize:"14px", fontWeight:600, color:"#2a2a28" }}>{r.title}</span>
+        <span style={{ fontSize:"12px", color:"#8a8a80" }}>{r.sub}</span>
+        <span style={{ fontSize:"12px", fontWeight:600, color:"#3a3a38", marginTop:"4px" }}>📥 Stáhnout PDF</span>
+      </a>
+    ))}
+  </div>
+</section>
+            
             <section id="faq">
               <h2>Časté otázky (FAQ)</h2>
               <div className="faq-list">
