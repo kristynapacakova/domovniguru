@@ -128,7 +128,7 @@ export default function ArticlePage() {
                     const row = i % 3;
                     return (
                       <g key={i} transform={`translate(${col*228+12}, ${28+row*47})`}>
-                        <rect x="0" y="0" width="215" height="40" rx="5" fill={color} opacity="0.08" stroke={color} strokeWidth="0.6" opacity={0.3}/>
+                        <rect x="0" y="0" width="215" height="40" rx="5" fill={color} opacity="0.1" stroke={color} strokeWidth="0.6"/>
                         <circle cx="16" cy="20" r="12" fill={color} opacity="0.2"/>
                         <text x="16" y="24" textAnchor="middle" fontSize="11" fill={color} fontWeight="700">{n}</text>
                         <text x="35" y="16" fontSize="9.5" fill="#2a2a28" fontWeight="600">{text}</text>
