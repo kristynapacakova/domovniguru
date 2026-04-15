@@ -65,7 +65,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 16, cat: "malovani", title: "Efektové barvy a techniky – štuk, beton, patina",       desc: "Dekorativní omítky krok za krokem.",                               slug: "efektove-barvy-techniky",             read: "6 min" },
     { id: 17, cat: "malovani", title: "Venkovní dřevo – jak natřít plot, terasu nebo fasádu",  desc: "Výběr laku nebo oleje, postup nanášení.",                          slug: "natrit-venkovni-drevo",               read: "5 min" },
     { id: 18, cat: "malovani", title: "Jak správně míchat barvy – RAL a NCS systém",           desc: "Co je RAL kód a jak objednat přesný odstín.",                      slug: "michani-barev-ral-ncs",               read: "4 min" },
-    { id: 19, cat: "malovani", title: "Jak malovat radiátory a kovové povrchy",                desc: "Speciální barva, příprava povrchu, počet vrstev.",                  slug: "jak-malovat-radiatory",              read: "4 min" },
+    { id: 19, cat: "malovani", title: "Jak malovat radiátory a kovové povrchy",                desc: "Speciální barva, příprava povrchu, počet vrstev.",                  slug: "jak-malovat-radiator",              read: "4 min" },
     { id: 20, cat: "malovani", title: "Barva se loupe – co jde špatně a jak to napravit",      desc: "Nejčastější příčiny a řešení.",                                    slug: "barva-se-loupe",                      read: "4 min" },
   ],
   elektrika: [
