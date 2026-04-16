@@ -111,7 +111,7 @@ export default function ArticlePage() {
                     { col:2, type:"Galvanizovaný kov", icon:"⬛", pros:["Moderní vzhled","Odolný","Přenosný"], cons:["Nejdražší","Ohřívá se v létě"], color:"#4a4a40" },
                   ].map(({col, type, icon, pros, cons, color}) => (
                     <g key={col} transform={`translate(${col*158+8}, 24)`}>
-                      <rect x="0" y="0" width="148" height="135" rx="6" fill={color} opacity="0.06" stroke={color} strokeWidth="0.8" opacity="0.4"/>
+                      <rect x="0" y="0" width="148" height="135" rx="6" fill={color} opacity="0.08" stroke={color} strokeWidth="0.8"/>
                       <text x="74" y="22" textAnchor="middle" fontSize="14">{icon}</text>
                       <text x="74" y="40" textAnchor="middle" fontSize="9" fill={color} fontWeight="700">{type}</text>
                       {pros.map((p, i) => <text key={i} x="8" y={56+i*14} fontSize="8" fill="#3a7e4f">✓ {p}</text>)}
