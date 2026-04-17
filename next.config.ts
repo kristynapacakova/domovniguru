@@ -14,6 +14,12 @@ const nextConfig: NextConfig = {
         destination: '/blog/jak-odvzdusnit-radiatory',
         permanent: true,
       },
+      // Moje chyba – špatný slug sádrokartonu (chybělo 'o')
+      {
+        source: '/blog/sadrkarton-pricka-postup',
+        destination: '/blog/sadrokarton-pricka-postup',
+        permanent: true,
+      },
     ]
   },
   async headers() {
