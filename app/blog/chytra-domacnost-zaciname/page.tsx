@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025",
   description: "Chytré zásuvky, žárovky a reproduktory bez vrtání a elektrikáře. Jak začít s chytrou domácností za pár stovek.",
-  alternates: { canonical: "https://domovniguru.cz/blog/chytra-domacnost-zacinamy" },
-  openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://domovniguru.cz/blog/chytra-domacnost-zacinamy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://domovniguru.cz/blog/chytra-domacnost-zaciname" },
+  openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://domovniguru.cz/blog/chytra-domacnost-zaciname", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/chytra-domacnost-zacinamy#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
 
 const RELATED = [
   { title: "Jak vybrat správnou LED žárovku", href: "/blog/jak-vybrat-led-zarovku", read: "5 min" },
