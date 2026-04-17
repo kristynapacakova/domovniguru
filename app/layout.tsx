@@ -56,7 +56,6 @@ export default function RootLayout({
                 <Link href="/sablony">3D šablony</Link>
                 <Link href="/blog">Blog</Link>
                 <Link href="/chyby-ostatnich">Časté chyby</Link>
-                <Link href="/o-webu">O webu</Link>
               </div>
             </div>
           </div>
