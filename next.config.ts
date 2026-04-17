@@ -25,11 +25,6 @@ const nextConfig: NextConfig = {
         destination: '/blog/barva-do-vlhkych-prostor',
         permanent: true,
       },
-      {
-        source: '/blog/chytra-domacnost-zacinamy ',
-        destination: '/blog/blog/chytra-domacnost-zaciname',
-        permanent: true,
-      },
     ]
   },
   async headers() {
