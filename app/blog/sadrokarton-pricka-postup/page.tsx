@@ -5,8 +5,8 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak postavit příčku ze sádrokartonu – profily, desky, spárování 2026",
   description: "Sádrokartonová příčka krok za krokem. Jak vyměřit, postavit ocelové profily, přišroubovat desky a přetmelit spáry. Postup pro laiky bez speciálního nářadí.",
-  alternates: { canonical: "https://www.domovniguru.cz/blog/sadrkarton-pricka-postup" },
-  openGraph: { title: "Jak postavit příčku ze sádrokartonu 2026", description: "Sádrokartonová příčka krok za krokem – profily, desky, spárování.", url: "https://www.domovniguru.cz/blog/sadrkarton-pricka-postup", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup" },
+  openGraph: { title: "Jak postavit příčku ze sádrokartonu 2026", description: "Sádrokartonová příčka krok za krokem – profily, desky, spárování.", url: "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak postavit příčku ze sádrokartonu 2026", description: "Sádrokartonová příčka krok za krokem – profily, desky, spárování." },
 };
 
@@ -14,7 +14,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [{
     "@type": "Article",
-    "@id": "https://www.domovniguru.cz/blog/sadrkarton-pricka-postup#article",
+    "@id": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup#article",
     "headline": "Jak postavit příčku ze sádrokartonu – profily, desky, spárování 2026",
     "datePublished": "2026-04-15T08:00:00Z",
     "dateModified": "2026-04-15T08:00:00Z",
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak postavit příčku ze sádrokartonu – profily, desky, spárování</h1>
               <p className="article-lead">Sádrokartonová příčka je nejrychlejší způsob jak rozdělit místnost nebo vytvořit novou stěnu. Zvládneš ji sám za víkend — bez zedníků a bez lití betonu.</p>
               <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/sadrkarton-pricka-postup" title="Jak postavit příčku ze sádrokartonu – profily, desky, spárování 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/sadrokarton-pricka-postup" title="Jak postavit příčku ze sádrokartonu – profily, desky, spárování 2026" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -236,7 +236,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/sadrkarton-pricka-postup" title="Jak postavit příčku ze sádrokartonu – profily, desky, spárování 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/sadrokarton-pricka-postup" title="Jak postavit příčku ze sádrokartonu – profily, desky, spárování 2026" />
 
             <section className="related-section">
               <h2>Související články</h2>
@@ -326,4 +326,3 @@ export default function ArticlePage() {
     </>
   );
 }
-
