@@ -20,6 +20,16 @@ const nextConfig: NextConfig = {
         destination: '/blog/sadrokarton-pricka-postup',
         permanent: true,
       },
+      {
+        source: '/blog/barva-do-vlhkych-prostoru ',
+        destination: '/blog/barva-do-vlhkych-prostor',
+        permanent: true,
+      },
+      {
+        source: '/blog/chytra-domacnost-zacinamy ',
+        destination: '/blog/blog/chytra-domacnost-zaciname',
+        permanent: true,
+      },
     ]
   },
   async headers() {
