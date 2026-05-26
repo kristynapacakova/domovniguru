@@ -28,7 +28,7 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak osvětlit kuchyňskou linku", href: "/blog/osvetlit-kuchynskou-linku", read: "6 min" },
   { title: "Jak nainstalovat stmívač světla", href: "/blog/instalovat-stmivac", read: "6 min" },
-  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zacinamy", read: "7 min" },
+  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zaciname", read: "7 min" },
   { title: "LED žárovky – jak vybrat správnou", href: "/blog/jak-vybrat-led-zarovku", read: "5 min" },
 ];
 
