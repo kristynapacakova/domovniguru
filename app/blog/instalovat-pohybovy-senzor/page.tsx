@@ -28,7 +28,7 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak nainstalovat stmívač světla", href: "/blog/instalovat-stmivac", read: "6 min" },
   { title: "Venkovní osvětlení zahrady", href: "/blog/venkovni-osvetleni-zahrady", read: "6 min" },
-  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zacinamy", read: "7 min" },
+  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zaciname", read: "7 min" },
   { title: "Jak vybrat svítidla do místnosti", href: "/blog/vybrat-svitidla-do-mistnosti", read: "6 min" },
 ];
 
