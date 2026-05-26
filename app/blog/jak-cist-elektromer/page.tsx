@@ -28,7 +28,7 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak snížit účet za elektřinu", href: "/blog/snizit-ucet-za-elektrinu", read: "7 min" },
   { title: "Jak fungují pojistky a jističe", href: "/blog/jak-funguji-pojistky", read: "5 min" },
-  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zacinamy", read: "7 min" },
+  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zaciname", read: "7 min" },
   { title: "Jak ušetřit na vytápění", href: "/blog/usetrit-na-vytapeni", read: "7 min" },
 ];
 
