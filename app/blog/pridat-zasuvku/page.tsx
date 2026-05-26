@@ -29,7 +29,7 @@ const RELATED = [
   { title: "Jak prodloužit elektrický kabel", href: "/blog/prodlouzit-elektricky-kabel", read: "5 min" },
   { title: "Jak vyměnit zásuvku sám", href: "/blog/jak-vymenit-zasuvku", read: "6 min" },
   { title: "Co dělat když nejde proud v části bytu", href: "/blog/nejde-proud-cast-bytu", read: "5 min" },
-  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zacinamy", read: "7 min" },
+  { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zaciname", read: "7 min" },
 ];
 
 export default function ArticlePage() {
