@@ -4,7 +4,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak vybrat stěhovací firmu – na co si dát pozor 2026",
-  description: "Jak vybrat spolehlivou stěhovací firmu. Na co se ptát, jak porovnat nabídky, co musí smlouva obsahovat a jak se vyhnout podvodníkům. Průvodce pro bezpečné stěhování.",
+  description: "Jak vybrat spolehlivou stěhovací firmu. Na co se ptát, jak porovnat nabídky a co musí smlouva obsahovat.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vybrat-stehovaci-firmu" },
   openGraph: { title: "Jak vybrat stěhovací firmu – na co si dát pozor 2026", description: "Spolehlivá stěhovací firma – jak ji najít, co zjistit a jak se vyhnout podvodníkům.", url: "https://www.domovniguru.cz/blog/vybrat-stehovaci-firmu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak vybrat stěhovací firmu 2026", description: "Spolehlivá stěhovací firma – jak ji najít a čemu se vyhnout." },
