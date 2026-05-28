@@ -4,7 +4,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak snížit účet za elektřinu doma – 12 tipů bez investic 2026",
-  description: "Kde v domácnosti teče elektřina zbytečně? Stand-by spotřeba, neefektivní spotřebiče a špatné návyky – jak snížit účet za elektřinu o 20–40 % bez výměny spotřebičů.",
+  description: "Kde v domácnosti teče elektřina zbytečně? Stand-by spotřeba, neefektivní spotřebiče a špatné návyky – 12 tipů bez investic.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu" },
   openGraph: { title: "Jak snížit účet za elektřinu doma 2026", description: "Kde teče elektřina zbytečně a jak to zastavit. 12 tipů bez investic.", url: "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak snížit účet za elektřinu doma 2026", description: "Kde teče elektřina zbytečně a jak to zastavit. 12 tipů bez investic." },
