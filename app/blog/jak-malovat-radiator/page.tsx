@@ -4,7 +4,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak malovat radiátor – příprava, správná barva a postup 2026",
-  description: "Žloutoucí nebo odlupující se barva na radiátoru? Jak připravit povrch, vybrat správnou barvu odolnou teplotě a nanést ji bez bublin a šmouh. Postup krok za krokem.",
+  description: "Žloutoucí nebo odlupující se barva na radiátoru? Správná příprava povrchu, výběr barvy odolné teplotám a postup krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-radiator" },
   openGraph: { title: "Jak malovat radiátor – příprava, barva a postup 2026", description: "Žloutoucí radiátor? Jak připravit povrch, vybrat teplotně odolnou barvu a malovat bez šmouh.", url: "https://www.domovniguru.cz/blog/jak-malovat-radiator", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak malovat radiátor 2026", description: "Žloutoucí radiátor? Správná barva a postup krok za krokem." },
