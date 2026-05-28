@@ -48,6 +48,7 @@ const BLOG_SLUGS = [
   "elektricke-podlahove-topeni",
   "otestovat-zasuvku",
   "jak-cist-elektromer",
+  "vymena-zasuvky",
   // Zahrada & terasa
   "jarni-zahrada",
   "vyvyseny-zahon-postup",
