@@ -67,6 +67,8 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 18, cat: "malovani", title: "Jak správně míchat barvy – RAL a NCS systém",           desc: "Co je RAL kód a jak objednat přesný odstín.",                      slug: "michani-barev-ral-ncs",               read: "4 min" },
     { id: 19, cat: "malovani", title: "Jak malovat radiátory a kovové povrchy",                desc: "Speciální barva, příprava povrchu, počet vrstev.",                  slug: "jak-malovat-radiator",              read: "4 min" },
     { id: 20, cat: "malovani", title: "Barva se loupe – co jde špatně a jak to napravit",      desc: "Nejčastější příčiny a řešení.",                                    slug: "barva-se-loupe",                      read: "4 min" },
+    { id: 101, cat: "malovani", title: "Tapety vs. barva na zeď – co se více vyplatí?", desc: "Srovnání ceny, náročnosti i výsledku.", slug: "tapety-vs-barva", read: "4 min" },
+    { id: 102, cat: "malovani", title: "Jak vybrat barvu na zeď – podle světla i stylu", desc: "Teplé, studené odstíny a jak testovat vzorník.", slug: "jak-vybrat-barvu-na-zed", read: "4 min" },
   ],
   elektrika: [
     { id: 21, cat: "elektrika", title: "Jak vyměnit zásuvku sám – bezpečný postup",             desc: "Vypni jistič, odšroubuj, přepoj. Krok za krokem.",                 slug: "jak-vymenit-zasuvku",                 read: "5 min" },
@@ -111,6 +113,14 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 58, cat: "zahrada", title: "Jak pokládat betonové dlaždice na terasu",                 desc: "Příprava podloží, spád, spárování.",                               slug: "pokladat-betonove-dlazdice",          read: "6 min" },
     { id: 59, cat: "zahrada", title: "Jak ošetřit zahradní nábytek před zimou",                  desc: "Dřevo, ratan, kov nebo plast.",                                    slug: "osetrit-zahradni-nabytek",            read: "4 min" },
     { id: 60, cat: "zahrada", title: "Jak vybrat zahradní gril",                                 desc: "Plyn, uhlí nebo elektrika? Srovnání.",                             slug: "vybrat-zahradni-gril",                read: "5 min" },
+    { id: 103, cat: "zahrada", title: "Vyvýšené záhony – typy, materiály a tipy", desc: "Dřevo, beton nebo kov? Výběr a stavba.", slug: "vyvysene-zahony", read: "5 min" },
+    { id: 104, cat: "zahrada", title: "Jak pěstovat rajčata", desc: "Výsev, přesazení, zálivka, sklizeň.", slug: "jak-pestovat-rajcata", read: "5 min" },
+    { id: 105, cat: "zahrada", title: "Jak pěstovat jahody", desc: "Na záhonu i v nádobě – výsadba a péče.", slug: "jak-pestovat-jahody", read: "4 min" },
+    { id: 106, cat: "zahrada", title: "Jak pěstovat papriky", desc: "Od semínka po sklizeň na zahradě i balkoně.", slug: "jak-pestovat-papriky", read: "4 min" },
+    { id: 107, cat: "zahrada", title: "Jak stříhat ovocné stromy", desc: "Jarní a letní řez – kdy a jak na to.", slug: "jak-strihat-ovocne-stromy", read: "5 min" },
+    { id: 108, cat: "zahrada", title: "Jak stříhat keře a živý plot", desc: "Tvarovací a omlazovací řez krok za krokem.", slug: "jak-strihat-kere", read: "4 min" },
+    { id: 109, cat: "zahrada", title: "Zahradní nástroje – jak o ně pečovat", desc: "Čištění, broušení, uskladnění.", slug: "zahradni-nastroje-pece", read: "3 min" },
+    { id: 110, cat: "zahrada", title: "Jak ochránit rostliny před zimou", desc: "Mulčování, zábal, přesun do interiéru.", slug: "ochrana-rostlin-pred-zimou", read: "4 min" },  
   ],
   stehovani: [
     { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },
@@ -133,6 +143,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 78, cat: "stehovani", title: "Jak zbavit byt zápachu po rekonstrukci",                  desc: "Rychlé větrání a neutralizace pachů.",                             slug: "zbavit-byt-zapachu-po-rekonstrukci", read: "3 min" },
     { id: 79, cat: "stehovani", title: "Jak přihlásit trvalý pobyt na nové adrese",               desc: "Postup, dokumenty, lhůty.",                                        slug: "prihlasit-trvaly-pobyt",              read: "3 min" },
     { id: 80, cat: "stehovani", title: "Co zkontrolovat při přebírání nového bytu",               desc: "Elektrika, voda, topení, dokumenty.",                              slug: "prebrani-bytu-checklist",             read: "4 min" },
+    { id: 111, cat: "stehovani", title: "Jak namazat dveře aby nevrzaly", desc: "Závěsy, pant nebo práh – rychlá oprava.", slug: "jak-namazat-dvere-aby-nevrzaly", read: "3 min" },
   ],
   "sezonni-udrzba": [
     { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "priprava-domu-na-zimu",               read: "5 min" },
@@ -155,6 +166,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 98,  cat: "sezonni-udrzba", title: "Jak pečovat o septik a žumpu",                     desc: "Frekvence vyvážení, životnost.",                                   slug: "pece-o-septik-zumpu",                 read: "4 min" },
     { id: 99,  cat: "sezonni-udrzba", title: "Jak odlehčit střechu od sněhu",                    desc: "Kdy je nebezpečný a jak ho odstranit.",                            slug: "odlehcit-strechu-od-snehu",           read: "4 min" },
     { id: 100, cat: "sezonni-udrzba", title: "Jak správně topit v topné sezóně",                 desc: "Teploty, přetápění, větrání.",                                     slug: "jak-spravne-topit",                   read: "4 min" },
+    { id: 112, cat: "sezonni-udrzba", title: "Tepelné čerpadlo – průvodce pro domácnosti", desc: "Jak funguje, kolik stojí a kdy se vyplatí.", slug: "tepelne-cerpadlo-pruvodce", read: "6 min" }, 
   ],
 };
 
