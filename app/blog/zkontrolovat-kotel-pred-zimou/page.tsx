@@ -4,7 +4,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak zkontrolovat kotel před topnou sezónou – checklist 2026",
-  description: "Co si sám zkontroluješ a co musí servisní technik. Kompletní checklist přípravy kotle před zimou – tlak, odvzdušnění, filtr, spaliny. Ušetři na servisní návštěvě.",
+  description: "Co si sám zkontrolovat a co nechej servisnímu technikovi. Kompletní checklist přípravy kotle před zimou.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zkontrolovat-kotel-pred-zimou" },
   openGraph: { title: "Jak zkontrolovat kotel před topnou sezónou 2026", description: "Co si sám zkontroluješ a co musí servisní technik. Checklist přípravy kotle před zimou.", url: "https://www.domovniguru.cz/blog/zkontrolovat-kotel-pred-zimou", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak zkontrolovat kotel před topnou sezónou 2026", description: "Co si sám zkontroluješ a co musí servisní technik. Checklist přípravy kotle před zimou." },
