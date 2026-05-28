@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Script from "next/script"; // 1. Přidán import pro Script
+import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
     default: "DomovniGuru – Praktický průvodce domácností",
-    template: "%s | DomovniGuru",
+    template: "%s",
   },
   description:
     "Kalkulačky na materiál, návody krok za krokem a sezónní checklisty. Zjisti, co koupit, kolik potřebuješ a jak to vyřešit.",
@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "DomovniGuru",
     locale: "cs_CZ",
+    images: [{
+      url: "/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "DomovniGuru – praktický průvodce domácností",
+    }],
   },
 };
 
@@ -25,7 +31,6 @@ export default function RootLayout({
   return (
     <html lang="cs">
       <head>
-        {/* --- Google Analytics --- */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-JVG0QCQ4PK"
           strategy="afterInteractive"
@@ -38,11 +43,9 @@ export default function RootLayout({
             gtag('config', 'G-JVG0QCQ4PK');
           `}
         </Script>
-
         <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐼</text></svg>" />
       </head>
       <body>
-        {/* ── Navigation ── */}
         <nav className="main-nav">
           <div className="wrap">
             <div className="nav-inner">
@@ -60,15 +63,10 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-
-        {/* ── Page content ── */}
         <main className="wrap">{children}</main>
-
-        {/* ── Footer (zkráceno pro přehlednost, v souboru ho nechej celý) ── */}
         <footer className="site-footer">
            {/* ... tvůj stávající footer kód ... */}
         </footer>
-
         {/* ... tvůj stávající style tag ... */}
       </body>
     </html>
