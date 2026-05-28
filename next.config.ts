@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/blog/barva-do-vlhkych-prostoru ',
+        source: '/blog/barva-do-vlhkych-prostoru',
         destination: '/blog/barva-do-vlhkych-prostor',
         permanent: true,
       },
