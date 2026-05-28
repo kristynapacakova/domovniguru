@@ -4,7 +4,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak vybrat svítidla do místnosti – teplota světla, příkon, typy 2026",
-  description: "Jak vybrat správná svítidla do obýváku, ložnice, kuchyně nebo koupelny. Teplota světla, příkon LED, typy svítidel a jak kombinovat osvětlení pro správnou atmosféru.",
+  description: "Jak vybrat správná svítidla do obýváku, ložnice, kuchyně nebo koupelny. Teplota světla, příkon LED a typy svítidel.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" },
   openGraph: { title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – jak osvětlit každou místnost správně.", url: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – osvětlení pro každou místnost." },
