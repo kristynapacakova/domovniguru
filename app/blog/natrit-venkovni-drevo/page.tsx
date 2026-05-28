@@ -4,7 +4,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Jak natřít venkovní dřevo – lazura, olej nebo lak 2026",
-  description: "Jak správně natřít venkovní dřevo – terasu, plot nebo zahradní nábytek. Lazura, olej nebo lak? Příprava povrchu, výběr přípravku a postup pro dlouhotrvající ochranu.",
+  description: "Lazura, olej nebo lak? Správná příprava povrchu a postup pro dlouhotrvající ochranu terasy, plotu nebo zahradního nábytku.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/natrit-venkovni-drevo" },
   openGraph: { title: "Jak natřít venkovní dřevo – lazura, olej nebo lak 2026", description: "Terasa, plot, zahradní nábytek – jak vybrat a nanést ochranu na venkovní dřevo.", url: "https://www.domovniguru.cz/blog/natrit-venkovni-drevo", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak natřít venkovní dřevo 2026", description: "Lazura, olej nebo lak – výběr a postup pro ochranu venkovního dřeva." },
