@@ -130,6 +130,7 @@ export default function ArticlePage() {
                 <li><a href="#chemie">Metoda 3 – Chemický odstraňovač</a></li>
                 <li><a href="#srovnani">Srovnání metod</a></li>
                 <li><a href="#po-odstraneni">Co dělat po odstranění</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 

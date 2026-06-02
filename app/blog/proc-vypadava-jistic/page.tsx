@@ -109,6 +109,7 @@ export default function ArticlePage() {
                 <li><a href="#spotrebic">Vadný spotřebič</a></li>
                 <li><a href="#vadny-jistic">Vadný jistič</a></li>
                 <li><a href="#kdy-elektrikar">Kdy volat elektrikáře</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -171,6 +172,24 @@ export default function ArticlePage() {
               <div className="article-tip"><strong>⚠️ Důležité:</strong> Nikdy nevyměňuj jistič za silnější aby přestal vypadávat — jistič chrání kabely před přetížením. Silnější jistič může způsobit požár při přetížení vedení.</div>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Co způsobuje nejčastěji vypadávání jističe?", a: "Nejčastěji přetížení okruhu – příliš mnoho spotřebičů zapojených najednou. Druhá příčina je vadný spotřebič s poruchou uvnitř. Méně časté jsou zkrat v instalaci nebo opotřebovaný jistič." },
+                  { q: "Mohu si sám vyměnit jistič za silnější, aby přestal vypadávat?", a: "Ne. Silnější jistič je nebezpečný – kabely jsou dimenzované na konkrétní proud a silnější jistič je chrání hůř. Při přetížení by kabely mohly přehřát a způsobit požár. Jistič vyměňuj jen za stejnou hodnotu, a vždy elektrikář." },
+                  { q: "Jaký je rozdíl mezi jističem a proudovým chráničem (RCD)?", a: "Jistič chrání elektrické vedení před přetížením a zkratem. Proudový chránič (RCD, označen 'I△') chrání osoby před úrazem elektrickým proudem – zaznamená únikový proud a okamžitě odpojí okruh. Obě zařízení spolupracují a mají různé funkce." },
+                  { q: "Co dělat, když jistič okamžitě vypadne po zapnutí?", a: "Odpoj všechny spotřebiče z daného okruhu a zkus zapnout jistič. Pokud drží, problém je v jednom ze spotřebičů – zapojuj je po jednom. Pokud jistič vypadne i bez spotřebičů, je problém v samotné instalaci – volej elektrikáře." },
+                  { q: "Je nebezpečné, že jistič občas vypadává?", a: "Samotné vypadnutí není nebezpečné – jistič funguje přesně jak má. Nebezpečné je ignorovat příčinu. Opakované vypadávání signalizuje přetížení, zkrat nebo vadný spotřebič, které mohou způsobit požár, pokud je nevyřešíš." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -195,6 +214,7 @@ export default function ArticlePage() {
                 <li><a href="#spotrebic">Vadný spotřebič</a></li>
                 <li><a href="#vadny-jistic">Vadný jistič</a></li>
                 <li><a href="#kdy-elektrikar">Kdy elektrikář</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -246,6 +266,13 @@ export default function ArticlePage() {
         .sidebar-cat-link:hover{color:var(--muted)}
         .sidebar-cat-link span{font-size:12px;color:var(--muted)}
         @media(max-width:960px){.article-layout{grid-template-columns:1fr;gap:0}.article-sidebar{position:static;margin-top:40px}.related-grid{grid-template-columns:1fr}}
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

@@ -48,6 +48,7 @@ export default function JakVymenit_Zasuvku() {
                 <li><a href="#zapojeni">Zapojení nové zásuvky</a></li>
                 <li><a href="#montaz">Montáž a test</a></li>
                 <li><a href="#vodiče">Jak poznat vodiče L, N, PE</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -145,6 +146,24 @@ export default function JakVymenit_Zasuvku() {
               </p>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Musím volat elektrikáře na výměnu zásuvky?", a: "Pro jednoduchou výměnu existující zásuvky (stejný typ, stejné místo) elektrikář nutný není. Klíčové: vždy vypni jistič, ověř fázovou tužkou nulové napětí a správně přiřaď vodiče L, N, PE. Pokud přidáváš novou zásuvku nebo měníš zapojení, elektrikář je nutný." },
+                  { q: "Jak poznat, který jistič v rozvaděči spravuje danou zásuvku?", a: "Zapni lampičku nebo nabíječku do dané zásuvky a postupně vypínej jističe, dokud přestanou svítit. Pokud je rozvaděč popsaný, hledej označení 'zásuvky' nebo název místnosti. Jinak vymaž postupně jistič po jističi." },
+                  { q: "Co dělat, pokud v mém bytě nemají vodiče standardní barvy?", a: "Ve starších bytech (před 1990) mohou být červená = fáze, modrá/šedá = nula, zelená = zem. Fázová tužka svítí na L (fázi), nesvítí na N (nulu). Pokud si nejsi jistý nebo máš pochybnosti, zavolej elektrikáře – záměna L a N zásuvku zničí." },
+                  { q: "Jistič hned po zapnutí vypadne po montáži zásuvky, co se stalo?", a: "Je to zkrat – nejčastěji se vodiče vzájemně dotýkají nebo se dotýkají kovu krabičky. Vypni jistič, zásuvku znovu otevři a zkontroluj, zda žádný holý vodič nevyčnívá mimo svorku a vodiče se nedotýkají navzájem." },
+                  { q: "Mohu vyměnit zásuvku bez zemnicího vodiče PE za zásuvku s PE?", a: "Pouze pokud v krabičce existuje PE vodič. Pokud krabička PE neobsahuje (starší instalace), nelze ho 'vymyslet' – přidat PE vodič je práce elektrikáře vyžadující novou kabeláž. Bez PE vodiče nesmíš zapojit zásuvku s ochranným kolíkem." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související návody</h2>
               <div className="related-grid">
@@ -174,6 +193,7 @@ export default function JakVymenit_Zasuvku() {
                 <li><a href="#zapojeni">Zapojení</a></li>
                 <li><a href="#montaz">Montáž a test</a></li>
                 <li><a href="#vodiče">Barvy vodičů</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget sidebar-cta">
@@ -226,6 +246,13 @@ export default function JakVymenit_Zasuvku() {
         .sidebar-cta-title { font-family: var(--font-serif); font-size: 17px; font-weight: 400; margin-bottom: 6px; }
         .sidebar-cta-desc { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.5; }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

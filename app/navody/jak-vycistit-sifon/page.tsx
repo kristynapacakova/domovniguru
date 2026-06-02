@@ -74,6 +74,25 @@ export default function NavodSifonObsahly() {
           </p>
         </div>
 
+        {/* FAQ */}
+        <section style={{ marginTop: "60px", paddingTop: "40px", borderTop: "1px solid #e5e5e0" }}>
+          <h2 style={{ fontFamily: "DM Serif Display, serif", fontSize: "32px", marginBottom: "24px" }}>Časté otázky</h2>
+          <div className="faq-list-s">
+            {[
+              { q: "Jak poznám, že sifon potřebuje vyčistit?", a: "Dva jasné příznaky: voda odtéká pomalu nebo stojí v umyvadle/dřezu, nebo z odpadu line nepříjemný zápach. Pokud se zápach vrací i po zalití vroucí vodou se sodou, je čas na mechanické vyčistění sifonu." },
+              { q: "Musím kvůli ucpanému sifonu volat instalatéra?", a: "Ne. Vyčistění sifonu je jednoduchá práce pro každého – stačí plastové kleště (nebo ruce), kýbl a kartáček. Instalatéra vol jen tehdy, pokud problém přetrvává i po vyčistění sifonu nebo pokud voda odtéká pomalu v celém bytě." },
+              { q: "Co dělat, když sifon teče po složení?", a: "Zkus ho mírně dotáhnout – ne příliš, plastové závity se snadno poničí. Pokud teče stále, pravděpodobně je problém s gumovým těsněním (kroužkem). Nové těsnění stojí pár korun a koupíš ho v každém hobbymarketu." },
+              { q: "Jak předejít ucpání sifonu?", a: "Hlavní příčiny ucpání jsou vlasy a tuk. Kup lapač vlasů do odtoku (30–80 Kč) – jednoduché síto, které zachytí vlasy. Jednou týdně zalijte odtok vroucí vodou smíchanou s trochou sody – rozkládá tukové usazeniny." },
+              { q: "Je nebezpečné čistit sifon bez odborníka?", a: "Ne, pokud jde o standardní plastový sifon. Jedinou potenciální komplikací je příliš tvrdé utažení plastového závitu – stržené závity si vyžádají výměnu celého sifonu. Dotahujte s citem a mějte po ruce nové těsnění pro případ, že je staré opotřebované." },
+            ].map(({ q, a }) => (
+              <details key={q} className="faq-item-s">
+                <summary className="faq-q-s">{q}</summary>
+                <p className="faq-a-s">{a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
         {/* FOOTER ČLÁNKU */}
         <footer style={{ marginTop: "80px", paddingTop: "40px", borderTop: "1px solid #e5e5e0" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -87,6 +106,15 @@ export default function NavodSifonObsahly() {
           </div>
         </footer>
       </article>
+      <style>{`
+        .faq-list-s{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item-s{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q-s{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q-s:hover{background:#f5f5f2}
+        .faq-q-s::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q-s::after{content:"−"}
+        .faq-a-s{font-size:14px;line-height:1.65;color:#666;font-weight:300;padding:0 20px 16px}
+      `}</style>
     </div>
   );
 }

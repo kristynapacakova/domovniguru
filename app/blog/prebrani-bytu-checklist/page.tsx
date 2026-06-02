@@ -50,6 +50,7 @@ export default function ArticlePage() {
                 <li><a href="#steny-podlahy">Stěny, stropy a podlahy</a></li>
                 <li><a href="#dokumenty">Dokumenty a klíče</a></li>
                 <li><a href="#checklist">Kompletní checklist</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -164,6 +165,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Co je předávací protokol a musím ho podepsat?", a: "Předávací protokol je dokument zachycující stav nemovitosti při přebírání – odpočty měřičů, seznam závad a klíče. Vždy ho podepis a uschovej kopii. Je to klíčový doklad pro případné spory o kauci nebo opravy." },
+                  { q: "Kdy a jak nafotit byt při přebírání?", a: "Foť ihned po vstupu, za denního světla, celé místnosti i detaily závad. Fotografie opatři datem a časem (automaticky u smartphonu). Pošli je pronajímateli nebo kupci emailem jako důkaz stavu v čase přebírání." },
+                  { q: "Co dělat, pokud najdu skryté závady po nastěhování?", a: "Skryté závady nahlásit písemně co nejdříve – ideálně do 14 dnů. U pronájmu to zapíšeš pronajímateli, u koupě nemovitosti uplatňuješ odpovědnost za vady vůči prodávajícímu. Dokumentace (fotky, zprávy) je klíčová." },
+                  { q: "Jak najít hlavní uzávěr vody v novém bytě?", a: "Hlavní uzávěr vody bývá pod kuchyňskou dřezem, v koupelně za vanou, nebo v chodbě/předsíni v malé skříňce. Při přebírání požádej předchozího nájemníka nebo majitele, aby ti ho ukázal – budeš ho potřebovat při havárii." },
+                  { q: "Musím hned po nastěhování vyměnit zámky?", a: "Doporučujeme ano. Nevíš, kolik kopií klíčů je v oběhu (předchozí nájemníci, sousedi, údržba). Výměna válce u bezpečnostního zámku stojí 500–1 500 Kč a dá ti jistotu, že máš jediné klíče." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -189,6 +208,7 @@ export default function ArticlePage() {
                 <li><a href="#steny-podlahy">Stěny a podlahy</a></li>
                 <li><a href="#dokumenty">Dokumenty a klíče</a></li>
                 <li><a href="#checklist">Kompletní checklist</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -235,6 +255,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );
