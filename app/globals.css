@@ -405,7 +405,7 @@ a { color: inherit; }
 
 /* ─── Article disclaimer ─────────────────────────────── */
 .article-header::after {
-  content: "⚠\FE0F  Upozornění: Obsah tohoto webu jsou obecné rady a informace – nejde o odborné poradenství. Před zahájením jakýchkoli prací si vždy ověřte platné předpisy a technické normy. Elektrické práce svěřte kvalifikované osobě. Autor webu nenese odpovědnost za škody, zranění ani jiné následky vzniklé použitím těchto informací. Veškeré práce provádíte na vlastní nebezpečí.";
+  content: "⚠\FE0F  Upozornění: Obsah tohoto webu má pouze informativní charakter – nejde o odborné poradenství. Před zahájením jakýchkoli prací (zejména v oblasti elektroinstalace, plynu či stavebních úprav) si vždy ověřte platné předpisy a technické normy, případně je svěřte kvalifikované osobě. Autor webu nenese odpovědnost za škody, zranění ani jiné následky vzniklé použitím těchto informací. Veškeré práce provádíte na vlastní nebezpečí.";
   display: block;
   background: #f5f5f2;
   border: 1px solid #e0ddd6;
