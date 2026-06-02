@@ -110,6 +110,26 @@ export default function JarniChecklistObsahly() {
             </div>
           ))}
 
+          <section style={{ marginTop: "50px", paddingTop: "40px", borderTop: "1px solid #eee" }}>
+            <h3 style={{ fontFamily: "DM Serif Display, serif", fontSize: "28px", marginBottom: "24px", color: "#111" }}>Časté otázky</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+              {[
+                { q: "Kdy je nejlepší čas na jarní údržbu domu?", a: "Ideálně v dubnu po odeznění mrazů. Fasáda a střecha by měly být suché a teplota nad 10 °C. Začni s exteriérem (okapy, fasáda, terasa) a pokračuj technikou uvnitř." },
+                { q: "Jak poznám, zda okapy potřebují vyčistit?", a: "Při dešti se voda přelévá přes okap nebo vytéká mimo svod – to je jasný signál ucpání. Preventivně zkontroluj okapy každý rok na jaře po odtání sněhu a na podzim po opadu listí." },
+                { q: "Musím každý rok nechat servisovat klimatizaci?", a: "Výrobci doporučují servis jednou za 1–2 roky. Filtr vyčisti sám každou sezónu (klip nebo vysávání). Odborný servis zahrnuje doplnění chladiva a kontrolu kompresoru – to svépomocí nelze." },
+                { q: "Co zahrnuje přepnutí oken do letního režimu?", a: "Na přestavitelných plastových oknech otočíš excentrické čepy na závěsech z zimní do letní polohy (drážka vodorovně → svisle). Okno bude méně přitlačeno k rámu, snadněji se otevírá a těsnění méně namáhá." },
+              ].map(({ q, a }) => (
+                <details key={q} style={{ border: "1px solid #e0e0da", borderRadius: "8px", overflow: "hidden", background: "#fff" }}>
+                  <summary style={{ fontSize: "15px", fontWeight: 600, padding: "14px 18px", cursor: "pointer", listStyle: "none", display: "flex", justifyContent: "space-between" }}>
+                    {q}
+                    <span style={{ fontSize: "18px", fontWeight: 300, marginLeft: "12px" }}>+</span>
+                  </summary>
+                  <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#666", fontWeight: 300, padding: "0 18px 14px" }}>{a}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+
           <footer style={{ marginTop: "60px", paddingTop: "30px", borderTop: "1px solid #eee", fontSize: "12px", color: "#aaa", textAlign: "center" }}>
             Poznámky: ..........................................................................................................................................................
           </footer>

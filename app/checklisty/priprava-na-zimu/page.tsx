@@ -98,6 +98,26 @@ export default function ZimniChecklistVylepseny() {
             </div>
           ))}
 
+          <section style={{ marginTop: "50px", paddingTop: "40px", borderTop: "1px solid #eee" }}>
+            <h3 style={{ fontFamily: "DM Serif Display, serif", fontSize: "28px", marginBottom: "24px", color: "#111" }}>Časté otázky</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+              {[
+                { q: "Kdy začít s přípravou domu na zimu?", a: "Ideálně v říjnu, před prvními silnějšími mrazy. Kritické jsou venkovní kohouty a hadice (riziko zamrznutí a prasknutí potrubí), kotel (servis před sezónou) a okna (přepnutí do zimního režimu)." },
+                { q: "Musím každý rok nechat servisovat kotel?", a: "Ano, servis je doporučen výrobci každoročně a u plynových kotlů ho vyžaduje i pojišťovna pro platnost záruky. Servis zahrnuje čištění hořáku, kontrolu těsnosti a seřízení. Kotel bez servisu může být nebezpečný (únik plynu, CO)." },
+                { q: "Jak odvzdušnit radiátory před topnou sezónou?", a: "Potřebuješ odvzdušňovací klíč (20–50 Kč), nádobku a hadřík. Na každém radiátoru otočíš malý ventil naproti přívodu o půl otáčky dokud místo syčení začne téct voda. Po odvzdušnění zkontroluj tlak v kotli – měl by být 1,5–2 bar." },
+                { q: "Jak utěsnit průvany pod vstupními dveřmi?", a: "Samolepicí kartáčová nebo gumová lišta na spodní hranu dveří zabrání průvanu. Montáž trvá 10 minut bez vrtání. Alternativou je hadový polštář (tzv. had na dveře). Průvan pod dveřmi může tvořit 10–15 % tepelných ztrát." },
+              ].map(({ q, a }) => (
+                <details key={q} style={{ border: "1px solid #e0e0da", borderRadius: "8px", overflow: "hidden", background: "#fff" }}>
+                  <summary style={{ fontSize: "15px", fontWeight: 600, padding: "14px 18px", cursor: "pointer", listStyle: "none", display: "flex", justifyContent: "space-between" }}>
+                    {q}
+                    <span style={{ fontSize: "18px", fontWeight: 300, marginLeft: "12px" }}>+</span>
+                  </summary>
+                  <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#666", fontWeight: 300, padding: "0 18px 14px" }}>{a}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+
           <footer style={{ marginTop: "60px", paddingTop: "30px", borderTop: "1px solid #eee", fontSize: "12px", color: "#aaa", textAlign: "center" }}>
             Poznámky: ..........................................................................................................................................................
           </footer>
