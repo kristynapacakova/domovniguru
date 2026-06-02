@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import "./globals.css";
+import Disclaimer from "./components/Disclaimer";
 
 export const metadata: Metadata = {
   title: {
@@ -64,6 +65,7 @@ export default function RootLayout({
           </div>
         </nav>
         <main className="wrap">{children}</main>
+        <Disclaimer />
         <footer className="site-footer">
            {/* ... tvůj stávající footer kód ... */}
         </footer>
