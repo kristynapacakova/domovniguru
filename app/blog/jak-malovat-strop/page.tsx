@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 
 export default function MalovaniStropuPage() {
   return (
+    <>
     <div className="wrap" style={{ padding: "40px 0" }}>
       <article className="article-body" style={{ maxWidth: "800px", margin: "0 auto" }}>
         
@@ -112,5 +113,6 @@ export default function MalovaniStropuPage() {
       details[open] .faq-q::after{content:"−"}
       .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
     `}</style>
+    </>
   );
 }
