@@ -155,6 +155,7 @@ export default function ArticlePage() {
                 <li><a href="#mazani">Mazání a ochrana kovu</a></li>
                 <li><a href="#nasady">Péče o dřevěné násady</a></li>
                 <li><a href="#skladovani">Skladování přes zimu</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -220,6 +221,24 @@ export default function ArticlePage() {
               <div className="article-tip"><strong>💡 Tip:</strong> Silikagel do uzavřeného kufříku s malým nářadím (nůžky, nože) pohltí vlhkost a zabrání korozi i při skladování v nevytápěné kůlně.</div>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Jak poznám, že zahradní nůžky potřebují nabrousit?", a: "Ostré nůžky listy a stonky čistě řežou. Tupé listy spíše trhají, drtí a kloubí se na větvičce. Praktický test: zkus přestřihnout arch papíru – tupé nůžky papír mačkají místo řezu." },
+                  { q: "Čím namazat zahradní nůžky a jak často?", a: "Kapka strojního oleje nebo WD-40 na kloub po každém použití – zvláště po mytí vodou. Kovové části lopaty, motyky a hráb chraň lněným olejem před zimním uskladněním. Přemaz přitahuje prach, takže stačí tenká vrstva." },
+                  { q: "Jak opravit uvolněný nebo zlomený dřevěný násad lopaty?", a: "Uvolněný násad: zasaď a zajisti klín nebo šroub přes otvor v kovové hlavici. Zlomený: kup náhradní násad (80–200 Kč v zahradnictví), vyšroubuj staré zbytky a nahraď. Povolený násad oprav okamžitě – uvolněná hlavice ve švihu je vážné riziko úrazu." },
+                  { q: "Proč silikonový sprej není vhodný na zahradní nářadí?", a: "Silikonový sprej kontaminuje půdu a zhoršuje její strukturu. Používej ho pouze na části které se nedotýkají země (panty nůžek, osy). Na kovové díly lopatek, motyk a hráb používej místo silikonu lněný nebo řepkový olej." },
+                  { q: "Jak skladovat nářadí přes zimu, aby nerezavělo?", a: "Vyčisti, osuš, nabrousíš a promažeš lněným olejem. Skladuj zavěšené nebo ve stojanu – nikdy přímo na zemi (vzdušná vlhkost). Silikagel v uzavřeném kufříku s malým nářadím pohltí vlhkost i v nevytápěné kůlně." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -244,6 +263,7 @@ export default function ArticlePage() {
                 <li><a href="#mazani">Mazání</a></li>
                 <li><a href="#nasady">Dřevěné násady</a></li>
                 <li><a href="#skladovani">Skladování přes zimu</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -297,6 +317,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

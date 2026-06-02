@@ -76,6 +76,24 @@ export default function MalovaniStropuPage() {
           </ol>
         </section>
 
+        <section id="faq">
+          <h2>Časté otázky</h2>
+          <div className="faq-list">
+            {[
+              { q: "Proč musím malovat strop jako první?", a: "Barva ze stropu nevyhnutelně kape dolů. Pokud by stěny byly hotové, kapičky bílé barvy by je znehodnotily. Strop vždy maluj před stěnami." },
+              { q: "Jak se vyhnout šmouhám na stropě?", a: "Klíč je technika 'mokrý do mokrého' – nikdy nenechej okraj zaschnout dříve, než k němu přimaluješ další pruh. Maluj v pásech o šířce cca 1 m rovnoběžně se světlem z okna." },
+              { q: "Jaký váleček je nejlepší na strop?", a: "Na hladký sádrokarton mikrovlákno (vlas 9–11 mm), na klasickou omítku polyamidový váleček (vlas 12–18 mm). Teleskopická tyč je základ – bez ní budeš mít bolesti zad." },
+              { q: "Musím strop penetrovat před malováním?", a: "Ano, pokud je strop nový, opravovaný, nebo po stržení tapet. Penetrace sjednotí savost a barva pak nestéká a krytí je rovnoměrné." },
+              { q: "Kolik vrstev barvy potřebuji na strop?", a: "Standardně dvě vrstvy. Na tmavý podklad nebo výraznou skvrnu může být potřeba tři. Každou vrstvu nechej schnout minimálně 2–4 hodiny." },
+            ].map(({ q, a }) => (
+              <details key={q} className="faq-item">
+                <summary className="faq-q">{q}</summary>
+                <p className="faq-a">{a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
         <footer style={{ marginTop: "60px", borderTop: "1px solid #eee", paddingTop: "30px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
              <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2d4a22", fontWeight: 700, textDecoration: "none", borderBottom: "2px solid #2d4a22" }}>← Spočítat spotřebu barvy</Link>
@@ -85,5 +103,14 @@ export default function MalovaniStropuPage() {
         </footer>
       </article>
     </div>
+    <style>{`
+      .faq-list{display:flex;flex-direction:column;gap:8px}
+      .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+      .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+      .faq-q:hover{background:#f5f5f2}
+      .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+      details[open] .faq-q::after{content:"−"}
+      .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
+    `}</style>
   );
 }

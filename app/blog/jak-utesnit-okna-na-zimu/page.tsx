@@ -50,6 +50,7 @@ export default function ArticlePage() {
                 <li><a href="#folie">Izolační fólie na okna</a></li>
                 <li><a href="#zavesy">Těžké závěsy jako doplněk</a></li>
                 <li><a href="#porovnani">Srovnání metod</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -138,6 +139,24 @@ export default function ArticlePage() {
               </div>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Jak zjistím, kde okna táhnou?", a: "Přilož zapálenou svíčku (nebo vlhkou ruku) ke každé spáře a okraji rámu. Kde se plamen odchyluje nebo cítíš chlad – tam uniká teplo. Nejčastěji jde o spáru mezi křídlem a rámem, nebo mezi rámem a zdí." },
+                  { q: "Jak přepnout plastová okna do zimního režimu?", a: "Na závěsech okna najdeš malý válcový čep s drážkou. Otočením šroubováku o 90° přepneš z letní (drážka svisle) do zimní polohy (drážka vodorovně), která přitlačí křídlo pevněji k rámu. Trvá to 5 minut." },
+                  { q: "Lze kombinovat více metod utěsnění?", a: "Ano a je to dokonce doporučeno. Zimní nastavení kování (plastová okna) + přetmelení spáry rám-zeď + těžké závěsy jako doplněk. Každá metoda řeší jiný zdroj tepelných ztrát." },
+                  { q: "Fungují izolační fólie na moderní okna s dvojsklem?", a: "Na moderní plastová okna s dvojsklem fólie nemají velký efekt – u nich teplo uniká hlavně netěsnými spárami, ne přes sklo. Fólie má smysl na starší okna s jednoduchým sklem nebo zastaralým dvojsklem." },
+                  { q: "Jak dlouho vydrží těsnicí páska?", a: "Kvalitní samolepicí těsnicí páska vydrží 2–3 sezóny. Každoročně ji zkontroluj – pokud se rozlepuje, ztvrdla nebo praskla, vyměň ji. Je to nejlevnější a nejjednodušší řešení pro dřevěná okna bez nastavitelného kování." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -163,6 +182,7 @@ export default function ArticlePage() {
                 <li><a href="#folie">Izolační fólie</a></li>
                 <li><a href="#zavesy">Závěsy</a></li>
                 <li><a href="#porovnani">Srovnání metod</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -214,6 +234,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

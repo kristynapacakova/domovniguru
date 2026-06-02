@@ -62,6 +62,7 @@ export default function ArticlePage() {
                 <li><a href="#rostliny">Rostliny do nádob</a></li>
                 <li><a href="#osvetleni">Osvětlení balkónu</a></li>
                 <li><a href="#tipy">Tipy pro malé balkony</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -193,6 +194,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Jak těžká je dřevěná podlaha na balkóně a musím kontrolovat nosnost?", a: "Dřevěné dlaždice váží asi 15–25 kg/m², keramika 20–40 kg/m². Přidej váhu nábytku a zeminy v nádobách a může to být 100+ kg/m². U panelových domů je limit obvykle 150–300 kg/m². Při pochybnostech se poraď se správcem domu nebo statikem." },
+                  { q: "Jaká podlaha na balkón nevyžaduje vrtání a lepení?", a: "Dřevěné nebo WPC dlaždice 30×30 nebo 50×50 cm, které se skládají jako puzzle bez lepidla. Jednoduše rozložíš, při stěhování sklidíš a vezmeš s sebou. Cena od 300–800 Kč/m²." },
+                  { q: "Jak ošetřit dřevěnou podlahu na balkóně přes zimu?", a: "Na podzim dřevo důkladně vyčisti a nanes ochranný olej nebo lazuru. V zimě sněhem nepokrytou terasu není nutné dále ošetřovat, ale po zimě zkontroluj stav a případně naolejuj znovu." },
+                  { q: "Mohu na balkóně pěstovat zeleninu?", a: "Ano. Na slunném balkóně zvládneš rajčata cherry, papriky, saláty, ředkvičky, jahody i bylinky. Nutnost jsou velké nádoby (min. 15–20 l pro rajčata) a každodenní zálivka v létě – malé nádoby vysychají rychle." },
+                  { q: "Jak zajistit soukromí na balkóně bez vrtání do zábradlí?", a: "Ratanová nebo bambusová zástěna se připevní na zábradlí stahovacími pásky nebo háčky bez vrtání. Alternativou jsou vysoké rostliny v nádobách (bambus, okrasné trávy) nebo závěsné rostliny na mřížce." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -218,6 +237,7 @@ export default function ArticlePage() {
                 <li><a href="#rostliny">Rostliny</a></li>
                 <li><a href="#osvetleni">Osvětlení</a></li>
                 <li><a href="#tipy">Tipy pro malé balkony</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget sidebar-cta">
@@ -278,6 +298,13 @@ export default function ArticlePage() {
         .sidebar-cat-link:hover { color: var(--muted); }
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

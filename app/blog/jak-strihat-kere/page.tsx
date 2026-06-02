@@ -140,6 +140,7 @@ export default function ArticlePage() {
                 <li><a href="#technika">Technika řezu</a></li>
                 <li><a href="#typy">Různé keře, různý přístup</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -227,6 +228,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Kdy stříhat šeřík?", a: "Šeřík stříhej ihned po odkvětu, nejpozději do konce června. Šeřík tvoří pupeny na příští rok hned po odkvětu – pokud ho ostříháš na podzim nebo v zimě, přijdeš o celé kvetení příští sezóny." },
+                  { q: "O kolik maximálně ostřihat keř najednou?", a: "Nikdy ne více než třetinu keře najednou. Radikálnější řez keř silně stresuje a může ho oslabit nebo zastavit kvetení na celou sezónu. Větší omlazení rozlož na 2–3 roky." },
+                  { q: "Musím dezinfikovat zahradní nůžky před každým keřem?", a: "Ideálně ano, zejména pokud jsi stříhal nemocné rostliny. Lihem nebo Savolem otřená čepel zabrání přenosu chorob z keře na keř. Jde to rychle – stačí otřít hadříkem namočeným v lihu." },
+                  { q: "Proč keř po řezu méně kvete?", a: "Nejčastěji proto, že jsi stříhal ve špatnou dobu – po vytvoření pupenů. Zkontroluj typ keře: keře kvetoucí na jaře (forsythie, šeřík) stříhej hned po odkvětu, keře kvetoucí v létě (růže, komule) stříhej na jaře." },
+                  { q: "Jak poznat správný úhel řezu?", a: "Řez veď šikmo pod úhlem 45°, těsně nad pupenem (max. 5 mm pahýl). Šikmý řez zajistí, že voda stéká pryč od pupene a nezpůsobuje hnilobu. Rovný řez zadržuje vlhkost a hůře se hojí." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -251,6 +270,7 @@ export default function ArticlePage() {
                 <li><a href="#technika">Technika řezu</a></li>
                 <li><a href="#typy">Různé keře</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -304,6 +324,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

@@ -100,6 +100,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup zapojení</a></li>
                 <li><a href="#druhy-krabic">Druhy stropních krabic</a></li>
                 <li><a href="#problemy">Časté problémy</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -162,6 +163,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Musím volat elektrikáře na výměnu stropního svítidla?", a: "Ne, pokud jde jen o výměnu svítidla (odpojení starého, zapojení nového ke stávajícím vodičům). Klíčové podmínky: vypnutý jistič, ověření fázovou tužkou a správné přiřazení L, N, PE vodičů. Nové instalace nebo práce v rozvaděči vyžadují elektrikáře." },
+                  { q: "Co dělat, když nevím, které vodiče jsou L, N a PE?", a: "Fázovou tužkou ověříš L (svítí) a N (nesvítí). PE poznat nemusíš přímo – PE vodič je zpravidla zeleno-žlutý. Ve starších bytech mohou být nestandardní barvy: vždy ověř multimetrem nebo elektrikářem, nespoléhej na barvu." },
+                  { q: "Svítidlo má jen dva vodiče, ale v krabici jsou tři. Co s PE?", a: "PE (zeleno-žlutý, ochranný vodič) připoj na kovovou kostru svítidla nebo na PE svorku. Pokud je svítidlo plastové a nemá zemnicí svorku, nechej PE nechej volně izolovaný – nezapoj ho na jiný vodič." },
+                  { q: "Světlo nefunguje po zapojení, co zkontrolovat?", a: "Ověř: (1) jistič je zapnutý, (2) vodiče jsou pevně ve svorkách (zatáhni za každý), (3) L a N jsou správně přiřazeny – záměna je nejčastější chyba. Pokud jistič hned vypadne, je zkrat – zkontroluj zda se vodiče nedotýkají navzájem." },
+                  { q: "Jak bezpečně ověřit, že v krabici není napětí?", a: "Nestačí vypnout vypínač na stěně – ten odpojuje pouze fázi, nulový vodič zůstane pod napětím. Vždy vypni jistič v rozvaděči a pak ověř fázovou tužkou každý vodič v krabici. Teprve pak pracuj." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -185,6 +204,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup zapojení</a></li>
                 <li><a href="#druhy-krabic">Druhy krabic</a></li>
                 <li><a href="#problemy">Časté problémy</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -236,6 +256,13 @@ export default function ArticlePage() {
         .sidebar-cat-link:hover{color:var(--muted)}
         .sidebar-cat-link span{font-size:12px;color:var(--muted)}
         @media(max-width:960px){.article-layout{grid-template-columns:1fr;gap:0}.article-sidebar{position:static;margin-top:40px}.related-grid{grid-template-columns:1fr}}
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

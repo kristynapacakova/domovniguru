@@ -43,6 +43,7 @@ export default function JakNastavitOknaNaZimu() {
                 <li><a href="#postup">Postup přetočení kování</a></li>
                 <li><a href="#tesni">Jak poznat, že okno těsní správně</a></li>
                 <li><a href="#dalsi-tipy">Další tipy na zimní okna</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -135,6 +136,24 @@ export default function JakNastavitOknaNaZimu() {
               </p>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Jak poznám, zda mají moje okna přestavitelné kování?", a: "Hledej na hraně okenního křídla malé oválné nebo kulaté čepy – tam, kde křídlo dosedá na rám. Bývají na spodní a bočních hranách. Pokud čepy vidíš a mají drážku na šroubovák nebo lze otočit mincí, máš přestavitelné kování." },
+                  { q: "Jak otestovat, že okno správně těsní?", a: "Vlož papír A4 do zavřeného okna a zkus ho vytáhnout. Správně nastavené okno papír drží s mírným odporem po celém obvodu. Pokud papír volně vyklouzne, těsnění je opotřebované nebo kování potřebuje seřídit." },
+                  { q: "Kdy přepnout okna zpět do letní polohy?", a: "Na jaře – ideálně v březnu nebo dubnu, jakmile odpadne riziko silných mrazů. Zimní poloha více namáhá těsnění a panty – celoroční přitlačení zkracuje jejich životnost." },
+                  { q: "Co dělat, pokud okna nemají přestavitelné kování?", a: "Pro tato okna použij samolepicí těsnicí pásku z pěnového nebo gumového materiálu. Nalepí se do drážky rámu a utěsní spáru. Pásku každý rok zkontroluj a v případě opotřebení vyměň – vydrží 2–3 sezóny." },
+                  { q: "Jak mazat těsnění oken a proč?", a: "Jednou ročně nanes na těsnění silikonový sprej nebo vazelínu. Guma zůstane pružná, nevysychá a nelepí k rámu. Neošetřené těsnění ztvrdne a praská, čímž se zhoršuje těsnost okna." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související návody</h2>
               <div className="related-grid">
@@ -163,6 +182,7 @@ export default function JakNastavitOknaNaZimu() {
                 <li><a href="#postup">Postup</a></li>
                 <li><a href="#tesni">Test těsnosti</a></li>
                 <li><a href="#dalsi-tipy">Další tipy</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget sidebar-cta">
@@ -215,6 +235,13 @@ export default function JakNastavitOknaNaZimu() {
         .sidebar-cta-title { font-family: var(--font-serif); font-size: 17px; font-weight: 400; margin-bottom: 6px; }
         .sidebar-cta-desc { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.5; }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

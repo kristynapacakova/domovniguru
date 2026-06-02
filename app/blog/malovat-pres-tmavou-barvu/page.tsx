@@ -86,6 +86,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup krok za krokem</a></li>
                 <li><a href="#kolik-vrstev">Kolik vrstev potřebuješ</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -142,6 +143,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Kolik vrstev potřebuji přes tmavou barvu na bílou?", a: "Se zakrývacím základem (primerem) obvykle stačí 1 vrstva základu + 2 vrstvy finální barvy = celkem 3 vrstvy. Bez základu budeš potřebovat 3–4 vrstvy finální barvy, což je pomalejší a dražší." },
+                  { q: "Je zakrývací základ (primer) nutný?", a: "U velkého kontrastu (tmavě modrá, černá → bílá) je základ prakticky nutností. Jedna vrstva zakrývacího základu ušetří 2–3 vrstvy finální barvy a výsledek bude kvalitnější." },
+                  { q: "Jak dlouho čekat mezi vrstvami barvy?", a: "Minimálně 4 hodiny, ideálně přes noc. Malování na mokrou nebo nedoschlou vrstvu způsobuje šmouhy, odlepování a nerovnoměrné krytí. Každá vrstva musí být zcela suchá." },
+                  { q: "Mohu malovat přímo přes lesklou nebo olejovou barvu?", a: "Lesklé povrchy je nejprve nutné přebrousit jemným smirkem (P120–P150), aby nová barva přilnula. Na olejovou barvu použij speciální základ – běžná akrylátová barva na olejový podklad špatně drží." },
+                  { q: "Proč světlá barva stále prosvítá i po třech vrstvách?", a: "Barva s nízkou kryvostí (levné nebo pastely) může vyžadovat i více vrstev. Investuj do barvy s vysokou kryvostí nebo použij šedý základ jako přechodový nátěr – šedá zakryje tmavý podklad lépe než bílá." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -165,6 +184,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup</a></li>
                 <li><a href="#kolik-vrstev">Kolik vrstev</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
