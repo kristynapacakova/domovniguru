@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak správně zabalit věci při stěhování – bez poškození 2026",
   description: "Jak zabalit věci při stěhování aby nic nepoškodit. Křehké věci, oblečení, knihy, elektronika – správný postup, jaké krabice použít a jak je označit.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/spravne-zabalit-veci" },
-  openGraph: { title: "Jak správně zabalit věci při stěhování 2026", description: "Křehké věci, elektronika, oblečení – jak zabalit vše bez poškození.", url: "https://www.domovniguru.cz/blog/spravne-zabalit-veci", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak správně zabalit věci při stěhování 2026", description: "Křehké věci, elektronika, oblečení – jak zabalit vše bez poškození.", url: "https://www.domovniguru.cz/blog/spravne-zabalit-veci", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak správně zabalit věci při stěhování 2026", description: "Jak zabalit vše bez poškození – křehké věci, elektronika, oblečení." },
 };
 

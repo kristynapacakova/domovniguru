@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak opravit škrábance a díry ve zdi před malováním 2026",
   description: "Tmel, sádra nebo sprej? Jak vyrovnat povrch zdi před malováním – od malých škrábanců po větší díry po hmoždinkách. Postup krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi" },
-  openGraph: { title: "Jak opravit škrábance a díry ve zdi 2026", description: "Tmel, sádra nebo sprej – jak opravit povrch zdi před malováním krok za krokem.", url: "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak opravit škrábance a díry ve zdi 2026", description: "Tmel, sádra nebo sprej – jak opravit povrch zdi před malováním krok za krokem.", url: "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak opravit škrábance a díry ve zdi 2026", description: "Tmel, sádra nebo sprej – jak opravit povrch zdi před malováním." },
 };
 

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     description: "Kalkulačky pro kutily a majitele nemovitostí. Spočítejte barvu, laminát, dlažbu, beton, tapety, hlínu a úspory LED žárovek.",
     url: "https://www.domovniguru.cz/kalkulacky",
     type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }],
   },
 };
 

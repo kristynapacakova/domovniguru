@@ -3,10 +3,10 @@ import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
 <PaintCalculator />
 export const metadata: Metadata = {
-  title: "Jak odstranit starou barvu ze zdi – škrabka, teplo nebo chemie 2025",
+  title: "Jak odstranit starou barvu ze zdi",
   description: "Škrabka, teplovzdušná pistole nebo chemický odstraňovač? Srovnání metod a postup krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu" },
-  openGraph: { title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie? Správná metoda pro každý případ.", url: "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie? Správná metoda pro každý případ.", url: "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie?" },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak pokládat vinylovou podlahu – krok za krokem 2026",
   description: "Pokládka vinylové podlahy za víkend svépomocí. Příprava podkladu, výběr správného vinylu, kladení desek a lišty. Postup pro začátečníky bez speciálního nářadí.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy" },
-  openGraph: { title: "Jak pokládat vinylovou podlahu 2026", description: "Vinyl podlaha za víkend – příprava podkladu, kladení a lišty krok za krokem.", url: "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak pokládat vinylovou podlahu 2026", description: "Vinyl podlaha za víkend – příprava podkladu, kladení a lišty krok za krokem.", url: "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak pokládat vinylovou podlahu 2026", description: "Vinyl podlaha za víkend – příprava podkladu, kladení a lišty." },
 };
 

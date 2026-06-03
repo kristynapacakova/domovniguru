@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak číst elektroměr – jednofázový i třífázový 2026",
   description: "Jak správně odečíst stav elektroměru a nahlásit ho dodavateli. Jednofázový i třífázový elektroměr, tarify NT/VT a jak zkontrolovat správnost vyúčtování.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-cist-elektromer" },
-  openGraph: { title: "Jak číst elektroměr – jednofázový i třífázový 2026", description: "Jak odečíst elektroměr, co je NT a VT tarif a jak zkontrolovat vyúčtování.", url: "https://www.domovniguru.cz/blog/jak-cist-elektromer", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak číst elektroměr – jednofázový i třífázový 2026", description: "Jak odečíst elektroměr, co je NT a VT tarif a jak zkontrolovat vyúčtování.", url: "https://www.domovniguru.cz/blog/jak-cist-elektromer", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak číst elektroměr 2026", description: "Odečet elektroměru, NT/VT tarif a kontrola vyúčtování krok za krokem." },
 };
 

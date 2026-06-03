@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak přidat zásuvku do místnosti – povrchová nebo zapuštěná 2026",
   description: "Jak přidat novou elektrickou zásuvku do místnosti. Povrchová lišta bez bourání nebo zapuštěná do zdi – kdy potřebuješ elektrikáře a kdy to zvládneš sám.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/pridat-zasuvku" },
-  openGraph: { title: "Jak přidat zásuvku do místnosti 2026", description: "Povrchová nebo zapuštěná zásuvka – kdy elektrikář a kdy sám. Postup a ceny.", url: "https://www.domovniguru.cz/blog/pridat-zasuvku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak přidat zásuvku do místnosti 2026", description: "Povrchová nebo zapuštěná zásuvka – kdy elektrikář a kdy sám. Postup a ceny.", url: "https://www.domovniguru.cz/blog/pridat-zasuvku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak přidat zásuvku do místnosti 2026", description: "Povrchová nebo zapuštěná – jak přidat zásuvku a kdy potřebuješ elektrikáře." },
 };
 

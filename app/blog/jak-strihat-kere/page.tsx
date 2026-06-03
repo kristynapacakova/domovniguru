@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Jak stříhat keře – průvodce pro každého 2025",
   description: "Kdy, jak a čím stříhat okrasné i ovocné keře. Správný řez prodlouží život keře a zdvojnásobí kvetení.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-strihat-kere" },
-  openGraph: { title: "Jak stříhat keře – průvodce pro každého", description: "Kdy, jak a čím stříhat okrasné i ovocné keře.", url: "https://www.domovniguru.cz/blog/jak-strihat-kere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak stříhat keře – průvodce pro každého", description: "Kdy, jak a čím stříhat okrasné i ovocné keře.", url: "https://www.domovniguru.cz/blog/jak-strihat-kere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak stříhat keře", description: "Kdy, jak a čím stříhat okrasné i ovocné keře." },
 };
 

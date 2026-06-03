@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak postavit příčku ze sádrokartonu",
   description: "Sádrokartonová příčka krok za krokem. Jak vyměřit, postavit ocelové profily, přišroubovat desky a přetmelit spáry. Postup pro laiky bez speciálního nářadí.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup" },
-  openGraph: { title: "Jak postavit příčku ze sádrokartonu 2026", description: "Sádrokartonová příčka krok za krokem – profily, desky, spárování.", url: "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak postavit příčku ze sádrokartonu 2026", description: "Sádrokartonová příčka krok za krokem – profily, desky, spárování.", url: "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak postavit příčku ze sádrokartonu 2026", description: "Sádrokartonová příčka krok za krokem – profily, desky, spárování." },
 };
 

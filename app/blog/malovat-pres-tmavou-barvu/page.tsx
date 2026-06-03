@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2025",
   description: "Tmavá zeď pod světlou barvou? Bez správného postupu budou šmouhy. Tady je jak to vyřešit napoprvé.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" },
-  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev?" },
 };
 

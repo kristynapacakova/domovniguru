@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak ošetřit dřevěnou terasu – broušení, olej a lazura 2026",
   description: "Dřevěná terasa zešedivěla nebo se loupe? Kompletní postup jarního ošetření – broušení, čištění, volba oleje nebo lazury a správné nanášení. Terasa jako nová.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/drevo-terasa-zima" },
-  openGraph: { title: "Jak ošetřit dřevěnou terasu 2026", description: "Broušení, čištění, olej nebo lazura – kompletní postup jarního ošetření terasy.", url: "https://www.domovniguru.cz/blog/drevo-terasa-zima", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak ošetřit dřevěnou terasu 2026", description: "Broušení, čištění, olej nebo lazura – kompletní postup jarního ošetření terasy.", url: "https://www.domovniguru.cz/blog/drevo-terasa-zima", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak ošetřit dřevěnou terasu 2026", description: "Broušení, čištění, olej nebo lazura – kompletní postup jarního ošetření terasy." },
 };
 

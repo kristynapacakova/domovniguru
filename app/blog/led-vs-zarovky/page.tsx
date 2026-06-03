@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "LED vs. žárovky – co se skutečně vyplatí? Srovnání 2025",
   description: "Srovnání LED a klasických žárovek: spotřeba, životnost, cena a návratnost investice. Kdy se přechod na LED opravdu vyplatí?",
   alternates: { canonical: "https://www.domovniguru.cz/blog/led-vs-zarovky" },
-  openGraph: { title: "LED vs. žárovky – co se skutečně vyplatí?", description: "Spotřeba, životnost, cena a návratnost. Kompletní srovnání.", url: "https://www.domovniguru.cz/blog/led-vs-zarovky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-01T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "LED vs. žárovky – co se skutečně vyplatí?", description: "Spotřeba, životnost, cena a návratnost. Kompletní srovnání.", url: "https://www.domovniguru.cz/blog/led-vs-zarovky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-01T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "LED vs. žárovky – co se skutečně vyplatí?", description: "Spotřeba, životnost, cena a návratnost. Kompletní srovnání 2025." },
 };
 
@@ -13,7 +13,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 
 const RELATED = [
   { title: "Jak vyměnit vypínač – krok za krokem", href: "/blog/jak-vymenit-vypinac", read: "4 min" },
-  { title: "Jak připravit dům na zimu – checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
+  { title: "Jak připravit dům na zimu – checklist", href: "/blog/priprava-domu-na-zimu", read: "5 min" },
   { title: "Jak odvzdušnit radiátory", href: "/blog/jak-odvzdusnit-radiatory", read: "3 min" },
   { title: "Jak utěsnit okna na zimu", href: "/blog/jak-utesnit-okna-na-zimu", read: "4 min" },
 ];

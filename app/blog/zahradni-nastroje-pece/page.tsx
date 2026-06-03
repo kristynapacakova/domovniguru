@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Zahradní nástroje – jak o ně pečovat, aby vydržely 2025",
   description: "Dobré zahradní nástroje vydrží desítky let – ale jen pokud o ně pečuješ. Čištění, broušení, mazání a skladování krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece" },
-  openGraph: { title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování. Nástroje které vydrží desítky let.", url: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování. Nástroje které vydrží desítky let.", url: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování." },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak čistit filtr klimatizace doma – postup krok za krokem 2026",
   description: "Jak vyčistit nebo vyměnit filtr klimatizace sám doma. Jak často čistit, jak filtr vyjmout, umýt a vrátit zpět. Ušetři na servisním výjezdu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace" },
-  openGraph: { title: "Jak čistit filtr klimatizace 2026", description: "Vyjmutí, mytí a vrácení filtru klimatizace – postup krok za krokem.", url: "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak čistit filtr klimatizace 2026", description: "Vyjmutí, mytí a vrácení filtru klimatizace – postup krok za krokem.", url: "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak čistit filtr klimatizace 2026", description: "Čištění filtru klimatizace sám doma – postup krok za krokem." },
 };
 

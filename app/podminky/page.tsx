@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Podmínky užití",
-  description: "Podmínky užití webu DomovniGuru.",
+  description: "Podmínky užití webu DomovniGuru – pravidla používání obsahu, odpovědnost a práva provozovatele.",
   alternates: { canonical: "https://www.domovniguru.cz/podminky" },
-  openGraph: { title: "Podmínky užití", description: "Podmínky užití webu DomovniGuru.", url: "https://www.domovniguru.cz/podminky", type: "website" },
+  openGraph: { title: "Podmínky užití", description: "Podmínky užití webu DomovniGuru – pravidla používání obsahu, odpovědnost a práva provozovatele.", url: "https://www.domovniguru.cz/podminky", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function PodminkyPage() {

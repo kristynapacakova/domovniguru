@@ -6,10 +6,10 @@ import Link from "next/link";
 import LaminatCalculator from "@/app/components/LaminatCalculator";
 
 export const metadata: Metadata = {
-  title: "Kalkulačka laminátu 2026 – kolik balení plovoucí podlahy potřebuju?",
+  title: "Kalkulačka laminátu – kolik balení podlahy",
   description: "Spočítej počet balení laminátu nebo vinylové podlahy s rezervou na prořezy. Zadej rozměry místnosti a m² v balení – výsledek ihned.",
   alternates: { canonical: "https://domovniguru.cz/kalkulacky/kolik-laminatu" },
-  openGraph: { title: "Kalkulačka laminátu 2026", description: "Balení laminátu s rezervou na prořezy. Výsledek okamžitě.", url: "https://domovniguru.cz/kalkulacky/kolik-laminatu", siteName: "DomovniGuru", locale: "cs_CZ", type: "website" },
+  openGraph: { title: "Kalkulačka laminátu 2026", description: "Balení laminátu s rezervou na prořezy. Výsledek okamžitě.", url: "https://domovniguru.cz/kalkulacky/kolik-laminatu", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function KolikLaminatuPage() {

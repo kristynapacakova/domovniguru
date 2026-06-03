@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Fasádní barva – jak vybrat správný typ a jak nanášet 2026",
   description: "Silikonová, akrylátová nebo minerální fasádní barva? Jak vybrat barvu na fasádu, připravit povrch a nanést. Trvanlivý výsledek na 10–15 let bez opakování.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/fasadni-barva-vyber" },
-  openGraph: { title: "Fasádní barva – jak vybrat správný typ 2026", description: "Silikonová, akrylátová nebo minerální fasáda – jak vybrat, připravit a nanést.", url: "https://www.domovniguru.cz/blog/fasadni-barva-vyber", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Fasádní barva – jak vybrat správný typ 2026", description: "Silikonová, akrylátová nebo minerální fasáda – jak vybrat, připravit a nanést.", url: "https://www.domovniguru.cz/blog/fasadni-barva-vyber", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Fasádní barva – jak vybrat správný typ 2026", description: "Silikonová, akrylátová nebo minerální – výběr fasádní barvy krok za krokem." },
 };
 

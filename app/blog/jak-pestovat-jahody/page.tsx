@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak pěstovat jahody – výsadba, péče a sklizeň 2026",
   description: "Jak pěstovat jahody na záhoně, v truhlíku nebo vyvýšeném záhonu. Kdy sázet, jak hnojit, jak se zbavit slimáků a kdy sklízet. Průvodce pro začátečníky.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-pestovat-jahody" },
-  openGraph: { title: "Jak pěstovat jahody 2026", description: "Výsadba, péče a sklizeň jahod – záhon, truhlík i vyvýšený záhon.", url: "https://www.domovniguru.cz/blog/jak-pestovat-jahody", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak pěstovat jahody 2026", description: "Výsadba, péče a sklizeň jahod – záhon, truhlík i vyvýšený záhon.", url: "https://www.domovniguru.cz/blog/jak-pestovat-jahody", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak pěstovat jahody 2026", description: "Výsadba, péče a sklizeň jahod krok za krokem." },
 };
 

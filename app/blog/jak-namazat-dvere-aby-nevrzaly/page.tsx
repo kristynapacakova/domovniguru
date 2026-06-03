@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak namazat dveře aby nevrzaly – čím a jak na to 2026",
   description: "Jak odstranit vrzání dveří rychle a natrvalo. Čím namazat závěsy a pantové dveře, co způsobuje vrzání a kdy je čas na výměnu závěsů.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly" },
-  openGraph: { title: "Jak namazat dveře aby nevrzaly 2026", description: "Čím namazat vrzající dveře a jak to udělat rychle a natrvalo.", url: "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak namazat dveře aby nevrzaly 2026", description: "Čím namazat vrzající dveře a jak to udělat rychle a natrvalo.", url: "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak namazat dveře aby nevrzaly 2026", description: "Čím namazat závěsy a jak se zbavit vrzání dveří." },
 };
 

@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Míchání barev RAL a NCS – jak vybrat a namíchat přesný odstín 2026",
+  title: "Míchání barev RAL a NCS – průvodce odstíny",
   description: "Co je RAL a NCS barevný systém, jak z kódu nechat namíchat barvu v obchodě a jak správně kombinovat odstíny. Průvodce barevnými systémy pro laiky.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/michani-barev-ral-ncs" },
-  openGraph: { title: "Míchání barev RAL a NCS – jak vybrat přesný odstín 2026", description: "RAL a NCS kódy – jak nechat namíchat barvu a jak správně kombinovat odstíny.", url: "https://www.domovniguru.cz/blog/michani-barev-ral-ncs", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Míchání barev RAL a NCS – jak vybrat přesný odstín 2026", description: "RAL a NCS kódy – jak nechat namíchat barvu a jak správně kombinovat odstíny.", url: "https://www.domovniguru.cz/blog/michani-barev-ral-ncs", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Míchání barev RAL a NCS 2026", description: "RAL a NCS – jak vybrat a nechat namíchat přesný odstín barvy." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/michani-barev-ral-ncs#article",
-    "headline": "Míchání barev RAL a NCS – jak vybrat a namíchat přesný odstín 2026",
+    "headline": "Míchání barev RAL a NCS – průvodce odstíny",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Míchání barev RAL a NCS – jak vybrat a namíchat přesný odstín</h1>
               <p className="article-lead">Viděl jsi barvu na webu, v katalogu nebo na sousedově fasádě a chceš přesně tu samou? RAL nebo NCS kód ti zaručí identický odstín — kdekoli na světě a kdykoli.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/michani-barev-ral-ncs" title="Míchání barev RAL a NCS – jak vybrat a namíchat přesný odstín 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/michani-barev-ral-ncs" title="Míchání barev RAL a NCS – průvodce odstíny" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -190,7 +190,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/michani-barev-ral-ncs" title="Míchání barev RAL a NCS – jak vybrat a namíchat přesný odstín 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/michani-barev-ral-ncs" title="Míchání barev RAL a NCS – průvodce odstíny" />
 
             <section className="related-section">
               <h2>Související články</h2>

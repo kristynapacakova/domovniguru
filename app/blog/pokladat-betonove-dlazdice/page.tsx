@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak pokládat betonové dlaždice na terasu – postup 2026",
   description: "Pokládka betonových dlaždic na terasu nebo chodník krok za krokem. Příprava podloží, spád, kladení a spárování. Trvanlivý výsledek bez vydlážděných pruhů.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice" },
-  openGraph: { title: "Jak pokládat betonové dlaždice na terasu 2026", description: "Příprava podloží, spád, kladení a spárování – trvanlivá terasa krok za krokem.", url: "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak pokládat betonové dlaždice na terasu 2026", description: "Příprava podloží, spád, kladení a spárování – trvanlivá terasa krok za krokem.", url: "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak pokládat betonové dlaždice na terasu 2026", description: "Příprava podloží, spád, kladení a spárování – trvanlivá terasa." },
 };
 

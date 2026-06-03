@@ -3,10 +3,10 @@ import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
 <PaintCalculator />
 export const metadata: Metadata = {
-  title: "Penetrace před malováním – kdy je nutná a kdy ji přeskočit? 2025",
+  title: "Penetrace před malováním – kdy je nutná?",
   description: "Penetrace před malováním: kdy ji použít, kdy ji vynechat a jak ji správně nanést. Kompletní průvodce pro každý typ podkladu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/penetrace-pred-malovanim" },
-  openGraph: { title: "Penetrace před malováním – kdy je nutná?", description: "Kdy penetraci použít, kdy ji vynechat a jak ji správně nanést.", url: "https://www.domovniguru.cz/blog/penetrace-pred-malovanim", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Penetrace před malováním – kdy je nutná?", description: "Kdy penetraci použít, kdy ji vynechat a jak ji správně nanést.", url: "https://www.domovniguru.cz/blog/penetrace-pred-malovanim", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Penetrace před malováním – kdy je nutná?", description: "Kompletní průvodce: kdy penetraci použít a kdy ji přeskočit." },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak pěstovat papriky – od výsevu po sklizeň 2026",
   description: "Jak pěstovat papriky doma i na záhoně. Kdy vysévat, jak přepěstovat sazenice, správná zálivka a hnojení. Průvodce pro začátečníky i zkušené zahradníky.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-pestovat-papriky" },
-  openGraph: { title: "Jak pěstovat papriky 2026", description: "Od výsevu po sklizeň – jak pěstovat papriky doma i na záhoně.", url: "https://www.domovniguru.cz/blog/jak-pestovat-papriky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak pěstovat papriky 2026", description: "Od výsevu po sklizeň – jak pěstovat papriky doma i na záhoně.", url: "https://www.domovniguru.cz/blog/jak-pestovat-papriky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak pěstovat papriky 2026", description: "Od výsevu po sklizeň – pěstování paprik krok za krokem." },
 };
 

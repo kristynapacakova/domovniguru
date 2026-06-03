@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak prodloužit elektrický kabel bezpečně – postup 2026",
   description: "Jak bezpečně prodloužit elektrický kabel pomocí spojky, prodlužovačky nebo nové zásuvky. Co je legální a co je nebezpečné – průvodce pro domácí kutily.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel" },
-  openGraph: { title: "Jak prodloužit elektrický kabel bezpečně 2026", description: "Spojka, prodlužovačka nebo nová zásuvka – jak bezpečně prodloužit kabel.", url: "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak prodloužit elektrický kabel bezpečně 2026", description: "Spojka, prodlužovačka nebo nová zásuvka – jak bezpečně prodloužit kabel.", url: "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak prodloužit elektrický kabel bezpečně 2026", description: "Spojka, prodlužovačka nebo nová zásuvka – jak prodloužit kabel bezpečně." },
 };
 

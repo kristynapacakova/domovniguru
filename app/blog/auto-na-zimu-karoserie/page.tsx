@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Auto na zimu – jak připravit karoserii a chránit před rzí 2026",
   description: "Jak připravit auto na zimu – ošetření karoserie, ochrana podvozku a prahu před solí a rzí. Co udělat na podzim aby auto přežilo zimu bez problémů.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie" },
-  openGraph: { title: "Auto na zimu – karoserie a ochrana před rzí 2026", description: "Ošetření karoserie, podvozku a prahů před zimou – jak chránit auto před solí.", url: "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Auto na zimu – karoserie a ochrana před rzí 2026", description: "Ošetření karoserie, podvozku a prahů před zimou – jak chránit auto před solí.", url: "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Auto na zimu – karoserie a ochrana před rzí 2026", description: "Jak chránit karoserii a podvozek před zimní solí a rzí." },
 };
 

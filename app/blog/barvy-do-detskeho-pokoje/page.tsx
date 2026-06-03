@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Barvy do dětského pokoje – jak vybrat bezpečné a správné 2026",
   description: "Jak vybrat barvy do dětského pokoje. Bezpečné barvy bez VOC, správné odstíny pro různý věk a jak kombinovat barvy pro klidný spánek i aktivní hru.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje" },
-  openGraph: { title: "Barvy do dětského pokoje 2026", description: "Bezpečné barvy bez VOC, správné odstíny pro věk dítěte a jak je kombinovat.", url: "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Barvy do dětského pokoje 2026", description: "Bezpečné barvy bez VOC, správné odstíny pro věk dítěte a jak je kombinovat.", url: "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Barvy do dětského pokoje 2026", description: "Bezpečné barvy bez VOC a správné odstíny pro dětský pokoj." },
 };
 

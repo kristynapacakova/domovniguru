@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak správně sekat trávník – hustý pažit bez plevele",
   description: "Pravidlo 1/3, ideální výška sekání, nejlepší čas dne, ostrý nůž a mulčování. Kompletní průvodce sekáním trávníku pro hustý a zdravý pažit celou sezónu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-sekat-travnik" },
-  openGraph: { title: "Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit", description: "Pravidlo 1/3, výška sekání, ostrý nůž a mulčování. Vše co potřebuješ vědět o sekání trávníku.", url: "https://www.domovniguru.cz/blog/jak-sekat-travnik", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit", description: "Pravidlo 1/3, výška sekání, ostrý nůž a mulčování. Vše co potřebuješ vědět o sekání trávníku.", url: "https://www.domovniguru.cz/blog/jak-sekat-travnik", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak správně sekat trávník 2026", description: "Pravidlo 1/3, výška sekání, ostrý nůž a mulčování." },
 };
 

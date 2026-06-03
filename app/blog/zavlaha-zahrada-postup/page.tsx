@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak zavlažovat zahradu – ruční i automatická závlaha 2026",
   description: "Ruční zalévání nebo automatická závlaha? Kdy a kolik zalévat trávník a záhony – praktický průvodce bez plýtvání vodou.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup" },
-  openGraph: { title: "Jak zavlažovat zahradu – ruční i automatická závlaha 2026", description: "Kdy, kolik a jak zavlažovat zahradu. Ruční nebo automatická závlaha – co se vyplatí.", url: "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak zavlažovat zahradu – ruční i automatická závlaha 2026", description: "Kdy, kolik a jak zavlažovat zahradu. Ruční nebo automatická závlaha – co se vyplatí.", url: "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak zavlažovat zahradu 2026", description: "Kdy, kolik a jak zavlažovat zahradu – ruční nebo automatická závlaha." },
 };
 

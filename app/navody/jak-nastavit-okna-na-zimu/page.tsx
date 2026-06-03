@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Jak nastavit okna na zimu – přetočení kování krok za krokem",
   description: "Nastavení oken na zimní režim: přetočení kování, seřízení těsnění, teplejší byt a nižší účty. Zvládnete sami za 15 minut.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-nastavit-okna-na-zimu" },
-  openGraph: { title: "Jak nastavit okna na zimu – přetočení kování krok za krokem", description: "Nastavení oken na zimní režim: přetočení kování, seřízení těsnění, teplejší byt a nižší účty. Zvládnete sami za 15 minut.", url: "https://www.domovniguru.cz/navody/jak-nastavit-okna-na-zimu", type: "article" },
+  openGraph: { title: "Jak nastavit okna na zimu – přetočení kování krok za krokem", description: "Nastavení oken na zimní režim: přetočení kování, seřízení těsnění, teplejší byt a nižší účty. Zvládnete sami za 15 minut.", url: "https://www.domovniguru.cz/navody/jak-nastavit-okna-na-zimu", type: "article", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function JakNastavitOknaNaZimu() {

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Jak vyměnit vypínač – krok za krokem bez elektrikáře 2025",
   description: "Výměna vypínače světla svépomocí: bezpečný postup krok za krokem, co potřebuješ a jak se vyhnout chybám. Hotovo za 20 minut.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-vymenit-vypinac" },
-  openGraph: { title: "Jak vyměnit vypínač – krok za krokem bez elektrikáře", description: "Bezpečný postup výměny vypínače svépomocí. Hotovo za 20 minut.", url: "https://www.domovniguru.cz/blog/jak-vymenit-vypinac", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak vyměnit vypínač – krok za krokem bez elektrikáře", description: "Bezpečný postup výměny vypínače svépomocí. Hotovo za 20 minut.", url: "https://www.domovniguru.cz/blog/jak-vymenit-vypinac", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak vyměnit vypínač – krok za krokem", description: "Bezpečný postup výměny vypínače svépomocí za 20 minut." },
 };
 
@@ -14,7 +14,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 const RELATED = [
   { title: "LED vs. žárovky – co se skutečně vyplatí?", href: "/blog/led-vs-zarovky", read: "4 min" },
   { title: "Jak vyměnit zásuvku – bezpečně bez elektrikáře", href: "/blog/vymena-zasuvky", read: "4 min" },
-  { title: "Jak odvzdušnit radiátory", href: "/blog/jak-odvzdusit-radiatory", read: "3 min" },
+  { title: "Jak odvzdušnit radiátory", href: "/blog/jak-odvzdusnit-radiatory", read: "3 min" },
   { title: "Jak utěsnit okna na zimu", href: "/blog/jak-utesnit-okna-na-zimu", read: "4 min" },
 ];
 

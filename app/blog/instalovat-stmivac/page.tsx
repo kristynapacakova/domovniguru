@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak nainstalovat stmívač světla – zapojení krok za krokem 2026",
   description: "Stmívač místo vypínače – jak ho správně zapojit, co je potřeba pro LED žárovky a kdy volat elektrikáře. Bezpečný postup montáže stmívače krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/instalovat-stmivac" },
-  openGraph: { title: "Jak nainstalovat stmívač světla 2026", description: "Zapojení stmívače krok za krokem – co je potřeba pro LED a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/instalovat-stmivac", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak nainstalovat stmívač světla 2026", description: "Zapojení stmívače krok za krokem – co je potřeba pro LED a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/instalovat-stmivac", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak nainstalovat stmívač světla 2026", description: "Zapojení stmívače krok za krokem – co potřebuješ pro LED žárovky." },
 };
 

@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak otestovat zásuvku – fázová tužka, multimetr a zkoušečka 2026",
+  title: "Jak otestovat zásuvku – fázová tužka a multimetr",
   description: "Jak zjistit jestli zásuvka funguje a správně zapojená. Fázová tužka, multimetr nebo zkoušečka zásuvek – co použít, jak postupovat a co výsledky znamenají.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/otestovat-zasuvku" },
-  openGraph: { title: "Jak otestovat zásuvku 2026", description: "Fázová tužka, multimetr, zkoušečka – jak otestovat zásuvku krok za krokem.", url: "https://www.domovniguru.cz/blog/otestovat-zasuvku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak otestovat zásuvku 2026", description: "Fázová tužka, multimetr, zkoušečka – jak otestovat zásuvku krok za krokem.", url: "https://www.domovniguru.cz/blog/otestovat-zasuvku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak otestovat zásuvku 2026", description: "Fázová tužka, multimetr, zkoušečka – jak otestovat zásuvku bezpečně." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#article",
-    "headline": "Jak otestovat zásuvku – fázová tužka, multimetr a zkoušečka 2026",
+    "headline": "Jak otestovat zásuvku – fázová tužka a multimetr",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak otestovat zásuvku – fázová tužka, multimetr a zkoušečka</h1>
               <p className="article-lead">Nefungující zásuvka má několik možných příčin. Správný test prozradí jestli je problém v zásuvce, jističi nebo vedení — a jestli to zvládneš opravit sám.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/otestovat-zasuvku" title="Jak otestovat zásuvku – fázová tužka, multimetr a zkoušečka 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/otestovat-zasuvku" title="Jak otestovat zásuvku – fázová tužka a multimetr" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -172,7 +172,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/otestovat-zasuvku" title="Jak otestovat zásuvku – fázová tužka, multimetr a zkoušečka 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/otestovat-zasuvku" title="Jak otestovat zásuvku – fázová tužka a multimetr" />
 
             <section className="related-section">
               <h2>Související články</h2>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak přezimovat zahradní vodovodní přípojku – aby nezamrzla 2026",
   description: "Jak ochránit zahradní vodovodní přípojku, hadice a zahradní kohoutek před mrazem. Postup uzavření, vypuštění a přezimování závlahy na podzim.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu" },
-  openGraph: { title: "Jak přezimovat zahradní vodu – aby nezamrzla 2026", description: "Uzavření, vypuštění a ochrana zahradní přípojky vody před mrazem.", url: "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak přezimovat zahradní vodu – aby nezamrzla 2026", description: "Uzavření, vypuštění a ochrana zahradní přípojky vody před mrazem.", url: "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak přezimovat zahradní vodu 2026", description: "Ochrana zahradní přípojky před mrazem – postup krok za krokem." },
 };
 

@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     siteName: "DomovniGuru",
     locale: "cs_CZ",
     type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }],
   },
 };
 

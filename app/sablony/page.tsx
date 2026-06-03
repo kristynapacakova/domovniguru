@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Šablony pro 3D tisk zdarma – domácnost a dílna 2025",
   description: "Kurátorovaný výběr nejlepších free STL souborů pro domácnost. Držáky, organizéry, náhradní díly – ke stažení zdarma na Printables a Thingiverse.",
   alternates: { canonical: "https://domovniguru.cz/sablony" },
-  openGraph: { title: "Šablony pro 3D tisk zdarma – domácnost", description: "Nejlepší free STL soubory pro domácnost a dílnu.", url: "https://domovniguru.cz/sablony", siteName: "DomovniGuru", locale: "cs_CZ", type: "website" },
+  openGraph: { title: "Šablony pro 3D tisk zdarma – domácnost", description: "Nejlepší free STL soubory pro domácnost a dílnu.", url: "https://domovniguru.cz/sablony", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 const KATEGORIE = [

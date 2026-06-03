@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak zateplit byt bez rekonstrukce – levná řešení 2026",
   description: "Těsnění oken, těžké závěsy, reflexní fólie za radiátor a prahové lišty. Jak zateplit starý byt bez bourání a bez velkých investic – úspora až 20 % na vytápění.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce" },
-  openGraph: { title: "Jak zateplit byt bez rekonstrukce 2026", description: "Těsnění oken, závěsy, reflexní fólie – jak zateplit byt levně bez bourání.", url: "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak zateplit byt bez rekonstrukce 2026", description: "Těsnění oken, závěsy, reflexní fólie – jak zateplit byt levně bez bourání.", url: "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak zateplit byt bez rekonstrukce 2026", description: "Těsnění oken, závěsy, reflexní fólie – jak zateplit byt levně bez bourání." },
 };
 

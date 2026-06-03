@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak vyčistit okapy – postup, kdy čistit a jak předejít ucpání 2026",
+  title: "Jak vyčistit okapy – postup a prevence ucpání",
   description: "Ucpané okapy způsobují zatékání do zdí a škody tisíce korun. Jak vyčistit okapy bezpečně sám, kdy to dělat a jak ucpání předejít jednou provždy.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-vycistit-okapy" },
-  openGraph: { title: "Jak vyčistit okapy – postup a prevence 2026", description: "Ucpané okapy – jak je vyčistit bezpečně sám a jak ucpání předejít.", url: "https://www.domovniguru.cz/blog/jak-vycistit-okapy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak vyčistit okapy – postup a prevence 2026", description: "Ucpané okapy – jak je vyčistit bezpečně sám a jak ucpání předejít.", url: "https://www.domovniguru.cz/blog/jak-vycistit-okapy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak vyčistit okapy 2026", description: "Ucpané okapy – bezpečný postup čištění a jak jim předejít." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#article",
-    "headline": "Jak vyčistit okapy – postup, kdy čistit a jak předejít ucpání 2026",
+    "headline": "Jak vyčistit okapy – postup a prevence ucpání",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak vyčistit okapy – postup, kdy čistit a jak předejít ucpání</h1>
               <p className="article-lead">Ucpané okapy jsou tichý nepřítel domu — voda přetéká přes okraj, zatéká do zdí a způsobuje škody tisíce korun. Čištění okapů trvá hodinu a ušetří roky problémů.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/jak-vycistit-okapy" title="Jak vyčistit okapy – postup, kdy čistit a jak předejít ucpání 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-vycistit-okapy" title="Jak vyčistit okapy – postup a prevence ucpání" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -171,7 +171,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/jak-vycistit-okapy" title="Jak vyčistit okapy – postup, kdy čistit a jak předejít ucpání 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/jak-vycistit-okapy" title="Jak vyčistit okapy – postup a prevence ucpání" />
 
             <section className="related-section">
               <h2>Související články</h2>

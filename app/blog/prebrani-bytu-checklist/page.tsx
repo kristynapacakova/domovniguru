@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Co zkontrolovat při přebírání nového bytu – checklist 2025",
   description: "Přebíráš nový byt nebo dům? Kompletní checklist co zkontrolovat: elektrika, voda, topení, okna, stěny, dokumenty. Nic nezapomeneš.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist" },
-  openGraph: { title: "Co zkontrolovat při přebírání nového bytu – checklist", description: "Elektrika, voda, topení, okna, dokumenty. Kompletní checklist.", url: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Co zkontrolovat při přebírání nového bytu – checklist", description: "Elektrika, voda, topení, okna, dokumenty. Kompletní checklist.", url: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Co zkontrolovat při přebírání nového bytu", description: "Kompletní checklist pro přebírání bytu nebo domu." },
 };
 
@@ -15,7 +15,7 @@ const RELATED = [
   { title: "Stěhování bez stresu – kompletní checklist", href: "/blog/stehovani-checklist", read: "5 min" },
   { title: "Jak vymalovat byt před stěhováním", href: "/blog/malovani-pred-stehovani", read: "5 min" },
   { title: "Jak malovat zeď – kompletní průvodce", href: "/blog/jak-malovat-zed", read: "5 min" },
-  { title: "Jak připravit dům na zimu – checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
+  { title: "Jak připravit dům na zimu – checklist", href: "/blog/priprava-domu-na-zimu", read: "5 min" },
 ];
 
 export default function ArticlePage() {

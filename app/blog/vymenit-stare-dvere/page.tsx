@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak vyměnit staré dveře – výběr, montáž a záruby 2026",
   description: "Jak vyměnit staré dveře v bytě nebo domě. Výběr správných dveří, typy zárubní, postup montáže a na co si dát pozor. Průvodce pro laiky i pokročilé.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vymenit-stare-dvere" },
-  openGraph: { title: "Jak vyměnit staré dveře 2026", description: "Výběr dveří, záruby a postup montáže – jak vyměnit dveře krok za krokem.", url: "https://www.domovniguru.cz/blog/vymenit-stare-dvere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak vyměnit staré dveře 2026", description: "Výběr dveří, záruby a postup montáže – jak vyměnit dveře krok za krokem.", url: "https://www.domovniguru.cz/blog/vymenit-stare-dvere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak vyměnit staré dveře 2026", description: "Výběr dveří, záruby a postup montáže krok za krokem." },
 };
 

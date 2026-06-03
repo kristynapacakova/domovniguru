@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem",
   description: "Výměna elektrické zásuvky svépomocí: vypni jistič, odšroubuj, přepoj vodiče. Bezpečný postup bez elektrikáře za 25 minut.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-vymenit-zasuvku" },
-  openGraph: { title: "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem", description: "Výměna elektrické zásuvky svépomocí: vypni jistič, odšroubuj, přepoj vodiče. Bezpečný postup bez elektrikáře za 25 minut.", url: "https://www.domovniguru.cz/navody/jak-vymenit-zasuvku", type: "article" },
+  openGraph: { title: "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem", description: "Výměna elektrické zásuvky svépomocí: vypni jistič, odšroubuj, přepoj vodiče. Bezpečný postup bez elektrikáře za 25 minut.", url: "https://www.domovniguru.cz/navody/jak-vymenit-zasuvku", type: "article", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function JakVymenit_Zasuvku() {

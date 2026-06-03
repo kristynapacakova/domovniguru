@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026",
   description: "Stavba pergoly krok za krokem – od výběru materiálu a kotvení sloupů po střešní latě a impregnaci. Dřevěná nebo hliníková pergola za víkend.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/pergola-postup-stavba" },
-  openGraph: { title: "Jak postavit pergolu na terasu 2026", description: "Dřevěná nebo hliníková pergola – výběr, kotvení sloupů a stavba krok za krokem.", url: "https://www.domovniguru.cz/blog/pergola-postup-stavba", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak postavit pergolu na terasu 2026", description: "Dřevěná nebo hliníková pergola – výběr, kotvení sloupů a stavba krok za krokem.", url: "https://www.domovniguru.cz/blog/pergola-postup-stavba", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak postavit pergolu na terasu 2026", description: "Dřevěná nebo hliníková pergola – výběr, kotvení a stavba." },
 };
 

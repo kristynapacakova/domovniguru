@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)",
   description: "Mechanické vytrhávání, vroucí voda, ocet a plamen. Kompletní průvodce likvidací plevele bez herbicidů – bezpečně pro lidi, zvířata i půdu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie" },
-  openGraph: { title: "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", description: "Vroucí voda, ocet, mechanické vytrhávání. Průvodce likvidací plevele bez chemie.", url: "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", description: "Vroucí voda, ocet, mechanické vytrhávání. Průvodce likvidací plevele bez chemie.", url: "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit plevele bez chemie 2026", description: "Vroucí voda, ocet, mechanicky. Průvodce bez herbicidů." },
 };
 

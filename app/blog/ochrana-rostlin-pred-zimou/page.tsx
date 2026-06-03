@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Ochrana rostlin před zimou – co zakrýt, přestěhovat a nechat 2026",
+  title: "Ochrana rostlin před zimou – co zakrýt",
   description: "Jak ochránit zahradní rostliny před zimou. Co zakrýt jutou nebo mulčem, co přestěhovat do skleníku a co přezimuje samo. Průvodce pro zahradu i balkon.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" },
-  openGraph: { title: "Ochrana rostlin před zimou 2026", description: "Co zakrýt, přestěhovat nebo nechat – jak ochránit rostliny před mrazem.", url: "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Ochrana rostlin před zimou 2026", description: "Co zakrýt, přestěhovat nebo nechat – jak ochránit rostliny před mrazem.", url: "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Ochrana rostlin před zimou 2026", description: "Co zakrýt, přestěhovat nebo nechat – průvodce přezimováním rostlin." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou#article",
-    "headline": "Ochrana rostlin před zimou – co zakrýt, přestěhovat a nechat 2026",
+    "headline": "Ochrana rostlin před zimou – co zakrýt",
     "datePublished": "2026-05-01T08:00:00Z",
     "dateModified": "2026-05-01T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -62,7 +62,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Ochrana rostlin před zimou – co zakrýt, přestěhovat a nechat</h1>
               <p className="article-lead">Ne každá rostlina potřebuje zimní ochranu — ale ta správná ve správný čas zachrání i rostliny za tisíce korun. Tady je přehledný návod co s čím udělat.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" title="Ochrana rostlin před zimou – co zakrýt, přestěhovat a nechat 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" title="Ochrana rostlin před zimou – co zakrýt" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -157,7 +157,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" title="Ochrana rostlin před zimou – co zakrýt, přestěhovat a nechat 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" title="Ochrana rostlin před zimou – co zakrýt" />
 
             <section className="related-section">
               <h2>Související články</h2>

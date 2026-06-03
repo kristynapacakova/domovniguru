@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Jarní údržba domu – kompletní checklist",
   description: "Co zkontrolovat a udělat na jaře? Okapy, střecha, fasáda, zahrada, vytápění – 40+ úkolů přehledně rozdělených do sekcí.",
   alternates: { canonical: "https://www.domovniguru.cz/checklisty/jarni-udrzba" },
-  openGraph: { title: "Jarní údržba domu – kompletní checklist", description: "Co zkontrolovat a udělat na jaře? Okapy, střecha, fasáda, zahrada, vytápění – 40+ úkolů přehledně rozdělených do sekcí.", url: "https://www.domovniguru.cz/checklisty/jarni-udrzba", type: "website" },
+  openGraph: { title: "Jarní údržba domu – kompletní checklist", description: "Co zkontrolovat a udělat na jaře? Okapy, střecha, fasáda, zahrada, vytápění – 40+ úkolů přehledně rozdělených do sekcí.", url: "https://www.domovniguru.cz/checklisty/jarni-udrzba", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

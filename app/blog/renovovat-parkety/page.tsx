@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026",
   description: "Stará parketová podlaha vypadá jako nová – broušení, tmelení spár, lakování nebo voskování krok za krokem. Kdy renovovat sám a kdy povolat profesionála.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/renovovat-parkety" },
-  openGraph: { title: "Jak renovovat parketovou podlahu 2026", description: "Broušení, tmelení, lak nebo vosk – parketová podlaha jako nová krok za krokem.", url: "https://www.domovniguru.cz/blog/renovovat-parkety", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-16T08:00:00Z", modifiedTime: "2026-04-16T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak renovovat parketovou podlahu 2026", description: "Broušení, tmelení, lak nebo vosk – parketová podlaha jako nová krok za krokem.", url: "https://www.domovniguru.cz/blog/renovovat-parkety", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-16T08:00:00Z", modifiedTime: "2026-04-16T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak renovovat parketovou podlahu 2026", description: "Broušení, tmelení, lak nebo vosk – parketová podlaha jako nová." },
 };
 

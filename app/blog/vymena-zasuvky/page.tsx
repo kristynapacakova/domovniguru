@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Výměna zásuvky – kdy a jak ji vyměnit správně 2026",
   description: "Kdy je čas vyměnit zásuvku? Poškozená, uvolněná nebo zastaralá zásuvka je bezpečnostní riziko. Jak poznat že je čas na výměnu a jak ji provést správně.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vymena-zasuvky" },
-  openGraph: { title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to – bezpečně a správně.", url: "https://www.domovniguru.cz/blog/vymena-zasuvky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to – bezpečně a správně.", url: "https://www.domovniguru.cz/blog/vymena-zasuvky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to bezpečně." },
 };
 

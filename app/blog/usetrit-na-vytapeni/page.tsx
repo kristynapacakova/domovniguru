@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak ušetřit na vytápění bez výměny kotle – 10 tipů 2026",
   description: "Termostatické hlavice, programovatelný termostat, těsnění oken – jak ušetřit 20–30 % na vytápění bez investice do nového kotle nebo tepelného čerpadla.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/usetrit-na-vytapeni" },
-  openGraph: { title: "Jak ušetřit na vytápění bez výměny kotle 2026", description: "10 tipů jak snížit účty za topení o 20–30 % bez drahých investic.", url: "https://www.domovniguru.cz/blog/usetrit-na-vytapeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak ušetřit na vytápění bez výměny kotle 2026", description: "10 tipů jak snížit účty za topení o 20–30 % bez drahých investic.", url: "https://www.domovniguru.cz/blog/usetrit-na-vytapeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak ušetřit na vytápění bez výměny kotle 2026", description: "10 tipů jak snížit účty za topení o 20–30 % bez drahých investic." },
 };
 

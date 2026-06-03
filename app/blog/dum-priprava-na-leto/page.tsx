@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Příprava domu na léto – co zkontrolovat na jaře 2026",
   description: "Co zkontrolovat a udělat na jaře aby byl dům připravený na léto. Klimatizace, zahrada, fasáda, střecha, okna – kompletní jarní checklist pro dům i byt.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/dum-priprava-na-leto" },
-  openGraph: { title: "Příprava domu na léto 2026", description: "Jarní checklist – co zkontrolovat aby byl dům připravený na léto.", url: "https://www.domovniguru.cz/blog/dum-priprava-na-leto", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Příprava domu na léto 2026", description: "Jarní checklist – co zkontrolovat aby byl dům připravený na léto.", url: "https://www.domovniguru.cz/blog/dum-priprava-na-leto", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Příprava domu na léto 2026", description: "Jarní checklist pro dům – klimatizace, zahrada, střecha a fasáda." },
 };
 

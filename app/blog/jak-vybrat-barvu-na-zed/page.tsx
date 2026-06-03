@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026",
   description: "Jak vybrat správnou barvu do každé místnosti? Psychologie barev, srovnání latexových a akrylátových barev, testování vzorků a praktické tipy. Průvodce 2026.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed" },
-  openGraph: { title: "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", description: "Psychologie barev, srovnání typů barev a praktické tipy jak testovat vzorky na zdi.", url: "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", description: "Psychologie barev, srovnání typů barev a praktické tipy jak testovat vzorky na zdi.", url: "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", description: "Psychologie barev, srovnání typů barev a praktické tipy." },
 };
 

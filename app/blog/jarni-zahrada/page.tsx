@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak připravit zahradu na jaro – co udělat v dubnu 2026",
   description: "Kompletní jarní checklist pro zahradu. Co prořezat, přihnojit, zasít a zkontrolovat v březnu a dubnu. Zahrada připravená na sezónu za jeden víkend.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jarni-zahrada" },
-  openGraph: { title: "Jak připravit zahradu na jaro 2026", description: "Kompletní jarní checklist – co prořezat, přihnojit, zasít a zkontrolovat v dubnu.", url: "https://www.domovniguru.cz/blog/jarni-zahrada", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak připravit zahradu na jaro 2026", description: "Kompletní jarní checklist – co prořezat, přihnojit, zasít a zkontrolovat v dubnu.", url: "https://www.domovniguru.cz/blog/jarni-zahrada", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak připravit zahradu na jaro 2026", description: "Kompletní jarní checklist – co prořezat, přihnojit, zasít a zkontrolovat v dubnu." },
 };
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Jak přezimovat zahradní rostliny – co, kdy a jak 2025",
   description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce přezimováním zahradních rostlin krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny" },
-  openGraph: { title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce.", url: "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce.", url: "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být." },
 };
 
