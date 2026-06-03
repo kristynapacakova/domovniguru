@@ -155,7 +155,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/kolik-hliny`,     changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/led-uspora`,      changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/tepelna-izolace`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/kalkulacky/tepelne-cerpadlo`,changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/tepelne-cerpadlo`,      changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-sdk`,             changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-cihel`,           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-osiva`,           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-stresnych-tasek`, changeFrequency: "monthly", priority: 0.7 },
     // Návody
     { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`,    changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/navody/jak-odvzdusnit-radiator`,       changeFrequency: "monthly", priority: 0.7 },

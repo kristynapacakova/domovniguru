@@ -12,7 +12,11 @@ export default function KalkulackyHub() {
     { icon: "🪴", title: "Kolik hlíny potřebuji?", desc: "Objem květináčů, truhlíků a litry substrátu.", href: "/kalkulacky/kolik-hliny" }, // ✅ NOVÁ KALKULAČKA
     { icon: "💧", title: "Kolik tepelné izolace?", desc: "Plocha stěny, tloušťka, počet desek.", href: "/kalkulacky/tepelna-izolace" },
     { icon: "♨️", title: "Návratnost tepelného čerpadla", desc: "Investice, dotace NZÚ, roky návratnosti.", href: "/kalkulacky/tepelne-cerpadlo" },
-    { icon: "💡", title: "Kolik ušetřím LED žárovkami?", desc: "Příkon, počet žárovek, roční úspora v Kč.", href: "/kalkulacky/led-uspora" }, 
+    { icon: "💡", title: "Kolik ušetřím LED žárovkami?", desc: "Příkon, počet žárovek, roční úspora v Kč.", href: "/kalkulacky/led-uspora" },
+    { icon: "🧱", title: "Kolik SDK desek potřebuji?", desc: "Desky, profily, šrouby a tmel na příčku.", href: "/kalkulacky/kolik-sdk" },
+    { icon: "🏠", title: "Kolik cihel/tvárnic potřebuji?", desc: "Ytong, Porotherm nebo klasická cihla – počet kusů a palet.", href: "/kalkulacky/kolik-cihel" },
+    { icon: "🌿", title: "Kolik trávníkového osiva potřebuji?", desc: "Plocha, typ trávníku, kg osiva a hnojiva.", href: "/kalkulacky/kolik-osiva" },
+    { icon: "🏡", title: "Kolik střešních tašek potřebuji?", desc: "Plocha střechy, typ krytiny, počet tašek a palet.", href: "/kalkulacky/kolik-stresnych-tasek" },
   ];
 
   return (
