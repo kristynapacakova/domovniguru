@@ -2,6 +2,7 @@
 // SOUBOR: app/kalkulacky/tepelna-izolace/page.tsx
 // ════════════════════════════════════════════════════════════════
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import IzolaceCalculator from "@/app/components/IzolaceCalculator";
 

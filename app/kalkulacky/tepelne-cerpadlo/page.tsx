@@ -6,6 +6,7 @@
 // UKÁZKA KOMPLETNÍ PAGE.TSX:
 
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import HeatPumpCalculator from "@/app/components/HeatPumpCalculator";
 
