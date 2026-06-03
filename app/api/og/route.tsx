@@ -16,10 +16,9 @@ export async function GET(request: Request) {
   const cat = (searchParams.get("cat") ?? "default").toLowerCase();
   const theme = CATEGORY_THEMES[cat] ?? CATEGORY_THEMES.default;
 
-  const [serifFont, sansFont] = await Promise.all([
-    fetch("https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjALR8uVHHTwUhkIBGZOT.woff").then((r) => r.arrayBuffer()),
-    fetch("https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2").then((r) => r.arrayBuffer()),
-  ]);
+  const serifFont = await fetch(
+    "https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjALR8uVHHTwUhkIBGZOT.woff"
+  ).then((r) => r.arrayBuffer());
 
   const fontSize = title.length > 60 ? 52 : title.length > 40 ? 60 : 68;
 
@@ -132,7 +131,7 @@ export async function GET(request: Request) {
                 fontSize: "22px",
                 fontWeight: 700,
                 color: "rgba(255,255,255,0.9)",
-                fontFamily: "Inter, system-ui, sans-serif",
+                fontFamily: "system-ui, sans-serif",
                 letterSpacing: "-0.3px",
               }}
             >
@@ -151,7 +150,7 @@ export async function GET(request: Request) {
                   padding: "7px 18px",
                   borderRadius: "4px",
                   textTransform: "uppercase",
-                  fontFamily: "Inter, system-ui, sans-serif",
+                  fontFamily: "system-ui, sans-serif",
                 }}
               >
                 {theme.label}
@@ -188,7 +187,7 @@ export async function GET(request: Request) {
               style={{
                 fontSize: "18px",
                 color: theme.accent,
-                fontFamily: "Inter, system-ui, sans-serif",
+                fontFamily: "system-ui, sans-serif",
                 letterSpacing: "0.04em",
                 fontWeight: 600,
               }}
@@ -222,11 +221,6 @@ export async function GET(request: Request) {
         {
           name: "DM Serif Display",
           data: serifFont,
-          style: "normal",
-        },
-        {
-          name: "Inter",
-          data: sansFont,
           style: "normal",
         },
       ],
