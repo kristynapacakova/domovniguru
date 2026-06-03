@@ -2,6 +2,7 @@
 // SOUBOR: app/kalkulacky/kolik-tapet/page.tsx
 // ════════════════════════════════════════════════════════════════
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import TapetyCalculator from "@/app/components/TapetyCalculator";
 

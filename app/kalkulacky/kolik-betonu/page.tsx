@@ -2,6 +2,7 @@
 // SOUBOR: app/kalkulacky/kolik-betonu/page.tsx
 // ════════════════════════════════════════════════════════════════
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import BetonCalculator from "@/app/components/BetonCalculator";
 
