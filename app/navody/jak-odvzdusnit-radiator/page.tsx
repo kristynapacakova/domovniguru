@@ -189,7 +189,7 @@ export default function JakOdvzdusnitRadiator() {
               <div style={{ fontSize: 32, marginBottom: 10 }}>❄️</div>
               <div className="sidebar-cta-title">Připrav dům na zimu</div>
               <p className="sidebar-cta-desc">Kompletní checklist – kotel, okna, okapy, voda.</p>
-              <Link href="/blog/jak-pripravit-dum-na-zimu" className="btn btn-black" style={{ width: "100%", justifyContent: "center", marginTop: 14 }}>Číst článek →</Link>
+              <Link href="/blog/priprava-domu-na-zimu" className="btn btn-black" style={{ width: "100%", justifyContent: "center", marginTop: 14 }}>Číst článek →</Link>
             </div>
           </aside>
         </div>

@@ -4,10 +4,11 @@ import React, { useState, useEffect } from "react";
 
 export default function SoilCalculator() {
   const [shape, setShape] = useState<"square" | "circle">("square");
-  const [width, setWidth] = useState(30); 
+  const [width, setWidth] = useState(30);
   const [length, setLength] = useState(30);
   const [height, setHeight] = useState(30);
   const [result, setResult] = useState(0);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     let volume = 0;
@@ -22,8 +23,10 @@ export default function SoilCalculator() {
 
   const copyToClipboard = () => {
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
-      navigator.clipboard.writeText(`Budu potřebovat ${result} litrů hlíny. Spočítáno na DomovniGuru.cz`);
-      alert("Výsledek zkopírován do schránky!");
+      navigator.clipboard.writeText(`Budu potřebovat ${result} litrů hlíny. Spočítáno na DomovniGuru.cz`).then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 3000);
+      });
     }
   };
 
@@ -107,11 +110,11 @@ export default function SoilCalculator() {
       }}>
         <div style={{ fontSize: "14px", color: "#666", textTransform: "uppercase", letterSpacing: "0.05em" }}>Budete potřebovat cca:</div>
         <div style={{ fontSize: "36px", fontWeight: "900", color: "#2d4a22", margin: "5px 0" }}>{result} litrů</div>
-        <button 
+        <button
           onClick={copyToClipboard}
           style={{ background: "none", border: "none", color: "#3a3a38", textDecoration: "underline", cursor: "pointer", fontSize: "13px" }}
         >
-          📋 Zkopírovat výsledek
+          📋 {copied ? "Zkopírováno ✓" : "Zkopírovat výsledek"}
         </button>
       </div>
     </div>

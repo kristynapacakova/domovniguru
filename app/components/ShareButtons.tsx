@@ -1,11 +1,14 @@
 "use client";
 
+import { useState } from "react";
+
 interface ShareButtonsProps {
   url: string;
   title: string;
 }
 
 export default function ShareButtons({ url, title }: ShareButtonsProps) {
+  const [copied, setCopied] = useState(false);
   const encoded = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
 
@@ -54,7 +57,8 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
 
   const handleCopy = () => {
     navigator.clipboard.writeText(url).then(() => {
-      alert("Odkaz zkopírován! Otevři Instagram a vlož ho do příspěvku nebo story. 📸");
+      setCopied(true);
+      setTimeout(() => setCopied(false), 3000);
     });
   };
 
@@ -90,6 +94,9 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
         </button>
 
       </div>
+      {copied && (
+        <div className="share-toast">Odkaz zkopírován — vlož ho do Instagramu ✓</div>
+      )}
 
       <style>{`
         .share-wrap {
@@ -140,6 +147,16 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
           --share-color: #e1306c;
         }
 
+        .share-toast {
+          margin-top: 8px;
+          font-size: 12px;
+          color: #166534;
+          background: #f0fdf4;
+          border: 1px solid #bbf7d0;
+          border-radius: 6px;
+          padding: 6px 12px;
+          width: fit-content;
+        }
         @media(max-width:600px) {
           .share-wrap { flex-direction: column; align-items: flex-start; }
           .share-btn span { display: none; }

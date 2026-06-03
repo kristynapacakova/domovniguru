@@ -1,6 +1,12 @@
-"use client";
+import type { Metadata } from "next";
 import React from "react";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Jak vyčistit sifon – krok za krokem | DomovniGuru",
+  description: "Smrdí odpad nebo pomalu odtéká voda? Vyčistěte sifon sami za 10 minut bez chemie. Postup pro umyvadlo, vanu i kuchyňský dřez.",
+  alternates: { canonical: "https://domovniguru.cz/navody/jak-vycistit-sifon" },
+};
 
 export default function NavodSifonObsahly() {
   const nastroje = ["Kýbl nebo hlubší miska", "Hadra (kterou pak můžete vyhodit)", "Starý kartáček na zuby", "Gumové rukavice", "Instalatérské siko kleště (volitelné)"];
