@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak fungují pojistky a jističe – výměna a bezpečnost 2026",
   description: "Starý bytový rozvaděč s pojistkami nebo moderní jističe? Jak fungují, jak je bezpečně vyměnit a kdy je čas přejít na moderní rozvaděč. Průvodce pro laiky.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-funguji-pojistky" },
-  openGraph: { title: "Jak fungují pojistky a jističe 2026", description: "Starý rozvaděč s pojistkami – jak fungují, jak je vyměnit a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/jak-funguji-pojistky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak fungují pojistky a jističe 2026", description: "Starý rozvaděč s pojistkami – jak fungují, jak je vyměnit a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/jak-funguji-pojistky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20funguj%C3%AD%20pojistky%20a%20jisti%C4%8De%20%E2%80%93%20v%C3%BDm%C4%9Bna%20a%20bezpe%C4%8Dnost%202026", width: 1200, height: 630, alt: "Jak fungují pojistky a jističe – výměna a bezpečnost 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak fungují pojistky a jističe 2026", description: "Starý rozvaděč s pojistkami – jak fungují, jak je vyměnit." },
 };
 

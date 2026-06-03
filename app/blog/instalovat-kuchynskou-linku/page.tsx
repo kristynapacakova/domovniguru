@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak nainstalovat kuchyňskou linku – postup montáže 2026",
   description: "Jak nainstalovat kuchyňskou linku krok za krokem. Příprava, montáž skříněk, instalace pracovní desky a připojení spotřebičů.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku" },
-  openGraph: { title: "Jak nainstalovat kuchyňskou linku 2026", description: "Montáž kuchyňské linky krok za krokem – skříňky, pracovní deska, spotřebiče.", url: "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak nainstalovat kuchyňskou linku 2026", description: "Montáž kuchyňské linky krok za krokem – skříňky, pracovní deska, spotřebiče.", url: "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20nainstalovat%20kuchy%C5%88skou%20linku%20%E2%80%93%20postup%20mont%C3%A1%C5%BEe%202026", width: 1200, height: 630, alt: "Jak nainstalovat kuchyňskou linku – postup montáže 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak nainstalovat kuchyňskou linku 2026", description: "Montáž kuchyňské linky – skříňky, pracovní deska a spotřebiče." },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Ochrana rostlin před zimou – co zakrýt",
   description: "Jak ochránit zahradní rostliny před zimou. Co zakrýt jutou nebo mulčem, co přestěhovat do skleníku a co přezimuje samo. Průvodce pro zahradu i balkon.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" },
-  openGraph: { title: "Ochrana rostlin před zimou 2026", description: "Co zakrýt, přestěhovat nebo nechat – jak ochránit rostliny před mrazem.", url: "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Ochrana rostlin před zimou 2026", description: "Co zakrýt, přestěhovat nebo nechat – jak ochránit rostliny před mrazem.", url: "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Ochrana%20rostlin%20p%C5%99ed%20zimou%20%E2%80%93%20co%20zakr%C3%BDt", width: 1200, height: 630, alt: "Ochrana rostlin před zimou – co zakrýt" }] },
   twitter: { card: "summary_large_image", title: "Ochrana rostlin před zimou 2026", description: "Co zakrýt, přestěhovat nebo nechat – průvodce přezimováním rostlin." },
 };
 

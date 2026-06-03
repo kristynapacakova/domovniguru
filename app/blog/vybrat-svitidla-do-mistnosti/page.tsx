@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak vybrat svítidla do místnosti",
   description: "Jak vybrat správná svítidla do obýváku, ložnice, kuchyně nebo koupelny. Teplota světla, příkon LED a typy svítidel.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" },
-  openGraph: { title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – jak osvětlit každou místnost správně.", url: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – jak osvětlit každou místnost správně.", url: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20vybrat%20sv%C3%ADtidla%20do%20m%C3%ADstnosti", width: 1200, height: 630, alt: "Jak vybrat svítidla do místnosti" }] },
   twitter: { card: "summary_large_image", title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – osvětlení pro každou místnost." },
 };
 

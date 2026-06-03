@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak vyčistit komín – kdy a jak na to, revize 2026",
   description: "Jak a kdy vyčistit komín. Zákonná povinnost, jak poznat ucpaný komín, co dělat sám a kdy zavolat kominíka. Bezpečnost a prevence požáru.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vycistit-komin" },
-  openGraph: { title: "Jak vyčistit komín 2026", description: "Zákonná povinnost čištění komína, jak poznat ucpání a kdy volat kominíka.", url: "https://www.domovniguru.cz/blog/vycistit-komin", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak vyčistit komín 2026", description: "Zákonná povinnost čištění komína, jak poznat ucpání a kdy volat kominíka.", url: "https://www.domovniguru.cz/blog/vycistit-komin", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20vy%C4%8Distit%20kom%C3%ADn%20%E2%80%93%20kdy%20a%20jak%20na%20to%2C%20revize%202026", width: 1200, height: 630, alt: "Jak vyčistit komín – kdy a jak na to, revize 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak vyčistit komín 2026", description: "Zákon, čištění a kdy volat kominíka – vše o údržbě komína." },
 };
 

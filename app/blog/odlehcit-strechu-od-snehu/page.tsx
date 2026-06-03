@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak bezpečně odlehčit střechu od sněhu",
   description: "Kdy je sníh na střeše nebezpečný a jak ho bezpečně odstranit. Kolik sněhu střecha unese, jak rozpoznat přetížení a správný postup shrnutí sněhu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" },
-  openGraph: { title: "Jak odlehčit střechu od sněhu 2026", description: "Kdy je sníh na střeše nebezpečný a jak ho bezpečně odstranit.", url: "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak odlehčit střechu od sněhu 2026", description: "Kdy je sníh na střeše nebezpečný a jak ho bezpečně odstranit.", url: "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20bezpe%C4%8Dn%C4%9B%20odleh%C4%8Dit%20st%C5%99echu%20od%20sn%C4%9Bhu", width: 1200, height: 630, alt: "Jak bezpečně odlehčit střechu od sněhu" }] },
   twitter: { card: "summary_large_image", title: "Jak odlehčit střechu od sněhu 2026", description: "Kolik sněhu střecha unese a jak ho bezpečně odstranit." },
 };
 

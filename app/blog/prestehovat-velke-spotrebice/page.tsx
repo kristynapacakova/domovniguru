@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak přestěhovat velké spotřebiče – lednička, pračka, myčka 2026",
   description: "Bezpečné stěhování ledničky, pračky a myčky. Jak vyprázdnit, odpojit, zabalit a transportovat velké spotřebiče bez poškození – postup krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice" },
-  openGraph: { title: "Jak přestěhovat velké spotřebiče 2026", description: "Lednička, pračka, myčka – jak bezpečně odpojit, zabalit a přestěhovat.", url: "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-16T08:00:00Z", modifiedTime: "2026-04-16T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak přestěhovat velké spotřebiče 2026", description: "Lednička, pračka, myčka – jak bezpečně odpojit, zabalit a přestěhovat.", url: "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-16T08:00:00Z", modifiedTime: "2026-04-16T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20p%C5%99est%C4%9Bhovat%20velk%C3%A9%20spot%C5%99ebi%C4%8De%20%E2%80%93%20ledni%C4%8Dka%2C%20pra%C4%8Dka%2C%20my%C4%8Dka%202026", width: 1200, height: 630, alt: "Jak přestěhovat velké spotřebiče – lednička, pračka, myčka 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak přestěhovat velké spotřebiče 2026", description: "Lednička, pračka, myčka – jak bezpečně odpojit a přestěhovat." },
 };
 

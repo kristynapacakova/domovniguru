@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026",
   description: "Kondenzace na oknech, vlhké stěny nebo plíseň? Jak změřit vlhkost, najít příčinu a trvale vyřešit problém s vlhkostí v bytě bez drahých rekonstrukcí.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte" },
-  openGraph: { title: "Jak se zbavit vlhkosti v bytě 2026", description: "Kondenzace, vlhké stěny nebo plíseň – jak najít příčinu a trvale vyřešit vlhkost.", url: "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak se zbavit vlhkosti v bytě 2026", description: "Kondenzace, vlhké stěny nebo plíseň – jak najít příčinu a trvale vyřešit vlhkost.", url: "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20se%20zbavit%20vlhkosti%20v%20byt%C4%9B%20%E2%80%93%20p%C5%99%C3%AD%C4%8Diny%2C%20m%C4%9B%C5%99en%C3%AD%20a%20%C5%99e%C5%A1en%C3%AD%202026", width: 1200, height: 630, alt: "Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit vlhkosti v bytě 2026", description: "Kondenzace, vlhké stěny nebo plíseň – jak najít příčinu a trvale vyřešit vlhkost." },
 };
 

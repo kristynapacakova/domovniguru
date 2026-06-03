@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak správně kompostovat – průvodce od A do Z",
   description: "Poměr C:N, co patří a nepatří do kompostu, typy kompostérů a jak zrychlit zrání. Kompletní průvodce kompostováním pro zahradu i byt.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-kompostovat" },
-  openGraph: { title: "Jak správně kompostovat 2026: Průvodce od založení po černé zlato", description: "Poměr C:N, co do kompostu patří, typy kompostérů. Praktický průvodce kompostováním.", url: "https://www.domovniguru.cz/blog/jak-kompostovat", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak správně kompostovat 2026: Průvodce od založení po černé zlato", description: "Poměr C:N, co do kompostu patří, typy kompostérů. Praktický průvodce kompostováním.", url: "https://www.domovniguru.cz/blog/jak-kompostovat", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20spr%C3%A1vn%C4%9B%20kompostovat%20%E2%80%93%20pr%C5%AFvodce%20od%20A%20do%20Z", width: 1200, height: 630, alt: "Jak správně kompostovat – průvodce od A do Z" }] },
   twitter: { card: "summary_large_image", title: "Jak správně kompostovat 2026", description: "Poměr C:N, co patří do kompostu, typy kompostérů." },
 };
 

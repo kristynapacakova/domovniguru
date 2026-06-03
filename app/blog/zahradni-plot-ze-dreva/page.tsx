@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak postavit dřevěný zahradní plot – postup krok za krokem 2026",
   description: "Dřevěný zahradní plot svépomocí – výběr dřeva, kotvení sloupků, montáž prken a ošetření. Průvodce pro každého kdo chce plot postavit sám za víkend.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva" },
-  openGraph: { title: "Jak postavit dřevěný zahradní plot 2026", description: "Výběr dřeva, kotvení sloupků a montáž prken – dřevěný plot sám za víkend.", url: "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak postavit dřevěný zahradní plot 2026", description: "Výběr dřeva, kotvení sloupků a montáž prken – dřevěný plot sám za víkend.", url: "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20postavit%20d%C5%99ev%C4%9Bn%C3%BD%20zahradn%C3%AD%20plot%20%E2%80%93%20postup%20krok%20za%20krokem%202026", width: 1200, height: 630, alt: "Jak postavit dřevěný zahradní plot – postup krok za krokem 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak postavit dřevěný zahradní plot 2026", description: "Výběr dřeva, kotvení sloupků a montáž – plot sám za víkend." },
 };
 

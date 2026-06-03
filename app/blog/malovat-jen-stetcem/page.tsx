@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak malovat jen štětcem – rohy, lišty a detaily bez válce 2026",
   description: "Kdy a jak malovat štětcem místo válce. Rohy, lišty, ostění oken a detaily – správná technika štětcem pro profesionální výsledek bez přetahování.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/malovat-jen-stetcem" },
-  openGraph: { title: "Jak malovat jen štětcem – rohy a detaily 2026", description: "Rohy, lišty a detaily – správná technika štětcem pro čistý výsledek.", url: "https://www.domovniguru.cz/blog/malovat-jen-stetcem", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak malovat jen štětcem – rohy a detaily 2026", description: "Rohy, lišty a detaily – správná technika štětcem pro čistý výsledek.", url: "https://www.domovniguru.cz/blog/malovat-jen-stetcem", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20malovat%20jen%20%C5%A1t%C4%9Btcem%20%E2%80%93%20rohy%2C%20li%C5%A1ty%20a%20detaily%20bez%20v%C3%A1lce%202026", width: 1200, height: 630, alt: "Jak malovat jen štětcem – rohy, lišty a detaily bez válce 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak malovat jen štětcem 2026", description: "Rohy, lišty a detaily – správná technika štětcem pro čistý výsledek." },
 };
 

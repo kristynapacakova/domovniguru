@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Míchání barev RAL a NCS – průvodce odstíny",
   description: "Co je RAL a NCS barevný systém, jak z kódu nechat namíchat barvu v obchodě a jak správně kombinovat odstíny. Průvodce barevnými systémy pro laiky.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/michani-barev-ral-ncs" },
-  openGraph: { title: "Míchání barev RAL a NCS – jak vybrat přesný odstín 2026", description: "RAL a NCS kódy – jak nechat namíchat barvu a jak správně kombinovat odstíny.", url: "https://www.domovniguru.cz/blog/michani-barev-ral-ncs", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Míchání barev RAL a NCS – jak vybrat přesný odstín 2026", description: "RAL a NCS kódy – jak nechat namíchat barvu a jak správně kombinovat odstíny.", url: "https://www.domovniguru.cz/blog/michani-barev-ral-ncs", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=M%C3%ADch%C3%A1n%C3%AD%20barev%20RAL%20a%20NCS%20%E2%80%93%20pr%C5%AFvodce%20odst%C3%ADny", width: 1200, height: 630, alt: "Míchání barev RAL a NCS – průvodce odstíny" }] },
   twitter: { card: "summary_large_image", title: "Míchání barev RAL a NCS 2026", description: "RAL a NCS – jak vybrat a nechat namíchat přesný odstín barvy." },
 };
 

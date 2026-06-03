@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak najít a prověřit řemeslníka – na co si dát pozor 2026",
   description: "Jak najít spolehlivého řemeslníka a prověřit ho před zakázkou. Na co se ptát, jak porovnat nabídky a varovné signály podvodníků. Průvodce pro každého.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/najit-proveri-remeslnika" },
-  openGraph: { title: "Jak najít a prověřit řemeslníka 2026", description: "Spolehlivý řemeslník – kde ho hledat, jak prověřit a čemu se vyhnout.", url: "https://www.domovniguru.cz/blog/najit-proveri-remeslnika", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak najít a prověřit řemeslníka 2026", description: "Spolehlivý řemeslník – kde ho hledat, jak prověřit a čemu se vyhnout.", url: "https://www.domovniguru.cz/blog/najit-proveri-remeslnika", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20naj%C3%ADt%20a%20prov%C4%9B%C5%99it%20%C5%99emesln%C3%ADka%20%E2%80%93%20na%20co%20si%20d%C3%A1t%20pozor%202026", width: 1200, height: 630, alt: "Jak najít a prověřit řemeslníka – na co si dát pozor 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak najít a prověřit řemeslníka 2026", description: "Kde hledat a jak prověřit řemeslníka – varovné signály podvodníků." },
 };
 

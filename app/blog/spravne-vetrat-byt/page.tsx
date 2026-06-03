@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak správně větrat byt – efektivní větrání v létě i v zimě 2026",
   description: "Křížové větrání, rekuperace nebo mikroventilace? Kompletní průvodce větráním bytu bez plísně, bez tepelných ztrát a se zdravým vzduchem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/spravne-vetrat-byt" },
-  openGraph: { title: "Jak správně větrat byt 2026", description: "Křížové větrání, rekuperace nebo mikroventilace? Průvodce větráním bez plísně.", url: "https://www.domovniguru.cz/blog/spravne-vetrat-byt", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak správně větrat byt 2026", description: "Křížové větrání, rekuperace nebo mikroventilace? Průvodce větráním bez plísně.", url: "https://www.domovniguru.cz/blog/spravne-vetrat-byt", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20spr%C3%A1vn%C4%9B%20v%C4%9Btrat%20byt%20%E2%80%93%20efektivn%C3%AD%20v%C4%9Btr%C3%A1n%C3%AD%20v%20l%C3%A9t%C4%9B%20i%20v%20zim%C4%9B%202026", width: 1200, height: 630, alt: "Jak správně větrat byt – efektivní větrání v létě i v zimě 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak správně větrat byt 2026", description: "Křížové větrání, rekuperace nebo mikroventilace? Průvodce větráním bez plísně." },
 };
 

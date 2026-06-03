@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak zasít trávník od nuly – příprava půdy, setí, péče 2026",
   description: "Jak zasít nový trávník krok za krokem. Příprava půdy, výběr travní směsi, správné setí a péče po vzejití. Krásný hustý trávník za 6–8 týdnů.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly" },
-  openGraph: { title: "Jak zasít trávník od nuly 2026", description: "Příprava půdy, výběr směsi a správné setí – nový trávník za 6–8 týdnů.", url: "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak zasít trávník od nuly 2026", description: "Příprava půdy, výběr směsi a správné setí – nový trávník za 6–8 týdnů.", url: "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20zas%C3%ADt%20tr%C3%A1vn%C3%ADk%20od%20nuly%20%E2%80%93%20p%C5%99%C3%ADprava%20p%C5%AFdy%2C%20set%C3%AD%2C%20p%C3%A9%C4%8De%202026", width: 1200, height: 630, alt: "Jak zasít trávník od nuly – příprava půdy, setí, péče 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak zasít trávník od nuly 2026", description: "Příprava půdy, výběr směsi a správné setí – nový trávník za 6–8 týdnů." },
 };
 
