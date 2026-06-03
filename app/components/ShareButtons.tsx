@@ -3,8 +3,6 @@ import { useState } from "react";
 
 const OG_IMAGE = "https://www.domovniguru.cz/og-image.jpg";
 
-import { useState } from "react";
-
 interface ShareButtonsProps {
   url: string;
   title: string;
