@@ -4,12 +4,12 @@ const CSP = [
   "default-src 'self'",
   // Next.js inline scripts + Google Analytics + AdSense (připraveno pro budoucí monetizaci)
   "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com",
-  // Inline styly jsou v projektu hojně používány; Google Fonts
-  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  // Inline styly jsou v projektu hojně používány; fonty jsou self-hostovány (next/font)
+  "style-src 'self' 'unsafe-inline'",
   // Obrázky: self + data: URI (SVG favicon, inline grafy) + jakékoli HTTPS
   "img-src 'self' data: https:",
-  // Google Fonts soubory
-  "font-src 'self' https://fonts.gstatic.com",
+  // Fonty jsou self-hostovány, žádná externí závislost
+  "font-src 'self'",
   // GA4 beacony
   "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://stats.g.doubleclick.net",
   // AdSense iframy

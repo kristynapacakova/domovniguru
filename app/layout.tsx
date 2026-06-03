@@ -1,8 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
+import { DM_Sans, DM_Serif_Display } from "next/font/google";
 import CookieBanner from "./components/CookieBanner";
 import "./globals.css";
+
+const dmSans = DM_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500", "600"],
+  display: "swap",
+  variable: "--font-sans",
+});
+
+const dmSerifDisplay = DM_Serif_Display({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-serif",
+});
 
 const WEBSITE_LD = {
   "@context": "https://schema.org",
@@ -54,7 +70,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="cs">
+    <html lang="cs" className={`${dmSans.variable} ${dmSerifDisplay.variable}`}>
       <head>
         {/* Google Consent Mode v2 – musí být před GA */}
         <Script id="consent-default" strategy="beforeInteractive">
