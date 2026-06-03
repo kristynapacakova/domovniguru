@@ -1,18 +1,18 @@
 "use client";
 import { useState } from "react";
 
-const OG_IMAGE = "https://www.domovniguru.cz/og-image.jpg";
-
 interface ShareButtonsProps {
   url: string;
   title: string;
+  image?: string;
 }
 
-export default function ShareButtons({ url, title }: ShareButtonsProps) {
+export default function ShareButtons({ url, title, image }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
   const encoded = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
-  const encodedImage = encodeURIComponent(OG_IMAGE);
+  const ogImage = image ?? `https://www.domovniguru.cz/api/og?title=${encodedTitle}&cat=blog`;
+  const encodedImage = encodeURIComponent(ogImage);
 
   const networks = [
     {
