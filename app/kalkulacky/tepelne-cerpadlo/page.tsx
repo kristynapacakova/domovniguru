@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   title: "Kalkulačka tepelného čerpadla – návratnost",
   description:
     "Spočítej dobu návratnosti tepelného čerpadla. Zadej aktuální náklady, investici a dotaci NZÚ 2026 – výsledek ihned.",
-  alternates: { canonical: "https://domovniguru.cz/kalkulacky/tepelne-cerpadlo" },
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/tepelne-cerpadlo" },
   openGraph: {
     title: "Kalkulačka tepelného čerpadla 2026",
     description: "Návratnost investice s dotací NZÚ. Výsledek okamžitě.",
-    url: "https://domovniguru.cz/kalkulacky/tepelne-cerpadlo",
+    url: "https://www.domovniguru.cz/kalkulacky/tepelne-cerpadlo",
     siteName: "DomovniGuru",
     locale: "cs_CZ",
     type: "website",

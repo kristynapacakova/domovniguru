@@ -9,7 +9,7 @@ export default function Header() {
           <a href="/kalkulacky">Kalkulačky</a>
           <a href="/navody">Návody</a>
           <a href="/chyby-ostatnich">Časté chyby</a>
-          <a href="/o-nas">O webu</a>
+          <a href="/o-webu">O webu</a>
         </div>
       </div>
     </div>

@@ -5,10 +5,44 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak malovat strop bez šmouh: Kompletní průvodce 2026",
   description: "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-strop" },
+  openGraph: {
+    title: "Jak malovat strop bez šmouh: Kompletní průvodce 2026",
+    description: "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+    url: "https://www.domovniguru.cz/blog/jak-malovat-strop",
+    type: "article",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.domovniguru.cz/blog/jak-malovat-strop#article",
+      "headline": "Jak malovat strop bez šmouh",
+      "description": "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+      "datePublished": "2025-01-10T08:00:00Z",
+      "dateModified": "2025-03-01T08:00:00Z",
+      "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "inLanguage": "cs",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Jak malovat strop bez šmouh", "item": "https://www.domovniguru.cz/blog/jak-malovat-strop" },
+      ],
+    },
+  ],
 };
 
 export default function MalovaniStropuPage() {
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     <div className="wrap" style={{ padding: "40px 0" }}>
       <article className="article-body" style={{ maxWidth: "800px", margin: "0 auto" }}>
         
@@ -76,14 +110,42 @@ export default function MalovaniStropuPage() {
           </ol>
         </section>
 
+        <section id="faq">
+          <h2>Časté otázky</h2>
+          <div className="faq-list">
+            {[
+              { q: "Proč musím malovat strop jako první?", a: "Barva ze stropu nevyhnutelně kape dolů. Pokud by stěny byly hotové, kapičky bílé barvy by je znehodnotily. Strop vždy maluj před stěnami." },
+              { q: "Jak se vyhnout šmouhám na stropě?", a: "Klíč je technika 'mokrý do mokrého' – nikdy nenechej okraj zaschnout dříve, než k němu přimaluješ další pruh. Maluj v pásech o šířce cca 1 m rovnoběžně se světlem z okna." },
+              { q: "Jaký váleček je nejlepší na strop?", a: "Na hladký sádrokarton mikrovlákno (vlas 9–11 mm), na klasickou omítku polyamidový váleček (vlas 12–18 mm). Teleskopická tyč je základ – bez ní budeš mít bolesti zad." },
+              { q: "Musím strop penetrovat před malováním?", a: "Ano, pokud je strop nový, opravovaný, nebo po stržení tapet. Penetrace sjednotí savost a barva pak nestéká a krytí je rovnoměrné." },
+              { q: "Kolik vrstev barvy potřebuji na strop?", a: "Standardně dvě vrstvy. Na tmavý podklad nebo výraznou skvrnu může být potřeba tři. Každou vrstvu nechej schnout minimálně 2–4 hodiny." },
+            ].map(({ q, a }) => (
+              <details key={q} className="faq-item">
+                <summary className="faq-q">{q}</summary>
+                <p className="faq-a">{a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+
         <footer style={{ marginTop: "60px", borderTop: "1px solid #eee", paddingTop: "30px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
              <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2d4a22", fontWeight: 700, textDecoration: "none", borderBottom: "2px solid #2d4a22" }}>← Spočítat spotřebu barvy</Link>
              {/* Opravený Share odkaz bez "vy" */}
-             <ShareButtons url="https://domovniguru.cz/blog/jak-malovat-strop" title="Jak malovat strop bez šmouh" />
+             <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-strop" title="Jak malovat strop bez šmouh" />
           </div>
         </footer>
       </article>
     </div>
+    <style>{`
+      .faq-list{display:flex;flex-direction:column;gap:8px}
+      .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+      .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+      .faq-q:hover{background:#f5f5f2}
+      .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+      details[open] .faq-q::after{content:"−"}
+      .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
+    `}</style>
+    </>
   );
 }

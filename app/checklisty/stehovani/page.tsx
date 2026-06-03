@@ -109,6 +109,26 @@ export default function StehovaniVylepsene() {
             </div>
           ))}
 
+          <section style={{ marginTop: "50px", paddingTop: "40px", borderTop: "1px solid #eee" }}>
+            <h3 style={{ fontFamily: "DM Serif Display, serif", fontSize: "28px", marginBottom: "24px", color: "#111" }}>Časté otázky</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+              {[
+                { q: "Jak dlouho dopředu plánovat stěhování?", a: "Ideálně 4–6 týdnů dopředu. Stěhovací firmy a dodávky se obsazují rychle, zejm. víkendy a poslední dny v měsíci. Administrativu (změna adresy, dosílka pošty) vyřiď nejpozději 2 týdny před stěhováním." },
+                { q: "Kde koupit krabice na stěhování levně?", a: "Supermarkety a hobbymarkety je nabízejí za 10–30 Kč/ks. Levnější alternativa: použité krabice zadarmo z e-shopů (Marketplace, bazarové skupiny), trafiky nebo sběrny papíru. Pro 1+kk počítej asi 20–30 krabic." },
+                { q: "Co udělat jako úplně první věc po nastěhování?", a: "Vyměnit zámky u vstupních dveří. Nevíš, kolik kopií klíčů předchozí nájemníci nebo majitelé rozdali. Výměna válce trvá 10 minut a stojí 500–1 500 Kč – za klid v duši stojí za to." },
+                { q: "Kdy a jak nahlásit změnu adresy?", a: "Trvalý pobyt nahlásíš na místním úřadě do 15 dnů od nastěhování (povinné ze zákona). Souběžně informuj zaměstnavatele, banku, pojišťovnu a zdravotní pojišťovnu. Na České poště si zřiď přesměrování pošty na 3 měsíce jako pojistku." },
+              ].map(({ q, a }) => (
+                <details key={q} style={{ border: "1px solid #e0e0da", borderRadius: "8px", overflow: "hidden", background: "#fff" }}>
+                  <summary style={{ fontSize: "15px", fontWeight: 600, padding: "14px 18px", cursor: "pointer", listStyle: "none", display: "flex", justifyContent: "space-between" }}>
+                    {q}
+                    <span style={{ fontSize: "18px", fontWeight: 300, marginLeft: "12px" }}>+</span>
+                  </summary>
+                  <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#666", fontWeight: 300, padding: "0 18px 14px" }}>{a}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+
           <footer style={{ marginTop: "60px", paddingTop: "30px", borderTop: "1px solid #eee", fontSize: "12px", color: "#aaa", textAlign: "center" }}>
             Vlastní poznámky: ..................................................................................................................................................
           </footer>

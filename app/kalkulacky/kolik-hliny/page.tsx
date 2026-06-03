@@ -6,6 +6,8 @@ import SoilClient from "./SoilClient"; // Importujeme ten most
 export const metadata: Metadata = {
   title: "Kalkulačka objemu zeminy: Kolik litrů substrátu koupit? 2026",
   description: "Spočítejte si přesně, kolik litrů hlíny potřebujete pro své květináče a truhlíky. Výpočet pro kulaté i hranaté nádoby.",
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/kolik-hliny" },
+  openGraph: { url: "https://www.domovniguru.cz/kalkulacky/kolik-hliny", type: "website" },
 };
 
 export default function SoilCalculatorPage() {
@@ -35,7 +37,7 @@ export default function SoilCalculatorPage() {
         </div>
 
         <div style={{ marginTop: "40px", textAlign: "center" }}>
-          <ShareButtons url="https://domovniguru.cz/kalkulacky/kolik-hliny" title="Kalkulačka: Kolik hlíny potřebuji?" />
+          <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-hliny" title="Kalkulačka: Kolik hlíny potřebuji?" />
         </div>
       </div>
     </div>

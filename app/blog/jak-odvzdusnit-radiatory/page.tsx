@@ -44,7 +44,7 @@ export default function ArticlePage() {
               <p className="article-lead">Radiátor je nahoře studený a dole teplý? Vzduch v topné soustavě snižuje výkon topení o 15–25 % a zbytečně zvyšuje účty. Odvzdušnění zvládnete sami za 10 minut a bez instalatéra.</p>
               <div className="article-meta-row"><span>Aktualizováno: 20. března 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
-                url="https://domovniguru.cz/blog/jak-odvzdusnit-radiatory"
+                url="https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory"
                 title="Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026"
               />
             </header>

@@ -403,6 +403,23 @@ a { color: inherit; }
   color: var(--muted);
 }
 
+/* ─── Article disclaimer ─────────────────────────────── */
+.article-header::after {
+  content: "⚠\FE0F  Upozornění: Obsah tohoto webu má pouze informativní charakter – nejde o odborné poradenství. Před zahájením jakýchkoli prací (zejména v oblasti elektroinstalace, plynu či stavebních úprav) si vždy ověřte platné předpisy a technické normy, případně je svěřte kvalifikované osobě. Autor webu nenese odpovědnost za škody, zranění ani jiné následky vzniklé použitím těchto informací. Veškeré práce provádíte na vlastní nebezpečí.";
+  display: block;
+  background: #fff5f0;
+  border: 1px solid #fad5c4;
+  border-left: 4px solid #e8612a;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 18px;
+  font-size: 13px;
+  color: #7c2d12;
+  line-height: 1.65;
+  margin-top: 20px;
+  font-family: var(--font-sans);
+  font-weight: 400;
+}
+
 /* ─── Article number card ────────────────────────────── */
 .art-num {
   font-size: 11px;

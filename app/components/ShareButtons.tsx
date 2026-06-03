@@ -3,6 +3,8 @@ import { useState } from "react";
 
 const OG_IMAGE = "https://www.domovniguru.cz/og-image.jpg";
 
+import { useState } from "react";
+
 interface ShareButtonsProps {
   url: string;
   title: string;
@@ -96,6 +98,9 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
         </button>
 
       </div>
+      {copied && (
+        <div className="share-toast">Odkaz zkopírován — vlož ho do Instagramu ✓</div>
+      )}
 
       <style>{`
         .share-wrap {
@@ -146,6 +151,16 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
           --share-color: #e1306c;
         }
 
+        .share-toast {
+          margin-top: 8px;
+          font-size: 12px;
+          color: #166534;
+          background: #f0fdf4;
+          border: 1px solid #bbf7d0;
+          border-radius: 6px;
+          padding: 6px 12px;
+          width: fit-content;
+        }
         @media(max-width:600px) {
           .share-wrap { flex-direction: column; align-items: flex-start; }
           .share-btn span { display: none; }
