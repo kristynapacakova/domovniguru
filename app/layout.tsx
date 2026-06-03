@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Kalkulačky na materiál, návody krok za krokem a sezónní checklisty. Zjisti, co koupit, kolik potřebuješ a jak to vyřešit.",
   metadataBase: new URL("https://www.domovniguru.cz"),
   other: {
-    "p:domain_verify": "c8d02bf1c691c6f3c0737f1bd9bfe21c",
+    "p:domain_verify": "37c5a7d2dd1f1e0e3821b4d37fce9151",
   },
   openGraph: {
     siteName: "DomovniGuru",
