@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -39,6 +40,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">LED vs. žárovky – co se skutečně vyplatí?</h1>
               <p className="article-lead">LED žárovky jsou dražší na nákup, ale levnější na provoz. Každý to ví – ale kolik přesně ušetříš? A kdy se přechod skutečně vyplatí? Tenhle článek ti to spočítá konkrétně.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/led-vs-zarovky" title="LED vs. žárovky – co se skutečně vyplatí? Srovnání 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

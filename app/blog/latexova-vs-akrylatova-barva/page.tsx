@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
@@ -190,6 +191,8 @@ export default function ArticlePage() {
                 <span>·</span>
                 <span>DomovniGuru</span>
               </div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva" title="Latexová vs. akrylátová barva – jaký je rozdíl? 2025" />
             </header>
 
             {/* TOC */}

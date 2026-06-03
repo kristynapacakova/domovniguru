@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -40,6 +41,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak pěstovat rajčata – od výsevu po sklizeň</h1>
               <p className="article-lead">Rajčata jsou nejpěstovanější zelenina na českých zahrádkách – a přitom jich spousta skončí s prázdnými stonky, plísní nebo spálené sluncem. Pět klíčových věcí které to změní.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-pestovat-rajcata" title="Jak pěstovat rajčata – od výsevu po sklizeň 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}
