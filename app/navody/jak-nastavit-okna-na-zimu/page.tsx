@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak nastavit okna na zimu – přetočení kování krok za krokem | DomovniGuru",
+  title: "Jak nastavit okna na zimu – přetočení kování krok za krokem",
   description: "Nastavení oken na zimní režim: přetočení kování, seřízení těsnění, teplejší byt a nižší účty. Zvládnete sami za 15 minut.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-nastavit-okna-na-zimu" },
+  openGraph: { title: "Jak nastavit okna na zimu – přetočení kování krok za krokem", description: "Nastavení oken na zimní režim: přetočení kování, seřízení těsnění, teplejší byt a nižší účty. Zvládnete sami za 15 minut.", url: "https://www.domovniguru.cz/navody/jak-nastavit-okna-na-zimu", type: "article", images: [{ url: "/api/og?title=Jak%20nastavit%20okna%20na%20zimu%20%E2%80%93%20p%C5%99eto%C4%8Den%C3%AD%20kov%C3%A1n%C3%AD%20krok%20za%20krokem&cat=navody", width: 1200, height: 630, alt: "Jak nastavit okna na zimu – přetočení kování krok za krokem" }] },
 };
 
 export default function JakNastavitOknaNaZimu() {

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026",
   description: "Černá, zelená i bílá plíseň na zdi: příčiny, likvidace plísně v bytě a prevence. Krok za krokem jak plíseň odstranit jednou provždy – Savo, fungicidy, ocet.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" },
-  openGraph: { title: "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně. Savo vs. fungicidy vs. ocet.", url: "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-17T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně. Savo vs. fungicidy vs. ocet.", url: "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-17T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20se%20zbavit%20pl%C3%ADsn%C4%9B%20na%20zdi%20%E2%80%93%20likvidace%20pl%C3%ADsn%C4%9B%20v%20byt%C4%9B%202026&cat=blog", width: 1200, height: 630, alt: "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026", description: "Příčiny, zdravotní rizika a ověřené metody likvidace plísně." },
 };
 

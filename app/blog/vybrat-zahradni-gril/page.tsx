@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak vybrat zahradní gril – plynový, uhlíkový nebo elektrický 2026",
+  title: "Jak vybrat zahradní gril – plynový nebo uhlíkový",
   description: "Jak vybrat správný zahradní gril. Plynový, uhlíkový, elektrický nebo pelletový – srovnání výhod a nevýhod, ceny a na co si dát pozor při výběru.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vybrat-zahradni-gril" },
-  openGraph: { title: "Jak vybrat zahradní gril 2026", description: "Plynový, uhlíkový nebo elektrický gril – srovnání a jak vybrat ten správný.", url: "https://www.domovniguru.cz/blog/vybrat-zahradni-gril", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak vybrat zahradní gril 2026", description: "Plynový, uhlíkový nebo elektrický gril – srovnání a jak vybrat ten správný.", url: "https://www.domovniguru.cz/blog/vybrat-zahradni-gril", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20vybrat%20zahradn%C3%AD%20gril%20%E2%80%93%20plynov%C3%BD%20nebo%20uhl%C3%ADkov%C3%BD&cat=blog", width: 1200, height: 630, alt: "Jak vybrat zahradní gril – plynový nebo uhlíkový" }] },
   twitter: { card: "summary_large_image", title: "Jak vybrat zahradní gril 2026", description: "Plynový, uhlíkový nebo elektrický – jak vybrat gril na zahradu." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/vybrat-zahradni-gril#article",
-    "headline": "Jak vybrat zahradní gril – plynový, uhlíkový nebo elektrický 2026",
+    "headline": "Jak vybrat zahradní gril – plynový nebo uhlíkový",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak vybrat zahradní gril – plynový, uhlíkový nebo elektrický</h1>
               <p className="article-lead">Výběr grilu závisí na tom kde grilujete, jak často a co od grilování očekáváte. Každý typ má své kouzlo a své kompromisy — tady je přehled bez marketingového tlachání.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-zahradni-gril" title="Jak vybrat zahradní gril – plynový, uhlíkový nebo elektrický 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-zahradni-gril" title="Jak vybrat zahradní gril – plynový nebo uhlíkový" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -162,7 +162,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-zahradni-gril" title="Jak vybrat zahradní gril – plynový, uhlíkový nebo elektrický 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-zahradni-gril" title="Jak vybrat zahradní gril – plynový nebo uhlíkový" />
 
             <section className="related-section">
               <h2>Související články</h2>

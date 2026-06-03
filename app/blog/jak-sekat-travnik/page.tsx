@@ -3,14 +3,14 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit bez plevele",
+  title: "Jak správně sekat trávník – hustý pažit bez plevele",
   description: "Pravidlo 1/3, ideální výška sekání, nejlepší čas dne, ostrý nůž a mulčování. Kompletní průvodce sekáním trávníku pro hustý a zdravý pažit celou sezónu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-sekat-travnik" },
-  openGraph: { title: "Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit", description: "Pravidlo 1/3, výška sekání, ostrý nůž a mulčování. Vše co potřebuješ vědět o sekání trávníku.", url: "https://www.domovniguru.cz/blog/jak-sekat-travnik", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit", description: "Pravidlo 1/3, výška sekání, ostrý nůž a mulčování. Vše co potřebuješ vědět o sekání trávníku.", url: "https://www.domovniguru.cz/blog/jak-sekat-travnik", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20spr%C3%A1vn%C4%9B%20sekat%20tr%C3%A1vn%C3%ADk%20%E2%80%93%20hust%C3%BD%20pa%C5%BEit%20bez%20plevele&cat=blog", width: 1200, height: 630, alt: "Jak správně sekat trávník – hustý pažit bez plevele" }] },
   twitter: { card: "summary_large_image", title: "Jak správně sekat trávník 2026", description: "Pravidlo 1/3, výška sekání, ostrý nůž a mulčování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#article", "headline": "Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit bez plevele", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak sekat travnik", "sekani travniku vyska", "pravidlo jedne tretiny travnik", "kdy sekat travnik", "mulcovani travniku"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#article", "headline": "Jak správně sekat trávník – hustý pažit bez plevele", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak sekat travnik", "sekani travniku vyska", "pravidlo jedne tretiny travnik", "kdy sekat travnik", "mulcovani travniku"] }] };
 
 const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
@@ -46,7 +46,7 @@ export default function ArticlePage() {
               <div className="article-meta-row"><span>Aktualizováno: 21. března 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/jak-sekat-travnik"
-                title="Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit bez plevele"
+                title="Jak správně sekat trávník – hustý pažit bez plevele"
               />
             </header>
 
@@ -449,7 +449,7 @@ export default function ArticlePage() {
             {/* SHARE BOTTOM */}
             <ShareButtons
               url="https://www.domovniguru.cz/blog/jak-sekat-travnik"
-              title="Jak správně sekat trávník 2026: Průvodce pro hustý a zelený pažit bez plevele"
+              title="Jak správně sekat trávník – hustý pažit bez plevele"
             />
 
             {/* RELATED */}

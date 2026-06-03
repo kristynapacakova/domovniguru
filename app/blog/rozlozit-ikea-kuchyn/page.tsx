@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026",
   description: "Jak bezpečně rozložit kuchyňskou linku při stěhování. Co demontovat jako první, jak zabalit dvířka a pracovní desku a jak kuchyni znovu sestavit na novém místě.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn" },
-  openGraph: { title: "Jak rozložit a přestěhovat kuchyň 2026", description: "Postup demontáže kuchyňské linky – co nejdřív, jak zabalit a jak znovu sestavit.", url: "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak rozložit a přestěhovat kuchyň 2026", description: "Postup demontáže kuchyňské linky – co nejdřív, jak zabalit a jak znovu sestavit.", url: "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20rozlo%C5%BEit%20a%20p%C5%99est%C4%9Bhovat%20kuchy%C5%88%20%E2%80%93%20postup%20bez%20po%C5%A1kozen%C3%AD%202026&cat=blog", width: 1200, height: 630, alt: "Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak rozložit a přestěhovat kuchyň 2026", description: "Demontáž kuchyňské linky – postup krok za krokem bez poškození." },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Co dělat když nejde proud v části bytu – postup 2026",
   description: "Vypadl jistič nebo chránič? Postup krok za krokem jak najít příčinu výpadku proudu v části bytu, jak resetovat jistič a kdy volat elektrikáře.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu" },
-  openGraph: { title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Co%20d%C4%9Blat%20kdy%C5%BE%20nejde%20proud%20v%20%C4%8D%C3%A1sti%20bytu%20%E2%80%93%20postup%202026&cat=blog", width: 1200, height: 630, alt: "Co dělat když nejde proud v části bytu – postup 2026" }] },
   twitter: { card: "summary_large_image", title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu." },
 };
 

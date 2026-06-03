@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak správně topit – teploty, větrání a úspora energie 2026",
   description: "Jak správně topit aby bylo teplo, zdravý vzduch a nízké náklady. Optimální teploty v místnostech, jak větrat při topení a nejčastější chyby při vytápění.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-spravne-topit" },
-  openGraph: { title: "Jak správně topit – teploty a úspora 2026", description: "Optimální teploty, větrání při topení a jak ušetřit na vytápění.", url: "https://www.domovniguru.cz/blog/jak-spravne-topit", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak správně topit – teploty a úspora 2026", description: "Optimální teploty, větrání při topení a jak ušetřit na vytápění.", url: "https://www.domovniguru.cz/blog/jak-spravne-topit", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20spr%C3%A1vn%C4%9B%20topit%20%E2%80%93%20teploty%2C%20v%C4%9Btr%C3%A1n%C3%AD%20a%20%C3%BAspora%20energie%202026&cat=blog", width: 1200, height: 630, alt: "Jak správně topit – teploty, větrání a úspora energie 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak správně topit 2026", description: "Optimální teploty, větrání a nejčastější chyby při vytápění." },
 };
 

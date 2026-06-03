@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Proč se barva loupe – příčiny a jak to opravit 2026",
   description: "Proč se barva na zdi nebo dřevě loupe, praskáte a odlupuje? Nejčastější příčiny a jak správně opravit odlupující se barvu bez nutnosti přemalovat celou zeď.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/barva-se-loupe" },
-  openGraph: { title: "Proč se barva loupe – příčiny a jak opravit 2026", description: "Příčiny loupající se barvy a jak ji správně opravit – zeď i dřevo.", url: "https://www.domovniguru.cz/blog/barva-se-loupe", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Proč se barva loupe – příčiny a jak opravit 2026", description: "Příčiny loupající se barvy a jak ji správně opravit – zeď i dřevo.", url: "https://www.domovniguru.cz/blog/barva-se-loupe", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Pro%C4%8D%20se%20barva%20loupe%20%E2%80%93%20p%C5%99%C3%AD%C4%8Diny%20a%20jak%20to%20opravit%202026&cat=blog", width: 1200, height: 630, alt: "Proč se barva loupe – příčiny a jak to opravit 2026" }] },
   twitter: { card: "summary_large_image", title: "Proč se barva loupe 2026", description: "Příčiny a oprava loupající se barvy na zdi i dřevě." },
 };
 

@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak vyčistit spáry v dlažbě – bez drhnutí | DomovniGuru",
+  title: "Jak vyčistit spáry v dlažbě – bez drhnutí",
   description: "Zčernalé spáry v koupelně nebo kuchyni? Jednoduché metody bez agresivní chemie – soda, ocet, kyslíkové bělení. Funguje.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-vycistit-spary-v-dlazbe" },
+  openGraph: { title: "Jak vyčistit spáry v dlažbě – bez drhnutí", description: "Zčernalé spáry v koupelně nebo kuchyni? Jednoduché metody bez agresivní chemie – soda, ocet, kyslíkové bělení. Funguje.", url: "https://www.domovniguru.cz/navody/jak-vycistit-spary-v-dlazbe", type: "article", images: [{ url: "/api/og?title=Jak%20vy%C4%8Distit%20sp%C3%A1ry%20v%20dla%C5%BEb%C4%9B%20%E2%80%93%20bez%20drhnut%C3%AD&cat=navody", width: 1200, height: 630, alt: "Jak vyčistit spáry v dlažbě – bez drhnutí" }] },
 };
 
 export default function JakVycistitSparyVDlazbe() {

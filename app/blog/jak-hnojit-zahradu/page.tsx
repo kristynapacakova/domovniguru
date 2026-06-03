@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026",
   description: "Jarní hnojení zahrady krok za krokem. Kdy hnojit trávník, záhony a stromy, jaké hnojivo vybrat a jak nepředávkovat. Praktický průvodce pro každého zahrádkáře.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-hnojit-zahradu" },
-  openGraph: { title: "Jak hnojit zahradu – organicky i minerálně 2026", description: "Jarní hnojení zahrady – kdy, čím a jak. Trávník, záhony, stromy.", url: "https://www.domovniguru.cz/blog/jak-hnojit-zahradu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak hnojit zahradu – organicky i minerálně 2026", description: "Jarní hnojení zahrady – kdy, čím a jak. Trávník, záhony, stromy.", url: "https://www.domovniguru.cz/blog/jak-hnojit-zahradu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20hnojit%20zahradu%20%E2%80%93%20organicky%20i%20miner%C3%A1ln%C4%9B%2C%20kdy%20a%20%C4%8D%C3%ADm%202026&cat=blog", width: 1200, height: 630, alt: "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak hnojit zahradu 2026", description: "Jarní hnojení zahrady – kdy, čím a jak. Trávník, záhony, stromy." },
 };
 

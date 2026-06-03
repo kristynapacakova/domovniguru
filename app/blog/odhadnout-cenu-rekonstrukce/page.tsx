@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak odhadnout cenu rekonstrukce předem – kalkulace 2026",
   description: "Jak realisticky odhadnout cenu rekonstrukce bytu nebo domu. Orientační ceny prací, materiálu a co vždy zdraží. Bez překvapení a vícenákladů.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/odhadnout-cenu-rekonstrukce" },
-  openGraph: { title: "Jak odhadnout cenu rekonstrukce předem 2026", description: "Orientační ceny prací a materiálu – jak sestavit realistický rozpočet rekonstrukce.", url: "https://www.domovniguru.cz/blog/odhadnout-cenu-rekonstrukce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak odhadnout cenu rekonstrukce předem 2026", description: "Orientační ceny prací a materiálu – jak sestavit realistický rozpočet rekonstrukce.", url: "https://www.domovniguru.cz/blog/odhadnout-cenu-rekonstrukce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20odhadnout%20cenu%20rekonstrukce%20p%C5%99edem%20%E2%80%93%20kalkulace%202026&cat=blog", width: 1200, height: 630, alt: "Jak odhadnout cenu rekonstrukce předem – kalkulace 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak odhadnout cenu rekonstrukce předem 2026", description: "Orientační ceny prací a materiálu – realistický rozpočet rekonstrukce." },
 };
 

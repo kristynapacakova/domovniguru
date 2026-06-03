@@ -5,17 +5,17 @@ export const metadata: Metadata = {
   title: "Stěhování bez stresu – kompletní checklist 2025",
   description: "Kompletní checklist na stěhování: 6 týdnů před, den D a co udělat po nastěhování. Nic nezapomeneš, nic tě nepřekvapí.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/stehovani-checklist" },
-  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://www.domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://www.domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=St%C4%9Bhov%C3%A1n%C3%AD%20bez%20stresu%20%E2%80%93%20kompletn%C3%AD%20checklist%202025&cat=blog", width: 1200, height: 630, alt: "Stěhování bez stresu – kompletní checklist 2025" }] },
   twitter: { card: "summary_large_image", title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#article", "headline": "Stěhování bez stresu – kompletní checklist", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["stěhování checklist", "jak se stěhovat", "příprava na stěhování", "stěhování do nového bytu", "stěhovací firma"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#article", "headline": "Stěhování bez stresu – kompletní checklist", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["stěhování checklist", "jak se stěhovat", "příprava na stěhování", "stěhování do nového bytu", "stěhovací firma"] }] };
 
 const RELATED = [
   { title: "Co zkontrolovat při přebírání nového bytu", href: "/blog/prebrani-bytu-checklist", read: "4 min" },
   { title: "Jak vymalovat byt před stěhováním", href: "/blog/malovani-pred-stehovani", read: "5 min" },
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
-  { title: "Jak připravit dům na zimu – checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
+  { title: "Jak připravit dům na zimu – checklist", href: "/blog/priprava-domu-na-zimu", read: "5 min" },
 ];
 
 export default function ArticlePage() {

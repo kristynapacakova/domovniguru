@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak pečovat o septik a žumpu – frekvence vyvážení a péče 2026",
   description: "Jak správně pečovat o septik nebo žumpu. Jak často vyvážet, co do nich nepatří, jak prodloužit životnost a kdy je čas na výměnu za moderní ČOV.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/pece-o-septik-zumpu" },
-  openGraph: { title: "Péče o septik a žumpu 2026", description: "Frekvence vyvážení, co do septiku nepatří a jak prodloužit jeho životnost.", url: "https://www.domovniguru.cz/blog/pece-o-septik-zumpu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Péče o septik a žumpu 2026", description: "Frekvence vyvážení, co do septiku nepatří a jak prodloužit jeho životnost.", url: "https://www.domovniguru.cz/blog/pece-o-septik-zumpu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20pe%C4%8Dovat%20o%20septik%20a%20%C5%BEumpu%20%E2%80%93%20frekvence%20vyv%C3%A1%C5%BEen%C3%AD%20a%20p%C3%A9%C4%8De%202026&cat=blog", width: 1200, height: 630, alt: "Jak pečovat o septik a žumpu – frekvence vyvážení a péče 2026" }] },
   twitter: { card: "summary_large_image", title: "Péče o septik a žumpu 2026", description: "Jak pečovat o septik a žumpu – frekvence vyvážení a tipy." },
 };
 

@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "Ochrana osobních údajů | DomovniGuru",
-  description: "Informace o ochraně osobních údajů na webu DomovniGuru.",
+  title: "Ochrana osobních údajů",
+  description: "Informace o ochraně osobních údajů na webu DomovniGuru v souladu s GDPR – správce dat, účel zpracování a vaše práva.",
+  alternates: { canonical: "https://www.domovniguru.cz/ochrana-osobnich-udaju" },
+  openGraph: { title: "Ochrana osobních údajů", description: "Informace o ochraně osobních údajů na webu DomovniGuru v souladu s GDPR – správce dat, účel zpracování a vaše práva.", url: "https://www.domovniguru.cz/ochrana-osobnich-udaju", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function PrivacyPage() {

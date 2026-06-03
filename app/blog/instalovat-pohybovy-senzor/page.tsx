@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak nainstalovat pohybový senzor – PIR detektor krok za krokem 2026",
+  title: "Jak nainstalovat pohybový senzor krok za krokem",
   description: "Jak nainstalovat pohybový senzor na světlo nebo alarm. PIR detektor, nastavení citlivosti a dosahu, zapojení – postup pro začátečníky bez elektrikáře.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" },
-  openGraph: { title: "Jak nainstalovat pohybový senzor 2026", description: "PIR detektor na světlo – zapojení, nastavení dosahu a citlivosti krok za krokem.", url: "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak nainstalovat pohybový senzor 2026", description: "PIR detektor na světlo – zapojení, nastavení dosahu a citlivosti krok za krokem.", url: "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20nainstalovat%20pohybov%C3%BD%20senzor%20krok%20za%20krokem&cat=blog", width: 1200, height: 630, alt: "Jak nainstalovat pohybový senzor krok za krokem" }] },
   twitter: { card: "summary_large_image", title: "Jak nainstalovat pohybový senzor 2026", description: "PIR detektor – zapojení a nastavení krok za krokem bez elektrikáře." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor#article",
-    "headline": "Jak nainstalovat pohybový senzor – PIR detektor krok za krokem 2026",
+    "headline": "Jak nainstalovat pohybový senzor krok za krokem",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak nainstalovat pohybový senzor – PIR detektor krok za krokem</h1>
               <p className="article-lead">Pohybový senzor na chodbě nebo před domem ušetří elektřinu a zvýší bezpečnost. Instalace trvá 30 minut a nevyžaduje elektrikáře — stačí správně zapojit tři vodiče.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" title="Jak nainstalovat pohybový senzor – PIR detektor krok za krokem 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" title="Jak nainstalovat pohybový senzor krok za krokem" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -167,7 +167,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" title="Jak nainstalovat pohybový senzor – PIR detektor krok za krokem 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" title="Jak nainstalovat pohybový senzor krok za krokem" />
 
             <section className="related-section">
               <h2>Související články</h2>

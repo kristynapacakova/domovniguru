@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak se zbavit krtků na zahradě – co funguje a co ne 2026",
   description: "Jak se zbavit krtků na zahradě bez chemie a bez krutosti. Ultrazvuk, pachové odpuzovače, lapače nebo plašiče – co skutečně funguje a co je zbytečné.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zbavit-se-krtku" },
-  openGraph: { title: "Jak se zbavit krtků na zahradě 2026", description: "Ultrazvuk, pachové odpuzovače nebo lapače – co na krtky skutečně funguje.", url: "https://www.domovniguru.cz/blog/zbavit-se-krtku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak se zbavit krtků na zahradě 2026", description: "Ultrazvuk, pachové odpuzovače nebo lapače – co na krtky skutečně funguje.", url: "https://www.domovniguru.cz/blog/zbavit-se-krtku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20se%20zbavit%20krtk%C5%AF%20na%20zahrad%C4%9B%20%E2%80%93%20co%20funguje%20a%20co%20ne%202026&cat=blog", width: 1200, height: 630, alt: "Jak se zbavit krtků na zahradě – co funguje a co ne 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit krtků 2026", description: "Co na krtky skutečně funguje – přehled metod od nejlepší po nejhorší." },
 };
 

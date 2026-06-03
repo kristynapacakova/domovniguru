@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak vybrat svítidla do místnosti – teplota světla, příkon, typy 2026",
+  title: "Jak vybrat svítidla do místnosti",
   description: "Jak vybrat správná svítidla do obýváku, ložnice, kuchyně nebo koupelny. Teplota světla, příkon LED a typy svítidel.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" },
-  openGraph: { title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – jak osvětlit každou místnost správně.", url: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – jak osvětlit každou místnost správně.", url: "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20vybrat%20sv%C3%ADtidla%20do%20m%C3%ADstnosti&cat=blog", width: 1200, height: 630, alt: "Jak vybrat svítidla do místnosti" }] },
   twitter: { card: "summary_large_image", title: "Jak vybrat svítidla do místnosti 2026", description: "Teplota světla, příkon LED a typy svítidel – osvětlení pro každou místnost." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti#article",
-    "headline": "Jak vybrat svítidla do místnosti – teplota světla, příkon, typy 2026",
+    "headline": "Jak vybrat svítidla do místnosti",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak vybrat svítidla do místnosti – teplota světla, příkon, typy</h1>
               <p className="article-lead">Špatné osvětlení unavuje oči, kazí náladu a zvyšuje účet za elektřinu. Správná kombinace svítidel a teploty světla promění každou místnost — bez rekonstrukce a za rozumné peníze.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" title="Jak vybrat svítidla do místnosti – teplota světla, příkon, typy 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" title="Jak vybrat svítidla do místnosti" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -206,7 +206,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" title="Jak vybrat svítidla do místnosti – teplota světla, příkon, typy 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" title="Jak vybrat svítidla do místnosti" />
 
             <section className="related-section">
               <h2>Související články</h2>

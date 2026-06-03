@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026",
   description: "Jak naplánovat rekonstrukci bytu od A do Z. Správné pořadí prací, realistický rozpočet, výběr řemeslníků a časový harmonogram. Bez nepříjemných překvapení.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu" },
-  openGraph: { title: "Jak naplánovat rekonstrukci bytu 2026", description: "Správné pořadí prací, realistický rozpočet a výběr řemeslníků – bez překvapení.", url: "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak naplánovat rekonstrukci bytu 2026", description: "Správné pořadí prací, realistický rozpočet a výběr řemeslníků – bez překvapení.", url: "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20napl%C3%A1novat%20rekonstrukci%20bytu%20%E2%80%93%20rozpo%C4%8Det%20a%20po%C5%99ad%C3%AD%20prac%C3%AD%202026&cat=blog", width: 1200, height: 630, alt: "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak naplánovat rekonstrukci bytu 2026", description: "Správné pořadí prací, realistický rozpočet a výběr řemeslníků." },
 };
 

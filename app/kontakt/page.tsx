@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "Kontakt | DomovniGuru",
-  description: "Kontakt na provozovatele webu DomovniGuru.",
+  title: "Kontakt",
+  description: "Kontakt na provozovatele webu DomovniGuru. Napište nám na e-mail nebo sledujte nás na sociálních sítích.",
+  alternates: { canonical: "https://www.domovniguru.cz/kontakt" },
+  openGraph: { title: "Kontakt", description: "Kontakt na provozovatele webu DomovniGuru. Napište nám na e-mail nebo sledujte nás na sociálních sítích.", url: "https://www.domovniguru.cz/kontakt", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function KontaktPage() {
@@ -15,8 +17,8 @@ export default function KontaktPage() {
 
       <div className="card" style={{ marginTop: 20, maxWidth: 500 }}>
         <div className="resultBig">
-          <a href="mailto:kristyna.chladkova@gmail.com">
-            kristyna.chladkova@gmail.com
+          <a href="mailto:domovniguru@gmail.com">
+            domovniguru@gmail.com
           </a>
         </div>
       </div>

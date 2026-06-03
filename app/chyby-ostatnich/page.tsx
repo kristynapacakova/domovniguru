@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Nejčastější chyby domácích kutilů – poučte se z chyb ostatních",
   description: "Sbírka reálných chyb z malování, rekonstrukce, zahrady i elektřiny. Každá vás mohla stát čas nebo peníze. Přečtěte si je dřív než začnete.",
   alternates: { canonical: "https://www.domovniguru.cz/chyby-ostatnich" },
-  openGraph: { title: "Nejčastější chyby domácích kutilů", description: "Reálné chyby z malování, rekonstrukce, zahrady a elektřiny – poučte se dřív než začnete.", url: "https://www.domovniguru.cz/chyby-ostatnich", siteName: "DomovniGuru", locale: "cs_CZ", type: "website" },
+  openGraph: { title: "Nejčastější chyby domácích kutilů", description: "Reálné chyby z malování, rekonstrukce, zahrady a elektřiny – poučte se dřív než začnete.", url: "https://www.domovniguru.cz/chyby-ostatnich", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
   twitter: { card: "summary_large_image", title: "Nejčastější chyby domácích kutilů", description: "Reálné chyby z malování, rekonstrukce, zahrady a elektřiny." },
 };
 

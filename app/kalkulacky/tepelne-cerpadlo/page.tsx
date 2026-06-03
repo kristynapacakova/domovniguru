@@ -10,7 +10,7 @@ import Link from "next/link";
 import HeatPumpCalculator from "@/app/components/HeatPumpCalculator";
 
 export const metadata: Metadata = {
-  title: "Kalkulačka tepelného čerpadla 2026 – návratnost investice online",
+  title: "Kalkulačka tepelného čerpadla – návratnost",
   description:
     "Spočítej dobu návratnosti tepelného čerpadla. Zadej aktuální náklady, investici a dotaci NZÚ 2026 – výsledek ihned.",
   alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/tepelne-cerpadlo" },
@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     siteName: "DomovniGuru",
     locale: "cs_CZ",
     type: "website",
+    images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20tepeln%C3%A9ho%20%C4%8Derpadla%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka tepelného čerpadla 2026" }],
   },
 };
 

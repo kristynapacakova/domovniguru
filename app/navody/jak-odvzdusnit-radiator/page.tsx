@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut | DomovniGuru",
+  title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut",
   description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-odvzdusnit-radiator" },
+  openGraph: { title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut", description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.", url: "https://www.domovniguru.cz/navody/jak-odvzdusnit-radiator", type: "article", images: [{ url: "/api/og?title=Jak%20odvzdu%C5%A1nit%20radi%C3%A1tor%20%E2%80%93%20krok%20za%20krokem%20za%2010%20minut&cat=navody", width: 1200, height: 630, alt: "Jak odvzdušnit radiátor – krok za krokem za 10 minut" }] },
 };
 
 export default function JakOdvzdusnitRadiator() {
@@ -159,7 +160,7 @@ export default function JakOdvzdusnitRadiator() {
               <div className="related-grid">
                 {[
                   { title: "Jak nastavit okna na zimu?", href: "/navody/jak-nastavit-okna-na-zimu", time: "15 min" },
-                  { title: "Jak připravit dům na zimu", href: "/blog/jak-pripravit-dum-na-zimu", time: "5 min čtení" },
+                  { title: "Jak připravit dům na zimu", href: "/blog/priprava-domu-na-zimu", time: "5 min čtení" },
                   { title: "Jak utěsnit vanu silikonem?", href: "/navody/jak-utesnit-vanu-silikonem", time: "30 min" },
                 ].map(r => (
                   <Link key={r.href} href={r.href} className="card">

@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak malovat rohy a lišty bez přetahování – technika štětcem 2026",
+  title: "Jak malovat rohy a lišty – technika štětcem",
   description: "Čistá linka u lišt, rohů a stropu bez malířské pásky? Jde to. Technika odřezávání štětcem krok za krokem – jak malovat rohy a lišty jako profesionál.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy" },
-  openGraph: { title: "Jak malovat rohy a lišty bez přetahování 2026", description: "Technika odřezávání štětcem – čisté linie u lišt a rohů bez pásky.", url: "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak malovat rohy a lišty bez přetahování 2026", description: "Technika odřezávání štětcem – čisté linie u lišt a rohů bez pásky.", url: "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20malovat%20rohy%20a%20li%C5%A1ty%20%E2%80%93%20technika%20%C5%A1t%C4%9Btcem&cat=blog", width: 1200, height: 630, alt: "Jak malovat rohy a lišty – technika štětcem" }] },
   twitter: { card: "summary_large_image", title: "Jak malovat rohy a lišty bez přetahování 2026", description: "Technika odřezávání štětcem – čisté linie u lišt a rohů." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy#article",
-    "headline": "Jak malovat rohy a lišty bez přetahování – technika štětcem 2026",
+    "headline": "Jak malovat rohy a lišty – technika štětcem",
     "datePublished": "2026-04-13T08:00:00Z",
     "dateModified": "2026-04-13T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak malovat rohy a lišty bez přetahování</h1>
               <p className="article-lead">Čistá linie u stropu, lišt a rohů je to co odlišuje profesionální výsledek od amatérského. Technika odřezávání štětcem se naučíš za jedno odpoledne — a ušetříš hodiny lepení pásky.</p>
               <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy" title="Jak malovat rohy a lišty bez přetahování – technika štětcem 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy" title="Jak malovat rohy a lišty – technika štětcem" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -252,7 +252,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy" title="Jak malovat rohy a lišty bez přetahování – technika štětcem 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy" title="Jak malovat rohy a lišty – technika štětcem" />
 
             <section className="related-section">
               <h2>Související články</h2>

@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "O webu – DomovniGuru",
-  description: "Kdo stojí za DomovniGuru, proč web vznikl a jak ho používat.",
+  title: "O webu",
+  description: "Kdo stojí za DomovniGuru, proč web vznikl a jak ho používat. Přes 110 článků, kalkulaček a návodů pro kutily i laiky.",
   alternates: { canonical: "https://www.domovniguru.cz/o-webu" },
+  openGraph: { title: "O webu", description: "Kdo stojí za DomovniGuru, proč web vznikl a jak ho používat. Přes 110 článků, kalkulaček a návodů pro kutily i laiky.", url: "https://www.domovniguru.cz/o-webu", type: "website", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
 };
 
 export default function OWebuPage() {

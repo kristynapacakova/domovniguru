@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Výměna zásuvky – kdy a jak ji vyměnit správně 2026",
   description: "Kdy je čas vyměnit zásuvku? Poškozená, uvolněná nebo zastaralá zásuvka je bezpečnostní riziko. Jak poznat že je čas na výměnu a jak ji provést správně.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vymena-zasuvky" },
-  openGraph: { title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to – bezpečně a správně.", url: "https://www.domovniguru.cz/blog/vymena-zasuvky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to – bezpečně a správně.", url: "https://www.domovniguru.cz/blog/vymena-zasuvky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=V%C3%BDm%C4%9Bna%20z%C3%A1suvky%20%E2%80%93%20kdy%20a%20jak%20ji%20vym%C4%9Bnit%20spr%C3%A1vn%C4%9B%202026&cat=blog", width: 1200, height: 630, alt: "Výměna zásuvky – kdy a jak ji vyměnit správně 2026" }] },
   twitter: { card: "summary_large_image", title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to bezpečně." },
 };
 

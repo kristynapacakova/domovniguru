@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Elektrické podlahové topení – typy, instalace a provozní náklady 2026",
+  title: "Elektrické podlahové topení – typy a instalace",
   description: "Elektrické podlahové topení – topná rohož nebo kabel? Jak se instaluje, kolik stojí provoz a je to lepší než radiátory? Průvodce pro každého kdo to zvažuje.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" },
-  openGraph: { title: "Elektrické podlahové topení 2026", description: "Topná rohož nebo kabel – instalace, provozní náklady a srovnání s radiátory.", url: "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Elektrické podlahové topení 2026", description: "Topná rohož nebo kabel – instalace, provozní náklady a srovnání s radiátory.", url: "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Elektrick%C3%A9%20podlahov%C3%A9%20topen%C3%AD%20%E2%80%93%20typy%20a%20instalace&cat=blog", width: 1200, height: 630, alt: "Elektrické podlahové topení – typy a instalace" }] },
   twitter: { card: "summary_large_image", title: "Elektrické podlahové topení 2026", description: "Topná rohož nebo kabel – instalace a provozní náklady podlahového topení." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#article",
-    "headline": "Elektrické podlahové topení – typy, instalace a provozní náklady 2026",
+    "headline": "Elektrické podlahové topení – typy a instalace",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Elektrické podlahové topení – typy, instalace a provozní náklady</h1>
               <p className="article-lead">Teplá podlaha v koupelně je luxus který si dnes může dovolit skoro každý. Topná rohož do dlažby stojí 2 000–5 000 Kč a provoz vyjde na 200–600 Kč měsíčně. Tady je vše co potřebuješ vědět.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" title="Elektrické podlahové topení – typy, instalace a provozní náklady 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" title="Elektrické podlahové topení – typy a instalace" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -163,7 +163,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" title="Elektrické podlahové topení – typy, instalace a provozní náklady 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" title="Elektrické podlahové topení – typy a instalace" />
 
             <section className="related-section">
               <h2>Související články</h2>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo 2026",
   description: "Jak odstranit zápach barvy, lepidla, tmelu a laku po rekonstrukci bytu. Efektivní větrání, neutralizátory pachů a jak dlouho zápach vydrží.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zbavit-byt-zapachu-po-rekonstrukci" },
-  openGraph: { title: "Jak se zbavit zápachu po rekonstrukci 2026", description: "Zápach barvy, laku a lepidla – jak rychle a natrvalo vyvětrat byt po rekonstrukci.", url: "https://www.domovniguru.cz/blog/zbavit-byt-zapachu-po-rekonstrukci", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak se zbavit zápachu po rekonstrukci 2026", description: "Zápach barvy, laku a lepidla – jak rychle a natrvalo vyvětrat byt po rekonstrukci.", url: "https://www.domovniguru.cz/blog/zbavit-byt-zapachu-po-rekonstrukci", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20se%20zbavit%20z%C3%A1pachu%20po%20rekonstrukci%20%E2%80%93%20rychle%20a%20natrvalo%202026&cat=blog", width: 1200, height: 630, alt: "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit zápachu po rekonstrukci 2026", description: "Větrání, neutralizátory a jak dlouho zápach po rekonstrukci vydrží." },
 };
 

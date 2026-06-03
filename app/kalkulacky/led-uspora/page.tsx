@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     siteName: "DomovniGuru",
     locale: "cs_CZ",
     type: "website",
+    images: [{ url: "/api/og?title=Kolik%20u%C5%A1et%C5%99%C3%ADm%20LED%20%C5%BE%C3%A1rovkami%3F%20Kalkula%C4%8Dka%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kolik ušetřím LED žárovkami? Kalkulačka 2026" }],
   },
 };
 

@@ -3,10 +3,10 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak se zbavit starého nábytku – prodat, darovat nebo odvézt 2026",
+  title: "Jak se zbavit starého nábytku",
   description: "Jak se zbavit starého nábytku rychle a bez stresu. Prodej online, darovací portály, sběrné dvory nebo kontejner – průvodce všemi možnostmi včetně cen.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" },
-  openGraph: { title: "Jak se zbavit starého nábytku 2026", description: "Prodat, darovat nebo odvézt – jak se zbavit starého nábytku rychle a bez stresu.", url: "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak se zbavit starého nábytku 2026", description: "Prodat, darovat nebo odvézt – jak se zbavit starého nábytku rychle a bez stresu.", url: "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20se%20zbavit%20star%C3%A9ho%20n%C3%A1bytku&cat=blog", width: 1200, height: 630, alt: "Jak se zbavit starého nábytku" }] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit starého nábytku 2026", description: "Prodat, darovat nebo odvézt – všechny možnosti jak se zbavit starého nábytku." },
 };
 
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku#article",
-    "headline": "Jak se zbavit starého nábytku – prodat, darovat nebo odvézt 2026",
+    "headline": "Jak se zbavit starého nábytku",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak se zbavit starého nábytku – prodat, darovat nebo odvézt</h1>
               <p className="article-lead">Stará pohovka nebo skříň blokují místo a brání stěhování. Tady jsou všechny možnosti jak se jich zbavit — od prodeje za pár tisíc po bezplatný odvoz do 24 hodin.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" title="Jak se zbavit starého nábytku – prodat, darovat nebo odvézt 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" title="Jak se zbavit starého nábytku" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -173,7 +173,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" title="Jak se zbavit starého nábytku – prodat, darovat nebo odvézt 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" title="Jak se zbavit starého nábytku" />
 
             <section className="related-section">
               <h2>Související články</h2>

@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     publishedTime: "2025-01-20T08:00:00Z",
     modifiedTime: "2025-03-01T08:00:00Z",
     authors: ["DomovniGuru"],
+    images: [{ url: "/api/og?title=Latexov%C3%A1%20vs.%20akryl%C3%A1tov%C3%A1%20barva%20%E2%80%93%20jak%C3%BD%20je%20rozd%C3%ADl%3F%202025&cat=blog", width: 1200, height: 630, alt: "Latexová vs. akrylátová barva – jaký je rozdíl? 2025" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -47,12 +48,12 @@ const jsonLd = {
       "author": {
         "@type": "Organization",
         "name": "DomovniGuru",
-        "url": "https://domovniguru.cz",
+        "url": "https://www.domovniguru.cz",
       },
       "publisher": {
         "@type": "Organization",
         "name": "DomovniGuru",
-        "url": "https://domovniguru.cz",
+        "url": "https://www.domovniguru.cz",
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -71,7 +72,7 @@ const jsonLd = {
       "@type": "BreadcrumbList",
       "@id": "https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Domů",             "item": "https://domovniguru.cz" },
+        { "@type": "ListItem", "position": 1, "name": "Domů",             "item": "https://www.domovniguru.cz" },
         { "@type": "ListItem", "position": 2, "name": "Blog",             "item": "https://www.domovniguru.cz/blog" },
         { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
         { "@type": "ListItem", "position": 4, "name": "Latexová vs. akrylátová barva", "item": "https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva" },

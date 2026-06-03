@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak osvětlit kuchyňskou linku – LED pásky a bodovky 2026",
   description: "Podsvícení kuchyňské linky LED páskem nebo bodovkami pod skříňky. Jak vybrat, jak připevnit a jak zapojit – bez elektrikáře za odpoledne.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku" },
-  openGraph: { title: "Jak osvětlit kuchyňskou linku 2026", description: "LED pásky nebo bodovky pod skříňky – výběr, montáž a zapojení krok za krokem.", url: "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Jak osvětlit kuchyňskou linku 2026", description: "LED pásky nebo bodovky pod skříňky – výběr, montáž a zapojení krok za krokem.", url: "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20osv%C4%9Btlit%20kuchy%C5%88skou%20linku%20%E2%80%93%20LED%20p%C3%A1sky%20a%20bodovky%202026&cat=blog", width: 1200, height: 630, alt: "Jak osvětlit kuchyňskou linku – LED pásky a bodovky 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak osvětlit kuchyňskou linku 2026", description: "LED pásky nebo bodovky pod skříňky – výběr, montáž a zapojení." },
 };
 

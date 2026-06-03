@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Zimní pneumatiky – kdy přezout a jak vybrat 2026",
   description: "Kdy přezout na zimní pneumatiky, jak je vybrat a co hrozí za jízdu na letních v zimě. Zákonné požadavky, správné uskladnění a rozdíl zimní vs. celoroční.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy" },
-  openGraph: { title: "Zimní pneumatiky – kdy přezout a jak vybrat 2026", description: "Kdy přezout, jak vybrat zimní pneumatiky a co říká zákon – kompletní průvodce.", url: "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
+  openGraph: { title: "Zimní pneumatiky – kdy přezout a jak vybrat 2026", description: "Kdy přezout, jak vybrat zimní pneumatiky a co říká zákon – kompletní průvodce.", url: "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Zimn%C3%AD%20pneumatiky%20%E2%80%93%20kdy%20p%C5%99ezout%20a%20jak%20vybrat%202026&cat=blog", width: 1200, height: 630, alt: "Zimní pneumatiky – kdy přezout a jak vybrat 2026" }] },
   twitter: { card: "summary_large_image", title: "Zimní pneumatiky – kdy přezout 2026", description: "Kdy přezout, jak vybrat a co říká zákon – průvodce zimními pneumatikami." },
 };
 
