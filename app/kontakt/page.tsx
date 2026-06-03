@@ -17,8 +17,8 @@ export default function KontaktPage() {
 
       <div className="card" style={{ marginTop: 20, maxWidth: 500 }}>
         <div className="resultBig">
-          <a href="mailto:kristyna.chladkova@gmail.com">
-            kristyna.chladkova@gmail.com
+          <a href="mailto:domovniguru@gmail.com">
+            domovniguru@gmail.com
           </a>
         </div>
       </div>
