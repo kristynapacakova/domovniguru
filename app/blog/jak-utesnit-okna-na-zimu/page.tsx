@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Jak utěsnit okna na zimu – co skutečně funguje",
   description: "Průvan u oken zvyšuje účty za topení. Přehled metod utěsnění: těsnicí pásky, kity, fólie a přenastavení plastových oken. Co funguje a co nestojí za to.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu" },
-  openGraph: { title: "Jak utěsnit okna na zimu – přehled metod", description: "Průvan u oken? Přehled metod utěsnění, co funguje a jak na to.", url: "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-09-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20ut%C4%9Bsnit%20okna%20na%20zimu%20%E2%80%93%20co%20skute%C4%8Dn%C4%9B%20funguje", width: 1200, height: 630, alt: "Jak utěsnit okna na zimu – co skutečně funguje" }] },
+  openGraph: { title: "Jak utěsnit okna na zimu – přehled metod", description: "Průvan u oken? Přehled metod utěsnění, co funguje a jak na to.", url: "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-09-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20ut%C4%9Bsnit%20okna%20na%20zimu%20%E2%80%93%20co%20skute%C4%8Dn%C4%9B%20funguje&cat=blog", width: 1200, height: 630, alt: "Jak utěsnit okna na zimu – co skutečně funguje" }] },
   twitter: { card: "summary_large_image", title: "Jak utěsnit okna na zimu", description: "Průvan u oken? Přehled metod utěsnění, co funguje." },
 };
 

@@ -2,14 +2,26 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
+const CATEGORY_THEMES: Record<string, { bg: string; accent: string; label: string }> = {
+  kalkulacky:   { bg: "#1a3a4a", accent: "#f4c842", label: "Kalkulačka" },
+  navody:       { bg: "#2d4a1e", accent: "#a8d672", label: "Návod" },
+  checklisty:   { bg: "#4a2d1e", accent: "#f4a442", label: "Checklist" },
+  blog:         { bg: "#2a1e4a", accent: "#c4a8f4", label: "Článek" },
+  default:      { bg: "#1e2d4a", accent: "#4ab4f4", label: "" },
+};
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const title = searchParams.get("title") ?? "DomovniGuru";
-  const category = searchParams.get("cat") ?? "";
+  const cat = (searchParams.get("cat") ?? "default").toLowerCase();
+  const theme = CATEGORY_THEMES[cat] ?? CATEGORY_THEMES.default;
 
-  const serifFont = await fetch(
-    "https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjALR8uVHHTwUhkIBGZOT.woff"
-  ).then((r) => r.arrayBuffer());
+  const [serifFont, sansFont] = await Promise.all([
+    fetch("https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjALR8uVHHTwUhkIBGZOT.woff").then((r) => r.arrayBuffer()),
+    fetch("https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2").then((r) => r.arrayBuffer()),
+  ]);
+
+  const fontSize = title.length > 60 ? 52 : title.length > 40 ? 60 : 68;
 
   return new ImageResponse(
     (
@@ -19,45 +31,91 @@ export async function GET(request: Request) {
           height: "630px",
           display: "flex",
           flexDirection: "column",
-          background: "#fafaf8",
-          fontFamily: "Georgia, serif",
+          background: theme.bg,
           position: "relative",
           overflow: "hidden",
         }}
       >
-        {/* Subtle dot grid pattern */}
+        {/* Diagonal texture lines */}
         <div
           style={{
             position: "absolute",
             inset: 0,
-            backgroundImage:
-              "radial-gradient(circle, #0f0f0e18 1px, transparent 1px)",
-            backgroundSize: "28px 28px",
+            backgroundImage: `repeating-linear-gradient(
+              -45deg,
+              transparent,
+              transparent 40px,
+              ${theme.accent}0a 40px,
+              ${theme.accent}0a 41px
+            )`,
             display: "flex",
           }}
         />
 
-        {/* Top accent bar */}
+        {/* Large decorative circle background */}
         <div
           style={{
-            height: "6px",
-            background: "#0f0f0e",
-            width: "100%",
+            position: "absolute",
+            right: "-120px",
+            top: "-120px",
+            width: "500px",
+            height: "500px",
+            borderRadius: "50%",
+            background: `${theme.accent}18`,
+            display: "flex",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            right: "-40px",
+            top: "-40px",
+            width: "280px",
+            height: "280px",
+            borderRadius: "50%",
+            background: `${theme.accent}25`,
             display: "flex",
           }}
         />
 
-        {/* Content area */}
+        {/* Bottom left decorative arc */}
+        <div
+          style={{
+            position: "absolute",
+            left: "-80px",
+            bottom: "-80px",
+            width: "300px",
+            height: "300px",
+            borderRadius: "50%",
+            border: `3px solid ${theme.accent}30`,
+            display: "flex",
+          }}
+        />
+
+        {/* Accent left border */}
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 0,
+            bottom: 0,
+            width: "8px",
+            background: theme.accent,
+            display: "flex",
+          }}
+        />
+
+        {/* Content */}
         <div
           style={{
             flex: 1,
             display: "flex",
             flexDirection: "column",
-            padding: "52px 72px 48px",
+            padding: "52px 72px 52px 80px",
             position: "relative",
           }}
         >
-          {/* Logo row */}
+          {/* Top row: logo + category badge */}
           <div
             style={{
               display: "flex",
@@ -73,45 +131,46 @@ export async function GET(request: Request) {
                 gap: "10px",
                 fontSize: "22px",
                 fontWeight: 700,
-                color: "#0f0f0e",
-                fontFamily: "Georgia, serif",
+                color: "rgba(255,255,255,0.9)",
+                fontFamily: "Inter, system-ui, sans-serif",
                 letterSpacing: "-0.3px",
               }}
             >
-              🐼 Domovni<span style={{ display: "flex" }}>Guru</span>
+              🐼 Domovni<span style={{ display: "flex", color: theme.accent }}>Guru</span>
             </div>
 
-            {category ? (
+            {theme.label ? (
               <div
                 style={{
                   display: "flex",
-                  background: "#0f0f0e",
-                  color: "#fff",
-                  fontSize: "12px",
-                  fontWeight: 700,
-                  letterSpacing: "0.1em",
-                  padding: "6px 14px",
+                  background: theme.accent,
+                  color: theme.bg,
+                  fontSize: "13px",
+                  fontWeight: 800,
+                  letterSpacing: "0.12em",
+                  padding: "7px 18px",
                   borderRadius: "4px",
                   textTransform: "uppercase",
-                  fontFamily: "system-ui, sans-serif",
+                  fontFamily: "Inter, system-ui, sans-serif",
                 }}
               >
-                {category}
+                {theme.label}
               </div>
             ) : null}
           </div>
 
-          {/* Title */}
+          {/* Main title */}
           <div
             style={{
-              fontSize: title.length > 50 ? "52px" : "62px",
-              lineHeight: 1.1,
-              color: "#0f0f0e",
+              fontSize: `${fontSize}px`,
+              lineHeight: 1.15,
+              color: "#ffffff",
               fontFamily: "DM Serif Display, Georgia, serif",
               letterSpacing: "-1px",
-              maxWidth: "900px",
+              maxWidth: "950px",
               marginTop: "auto",
-              marginBottom: "40px",
+              marginBottom: "44px",
+              textShadow: "0 2px 20px rgba(0,0,0,0.3)",
             }}
           >
             {title}
@@ -128,39 +187,32 @@ export async function GET(request: Request) {
             <div
               style={{
                 fontSize: "18px",
-                color: "#78776e",
-                fontFamily: "system-ui, sans-serif",
-                letterSpacing: "0.02em",
+                color: theme.accent,
+                fontFamily: "Inter, system-ui, sans-serif",
+                letterSpacing: "0.04em",
+                fontWeight: 600,
               }}
             >
               domovniguru.cz
             </div>
 
-            {/* Decorative line */}
-            <div
-              style={{
-                width: "200px",
-                height: "2px",
-                background:
-                  "linear-gradient(to right, #0f0f0e40, transparent)",
-                display: "flex",
-              }}
-            />
+            {/* Decorative dots */}
+            <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
+              {[1, 2, 3].map((i) => (
+                <div
+                  key={i}
+                  style={{
+                    width: i === 2 ? "10px" : "6px",
+                    height: i === 2 ? "10px" : "6px",
+                    borderRadius: "50%",
+                    background: i === 2 ? theme.accent : `${theme.accent}60`,
+                    display: "flex",
+                  }}
+                />
+              ))}
+            </div>
           </div>
         </div>
-
-        {/* Right accent block */}
-        <div
-          style={{
-            position: "absolute",
-            right: 0,
-            top: "6px",
-            bottom: 0,
-            width: "8px",
-            background: "#f2f1ed",
-            display: "flex",
-          }}
-        />
       </div>
     ),
     {
@@ -170,6 +222,11 @@ export async function GET(request: Request) {
         {
           name: "DM Serif Display",
           data: serifFont,
+          style: "normal",
+        },
+        {
+          name: "Inter",
+          data: sansFont,
           style: "normal",
         },
       ],

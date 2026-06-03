@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Vyvýšené záhony – průvodce od stavby po sklizeň",
   description: "Jak postavit vyvýšený záhon, jaký materiál vybrat, jak správně vrstvit substráty a co sázet. Praktický průvodce pro začátečníky i zkušené zahradníky.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vyvysene-zahony" },
-  openGraph: { title: "Vyvýšené záhony – průvodce od stavby po sklizeň", description: "Materiály, vrstvení, výsadba a péče. Vše co potřebuješ vědět o vyvýšených záhonech.", url: "https://www.domovniguru.cz/blog/vyvysene-zahony", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-20T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Vyv%C3%BD%C5%A1en%C3%A9%20z%C3%A1hony%20%E2%80%93%20pr%C5%AFvodce%20od%20stavby%20po%20sklize%C5%88", width: 1200, height: 630, alt: "Vyvýšené záhony – průvodce od stavby po sklizeň" }] },
+  openGraph: { title: "Vyvýšené záhony – průvodce od stavby po sklizeň", description: "Materiály, vrstvení, výsadba a péče. Vše co potřebuješ vědět o vyvýšených záhonech.", url: "https://www.domovniguru.cz/blog/vyvysene-zahony", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-20T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Vyv%C3%BD%C5%A1en%C3%A9%20z%C3%A1hony%20%E2%80%93%20pr%C5%AFvodce%20od%20stavby%20po%20sklize%C5%88&cat=blog", width: 1200, height: 630, alt: "Vyvýšené záhony – průvodce od stavby po sklizeň" }] },
   twitter: { card: "summary_large_image", title: "Vyvýšené záhony – průvodce od stavby po sklizeň", description: "Materiály, vrstvení, výsadba a péče o vyvýšené záhony." },
 };
 

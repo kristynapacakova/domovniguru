@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak nasilikonovat vanu jako profík: Návod krok za krokem 2026",
   description: "Plesnivé rohy nebo zatékání za vanu? Naučte se, jak starý silikon odstranit, odmastit spáry a nanést nový tmel tak, aby vydržel roky.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-utesnit-vanu-silikonem" },
-  openGraph: { title: "Jak nasilikonovat vanu jako profík: Návod krok za krokem 2026", description: "Plesnivé rohy nebo zatékání za vanu? Naučte se, jak starý silikon odstranit, odmastit spáry a nanést nový tmel tak, aby vydržel roky.", url: "https://www.domovniguru.cz/navody/jak-utesnit-vanu-silikonem", type: "article", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak nasilikonovat vanu jako profík: Návod krok za krokem 2026", description: "Plesnivé rohy nebo zatékání za vanu? Naučte se, jak starý silikon odstranit, odmastit spáry a nanést nový tmel tak, aby vydržel roky.", url: "https://www.domovniguru.cz/navody/jak-utesnit-vanu-silikonem", type: "article", images: [{ url: "/api/og?title=Jak%20nasilikonovat%20vanu%20jako%20prof%C3%ADk%3A%20N%C3%A1vod%20krok%20za%20krokem%202026&cat=navody", width: 1200, height: 630, alt: "Jak nasilikonovat vanu jako profík: Návod krok za krokem 2026" }] },
 };
 
 export default function NavodSilikon() {

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut",
   description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-odvzdusnit-radiator" },
-  openGraph: { title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut", description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.", url: "https://www.domovniguru.cz/navody/jak-odvzdusnit-radiator", type: "article", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut", description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.", url: "https://www.domovniguru.cz/navody/jak-odvzdusnit-radiator", type: "article", images: [{ url: "/api/og?title=Jak%20odvzdu%C5%A1nit%20radi%C3%A1tor%20%E2%80%93%20krok%20za%20krokem%20za%2010%20minut&cat=navody", width: 1200, height: 630, alt: "Jak odvzdušnit radiátor – krok za krokem za 10 minut" }] },
 };
 
 export default function JakOdvzdusnitRadiator() {

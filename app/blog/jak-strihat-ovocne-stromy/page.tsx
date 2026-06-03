@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak stříhat ovocné stromy – kdy a jak správně řezat 2026",
   description: "Jak správně stříhat ovocné stromy – jabloň, hrušeň, švestku a třešeň. Kdy řezat, jaké nástroje použít a jak se vyhnout nejčastějším chybám při řezu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy" },
-  openGraph: { title: "Jak stříhat ovocné stromy 2026", description: "Kdy a jak řezat jabloně, hrušně a švestky – správný postup bez chyb.", url: "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20st%C5%99%C3%ADhat%20ovocn%C3%A9%20stromy%20%E2%80%93%20kdy%20a%20jak%20spr%C3%A1vn%C4%9B%20%C5%99ezat%202026", width: 1200, height: 630, alt: "Jak stříhat ovocné stromy – kdy a jak správně řezat 2026" }] },
+  openGraph: { title: "Jak stříhat ovocné stromy 2026", description: "Kdy a jak řezat jabloně, hrušně a švestky – správný postup bez chyb.", url: "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20st%C5%99%C3%ADhat%20ovocn%C3%A9%20stromy%20%E2%80%93%20kdy%20a%20jak%20spr%C3%A1vn%C4%9B%20%C5%99ezat%202026&cat=blog", width: 1200, height: 630, alt: "Jak stříhat ovocné stromy – kdy a jak správně řezat 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak stříhat ovocné stromy 2026", description: "Kdy a jak správně řezat ovocné stromy – průvodce pro zahrádkáře." },
 };
 

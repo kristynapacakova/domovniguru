@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     siteName: "DomovniGuru",
     locale: "cs_CZ",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }],
+    images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20barvy%20na%20ze%C4%8F%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka barvy na zeď 2026" }],
   },
 };
 

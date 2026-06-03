@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Péče o podlahové topení – teplota, provoz a údržba 2026",
   description: "Jak správně provozovat a pečovat o podlahové topení. Optimální teplota, jak rychle reaguje, čištění podlah nad topením a jak ušetřit na provozu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni" },
-  openGraph: { title: "Péče o podlahové topení 2026", description: "Optimální teplota, provoz a údržba podlahového topení – teplovodní i elektrické.", url: "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=P%C3%A9%C4%8De%20o%20podlahov%C3%A9%20topen%C3%AD%20%E2%80%93%20teplota%2C%20provoz%20a%20%C3%BAdr%C5%BEba%202026", width: 1200, height: 630, alt: "Péče o podlahové topení – teplota, provoz a údržba 2026" }] },
+  openGraph: { title: "Péče o podlahové topení 2026", description: "Optimální teplota, provoz a údržba podlahového topení – teplovodní i elektrické.", url: "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=P%C3%A9%C4%8De%20o%20podlahov%C3%A9%20topen%C3%AD%20%E2%80%93%20teplota%2C%20provoz%20a%20%C3%BAdr%C5%BEba%202026&cat=blog", width: 1200, height: 630, alt: "Péče o podlahové topení – teplota, provoz a údržba 2026" }] },
   twitter: { card: "summary_large_image", title: "Péče o podlahové topení 2026", description: "Teplota, provoz a údržba podlahového topení krok za krokem." },
 };
 

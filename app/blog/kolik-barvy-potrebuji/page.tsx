@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025",
   description: "Spočítej přesné množství barvy na místnost. Vzorec, tabulka spotřeby a tipy jak nekoupit zbytečně moc nebo málo.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" },
-  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Kolik%20barvy%20pot%C5%99ebuji%3F%20Kalkula%C4%8Dka%20%2B%20vzorec%202025", width: 1200, height: 630, alt: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025" }] },
+  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Kolik%20barvy%20pot%C5%99ebuji%3F%20Kalkula%C4%8Dka%20%2B%20vzorec%202025&cat=blog", width: 1200, height: 630, alt: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025" }] },
   twitter: { card: "summary_large_image", title: "Kolik barvy potřebuji?", description: "Vzorec, tabulka spotřeby a tipy." },
 };
 

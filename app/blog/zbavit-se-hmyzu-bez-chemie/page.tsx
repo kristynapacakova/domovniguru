@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak se zbavit hmyzu bez chemie – přírodní rady",
   description: "Komáři, mravenci, mouchy a moly – jak se zbavit hmyzu doma a na zahradě bez pesticidů. Přírodní odpuzovače které fungují.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie" },
-  openGraph: { title: "Jak se zbavit hmyzu v létě bez chemie 2026", description: "Komáři, mravenci, mouchy – přírodní odpuzovače a sítě bez pesticidů.", url: "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20se%20zbavit%20hmyzu%20bez%20chemie%20%E2%80%93%20p%C5%99%C3%ADrodn%C3%AD%20rady", width: 1200, height: 630, alt: "Jak se zbavit hmyzu bez chemie – přírodní rady" }] },
+  openGraph: { title: "Jak se zbavit hmyzu v létě bez chemie 2026", description: "Komáři, mravenci, mouchy – přírodní odpuzovače a sítě bez pesticidů.", url: "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-13T08:00:00Z", modifiedTime: "2026-04-13T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20se%20zbavit%20hmyzu%20bez%20chemie%20%E2%80%93%20p%C5%99%C3%ADrodn%C3%AD%20rady&cat=blog", width: 1200, height: 630, alt: "Jak se zbavit hmyzu bez chemie – přírodní rady" }] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit hmyzu v létě bez chemie 2026", description: "Komáři, mravenci, mouchy – přírodní odpuzovače a sítě bez pesticidů." },
 };
 

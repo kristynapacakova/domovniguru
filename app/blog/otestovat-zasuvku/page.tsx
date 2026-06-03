@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak otestovat zásuvku – fázová tužka a multimetr",
   description: "Jak zjistit jestli zásuvka funguje a správně zapojená. Fázová tužka, multimetr nebo zkoušečka zásuvek – co použít, jak postupovat a co výsledky znamenají.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/otestovat-zasuvku" },
-  openGraph: { title: "Jak otestovat zásuvku 2026", description: "Fázová tužka, multimetr, zkoušečka – jak otestovat zásuvku krok za krokem.", url: "https://www.domovniguru.cz/blog/otestovat-zasuvku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20otestovat%20z%C3%A1suvku%20%E2%80%93%20f%C3%A1zov%C3%A1%20tu%C5%BEka%20a%20multimetr", width: 1200, height: 630, alt: "Jak otestovat zásuvku – fázová tužka a multimetr" }] },
+  openGraph: { title: "Jak otestovat zásuvku 2026", description: "Fázová tužka, multimetr, zkoušečka – jak otestovat zásuvku krok za krokem.", url: "https://www.domovniguru.cz/blog/otestovat-zasuvku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20otestovat%20z%C3%A1suvku%20%E2%80%93%20f%C3%A1zov%C3%A1%20tu%C5%BEka%20a%20multimetr&cat=blog", width: 1200, height: 630, alt: "Jak otestovat zásuvku – fázová tužka a multimetr" }] },
   twitter: { card: "summary_large_image", title: "Jak otestovat zásuvku 2026", description: "Fázová tužka, multimetr, zkoušečka – jak otestovat zásuvku bezpečně." },
 };
 

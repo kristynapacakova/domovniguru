@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026",
   description: "Jak založit bylinkovou zahrádku na parapetu, balkonu nebo v zahradě. Které bylinky jsou nejjednodušší a jak je sázet.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/bylinkova-zahradka" },
-  openGraph: { title: "Bylinková zahradka – pěstování bylinek doma i venku 2026", description: "Které bylinky pěstovat, jak je sázet a sklízet – zahrádka na parapetu i zahradě.", url: "https://www.domovniguru.cz/blog/bylinkova-zahradka", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Bylinkov%C3%A1%20zahradka%20%E2%80%93%20jak%20p%C4%9Bstovat%20bylinky%20doma%20i%20venku%202026", width: 1200, height: 630, alt: "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026" }] },
+  openGraph: { title: "Bylinková zahradka – pěstování bylinek doma i venku 2026", description: "Které bylinky pěstovat, jak je sázet a sklízet – zahrádka na parapetu i zahradě.", url: "https://www.domovniguru.cz/blog/bylinkova-zahradka", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Bylinkov%C3%A1%20zahradka%20%E2%80%93%20jak%20p%C4%9Bstovat%20bylinky%20doma%20i%20venku%202026&cat=blog", width: 1200, height: 630, alt: "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026" }] },
   twitter: { card: "summary_large_image", title: "Bylinková zahradka 2026", description: "Bylinky doma i venku – jak začít a co pěstovat." },
 };
 

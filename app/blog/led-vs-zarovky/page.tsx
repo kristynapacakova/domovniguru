@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "LED vs. žárovky – co se skutečně vyplatí? Srovnání 2025",
   description: "Srovnání LED a klasických žárovek: spotřeba, životnost, cena a návratnost investice. Kdy se přechod na LED opravdu vyplatí?",
   alternates: { canonical: "https://www.domovniguru.cz/blog/led-vs-zarovky" },
-  openGraph: { title: "LED vs. žárovky – co se skutečně vyplatí?", description: "Spotřeba, životnost, cena a návratnost. Kompletní srovnání.", url: "https://www.domovniguru.cz/blog/led-vs-zarovky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-01T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=LED%20vs.%20%C5%BE%C3%A1rovky%20%E2%80%93%20co%20se%20skute%C4%8Dn%C4%9B%20vyplat%C3%AD%3F%20Srovn%C3%A1n%C3%AD%202025", width: 1200, height: 630, alt: "LED vs. žárovky – co se skutečně vyplatí? Srovnání 2025" }] },
+  openGraph: { title: "LED vs. žárovky – co se skutečně vyplatí?", description: "Spotřeba, životnost, cena a návratnost. Kompletní srovnání.", url: "https://www.domovniguru.cz/blog/led-vs-zarovky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-01T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=LED%20vs.%20%C5%BE%C3%A1rovky%20%E2%80%93%20co%20se%20skute%C4%8Dn%C4%9B%20vyplat%C3%AD%3F%20Srovn%C3%A1n%C3%AD%202025&cat=blog", width: 1200, height: 630, alt: "LED vs. žárovky – co se skutečně vyplatí? Srovnání 2025" }] },
   twitter: { card: "summary_large_image", title: "LED vs. žárovky – co se skutečně vyplatí?", description: "Spotřeba, životnost, cena a návratnost. Kompletní srovnání 2025." },
 };
 

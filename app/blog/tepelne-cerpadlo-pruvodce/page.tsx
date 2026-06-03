@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Tepelné čerpadlo: Průvodce výběrem a úsporami",
   description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám 2026.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce" },
-  openGraph: { title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ.", url: "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Tepeln%C3%A9%20%C4%8Derpadlo%3A%20Pr%C5%AFvodce%20v%C3%BDb%C4%9Brem%20a%20%C3%BAsporami", width: 1200, height: 630, alt: "Tepelné čerpadlo: Průvodce výběrem a úsporami" }] },
+  openGraph: { title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ.", url: "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Tepeln%C3%A9%20%C4%8Derpadlo%3A%20Pr%C5%AFvodce%20v%C3%BDb%C4%9Brem%20a%20%C3%BAsporami&cat=blog", width: 1200, height: 630, alt: "Tepelné čerpadlo: Průvodce výběrem a úsporami" }] },
   twitter: { card: "summary_large_image", title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ." },
 };
 

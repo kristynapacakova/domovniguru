@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Elektrické podlahové topení – typy a instalace",
   description: "Elektrické podlahové topení – topná rohož nebo kabel? Jak se instaluje, kolik stojí provoz a je to lepší než radiátory? Průvodce pro každého kdo to zvažuje.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" },
-  openGraph: { title: "Elektrické podlahové topení 2026", description: "Topná rohož nebo kabel – instalace, provozní náklady a srovnání s radiátory.", url: "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Elektrick%C3%A9%20podlahov%C3%A9%20topen%C3%AD%20%E2%80%93%20typy%20a%20instalace", width: 1200, height: 630, alt: "Elektrické podlahové topení – typy a instalace" }] },
+  openGraph: { title: "Elektrické podlahové topení 2026", description: "Topná rohož nebo kabel – instalace, provozní náklady a srovnání s radiátory.", url: "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Elektrick%C3%A9%20podlahov%C3%A9%20topen%C3%AD%20%E2%80%93%20typy%20a%20instalace&cat=blog", width: 1200, height: 630, alt: "Elektrické podlahové topení – typy a instalace" }] },
   twitter: { card: "summary_large_image", title: "Elektrické podlahové topení 2026", description: "Topná rohož nebo kabel – instalace a provozní náklady podlahového topení." },
 };
 

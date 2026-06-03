@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak vyčistit sifon – krok za krokem",
   description: "Smrdí odpad nebo pomalu odtéká voda? Vyčistěte sifon sami za 10 minut bez chemie. Postup pro umyvadlo, vanu i kuchyňský dřez.",
   alternates: { canonical: "https://www.domovniguru.cz/navody/jak-vycistit-sifon" },
-  openGraph: { title: "Jak vyčistit sifon – krok za krokem", description: "Smrdí odpad nebo pomalu odtéká voda? Vyčistěte sifon sami za 10 minut bez chemie. Postup pro umyvadlo, vanu i kuchyňský dřez.", url: "https://www.domovniguru.cz/navody/jak-vycistit-sifon", type: "article", images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "DomovniGuru" }] },
+  openGraph: { title: "Jak vyčistit sifon – krok za krokem", description: "Smrdí odpad nebo pomalu odtéká voda? Vyčistěte sifon sami za 10 minut bez chemie. Postup pro umyvadlo, vanu i kuchyňský dřez.", url: "https://www.domovniguru.cz/navody/jak-vycistit-sifon", type: "article", images: [{ url: "/api/og?title=Jak%20vy%C4%8Distit%20sifon%20%E2%80%93%20krok%20za%20krokem&cat=navody", width: 1200, height: 630, alt: "Jak vyčistit sifon – krok za krokem" }] },
 };
 
 export default function NavodSifonObsahly() {

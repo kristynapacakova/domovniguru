@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     publishedTime: "2025-01-15T08:00:00Z",
     modifiedTime: "2026-04-12T08:00:00Z",
     authors: ["DomovniGuru"],
-    images: [{ url: "/api/og?title=Jak%20malovat%20ze%C4%8F%20%E2%80%93%20kompletn%C3%AD%20pr%C5%AFvodce%20pro%20za%C4%8D%C3%A1te%C4%8Dn%C3%ADky%202026", width: 1200, height: 630, alt: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026" }],
+    images: [{ url: "/api/og?title=Jak%20malovat%20ze%C4%8F%20%E2%80%93%20kompletn%C3%AD%20pr%C5%AFvodce%20pro%20za%C4%8D%C3%A1te%C4%8Dn%C3%ADky%202026&cat=blog", width: 1200, height: 630, alt: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026" }],
   },
   twitter: {
     card: "summary_large_image",

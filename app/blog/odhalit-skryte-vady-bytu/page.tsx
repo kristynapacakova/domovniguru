@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Jak odhalit skryté vady bytu před koupí – checklist 2026",
   description: "Co zkontrolovat při prohlídce bytu před koupí. Vlhkost, elektrika, topení, hluk, právní vady – kompletní checklist kupce aby nezískal problémovou nemovitost.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu" },
-  openGraph: { title: "Jak odhalit skryté vady bytu před koupí 2026", description: "Checklist kupce – vlhkost, elektrika, topení, hluk a právní vady.", url: "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20odhalit%20skryt%C3%A9%20vady%20bytu%20p%C5%99ed%20koup%C3%AD%20%E2%80%93%20checklist%202026", width: 1200, height: 630, alt: "Jak odhalit skryté vady bytu před koupí – checklist 2026" }] },
+  openGraph: { title: "Jak odhalit skryté vady bytu před koupí 2026", description: "Checklist kupce – vlhkost, elektrika, topení, hluk a právní vady.", url: "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20odhalit%20skryt%C3%A9%20vady%20bytu%20p%C5%99ed%20koup%C3%AD%20%E2%80%93%20checklist%202026&cat=blog", width: 1200, height: 630, alt: "Jak odhalit skryté vady bytu před koupí – checklist 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak odhalit skryté vady bytu 2026", description: "Checklist kupce – co zkontrolovat před koupí bytu." },
 };
 

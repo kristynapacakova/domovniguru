@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Stěhování bez stresu – kompletní checklist 2025",
   description: "Kompletní checklist na stěhování: 6 týdnů před, den D a co udělat po nastěhování. Nic nezapomeneš, nic tě nepřekvapí.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/stehovani-checklist" },
-  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://www.domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=St%C4%9Bhov%C3%A1n%C3%AD%20bez%20stresu%20%E2%80%93%20kompletn%C3%AD%20checklist%202025", width: 1200, height: 630, alt: "Stěhování bez stresu – kompletní checklist 2025" }] },
+  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://www.domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=St%C4%9Bhov%C3%A1n%C3%AD%20bez%20stresu%20%E2%80%93%20kompletn%C3%AD%20checklist%202025&cat=blog", width: 1200, height: 630, alt: "Stěhování bez stresu – kompletní checklist 2025" }] },
   twitter: { card: "summary_large_image", title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování." },
 };
 

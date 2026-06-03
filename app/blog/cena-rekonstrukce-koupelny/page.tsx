@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Kolik stojí rekonstrukce koupelny – ceny 2026",
   description: "Průměrné ceny rekonstrukce koupelny v roce 2026. Materiál, práce, sanitární vybavení – co ovlivňuje cenu a jak ušetřit bez kompromisů na kvalitě.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny" },
-  openGraph: { title: "Kolik stojí rekonstrukce koupelny 2026", description: "Průměrné ceny rekonstrukce koupelny – materiál, práce a sanitární vybavení.", url: "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Kolik%20stoj%C3%AD%20rekonstrukce%20koupelny%20%E2%80%93%20ceny%202026", width: 1200, height: 630, alt: "Kolik stojí rekonstrukce koupelny – ceny 2026" }] },
+  openGraph: { title: "Kolik stojí rekonstrukce koupelny 2026", description: "Průměrné ceny rekonstrukce koupelny – materiál, práce a sanitární vybavení.", url: "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Kolik%20stoj%C3%AD%20rekonstrukce%20koupelny%20%E2%80%93%20ceny%202026&cat=blog", width: 1200, height: 630, alt: "Kolik stojí rekonstrukce koupelny – ceny 2026" }] },
   twitter: { card: "summary_large_image", title: "Kolik stojí rekonstrukce koupelny 2026", description: "Průměrné ceny rekonstrukce koupelny – materiál, práce a vybavení." },
 };
 
