@@ -9,7 +9,7 @@ const BLOG_SLUGS = [
   "latexova-vs-akrylatova-barva",
   "jak-odstranit-starou-barvu",
   "jak-malovat-rohy-a-listy",
-  "barva-do-vlhkych-prostor",
+  "barva-do-vlhkych-prostoru",
   "malovat-pres-tmavou-barvu",
   "penetrace-pred-malovanim",
   "jak-odstranit-plisen-na-zdi",
@@ -153,8 +153,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/kolik-betonu`,   changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-tapet`,    changeFrequency: "monthly", priority: 0.7 },
     // Návody
-    { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/navody/jak-odvzdusnit-radiator`,    changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`,   changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/navody/jak-odvzdusnit-radiator`,       changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/navody/jak-vycistit-sifon`,            changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/navody/jak-nastavit-okna-na-zimu`,     changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/navody/jak-vycistit-spary-v-dlazbe`,   changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/navody/jak-vymenit-zasuvku`,           changeFrequency: "monthly", priority: 0.7 },
+    // Checklisty
+    { url: `${BASE}/checklisty`,                           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/checklisty/jarni-udrzba`,              changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/checklisty/priprava-na-zimu`,          changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/checklisty/stehovani`,                 changeFrequency: "monthly", priority: 0.7 },
+    // Kalkulačky (rozšířeno)
+    { url: `${BASE}/kalkulacky/tepelna-izolace`,           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/led-uspora`,                changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/tepelne-cerpadlo`,          changeFrequency: "monthly", priority: 0.7 },
     // Všechny články
     ...blogUrls,
   ];

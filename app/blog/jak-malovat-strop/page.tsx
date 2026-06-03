@@ -5,11 +5,38 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak malovat strop bez šmouh: Kompletní průvodce 2026",
   description: "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-strop" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.domovniguru.cz/blog/jak-malovat-strop#article",
+      "headline": "Jak malovat strop bez šmouh",
+      "description": "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+      "datePublished": "2025-01-10T08:00:00Z",
+      "dateModified": "2025-03-01T08:00:00Z",
+      "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "inLanguage": "cs",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+        { "@type": "ListItem", "position": 3, "name": "Jak malovat strop bez šmouh", "item": "https://www.domovniguru.cz/blog/jak-malovat-strop" },
+      ],
+    },
+  ],
 };
 
 export default function MalovaniStropuPage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
     <div className="wrap" style={{ padding: "40px 0" }}>
       <article className="article-body" style={{ maxWidth: "800px", margin: "0 auto" }}>
         
