@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem | DomovniGuru",
   description: "Výměna elektrické zásuvky svépomocí: vypni jistič, odšroubuj, přepoj vodiče. Bezpečný postup bez elektrikáře za 25 minut.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-vymenit-zasuvku" },
+  alternates: { canonical: "https://www.domovniguru.cz/navody/jak-vymenit-zasuvku" },
 };
 
 export default function JakVymenit_Zasuvku() {

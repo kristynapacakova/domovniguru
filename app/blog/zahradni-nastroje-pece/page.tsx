@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Zahradní nástroje – jak o ně pečovat, aby vydržely 2025",
   description: "Dobré zahradní nástroje vydrží desítky let – ale jen pokud o ně pečuješ. Čištění, broušení, mazání a skladování krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/zahradni-nastroje-pece" },
-  openGraph: { title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování. Nástroje které vydrží desítky let.", url: "https://domovniguru.cz/blog/zahradni-nastroje-pece", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece" },
+  openGraph: { title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování. Nástroje které vydrží desítky let.", url: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/zahradni-nastroje-pece#article", "headline": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "datePublished": "2025-03-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["péče o zahradní nástroje", "broušení nářadí", "čištění zahradního nářadí", "údržba lopaty", "mazání nářadí"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#article", "headline": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "datePublished": "2025-03-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["péče o zahradní nástroje", "broušení nářadí", "čištění zahradního nářadí", "údržba lopaty", "mazání nářadí"] }] };
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },

@@ -1,31 +1,5 @@
 import type { NextConfig } from "next";
 
-const CSP = [
-  "default-src 'self'",
-  // Next.js inline scripts + Google Analytics + AdSense (připraveno pro budoucí monetizaci)
-  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com",
-  // Inline styly jsou v projektu hojně používány; fonty jsou self-hostovány (next/font)
-  "style-src 'self' 'unsafe-inline'",
-  // Obrázky: self + data: URI (SVG favicon, inline grafy) + jakékoli HTTPS
-  "img-src 'self' data: https:",
-  // Fonty jsou self-hostovány, žádná externí závislost
-  "font-src 'self'",
-  // GA4 beacony
-  "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://stats.g.doubleclick.net",
-  // AdSense iframy
-  "frame-src https://www.google.com https://googleads.g.doubleclick.net https://bid.g.doubleclick.net",
-  // Zakazuje Flash, ActiveX a jiné pluginy
-  "object-src 'none'",
-  // Brání base-tag injection (přesměrování relativních URL)
-  "base-uri 'self'",
-  // Omezuje cíl formulářů
-  "form-action 'self'",
-  // Brání vložení webu do cizích frame/iframe (silnější než X-Frame-Options)
-  "frame-ancestors 'self'",
-  // HTTP požadavky uvnitř stránky automaticky přepíše na HTTPS
-  "upgrade-insecure-requests",
-].join("; ");
-
 const nextConfig: NextConfig = {
   async redirects() {
     return [
@@ -58,13 +32,12 @@ const nextConfig: NextConfig = {
       {
         source: "/(.*)",
         headers: [
-          { key: "Content-Security-Policy", value: CSP },
-          { key: "X-DNS-Prefetch-Control", value: "on" },
+          { key: "X-DNS-Prefetch-Control",  value: "on" },
           { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
-          { key: "X-Frame-Options", value: "SAMEORIGIN" },
-          { key: "X-Content-Type-Options", value: "nosniff" },
-          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
+          { key: "X-Frame-Options",           value: "SAMEORIGIN" },
+          { key: "X-Content-Type-Options",    value: "nosniff" },
+          { key: "Referrer-Policy",           value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy",        value: "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
         ],
       },
     ];

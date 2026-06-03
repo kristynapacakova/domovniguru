@@ -5,7 +5,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak nasilikonovat vanu jako profík: Návod krok za krokem 2026",
   description: "Plesnivé rohy nebo zatékání za vanu? Naučte se, jak starý silikon odstranit, odmastit spáry a nanést nový tmel tak, aby vydržel roky.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-utesnit-vanu-silikonem" },
+  alternates: { canonical: "https://www.domovniguru.cz/navody/jak-utesnit-vanu-silikonem" },
 };
 
 export default function NavodSilikon() {
@@ -42,7 +42,7 @@ export default function NavodSilikon() {
             </p>
             <div style={{ marginTop: "20px" }}>
                <ShareButtons 
-                url="https://domovniguru.cz/navody/jak-utesnit-vanu-silikonem" 
+                url="https://www.domovniguru.cz/navody/jak-utesnit-vanu-silikonem" 
                 title="Jak nasilikonovat vanu jako profík 2026" 
                />
             </div>

@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak utěsnit okna na zimu – přehled metod a co skutečně funguje 2025",
   description: "Průvan u oken zvyšuje účty za topení. Přehled metod utěsnění: těsnicí pásky, kity, fólie a přenastavení plastových oken. Co funguje a co nestojí za to.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-utesnit-okna-na-zimu" },
-  openGraph: { title: "Jak utěsnit okna na zimu – přehled metod", description: "Průvan u oken? Přehled metod utěsnění, co funguje a jak na to.", url: "https://domovniguru.cz/blog/jak-utesnit-okna-na-zimu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-09-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu" },
+  openGraph: { title: "Jak utěsnit okna na zimu – přehled metod", description: "Průvan u oken? Přehled metod utěsnění, co funguje a jak na to.", url: "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-09-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak utěsnit okna na zimu", description: "Průvan u oken? Přehled metod utěsnění, co funguje." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article", "headline": "Jak utěsnit okna na zimu – přehled metod", "datePublished": "2025-09-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article", "headline": "Jak utěsnit okna na zimu – přehled metod", "datePublished": "2025-09-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"] }] };
 
 const RELATED = [
   { title: "Jak připravit dům na zimu – kompletní checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },

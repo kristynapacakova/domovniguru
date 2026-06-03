@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak zapojit nové světlo na strop – L, N, PE vodiče 2025",
   description: "Krabice, L, N, PE vodiče – správné zapojení stropního svítidla krok za krokem. Bezpečně a bez elektrikáře.",
-  alternates: { canonical: "https://domovniguru.cz/blog/zapojit-svetlo-na-strop" },
-  openGraph: { title: "Jak zapojit nové světlo na strop", description: "L, N, PE vodiče – správné zapojení krok za krokem.", url: "https://domovniguru.cz/blog/zapojit-svetlo-na-strop", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-28T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop" },
+  openGraph: { title: "Jak zapojit nové světlo na strop", description: "L, N, PE vodiče – správné zapojení krok za krokem.", url: "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-28T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/zapojit-svetlo-na-strop#article", "headline": "Jak zapojit nové světlo na strop", "datePublished": "2025-01-28T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop#article", "headline": "Jak zapojit nové světlo na strop", "datePublished": "2025-01-28T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
 
 const RELATED = [
   { title: "Jak vyměnit vypínač světla", href: "/blog/jak-vymenit-vypinac", read: "4 min" },

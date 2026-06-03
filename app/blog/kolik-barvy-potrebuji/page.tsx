@@ -5,12 +5,12 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 export const metadata: Metadata = {
   title: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025",
   description: "Spočítej přesné množství barvy na místnost. Vzorec, tabulka spotřeby a tipy jak nekoupit zbytečně moc nebo málo.",
-  alternates: { canonical: "https://domovniguru.cz/blog/kolik-barvy-potrebuji" },
-  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" },
+  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Kolik barvy potřebuji?", description: "Vzorec, tabulka spotřeby a tipy." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/kolik-barvy-potrebuji#article", "headline": "Kolik barvy potřebuji? Kalkulačka + vzorec", "datePublished": "2025-01-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["kolik barvy potřebuji", "kalkulačka barvy", "spotřeba barvy na m2", "výpočet barvy na zeď"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji#article", "headline": "Kolik barvy potřebuji? Kalkulačka + vzorec", "datePublished": "2025-01-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["kolik barvy potřebuji", "kalkulačka barvy", "spotřeba barvy na m2", "výpočet barvy na zeď"] }] };
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },

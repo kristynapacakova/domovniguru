@@ -5,12 +5,12 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026",
   description: "Jak postavit vyvýšený záhon, jaký materiál vybrat, jak správně vrstvit substráty a co sázet. Praktický průvodce pro začátečníky i zkušené zahradníky.",
-  alternates: { canonical: "https://domovniguru.cz/blog/vyvysene-zahony" },
-  openGraph: { title: "Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026", description: "Materiály, vrstvení, výsadba a péče. Vše co potřebuješ vědět o vyvýšených záhonech.", url: "https://domovniguru.cz/blog/vyvysene-zahony", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-20T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/vyvysene-zahony" },
+  openGraph: { title: "Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026", description: "Materiály, vrstvení, výsadba a péče. Vše co potřebuješ vědět o vyvýšených záhonech.", url: "https://www.domovniguru.cz/blog/vyvysene-zahony", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-20T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026", description: "Materiály, vrstvení, výsadba a péče o vyvýšené záhony." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/vyvysene-zahony#article", "headline": "Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-20T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["vyvýšený záhon", "jak postavit vyvýšený záhon", "vrstvení vyvýšeného záhonu", "vyvýšený záhon materiál", "co sázet do vyvýšeného záhonu"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/vyvysene-zahony#article", "headline": "Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-20T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["vyvýšený záhon", "jak postavit vyvýšený záhon", "vrstvení vyvýšeného záhonu", "vyvýšený záhon materiál", "co sázet do vyvýšeného záhonu"] }] };
 
 const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
@@ -45,7 +45,7 @@ export default function ArticlePage() {
               <p className="article-lead">Vyvýšený záhon ti dá o 30 % vyšší úrodu, méně plevelů a žádné bolesti zad. Ukážeme ti jak vybrat materiál, správně vrstvit substráty a co sázet, aby záhon fungoval od první sezóny.</p>
               <div className="article-meta-row"><span>Aktualizováno: 20. března 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
-                url="https://domovniguru.cz/blog/vyvysene-zahony"
+                url="https://www.domovniguru.cz/blog/vyvysene-zahony"
                 title="Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026"
               />
             </header>
@@ -410,7 +410,7 @@ export default function ArticlePage() {
 
             {/* SHARE BOTTOM */}
             <ShareButtons
-              url="https://domovniguru.cz/blog/vyvysene-zahony"
+              url="https://www.domovniguru.cz/blog/vyvysene-zahony"
               title="Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň 2026"
             />
 

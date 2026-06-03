@@ -5,12 +5,12 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 export const metadata: Metadata = {
   title: "Jak vymalovat byt před stěhováním – průvodce a načasování 2025",
   description: "Malovat před nebo po stěhování? Jak vymalovat prázdný byt efektivně, v jakém pořadí a co neopomenout. Průvodce krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/malovani-pred-stehovani" },
-  openGraph: { title: "Jak vymalovat byt před stěhováním – průvodce a načasování", description: "Malovat před nebo po stěhování? Jak na to efektivně.", url: "https://domovniguru.cz/blog/malovani-pred-stehovani", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-22T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/malovani-pred-stehovani" },
+  openGraph: { title: "Jak vymalovat byt před stěhováním – průvodce a načasování", description: "Malovat před nebo po stěhování? Jak na to efektivně.", url: "https://www.domovniguru.cz/blog/malovani-pred-stehovani", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-22T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak vymalovat byt před stěhováním", description: "Průvodce a načasování. Malovat před nebo po stěhování?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/malovani-pred-stehovani#article", "headline": "Jak vymalovat byt před stěhováním – průvodce a načasování", "datePublished": "2025-02-22T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat před stěhováním", "malování prázdného bytu", "jak vymalovat byt", "malování při stěhování"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#article", "headline": "Jak vymalovat byt před stěhováním – průvodce a načasování", "datePublished": "2025-02-22T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat před stěhováním", "malování prázdného bytu", "jak vymalovat byt", "malování při stěhování"] }] };
 
 const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },

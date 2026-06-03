@@ -126,7 +126,7 @@ export default function MalovaniStropuPage() {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
              <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2d4a22", fontWeight: 700, textDecoration: "none", borderBottom: "2px solid #2d4a22" }}>← Spočítat spotřebu barvy</Link>
              {/* Opravený Share odkaz bez "vy" */}
-             <ShareButtons url="https://domovniguru.cz/blog/jak-malovat-strop" title="Jak malovat strop bez šmouh" />
+             <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-strop" title="Jak malovat strop bez šmouh" />
           </div>
         </footer>
       </article>

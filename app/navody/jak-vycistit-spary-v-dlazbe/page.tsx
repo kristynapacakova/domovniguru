@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak vyčistit spáry v dlažbě – bez drhnutí | DomovniGuru",
   description: "Zčernalé spáry v koupelně nebo kuchyni? Jednoduché metody bez agresivní chemie – soda, ocet, kyslíkové bělení. Funguje.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-vycistit-spary-v-dlazbe" },
+  alternates: { canonical: "https://www.domovniguru.cz/navody/jak-vycistit-spary-v-dlazbe" },
 };
 
 export default function JakVycistitSparyVDlazbe() {

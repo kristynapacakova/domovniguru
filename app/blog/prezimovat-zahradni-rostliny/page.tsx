@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak přezimovat zahradní rostliny – co, kdy a jak 2025",
   description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce přezimováním zahradních rostlin krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/prezimovat-zahradni-rostliny" },
-  openGraph: { title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce.", url: "https://domovniguru.cz/blog/prezimovat-zahradni-rostliny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny" },
+  openGraph: { title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce.", url: "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/prezimovat-zahradni-rostliny#article", "headline": "Jak přezimovat zahradní rostliny – co, kdy a jak", "datePublished": "2025-03-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["prezimovat zahradní rostliny", "přezimování rostlin", "ochrana rostlin před mrazem", "zimní zakrytí keřů", "rostliny na zimu"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny#article", "headline": "Jak přezimovat zahradní rostliny – co, kdy a jak", "datePublished": "2025-03-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["prezimovat zahradní rostliny", "přezimování rostlin", "ochrana rostlin před mrazem", "zimní zakrytí keřů", "rostliny na zimu"] }] };
 
 const RELATED = [
   { title: "Jak stříhat keře – průvodce pro každého", href: "/blog/jak-strihat-kere", read: "4 min" },

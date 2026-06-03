@@ -4,16 +4,16 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2025",
   description: "Balkon jako venkovní obývák: výběr podlahy, nábytek do malého prostoru, rostliny do nádob. Praktický průvodce pro každý balkon.",
-  alternates: { canonical: "https://domovniguru.cz/blog/terasa-na-balkone" },
-  openGraph: { title: "Jak zařídit terasu na balkóně", description: "Podlaha, nábytek, rostliny – balkon jako druhý obývák.", url: "https://domovniguru.cz/blog/terasa-na-balkone", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-12T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/terasa-na-balkone" },
+  openGraph: { title: "Jak zařídit terasu na balkóně", description: "Podlaha, nábytek, rostliny – balkon jako druhý obývák.", url: "https://www.domovniguru.cz/blog/terasa-na-balkone", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-12T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Terasa na balkóně", description: "Jak zařídit balkon jako venkovní obývák." },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Article", "@id": "https://domovniguru.cz/blog/terasa-na-balkone#article", "headline": "Jak zařídit terasu na balkóně", "datePublished": "2025-02-12T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" },
-    { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://domovniguru.cz/blog/kategorie/zahrada" }, { "@type": "ListItem", "position": 4, "name": "Terasa na balkóně", "item": "https://domovniguru.cz/blog/terasa-na-balkone" }] },
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/terasa-na-balkone#article", "headline": "Jak zařídit terasu na balkóně", "datePublished": "2025-02-12T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" },
+    { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" }, { "@type": "ListItem", "position": 4, "name": "Terasa na balkóně", "item": "https://www.domovniguru.cz/blog/terasa-na-balkone" }] },
   ],
 };
 

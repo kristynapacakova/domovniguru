@@ -5,12 +5,12 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)",
   description: "Mechanické vytrhávání, vroucí voda, ocet a plamen. Kompletní průvodce likvidací plevele bez herbicidů – bezpečně pro lidi, zvířata i půdu.",
-  alternates: { canonical: "https://domovniguru.cz/blog/zbavit-se-plevele-bez-chemie" },
-  openGraph: { title: "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", description: "Vroucí voda, ocet, mechanické vytrhávání. Průvodce likvidací plevele bez chemie.", url: "https://domovniguru.cz/blog/zbavit-se-plevele-bez-chemie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie" },
+  openGraph: { title: "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", description: "Vroucí voda, ocet, mechanické vytrhávání. Průvodce likvidací plevele bez chemie.", url: "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-03-21T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak se zbavit plevele bez chemie 2026", description: "Vroucí voda, ocet, mechanicky. Průvodce bez herbicidů." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#article", "headline": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak se zbavit plevele bez chemie", "plevel v travniku", "plevel v dlazbe", "ocet na plevel", "mulcovani plevele", "vyryvak plevele"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#article", "headline": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak se zbavit plevele bez chemie", "plevel v travniku", "plevel v dlazbe", "ocet na plevel", "mulcovani plevele", "vyryvak plevele"] }] };
 
 const RELATED = [
   { title: "Jak správně sekat trávník – průvodce pro hustý pažit", href: "/blog/jak-sekat-travnik", read: "8 min" },
@@ -45,7 +45,7 @@ export default function ArticlePage() {
               <p className="article-lead">Herbicidy jsou rychlé, ale ničí půdní mikrobiom, ohrožují děti a domácí zvířata a jejich efekt je dočasný. Tyhle přírodní metody jsou pomalejší — ale trvalejší, bezpečné a většinu zvládneš s tím co doma máš.</p>
               <div className="article-meta-row"><span>Aktualizováno: 21. března 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
-                url="https://domovniguru.cz/blog/zbavit-se-plevele-bez-chemie"
+                url="https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie"
                 title="Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)"
               />
             </header>
@@ -428,7 +428,7 @@ export default function ArticlePage() {
 
             {/* SHARE BOTTOM */}
             <ShareButtons
-              url="https://domovniguru.cz/blog/zbavit-se-plevele-bez-chemie"
+              url="https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie"
               title="Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)"
             />
 

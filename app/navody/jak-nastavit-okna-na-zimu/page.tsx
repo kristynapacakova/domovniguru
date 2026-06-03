@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak nastavit okna na zimu – přetočení kování krok za krokem | DomovniGuru",
   description: "Nastavení oken na zimní režim: přetočení kování, seřízení těsnění, teplejší byt a nižší účty. Zvládnete sami za 15 minut.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-nastavit-okna-na-zimu" },
+  alternates: { canonical: "https://www.domovniguru.cz/navody/jak-nastavit-okna-na-zimu" },
 };
 
 export default function JakNastavitOknaNaZimu() {

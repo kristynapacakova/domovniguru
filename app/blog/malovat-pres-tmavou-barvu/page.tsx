@@ -5,12 +5,12 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 export const metadata: Metadata = {
   title: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2025",
   description: "Tmavá zeď pod světlou barvou? Bez správného postupu budou šmouhy. Tady je jak to vyřešit napoprvé.",
-  alternates: { canonical: "https://domovniguru.cz/blog/malovat-pres-tmavou-barvu" },
-  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" },
+  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/malovat-pres-tmavou-barvu#article", "headline": "Jak malovat přes tmavou barvu na světlo", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat přes tmavou barvu", "přemalovat tmavou zeď", "světlá barva přes tmavou", "zakrývací základní nátěr"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu#article", "headline": "Jak malovat přes tmavou barvu na světlo", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat přes tmavou barvu", "přemalovat tmavou zeď", "světlá barva přes tmavou", "zakrývací základní nátěr"] }] };
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },

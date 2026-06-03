@@ -5,12 +5,12 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 export const metadata: Metadata = {
   title: "Jak odstranit starou barvu ze zdi – škrabka, teplo nebo chemie 2025",
   description: "Škrabka, teplovzdušná pistole nebo chemický odstraňovač? Srovnání metod a postup krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-odstranit-starou-barvu" },
-  openGraph: { title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie? Správná metoda pro každý případ.", url: "https://domovniguru.cz/blog/jak-odstranit-starou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu" },
+  openGraph: { title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie? Správná metoda pro každý případ.", url: "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-odstranit-starou-barvu#article", "headline": "Jak odstranit starou barvu ze zdi", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit starou barvu", "stará barva ze zdi", "teplovzdušná pistole barva", "chemický odstraňovač barvy"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu#article", "headline": "Jak odstranit starou barvu ze zdi", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit starou barvu", "stará barva ze zdi", "teplovzdušná pistole barva", "chemický odstraňovač barvy"] }] };
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },

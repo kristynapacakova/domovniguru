@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Proč mi vypadává jistič? Přetížení, zkrat nebo vadný spotřebič 2025",
   description: "Jistič vypadává opakovaně? Zjisti proč – přetížení okruhu, zkrat nebo vadný spotřebič. Postup diagnostiky krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/proc-vypadava-jistic" },
-  openGraph: { title: "Proč mi vypadává jistič?", description: "Přetížení, zkrat nebo vadný spotřebič – jak zjistit příčinu.", url: "https://domovniguru.cz/blog/proc-vypadava-jistic", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/proc-vypadava-jistic" },
+  openGraph: { title: "Proč mi vypadává jistič?", description: "Přetížení, zkrat nebo vadný spotřebič – jak zjistit příčinu.", url: "https://www.domovniguru.cz/blog/proc-vypadava-jistic", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Proč mi vypadává jistič?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Proč mi vypadává jistič?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
 
 const RELATED = [
   { title: "Jak zapojit nové světlo na strop", href: "/blog/zapojit-svetlo-na-strop", read: "5 min" },

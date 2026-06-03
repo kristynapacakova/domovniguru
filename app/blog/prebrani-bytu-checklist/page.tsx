@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Co zkontrolovat při přebírání nového bytu – checklist 2025",
   description: "Přebíráš nový byt nebo dům? Kompletní checklist co zkontrolovat: elektrika, voda, topení, okna, stěny, dokumenty. Nic nezapomeneš.",
-  alternates: { canonical: "https://domovniguru.cz/blog/prebrani-bytu-checklist" },
-  openGraph: { title: "Co zkontrolovat při přebírání nového bytu – checklist", description: "Elektrika, voda, topení, okna, dokumenty. Kompletní checklist.", url: "https://domovniguru.cz/blog/prebrani-bytu-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist" },
+  openGraph: { title: "Co zkontrolovat při přebírání nového bytu – checklist", description: "Elektrika, voda, topení, okna, dokumenty. Kompletní checklist.", url: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Co zkontrolovat při přebírání nového bytu", description: "Kompletní checklist pro přebírání bytu nebo domu." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/prebrani-bytu-checklist#article", "headline": "Co zkontrolovat při přebírání nového bytu – checklist", "datePublished": "2025-02-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["přebírání bytu checklist", "co zkontrolovat v novém bytě", "předávací protokol byt", "přebírání nemovitosti"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#article", "headline": "Co zkontrolovat při přebírání nového bytu – checklist", "datePublished": "2025-02-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["přebírání bytu checklist", "co zkontrolovat v novém bytě", "předávací protokol byt", "přebírání nemovitosti"] }] };
 
 const RELATED = [
   { title: "Stěhování bez stresu – kompletní checklist", href: "/blog/stehovani-checklist", read: "5 min" },

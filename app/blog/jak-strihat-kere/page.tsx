@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak stříhat keře – průvodce pro každého 2025",
   description: "Kdy, jak a čím stříhat okrasné i ovocné keře. Správný řez prodlouží život keře a zdvojnásobí kvetení.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-strihat-kere" },
-  openGraph: { title: "Jak stříhat keře – průvodce pro každého", description: "Kdy, jak a čím stříhat okrasné i ovocné keře.", url: "https://domovniguru.cz/blog/jak-strihat-kere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-strihat-kere" },
+  openGraph: { title: "Jak stříhat keře – průvodce pro každého", description: "Kdy, jak a čím stříhat okrasné i ovocné keře.", url: "https://www.domovniguru.cz/blog/jak-strihat-kere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak stříhat keře", description: "Kdy, jak a čím stříhat okrasné i ovocné keře." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-strihat-kere#article", "headline": "Jak stříhat keře – průvodce pro každého", "datePublished": "2025-03-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak stříhat keře", "řez keřů", "kdy stříhat keře", "stříhání živého plotu", "řez růží"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#article", "headline": "Jak stříhat keře – průvodce pro každého", "datePublished": "2025-03-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak stříhat keře", "řez keřů", "kdy stříhat keře", "stříhání živého plotu", "řez růží"] }] };
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },

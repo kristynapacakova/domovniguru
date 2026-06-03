@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak vyčistit sifon – krok za krokem | DomovniGuru",
   description: "Smrdí odpad nebo pomalu odtéká voda? Vyčistěte sifon sami za 10 minut bez chemie. Postup pro umyvadlo, vanu i kuchyňský dřez.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-vycistit-sifon" },
+  alternates: { canonical: "https://www.domovniguru.cz/navody/jak-vycistit-sifon" },
 };
 
 export default function NavodSifonObsahly() {

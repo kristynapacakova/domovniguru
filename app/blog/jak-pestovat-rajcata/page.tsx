@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak pěstovat rajčata – od výsevu po sklizeň 2025",
   description: "Rajčata zvládne vypěstovat každý – ale bez pár základních pravidel skončíš s prázdnými stonky nebo plísní. Kompletní průvodce od výsevu až po sklizeň.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-pestovat-rajcata" },
-  openGraph: { title: "Jak pěstovat rajčata – od výsevu po sklizeň", description: "Kompletní průvodce pěstováním rajčat. Od výsevu přes přesazování až po sklizeň.", url: "https://domovniguru.cz/blog/jak-pestovat-rajcata", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-10T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-pestovat-rajcata" },
+  openGraph: { title: "Jak pěstovat rajčata – od výsevu po sklizeň", description: "Kompletní průvodce pěstováním rajčat. Od výsevu přes přesazování až po sklizeň.", url: "https://www.domovniguru.cz/blog/jak-pestovat-rajcata", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-10T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak pěstovat rajčata", description: "Od výsevu po sklizeň – kompletní průvodce." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-pestovat-rajcata#article", "headline": "Jak pěstovat rajčata – od výsevu po sklizeň", "datePublished": "2025-03-10T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak pěstovat rajčata", "pěstování rajčat", "výsev rajčat", "rajčata na balkóně", "kdy sázet rajčata"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata#article", "headline": "Jak pěstovat rajčata – od výsevu po sklizeň", "datePublished": "2025-03-10T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak pěstovat rajčata", "pěstování rajčat", "výsev rajčat", "rajčata na balkóně", "kdy sázet rajčata"] }] };
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
