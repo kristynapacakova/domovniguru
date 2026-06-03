@@ -16,11 +16,6 @@ export async function GET(request: Request) {
   const cat = (searchParams.get("cat") ?? "default").toLowerCase();
   const theme = CATEGORY_THEMES[cat] ?? CATEGORY_THEMES.default;
 
-  const [serifFont, sansFont] = await Promise.all([
-    fetch("https://fonts.gstatic.com/s/dmserifdisplay/v15/-nFnOHM81r4j6k0gjALR8uVHHTwUhkIBGZOT.woff").then((r) => r.arrayBuffer()),
-    fetch("https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2").then((r) => r.arrayBuffer()),
-  ]);
-
   const fontSize = title.length > 60 ? 52 : title.length > 40 ? 60 : 68;
 
   return new ImageResponse(
@@ -34,6 +29,7 @@ export async function GET(request: Request) {
           background: theme.bg,
           position: "relative",
           overflow: "hidden",
+          fontFamily: "Georgia, serif",
         }}
       >
         {/* Diagonal texture lines */}
@@ -52,7 +48,7 @@ export async function GET(request: Request) {
           }}
         />
 
-        {/* Large decorative circle background */}
+        {/* Large decorative circle */}
         <div
           style={{
             position: "absolute",
@@ -78,7 +74,7 @@ export async function GET(request: Request) {
           }}
         />
 
-        {/* Bottom left decorative arc */}
+        {/* Bottom left arc */}
         <div
           style={{
             position: "absolute",
@@ -92,7 +88,7 @@ export async function GET(request: Request) {
           }}
         />
 
-        {/* Accent left border */}
+        {/* Left accent bar */}
         <div
           style={{
             position: "absolute",
@@ -115,7 +111,7 @@ export async function GET(request: Request) {
             position: "relative",
           }}
         >
-          {/* Top row: logo + category badge */}
+          {/* Logo + badge */}
           <div
             style={{
               display: "flex",
@@ -132,11 +128,11 @@ export async function GET(request: Request) {
                 fontSize: "22px",
                 fontWeight: 700,
                 color: "rgba(255,255,255,0.9)",
-                fontFamily: "Inter, system-ui, sans-serif",
+                fontFamily: "Georgia, serif",
                 letterSpacing: "-0.3px",
               }}
             >
-              🐼 Domovni<span style={{ display: "flex", color: theme.accent }}>Guru</span>
+              🐼 DomovniGuru
             </div>
 
             {theme.label ? (
@@ -151,7 +147,7 @@ export async function GET(request: Request) {
                   padding: "7px 18px",
                   borderRadius: "4px",
                   textTransform: "uppercase",
-                  fontFamily: "Inter, system-ui, sans-serif",
+                  fontFamily: "Georgia, serif",
                 }}
               >
                 {theme.label}
@@ -159,13 +155,13 @@ export async function GET(request: Request) {
             ) : null}
           </div>
 
-          {/* Main title */}
+          {/* Title */}
           <div
             style={{
               fontSize: `${fontSize}px`,
               lineHeight: 1.15,
               color: "#ffffff",
-              fontFamily: "DM Serif Display, Georgia, serif",
+              fontFamily: "Georgia, serif",
               letterSpacing: "-1px",
               maxWidth: "950px",
               marginTop: "auto",
@@ -188,7 +184,7 @@ export async function GET(request: Request) {
               style={{
                 fontSize: "18px",
                 color: theme.accent,
-                fontFamily: "Inter, system-ui, sans-serif",
+                fontFamily: "Georgia, serif",
                 letterSpacing: "0.04em",
                 fontWeight: 600,
               }}
@@ -196,7 +192,6 @@ export async function GET(request: Request) {
               domovniguru.cz
             </div>
 
-            {/* Decorative dots */}
             <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
               {[1, 2, 3].map((i) => (
                 <div
@@ -218,18 +213,6 @@ export async function GET(request: Request) {
     {
       width: 1200,
       height: 630,
-      fonts: [
-        {
-          name: "DM Serif Display",
-          data: serifFont,
-          style: "normal",
-        },
-        {
-          name: "Inter",
-          data: sansFont,
-          style: "normal",
-        },
-      ],
     }
   );
 }
