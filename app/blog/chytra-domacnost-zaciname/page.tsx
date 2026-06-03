@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025",
   description: "Chytré zásuvky, žárovky a reproduktory bez vrtání a elektrikáře. Jak začít s chytrou domácností za pár stovek.",
-  alternates: { canonical: "https://domovniguru.cz/blog/chytra-domacnost-zaciname" },
-  openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://domovniguru.cz/blog/chytra-domacnost-zaciname", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" },
+  openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs" }] };
 
 const RELATED = [
   { title: "Jak vybrat správnou LED žárovku", href: "/blog/jak-vybrat-led-zarovku", read: "5 min" },
@@ -115,6 +115,7 @@ export default function ArticlePage() {
                 <li><a href="#protokoly">Zigbee, Z-Wave nebo WiFi?</a></li>
                 <li><a href="#hub">Potřebuji hub?</a></li>
                 <li><a href="#tipy">Tipy pro začátečníky</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -175,6 +176,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Musím mít hub (centrální jednotku) pro chytrou domácnost?", a: "Pro začátek ne. WiFi zařízení fungují přímo přes domácí síť bez hubu. Hub oceníš až při více než 20–30 zařízeních nebo pokud chceš Zigbee/Z-Wave produkty." },
+                  { q: "Jaká je nejlevnější cesta jak začít s chytrou domácností?", a: "Chytrá žárovka za 200–500 Kč nebo chytrá zásuvka za 300–600 Kč. Žádná rekonstrukce, žádný elektrikář – jen vyšroubuj starou žárovku nebo zasuň zásuvku do stěnové." },
+                  { q: "Jsou chytrá WiFi zařízení bezpečná?", a: "Základní bezpečnost: změň výchozí hesla ke každému zařízení, pravidelně aktualizuj firmware a ideálně vytvoř oddělená IoT síť (host network). Levná čínská zařízení mají méně spolehlivé bezpečnostní záplaty." },
+                  { q: "Fungují chytrá zařízení bez internetu?", a: "WiFi zařízení bez internetu nefungují – potřebují cloudové servery výrobce. Výjimkou jsou zařízení s lokálním řízením (Home Assistant, některé Zigbee produkty), která fungují i při výpadku internetu." },
+                  { q: "Co je Matter a proč se o něm mluví?", a: "Matter je nový universální standard pro chytrá zařízení, který zajišťuje kompatibilitu mezi různými ekosystémy (Apple, Google, Amazon, Samsung). Nová zařízení s Matter certifikací fungují s kteroukoli platformou – nemusíš si vybírat jeden ekosystém." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -198,6 +217,7 @@ export default function ArticlePage() {
                 <li><a href="#protokoly">Zigbee, Z-Wave, WiFi</a></li>
                 <li><a href="#hub">Potřebuji hub?</a></li>
                 <li><a href="#tipy">Tipy pro začátečníky</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -250,6 +270,13 @@ export default function ArticlePage() {
         .sidebar-cat-link:hover{color:var(--muted)}
         .sidebar-cat-link span{font-size:12px;color:var(--muted)}
         @media(max-width:960px){.article-layout{grid-template-columns:1fr;gap:0}.article-sidebar{position:static;margin-top:40px}.related-grid{grid-template-columns:1fr}}
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

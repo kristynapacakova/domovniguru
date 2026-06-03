@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak vyčistit spáry v dlažbě – bez drhnutí | DomovniGuru",
+  title: "Jak vyčistit spáry v dlažbě – bez drhnutí",
   description: "Zčernalé spáry v koupelně nebo kuchyni? Jednoduché metody bez agresivní chemie – soda, ocet, kyslíkové bělení. Funguje.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-vycistit-spary-v-dlazbe" },
+  alternates: { canonical: "https://www.domovniguru.cz/navody/jak-vycistit-spary-v-dlazbe" },
+  openGraph: { title: "Jak vyčistit spáry v dlažbě – bez drhnutí", description: "Zčernalé spáry v koupelně nebo kuchyni? Jednoduché metody bez agresivní chemie – soda, ocet, kyslíkové bělení. Funguje.", url: "https://www.domovniguru.cz/navody/jak-vycistit-spary-v-dlazbe", type: "article" },
 };
 
 export default function JakVycistitSparyVDlazbe() {
@@ -43,6 +44,7 @@ export default function JakVycistitSparyVDlazbe() {
                 <li><a href="#metoda-kyslík">Metoda 2: Kyslíkové bělení</a></li>
                 <li><a href="#metoda-chemie">Metoda 3: Spárová chemie</a></li>
                 <li><a href="#prevence">Jak udržet spáry čisté déle</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -145,6 +147,24 @@ export default function JakVycistitSparyVDlazbe() {
               </p>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Proč nelze použít ocet na mramorovou nebo přírodní kamennou dlažbu?", a: "Ocet je kyselina, která leptá a matuje povrch mramoru, travertinu a dalšího přírodního kamene. Na tyto povrchy používej pouze roztok jedlé sody s vodou (bez octa) nebo speciální čisticí přípravky určené pro přírodní kámen." },
+                  { q: "Jak předejít zčernání spár v koupelně?", a: "Pravidelné větrání po sprchování (min. 10–15 minut) zabrání hromadění vlhkosti. Gumový stěrač na sprchový kout po každém použití výrazně snižuje vlhkost na dlažbě. Impregnace spár po vyčištění vytvoří ochranný film proti nečistotám." },
+                  { q: "Jak dlouho nechávat kyslíkové bělení působit na spárách?", a: "15–30 minut při normálním znečištění. Na silně zašlé nebo plesnivé spáry nechej působit přes noc (6–8 hodin). Kyslíkové bělení funguje lépe v teple – v létě nebo po předehřátí dlažby teplou vodou je účinnější." },
+                  { q: "Co je impregnace spár a musím ji provádět?", a: "Impregnátor je přípravek, který vytvoří ochranný film ve spárách a brání pronikání vlhkosti a nečistot. Po každém důkladném vyčištění spár je doporučeno impregnaci nanést – výrazně prodlouží dobu do dalšího čištění. Opakovat jednou ročně." },
+                  { q: "Jak se zbavit černé plísně ve spárách natrvalo?", a: "Kyslíkové bělení nebo spárová chemie s chlorem plíseň odstraní. Ale aby se nevrátila, musíš odstranit příčinu – vlhkost. Větrání po sprchování, gumový stěrač a impregnace spár jsou klíčové. Opakující se plíseň může signalizovat nedostatečnou ventilaci koupelny." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související návody</h2>
               <div className="related-grid">
@@ -173,6 +193,7 @@ export default function JakVycistitSparyVDlazbe() {
                 <li><a href="#metoda-kyslík">Kyslíkové bělení</a></li>
                 <li><a href="#metoda-chemie">Spárová chemie</a></li>
                 <li><a href="#prevence">Prevence</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget sidebar-cta">
@@ -225,6 +246,13 @@ export default function JakVycistitSparyVDlazbe() {
         .sidebar-cta-title { font-family: var(--font-serif); font-size: 17px; font-weight: 400; margin-bottom: 6px; }
         .sidebar-cta-desc { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.5; }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

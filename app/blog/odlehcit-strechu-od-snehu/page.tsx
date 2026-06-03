@@ -3,7 +3,7 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak odlehčit střechu od sněhu – kdy je nebezpečný a jak ho odstranit 2026",
+  title: "Jak bezpečně odlehčit střechu od sněhu",
   description: "Kdy je sníh na střeše nebezpečný a jak ho bezpečně odstranit. Kolik sněhu střecha unese, jak rozpoznat přetížení a správný postup shrnutí sněhu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" },
   openGraph: { title: "Jak odlehčit střechu od sněhu 2026", description: "Kdy je sníh na střeše nebezpečný a jak ho bezpečně odstranit.", url: "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-05-01T08:00:00Z", modifiedTime: "2026-05-01T08:00:00Z", authors: ["DomovniGuru"] },
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu#article",
-    "headline": "Jak odlehčit střechu od sněhu – kdy je nebezpečný a jak ho odstranit 2026",
+    "headline": "Jak bezpečně odlehčit střechu od sněhu",
     "datePublished": "2026-05-01T08:00:00Z",
     "dateModified": "2026-05-01T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -54,7 +54,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak odlehčit střechu od sněhu – kdy je nebezpečný a jak ho odstranit</h1>
               <p className="article-lead">Jeden metr mokrého sněhu váží 150–300 kg. Na běžném rodinném domě může sníh přidat desítky tun zatížení. Kdy je to nebezpečné a jak bezpečně zasáhnout?</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" title="Jak odlehčit střechu od sněhu – kdy je nebezpečný a jak ho odstranit 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" title="Jak bezpečně odlehčit střechu od sněhu" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -154,7 +154,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" title="Jak odlehčit střechu od sněhu – kdy je nebezpečný a jak ho odstranit 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" title="Jak bezpečně odlehčit střechu od sněhu" />
 
             <section className="related-section">
               <h2>Související články</h2>

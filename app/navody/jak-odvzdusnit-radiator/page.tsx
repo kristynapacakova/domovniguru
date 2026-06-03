@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut | DomovniGuru",
+  title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut",
   description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.",
-  alternates: { canonical: "https://domovniguru.cz/navody/jak-odvzdusnit-radiator" },
+  alternates: { canonical: "https://www.domovniguru.cz/navody/jak-odvzdusnit-radiator" },
+  openGraph: { title: "Jak odvzdušnit radiátor – krok za krokem za 10 minut", description: "Studený radiátor nahoře? Vzduch v soustavě je příčina. Odvzdušnění zvládneš sám za 10 minut s odvzdušňovacím klíčem.", url: "https://www.domovniguru.cz/navody/jak-odvzdusnit-radiator", type: "article" },
 };
 
 export default function JakOdvzdusnitRadiator() {
@@ -43,6 +44,7 @@ export default function JakOdvzdusnitRadiator() {
                 <li><a href="#postup">Postup odvzdušnění</a></li>
                 <li><a href="#po-odvzduseni">Co dělat po odvzdušnění</a></li>
                 <li><a href="#kdy-volat">Kdy zavolat odborníka</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -135,12 +137,30 @@ export default function JakOdvzdusnitRadiator() {
               </p>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Co potřebuji k odvzdušnění radiátoru?", a: "Odvzdušňovací klíč (malý čtyřhranný klíč, 20–50 Kč v hobby marketu), nádobka na kapky vody a hadřík. Někdy stačí plochý šroubovák. To je vše – žádné speciální vybavení." },
+                  { q: "Jak poznám, že radiátor potřebuje odvzdušnit?", a: "Radiátor je nahoře výrazně chladnější než dole, přestože topení je zapnuté. Může bublat nebo klokotat. Jednoduchý test: polož ruku na různá místa – pokud horní třetina nestíhá zahřívat, je čas odvzdušnit." },
+                  { q: "Jak často odvzdušňovat radiátory?", a: "Zpravidla jednou za sezónu – ideálně před začátkem topné sezóny na podzim. Pokud se vzduch vrací opakovaně během sezóny, může to signalizovat netěsnost v soustavě – to řeší topenář." },
+                  { q: "Proč po odvzdušnění klesne tlak v topné soustavě?", a: "Při odvzdušnění unikne spolu se vzduchem trocha vody, čímž tlak mírně klesne. Správný tlak je 1,5–2,0 bar na manometru kotle. Pokud je pod 1 barem, doplň vodu přes plnící kohout pod kotlem." },
+                  { q: "Co dělat, když odvzdušňovací ventil teče po utažení?", a: "Zkus ho mírně dotáhnout – ne příliš, mosaz se snadno poničí. Pokud teče stále, těsnění ve ventilu je opotřebované. Nový odvzdušňovací ventil stojí 50–150 Kč a výměna je snadná (vypustit trochu vody, vyšroubovat, zašroubovat nový s teflonovou páskou)." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související návody a články</h2>
               <div className="related-grid">
                 {[
                   { title: "Jak nastavit okna na zimu?", href: "/navody/jak-nastavit-okna-na-zimu", time: "15 min" },
-                  { title: "Jak připravit dům na zimu", href: "/blog/jak-pripravit-dum-na-zimu", time: "5 min čtení" },
+                  { title: "Jak připravit dům na zimu", href: "/blog/priprava-domu-na-zimu", time: "5 min čtení" },
                   { title: "Jak utěsnit vanu silikonem?", href: "/navody/jak-utesnit-vanu-silikonem", time: "30 min" },
                 ].map(r => (
                   <Link key={r.href} href={r.href} className="card">
@@ -163,13 +183,14 @@ export default function JakOdvzdusnitRadiator() {
                 <li><a href="#postup">Postup</a></li>
                 <li><a href="#po-odvzduseni">Po odvzdušnění</a></li>
                 <li><a href="#kdy-volat">Kdy volat odborníka</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget sidebar-cta">
               <div style={{ fontSize: 32, marginBottom: 10 }}>❄️</div>
               <div className="sidebar-cta-title">Připrav dům na zimu</div>
               <p className="sidebar-cta-desc">Kompletní checklist – kotel, okna, okapy, voda.</p>
-              <Link href="/blog/jak-pripravit-dum-na-zimu" className="btn btn-black" style={{ width: "100%", justifyContent: "center", marginTop: 14 }}>Číst článek →</Link>
+              <Link href="/blog/priprava-domu-na-zimu" className="btn btn-black" style={{ width: "100%", justifyContent: "center", marginTop: 14 }}>Číst článek →</Link>
             </div>
           </aside>
         </div>
@@ -215,6 +236,13 @@ export default function JakOdvzdusnitRadiator() {
         .sidebar-cta-title { font-family: var(--font-serif); font-size: 17px; font-weight: 400; margin-bottom: 6px; }
         .sidebar-cta-desc { font-size: 13px; color: var(--muted); font-weight: 300; line-height: 1.5; }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px;margin:40px 0}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

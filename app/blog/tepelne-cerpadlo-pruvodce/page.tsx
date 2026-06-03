@@ -4,14 +4,14 @@ import ShareButtons from "@/app/components/ShareButtons";
 import HeatPumpCalculator from "@/app/components/HeatPumpCalculator";
 
 export const metadata: Metadata = {
-  title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026",
+  title: "Tepelné čerpadlo: Průvodce výběrem a úsporami",
   description: "Vzduch-voda, země-voda nebo vzduch-vzduch? Srovnání typů, reálné úspory, návratnost investice a dotace Nová zelená úsporám 2026.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce" },
   openGraph: { title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ.", url: "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#article", "headline": "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["tepelné čerpadlo", "tepelné čerpadlo vzduch voda", "tepelné čerpadlo cena", "dotace tepelné čerpadlo", "nová zelená úsporám tepelné čerpadlo", "tepelné čerpadlo návratnost"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#article", "headline": "Tepelné čerpadlo: Průvodce výběrem a úsporami", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["tepelné čerpadlo", "tepelné čerpadlo vzduch voda", "tepelné čerpadlo cena", "dotace tepelné čerpadlo", "nová zelená úsporám tepelné čerpadlo", "tepelné čerpadlo návratnost"] }] };
 
 const RELATED = [
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
@@ -47,7 +47,7 @@ export default function ArticlePage() {
               <div className="article-meta-row"><span>Aktualizováno: 12. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce"
-                title="Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026"
+                title="Tepelné čerpadlo: Průvodce výběrem a úsporami"
               />
             </header>
 
@@ -389,7 +389,7 @@ export default function ArticlePage() {
             {/* SHARE BOTTOM */}
             <ShareButtons
               url="https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce"
-              title="Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací 2026"
+              title="Tepelné čerpadlo: Průvodce výběrem a úsporami"
             />
 
             {/* RELATED */}

@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak přezimovat zahradní rostliny – co, kdy a jak 2025",
   description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce přezimováním zahradních rostlin krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/prezimovat-zahradni-rostliny" },
-  openGraph: { title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce.", url: "https://domovniguru.cz/blog/prezimovat-zahradni-rostliny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny" },
+  openGraph: { title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce.", url: "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/prezimovat-zahradni-rostliny#article", "headline": "Jak přezimovat zahradní rostliny – co, kdy a jak", "datePublished": "2025-03-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["prezimovat zahradní rostliny", "přezimování rostlin", "ochrana rostlin před mrazem", "zimní zakrytí keřů", "rostliny na zimu"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny#article", "headline": "Jak přezimovat zahradní rostliny – co, kdy a jak", "datePublished": "2025-03-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["prezimovat zahradní rostliny", "přezimování rostlin", "ochrana rostlin před mrazem", "zimní zakrytí keřů", "rostliny na zimu"] }] };
 
 const RELATED = [
   { title: "Jak stříhat keře – průvodce pro každého", href: "/blog/jak-strihat-kere", read: "4 min" },
@@ -133,6 +133,7 @@ export default function ArticlePage() {
                 <li><a href="#mulcovani">Mulčování kořenů</a></li>
                 <li><a href="#nadoby">Nádoby a truhlíky</a></li>
                 <li><a href="#na-jare">Co udělat na jaře</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -224,6 +225,24 @@ export default function ArticlePage() {
               <div className="article-tip"><strong>💡 Tip:</strong> Nevyhazuj větve které vypadají suché a mrtvé — počkej do května. Mnoho rostlin raší pozdě a to co vypadá jako mrtvé dřevo může být naprosto zdravé. Škrábni nehtm kůru — pokud je pod ní zeleno, větev žije.</div>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Kdy začít připravovat zahradní rostliny na zimu?", a: "Začni v říjnu postupně: přesun citlivých nádob dovnitř, mulčování záhonů. V listopadu zakryj keře a trvalky netkanovinou. V prosinci zkontroluj zakrytí a při silných mrazech přidej další mulč." },
+                  { q: "Jak přezimovat hortenzie velkolisté?", a: "Hortenzie velkolisté kvetou na loňském dřevu, které musí přežít zimu. Celou nadzemní část zakryj netkanovinou nebo jutovým vakem před prvními mrazy. Odkrývej opatrně na jaře – loňské výhony s pupeny jsou křehké." },
+                  { q: "Jak přezimovat citrus (pomerančovník, citroník)?", a: "Citrus přenes do světlého, chladného interiéru (8–12 °C). Minimalizuj zálivku – substrát mírně vlhký, ne mokrý. Vyhni se blízkosti topení. Přechodem do teplejšího bytu otužuj postupně – nejdřív studená chodba, pak teplejší místnost." },
+                  { q: "Co je mulčování a jak ho správně provést?", a: "Mulčování je pokrytí půdy kolem rostliny organickým materiálem (kůra, listí, sláma, kompost) ve vrstvě 10–15 cm. Izoluje kořeny před mrazem. Mulčuj vždy na vlhkou, nerozmrzlou půdu a nechej 2–3 cm mezeru u samotného kmene." },
+                  { q: "Kdy odkrýt rostliny na jaře?", a: "Odkrývej postupně za oblačného dne, ne přímo do slunce – rostliny pod zábalem jsou oslabené a intenzivní slunce způsobí popáleniny. Pokud meteorologové hlásí pozdní mraz, zakryj znovu. Bezpečné je obvykle odkrývání po 15. března v jižních Čechách, ve zbytku republiky po 1. dubnu." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -248,6 +267,7 @@ export default function ArticlePage() {
                 <li><a href="#mulcovani">Mulčování</a></li>
                 <li><a href="#nadoby">Nádoby a truhlíky</a></li>
                 <li><a href="#na-jare">Co udělat na jaře</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -301,6 +321,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

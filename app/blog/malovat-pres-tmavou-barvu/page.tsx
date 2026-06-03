@@ -5,12 +5,12 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 export const metadata: Metadata = {
   title: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2025",
   description: "Tmavá zeď pod světlou barvou? Bez správného postupu budou šmouhy. Tady je jak to vyřešit napoprvé.",
-  alternates: { canonical: "https://domovniguru.cz/blog/malovat-pres-tmavou-barvu" },
-  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" },
+  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/malovat-pres-tmavou-barvu#article", "headline": "Jak malovat přes tmavou barvu na světlo", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat přes tmavou barvu", "přemalovat tmavou zeď", "světlá barva přes tmavou", "zakrývací základní nátěr"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu#article", "headline": "Jak malovat přes tmavou barvu na světlo", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat přes tmavou barvu", "přemalovat tmavou zeď", "světlá barva přes tmavou", "zakrývací základní nátěr"] }] };
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -86,6 +86,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup krok za krokem</a></li>
                 <li><a href="#kolik-vrstev">Kolik vrstev potřebuješ</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -142,6 +143,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Kolik vrstev potřebuji přes tmavou barvu na bílou?", a: "Se zakrývacím základem (primerem) obvykle stačí 1 vrstva základu + 2 vrstvy finální barvy = celkem 3 vrstvy. Bez základu budeš potřebovat 3–4 vrstvy finální barvy, což je pomalejší a dražší." },
+                  { q: "Je zakrývací základ (primer) nutný?", a: "U velkého kontrastu (tmavě modrá, černá → bílá) je základ prakticky nutností. Jedna vrstva zakrývacího základu ušetří 2–3 vrstvy finální barvy a výsledek bude kvalitnější." },
+                  { q: "Jak dlouho čekat mezi vrstvami barvy?", a: "Minimálně 4 hodiny, ideálně přes noc. Malování na mokrou nebo nedoschlou vrstvu způsobuje šmouhy, odlepování a nerovnoměrné krytí. Každá vrstva musí být zcela suchá." },
+                  { q: "Mohu malovat přímo přes lesklou nebo olejovou barvu?", a: "Lesklé povrchy je nejprve nutné přebrousit jemným smirkem (P120–P150), aby nová barva přilnula. Na olejovou barvu použij speciální základ – běžná akrylátová barva na olejový podklad špatně drží." },
+                  { q: "Proč světlá barva stále prosvítá i po třech vrstvách?", a: "Barva s nízkou kryvostí (levné nebo pastely) může vyžadovat i více vrstev. Investuj do barvy s vysokou kryvostí nebo použij šedý základ jako přechodový nátěr – šedá zakryje tmavý podklad lépe než bílá." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -165,6 +184,7 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup</a></li>
                 <li><a href="#kolik-vrstev">Kolik vrstev</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -217,6 +237,13 @@ export default function ArticlePage() {
         .sidebar-cat-link:hover{color:var(--muted)}
         .sidebar-cat-link span{font-size:12px;color:var(--muted)}
         @media(max-width:960px){.article-layout{grid-template-columns:1fr;gap:0}.article-sidebar{position:static;margin-top:40px}.related-grid{grid-template-columns:1fr}}
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

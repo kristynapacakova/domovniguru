@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak utěsnit okna na zimu – přehled metod a co skutečně funguje 2025",
   description: "Průvan u oken zvyšuje účty za topení. Přehled metod utěsnění: těsnicí pásky, kity, fólie a přenastavení plastových oken. Co funguje a co nestojí za to.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-utesnit-okna-na-zimu" },
-  openGraph: { title: "Jak utěsnit okna na zimu – přehled metod", description: "Průvan u oken? Přehled metod utěsnění, co funguje a jak na to.", url: "https://domovniguru.cz/blog/jak-utesnit-okna-na-zimu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-09-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu" },
+  openGraph: { title: "Jak utěsnit okna na zimu – přehled metod", description: "Průvan u oken? Přehled metod utěsnění, co funguje a jak na to.", url: "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-09-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak utěsnit okna na zimu", description: "Průvan u oken? Přehled metod utěsnění, co funguje." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article", "headline": "Jak utěsnit okna na zimu – přehled metod", "datePublished": "2025-09-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article", "headline": "Jak utěsnit okna na zimu – přehled metod", "datePublished": "2025-09-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"] }] };
 
 const RELATED = [
   { title: "Jak připravit dům na zimu – kompletní checklist", href: "/blog/jak-pripravit-dum-na-zimu", read: "5 min" },
@@ -50,6 +50,7 @@ export default function ArticlePage() {
                 <li><a href="#folie">Izolační fólie na okna</a></li>
                 <li><a href="#zavesy">Těžké závěsy jako doplněk</a></li>
                 <li><a href="#porovnani">Srovnání metod</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -138,6 +139,24 @@ export default function ArticlePage() {
               </div>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Jak zjistím, kde okna táhnou?", a: "Přilož zapálenou svíčku (nebo vlhkou ruku) ke každé spáře a okraji rámu. Kde se plamen odchyluje nebo cítíš chlad – tam uniká teplo. Nejčastěji jde o spáru mezi křídlem a rámem, nebo mezi rámem a zdí." },
+                  { q: "Jak přepnout plastová okna do zimního režimu?", a: "Na závěsech okna najdeš malý válcový čep s drážkou. Otočením šroubováku o 90° přepneš z letní (drážka svisle) do zimní polohy (drážka vodorovně), která přitlačí křídlo pevněji k rámu. Trvá to 5 minut." },
+                  { q: "Lze kombinovat více metod utěsnění?", a: "Ano a je to dokonce doporučeno. Zimní nastavení kování (plastová okna) + přetmelení spáry rám-zeď + těžké závěsy jako doplněk. Každá metoda řeší jiný zdroj tepelných ztrát." },
+                  { q: "Fungují izolační fólie na moderní okna s dvojsklem?", a: "Na moderní plastová okna s dvojsklem fólie nemají velký efekt – u nich teplo uniká hlavně netěsnými spárami, ne přes sklo. Fólie má smysl na starší okna s jednoduchým sklem nebo zastaralým dvojsklem." },
+                  { q: "Jak dlouho vydrží těsnicí páska?", a: "Kvalitní samolepicí těsnicí páska vydrží 2–3 sezóny. Každoročně ji zkontroluj – pokud se rozlepuje, ztvrdla nebo praskla, vyměň ji. Je to nejlevnější a nejjednodušší řešení pro dřevěná okna bez nastavitelného kování." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -163,6 +182,7 @@ export default function ArticlePage() {
                 <li><a href="#folie">Izolační fólie</a></li>
                 <li><a href="#zavesy">Závěsy</a></li>
                 <li><a href="#porovnani">Srovnání metod</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -214,6 +234,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

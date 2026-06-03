@@ -5,12 +5,12 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 export const metadata: Metadata = {
   title: "Jak odstranit starou barvu ze zdi – škrabka, teplo nebo chemie 2025",
   description: "Škrabka, teplovzdušná pistole nebo chemický odstraňovač? Srovnání metod a postup krok za krokem.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-odstranit-starou-barvu" },
-  openGraph: { title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie? Správná metoda pro každý případ.", url: "https://domovniguru.cz/blog/jak-odstranit-starou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu" },
+  openGraph: { title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie? Správná metoda pro každý případ.", url: "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-odstranit-starou-barvu#article", "headline": "Jak odstranit starou barvu ze zdi", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit starou barvu", "stará barva ze zdi", "teplovzdušná pistole barva", "chemický odstraňovač barvy"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu#article", "headline": "Jak odstranit starou barvu ze zdi", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit starou barvu", "stará barva ze zdi", "teplovzdušná pistole barva", "chemický odstraňovač barvy"] }] };
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -130,6 +130,7 @@ export default function ArticlePage() {
                 <li><a href="#chemie">Metoda 3 – Chemický odstraňovač</a></li>
                 <li><a href="#srovnani">Srovnání metod</a></li>
                 <li><a href="#po-odstraneni">Co dělat po odstranění</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -205,6 +206,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Musím vždy odstraňovat starou barvu před přemalováním?", a: "Ne. Pokud stará barva drží pevně, neloupl se a povrch je rovný, stačí přebrousit a přemalovat. Odstraňování má smysl jen při odlupování, příliš silných vrstvách nebo špatném podkladu." },
+                  { q: "Je teplovzdušná pistole bezpečná na omítku?", a: "Ne. Přehřátí omítky způsobuje praskání. Teplovzdušnou pistoli používej pouze na dřevo, kov a silné vrstvy barvy na hladkých plochách. Na omítku použij spíše chemický odstraňovač." },
+                  { q: "Jak zjistím, zda barva ve starém domě obsahuje olovo?", a: "Domy stavěné před rokem 1978 mohou mít olovnaté nátěry. Testy na olovo jsou dostupné v hobby marketech (~200 Kč). Pokud je test pozitivní, odstraňování svěř odborné firmě – nevyužívej tepelnou metodu." },
+                  { q: "Co musím udělat po odstranění barvy, než začnu malovat?", a: "Přebrousit jemným papírem (P150–P180), setřít prach vlhkým hadrem, opravit díry a škrábance tmelem a po zaschnutí nanést penetraci. Bez penetrace barva špatně přilne na holou omítku." },
+                  { q: "Jaká metoda je nejrychlejší na velké plochy?", a: "Teplovzdušná pistole je na velkých hladkých plochách nejrychlejší – změkčí barvu, která jde pak snadno seškrábat. Na tvarované plochy, lišty a rohy je praktičtější chemický odstraňovač." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -229,6 +248,7 @@ export default function ArticlePage() {
                 <li><a href="#chemie">Chemický odstraňovač</a></li>
                 <li><a href="#srovnani">Srovnání metod</a></li>
                 <li><a href="#po-odstraneni">Po odstranění</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -281,6 +301,13 @@ export default function ArticlePage() {
         .sidebar-cat-link:hover{color:var(--muted)}
         .sidebar-cat-link span{font-size:12px;color:var(--muted)}
         @media(max-width:960px){.article-layout{grid-template-columns:1fr;gap:0}.article-sidebar{position:static;margin-top:40px}.related-grid{grid-template-columns:1fr}}
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

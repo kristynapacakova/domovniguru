@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "Kontakt | DomovniGuru",
+  title: "Kontakt",
   description: "Kontakt na provozovatele webu DomovniGuru.",
+  alternates: { canonical: "https://www.domovniguru.cz/kontakt" },
+  openGraph: { title: "Kontakt", description: "Kontakt na provozovatele webu DomovniGuru.", url: "https://www.domovniguru.cz/kontakt", type: "website" },
 };
 
 export default function KontaktPage() {

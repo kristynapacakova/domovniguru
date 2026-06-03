@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jak pěstovat rajčata – od výsevu po sklizeň 2025",
   description: "Rajčata zvládne vypěstovat každý – ale bez pár základních pravidel skončíš s prázdnými stonky nebo plísní. Kompletní průvodce od výsevu až po sklizeň.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-pestovat-rajcata" },
-  openGraph: { title: "Jak pěstovat rajčata – od výsevu po sklizeň", description: "Kompletní průvodce pěstováním rajčat. Od výsevu přes přesazování až po sklizeň.", url: "https://domovniguru.cz/blog/jak-pestovat-rajcata", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-10T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-pestovat-rajcata" },
+  openGraph: { title: "Jak pěstovat rajčata – od výsevu po sklizeň", description: "Kompletní průvodce pěstováním rajčat. Od výsevu přes přesazování až po sklizeň.", url: "https://www.domovniguru.cz/blog/jak-pestovat-rajcata", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-10T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Jak pěstovat rajčata", description: "Od výsevu po sklizeň – kompletní průvodce." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-pestovat-rajcata#article", "headline": "Jak pěstovat rajčata – od výsevu po sklizeň", "datePublished": "2025-03-10T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak pěstovat rajčata", "pěstování rajčat", "výsev rajčat", "rajčata na balkóně", "kdy sázet rajčata"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata#article", "headline": "Jak pěstovat rajčata – od výsevu po sklizeň", "datePublished": "2025-03-10T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak pěstovat rajčata", "pěstování rajčat", "výsev rajčat", "rajčata na balkóně", "kdy sázet rajčata"] }] };
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
@@ -149,6 +149,7 @@ export default function ArticlePage() {
                 <li><a href="#pece">Péče během sezóny</a></li>
                 <li><a href="#problemy">Nejčastější problémy</a></li>
                 <li><a href="#sklizen">Sklizeň a skladování</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -236,6 +237,24 @@ export default function ArticlePage() {
               <p>Přebytek zpracuj: rajčatová passata, sušená rajčata nebo zamraž jako protlak. Syrová rajčata se mrazit nedají – po rozmrazení jsou vodnatá.</p>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Kdy vysévat rajčata v České republice?", a: "Nejlépe v únoru až březnu na parapet nebo pod umělé osvětlení. Venku se sází až po 15. května, takže sazenice musí být 10–12 týdnů staré. Příliš brzy vysázená rajčata ven trpí mrazem." },
+                  { q: "Proč rajčata praskají?", a: "Praskání způsobuje náhlé přelití po delším suchu. Voda se rychle vstřebá do plodů, které nestačí růst rovnoměrně. Prevence: pravidelná zálivka a mulčování, které udržuje vlhkost v půdě stabilní." },
+                  { q: "Jak předejít plísni bramborové na rajčatech?", a: "Plíseň se nedá zastavit, jen zpomalit. Nestříkej vodu na listy, odstraňuj postižené listy okamžitě a vyber odolné odrůdy (Primabella, Phantasia). Preventivní postřik fungicidem pomáhá, zvláště při vlhkém počasí." },
+                  { q: "Mohu pěstovat rajčata na balkóně?", a: "Ano. Na balkón jsou ideální převislé odrůdy (Tumbling Tom, Balkonzauber) do nádob. Pamatuj, že nádoby vysychají 2–3× rychleji než záhon, takže v horkém létě budou potřebovat zálivku každý den." },
+                  { q: "Jak poznat, že je rajče zralé a připravené ke sklizni?", a: "Rajče je zralé, když je plně zbarvené a mírně povoluje pod prstem. Nikdy nedávej rajčata do lednice – chlad nevratně ničí chuť. Optimální teplota skladování je 13–18 °C." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -260,6 +279,7 @@ export default function ArticlePage() {
                 <li><a href="#pece">Péče během sezóny</a></li>
                 <li><a href="#problemy">Nejčastější problémy</a></li>
                 <li><a href="#sklizen">Sklizeň a skladování</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -313,6 +333,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

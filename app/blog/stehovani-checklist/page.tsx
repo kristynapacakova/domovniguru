@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Stěhování bez stresu – kompletní checklist 2025",
   description: "Kompletní checklist na stěhování: 6 týdnů před, den D a co udělat po nastěhování. Nic nezapomeneš, nic tě nepřekvapí.",
-  alternates: { canonical: "https://domovniguru.cz/blog/stehovani-checklist" },
-  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/stehovani-checklist" },
+  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://www.domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/stehovani-checklist#article", "headline": "Stěhování bez stresu – kompletní checklist", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["stěhování checklist", "jak se stěhovat", "příprava na stěhování", "stěhování do nového bytu", "stěhovací firma"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#article", "headline": "Stěhování bez stresu – kompletní checklist", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["stěhování checklist", "jak se stěhovat", "příprava na stěhování", "stěhování do nového bytu", "stěhovací firma"] }] };
 
 const RELATED = [
   { title: "Co zkontrolovat při přebírání nového bytu", href: "/blog/prebrani-bytu-checklist", read: "4 min" },
@@ -50,6 +50,7 @@ export default function ArticlePage() {
                 <li><a href="#den-d">Den stěhování</a></li>
                 <li><a href="#po-stehovani">Po nastěhování</a></li>
                 <li><a href="#tipy">Praktické tipy</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -138,6 +139,24 @@ export default function ArticlePage() {
               <div className="article-tip"><strong>💡 Tip:</strong> Největší stěhování se dějí v pátek a v poslední den měsíce. Pokud můžeš, vyber střed měsíce a uprostřed týdne – stěhovací firmy bývají levnější a flexibilnější.</div>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Kdy nejdříve začít s přípravou na stěhování?", a: "Ideálně 6 týdnů dopředu. Prvních 6 týdnů je čas na třídění věcí a domluvu stěhovací firmy (oblíbené termíny se obsazují rychle). Čím dříve začneš, tím méně stresu v posledních dnech." },
+                  { q: "Co je krabice první noci a co do ní patří?", a: "Krabice (nebo taška) první noci obsahuje věci, které budeš potřebovat hned v noci po nastěhování – ložní prádlo, ručník, toaletní potřeby, nabíječku, hrnek, kávu a základní nádobí. Nepakuj ji do stěhovacího auta jako poslední, ať je hned po ruce." },
+                  { q: "Je levnější pronajmout dodávku nebo objednat stěhovací firmu?", a: "Pronájem dodávky (1 500–3 000 Kč/den) je výrazně levnější než firma (5 000–15 000 Kč). Firma ale ušetří 6–8 hodin fyzicky náročné práce. Pokud máš těžký nábytek z masivu nebo piano, firma se vyplatí – předejdeš zraněním." },
+                  { q: "Co všechno musím nahlásit při změně adresy?", a: "Zaměstnavatel, banka, pojišťovna, zdravotní pojišťovna, lékař, škola nebo školka, dodavatelé energií, internet a TV, Česká pošta (přesměrování pošty). Nezapomeň na úřední registraci trvalého pobytu na obecním/městském úřadě." },
+                  { q: "Co udělat hned po nastěhování jako první?", a: "Priorita č. 1: vyměň zámky u vstupních dveří – nevíš, kolik klíčů koluje. Pak zjisti umístění hlavních uzávěrů (voda, elektrika, plyn) a zkontroluj funkci topení, teplé vody a zásuvek." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -163,6 +182,7 @@ export default function ArticlePage() {
                 <li><a href="#den-d">Den stěhování</a></li>
                 <li><a href="#po-stehovani">Po nastěhování</a></li>
                 <li><a href="#tipy">Praktické tipy</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -209,6 +229,13 @@ export default function ArticlePage() {
         .sidebar-cat-link span { font-size: 12px; color: var(--muted); }
         @media (max-width: 960px) { .article-layout { grid-template-columns: 1fr; gap: 0; } .article-sidebar { position: static; margin-top: 40px; } .related-grid { grid-template-columns: 1fr; } }
         @media (max-width: 600px) { .article-layout { padding: 32px 0 60px; } }
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

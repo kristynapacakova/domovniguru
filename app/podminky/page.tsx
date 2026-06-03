@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Podmínky užití – DomovniGuru",
+  title: "Podmínky užití",
   description: "Podmínky užití webu DomovniGuru.",
-  alternates: { canonical: "https://domovniguru.cz/podminky" },
+  alternates: { canonical: "https://www.domovniguru.cz/podminky" },
+  openGraph: { title: "Podmínky užití", description: "Podmínky užití webu DomovniGuru.", url: "https://www.domovniguru.cz/podminky", type: "website" },
 };
 
 export default function PodminkyPage() {

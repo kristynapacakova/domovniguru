@@ -3,7 +3,7 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Venkovní osvětlení zahrady – typy, instalace, solární nebo kabel 2026",
+  title: "Venkovní osvětlení zahrady – typy a instalace",
   description: "Jak osvětlit zahradu, terasu nebo příjezdovou cestu. Solární nebo kabelové osvětlení? Typy svítidel, instalace a jak vytvořit krásnou večerní atmosféru.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" },
   openGraph: { title: "Venkovní osvětlení zahrady 2026", description: "Solární nebo kabelové? Typy svítidel a jak osvětlit zahradu krásně a bezpečně.", url: "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-22T08:00:00Z", modifiedTime: "2026-04-22T08:00:00Z", authors: ["DomovniGuru"] },
@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#article",
-    "headline": "Venkovní osvětlení zahrady – typy, instalace, solární nebo kabel 2026",
+    "headline": "Venkovní osvětlení zahrady – typy a instalace",
     "datePublished": "2026-04-22T08:00:00Z",
     "dateModified": "2026-04-22T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Venkovní osvětlení zahrady – solární nebo kabelové?</h1>
               <p className="article-lead">Správné osvětlení zahrady prodlouží čas strávený venku, zvýší bezpečnost a dodá večerní atmosféru. Solární nebo kabelové? Tady je jak vybrat a jak nainstalovat.</p>
               <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" title="Venkovní osvětlení zahrady – typy, instalace, solární nebo kabel 2026" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" title="Venkovní osvětlení zahrady – typy a instalace" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -206,7 +206,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" title="Venkovní osvětlení zahrady – typy, instalace, solární nebo kabel 2026" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" title="Venkovní osvětlení zahrady – typy a instalace" />
 
             <section className="related-section">
               <h2>Související články</h2>

@@ -5,12 +5,12 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 export const metadata: Metadata = {
   title: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025",
   description: "Spočítej přesné množství barvy na místnost. Vzorec, tabulka spotřeby a tipy jak nekoupit zbytečně moc nebo málo.",
-  alternates: { canonical: "https://domovniguru.cz/blog/kolik-barvy-potrebuji" },
-  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" },
+  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"] },
   twitter: { card: "summary_large_image", title: "Kolik barvy potřebuji?", description: "Vzorec, tabulka spotřeby a tipy." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/kolik-barvy-potrebuji#article", "headline": "Kolik barvy potřebuji? Kalkulačka + vzorec", "datePublished": "2025-01-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["kolik barvy potřebuji", "kalkulačka barvy", "spotřeba barvy na m2", "výpočet barvy na zeď"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji#article", "headline": "Kolik barvy potřebuji? Kalkulačka + vzorec", "datePublished": "2025-01-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["kolik barvy potřebuji", "kalkulačka barvy", "spotřeba barvy na m2", "výpočet barvy na zeď"] }] };
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -119,6 +119,7 @@ export default function ArticlePage() {
                 <li><a href="#priklad">Příklad výpočtu</a></li>
                 <li><a href="#okna-dvere">Odečíst okna a dveře?</a></li>
                 <li><a href="#tipy">Tipy při nákupu</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
 
@@ -184,6 +185,24 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="faq">
+              <h2>Časté otázky</h2>
+              <div className="faq-list">
+                {[
+                  { q: "Jaký je základní vzorec pro výpočet barvy?", a: "Množství barvy (l) = plocha stěn (m²) ÷ vydatnost barvy (m²/l) × počet vrstev. Vydatnost najdeš na plechovce – počítej vždy s nižší hodnotou z rozsahu pro realistický odhad." },
+                  { q: "Co je vydatnost barvy a kde ji najdu?", a: "Vydatnost udává, kolik m² pokryje 1 litr barvy při jedné vrstvě. Je uvedena na plechovce jako rozmezí (např. 8–12 m²/l). Na hrubší podklady a tmavší barvy počítej s nižší hodnotou." },
+                  { q: "Musím vždy odečítat okna a dveře?", a: "Záleží na velikosti. Standardní dveře (1,8 m²) a větší okna odečítej. Malé okno pod 0,5 m² přeskoč – slouží jako přirozená rezerva. U místností s panoramatickými okny úspora může být 15–20 %." },
+                  { q: "O kolik procent koupit barvy navíc jako rezervu?", a: "Vždy alespoň 10 %. Barva ze dvou různých šarží se může mírně lišit odstínem, proto je lepší mít dost z jedné šarže. Zbytek barvy uchovávej v uzavřené nádobě – vydrží 2–3 roky." },
+                  { q: "Je výhodnější koupit velké nebo malé balení barvy?", a: "Velká balení (10 l kbelík) jsou obvykle o 20–30 % levnější na litr než dvě malá balení. Pokud potřebuješ více než 5 litrů, vždy se vyplatí koupit větší balení." },
+                ].map(({ q, a }) => (
+                  <details key={q} className="faq-item">
+                    <summary className="faq-q">{q}</summary>
+                    <p className="faq-a">{a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <section className="related-section">
               <h2>Související články</h2>
               <div className="related-grid">
@@ -207,6 +226,7 @@ export default function ArticlePage() {
                 <li><a href="#priklad">Příklad výpočtu</a></li>
                 <li><a href="#okna-dvere">Okna a dveře</a></li>
                 <li><a href="#tipy">Tipy při nákupu</a></li>
+                <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>
             <div className="sidebar-widget">
@@ -263,6 +283,13 @@ export default function ArticlePage() {
         .sidebar-cat-link:hover{color:var(--muted)}
         .sidebar-cat-link span{font-size:12px;color:var(--muted)}
         @media(max-width:960px){.article-layout{grid-template-columns:1fr;gap:0}.article-sidebar{position:static;margin-top:40px}.related-grid{grid-template-columns:1fr}}
+        .faq-list{display:flex;flex-direction:column;gap:8px}
+        .faq-item{border:1px solid #e5e5e0;border-radius:10px;overflow:hidden;background:#fff}
+        .faq-q{font-size:15px;font-weight:600;padding:16px 20px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+        .faq-q:hover{background:#f5f5f2}
+        .faq-q::after{content:"+";font-size:18px;font-weight:300;flex-shrink:0;margin-left:12px}
+        details[open] .faq-q::after{content:"−"}
+        .faq-a{font-size:14px;line-height:1.65;color:#78776e;font-weight:300;padding:0 20px 16px}
       `}</style>
     </>
   );

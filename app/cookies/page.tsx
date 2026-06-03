@@ -1,6 +1,8 @@
 export const metadata = {
-  title: "Používání cookies | DomovniGuru",
+  title: "Používání cookies",
   description: "Informace o používání cookies na webu DomovniGuru.",
+  alternates: { canonical: "https://www.domovniguru.cz/cookies" },
+  openGraph: { title: "Používání cookies", description: "Informace o používání cookies na webu DomovniGuru.", url: "https://www.domovniguru.cz/cookies", type: "website" },
 };
 
 export default function CookiesPage() {

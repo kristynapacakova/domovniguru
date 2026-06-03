@@ -3,13 +3,13 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami",
+  title: "Jak vybrat LED žárovku – parametry a úspory",
   description: "Watt vs. lumen, Kelviny, CRI index, patice E27/E14/GU10. Průvodce výběrem LED žárovky pro každou místnost.",
-  alternates: { canonical: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku" },
-  openGraph: { title: "Jak vybrat LED žárovku 2026", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory.", url: "https://domovniguru.cz/blog/jak-vybrat-led-zarovku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article" },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku" },
+  openGraph: { title: "Jak vybrat LED žárovku 2026", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory.", url: "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://domovniguru.cz/blog/jak-vybrat-led-zarovku#article", "headline": "Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat LED žárovku", "LED žárovka watt lumen", "teplota světla Kelviny", "CRI index", "úspora LED žárovky", "E27 E14 GU10"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku#article", "headline": "Jak vybrat LED žárovku – parametry a úspory", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat LED žárovku", "LED žárovka watt lumen", "teplota světla Kelviny", "CRI index", "úspora LED žárovky", "E27 E14 GU10"] }] };
 
 const RELATED = [
   { title: "LED vs. žárovky – co se skutečně vyplatí?", href: "/blog/led-vs-zarovky", read: "4 min" },
@@ -44,8 +44,8 @@ export default function ArticlePage() {
               <p className="article-lead">Krabička od LED žárovky je plná čísel — watt, lumen, kelvin, CRI. Víme co každé číslo znamená a jak ho použít pro výběr správné žárovky do každé místnosti. Plus reálné úspory při výměně celého bytu.</p>
               <div className="article-meta-row"><span>Aktualizováno: 21. března 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
-                url="https://domovniguru.cz/blog/jak-vybrat-led-zarovku"
-                title="Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami"
+                url="https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku"
+                title="Jak vybrat LED žárovku – parametry a úspory"
               />
             </header>
 
@@ -443,8 +443,8 @@ export default function ArticlePage() {
 
             {/* SHARE BOTTOM */}
             <ShareButtons
-              url="https://domovniguru.cz/blog/jak-vybrat-led-zarovku"
-              title="Jak vybrat LED žárovku 2026: Průvodce parametry, barvou světla a úsporami"
+              url="https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku"
+              title="Jak vybrat LED žárovku – parametry a úspory"
             />
 
             {/* RELATED */}
