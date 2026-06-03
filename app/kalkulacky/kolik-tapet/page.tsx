@@ -8,8 +8,8 @@ import TapetyCalculator from "@/app/components/TapetyCalculator";
 export const metadata: Metadata = {
   title: "Kalkulačka tapet 2026 – kolik rolí tapet potřebuju s raportem vzoru?",
   description: "Spočítej počet rolí tapet včetně odpadu na vzor (raport). Zadej obvod místnosti, výšku a rozměry role – výsledek okamžitě.",
-  alternates: { canonical: "https://domovniguru.cz/kalkulacky/kolik-tapet" },
-  openGraph: { title: "Kalkulačka tapet 2026", description: "Počet rolí tapet s raportem vzoru. Výsledek okamžitě.", url: "https://domovniguru.cz/kalkulacky/kolik-tapet", siteName: "DomovniGuru", locale: "cs_CZ", type: "website" },
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/kolik-tapet" },
+  openGraph: { title: "Kalkulačka tapet 2026", description: "Počet rolí tapet s raportem vzoru. Výsledek okamžitě.", url: "https://www.domovniguru.cz/kalkulacky/kolik-tapet", siteName: "DomovniGuru", locale: "cs_CZ", type: "website" },
 };
 
 export default function KolikTapetPage() {

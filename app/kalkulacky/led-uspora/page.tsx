@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   title: "Kolik ušetřím LED žárovkami? Kalkulačka úspory 2026",
   description:
     "Spočítej roční úsporu při výměně klasických žárovek za LED. Zadej počet žárovek, příkon a cenu elektřiny – výsledek okamžitě.",
-  alternates: { canonical: "https://domovniguru.cz/kalkulacky/led-uspora" },
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/led-uspora" },
   openGraph: {
     title: "Kolik ušetřím LED žárovkami? Kalkulačka 2026",
     description: "Roční úspora, návratnost investice a úspora CO₂. Výsledek okamžitě.",
-    url: "https://domovniguru.cz/kalkulacky/led-uspora",
+    url: "https://www.domovniguru.cz/kalkulacky/led-uspora",
     siteName: "DomovniGuru",
     locale: "cs_CZ",
     type: "website",

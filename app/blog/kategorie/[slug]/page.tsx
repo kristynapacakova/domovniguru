@@ -185,6 +185,13 @@ export async function generateMetadata({
   return {
     title: `${cfg.label} – DomovniGuru`,
     description: cfg.desc,
+    alternates: { canonical: `https://www.domovniguru.cz/blog/kategorie/${slug}` },
+    openGraph: {
+      title: `${cfg.label} – DomovniGuru`,
+      description: cfg.desc,
+      url: `https://www.domovniguru.cz/blog/kategorie/${slug}`,
+      type: "website",
+    },
   };
 }
 

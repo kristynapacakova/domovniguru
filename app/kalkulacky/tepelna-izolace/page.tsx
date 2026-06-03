@@ -8,8 +8,8 @@ import IzolaceCalculator from "@/app/components/IzolaceCalculator";
 export const metadata: Metadata = {
   title: "Kalkulačka tepelné izolace 2026 – kolik balení minerální vaty nebo EPS?",
   description: "Spočítej počet balení tepelné izolace (minerální vata, EPS, XPS) s rezervou na prořezy. Zadej plochu a m² v balení – výsledek okamžitě.",
-  alternates: { canonical: "https://domovniguru.cz/kalkulacky/tepelna-izolace" },
-  openGraph: { title: "Kalkulačka tepelné izolace 2026", description: "Balení minerální vaty nebo EPS s rezervou. Výsledek okamžitě.", url: "https://domovniguru.cz/kalkulacky/tepelna-izolace", siteName: "DomovniGuru", locale: "cs_CZ", type: "website" },
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/tepelna-izolace" },
+  openGraph: { title: "Kalkulačka tepelné izolace 2026", description: "Balení minerální vaty nebo EPS s rezervou. Výsledek okamžitě.", url: "https://www.domovniguru.cz/kalkulacky/tepelna-izolace", siteName: "DomovniGuru", locale: "cs_CZ", type: "website" },
 };
 
 export default function TepelnaIzolacePage() {

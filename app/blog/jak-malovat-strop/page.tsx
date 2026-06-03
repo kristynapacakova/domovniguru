@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Jak malovat strop bez šmouh: Kompletní průvodce 2026",
   description: "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-strop" },
+  openGraph: {
+    title: "Jak malovat strop bez šmouh: Kompletní průvodce 2026",
+    description: "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+    url: "https://www.domovniguru.cz/blog/jak-malovat-strop",
+    type: "article",
+  },
 };
 
 const jsonLd = {

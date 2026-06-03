@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "O webu – DomovniGuru",
   description: "Kdo stojí za DomovniGuru, proč web vznikl a jak ho používat.",
-  alternates: { canonical: "https://domovniguru.cz/o-webu" },
+  alternates: { canonical: "https://www.domovniguru.cz/o-webu" },
 };
 
 export default function OWebuPage() {
