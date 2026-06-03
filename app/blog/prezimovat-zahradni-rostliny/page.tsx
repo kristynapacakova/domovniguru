@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -40,6 +41,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak přezimovat zahradní rostliny – co, kdy a jak</h1>
               <p className="article-lead">Spousta rostlin přežije zimu bez pomoci. Ale ty které pomoc potřebují, o ní dají vědět jen jednou – tím že na jaře nevyraší. Tady je přehled co udělat a kdy.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny" title="Jak přezimovat zahradní rostliny – co, kdy a jak 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}

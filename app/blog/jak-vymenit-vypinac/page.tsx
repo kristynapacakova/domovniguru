@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -39,6 +40,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak vyměnit vypínač – krok za krokem bez elektrikáře</h1>
               <p className="article-lead">Rozbil se vypínač nebo chceš modernější design? Výměna vypínače je jedna z mála elektrikářských prací, které bezpečně zvládneš sám – pokud dodržíš základní pravidla. Hotovo za 20 minut.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-vymenit-vypinac" title="Jak vyměnit vypínač – krok za krokem bez elektrikáře 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

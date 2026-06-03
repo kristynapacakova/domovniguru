@@ -8,8 +8,8 @@ import BetonCalculator from "@/app/components/BetonCalculator";
 export const metadata: Metadata = {
   title: "Kalkulačka betonu – kolik m³ potřebuju",
   description: "Spočítej objem betonu pro základovou desku, patku nebo jinou betonáž. Výsledek v m³ i počet pytlů. Rezerva na sesedání automaticky.",
-  alternates: { canonical: "https://domovniguru.cz/kalkulacky/kolik-betonu" },
-  openGraph: { title: "Kalkulačka betonu 2026", description: "Objem betonu v m³ i počet pytlů. S rezervou na sesedání.", url: "https://domovniguru.cz/kalkulacky/kolik-betonu", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20betonu%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka betonu 2026" }] },
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/kolik-betonu" },
+  openGraph: { title: "Kalkulačka betonu 2026", description: "Objem betonu v m³ i počet pytlů. S rezervou na sesedání.", url: "https://www.domovniguru.cz/kalkulacky/kolik-betonu", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20betonu%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka betonu 2026" }] },
 };
 
 export default function KolikBetonuPage() {

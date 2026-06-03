@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
@@ -40,6 +41,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">Penetrace před malováním – kdy je nutná a kdy ji přeskočit?</h1>
               <p className="article-lead">Penetrace je jedním z nejpodceňovanějších kroků při malování. Někdo ji dává vždy, někdo nikdy. Pravda je uprostřed – záleží na podkladu. Tenhle článek ti řekne přesně, kdy ji nutně potřebuješ a kdy ji klidně vynecháš.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/penetrace-pred-malovanim" title="Penetrace před malováním – kdy je nutná?" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

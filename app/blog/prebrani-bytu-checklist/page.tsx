@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -39,6 +40,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">Co zkontrolovat při přebírání nového bytu – kompletní checklist</h1>
               <p className="article-lead">Přebírání bytu je moment, kdy se rozhoduje, za co budeš nebo nebudeš platit. Co nepodchytíš teď, zaplatíš později – buď z vlastní kapsy, nebo po zbytečném sporu s prodávajícím nebo pronajímatelem.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/prebrani-bytu-checklist" title="Co zkontrolovat při přebírání nového bytu – checklist 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

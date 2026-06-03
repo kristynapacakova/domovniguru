@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
@@ -41,6 +42,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">Kolik barvy potřebuji? Kalkulačka + vzorec</h1>
               <p className="article-lead">Zbývající půllitr barvy v koutě skladu nebo naopak druhá cesta do obchodu uprostřed malování — obojí se dá snadno vyhnout. Tady je přesný výpočet.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" title="Kolik barvy potřebuji? Kalkulačka + vzorec 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}

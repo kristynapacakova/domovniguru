@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -39,6 +40,8 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak utěsnit okna na zimu – přehled metod a co skutečně funguje</h1>
               <p className="article-lead">Průvan kolem oken může tvořit až 25 % tepelných ztrát v domácnosti. Přitom utěsnění stojí korunky a hodinu práce. Tenhle článek ti ukáže, co kdy použít a co nestojí za čas ani peníze.</p>
               <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu" title="Jak utěsnit okna na zimu – co skutečně funguje" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>
