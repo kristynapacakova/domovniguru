@@ -5,249 +5,169 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Den, kdy ses narodila — Kniha pro Aničku</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Pinyon+Script&display=swap');
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: #f5efe8;
+      background: #d6d2cc;
       display: flex;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
-      font-family: 'Lato', sans-serif;
       padding: 40px 20px;
     }
 
     .page {
-      width: 560px;
-      min-height: 792px;
-      background: #fffcf8;
-      border-radius: 4px;
-      box-shadow: 0 8px 40px rgba(0,0,0,0.12);
-      padding: 56px 52px;
+      width: 600px;
+      min-height: 700px;
+      background-color: #f4f3f0;
+      background-image: radial-gradient(circle, #b8b4ae 1px, transparent 1px);
+      background-size: 16px 16px;
+      padding: 52px 56px 52px 56px;
       position: relative;
       display: flex;
       flex-direction: column;
-      gap: 0;
+      box-shadow: 0 2px 24px rgba(0,0,0,0.08);
     }
 
-    /* Jemný ornamentální rámeček */
-    .page::before {
-      content: '';
-      position: absolute;
-      inset: 16px;
-      border: 1px solid #e8d5c4;
-      border-radius: 2px;
-      pointer-events: none;
-    }
-
-    /* Rohové ozdoby */
-    .corner {
-      position: absolute;
-      width: 28px;
-      height: 28px;
-      border-color: #c9a98a;
-      border-style: solid;
-    }
-    .corner.tl { top: 10px; left: 10px; border-width: 2px 0 0 2px; }
-    .corner.tr { top: 10px; right: 10px; border-width: 2px 2px 0 0; }
-    .corner.bl { bottom: 10px; left: 10px; border-width: 0 0 2px 2px; }
-    .corner.br { bottom: 10px; right: 10px; border-width: 0 2px 2px 0; }
-
-    /* Záhlaví stránky */
-    .page-label {
-      font-family: 'Lato', sans-serif;
-      font-weight: 300;
-      font-size: 10px;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #c9a98a;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
+    /* Kaligrafický nadpis */
     .title {
-      font-family: 'Playfair Display', serif;
-      font-size: 28px;
-      font-weight: 600;
-      color: #3a2e28;
+      font-family: 'Pinyon Script', cursive;
+      font-size: 52px;
+      color: #1e1e1e;
       text-align: center;
-      line-height: 1.3;
-      margin-bottom: 6px;
+      margin-bottom: 38px;
+      line-height: 1.1;
     }
 
-    .subtitle {
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-      font-size: 13px;
-      color: #a08060;
-      text-align: center;
-      margin-bottom: 28px;
-    }
-
-    .divider {
-      width: 60px;
-      height: 1px;
-      background: #e0c9b4;
-      margin: 0 auto 28px;
-    }
-
-    /* Fotka placeholder */
-    .photo-placeholder {
-      width: 160px;
-      height: 160px;
-      border: 1.5px dashed #d4b99a;
-      border-radius: 50%;
-      margin: 0 auto 28px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      background: #fdf8f3;
-    }
-
-    .photo-placeholder svg {
-      opacity: 0.35;
-    }
-
-    .photo-placeholder span {
-      font-size: 10px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: #c9a98a;
-      font-weight: 300;
-    }
-
-    /* Řádky pro vyplnění */
+    /* Oblast otázek */
     .fields {
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 0;
       flex: 1;
     }
 
-    .field-row {
+    /* Jedna otázka */
+    .q {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #1e1e1e;
+      line-height: 1.5;
+      margin-bottom: 6px;
+    }
+
+    .q strong {
+      font-style: italic;
+      font-weight: 600;
+    }
+
+    /* Volné místo pro psaní */
+    .space { margin-bottom: 36px; }
+    .space-lg { margin-bottom: 52px; }
+
+    /* Řádek s otázkou + datum vpravo */
+    .q-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .q-date {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #1e1e1e;
+    }
+
+    /* Spodní polovina — foto + citát vedle sebe */
+    .bottom-row {
       display: flex;
       align-items: flex-end;
-      gap: 10px;
+      justify-content: space-between;
+      margin-top: 12px;
     }
 
-    .field-label {
-      font-size: 11px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: #a08060;
-      white-space: nowrap;
-      font-weight: 400;
-      padding-bottom: 3px;
-      min-width: 120px;
+    /* Dekorativní kaligrafický citát vlevo dole */
+    .deco-quote {
+      font-family: 'Pinyon Script', cursive;
+      font-size: 26px;
+      color: #1e1e1e;
+      line-height: 1.55;
+      max-width: 220px;
     }
 
-    .field-line {
-      flex: 1;
-      border-bottom: 1px solid #e0c9b4;
-      height: 22px;
-    }
-
-    /* Velké pole — víceřádkové */
-    .field-block {
+    /* Placeholder na fotku */
+    .photo-area {
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 8px;
     }
 
-    .field-block .field-label {
-      min-width: unset;
+    .photo-label {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #1e1e1e;
+      align-self: flex-start;
     }
 
-    .field-lines {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
+    .photo-label strong {
+      font-style: italic;
+      font-weight: 600;
     }
 
-    .field-lines .field-line {
-      width: 100%;
-    }
-
-    /* Dekorativní větvička */
-    .flourish {
-      text-align: center;
-      color: #d4b99a;
-      font-size: 18px;
-      letter-spacing: 8px;
-      margin: 20px 0 0;
-      opacity: 0.7;
+    .photo-box {
+      width: 180px;
+      height: 130px;
+      border: 1px solid #9a9690;
+      border-radius: 6px;
+      background: transparent;
     }
   </style>
 </head>
 <body>
   <div class="page">
-    <div class="corner tl"></div>
-    <div class="corner tr"></div>
-    <div class="corner bl"></div>
-    <div class="corner br"></div>
 
-    <p class="page-label">vypráví maminka</p>
-
-    <h1 class="title">Den, kdy ses narodila</h1>
-    <p class="subtitle">ten nejdůležitější den</p>
-    <div class="divider"></div>
-
-    <div class="photo-placeholder">
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#c9a98a" stroke-width="1.2">
-        <rect x="3" y="3" width="18" height="18" rx="2"/>
-        <circle cx="8.5" cy="8.5" r="1.5"/>
-        <polyline points="21 15 16 10 5 21"/>
-      </svg>
-      <span>první fotka</span>
-    </div>
+    <div class="title">Den, kdy ses narodila</div>
 
     <div class="fields">
-      <div class="field-row">
-        <span class="field-label">Datum</span>
-        <div class="field-line"></div>
-      </div>
-      <div class="field-row">
-        <span class="field-label">Čas</span>
-        <div class="field-line"></div>
-      </div>
-      <div class="field-row">
-        <span class="field-label">Místo</span>
-        <div class="field-line"></div>
-      </div>
-      <div class="field-row">
-        <span class="field-label">Vážila jsi</span>
-        <div class="field-line"></div>
-        <span class="field-label" style="min-width:60px; text-align:center;">Měřila jsi</span>
-        <div class="field-line"></div>
-      </div>
-      <div class="field-row">
-        <span class="field-label">Kdo byl při porodu</span>
-        <div class="field-line"></div>
-      </div>
 
-      <div class="field-block">
-        <span class="field-label">První věc, kterou jsem řekla, když jsem tě viděla</span>
-        <div class="field-lines">
-          <div class="field-line"></div>
-          <div class="field-line"></div>
-        </div>
-      </div>
+      <div class="q">Přišla jsi na svět dne</div>
+      <div class="space"></div>
 
-      <div class="field-block">
-        <span class="field-label">Co jsem cítila v tu chvíli</span>
-        <div class="field-lines">
-          <div class="field-line"></div>
-          <div class="field-line"></div>
-          <div class="field-line"></div>
-        </div>
+      <div class="q-row">
+        <div class="q">Kdy jsem tě <strong>poprvé uviděla</strong></div>
+        <div class="q-date">Datum:</div>
+      </div>
+      <div class="space"></div>
+
+      <div class="q">Nikdy nezapomenu na</div>
+      <div class="space"></div>
+
+      <div class="q">Vážila jsi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a měřila jsi</div>
+      <div class="space"></div>
+
+      <div class="q">První věc, kterou jsem řekla, <strong>když jsem tě uviděla</strong></div>
+      <div class="space-lg"></div>
+
+    </div>
+
+    <div class="bottom-row">
+      <div class="deco-quote">
+        Tehdy se pro nás<br>
+        zkomplilovalo<br>
+        slovo láska
+      </div>
+      <div class="photo-area">
+        <div class="photo-label">Tvoje <strong>první fotka</strong></div>
+        <div class="photo-box"></div>
       </div>
     </div>
 
-    <div class="flourish">✦ &nbsp; ✦ &nbsp; ✦</div>
   </div>
 </body>
 </html>
