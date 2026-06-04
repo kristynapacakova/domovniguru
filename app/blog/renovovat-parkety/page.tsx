@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak renovovat parkety", "broušení parket", "lak na parkety", "tmelení parket", "renovace parketové podlahy", "parkety jako nové"]
+    "keywords": ["jak renovovat parkety", "broušení parket", "lak na parkety", "tmelení parket", "renovace parketové podlahy", "parkety jako nové"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolikrát lze parkety přebrousit?", "acceptedAnswer": { "@type": "Answer", "text": "Mozaikové parkety (8–10 mm) lze přebrousit 1–2×, palubky (15–22 mm) 3–5×. Každé broušení odebere 1–2 mm materiálu. Pokud jsou viditelné drážky na spodní straně lamely, brousit nelze — dřevo by prasklo." } },
+      { "@type": "Question", "name": "Jak dlouho nelze chodit po renovovaných parketech?", "acceptedAnswer": { "@type": "Answer", "text": "Po polyuretanovém laku: 24 hodin pro opatrnou chůzi, 3–5 dní před přesunem nábytku, 2 týdny pro plné vytvrzení. Po oleji: 24–48 hodin. Vždy sleduj pokyny výrobce — závisí na teplotě a vlhkosti." } },
+      { "@type": "Question", "name": "Mohu renovovat parkety sám nebo potřebuji profesionála?", "acceptedAnswer": { "@type": "Answer", "text": "Renovaci parket zvládne šikovný laik pokud má trpělivost a dodržuje postup. Největší riziko je bubnová bruska — příliš rychlá jízda nebo zastavení způsobí prohlubně. Pro začátečníky doporučujeme orbitální brusku. Profesionál se vyplatí pro velké plochy nebo historické parkety s geometrickým vzorem." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak renovovat parketovou podlahu – broušení, tmelení, lak</h1>
               <p className="article-lead">Parketová podlaha vypadá zničeně, ale pod vrstvou šrámů a starého laku je krásné dřevo. Renovace parket prodlouží jejich životnost o dalších 20–30 let — a výsledek předčí novou vinyl podlahu.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 16. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/renovovat-parkety" title="Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026" />
             </header>
 

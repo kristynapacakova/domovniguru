@@ -9,7 +9,30 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak utěsnit okna na zimu", description: "Průvan u oken? Přehled metod utěsnění, co funguje." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article", "headline": "Jak utěsnit okna na zimu – přehled metod", "datePublished": "2025-09-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article",
+    "headline": "Jak utěsnit okna na zimu – přehled metod",
+    "datePublished": "2025-09-20T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak zjistím, kde okna táhnou?", "acceptedAnswer": { "@type": "Answer", "text": "Přilož zapálenou svíčku (nebo vlhkou ruku) ke každé spáře a okraji rámu. Kde se plamen odchyluje nebo cítíš chlad – tam uniká teplo. Nejčastěji jde o spáru mezi křídlem a rámem, nebo mezi rámem a zdí." } },
+      { "@type": "Question", "name": "Jak přepnout plastová okna do zimního režimu?", "acceptedAnswer": { "@type": "Answer", "text": "Na závěsech okna najdeš malý válcový čep s drážkou. Otočením šroubováku o 90° přepneš z letní (drážka svisle) do zimní polohy (drážka vodorovně), která přitlačí křídlo pevněji k rámu. Trvá to 5 minut." } },
+      { "@type": "Question", "name": "Lze kombinovat více metod utěsnění?", "acceptedAnswer": { "@type": "Answer", "text": "Ano a je to dokonce doporučeno. Zimní nastavení kování (plastová okna) + přetmelení spáry rám-zeď + těžké závěsy jako doplněk. Každá metoda řeší jiný zdroj tepelných ztrát." } },
+      { "@type": "Question", "name": "Fungují izolační fólie na moderní okna s dvojsklem?", "acceptedAnswer": { "@type": "Answer", "text": "Na moderní plastová okna s dvojsklem fólie nemají velký efekt – u nich teplo uniká hlavně netěsnými spárami, ne přes sklo. Fólie má smysl na starší okna s jednoduchým sklem nebo zastaralým dvojsklem." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží těsnicí páska?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní samolepicí těsnicí páska vydrží 2–3 sezóny. Každoročně ji zkontroluj – pokud se rozlepuje, ztvrdla nebo praskla, vyměň ji. Je to nejlevnější a nejjednodušší řešení pro dřevěná okna bez nastavitelného kování." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak připravit dům na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "5 min" },
@@ -38,7 +61,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak utěsnit okna na zimu – přehled metod a co skutečně funguje</h1>
               <p className="article-lead">Průvan kolem oken může tvořit až 25 % tepelných ztrát v domácnosti. Přitom utěsnění stojí korunky a hodinu práce. Tenhle článek ti ukáže, co kdy použít a co nestojí za čas ani peníze.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

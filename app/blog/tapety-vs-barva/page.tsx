@@ -21,7 +21,17 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["tapety vs barva", "tapety nebo malování", "výhody tapet", "tapety výhody nevýhody", "malování zdi výhody", "tapety cena vs barva"]
+    "keywords": ["tapety vs barva", "tapety nebo malování", "výhody tapet", "tapety výhody nevýhody", "malování zdi výhody", "tapety cena vs barva"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/tapety-vs-barva#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je lepší tapeta nebo barva do obýváku?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na stylu a rozpočtu. Barva je flexibilnější a levnější — vhodná pro celý pokoj. Tapeta dá pokoji osobitý výraz ale je dražší a složitější. Nejlepší kompromis: malování + jedna tapetovaná akcentní stěna za pohovkou." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží tapeta vs. barva?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní vinyl tapeta vydrží 10–15 let bez výrazného opotřebení. Malování barvou vydrží 5–8 let, pak začínají být patrné šmouhy nebo blednutí. Tapeta tedy vydrží déle, ale je dražší pořizovací investicí." } },
+      { "@type": "Question", "name": "Mohu lepit tapety přes staré tapety?", "acceptedAnswer": { "@type": "Answer", "text": "Nedoporučujeme. Stará tapeta může bobtnout nebo odpadnout pod vlhkostí lepidla — nová tapeta se pak nerovnoměrně přichytí. Staré tapety vždy odstraň, zeď vyrovnej a penetruj. Výjimka: tenká papírová tapeta na rovné zdi bez bublin." } },
+      { "@type": "Question", "name": "Kolik rolí tapet potřebuji?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní role tapety pokryje 5–5,5 m². Pro místnost 4×3 m (obvod 14 m, výška 2,5 m = 35 m²) potřebuješ 7–8 rolí. Pro tapety se vzorem přidej 1–2 role navíc na sladění vzoru. Vždy kup o jednu roli více — doobjednat stejnou šarži může být problém." } }
+    ]
   }]
 };
 
@@ -54,7 +64,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Tapety vs. barva na zeď – co je lepší volba</h1>
               <p className="article-lead">Tapety prožívají renesanci — moderní vzory a vinyl tapety daleko překonaly staré papírové role. Ale malování je stále rychlejší, levnější a flexibilnější. Jak se rozhodnout pro svůj byt?</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/tapety-vs-barva" title="Tapety vs. barva na zeď – co je lepší volba pro váš byt 2026" />
             </header>
 
