@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/tapety-vs-barva#article",
     "headline": "Tapety vs. barva na zeď – co je lepší volba pro váš byt 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["tapety vs barva", "tapety nebo malování", "výhody tapet", "tapety výhody nevýhody", "malování zdi výhody", "tapety cena vs barva"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["tapety vs barva", "tapety nebo malování", "výhody tapet", "tapety výhody nevýhody", "malování zdi výhody", "tapety cena vs barva"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/tapety-vs-barva#faq",

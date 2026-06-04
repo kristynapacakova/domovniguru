@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny#article",
     "headline": "Kolik stojí rekonstrukce koupelny – ceny 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["kolik stojí rekonstrukce koupelny", "cena rekonstrukce koupelny 2026", "rekonstrukce koupelny cena práce", "obklady koupelna cena", "sanitární vybavení cena"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["kolik stojí rekonstrukce koupelny", "cena rekonstrukce koupelny 2026", "rekonstrukce koupelny cena práce", "obklady koupelna cena", "sanitární vybavení cena"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny#faq",

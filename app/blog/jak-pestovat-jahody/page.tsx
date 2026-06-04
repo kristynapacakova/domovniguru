@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#article",
     "headline": "Jak pěstovat jahody – výsadba, péče a sklizeň 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak pěstovat jahody", "jahody výsadba", "péče o jahody", "jahody záhon", "jahody truhlík", "kdy sázet jahody"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak pěstovat jahody", "jahody výsadba", "péče o jahody", "jahody záhon", "jahody truhlík", "kdy sázet jahody"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#faq",

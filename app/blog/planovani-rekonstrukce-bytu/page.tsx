@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#article",
     "headline": "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak naplánovat rekonstrukci bytu", "pořadí prací rekonstrukce", "rozpočet rekonstrukce bytu", "rekonstrukce bytu postup", "výběr řemeslníků rekonstrukce"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak naplánovat rekonstrukci bytu", "pořadí prací rekonstrukce", "rozpočet rekonstrukce bytu", "rekonstrukce bytu postup", "výběr řemeslníků rekonstrukce"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#faq",

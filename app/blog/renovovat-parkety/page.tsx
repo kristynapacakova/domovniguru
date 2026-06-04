@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#article",
     "headline": "Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026",
     "datePublished": "2026-04-16T08:00:00Z",
-    "dateModified": "2026-04-16T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak renovovat parkety", "broušení parket", "lak na parkety", "tmelení parket", "renovace parketové podlahy", "parkety jako nové"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak renovovat parkety", "broušení parket", "lak na parkety", "tmelení parket", "renovace parketové podlahy", "parkety jako nové"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#faq",

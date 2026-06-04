@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#article",
     "headline": "Jak opravit škrábance a díry ve zdi před malováním 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak opravit díry ve zdi", "tmel na zeď", "oprava škrábanců zeď", "díra po hmoždince", "vyrovnat zeď před malováním", "sádra na zeď oprava"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak opravit díry ve zdi", "tmel na zeď", "oprava škrábanců zeď", "díra po hmoždince", "vyrovnat zeď před malováním", "sádra na zeď oprava"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#faq",

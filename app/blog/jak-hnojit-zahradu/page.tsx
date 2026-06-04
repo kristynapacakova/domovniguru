@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#article",
     "headline": "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026",
     "datePublished": "2026-04-13T08:00:00Z",
-    "dateModified": "2026-04-13T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak hnojit zahradu", "jarní hnojení zahrady", "hnojení trávníku jaro", "organické hnojivo zahrada", "minerální hnojivo", "kdy hnojit zahradu", "NPK hnojivo"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak hnojit zahradu", "jarní hnojení zahrady", "hnojení trávníku jaro", "organické hnojivo zahrada", "minerální hnojivo", "kdy hnojit zahradu", "NPK hnojivo"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#faq",
