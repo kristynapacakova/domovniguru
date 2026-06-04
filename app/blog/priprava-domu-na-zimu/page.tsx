@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#article",
     "headline": "Příprava domu na zimu – kompletní checklist 2026",
     "datePublished": "2026-04-13T08:00:00Z",
-    "dateModified": "2026-04-13T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["příprava domu na zimu", "zazimování domu", "checklist příprava na zimu", "kotel před zimou", "okna těsnění zima", "okapy čištění podzim", "zahrada zazimování"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Co je nejdůležitější udělat před zimou?", "acceptedAnswer": { "@type": "Answer", "text": "Top 3 priority: (1) Zkontrolovat kotel a odvzdušnit radiátory — výpadek topení v zimě je nejhorší scénář. (2) Uzavřít zahradní přípojku vody — prasknutá trubka od mrazu je drahá havárie. (3) Vyčistit okapy — ucpané okapy způsobují zatékání a tvorbu ledových rampouchů." } },
+      { "@type": "Question", "name": "Kdy nejpozději musím zazimovat dům?", "acceptedAnswer": { "@type": "Answer", "text": "Zahradní přípojka vody musí být uzavřena před prvními mrazy — v ČR typicky říjen nebo začátek listopadu. Kotel zkontroluj v září nebo říjnu. Okapy vyčisti po opadu listí — říjen/listopad. Čím dříve, tím lépe — v listopadu jsou technici nejvíce vytížení." } },
+      { "@type": "Question", "name": "Jak zazimovat dům pokud budu pryč celou zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud dům bude prázdný: uzavři hlavní přívod vody a vyfoukni celý vodovod, nastav topení na protimrazový režim (min. 5–7 °C), požádej souseda nebo správce o pravidelnou kontrolu, vypni spotřebiče v zásuvkách. Nevypínej topení úplně — náklady na vysoušení domu po promrznutí jsou obrovské." } },
+      { "@type": "Question", "name": "Kolik stojí příprava domu na zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Základní příprava bez servisního technika vychází na 500–2 000 Kč (těsnicí pásky, mazivo, posypová sůl, mulč). Se servisem kotle přidej 1 500–3 000 Kč. Celkem tedy 2 000–5 000 Kč — zlomek toho co stojí havarijní oprava v zimě." } },
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Příprava domu na zimu – kompletní checklist</h1>
               <p className="article-lead">Prasknutá trubka, kotel který nespustí, ucpané okapy nebo promrzlá zahradní přípojka — to vše jsou problémy které lze předejít hodinou práce v říjnu. Tady je vše co musíš udělat.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/priprava-domu-na-zimu" title="Příprava domu na zimu – kompletní checklist 2026" />
             </header>
 

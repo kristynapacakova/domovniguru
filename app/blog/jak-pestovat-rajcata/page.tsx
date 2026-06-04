@@ -9,7 +9,23 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak pěstovat rajčata", description: "Od výsevu po sklizeň – kompletní průvodce." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata#article", "headline": "Jak pěstovat rajčata – od výsevu po sklizeň", "datePublished": "2025-03-10T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak pěstovat rajčata", "pěstování rajčat", "výsev rajčat", "rajčata na balkóně", "kdy sázet rajčata"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata#article", "headline": "Jak pěstovat rajčata – od výsevu po sklizeň", "datePublished": "2025-03-10T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak pěstovat rajčata", "pěstování rajčat", "výsev rajčat", "rajčata na balkóně", "kdy sázet rajčata"] },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Kdy vysévat rajčata v České republice?", "acceptedAnswer": { "@type": "Answer", "text": "Nejlépe v únoru až březnu na parapet nebo pod umělé osvětlení. Venku se sází až po 15. května, takže sazenice musí být 10–12 týdnů staré. Příliš brzy vysázená rajčata ven trpí mrazem." } },
+        { "@type": "Question", "name": "Proč rajčata praskají?", "acceptedAnswer": { "@type": "Answer", "text": "Praskání způsobuje náhlé přelití po delším suchu. Voda se rychle vstřebá do plodů, které nestačí růst rovnoměrně. Prevence: pravidelná zálivka a mulčování, které udržuje vlhkost v půdě stabilní." } },
+        { "@type": "Question", "name": "Jak předejít plísni bramborové na rajčatech?", "acceptedAnswer": { "@type": "Answer", "text": "Plíseň se nedá zastavit, jen zpomalit. Nestříkej vodu na listy, odstraňuj postižené listy okamžitě a vyber odolné odrůdy (Primabella, Phantasia). Preventivní postřik fungicidem pomáhá zvláště při vlhkém počasí." } },
+        { "@type": "Question", "name": "Mohu pěstovat rajčata na balkóně?", "acceptedAnswer": { "@type": "Answer", "text": "Ano. Na balkón jsou ideální převislé odrůdy (Tumbling Tom, Balkonzauber) do nádob. Nádoby vysychají 2–3× rychleji než záhon, takže v horkém létě budou potřebovat zálivku každý den." } },
+        { "@type": "Question", "name": "Jak poznat, že je rajče zralé a připravené ke sklizni?", "acceptedAnswer": { "@type": "Answer", "text": "Rajče je zralé, když je plně zbarvené a mírně povoluje pod prstem. Nikdy nedávej rajčata do lednice — chlad nevratně ničí chuť. Optimální teplota skladování je 13–18 °C." } },
+      ],
+    },
+  ],
+};
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
@@ -39,7 +55,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pěstovat rajčata – od výsevu po sklizeň</h1>
               <p className="article-lead">Rajčata jsou nejpěstovanější zelenina na českých zahrádkách – a přitom jich spousta skončí s prázdnými stonky, plísní nebo spálené sluncem. Pět klíčových věcí které to změní.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}
