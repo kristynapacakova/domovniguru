@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly#article",
     "headline": "Jak zasít trávník od nuly – příprava půdy, setí, péče 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak zasít trávník", "setí trávníku", "příprava půdy pro trávník", "travní semeno výběr", "nový trávník postup", "trávník od nuly"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak zasít trávník", "setí trávníku", "příprava půdy pro trávník", "travní semeno výběr", "nový trávník postup", "trávník od nuly"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly#faq",

@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/barva-do-vlhkych-prostoru#article",
     "headline": "Jakou barvu do vlhkých prostor – koupelna, kuchyň, sklep 2026",
     "datePublished": "2026-04-16T08:00:00Z",
-    "dateModified": "2026-04-16T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["barva do koupelny", "barva do vlhkých prostor", "koupelnová barva výběr", "barva odolná vlhkosti", "barva proti plísni", "omyvatelná barva kuchyň"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["barva do koupelny", "barva do vlhkých prostor", "koupelnová barva výběr", "barva odolná vlhkosti", "barva proti plísni", "omyvatelná barva kuchyň"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/barva-do-vlhkych-prostoru#faq",

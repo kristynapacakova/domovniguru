@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#article",
     "headline": "Jak otestovat zásuvku – fázová tužka a multimetr",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak otestovat zásuvku", "fázová tužka", "multimetr zásuvka", "zkoušečka zásuvek", "zásuvka nefunguje", "test elektrické zásuvky"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak otestovat zásuvku", "fázová tužka", "multimetr zásuvka", "zkoušečka zásuvek", "zásuvka nefunguje", "test elektrické zásuvky"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#faq",

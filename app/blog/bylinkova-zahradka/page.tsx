@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#article",
     "headline": "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["bylinková zahradka", "pěstování bylinek doma", "bylinky na parapetu", "bylinky balkon", "jak pěstovat bazalku", "bylinky pro začátečníky"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["bylinková zahradka", "pěstování bylinek doma", "bylinky na parapetu", "bylinky balkon", "jak pěstovat bazalku", "bylinky pro začátečníky"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#faq",

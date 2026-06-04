@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/instalovat-stmivac#article",
     "headline": "Jak nainstalovat stmívač světla – zapojení krok za krokem 2026",
     "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak nainstalovat stmívač", "zapojení stmívače světla", "stmívač pro LED", "montáž stmívače", "stmívač místo vypínače", "dimmer zapojení"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["jak nainstalovat stmívač", "zapojení stmívače světla", "stmívač pro LED", "montáž stmívače", "stmívač místo vypínače", "dimmer zapojení"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/instalovat-stmivac#faq",

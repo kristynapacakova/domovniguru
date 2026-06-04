@@ -17,12 +17,11 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#article",
     "headline": "Proč se barva loupe – příčiny a jak to opravit 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["proč se barva loupe", "odlupující se barva zeď", "barva praská a loupe", "jak opravit loupající barvu", "barva se loupe příčiny", "oprava odlupující se barvy"],
-    "dateModified": "2026-06-04T08:00:00Z"
+    "keywords": ["proč se barva loupe", "odlupující se barva zeď", "barva praská a loupe", "jak opravit loupající barvu", "barva se loupe příčiny", "oprava odlupující se barvy"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#faq",
