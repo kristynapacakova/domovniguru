@@ -123,7 +123,7 @@ const BLOG_SLUGS = [
   "jak-spravne-topit",
   // Ostatní
   "tepelne-cerpadlo-pruvodce",
-  "jak-opravit-kapici-kohoutek",
+  "jak-opravit-kapajici-kohoutek",
   "jak-vycistit-pracku",
   "jak-opravit-trhlinu-ve-zdi",
 ];
