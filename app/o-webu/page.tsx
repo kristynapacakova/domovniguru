@@ -27,7 +27,7 @@ const jsonLd = {
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "editorial",
-    "email": "redakce@domovniguru.cz"
+    "email": "domovniguru@gmail.com"
   },
   "sameAs": []
 };
@@ -76,7 +76,7 @@ export default function OWebuPage() {
             </p>
 
             <h2>Kontakt a zpětná vazba</h2>
-            <p>Máš připomínku k obsahu, našel jsi chybu nebo chceš navrhnout téma? Ozvi se na <strong>redakce@domovniguru.cz</strong>. Na všechny zprávy odpovídáme do 3 pracovních dnů.</p>
+            <p>Máš připomínku k obsahu, našel jsi chybu nebo chceš navrhnout téma? Ozvi se na <strong>domovniguru@gmail.com</strong>. Na všechny zprávy odpovídáme do 3 pracovních dnů.</p>
 
             <div className="owebu-links">
               <Link href="/kalkulacky" className="btn btn-black">Kalkulačky →</Link>
