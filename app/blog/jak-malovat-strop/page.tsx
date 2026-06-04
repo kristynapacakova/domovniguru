@@ -23,10 +23,21 @@ const jsonLd = {
       "headline": "Jak malovat strop bez šmouh",
       "description": "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
       "datePublished": "2025-01-10T08:00:00Z",
-      "dateModified": "2025-03-01T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/jak-malovat-strop#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Proč musím malovat strop jako první?", "acceptedAnswer": { "@type": "Answer", "text": "Barva ze stropu nevyhnutelně kape dolů. Pokud by stěny byly hotové, kapičky bílé barvy by je znehodnotily. Strop vždy maluj před stěnami." } },
+        { "@type": "Question", "name": "Jak se vyhnout šmouhám na stropě?", "acceptedAnswer": { "@type": "Answer", "text": "Klíč je technika mokrý do mokrého — nikdy nenechej okraj zaschnout dříve, než k němu přimaluješ další pruh. Maluj v pásech o šířce cca 1 m rovnoběžně se světlem z okna." } },
+        { "@type": "Question", "name": "Jaký váleček je nejlepší na strop?", "acceptedAnswer": { "@type": "Answer", "text": "Na hladký sádrokarton mikrovlákno (vlas 9–11 mm), na klasickou omítku polyamidový váleček (vlas 12–18 mm). Teleskopická tyč je základ — bez ní budeš mít bolesti zad." } },
+        { "@type": "Question", "name": "Musím strop penetrovat před malováním?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud je strop nový, opravovaný, nebo po stržení tapet. Penetrace sjednotí savost a barva pak nestéká a krytí je rovnoměrné." } },
+        { "@type": "Question", "name": "Kolik vrstev barvy potřebuji na strop?", "acceptedAnswer": { "@type": "Answer", "text": "Standardně dvě vrstvy. Na tmavý podklad nebo výraznou skvrnu může být potřeba tři. Každou vrstvu nechej schnout minimálně 2–4 hodiny." } },
+      ],
     },
     {
       "@type": "BreadcrumbList",

@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy#article",
     "headline": "Jak malovat rohy a lišty – technika štětcem",
     "datePublished": "2026-04-13T08:00:00Z",
-    "dateModified": "2026-04-13T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak malovat rohy", "malování lišt", "technika odřezávání", "jak malovat bez přetahování", "malování u stropu", "malířská páska alternativa"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je lepší malířská páska nebo technika odřezávání?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na situaci. Technika odřezávání je rychlejší a dává čistší výsledek na rovných površích jakmile ji ovládneš. Malířská páska je spolehlivější na nerovných površích nebo při dvoubarevných přechodech. Profesionálové používají odřezávání — pásku jen výjimečně." } },
+      { "@type": "Question", "name": "V jakém pořadí malovat stěny, strop a lišty?", "acceptedAnswer": { "@type": "Answer", "text": "Správné pořadí: (1) strop, (2) stěny, (3) lišty. Strop maluj jako první — kapky na stěnu nevadí, přemaloval je druhý krok. Stěny maluj od stropu dolů. Lišty jako poslední — překryješ případné přesahy ze stěn." } },
+      { "@type": "Question", "name": "Jak opravit přetaženou barvu na lištu?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud je barva mokrá, okamžitě setři vlhkým hadrem nebo štětcem namočeným v čisté vodě. Pokud zaschla, přemaluj lištu její barvou — většina lišt je bílá, takže přemalování je snadné. U dřevěných lišt po zaschnutí jemně přebrousit a přemalovat." } },
+      { "@type": "Question", "name": "Jak malovat u podlahy bez znečištění podlahy?", "acceptedAnswer": { "@type": "Answer", "text": "Zakryj podlahu zakrývací fólií, přilep malířskou pásku podél spodní lišty. Maluj vodorovnými tahy od lišty směrem nahoru. Alternativa: přilož kartičku nebo kus plastové fólie na podlahu a posouvej ji podél stěny — chrání podlahu bez pásky." } },
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak malovat rohy a lišty bez přetahování</h1>
               <p className="article-lead">Čistá linie u stropu, lišt a rohů je to co odlišuje profesionální výsledek od amatérského. Technika odřezávání štětcem se naučíš za jedno odpoledne — a ušetříš hodiny lepení pásky.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy" title="Jak malovat rohy a lišty – technika štětcem" />
             </header>
 
