@@ -198,7 +198,8 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Sprchování a koupání:</strong> ~2 litry vodní páry na sprchu. Největší jednorázový zdroj vlhkosti v bytě.</li>
                 <li><strong>Vaření:</strong> ~1 litr za vaření. Digestoř bez odtahu do fasády (recirkulační) vlhkost neodvádí — jen filtruje pachy.</li>
-                <li><strong>Sušení prádla uvnitř:</strong> Každý kus mokrého prádla uvolní 0,5–1 litr vody. Celá pračka = 2 litry vlhkosti do vzduchu.</li>
+                <li><strong>Sušení prádla uvnitř:</strong> Každý kus mokrého prádla uvolní 0,5–1 litr vody. Celá pračka = 2 litry vlhkosti do vzduchu. Špinavá pračka navíc produkuje zápachy — pravidelné <Link href="/blog/jak-vycistit-pracku">čištění pračky</Link> pomáhá i s kontrolou vlhkosti.</li>
+                <li><strong>Kapající kohoutek nebo netěsné potrubí:</strong> I malý únik vody způsobuje trvalou vlhkost ve stěnách a podlaze. <Link href="/blog/jak-opravit-kapajici-kohoutek">Oprava kapajícího kohoutku</Link> je snadná a může zabránit dlouhodobému plesnivění.</li>
                 <li><strong>Dýchání a pocení:</strong> Dvě osoby produkují spánkem ~1,5 litru za noc.</li>
                 <li><strong>Zatékání nebo stavební závada:</strong> Mokrá skvrna na stropě nebo stěně bez zjevného zdroje = podezření na zatékání nebo poruchu hydroizolace. Toto nelze vyřešit větrání — nutná oprava.</li>
                 <li><strong>Kapilární vzlínání:</strong> Ve starších domech bez hydroizolace vlhkost vzlíná ze základů do zdí. Charakteristické solné výkvěty na stěnách a odpadávající omítka u podlahy.</li>

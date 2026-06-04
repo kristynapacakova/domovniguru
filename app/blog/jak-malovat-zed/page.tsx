@@ -152,7 +152,7 @@ export default function ArticlePage() {
               <p>Příprava zabere 30–50 % celkového času, ale je to krok, který nejvíce rozhoduje o výsledku. Špatně připravená zeď = barva se loupe nebo jsou vidět každá nerovnost.</p>
               <h3>Čištění a opravy</h3>
               <p>Začni tím, že zeď očistíš od prachu, mastnoty a volně se odlupující barvy. Vlhkým hadrem setři prach, mastná místa odmasti odmašťovačem nebo ředěným prostředkem na nádobí.</p>
-              <p>Díry po hřebících, praskliny a škrábance vyplň tmelem nebo sádrovou hmotou. Po zaschnutí (min. 2 hodiny) přebrousíme brusným papírem naplocho.</p>
+              <p>Díry po hřebících, praskliny a škrábance vyplň tmelem nebo sádrovou hmotou. Po zaschnutí (min. 2 hodiny) přebrousíme brusným papírem naplocho. Pokud máš ve zdi větší <Link href="/blog/jak-opravit-trhlinu-ve-zdi">trhliny</Link>, je potřeba je před malováním správně diagnostikovat a opravit — jinak se trhlina vrátí přes novou barvu.</p>
               <h3>Strhávání starých tapet</h3>
               <p>Pokud máš na zdi tapety, musí pryč – malovat přes ně nelze. Nastříkej vodu nebo použij párovač a tapety opatrně strhni špachtlí. Po stržení nechej zeď dobře vyschnout (alespoň 24–48 hodin) a pak teprve penetruj.</p>
               <h3>Kdy zeď opravdu není připravená</h3>
