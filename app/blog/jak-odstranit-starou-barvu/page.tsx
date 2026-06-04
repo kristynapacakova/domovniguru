@@ -50,7 +50,7 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
   { title: "Penetrace před malováním – kdy je nutná?", href: "/blog/penetrace-pred-malovanim", read: "4 min" },
-  { title: "Jak malovat přes tmavou barvu na světlo", href: "/blog/malovat-pres-tmavou-barvu", read: "3 min" },
+  { title: "Proč se barva loupe – příčiny a jak to opravit", href: "/blog/barva-se-loupe", read: "5 min" },
   { title: "Jak se zbavit plísně na zdi natrvalo", href: "/blog/jak-odstranit-plisen-na-zdi", read: "5 min" },
 ];
 

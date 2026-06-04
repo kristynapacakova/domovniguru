@@ -42,7 +42,7 @@ const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
   { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "3 min" },
   { title: "Jak se zbavit plísně na zdi natrvalo", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
-  { title: "Jak malovat radiátor", href: "/blog/jak-malovat-radiator", read: "4 min" },
+  { title: "Barvy do dětského pokoje – jak vybrat bezpečné a správné", href: "/blog/barvy-do-detskeho-pokoje", read: "6 min" },
 ];
 
 export default function ArticlePage() {

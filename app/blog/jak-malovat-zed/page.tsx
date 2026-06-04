@@ -83,7 +83,7 @@ const RELATED = [
   { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "3 min" },
   { title: "Jak se zbavit plísně na zdi natrvalo", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
   { title: "Jak vybrat barvu na zeď", href: "/blog/jak-vybrat-barvu-na-zed", read: "5 min" },
-  { title: "Jak malovat radiátor", href: "/blog/jak-malovat-radiator", read: "4 min" },
+  { title: "Proč se barva loupe – příčiny a jak to opravit", href: "/blog/barva-se-loupe", read: "5 min" },
 ];
 
 export default function ArticlePage() {
