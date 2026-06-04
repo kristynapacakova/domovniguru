@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["barva do koupelny", "barva do vlhkých prostor", "koupelnová barva výběr", "barva odolná vlhkosti", "barva proti plísni", "omyvatelná barva kuchyň"]
+    "keywords": ["barva do koupelny", "barva do vlhkých prostor", "koupelnová barva výběr", "barva odolná vlhkosti", "barva proti plísni", "omyvatelná barva kuchyň"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/barva-do-vlhkych-prostoru#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu použít normální barvu v koupelně?", "acceptedAnswer": { "@type": "Answer", "text": "Technicky ano ale nevydrží — začne se loupit, žloutnout nebo plesnivět do 1–2 let. Speciální koupelnová barva stojí o 50–100 Kč/litr více ale vydrží 5–8 let. Investice do správné barvy se vrátí vyhnutím se nutnosti předčasně přemalovat." } },
+      { "@type": "Question", "name": "Jak poznat barvu odolnou plísním?", "acceptedAnswer": { "@type": "Answer", "text": "Na plechovce nebo v technickém listu hledej výrazy: fungicidní, protiplísňová, biocidní přísada nebo antimikrobiální. Výrobci jako Primalex, HET, Dulux mají speciální řady pro vlhké prostory — obvykle označeny Koupelna nebo Protec v názvu." } },
+      { "@type": "Question", "name": "Musím novou barvu nanášet na celou koupelnu nebo jen na poškozené části?", "acceptedAnswer": { "@type": "Answer", "text": "Pro nejlepší výsledek celou koupelnu — záplata bude patrná i pod barvou pokud se barvy mírně liší. Pokud opravuješ malou plochu, snaž se sehnat stejnou barvu ze stejné šarže nebo proveď barevnou korekci. Lokální oprava je přijatelná pro drobné poškození, ne pro plíseň." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jakou barvu do vlhkých prostor – koupelna, kuchyň, sklep</h1>
               <p className="article-lead">Běžná malířská barva v koupelně nebo kuchyni vydrží pár měsíců než začne plesnivět nebo se loupit. Správná barva pro vlhké prostory vydrží roky — tady je jak ji vybrat.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 16. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/barva-do-vlhkych-prostoru" title="Jakou barvu do vlhkých prostor – koupelna, kuchyň, sklep 2026" />
             </header>
 

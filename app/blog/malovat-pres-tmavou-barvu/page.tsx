@@ -10,7 +10,30 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu#article", "headline": "Jak malovat přes tmavou barvu na světlo", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat přes tmavou barvu", "přemalovat tmavou zeď", "světlá barva přes tmavou", "zakrývací základní nátěr"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu#article",
+    "headline": "Jak malovat přes tmavou barvu na světlo",
+    "datePublished": "2025-02-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["malovat přes tmavou barvu", "přemalovat tmavou zeď", "světlá barva přes tmavou", "zakrývací základní nátěr"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik vrstev potřebuji přes tmavou barvu na bílou?", "acceptedAnswer": { "@type": "Answer", "text": "Se zakrývacím základem (primerem) obvykle stačí 1 vrstva základu + 2 vrstvy finální barvy = celkem 3 vrstvy. Bez základu budeš potřebovat 3–4 vrstvy finální barvy, což je pomalejší a dražší." } },
+      { "@type": "Question", "name": "Je zakrývací základ (primer) nutný?", "acceptedAnswer": { "@type": "Answer", "text": "U velkého kontrastu (tmavě modrá, černá → bílá) je základ prakticky nutností. Jedna vrstva zakrývacího základu ušetří 2–3 vrstvy finální barvy a výsledek bude kvalitnější." } },
+      { "@type": "Question", "name": "Jak dlouho čekat mezi vrstvami barvy?", "acceptedAnswer": { "@type": "Answer", "text": "Minimálně 4 hodiny, ideálně přes noc. Malování na mokrou nebo nedoschlou vrstvu způsobuje šmouhy, odlepování a nerovnoměrné krytí. Každá vrstva musí být zcela suchá." } },
+      { "@type": "Question", "name": "Mohu malovat přímo přes lesklou nebo olejovou barvu?", "acceptedAnswer": { "@type": "Answer", "text": "Lesklé povrchy je nejprve nutné přebrousit jemným smirkem (P120–P150), aby nová barva přilnula. Na olejovou barvu použij speciální základ – běžná akrylátová barva na olejový podklad špatně drží." } },
+      { "@type": "Question", "name": "Proč světlá barva stále prosvítá i po třech vrstvách?", "acceptedAnswer": { "@type": "Answer", "text": "Barva s nízkou kryvostí (levné nebo pastely) může vyžadovat i více vrstev. Investuj do barvy s vysokou kryvostí nebo použij šedý základ jako přechodový nátěr – šedá zakryje tmavý podklad lépe než bílá." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -40,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak malovat přes tmavou barvu na světlo</h1>
               <p className="article-lead">Jedna vrstva bílé přes tmavě modrou zeď? Skončíš s nerovnoměrnou šedavou plochou. S správným postupem to ale zvládneš čistě a bez zbytečných vrstev.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}

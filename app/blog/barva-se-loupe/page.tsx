@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["proč se barva loupe", "odlupující se barva zeď", "barva praská a loupe", "jak opravit loupající barvu", "barva se loupe příčiny", "oprava odlupující se barvy"]
+    "keywords": ["proč se barva loupe", "odlupující se barva zeď", "barva praská a loupe", "jak opravit loupající barvu", "barva se loupe příčiny", "oprava odlupující se barvy"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu přemalovat přes loupající se barvu?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — nová barva nanášená přes nestabilní starý podklad se začne loupit s ním brzy. Vždy odstraň vše co se loupe, oprav povrch, penetruj a teprve pak mal. Přemalování bez opravy podkladu způsobí opakování problému za 6–12 měsíců." } },
+      { "@type": "Question", "name": "Proč se barva loupe jen v koupelně nebo kuchyni?", "acceptedAnswer": { "@type": "Answer", "text": "Vlhkost a mastnota — typické problémy koupelny a kuchyně. V koupelně: nedostatečné větrání způsobí kondenzaci páry na stěnách. V kuchyni: mastnota z vaření se usazuje na zdi. Řešení: použít speciální koupelnovou nebo kuchyňskou barvu s vyšší odolností a zlepšit větrání." } },
+      { "@type": "Question", "name": "Jak poznat jestli je starý nátěr kompatibilní s novou barvou?", "acceptedAnswer": { "@type": "Answer", "text": "Jednoduchý test: otři zeď isopropylalkoholem (lihem). Pokud se barva rozpustí nebo rozmaže — je to olejová barva. Pokud se nerozpustí — je to akrylát nebo latex. Olejový nátěr přetírat olejovým, akrylát akrátem. Akrylát nad starý olej bez přípravy způsobí loupaní." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Proč se barva loupe – příčiny a jak to opravit</h1>
               <p className="article-lead">Loupající se barva není jen estetický problém — je to signál že příprava povrchu nebo samotné malování neproběhlo správně. Správná oprava trvá déle než přemalování, ale výsledek drží roky.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/barva-se-loupe" title="Proč se barva loupe – příčiny a jak to opravit 2026" />
             </header>
 
