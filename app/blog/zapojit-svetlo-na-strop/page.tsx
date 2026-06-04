@@ -8,7 +8,29 @@ export const metadata: Metadata = {
   openGraph: { title: "Jak zapojit nové světlo na strop", description: "L, N, PE vodiče – správné zapojení krok za krokem.", url: "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-28T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20zapojit%20nov%C3%A9%20sv%C4%9Btlo%20na%20strop%20%E2%80%93%20L%2C%20N%2C%20PE%20vodi%C4%8De%202025&cat=blog", width: 1200, height: 630, alt: "Jak zapojit nové světlo na strop – L, N, PE vodiče 2025" }] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop#article", "headline": "Jak zapojit nové světlo na strop", "datePublished": "2025-01-28T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop#article",
+    "headline": "Jak zapojit nové světlo na strop",
+    "datePublished": "2025-01-28T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["jak zapojit světlo na strop", "výměna stropního svítidla", "zapojení L N PE vodič", "stropní svítidlo montáž"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Musím volat elektrikáře na výměnu stropního svítidla?", "acceptedAnswer": { "@type": "Answer", "text": "Ne, pokud jde jen o výměnu svítidla (odpojení starého, zapojení nového ke stávajícím vodičům). Klíčové podmínky: vypnutý jistič, ověření fázovou tužkou a správné přiřazení L, N, PE vodičů. Nové instalace nebo práce v rozvaděči vyžadují elektrikáře." } },
+      { "@type": "Question", "name": "Co dělat, když nevím, které vodiče jsou L, N a PE?", "acceptedAnswer": { "@type": "Answer", "text": "Fázovou tužkou ověříš L (svítí) a N (nesvítí). PE vodič je zpravidla zeleno-žlutý. Ve starších bytech mohou být nestandardní barvy: vždy ověř multimetrem nebo elektrikářem, nespoléhej na barvu." } },
+      { "@type": "Question", "name": "Světlo nefunguje po zapojení, co zkontrolovat?", "acceptedAnswer": { "@type": "Answer", "text": "Ověř: (1) jistič je zapnutý, (2) vodiče jsou pevně ve svorkách (zatáhni za každý), (3) L a N jsou správně přiřazeny – záměna je nejčastější chyba. Pokud jistič hned vypadne, je zkrat – zkontroluj zda se vodiče nedotýkají navzájem." } },
+      { "@type": "Question", "name": "Jak bezpečně ověřit, že v krabici není napětí?", "acceptedAnswer": { "@type": "Answer", "text": "Nestačí vypnout vypínač na stěně – ten odpojuje pouze fázi, nulový vodič zůstane pod napětím. Vždy vypni jistič v rozvaděči a pak ověř fázovou tužkou každý vodič v krabici. Teprve pak pracuj." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak vyměnit vypínač světla", href: "/blog/jak-vymenit-vypinac", read: "4 min" },
@@ -38,7 +60,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak zapojit nové světlo na strop</h1>
               <p className="article-lead">Výměna stropního svítidla je jedna z nejběžnějších domácích elektroinstalací — a zvládne ji každý kdo dodržuje bezpečnostní pravidla. Klíč je vypnout jistič a správně přiřadit vodiče.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}

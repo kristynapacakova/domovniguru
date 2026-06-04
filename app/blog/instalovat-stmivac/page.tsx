@@ -21,7 +21,17 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak nainstalovat stmívač", "zapojení stmívače světla", "stmívač pro LED", "montáž stmívače", "stmívač místo vypínače", "dimmer zapojení"]
+    "keywords": ["jak nainstalovat stmívač", "zapojení stmívače světla", "stmívač pro LED", "montáž stmívače", "stmívač místo vypínače", "dimmer zapojení"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-stmivac#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu zapojit stmívač sám nebo potřebuji elektrikáře?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna vypínače za stmívač je zákonně povolená pro laiky jako drobná údržba — stejně jako výměna vypínače nebo zásuvky. Podmínkou je bezpečný postup (vypnutý jistič, ověření fázovou tužkou) a standardní instalace. Při sebemenší nejistotě volej elektrikáře." } },
+      { "@type": "Question", "name": "Proč moje LED bliká na stmívači?", "acceptedAnswer": { "@type": "Answer", "text": "Tři nejčastější příčiny: (1) LED není označena jako DIMMABLE — nelze stmívat. (2) Stmívač je starý halogenový typ — nekompatibilní s LED. (3) Zátěž je nižší než minimum stmívače — přidej žárovky nebo kup stmívač s nižším minimem zátěže." } },
+      { "@type": "Question", "name": "Jaký stmívač koupit pro LED žárovky?", "acceptedAnswer": { "@type": "Answer", "text": "Hledej stmívač označený LED dimmer nebo Universal dimmer. Oblíbené značky: Schneider Electric, Legrand, Jung, Busch-Jaeger. Před nákupem zkontroluj seznam kompatibilních žárovek na webu výrobce. Cena kvalitního LED stmívače je 300–600 Kč." } },
+      { "@type": "Question", "name": "Funguje stmívač i pro svítidla s více žárovkami?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale součet výkonů všech žárovek musí být v rozsahu stmívače (minimum–maximum W). Například stmívač 10–200 W s pěti LED žárovkami po 9 W = 45 W celkem — to je v pořádku. Pokud celkový výkon překračuje maximum stmívače, stmívač se přehřívá a může se poškodit." } }
+    ]
   }]
 };
 
@@ -54,7 +64,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak nainstalovat stmívač světla – zapojení krok za krokem</h1>
               <p className="article-lead">Stmívač promění jakýkoli pokoj — z pracovního světla na večerní atmosféru jedním otočením. Výměna vypínače za stmívač trvá 20 minut a zvládneš ji sám. Ale pozor — ne každá LED žárovka stmívání podporuje.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/instalovat-stmivac" title="Jak nainstalovat stmívač světla – zapojení krok za krokem 2026" />
             </header>
 
