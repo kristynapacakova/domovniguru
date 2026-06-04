@@ -10,7 +10,29 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak správně kompostovat 2026", description: "Poměr C:N, co patří do kompostu, typy kompostérů." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#article", "headline": "Jak správně kompostovat – průvodce od A do Z", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-14T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak kompostovat", "domaci kompostovani", "kuchynsky kompost", "pomer cn kompost", "kompostovac typy", "vermikompostovani"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#article",
+    "headline": "Jak správně kompostovat – průvodce od A do Z",
+    "datePublished": "2026-03-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["jak kompostovat", "domaci kompostovani", "kuchynsky kompost", "pomer cn kompost", "kompostovac typy", "vermikompostovani"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Proč kompost smrdí a jak to zastavit?", "acceptedAnswer": { "@type": "Answer", "text": "Zápach má vždy příčinu: (1) Amoniak — příliš mnoho zeleného. Přidej hnědý materiál v poměru 3:1 a promíchej. (2) Hniloba — nedostatek vzduchu. Hluboce promíchej, přidej drcené větve a zkontroluj vlhkost. Správně vedený kompost voní zeminou — ne hnilobou." } },
+      { "@type": "Question", "name": "Jak zrychlit zrání kompostu?", "acceptedAnswer": { "@type": "Answer", "text": "Nejúčinnější způsoby: (1) Drobení materiálu — menší kousky mají větší povrch. (2) Časté promíchávání — každých 5–7 dní. (3) Přidej urychlovač — hrst zeminy nebo hotového kompostu. (4) Udržuj správnou vlhkost. (5) Kompost v horké fázi (50–70 °C) se rozkládá 3–4× rychleji." } },
+      { "@type": "Question", "name": "Mohu do kompostu dávat citrusy a kávovou sedlinu?", "acceptedAnswer": { "@type": "Answer", "text": "Citrusy ano — s mírou. Velké množství může zpomalit rozklad a odradit žížaly. Kávová sedlina je výborná — obsahuje dusík, přitahuje žížaly a urychluje rozklad. Obojí přidávej v rozumném množství a míchej s dalšími materiály." } },
+      { "@type": "Question", "name": "Jak poznám že je kompost hotový?", "acceptedAnswer": { "@type": "Answer", "text": "Zralý kompost je tmavě hnědý až černý, drobivý, voní příjemně po zemi a nejsou v něm viditelné nerozložené kousky. Test: uzavři hrst do plastového sáčku na 3 dny. Pokud nevznikne zápach, kompost je zralý a připravený k použití." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "7 min" },
@@ -41,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně kompostovat: Průvodce od založení po černé zlato na zahradě</h1>
               <p className="article-lead">Kompost je nejlepší a nejlevnější hnojivo které můžeš své zahradě dát. Ale špatně vedený kompost smrdí, nehnije a přitahuje škůdce. Tenhle průvodce ti ukáže jak to dělat správně — od prvního listí po zralý kompost za 3–6 měsíců.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-kompostovat" title="Jak správně kompostovat – průvodce od A do Z" />
             </header>
 

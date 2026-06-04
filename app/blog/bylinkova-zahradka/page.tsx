@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["bylinková zahradka", "pěstování bylinek doma", "bylinky na parapetu", "bylinky balkon", "jak pěstovat bazalku", "bylinky pro začátečníky"]
+    "keywords": ["bylinková zahradka", "pěstování bylinek doma", "bylinky na parapetu", "bylinky balkon", "jak pěstovat bazalku", "bylinky pro začátečníky"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu pěstovat bylinky bez přirozeného světla?", "acceptedAnswer": { "@type": "Answer", "text": "S přirozeným světlem je to vždy lepší, ale speciální LED lampy (grow lights) přirozené světlo nahradí. LED panel (400–1 500 Kč) zavěšený 20–30 cm nad bylinkami 12–16 hodin denně umožní pěstování i v tmavé místnosti nebo v bytě bez slunečního okna." } },
+      { "@type": "Question", "name": "Proč bazalka z obchodu rychle uhyne?", "acceptedAnswer": { "@type": "Answer", "text": "Supermarketové bylinky jsou pěstované v hydroponii za intenzivního osvětlení — jsou přemnožené a stresované prodejem. Na parapetu jim chybí světlo. Řešení: přesadit do většího květináče, oddělit trs na 3–4 menší části, přemístit na nejsvětlejší místo v bytě." } },
+      { "@type": "Question", "name": "Kdy přesadit bylinky ven po zimě?", "acceptedAnswer": { "@type": "Answer", "text": "Trvalky (pažitka, máta, tymián) lze přesunout ven jakmile nehrozí mráz — typicky po polovině května (po zmrzlých). Bazalku venku sázej nejdříve koncem května kdy jsou noci teplé — bazalka je tropická rostlina a mráz ji okamžitě zničí." } }
+    ]
   }]
 };
 
@@ -63,7 +72,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Bylinková zahradka – jak pěstovat bylinky doma i venku</h1>
               <p className="article-lead">Čerstvé bylinky jsou nejjednodušší zahradničení jaké existuje — nevyžadují zahradu, stačí parapet nebo balkon. Za pár týdnů máš bazalku, pažitku i rozmarýn kdykoliv po ruce.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/bylinkova-zahradka" title="Bylinková zahradka – jak pěstovat bylinky doma i venku 2026" />
             </header>
 
