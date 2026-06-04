@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Musím záhony na zimu přikrýt nebo je to zbytečné?", "acceptedAnswer": { "@type": "Answer", "text": "Přikrytí mulčem záhonů s trvalkami je vždy přínosné — chrání kořeny před střídáním teplot (zamrznutí a rozmrznutí poškozuje kořeny více než konstantní mráz). U dobře zavedených odolných trvalek (kopretina, bergenie, rozchodník) přikrytí není nutné. U citlivějších (hosta, echinacea, třapatka) doporučujeme vrstvu chvojí nebo listí." } },
       { "@type": "Question", "name": "Kdy vyndat přezimující rostliny ven na jaře?", "acceptedAnswer": { "@type": "Answer", "text": "Po \"ledových mužích\" (12.–15. května) kdy přestane hrozit pozdní mráz. Pro otužilé druhy (oleander, levandule) lze začít koncem dubna při stabilním počasí. Rostliny přesunuté ze zimoviště aklimatizuj postupně — nejdřív do polostínu a chráněného místa, pak na plné slunce. Náhlý přesun ze tmy na přímé slunce způsobí spálení listů." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou#howto",
+    "name": "Ochrana rostlin před zimou – co zakrýt",
+    "description": "Jak ochránit zahradní rostliny před zimou. Co zakrýt jutou nebo mulčem, co přestěhovat do skleníku a co přezimuje samo. Průvodce pro zahradu i balkon.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co zakrýt a jak", "text": "Co zakrýt a jak" },
+      { "@type": "HowToStep", "name": "Co přestěhovat dovnitř", "text": "Co přestěhovat dovnitř" },
+      { "@type": "HowToStep", "name": "Mulčování záhonů – jednoduchá ochrana", "text": "Mulčování záhonů – jednoduchá ochrana" }
+    ]
   }]
 };
 

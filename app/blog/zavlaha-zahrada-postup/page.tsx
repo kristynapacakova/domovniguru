@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Je lepší dešťová nebo vodovodní voda?", "acceptedAnswer": { "@type": "Answer", "text": "Dešťová voda je pro rostliny lepší — má přirozené pH, neobsahuje chlor a je teplejší než vodovodní voda. Pokud máš možnost sbírat dešťovku do sudu, rozhodně to doporučujeme. Sníží i spotřebu vody a účet za vodné." } },
       { "@type": "Question", "name": "Jak poznat že zahradu zaléváme příliš?", "acceptedAnswer": { "@type": "Answer", "text": "Příznaky přezalití: žloutnoucí listy (i přes dostatek světla), hniloba kořenů, plesnivá půda, opadávání listů. Půda by mezi zálivkami měla mírně oschnout — stále vlhká půda bez přestávky signalizuje přezalití." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup#howto",
+    "name": "Jak zavlažovat zahradu – ruční i automatická závlaha 2026",
+    "description": "Ruční zalévání nebo automatická závlaha? Kdy a kolik zalévat trávník a záhony – praktický průvodce bez plýtvání vodou.",
+    "step": [
+      { "@type": "HowToStep", "name": "Zavlažování trávníku", "text": "Zavlažování trávníku" },
+      { "@type": "HowToStep", "name": "Závlaha záhonů a zeleniny", "text": "Závlaha záhonů a zeleniny" },
+      { "@type": "HowToStep", "name": "Kapková závlaha – instalace a výhody", "text": "Kapková závlaha přivádí vodu přímo ke kořenům každé rostliny. Oproti postřikovači ušetří 40–60 % vody a výrazně snižuje výskyt plísňových chorob." },
+      { "@type": "HowToStep", "name": "Automatická závlaha – vyplatí se?", "text": "Automatická závlaha se vyplatí pokud trávíš hodně času zalíváním, cestuješ nebo máš zahradu nad 100 m². Návratnost je 3–7 let v úspoře vody a práce." }
+    ]
   }]
 };
 

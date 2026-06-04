@@ -19,6 +19,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Jaká podlaha na balkón nevyžaduje vrtání a lepení?", "acceptedAnswer": { "@type": "Answer", "text": "WPC dlaždice na plastových roštech — položí se volně, drží vlastní vahou a lze je kdykoli sundat nebo přeskupit. Vhodné pro nájemníky nebo pro ty kdo nechtějí trvale upravovat balkón." } },
       { "@type": "Question", "name": "Jak ošetřit dřevěnou podlahu na balkóně přes zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Před zimou očisti dřevo, nechej vyschnout a aplikuj impregnaci nebo olej. WPC (dřevoplastové dlaždice) nepotřebují ošetření — jsou mrazuvzdorné a nešednou. Přírodní dřevo (teak, akácie) ošetřuj 1× ročně teakovým olejem." } }
     ] },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/terasa-na-balkone#howto",
+      "name": "Jak zařídit terasu na balkóně",
+      "description": "Jak proměnit holý balkón v příjemnou terasu: podlaha, nábytek, stínění, rostliny a osvětlení.",
+      "step": [
+        { "@type": "HowToStep", "name": "Podlaha na balkón", "text": "Nejjednodušší volba je WPC dlažba na plastových roštech — klade se volně bez lepení a je odolná vůči mrazu i vodě. Přírodní dřevo (teak, akácie) vyžaduje každoroční ošetření olejem." },
+        { "@type": "HowToStep", "name": "Nábytek pro malý balkón", "text": "Na malý balkón volte skládací nebo stohující nábytek. Bistro sety, závěsná křesla nebo rohová lavice s úložným prostorem maximalizují využití plochy." },
+        { "@type": "HowToStep", "name": "Stínění a soukromí", "text": "Slunečník, markýza nebo závěsný baldachýn zajistí stín. Bambusový plot nebo rostlinná zástěna z popínavek přidá soukromí." },
+        { "@type": "HowToStep", "name": "Rostliny do nádob na balkón", "text": "Volte nádoby s podmisky a lehký substrát. Na slunný balkón jsou ideální levandule, rozmarýn a muškáty. Na stinný kapradiny, begonie a fuchsie." },
+        { "@type": "HowToStep", "name": "Osvětlení balkónu", "text": "Solární světelné řetězy nebo LED pásky na zábradlí vytvoří večerní atmosféru bez nutnosti vedení elektřiny. Pro stálé osvětlení instalujte nástěnné svítidlo s IP44 krytím." }
+      ]
+    }
   ],
 };
 

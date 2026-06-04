@@ -30,6 +30,15 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč zásuvka jiskří?", "acceptedAnswer": { "@type": "Answer", "text": "Malá jiskra při zasouvání je normální — vzniká při prvním kontaktu pod napětím. Velká jiskra, opakované jiskření nebo jiskra při pouhém dotyku zástrčky signalizuje problém: poškozené kontakty, uvolněný spoj nebo zkrat. Takovou zásuvku okamžitě přestaň používat." } },
       { "@type": "Question", "name": "Mohu použít prodlužovací kabel místo výměny zásuvky?", "acceptedAnswer": { "@type": "Answer", "text": "Prodlužovací kabel je dočasné řešení, ne náhrada za opravu. Pokud je zásuvka poškozená, jiskří nebo se přehřívá, prodlužovák problém nevyřeší — jen ho přesune. Poškozenou zásuvku vyměň co nejdříve." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vymena-zasuvky#howto",
+    "name": "Výměna zásuvky – kdy a jak ji vyměnit správně 2026",
+    "description": "Kdy je čas vyměnit zásuvku? Poškozená, uvolněná nebo zastaralá zásuvka je bezpečnostní riziko. Jak poznat že je čas na výměnu a jak ji provést správně.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jakou zásuvku koupit jako náhradu", "text": "Při výběru nové zásuvky dbej na kompatibilitu s existující krabicí a elektroinstalací." },
+      { "@type": "HowToStep", "name": "Jak na výměnu – postup krok za krokem", "text": "Výměna zásuvky je práce pro šikovného laika — ale vyžaduje přísné dodržení bezpečnostního postupu. Nejdůležitější je vždy vypnout jistič a ověřit absenci napětí fázovou tužkou." }
+    ]
   }]
 };
 

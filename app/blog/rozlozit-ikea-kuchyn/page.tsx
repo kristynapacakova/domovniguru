@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak dlouho trvá demontáž kuchyně?", "acceptedAnswer": { "@type": "Answer", "text": "Průměrná kuchyň (3–4 metry): 3–5 hodin pro dva lidi. Velká kuchyň nebo kuchyň s mnoha spotřebiči: 5–8 hodin. Profesionální stěhovací firma se specializací na kuchyně zvládne demontáž za 2–3 hodiny. Nezapočítávej čas na balení — to je dalších 1–2 hodiny." } },
       { "@type": "Question", "name": "Co dělat pokud kuchyň není šroubovaná ale přilepená?", "acceptedAnswer": { "@type": "Answer", "text": "Starší kuchyně nebo kuchyně montované \"natvrdo\" mohou být přilepené ke zdi montážní pěnou nebo tmelem. V tom případě je demontáž destructivní — skříňky se při oddělování od zdi poškodí. Zavolej odbornou firmu která posoudí jestli je demontáž bez poškození možná, nebo zda je lepší kuchyň nechat a koupit novou." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn#howto",
+    "name": "Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026",
+    "description": "Jak bezpečně rozložit kuchyňskou linku při stěhování. Co demontovat jako první, jak zabalit dvířka a pracovní desku a jak kuchyni znovu sestavit na novém místě.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava před demontáží", "text": "Příprava před demontáží" },
+      { "@type": "HowToStep", "name": "Postup demontáže krok za krokem", "text": "Postup demontáže krok za krokem" },
+      { "@type": "HowToStep", "name": "Jak zabalit díly na transport", "text": "Jak zabalit díly na transport" },
+      { "@type": "HowToStep", "name": "Sestavení na novém místě", "text": "Sestavení na novém místě" }
+    ]
   }]
 };
 

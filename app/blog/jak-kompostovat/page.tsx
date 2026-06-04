@@ -31,6 +31,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu do kompostu dávat citrusy a kávovou sedlinu?", "acceptedAnswer": { "@type": "Answer", "text": "Citrusy ano — s mírou. Velké množství může zpomalit rozklad a odradit žížaly. Kávová sedlina je výborná — obsahuje dusík, přitahuje žížaly a urychluje rozklad. Obojí přidávej v rozumném množství a míchej s dalšími materiály." } },
       { "@type": "Question", "name": "Jak poznám že je kompost hotový?", "acceptedAnswer": { "@type": "Answer", "text": "Zralý kompost je tmavě hnědý až černý, drobivý, voní příjemně po zemi a nejsou v něm viditelné nerozložené kousky. Test: uzavři hrst do plastového sáčku na 3 dny. Pokud nevznikne zápach, kompost je zralý a připravený k použití." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#howto",
+    "name": "Jak správně kompostovat – průvodce od A do Z",
+    "description": "Poměr C:N, co patří a nepatří do kompostu, typy kompostérů a jak zrychlit zrání. Kompletní průvodce kompostováním pro zahradu i byt.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak kompostování funguje – věda za hromadou", "text": "Kompostování je řízený rozklad organické hmoty mikroorganismy, žížalami a houbami za přítomnosti vzduchu a vlhkosti. Výsledkem je humus — nejbohatší půdní materiál s obsahem živin, mikroorganismů a organické hmoty." },
+      { "@type": "HowToStep", "name": "Co patří a nepatří do kompostu", "text": "Nesprávné materiály v kompostu způsobují zápach, přitahují škůdce a hlodavce, nebo brání správnému rozkladu." },
+      { "@type": "HowToStep", "name": "Poměr C:N – tajemství kompostu který nesmrdí", "text": "Poměr uhlíku (C) a dusíku (N) je nejdůležitější parametr správného kompostování. Ideální poměr je přibližně 25–30 dílů uhlíku na 1 díl dusíku. V praxi stačí jednoduché pravidlo:" },
+      { "@type": "HowToStep", "name": "Typy kompostérů – srovnání pro zahradu i byt", "text": "Typy kompostérů – srovnání pro zahradu i byt" },
+      { "@type": "HowToStep", "name": "Jak kompostér správně založit krok za krokem", "text": "Jak kompostér správně založit krok za krokem" },
+      { "@type": "HowToStep", "name": "Problémy a jak je řešit", "text": "Problémy a jak je řešit" }
+    ]
   }]
 };
 

@@ -30,6 +30,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu zavěsit těžké předměty na sádrokartonovou příčku?", "acceptedAnswer": { "@type": "Answer", "text": "Na sádrokarton bez kotvení do profilu lze zavěsit max. 15–20 kg (obrázky, lehké police). Pro těžší předměty (TV, police s knihami) musíš trefně kotvit přímo do ocelového CW profilu nebo použít speciální sádrokartonové hmoždinky (molly) — únosnost až 30–50 kg. Při stavbě příčky je vhodné plánovat kde bude těžká police a přidat extra profil." } },
       { "@type": "Question", "name": "Kolik stojí sádrokartonová příčka?", "acceptedAnswer": { "@type": "Answer", "text": "Materiál na příčku 3×2,5 m (7,5 m²) stojí 2 000–5 000 Kč (desky, profily, tmel, vata). Profesionální montáž přidá 150–300 Kč/m², tedy 1 100–2 250 Kč práce. Celkem 3 000–7 000 Kč za příčku. Svépomocí ušetříš práci — za víkend zvládneš příčku sám." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup#howto",
+    "name": "Jak postavit příčku ze sádrokartonu",
+    "description": "Sádrokartonová příčka krok za krokem. Jak vyměřit, postavit ocelové profily, přišroubovat desky a přetmelit spáry. Postup pro laiky bez speciálního nářadí.",
+    "step": [
+      { "@type": "HowToStep", "name": "Materiál a nářadí – co potřebuješ", "text": "Materiál a nářadí – co potřebuješ" },
+      { "@type": "HowToStep", "name": "Montáž profilů – základ příčky", "text": "Montáž profilů – základ příčky" },
+      { "@type": "HowToStep", "name": "Pokládka sádrokartonových desek", "text": "Pokládka sádrokartonových desek" },
+      { "@type": "HowToStep", "name": "Izolace a rozvody uvnitř příčky", "text": "Izolace a rozvody uvnitř příčky" },
+      { "@type": "HowToStep", "name": "Tmelení spár a finalizace", "text": "Tmelení spár je nejzdlouhavější část — ale i nejdůležitější pro výsledný vzhled. Špatně přetmelená příčka bude mít viditelné nerovnosti pod barvou." },
+      { "@type": "HowToStep", "name": "Typy sádrokartonových desek", "text": "Typy sádrokartonových desek" }
+    ]
   }]
 };
 

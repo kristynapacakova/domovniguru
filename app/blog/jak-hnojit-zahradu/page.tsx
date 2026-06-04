@@ -31,6 +31,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Kdy je nejlepší čas pro jarní hnojení?", "acceptedAnswer": { "@type": "Answer", "text": "Duben je ideální měsíc pro jarní hnojení v ČR. Teplota půdy by měla být nad 8 °C — při nižší teplotě kořeny živiny špatně vstřebávají. Trávník hnojíme při aktivním růstu, záhony při přípravě půdy, stromy při rašení." } },
       { "@type": "Question", "name": "Mohu použít hnojivo z obchodu na organickou zahradu?", "acceptedAnswer": { "@type": "Answer", "text": "Pro certifikovanou bio zahradu jsou povolena pouze organická hnojiva a speciálně certifikované minerální přípravky. Pro běžnou domácí zahradu bez certifikace není omezení — můžeš kombinovat organické i minerální podle potřeby." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#howto",
+    "name": "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026",
+    "description": "Jarní hnojení zahrady krok za krokem. Kdy hnojit trávník, záhony a stromy, jaké hnojivo vybrat a jak nepředávkovat. Praktický průvodce pro každého zahrádkáře.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy hnojiv – organická vs. minerální", "text": "Typy hnojiv – organická vs. minerální" },
+      { "@type": "HowToStep", "name": "Hnojení trávníku – jarní start sezóny", "text": "Trávník je největší a nejviditelnější část zahrady. Správné jarní hnojení je základ husté zelené plochy bez plevele a mechu." },
+      { "@type": "HowToStep", "name": "Hnojení záhonů a zeleniny", "text": "Zeleninové záhony jsou nejvíce náročné na živiny — zelenina roste rychle a plody odebírají hodně fosforu a draslíku." },
+      { "@type": "HowToStep", "name": "Hnojení stromů, keřů a trvalek", "text": "Hnojení stromů, keřů a trvalek" }
+    ]
   }]
 };
 

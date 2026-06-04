@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Musím odvzdušňovat každý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Doporučujeme odvzdušnit na začátku každé topné sezóny — v říjnu nebo listopadu. Vzduch se do soustavy dostává přirozeně přes těsnění a kyslíkem rozpuštěným ve vodě. Roční odvzdušnění je jednoduchá prevence zbytečně vysokých účtů za teplo." } },
       { "@type": "Question", "name": "Jak odvzdušnit topení v bytě v paneláku?", "acceptedAnswer": { "@type": "Answer", "text": "V paneláku je topná soustava společná — odvzdušňování musíš koordinovat se správcem domu nebo servisní firmou. Neoprávněný zásah do soustavy může způsobit pokles tlaku pro celý dům. Nahlaste problém správci, který zajistí odvzdušnění celé stoupačky." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory#howto",
+    "name": "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026",
+    "description": "Studený radiátor nahoře? Odvzdušnění zvládnete sami za 10 minut. Kompletní návod krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co budeš potřebovat", "text": "Co budeš potřebovat" },
+      { "@type": "HowToStep", "name": "Postup odvzdušnění krok za krokem", "text": "Celý proces trvá 5–10 minut na jeden radiátor. Postupuj vždy od radiátorů nejblíže kotli směrem k nejvzdálenějším — vzduch se tak vytlačí systematicky z celé soustavy." },
+      { "@type": "HowToStep", "name": "Kontrola tlaku v soustavě", "text": "Po odvzdušnění může tlak v soustavě klesnout — uvolnil ses vzduch a objem soustavy se mírně zmenšil. Správný tlak je klíčový pro správnou funkci topení." },
+      { "@type": "HowToStep", "name": "Kolik ušetříš odvzdušněním", "text": "Vzduch v soustavě je přímá ztráta peněz. Radiátor s vzduchovou kapsou musí topné těleso pracovat déle a intenzivněji aby dosáhlo požadované teploty v místnosti — nebo ji vůbec nedosáhne." },
+      { "@type": "HowToStep", "name": "Jak odvzdušnit radiátor bez odvzdušňovacího ventilu", "text": "Starší radiátory — zejména litinové nebo paneláková tělesa — někdy nemají klasický odvzdušňovací ventil s čtyřhrannou hlavicí. V takovém případě máš dvě možnosti." }
+    ]
   }]
 };
 

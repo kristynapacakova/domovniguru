@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Lze na podlahové topení položit koberec?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale koberec výrazně snižuje výkon topení (funguje jako izolátor) a způsobuje přehřívání hadnic. Pokud musíš — maximální tepelný odpor koberce 0,15 m²K/W (na etiketě koberce). Tenké koberce s nízkou hustotou jsou méně problematické než husté tlusté koberce." } },
       { "@type": "Question", "name": "Jak dlouho vydrží podlahové topení?", "acceptedAnswer": { "@type": "Answer", "text": "Teplovodní plastové hadnice (PEX, PE-RT) mají životnost 50+ let při správném provozování. Elektrické topné kabely 20–30 let. Nejčastěji se vymění termostat (10–15 let) nebo čerpadlo/rozdělovač. Celý systém by měl přežít několik rekonstrukcí podlah — hadnice jsou zabetonovány a nenahrazují se." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni#howto",
+    "name": "Péče o podlahové topení – teplota, provoz a údržba 2026",
+    "description": "Jak správně provozovat a pečovat o podlahové topení. Optimální teplota, jak rychle reaguje, čištění podlah nad topením a jak ušetřit na provozu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Správná teplota podlahového topení", "text": "Teplota podlahového topení se nastavuje ve dvou hodnotách: teplota teplonosné vody (u teplovodního) a teplota povrchu podlahy." },
+      { "@type": "HowToStep", "name": "Jak správně provozovat podlahové topení", "text": "Jak správně provozovat podlahové topení" },
+      { "@type": "HowToStep", "name": "Péče o podlahy nad topením", "text": "Péče o podlahy nad topením" },
+      { "@type": "HowToStep", "name": "Údržba teplovodního podlahového topení", "text": "Údržba teplovodního podlahového topení" }
+    ]
   }]
 };
 

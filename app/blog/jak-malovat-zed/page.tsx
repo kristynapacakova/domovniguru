@@ -63,7 +63,19 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak malovat zeď za radiátorem?", "acceptedAnswer": { "@type": "Answer", "text": "Na malování za radiátorem použij mini váleček s prodlouženou (ohnutou) rukojetí — tzv. radiátorový váleček (cca 150–300 Kč). Nejdřív naber barvu, opatrně protáhni shora za radiátor, pak zdola. Pro dokonalý výsledek odmontuj radiátor od zdi — zvedne se z konzol nahoru, zeď vymaluj a radiátor vrať zpět." } },
         { "@type": "Question", "name": "Jak malovat pruhy na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Pruhy na zdi: (1) namaluj základní barvu a nech 24 hodin zaschnout, (2) vyznač pruhy tužkou a pravítkem, (3) přelep malířskou páskou přesně po okraji, (4) namaž hranu pásky rukou aby barva nepodtekla, (5) nanes vrchní barvu a pásku stáhni hned po nanesení — nejlépe dokud je barva ještě mírně mokrá. Pásku stahuj šikmo pod úhlem 45°." } },
       ],
-    },
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-zed#howto",
+    "name": "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
+    "description": "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování. Průvodce pro každého.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava podkladu – nejdůležitější krok", "text": "Příprava zabere 30–50 % celkového času, ale je to krok, který nejvíce rozhoduje o výsledku. Špatně připravená zeď = barva se loupe nebo jsou vidět každá nerovnost." },
+      { "@type": "HowToStep", "name": "Penetrace – kdy a proč", "text": "Penetrace zlepšuje přilnavost barvy, sjednocuje savost podkladu a zabraňuje „vsakování\" barvy do zdi. Výsledek je rovnoměrnější a barva vydrží déle." },
+      { "@type": "HowToStep", "name": "Jak vybrat správnou barvu na zeď", "text": "Do koupelny, kuchyně nebo sklepa vždy vybírej barvu označenou jako „do vlhkých prostor\" nebo s označením odolnosti vůči plísni. Běžná barva v koupelně skončí plísní do pár měsíců." },
+      { "@type": "HowToStep", "name": "Technika malování – krok za krokem", "text": "Přelep malířskou páskou lišty, zárubně, vypínače a zásuvky. Podlahu zakryj fólií nebo starými novinami. Čas strávený zakrýváním ušetří hodiny čištění." },
+      { "@type": "HowToStep", "name": "Kolik barvy budeš potřebovat?", "text": "Standardní vydatnost malířské barvy je 8–12 m² na litr při jedné vrstvě. Pro dvě vrstvy tedy potřebuješ přibližně dvojnásobek." }
+    ]
+  }
   ],
 };
 

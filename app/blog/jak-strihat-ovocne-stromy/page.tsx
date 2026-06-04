@@ -30,6 +30,15 @@ const jsonLd = {
       { "@type": "Question", "name": "Co jsou vlci na stromech a co s nimi?", "acceptedAnswer": { "@type": "Answer", "text": "Vlci (vlkové výhony) jsou silné svislé výhony které vyrůstají po silném řezu nebo z kořenů. Nenesou plody, jen odebírají energii stromu. Odstraňovat co nejdříve (v létě vylomit, v zimě odříznout). Pokud je vlk v dobrém místě, lze ho tvarováním proměnit v plodnou větev — ohnutím do vodorovné polohy." } },
       { "@type": "Question", "name": "Stříhat stromky při mrazu nebo ne?", "acceptedAnswer": { "@type": "Answer", "text": "Při lehkém mrazu (do -5 °C) řez nevadí jabloni a hrušni. Při silnějším mrazu (pod -10 °C) řezy špatně hojí a strom je více náchylný na choroby — počkej na teplejší den. Švestky, třešně a meruňky nestříhat za mrazu nikdy — raději počkat na jaro nebo léto po sklizni." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy#howto",
+    "name": "Jak stříhat ovocné stromy – kdy a jak správně řezat 2026",
+    "description": "Jak správně stříhat ovocné stromy – jabloň, hrušeň, švestku a třešeň. Kdy řezat, jaké nástroje použít a jak se vyhnout nejčastějším chybám při řezu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Postup řezu krok za krokem", "text": "Postup řezu krok za krokem" },
+      { "@type": "HowToStep", "name": "Řez podle druhu stromu", "text": "Řez podle druhu stromu" }
+    ]
   }]
 };
 

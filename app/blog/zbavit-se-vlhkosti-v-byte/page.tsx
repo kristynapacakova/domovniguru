@@ -35,6 +35,20 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak dlouho větrat byt?", "acceptedAnswer": { "@type": "Answer", "text": "Optimální délka větrání je 5–10 minut intenzivního křížového větrání (otevřená okna na obou stranách bytu). Tato výměna vzduchu odvede vlhkost bez výrazného ochlazení místnosti. Větrání 2–3× denně — ráno po vstávání, po sprchování a po vaření." } },
         { "@type": "Question", "name": "Proč je vlhkost v bytě vysoká i v zimě?", "acceptedAnswer": { "@type": "Answer", "text": "Vysoká vlhkost v zimě přes topení signalizuje nedostatečné větrání nebo nadměrné zdroje vlhkosti. Topení vzduch suší, ale pokud se nevětrá, vlhkost ze sprchování, vaření a dýchání se hromadí. Větrání v zimě je důležitější než v létě." } }
       ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte#howto",
+      "name": "Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026",
+      "description": "Kondenzace na oknech, vlhké stěny nebo plíseň? Jak změřit vlhkost, najít příčinu a trvale vyřešit problém s vlhkostí v bytě bez drahých rekonstrukcí.",
+      "step": [
+        { "@type": "HowToStep", "name": "Příčiny vlhkosti – kde bere voda v bytě", "text": "Vlhkost v bytě má vždy konkrétní zdroj. Bez jeho identifikace je jakékoli řešení jen dočasné. Průměrná domácnost produkuje 7–8 litrů vodní páry denně — a to musí někam odejít." },
+        { "@type": "HowToStep", "name": "Jak změřit vlhkost vzduchu", "text": "Bez měření větráš naslepo. Vlhkoměr (hygrometr) je nejdůležitější pomůcka při řešení problémů s vlhkostí — a stojí 100–500 Kč." },
+        { "@type": "HowToStep", "name": "Typy vlhkosti – jak je rozlišit", "text": "Různé typy vlhkosti vyžadují různá řešení. Špatná diagnóza = zbytečné výdaje a přetrvávající problém." },
+        { "@type": "HowToStep", "name": "Jak snížit vlhkost – postup podle příčiny", "text": "Postup řešení závisí na typu vlhkosti. Začni vždy od nejjednodušších a nejlevnějších kroků." },
+        { "@type": "HowToStep", "name": "Odvlhčovač – kdy ano a jak vybrat", "text": "Odvlhčovač je účinné doplňkové řešení — ale není náhradou za větrání ani za opravu stavební závady. Používej ho jako podporu, ne jako hlavní řešení." },
+        { "@type": "HowToStep", "name": "Vlhkost v zimě vs. v létě – různé problémy", "text": "Vlhkost v bytě se chová jinak v různých ročních obdobích a vyžaduje různý přístup." }
+      ]
     }
   ]
 };

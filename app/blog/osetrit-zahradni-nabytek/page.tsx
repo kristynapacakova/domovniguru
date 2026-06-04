@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak odstranit plíseň ze zahradního nábytku?", "acceptedAnswer": { "@type": "Answer", "text": "Plíseň na dřevě: roztok octu (1:1 s vodou) nebo speciální biocidní čistič dřeva. Kartáčem vyčistit, opláchnout, nechat vyschnout. Po vyschnutí ošetřit impregnací s biocidní přísadou. Na kovu a plastu: mýdlová voda nebo roztok chloru (1 díl chloru + 10 dílů vody) — pozor na barevné povrchy." } },
       { "@type": "Question", "name": "Lze přebarlit dřevěný zahradní nábytek?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — ale záleží na stávajícím nátěru. Lazura přes lazuru funguje dobře (tmavší přes světlejší). Olejový nátěr přes lazuru — nutno přebrousit. Přebarlit ze světlé na tmavou je snazší než naopak. Před přebarvením vždy vyčistit, nechat vyschnout a lehce přebrousit pro lepší přilnavost." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/osetrit-zahradni-nabytek#howto",
+    "name": "Jak ošetřit zahradní nábytek – dřevo, kov, plast a ratan 2026",
+    "description": "Jak ošetřit a připravit zahradní nábytek na sezónu i na zimu. Dřevo, kov, plast a ratan – správná péče aby nábytek vydržel roky.",
+    "step": [
+      { "@type": "HowToStep", "name": "Dřevěný zahradní nábytek", "text": "Dřevo je nejkrásnější ale nejnáročnější na péči. Správné ošetření prodlouží životnost o desítky let." },
+      { "@type": "HowToStep", "name": "Kovový zahradní nábytek", "text": "Kovový zahradní nábytek" },
+      { "@type": "HowToStep", "name": "Plast a polyratan", "text": "Plast a polyratan" },
+      { "@type": "HowToStep", "name": "Přírodní ratan a bambus", "text": "Přírodní ratan a bambus" },
+      { "@type": "HowToStep", "name": "Přezimování zahradního nábytku", "text": "Přezimování zahradního nábytku" }
+    ]
   }]
 };
 

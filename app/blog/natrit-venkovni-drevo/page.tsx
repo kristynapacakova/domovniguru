@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč se nátěr loupl i když jsem postupoval správně?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: dřevo bylo příliš vlhké při nanášení, povrch nebyl dostatečně vyčištěn od starého nátěru nebo řas, nanesena příliš silná vrstva, nebo přípravek nanesen za přímého slunce (barva schla příliš rychle na povrchu a uzavřela vlhkost uvnitř). Loupající nátěr obrousit a začít znovu." } },
       { "@type": "Question", "name": "Jaký je rozdíl mezi lazurou a mořidlem?", "acceptedAnswer": { "@type": "Answer", "text": "Lazura chrání i barví — obsahuje pigmenty, pojiva a UV filtry. Mořidlo pouze barví dřevo (jako barvivo) bez ochrany — po mořidle musíš nanést ochranu (lak, olej). Pro venkovní použití volte lazuru která kombinuje oboje, nebo mořidlo + lak dohromady." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/natrit-venkovni-drevo#howto",
+    "name": "Jak natřít venkovní dřevo – lazura, olej nebo lak 2026",
+    "description": "Lazura, olej nebo lak? Správná příprava povrchu a postup pro dlouhotrvající ochranu terasy, plotu nebo zahradního nábytku.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak vybrat správný přípravek", "text": "Jak vybrat správný přípravek" },
+      { "@type": "HowToStep", "name": "Příprava povrchu – nejdůležitější krok", "text": "Příprava povrchu – nejdůležitější krok" },
+      { "@type": "HowToStep", "name": "Nanášení krok za krokem", "text": "Nanášení krok za krokem" },
+      { "@type": "HowToStep", "name": "Jak a kdy obnovit nátěr", "text": "Jak a kdy obnovit nátěr" }
+    ]
   }]
 };
 

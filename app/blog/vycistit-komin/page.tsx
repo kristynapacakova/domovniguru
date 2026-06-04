@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Kdy je nejlepší čas na čištění komína?", "acceptedAnswer": { "@type": "Answer", "text": "Jaro (duben–květen) po topné sezóně — komín je naplněný sazemi ze zimy a čistí se nejlépe. A podzim (září–říjen) před topnou sezónou — aby byl komín čistý pro zimu. Kominíci jsou nejméně vytížení na jaře — snáze seženeš termín." } },
       { "@type": "Question", "name": "Musím čistit komín i když tolik netopím?", "acceptedAnswer": { "@type": "Answer", "text": "Zákon stanovuje lhůty bez ohledu na intenzitu topení. Málotopení je navíc nebezpečnější než pravidelné topení — kondenzace při nízké teplotě spalin způsobuje nánosy dehtu rychleji. Studené spaliny = více kondenzace = více dehtu = větší požární riziko." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vycistit-komin#howto",
+    "name": "Jak vyčistit komín – kdy a jak na to, revize 2026",
+    "description": "Jak a kdy vyčistit komín. Zákonná povinnost, jak poznat ucpaný komín, co dělat sám a kdy zavolat kominíka. Bezpečnost a prevence požáru.",
+    "step": [
+      { "@type": "HowToStep", "name": "Zákonná povinnost čištění komínů", "text": "Čištění komínů upravuje vyhláška č. 34/2016 Sb. Nedodržení je přestupek s pokutou až 25 000 Kč. Navíc pojišťovna může odmítnout pojistné plnění při požáru způsobeném nečistěným komínem." },
+      { "@type": "HowToStep", "name": "Jak poznat ucpaný nebo zanedbaný komín", "text": "Jak poznat ucpaný nebo zanedbaný komín" },
+      { "@type": "HowToStep", "name": "Čištění komína – sám nebo kominík", "text": "Čištění menšího komína (průřez do 150 mm, délka do 5 m) zvládneš sám. Větší komíny, komíny s ohyby nebo zanedbaný komín s nálety dehtu vyžadují kominíka." },
+      { "@type": "HowToStep", "name": "Požár sazí – co dělat", "text": "Požár sazí – co dělat" }
+    ]
   }]
 };
 

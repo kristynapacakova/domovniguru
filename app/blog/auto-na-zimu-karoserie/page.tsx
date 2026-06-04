@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Je lepší mýt auto v zimě nebo nenechat sůl na karoserii?", "acceptedAnswer": { "@type": "Answer", "text": "Mýt — a to co nejčastěji. Sůl na karoserii urychluje korozi, zejména v místech kde se voda drží (prahy, podvozek). Mýt auto každé 2–3 týdny v zimě je ideální. Oblíbená myšlenka \"počkám na konec zimy\" způsobuje, že sůl pracuje celou sezónu bez přerušení." } },
       { "@type": "Question", "name": "Kolik stojí ochrana podvozku a dutinová konzervace v servisu?", "acceptedAnswer": { "@type": "Answer", "text": "Dutinová konzervace: 500–1 500 Kč (závisí na velikosti auta). Podvozková ochrana: 500–2 000 Kč. Kompletní zimní konzervace (dutiny + podvozek + mytí): 1 500–4 000 Kč. DIY produkty (Dinitrol, Tectyl) vyjdou na 300–800 Kč za materiál — aplikace zvládneš sám po mytí auta." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie#howto",
+    "name": "Auto na zimu – jak připravit karoserii a chránit před rzí 2026",
+    "description": "Jak připravit auto na zimu – ošetření karoserie, ochrana podvozku a prahu před solí a rzí. Co udělat na podzim aby auto přežilo zimu bez problémů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Důkladné mytí před zimou", "text": "Mytí auta před zimou není jen estetika — je to ochrana. Letní nečistoty (živice, hmyz, průmyslové saze) narušují lak a pod solí z posypů způsobují zrychlenou korozi." },
+      { "@type": "HowToStep", "name": "Oprava škrábanců a poškození", "text": "Každý neošetřený škrábanec nebo odloupnutý lak je brána pro korozi. Sůl proniká pod lak a rez se šíří pod povrchem — viditelná je až když je škoda velká." },
+      { "@type": "HowToStep", "name": "Vosk, keramika nebo teflon", "text": "Pro zimní přípravu stačí kvalitní syntetický vosk nebo DIY keramický coating. Nanes na čisté a suché auto, nechej zatuhnout dle návodu a přeleštit." },
+      { "@type": "HowToStep", "name": "Podvozek a prahy – nejrizikovější místa", "text": "Podvozek a prahy – nejrizikovější místa" },
+      { "@type": "HowToStep", "name": "Technická příprava auta na zimu", "text": "Technická příprava auta na zimu" }
+    ]
   }]
 };
 

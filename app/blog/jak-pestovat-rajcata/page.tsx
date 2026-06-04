@@ -23,7 +23,20 @@ const jsonLd = {
         { "@type": "Question", "name": "Mohu pěstovat rajčata na balkóně?", "acceptedAnswer": { "@type": "Answer", "text": "Ano. Na balkón jsou ideální převislé odrůdy (Tumbling Tom, Balkonzauber) do nádob. Nádoby vysychají 2–3× rychleji než záhon, takže v horkém létě budou potřebovat zálivku každý den." } },
         { "@type": "Question", "name": "Jak poznat, že je rajče zralé a připravené ke sklizni?", "acceptedAnswer": { "@type": "Answer", "text": "Rajče je zralé, když je plně zbarvené a mírně povoluje pod prstem. Nikdy nedávej rajčata do lednice — chlad nevratně ničí chuť. Optimální teplota skladování je 13–18 °C." } },
       ],
-    },
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata#howto",
+    "name": "Jak pěstovat rajčata – od výsevu po sklizeň",
+    "description": "Rajčata zvládne vypěstovat každý – ale bez pár základních pravidel skončíš s prázdnými stonky nebo plísní. Kompletní průvodce od výsevu až po sklizeň.",
+    "step": [
+      { "@type": "HowToStep", "name": "Výběr odrůdy – základ úspěchu", "text": "Než koupíš semena, rozmysli kde budeš rajčata pěstovat. To určuje odrůdu víc než chuťové preference." },
+      { "@type": "HowToStep", "name": "Výsev – kdy a jak", "text": "Rajčata se vysévají v únoru až březnu na parapet nebo pod umělé osvětlení. Venku se sází až po 15. května, kdy nehrozí mráz – to znamená, že sazenice musí být 10–12 týdnů staré." },
+      { "@type": "HowToStep", "name": "Přesazování ven – načasování je vše", "text": "Nejčastější chyba: vysázení ven příliš brzy. Jedno podcenění mrazu zničí celou sezónu. Bezpečné datum je po 15. květnu – a ani tehdy není záruka. Sleduj předpověď." },
+      { "@type": "HowToStep", "name": "Péče během sezóny", "text": "U tyčkových odrůd odstraňuj výhony z paždí (tzv. pastorky) – výhonky které rostou mezi hlavním stonkem a listem. Pokud je necháš, rostlina plýtvá energií na listy místo plodů. Odlamuj je rukou nebo nůžkami ráno, aby rána přes den zaschla." },
+      { "@type": "HowToStep", "name": "Nejčastější problémy", "text": "Nejčastější problémy" },
+      { "@type": "HowToStep", "name": "Sklizeň a skladování", "text": "Rajčata sklízej až jsou plně zbarvená a mírně povolují pod prstem. Nesklízej zelená – dozrají sice při pokojové teplotě, ale bez chuti. Výjimkou je situace kdy hrozí plíseň nebo mráz – pak sklidíš i zelená a necháš dozrát v teple." }
+    ]
+  }
   ],
 };
 

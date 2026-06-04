@@ -31,6 +31,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu vyměnit zásuvku bez zemnění za uzemněnou?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud v krabici je žlutozelený vodič (PE), ano — zapojs ho do zemnicího kolíku nové zásuvky. Pokud PE vodič chybí (starší instalace), nelze bezpečně přidat zemnění bez nového vedení PE vodiče od rozvaděče — to je práce pro elektrikáře." } },
       { "@type": "Question", "name": "Jak zjistím který jistič ovládá danou zásuvku?", "acceptedAnswer": { "@type": "Answer", "text": "Zapoj lampičku nebo nabíječku do zásuvky a postupně vypínej jističe v rozvaděči dokud nezhasne. Pak přilep na jistič štítek s popisem. Pokud je rozvaděč nepopsaný, je ideální čas celý ho zmapovat." } },
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku#howto",
+    "name": "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem 2026",
+    "description": "Výměna elektrické zásuvky svépomocí: vypnutí jističe, odpojení, zapojení nové zásuvky. Bezpečný postup pro laiky bez elektrikáře.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co potřebuješ na výměnu zásuvky", "text": "Co potřebuješ na výměnu zásuvky" },
+      { "@type": "HowToStep", "name": "Bezpečnost – nejdůležitější krok", "text": "Práce na elektroinstalaci bez vypnutého jističe je smrtelně nebezpečná. Nikdy nepracuj pod napětím — ani na \"chvilku\" a ani pokud si myslíš že víš co děláš." },
+      { "@type": "HowToStep", "name": "Postup výměny krok za krokem", "text": "Postup výměny krok za krokem" },
+      { "@type": "HowToStep", "name": "Zapojení vodičů L, N, PE", "text": "Moderní zásuvka má tři svorky — fáze (L), nula (N) a zemnění (PE). Správné zapojení je klíčové pro bezpečnost." },
+      { "@type": "HowToStep", "name": "Typy zásuvek – co koupit", "text": "Typy zásuvek – co koupit" }
+    ]
   }]
 };
 

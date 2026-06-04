@@ -31,6 +31,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu položit dlaždice sám nebo potřebuji řemeslníka?", "acceptedAnswer": { "@type": "Answer", "text": "Pokládka betonových dlaždic na sucho (bez lepení) je DIY přístupná práce. Nejtěžší část je příprava podloží — zhutnění štěrku vyžaduje vibrační desku. Malé plochy (do 20 m²) zvládne šikovný laik za víkend. Větší plochy nebo složité vzory jsou lepší svěřit dlaždiči." } },
       { "@type": "Question", "name": "Jak čistit betonové dlaždice od mechů a řas?", "acceptedAnswer": { "@type": "Answer", "text": "Tlakový čistič (100–150 bar) je nejúčinnější. Pro mech a řasy použij roztok jedlé sody (3 lžíce/litr) nebo speciální přípravek na čištění dlaždic. Po vyčištění lze nanést impregnaci proti prorůstání mechu — vydrží 2–3 sezóny." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#howto",
+    "name": "Jak pokládat betonové dlaždice na terasu – postup 2026",
+    "description": "Pokládka betonových dlaždic na terasu nebo chodník krok za krokem. Příprava podloží, spád, kladení a spárování. Trvanlivý výsledek bez vydlážděných pruhů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava a plánování", "text": "Než začneš kopat, urči přesné rozměry terasy, typ a velikost dlaždic a vyznač spád. Špatné plánování znamená zbytečné přeřezávání dlaždic a nevzhledné řešení u okrajů." },
+      { "@type": "HowToStep", "name": "Příprava podloží – klíčový krok", "text": "Toto je nejdůležitější část celé práce. Špatné podloží způsobí zdvihnutí, propadnutí nebo prasknutí dlaždic po první zimě. Věnuj přípravě podloží stejně času jako samotné pokládce." },
+      { "@type": "HowToStep", "name": "Spád – proč je kritický", "text": "Terasa musí mít spád minimálně 2 % (2 cm na 1 m) a musí být vždy od domu směrem ven. Bez spádu se voda hromadí u základů domu a způsobuje vlhkost ve sklepě nebo podmáčení základů." },
+      { "@type": "HowToStep", "name": "Kladení dlaždic", "text": "Kladení dlaždic" },
+      { "@type": "HowToStep", "name": "Spárování – finální krok", "text": "Spárování uzavře spáry, zabrání prorůstání plevele a dá terasu finální vzhled." },
+      { "@type": "HowToStep", "name": "Kolik materiálu potřebuješ", "text": "Kolik materiálu potřebuješ" }
+    ]
   }]
 };
 

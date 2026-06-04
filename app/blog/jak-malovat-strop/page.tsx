@@ -40,6 +40,17 @@ const jsonLd = {
       ],
     },
     {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/jak-malovat-strop#howto",
+      "name": "Jak malovat strop bez šmouh",
+      "description": "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+      "step": [
+        { "@type": "HowToStep", "name": "Proč vždy začínat stropem?", "text": "Pokud plánujete malovat i stěny, strop musí jít jako první. Barva ze stropu bude nevyhnutelně stříkat dolů. Pokud byste měli stěny už hotové, drobné kapičky bílé barvy by vám je znehodnotily." },
+        { "@type": "HowToStep", "name": "Výběr správného nářadí", "text": "Zvolte správný váleček: na hladký sádrokarton mikrovlákno (vlas 9–11 mm), na klasickou omítku polyamidový váleček (vlas 12–18 mm). Teleskopická tyč je základ — bez ní budeš mít bolesti zad." },
+        { "@type": "HowToStep", "name": "Postup, který zajistí výsledek", "text": "Penetrace zpevní podklad a sjednotí savost. Malujte při denním světle v pásech rovnoběžných se světlem z okna. Poslední tahy válečkem by měly směřovat vždy k oknu." }
+      ]
+    },
+    {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },

@@ -31,6 +31,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč se mravenci vrací i po vyčištění kuchyně?", "acceptedAnswer": { "@type": "Answer", "text": "Mravenci sledují feromonové stopy které přetrvávají i po vizuálním vyčištění. Setři stopy octem nebo citronovou šťávou — kyselina feromony neutralizuje. Pak najdi a zapečeť vstupní bod. Pokud mravenci přicházejí i bez viditelného jídla, hnízdo je pravděpodobně uvnitř stěn — kontaktuj odborníka." } },
       { "@type": "Question", "name": "Jsou elektrické odpuzovače hmyzu účinné?", "acceptedAnswer": { "@type": "Answer", "text": "Ultrazvukové odpuzovače (zástrčkové přístroje) mají smíšené výsledky ve studiích — některé druhy hmyzu reagují, jiné ne. UV lapače (modré světlo + mřížka) jsou účinné na letající hmyz ale přitahují i užitečný hmyz. Elektrické odpuzovače jsou doplněk, ne náhrada za sítě a prevenci." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie#howto",
+    "name": "Jak se zbavit hmyzu bez chemie – přírodní rady",
+    "description": "Komáři, mravenci, mouchy a moly – jak se zbavit hmyzu doma a na zahradě bez pesticidů. Přírodní odpuzovače které fungují.",
+    "step": [
+      { "@type": "HowToStep", "name": "Prevence – nejúčinnější a nejlevnější metoda", "text": "Nejlepší boj s hmyzem je ten který nenastanou. Většina letního hmyzu má konkrétní důvody proč vstupuje do bytu — a ty lze eliminovat." },
+      { "@type": "HowToStep", "name": "Komáři – jak je odehnat bez chemie", "text": "Komáři jsou nejotravnějším letním hostem. Dobrá zpráva: existuje řada účinných přírodních metod." },
+      { "@type": "HowToStep", "name": "Mravenci v kuchyni – jak je vypudit", "text": "Mravenci přicházejí za jídlem a vodou. Odstranění zdroje je priorita — bez potravy kolonii místo opustí sama." },
+      { "@type": "HowToStep", "name": "Mouchy a ovády – odpuzení bez spreje", "text": "Mouchy a ovády – odpuzení bez spreje" },
+      { "@type": "HowToStep", "name": "Molové a švábi – přírodní prevence", "text": "Molové a švábi – přírodní prevence" },
+      { "@type": "HowToStep", "name": "Rostliny které odpuzují hmyz", "text": "Některé rostliny přirozeně odpuzují hmyz díky esenciálním olejům. Umísti je na okna a terasy pro pasivní ochranu." }
+    ]
   }]
 };
 

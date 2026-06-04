@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak se zbavit mechu bez chemie?", "acceptedAnswer": { "@type": "Answer", "text": "Mechanicky — vertikutátorem nebo hraběmi vyhrábni mech, vápni půdu (pH nad 6,5), provzdušni aerátorem a hustě přeseji trávníkovou směsí. Hustá silná tráva mech vytlačí přirozeně. Bez změny podmínek (pH, drenáž, světlo) se mech vrátí s chemií i bez ní." } },
       { "@type": "Question", "name": "Jak rychle vyroste nový trávník po přesevu?", "acceptedAnswer": { "@type": "Answer", "text": "Travní semeno vyklíčí za 10–21 dní (závisí na teplotě a druhu trávy). Při teplotě půdy 15–20 °C klíčení nejrychlejší. Po vzejití tráva potřebuje dalších 4–6 týdnů než bude připravena na první sečení. Celkem 6–8 týdnů od setby do prvního sekání." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/opravit-travnik-ples-mech#howto",
+    "name": "Jak opravit trávník – plíseň, mech a holá místa 2026",
+    "description": "Jak se zbavit mechu, plísně a holých míst v trávníku. Příčiny poškození, správný postup obnovy a prevence – krásný trávník bez chemie i s ní.",
+    "step": [
+      { "@type": "HowToStep", "name": "Diagnóza – co trápí tvůj trávník", "text": "Než sáhneš po herbicidu nebo fungicidu, zjisti co skutečně trávník trápí. Každý problém má jiné řešení a špatná diagnóza situaci zhorší." },
+      { "@type": "HowToStep", "name": "Mech v trávníku – jak se zbavit", "text": "Mech je symptom, ne příčina. Chemické odstranění mechu bez změny podmínek ho přivede zpět do 1–2 sezón." },
+      { "@type": "HowToStep", "name": "Plíseň trávníku", "text": "Trávníkové plísně (Fusarium, Pythium, Red Thread) se projevují různě — šedivé pavučiny, červenohnědé skvrny nebo kroužky. Nejčastěji se objevují na jaře a na podzim za vlhkého počasí." },
+      { "@type": "HowToStep", "name": "Holá a žlutá místa – oprava", "text": "Holá a žlutá místa – oprava" },
+      { "@type": "HowToStep", "name": "Jarní obnova trávníku – postup", "text": "Duben je ideální čas na kompletní obnovu trávníku po zimě. Správné pořadí prací je důležité." }
+    ]
   }]
 };
 

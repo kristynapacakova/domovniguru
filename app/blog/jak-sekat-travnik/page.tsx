@@ -24,7 +24,18 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak často sekat trávník?", "acceptedAnswer": { "@type": "Answer", "text": "V hlavní sezóně (duben–říjen) sekat 1× týdně při dodržení pravidla 1/3 — nikdy neuřezávat víc než třetinu výšky najednou. V létě za sucha sekání omez na 1× za 10–14 dní a nastav nůž výš. V září–říjnu frekvenci postupně snižuj." } },
         { "@type": "Question", "name": "Proč mi trávník po sekání žloutne nebo hnědne?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: (1) Tupý nůž — trhá místo stříhá, konečky stébel hnědnou. Řešení: nabrousit nůž. (2) Příliš nízké sekání — nastav sekačku výš. (3) Porušení pravidla 1/3 — nech trávník 1–2 týdny dorůst a opakuj. (4) Sekání za sucha a horka — seč ráno nebo odpoledne." } },
       ],
-    },
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#howto",
+    "name": "Jak správně sekat trávník – hustý pažit bez plevele",
+    "description": "Pravidlo 1/3, ideální výška sekání, nejlepší čas dne, ostrý nůž a mulčování. Kompletní průvodce sekáním trávníku pro hustý a zdravý pažit celou sezónu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Ideální výška sekání – tabulka podle typu trávníku", "text": "Výška sekání je nejdůležitější parametr pro zdraví trávníku. Příliš nízké sekání oslabuje kořeny, trávník žloutne, rychleji schne a zarůstá plevelem. Příliš vysoké sekání naopak podporuje houby a plísně." },
+      { "@type": "HowToStep", "name": "Zlaté pravidlo jedné třetiny – proč ho nikdy nepřekračovat", "text": "Pravidlo jedné třetiny je nejdůležitější zásada péče o trávník. Říká: při každém sekání odstraň maximálně 1/3 aktuální délky stébla. Pokud je tráva 9 cm vysoká, sečeš maximálně 3 cm — a necháš ji 6 cm." },
+      { "@type": "HowToStep", "name": "Ostrý nůž – proč na tom záleží víc než si myslíš", "text": "Tupý nůž sekačky je druhá nejčastější příčina nezdravého trávníku (po špatné výšce sekání). Tupé ostří nestříhá — trhá. Roztřepený konec stébla žloutne, stává se vstupní branou pro houby a bakterie a trávník získá šedivý nádech který trvá dny." },
+      { "@type": "HowToStep", "name": "Mulčovat nebo dávat do koše – co je lepší", "text": "Posečená tráva je hodnotný organický materiál. Co s ní uděláš, má velký vliv na zdraví a živiny trávníku." }
+    ]
+  }
   ],
 };
 

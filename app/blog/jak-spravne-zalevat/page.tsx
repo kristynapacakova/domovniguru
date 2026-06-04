@@ -33,7 +33,19 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak zalévat zahradu při dovolené?", "acceptedAnswer": { "@type": "Answer", "text": "Nejlepší řešení: zálivkový časovač na kohoutek (300–800 Kč) + kapková závlaha pro záhony. Pro nádoby: terracotta hroty nebo velké misky s vodou. Zásadně nemulčuj záhony před odjezdem — mulč udrží vlhkost déle." } },
         { "@type": "Question", "name": "Proč mám na rajčatech hnědé dno plodů?", "acceptedAnswer": { "@type": "Answer", "text": "Hnědnutí dna rajčat (blossom end rot) způsobuje nedostatek vápníku při nerovnoměrném příjmu vody — střídání sucha a přelití. Řešení: pravidelná zálivka, mulčování pro udržení vlhkosti a případně postřik s vápenatou vodou na listy." } },
       ],
-    },
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-zalevat#howto",
+    "name": "Jak správně zalévat zahradu – ráno nebo večer, kolik vody 2026",
+    "description": "Kdy a jak zalévat zahradu, záhony a trávník. Ráno nebo večer? Kapková závlaha vs. postřikovač. Jak nezalít příliš ani málo – praktický průvodce zálivkou.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kolik vody potřebují rostliny", "text": "Základní pravidlo: zalévat méně často ale více. Mělká každodenní zálivka způsobuje povrchové kořenění — rostliny jsou pak náchylnější k suchu. Hluboká zálivka 2–3× týdně podporuje hluboké kořeny odolné vůči suchu." },
+      { "@type": "HowToStep", "name": "Zalévání zeleniny – co potřebuje co", "text": "Zalévání zeleniny – co potřebuje co" },
+      { "@type": "HowToStep", "name": "Zalévání trávníku", "text": "Trávník je nejodolnější část zahrady — zhnědnutý trávník v suchu nevypadá hezky, ale není mrtvý. Ozelená se při prvním dešti. Nepřelévej trávník ze strachu — přelití podporuje povrchové kořenění a plísně." },
+      { "@type": "HowToStep", "name": "Zalévání nádobových rostlin", "text": "Nádobové rostliny jsou nejnáchylnější na nesprávnou zálivku — nádoba nemá zásobník jako zahrada a přeschnout nebo přelít je snadné." },
+      { "@type": "HowToStep", "name": "Závlahové systémy – kdy se vyplatí", "text": "Závlahové systémy – kdy se vyplatí" }
+    ]
+  }
   ],
 };
 

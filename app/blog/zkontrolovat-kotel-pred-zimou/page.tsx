@@ -18,7 +18,7 @@ const jsonLd = {
       "@id": "https://www.domovniguru.cz/blog/zkontrolovat-kotel-pred-zimou#article",
       "headline": "Jak zkontrolovat kotel před topnou sezónou – checklist 2026",
       "datePublished": "2026-04-13T08:00:00Z",
-      "dateModified": "2026-04-13T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
@@ -31,6 +31,18 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak často se musí dělat servis kotle?", "acceptedAnswer": { "@type": "Answer", "text": "Zákon nevyžaduje povinný roční servis plynového kotle pro majitele rodinného domu. Výrobci ale podmínkou záruky obvykle stanovují roční servis autorizovaným technikem. Prakticky doporučujeme servis každé 2 roky pro kondenzační kotle a každý rok pro starší atmosférické kotle." } },
         { "@type": "Question", "name": "Jaký má být tlak v kotli?", "acceptedAnswer": { "@type": "Answer", "text": "Správný tlak v topné soustavě za studena je 1,5–2,0 bar. Za tepla (při plném provozu) je normální tlak 2,0–2,5 bar. Pod 1 bar je nutné doplnit vodu. Nad 3 bar je nebezpečný přetlak — otevři pojistný ventil nebo zavolej technika." } },
         { "@type": "Question", "name": "Co dělat když kotel nejde zapnout po létě?", "acceptedAnswer": { "@type": "Answer", "text": "Nejprve zkontroluj tlak v soustavě — po létě mohl klesnout pod minimum. Doplň vodu na 1,5 bar. Pak zkontroluj zda je otevřen přívod plynu a zda funguje termostat. Pokud kotel stále nejde spustit, může být zaseknutý zapalovač nebo chyba v elektronice — zavolej servisního technika." } },
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/zkontrolovat-kotel-pred-zimou#howto",
+      "name": "Jak zkontrolovat kotel před topnou sezónou – checklist 2026",
+      "description": "Co si sám zkontrolovat a co nechej servisnímu technikovi. Kompletní checklist přípravy kotle před zimou.",
+      "step": [
+        { "@type": "HowToStep", "name": "Co zkontroluješ sám – za 15 minut", "text": "Těchto 6 kontrol nevyžaduje odbornou kvalifikaci ani speciální nástroje. Zvládneš je sám a ušetříš čas technikovi (a sobě peníze za servisní hodinu)." },
+        { "@type": "HowToStep", "name": "Tlak v soustavě – jak doplnit vodu", "text": "Po létě bez provozu tlak v soustavě přirozeně klesá. Doplnění vody je jednoduchá operace kterou zvládneš sám — ale musíš postupovat pomalu a sledovat manometr." },
+        { "@type": "HowToStep", "name": "Co musí udělat servisní technik", "text": "Část kontrol vyžaduje odbornou kvalifikaci, speciální nástroje nebo přístup k plynovým rozvodům. Toto nechej na autorizovaném technikovi." },
+        { "@type": "HowToStep", "name": "Specifika podle typu kotle", "text": "Nejmodernější a nejúčinnější typ. Navíc ke standardní kontrole: čištění kondenzátního sifonu, kontrola neutralizátoru kondenzátu a kontrola koaxiálního odvodu spalin. Kondenzát (kyselá voda) musí správně odtékat." }
       ]
     }
   ]
@@ -65,7 +77,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak zkontrolovat kotel před topnou sezónou</h1>
               <p className="article-lead">Kotel který celé léto stál potřebuje před první zimní zátěží projít. Část kontrol zvládneš sám za 15 minut — a předejdeš poruchám v mrazech kdy servisní technici mají plné ruce práce.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zkontrolovat-kotel-pred-zimou" title="Jak zkontrolovat kotel před topnou sezónou – checklist 2026" />
             </header>
 

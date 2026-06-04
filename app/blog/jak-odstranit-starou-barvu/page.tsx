@@ -21,6 +21,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Co musím udělat po odstranění barvy, než začnu malovat?", "acceptedAnswer": { "@type": "Answer", "text": "Přebrousit jemným papírem (P150–P180), setřít prach vlhkým hadrem, opravit díry a škrábance tmelem a po zaschnutí nanést penetraci. Bez penetrace barva špatně přilne na holou omítku." } },
       { "@type": "Question", "name": "Jaká metoda je nejrychlejší na velké plochy?", "acceptedAnswer": { "@type": "Answer", "text": "Teplovzdušná pistole je na velkých hladkých plochách nejrychlejší – změkčí barvu, která jde pak snadno seškrábat. Na tvarované plochy, lišty a rohy je praktičtější chemický odstraňovač." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu#howto",
+    "name": "Jak odstranit starou barvu ze zdi",
+    "description": "Škrabka, teplovzdušná pistole nebo chemický odstraňovač? Srovnání metod a postup krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Metoda 1 – Škrabka a brusný papír", "text": "Nejjednodušší metoda pro malé plochy a lokálně odlupující se barvu. Nevyžaduje žádné speciální vybavení." },
+      { "@type": "HowToStep", "name": "Metoda 2 – Teplovzdušná pistole", "text": "Teplo změkčí barvu která pak jde snadno seškrábat. Rychlejší než ruční škrabání na větších plochách, ale vyžaduje opatrnost — přehřátí poškodí omítku." },
+      { "@type": "HowToStep", "name": "Metoda 3 – Chemický odstraňovač", "text": "Chemický gel nebo pasta se nanese na povrch, nechá působit a barva se pak snadno seškrábe. Ideální pro složité tvary, lišty a místa kam se teplo nebo škrabka špatně dostává." },
+      { "@type": "HowToStep", "name": "Srovnání metod", "text": "Srovnání metod" },
+      { "@type": "HowToStep", "name": "Co dělat po odstranění", "text": "Po odstranění barvy je povrch surový a připravený — ale ještě není připravený k malování. Důležité kroky:" }
+    ]
   }]
 };
 

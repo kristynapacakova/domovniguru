@@ -31,6 +31,20 @@ const jsonLd = {
       { "@type": "Question", "name": "Fungují izolační fólie na moderní okna s dvojsklem?", "acceptedAnswer": { "@type": "Answer", "text": "Na moderní plastová okna s dvojsklem fólie nemají velký efekt – u nich teplo uniká hlavně netěsnými spárami, ne přes sklo. Fólie má smysl na starší okna s jednoduchým sklem nebo zastaralým dvojsklem." } },
       { "@type": "Question", "name": "Jak dlouho vydrží těsnicí páska?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní samolepicí těsnicí páska vydrží 2–3 sezóny. Každoročně ji zkontroluj – pokud se rozlepuje, ztvrdla nebo praskla, vyměň ji. Je to nejlevnější a nejjednodušší řešení pro dřevěná okna bez nastavitelného kování." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#howto",
+    "name": "Jak utěsnit okna na zimu – přehled metod",
+    "description": "Průvan u oken zvyšuje účty za topení. Přehled metod utěsnění: těsnicí pásky, kity, fólie a přenastavení plastových oken. Co funguje a co nestojí za to.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde nejvíce uniká teplo kolem oken", "text": "Než začneš těsnit, zjisti kde přesně tvoří průvan. Hlavní místa úniku tepla jsou:" },
+      { "@type": "HowToStep", "name": "Plastová okna – zimní nastavení kování", "text": "Toto je nejrychlejší a nejlevnější řešení pro plastová okna. Moderní plastová okna mají nastavitelné kování, které umožňuje změnit přítlak křídla k rámu." },
+      { "@type": "HowToStep", "name": "Těsnicí páska – rychlé a levné řešení", "text": "Samolepicí těsnicí páska z pěnového nebo gumového materiálu se lepí do drážky rámu nebo na rám a při zavření okna utěsní spáru. Stojí 30–100 Kč za 6 metrů." },
+      { "@type": "HowToStep", "name": "Silikonový tmel a akrylový kit – trvalé utěsnění spár", "text": "Spára mezi rámem okna a zdí nebo ostěním se utěsňuje tmelem. Stará spára praskla, vyschla nebo chybí? Tady je řešení." },
+      { "@type": "HowToStep", "name": "Izolační fólie na okna – pro starší okna", "text": "Průhledná izolační fólie se lepí na okenní tabule a vytváří vzduchovou kapsu, která snižuje tepelné ztráty. Vhodná zejména pro starší okna s jednoduchým sklem." },
+      { "@type": "HowToStep", "name": "Těžké závěsy jako doplněk", "text": "Těžké termální závěsy nebo záclony nevyřeší průvan, ale snižují tepelné ztráty přes studené okno. Fungují jako tepelná bariéra mezi chladným oknem a místností. Jejich efekt je největší v noci, kdy jsou zatažené." },
+      { "@type": "HowToStep", "name": "Srovnání metod – co kdy použít", "text": "Srovnání metod – co kdy použít" }
+    ]
   }]
 };
 

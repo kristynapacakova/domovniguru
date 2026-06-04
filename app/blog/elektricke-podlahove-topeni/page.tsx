@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Je elektrické podlahové topení bezpečné v koupelně?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — při správné instalaci je zcela bezpečné. Musí být zapojen proudový chránič (RCD) 30 mA, instalaci provede elektrikář, a rohož musí mít certifikaci pro mokré prostory. Topný kabel je zalitý v tmelu — není v přímém kontaktu s vodou." } },
       { "@type": "Question", "name": "Mohu zapnout topení hned po pokládce dlažby?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — čekej minimálně 28 dní od pokládky dlažby. Tmel a spárovací hmota potřebují zaschnout bez tepla. Předčasné zapnutí způsobí nerovnoměrné schnutí, praskání spár a odlepení dlažby. Výjimka: výrobce udává kratší dobu — dodržuj jeho pokyny." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#howto",
+    "name": "Elektrické podlahové topení – typy a instalace",
+    "description": "Elektrické podlahové topení – topná rohož nebo kabel? Jak se instaluje, kolik stojí provoz a je to lepší než radiátory? Průvodce pro každého kdo to zvažuje.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy elektrického podlahového topení", "text": "Typy elektrického podlahového topení" },
+      { "@type": "HowToStep", "name": "Instalace topné rohože – postup", "text": "Topná rohož pod dlažbu je nejčastější a nejjednodušší varianta elektrického podlahového topení. Zvládneš ji sám — ale zapojení do elektriky musí provést elektrikář." },
+      { "@type": "HowToStep", "name": "Termostat a ovládání", "text": "Termostat a ovládání" }
+    ]
   }]
 };
 

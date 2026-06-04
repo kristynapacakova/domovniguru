@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Smím sám prodloužit kabel od svítidla?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — prodloužení kabelu přenosného svítidla (stolní lampa, stojací lampa) zvládneš sám v kabelové spojovací krabici. Vždy vypoj svítidlo ze zásuvky před zahájením práce. Prodloužení pevně zapojeného svítidla (svítidlo připojené přímo do elektroinstalace) musí provést elektrikář." } },
       { "@type": "Question", "name": "Jak dlouhá může být prodlužovačka?", "acceptedAnswer": { "@type": "Answer", "text": "Délka prodlužovačky závisí na průřezu kabelu a zatížení. Standardní prodlužovačka (1,5 mm², 10 A): do 10 m bez výrazné ztráty napětí. Delší prodlužovačky pro silné spotřebiče potřebují silnější kabel (2,5 mm²). Při delším kabelu vždy bubnovou prodlužovačku zcela odroluj — navinutý kabel se přehřívá." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel#howto",
+    "name": "Jak prodloužit elektrický kabel bezpečně – postup 2026",
+    "description": "Jak bezpečně prodloužit elektrický kabel pomocí spojky, prodlužovačky nebo nové zásuvky. Co je legální a co je nebezpečné – průvodce pro domácí kutily.",
+    "step": [
+      { "@type": "HowToStep", "name": "Prodlužovačka – dočasné řešení", "text": "Prodlužovačka je nejrychlejší a nejbezpečnější řešení pro přechodné potřeby. Ale má svá pravidla." },
+      { "@type": "HowToStep", "name": "Kabelová spojka – pevné prodloužení", "text": "Kabelová spojka umožňuje pevně prodloužit kabel spotřebiče. Musí být provedena správně — v elektroinstalační krabici s víkem." },
+      { "@type": "HowToStep", "name": "Nová zásuvka – nejlepší trvalé řešení", "text": "Pokud ti zásuvka stále chybí na stejném místě, nejlepší řešení je přidat novou zásuvku do elektroinstalace. Trvale, bezpečně a bez kabelů křížem přes místnost." }
+    ]
   }]
 };
 

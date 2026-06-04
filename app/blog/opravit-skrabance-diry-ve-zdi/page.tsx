@@ -31,6 +31,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak opravit díru v sádrokartonu?", "acceptedAnswer": { "@type": "Answer", "text": "Pro malé díry (do 15 mm) funguje tmelový sprej nebo sádrový tmel se síťkou. Pro větší díry použij záplatu ze sádrokartonu — ořízni díru na čtverec, připrav záplatu stejné velikosti, přilep síťku, nanes tmel ve 2–3 vrstvách a přebrousíme po zaschnutí." } },
       { "@type": "Question", "name": "Jaký tmel použít na díry ve zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Pro malé škrábance a díry do 5 mm: akrylátový tmel (Knauf, Baumit) — flexibilní, nesráží se. Pro větší díry (5–30 mm): sádrová hmota nebo jemná štuková sádra — tuhne rychle a dobře se brousí. Pro díry nad 30 mm: použij síťku jako výztuž proti praskání." } },
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#howto",
+    "name": "Jak opravit škrábance a díry ve zdi před malováním 2026",
+    "description": "Tmel, sádra nebo sprej? Jak vyrovnat povrch zdi před malováním – od malých škrábanců po větší díry po hmoždinkách. Postup krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jaký tmel nebo sádru koupit", "text": "Jaký tmel nebo sádru koupit" },
+      { "@type": "HowToStep", "name": "Škrábance a drobné vrypy (do 2 mm)", "text": "Nejjednodušší oprava — akrylátový tmel nanesen špachtlí nebo prstem, přebroušen jemným papírem." },
+      { "@type": "HowToStep", "name": "Díry po hmoždinkách a šroubech (5–15 mm)", "text": "Nejčastější typ opravy — po přestěhování nábytku nebo sejmutí obrazů. Sádrový tmel je ideální — rychlé schnutí a pevný výsledek." },
+      { "@type": "HowToStep", "name": "Větší díry (15–50 mm) – síťka a tmel", "text": "Větší díry vyžadují výztuhu aby tmel při schnutí nepraskl a nedroble." },
+      { "@type": "HowToStep", "name": "Velké díry (nad 50 mm) – záplata ze sádrokartonu", "text": "Velké díry nelze vyplnit tmelem — praskaly by. Nejlepší řešení je záplata ze sádrokartonu." },
+      { "@type": "HowToStep", "name": "Broušení a finální příprava před malováním", "text": "Broušení je posledním a nejdůležitějším krokem před malováním. Neopravené nebo špatně přebroušené místo bude pod barvou viditelné jako vyvýšenina nebo prohlubeň." }
+    ]
   }]
 };
 

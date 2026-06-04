@@ -31,6 +31,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak opravit přetaženou barvu na lištu?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud je barva mokrá, okamžitě setři vlhkým hadrem nebo štětcem namočeným v čisté vodě. Pokud zaschla, přemaluj lištu její barvou — většina lišt je bílá, takže přemalování je snadné. U dřevěných lišt po zaschnutí jemně přebrousit a přemalovat." } },
       { "@type": "Question", "name": "Jak malovat u podlahy bez znečištění podlahy?", "acceptedAnswer": { "@type": "Answer", "text": "Zakryj podlahu zakrývací fólií, přilep malířskou pásku podél spodní lišty. Maluj vodorovnými tahy od lišty směrem nahoru. Alternativa: přilož kartičku nebo kus plastové fólie na podlahu a posouvej ji podél stěny — chrání podlahu bez pásky." } },
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy#howto",
+    "name": "Jak malovat rohy a lišty – technika štětcem",
+    "description": "Čistá linka u lišt, rohů a stropu bez malířské pásky? Jde to. Technika odřezávání štětcem krok za krokem – jak malovat rohy a lišty jako profesionál.",
+    "step": [
+      { "@type": "HowToStep", "name": "Technika odřezávání krok za krokem", "text": "Odřezávání (cutting in) je technika malování přesné linie u okraje — bez pásky, bez šablon. Vyžaduje trochu praxe, ale výsledek je čistší než s páskou pokud ji zvládneš." },
+      { "@type": "HowToStep", "name": "Vnitřní a vnější rohy", "text": "Vnitřní roh je nejnáročnější místo. Technika: maluj vždy jednu stěnu jako hlavní a druhou jako sekundární. Odřezávej na hlavní stěně štětcem podél rohu, pak nanes barvu na sekundární stěnu směrem od rohu. Překryv 1–2 mm v rohu je normální a žádoucí." },
+      { "@type": "HowToStep", "name": "Malování u lišt a zárubní", "text": "Maluj vždy od lišty směrem nahoru (nebo dolů), ne podél lišty. Techniku odřezávání prováděj s lehce naklopeným štětcem tak aby špička sledovala horní hranu lišty. Pokud lišta není rovná (starší domy), malířská páska je rychlejší řešení." },
+      { "@type": "HowToStep", "name": "Kdy použít malířskou pásku", "text": "Malířská páska není slabost — je to správné řešení v konkrétních situacích. Nepoužívej ji všude jen proto, že se bojíš odřezávání." }
+    ]
   }]
 };
 

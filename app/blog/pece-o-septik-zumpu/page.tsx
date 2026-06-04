@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Musím mít povolení k provozu septiku nebo žumpy?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — žumpa i septik musí být v souladu s místními předpisy a vodním zákonem. Žumpa musí být vodotěsná a vyvážení musí být doloženo dokladem od oprávněné firmy (při kontrole inspekce). Septik a domácí ČOV vyžadují povolení k vypouštění odpadních vod do půdy nebo vodoteče (vydává obecní úřad nebo vodoprávní úřad)." } },
       { "@type": "Question", "name": "Vyplatí se vyměnit starou žumpu za domácí ČOV?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na frekvenci vyvážení. Pokud vyvážíš žumpu 4× ročně po 2 500 Kč = 10 000 Kč/rok. Domácí ČOV pořizovací náklady 100 000–200 000 Kč, roční provoz (servis + elektřina + odvoz kalu) 5 000–8 000 Kč. Návratnost: 10–20 let. Ekologicky i provozně výhodnější — ale pořizovací investice je vysoká." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-septik-zumpu#howto",
+    "name": "Jak pečovat o septik a žumpu – frekvence vyvážení a péče 2026",
+    "description": "Jak správně pečovat o septik nebo žumpu. Jak často vyvážet, co do nich nepatří, jak prodloužit životnost a kdy je čas na výměnu za moderní ČOV.",
+    "step": [
+      { "@type": "HowToStep", "name": "Septik vs. žumpa – jaký je rozdíl", "text": "Septik vs. žumpa – jaký je rozdíl" },
+      { "@type": "HowToStep", "name": "Jak často vyvážet", "text": "Jak často vyvážet" },
+      { "@type": "HowToStep", "name": "Jak pečovat o septik", "text": "Jak pečovat o septik" },
+      { "@type": "HowToStep", "name": "Co do septiku a žumpy nepatří", "text": "Co do septiku a žumpy nepatří" }
+    ]
   }]
 };
 

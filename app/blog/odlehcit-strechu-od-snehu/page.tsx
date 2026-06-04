@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Jsou rampochy na střeše nebezpečné?", "acceptedAnswer": { "@type": "Answer", "text": "Rampochy samy o sobě střechu nezatěžují výrazně, ale signalizují tepelné mosty (teplo uniká střechou a taje sníh). Padající rampouchy jsou nebezpečné pro kolemjdoucí. Odstraňuj je tyčí ze země — nikdy nestoupej pod visící rampouchy. Opakované rampochy řeš zateplením podkroví nebo topným kabelem na okraj střechy." } },
       { "@type": "Question", "name": "Pojišťovna proplácí škody způsobené sněhem?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na pojistné smlouvě. Škody způsobené tíhou sněhu nebo pádem sněhových mas jsou obvykle kryty v rámci pojištění budovy pro \"živelní události\" nebo \"tíhu sněhu\". Přečti pojistnou smlouvu a při havárii okamžitě kontaktuj pojišťovnu a zdokumentuj škodu fotografiemi před odklízením." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu#howto",
+    "name": "Jak bezpečně odlehčit střechu od sněhu",
+    "description": "Kdy je sníh na střeše nebezpečný a jak ho bezpečně odstranit. Kolik sněhu střecha unese, jak rozpoznat přetížení a správný postup shrnutí sněhu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Varovné signály přetížení střechy", "text": "Varovné signály přetížení střechy" },
+      { "@type": "HowToStep", "name": "Jak bezpečně odlehčit střechu", "text": "Jak bezpečně odlehčit střechu" },
+      { "@type": "HowToStep", "name": "Prevence – co pomáhá", "text": "Prevence – co pomáhá" }
+    ]
   }]
 };
 

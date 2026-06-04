@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jsou solární světla dostatečně jasná?", "acceptedAnswer": { "@type": "Answer", "text": "Pro dekoraci a osvětlení cest ano. Pro bezpečnostní osvětlení vstupu nebo osvětlení pracovní plochy (gril, stůl) jsou slabší. Moderní solární světla s baterií dosahují 200–800 lm — srovnatelné s kabelovými pro dekorativní účely. Výkon závisí na množství slunečního světla — v zimě svítí kratší dobu." } },
       { "@type": "Question", "name": "Potřebuji elektrikáře na venkovní osvětlení?", "acceptedAnswer": { "@type": "Answer", "text": "Pro připojení svítidla na existující venkovní zásuvku elektrikáře nepotřebuješ. Pro vedení nového kabelu z rozvaděče nebo instalaci nové venkovní zásuvky elektrikáře potřebuješ. Nízkonapěťové systémy (12 V) s transformátorem zvládneš sám bez elektrikáře." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#howto",
+    "name": "Venkovní osvětlení zahrady – typy a instalace",
+    "description": "Jak osvětlit zahradu, terasu nebo příjezdovou cestu. Solární nebo kabelové osvětlení? Typy svítidel, instalace a jak vytvořit krásnou večerní atmosféru.",
+    "step": [
+      { "@type": "HowToStep", "name": "Solární vs. kabelové osvětlení – co vybrat", "text": "Solární vs. kabelové osvětlení – co vybrat" },
+      { "@type": "HowToStep", "name": "Typy zahradních svítidel", "text": "Typy zahradních svítidel" },
+      { "@type": "HowToStep", "name": "Co znamená IP krytí pro venkovní svítidla", "text": "Venkovní svítidla musí být odolná vůči vlhkosti a prachu. IP krytí určuje jejich odolnost — první číslice = prach, druhá = voda." },
+      { "@type": "HowToStep", "name": "Instalace kabelového osvětlení", "text": "Instalace kabelového osvětlení" },
+      { "@type": "HowToStep", "name": "Jak vytvořit večerní atmosféru na zahradě", "text": "Jak vytvořit večerní atmosféru na zahradě" }
+    ]
   }]
 };
 

@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Může pronajímatel odmítnout souhlas s přihlášením?", "acceptedAnswer": { "@type": "Answer", "text": "Pronajímatel má právo odmítnout souhlas s přihlášením trvalého pobytu — není to zákonná povinnost pronajímatele. V praxi to záleží na dohodě při uzavírání nájemní smlouvy. Pokud souhlas odmítne, nemůžeš se přihlásit na dané adrese. Přihlášení trvalého pobytu bez souhlasu vlastníka není možné." } },
       { "@type": "Question", "name": "Co se stane se starým trvalým pobytem?", "acceptedAnswer": { "@type": "Answer", "text": "Přihlášením na nové adrese automaticky zaniká trvalý pobyt na staré adrese — nemusíš se odhlašovat. Evidence obyvatel si změnu zpracuje sama. Starý trvalý pobyt přestane platit v okamžiku přihlášení na nové adrese." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prihlasit-trvaly-pobyt#howto",
+    "name": "Jak přihlásit trvalý pobyt na nové adrese – postup 2026",
+    "description": "Jak přihlásit trvalý pobyt na nové adrese krok za krokem. Které doklady přinést, na jaký úřad jít, lhůty a co se změní po přihlášení trvalého pobytu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde přihlásit trvalý pobyt", "text": "Kde přihlásit trvalý pobyt" },
+      { "@type": "HowToStep", "name": "Jaké doklady přinést", "text": "Jaké doklady přinést" },
+      { "@type": "HowToStep", "name": "Postup krok za krokem", "text": "Postup krok za krokem" },
+      { "@type": "HowToStep", "name": "Co změnit po přihlášení trvalého pobytu", "text": "Co změnit po přihlášení trvalého pobytu" }
+    ]
   }]
 };
 

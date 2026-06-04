@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu nainstalovat kuchyň sám bez odborníka?", "acceptedAnswer": { "@type": "Answer", "text": "Skříňky, pracovní desku a dvířka zvládneš sám pokud máš základní řemeslnické dovednosti a správné nářadí. Zapojení pevných elektrických spotřebičů (varná deska, trouba) musí provést elektrikář. Plynové spotřebiče musí zapojit certifikovaný technik. Vodoinstalace (dřez, myčka) — záleží na zkušenostech." } },
       { "@type": "Question", "name": "Co dělat pokud zeď není rovná?", "acceptedAnswer": { "@type": "Answer", "text": "Nerovná zeď je nejčastější problém. Řešení: spodní skříňky vyrovnat nožičkami (nastavitelný rozsah 10–15 cm). Mezeru mezi skříňkami a nerovnou zdí zakrýt lištou. Horní skříňky zarovnat montážní lištou — lišta se přizpůsobí rovině, ne stěně. Větší nerovnosti (nad 2 cm) vyrovnat sádrovou omítkovinou před instalací." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku#howto",
+    "name": "Jak nainstalovat kuchyňskou linku – postup montáže 2026",
+    "description": "Jak nainstalovat kuchyňskou linku krok za krokem. Příprava, montáž skříněk, instalace pracovní desky a připojení spotřebičů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava a plánování", "text": "Příprava a plánování" },
+      { "@type": "HowToStep", "name": "Montáž spodních skříněk", "text": "Montáž spodních skříněk" },
+      { "@type": "HowToStep", "name": "Montáž horních skříněk", "text": "Montáž horních skříněk" },
+      { "@type": "HowToStep", "name": "Pracovní deska", "text": "Pracovní deska" },
+      { "@type": "HowToStep", "name": "Spotřebiče a zapojení", "text": "Spotřebiče a zapojení" }
+    ]
   }]
 };
 

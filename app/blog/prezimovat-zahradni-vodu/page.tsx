@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Musím přezimovat zahradní vodu každý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud je přípojka vedena v dostatečné hloubce (100+ cm) a není v exponovaném místě, v mírných zimách nemusí zamrznout. Ale přezimování (uzavření a vypuštění) je jednoduchá prevence která trvá 15 minut a může ušetřit tisíce korun opravy. Doporučujeme dělat ho každý rok." } },
       { "@type": "Question", "name": "Kdy mohu na jaře znovu spustit zahradní vodu?", "acceptedAnswer": { "@type": "Answer", "text": "Až nehrozí mráz — typicky polovina dubna nebo po \"ledových mužích\" (12.–15. května). Před spuštěním zkontroluj těsnost všech spojů — zimní pohyby půdy mohou uvolnit špatně zajištěné spoje. Spouštěj postupně a kontroluj jestli někde neteče." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu#howto",
+    "name": "Jak přezimovat zahradní vodovodní přípojku – aby nezamrzla 2026",
+    "description": "Jak ochránit zahradní vodovodní přípojku, hadice a zahradní kohoutek před mrazem. Postup uzavření, vypuštění a přezimování závlahy na podzim.",
+    "step": [
+      { "@type": "HowToStep", "name": "Postup přezimování krok za krokem", "text": "Postup přezimování krok za krokem" },
+      { "@type": "HowToStep", "name": "Přezimování automatické závlahy", "text": "Přezimování automatické závlahy" },
+      { "@type": "HowToStep", "name": "Co dělat když přípojka zamrzla", "text": "Co dělat když přípojka zamrzla" }
+    ]
   }]
 };
 

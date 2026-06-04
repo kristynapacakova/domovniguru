@@ -29,6 +29,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Světlo nefunguje po zapojení, co zkontrolovat?", "acceptedAnswer": { "@type": "Answer", "text": "Ověř: (1) jistič je zapnutý, (2) vodiče jsou pevně ve svorkách (zatáhni za každý), (3) L a N jsou správně přiřazeny – záměna je nejčastější chyba. Pokud jistič hned vypadne, je zkrat – zkontroluj zda se vodiče nedotýkají navzájem." } },
       { "@type": "Question", "name": "Jak bezpečně ověřit, že v krabici není napětí?", "acceptedAnswer": { "@type": "Answer", "text": "Nestačí vypnout vypínač na stěně – ten odpojuje pouze fázi, nulový vodič zůstane pod napětím. Vždy vypni jistič v rozvaděči a pak ověř fázovou tužkou každý vodič v krabici. Teprve pak pracuj." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop#howto",
+    "name": "Jak zapojit nové světlo na strop",
+    "description": "Krabice, L, N, PE vodiče – správné zapojení stropního svítidla krok za krokem. Bezpečně a bez elektrikáře.",
+    "step": [
+      { "@type": "HowToStep", "name": "Bezpečnost na prvním místě", "text": "Práce na elektroinstalaci bez vypnutého jističe je smrtelně nebezpečná. Před každou prací:" },
+      { "@type": "HowToStep", "name": "Barvy vodičů – co je co", "text": "Ve starších instalacích mohou být vodiče označeny jinak (červená = fáze, černá = nula). Vždy ověř multimetrem — nespoléhej se jen na barvu." },
+      { "@type": "HowToStep", "name": "Postup zapojení", "text": "Postup zapojení" },
+      { "@type": "HowToStep", "name": "Druhy stropních krabic", "text": "Druhy stropních krabic" },
+      { "@type": "HowToStep", "name": "Časté problémy", "text": "Časté problémy" }
+    ]
   }]
 };
 

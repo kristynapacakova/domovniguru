@@ -20,6 +20,15 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Proč keř po řezu méně kvete?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastěji proto, že jsi stříhal ve špatnou dobu – po vytvoření pupenů. Zkontroluj typ keře: keře kvetoucí na jaře (forsythie, šeřík) stříhej hned po odkvětu, keře kvetoucí v létě (růže, komule) stříhej na jaře." } },
       { "@type": "Question", "name": "Jak poznat správný úhel řezu?", "acceptedAnswer": { "@type": "Answer", "text": "Řez veď šikmo pod úhlem 45°, těsně nad pupenem (max. 5 mm pahýl). Šikmý řez zajistí, že voda stéká pryč od pupene a nezpůsobuje hnilobu. Rovný řez zadržuje vlhkost a hůře se hojí." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#howto",
+    "name": "Jak stříhat keře – průvodce pro každého",
+    "description": "Kdy, jak a čím stříhat okrasné i ovocné keře. Správný řez prodlouží život keře a zdvojnásobí kvetení.",
+    "step": [
+      { "@type": "HowToStep", "name": "Technika řezu", "text": "Jak řez provedeš je stejně důležité jako kdy ho provedeš. Špatný řez poškozuje větvičku a zpomaluje hojení." },
+      { "@type": "HowToStep", "name": "Různé keře, různý přístup", "text": "Stříhají se na jaře (březen) těsně před rašením. Čajohybridní růže zkrať na 3–5 zdravých pupenů od země (výška asi 20–30 cm). Půdopokryvné a pnoucí růže stříhej méně agresivně – jen odstraň staré dřevo a zkrať výhony o třetinu." }
+    ]
   }]
 };
 

@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu klimatizaci čistit vysavačem místo vodou?", "acceptedAnswer": { "@type": "Answer", "text": "Vysavač je dobrý první krok pro odstranění hrubého prachu, ale neodstraní jemné nečistoty, mastnotu a bakterie. Pro kompletní čistění je nutné opláchnout filtr vodou. Použij vysavač jako první krok, pak opláchni vodou." } },
       { "@type": "Question", "name": "Co dělat když klimatizace kape vodu dovnitř?", "acceptedAnswer": { "@type": "Answer", "text": "Kapající voda z vnitřní jednotky je nejčastěji ucpaná kondenzační vana nebo odtoková hadice. Zanesený filtr zpomaluje průtok vzduchu, výparník přemrzne a při rozmrznutí kape voda. Řešení: vyčistit filtr, vyčistit kondenzační hadici (propláchnout vodou nebo foukáním), zavolat technika pro čistění výparníku." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace#howto",
+    "name": "Jak čistit filtr klimatizace doma – postup krok za krokem 2026",
+    "description": "Jak vyčistit nebo vyměnit filtr klimatizace sám doma. Jak často čistit, jak filtr vyjmout, umýt a vrátit zpět. Ušetři na servisním výjezdu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak často čistit filtr klimatizace", "text": "Jak často čistit filtr klimatizace" },
+      { "@type": "HowToStep", "name": "Postup čistění filtru krok za krokem", "text": "Postup čistění filtru krok za krokem" },
+      { "@type": "HowToStep", "name": "Typy filtrů – mytí nebo výměna", "text": "Většina domácích klimatizací má hrubé síťové filtry (mytí) a volitelné sekundární filtry (výměna). Zkontroluj návod k tvé klimatizaci jaké typy filtrů obsahuje." },
+      { "@type": "HowToStep", "name": "Co zvládneš sám a co vyžaduje technika", "text": "Co zvládneš sám a co vyžaduje technika" }
+    ]
   }]
 };
 

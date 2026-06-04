@@ -32,6 +32,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu malovat přímo přes lesklou nebo olejovou barvu?", "acceptedAnswer": { "@type": "Answer", "text": "Lesklé povrchy je nejprve nutné přebrousit jemným smirkem (P120–P150), aby nová barva přilnula. Na olejovou barvu použij speciální základ – běžná akrylátová barva na olejový podklad špatně drží." } },
       { "@type": "Question", "name": "Proč světlá barva stále prosvítá i po třech vrstvách?", "acceptedAnswer": { "@type": "Answer", "text": "Barva s nízkou kryvostí (levné nebo pastely) může vyžadovat i více vrstev. Investuj do barvy s vysokou kryvostí nebo použij šedý základ jako přechodový nátěr – šedá zakryje tmavý podklad lépe než bílá." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu#howto",
+    "name": "Jak malovat přes tmavou barvu na světlo",
+    "description": "Tmavá zeď pod světlou barvou? Bez správného postupu budou šmouhy. Tady je jak to vyřešit napoprvé.",
+    "step": [
+      { "@type": "HowToStep", "name": "Tři způsoby jak na to", "text": "Speciální základní nátěr s vysokou kryvostí (tzv. primer nebo zakrývací základ) obsahuje více pigmentu než běžná barva. Jedna vrstva základu + jedna až dvě vrstvy finální barvy = čistý výsledek." },
+      { "@type": "HowToStep", "name": "Postup krok za krokem", "text": "Postup krok za krokem" },
+      { "@type": "HowToStep", "name": "Kolik vrstev potřebuješ", "text": "Kolik vrstev potřebuješ" }
+    ]
   }]
 };
 

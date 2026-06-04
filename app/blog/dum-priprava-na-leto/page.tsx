@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Co udělat s domem před dovolenou v létě?", "acceptedAnswer": { "@type": "Answer", "text": "Uzavři přívod vody (nebo alespoň k pračce a myčce). Vypni bojler nebo nastavit na minimum. Uzavři okna a zatemni žaluzie (zabrání přehřívání). Nastav závlahu zahrady na timer. Požádej souseda o kontrolu. Vytáhni zástrčky nepotřebných spotřebičů. Nezapomeň na klimatizaci — vypni nebo nastav na ekonomický mód." } },
       { "@type": "Question", "name": "Jak ochránit dům před letními bouřkami?", "acceptedAnswer": { "@type": "Answer", "text": "Vyčistit okapy a svody pro volný odtok vody. Zkontrolovat střechu a opravit uvolněné tašky. Prořezat stromy u domu (větev na střeše při bouřce = tisíce korun škody). Zkontrolovat hromosvod. Pojistit si dům pro případ přírodní katastrofy pokud ještě nemáš." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/dum-priprava-na-leto#howto",
+    "name": "Příprava domu na léto – co zkontrolovat na jaře 2026",
+    "description": "Co zkontrolovat a udělat na jaře aby byl dům připravený na léto. Klimatizace, zahrada, fasáda, střecha, okna – kompletní jarní checklist pro dům i byt.",
+    "step": [
+      { "@type": "HowToStep", "name": "Střecha a okapy – priorita číslo jedna", "text": "Zima je nejnáročnější pro střechu — mráz, sníh a led způsobují posuny tašek, popraskání tmelu a uvolnění okapů. Jarní kontrola odhalí problémy dříve než přijdou letní bouřky." },
+      { "@type": "HowToStep", "name": "Okna, dveře a těsnění", "text": "Okna, dveře a těsnění" },
+      { "@type": "HowToStep", "name": "Klimatizace – připrav ji před létem", "text": "Klimatizace – připrav ji před létem" },
+      { "@type": "HowToStep", "name": "Zahrada a terasa – jarní start", "text": "Zahrada a terasa – jarní start" },
+      { "@type": "HowToStep", "name": "Technické kontroly", "text": "Technické kontroly" }
+    ]
   }]
 };
 

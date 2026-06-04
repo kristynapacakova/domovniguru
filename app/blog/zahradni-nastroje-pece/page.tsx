@@ -20,6 +20,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Proč silikonový sprej není vhodný na zahradní nářadí?", "acceptedAnswer": { "@type": "Answer", "text": "Silikonový sprej kontaminuje půdu a zhoršuje její strukturu. Používej ho pouze na části které se nedotýkají země (panty nůžek, osy). Na kovové díly lopatek, motyk a hráb používej místo silikonu lněný nebo řepkový olej." } },
       { "@type": "Question", "name": "Jak skladovat nářadí přes zimu, aby nerezavělo?", "acceptedAnswer": { "@type": "Answer", "text": "Vyčisti, osuš, nabrousíš a promažeš lněným olejem. Skladuj zavěšené nebo ve stojanu – nikdy přímo na zemi (vzdušná vlhkost). Silikagel v uzavřeném kufříku s malým nářadím pohltí vlhkost i v nevytápěné kůlně." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#howto",
+    "name": "Zahradní nástroje – jak o ně pečovat, aby vydržely",
+    "description": "Dobré zahradní nástroje vydrží desítky let – ale jen pokud o ně pečuješ. Čištění, broušení, mazání a skladování krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Čištění po každém použití", "text": "Největší chyba je odložit nářadí s blátem. Vlhkost + hlína = koroze. Stačí 2 minuty po každém použití:" },
+      { "@type": "HowToStep", "name": "Broušení – kdy a jak", "text": "Brousíš tehdy, když nářadí přestane krájet ale začne trhat nebo klouzat. U nůžek to poznáš okamžitě, u lopaty nebo motyky méně – zkus přejet prstem (opatrně!) po ostří. Pokud cítíš hrany a nerovnosti, je čas brousit." },
+      { "@type": "HowToStep", "name": "Mazání a ochrana kovu", "text": "Každý kov v zahradě potřebuje ochranu před vlhkostí. Stačí tenká vrstva – přemaz dělá víc škody než dobra, přitahuje prach a špiní ruce." },
+      { "@type": "HowToStep", "name": "Péče o dřevěné násady", "text": "Dřevěné násady jsou slabým místem každého nářadí. Suché dřevo praská, mokré bobtnáme a pouštíme kovovou hlavici. Jednou ročně (ideálně na podzim) obruste násadu jemným smirkem a natři lněným olejem – nechej vsáknout přes noc, přebytek setři." },
+      { "@type": "HowToStep", "name": "Skladování přes zimu", "text": "Podzimní příprava nářadí na zimu ti ušetří hodiny práce na jaře:" }
+    ]
   }]
 };
 

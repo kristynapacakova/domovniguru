@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Pomáhá zasypat krtiny hlínou?", "acceptedAnswer": { "@type": "Answer", "text": "Zasypání krtiny krtovi vůbec nevadí — tunel má zpravidla desítky metrů a krtina je jen odpadní hlína. Zasypáváním krtince zbývá jen urovnat trávník — nedojde k vyplašení krtka. Hlínu z krtiny použij jako kvalitní substrát do záhonu nebo kompostu." } },
       { "@type": "Question", "name": "Pomáhají kočky nebo psi na krtky?", "acceptedAnswer": { "@type": "Answer", "text": "Kočky a psi krtky loví — zejména kočky jsou přirození predátoři. Jejich přítomnost na zahradě krtka odradí (pach). Kočka skutečně loví a přináší ulovené krtky. Je to přirozené řešení ale nelze ho spolehlivě \"nařídit\". Pachové stopy mazlíčků (trus) jako odpuzovač fungují krátkodobě." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-krtku#howto",
+    "name": "Jak se zbavit krtků na zahradě – co funguje a co ne 2026",
+    "description": "Jak se zbavit krtků na zahradě bez chemie a bez krutosti. Ultrazvuk, pachové odpuzovače, lapače nebo plašiče – co skutečně funguje a co je zbytečné.",
+    "step": [
+      { "@type": "HowToStep", "name": "Odpuzovače a plašiče – co funguje", "text": "Odpuzovače a plašiče – co funguje" },
+      { "@type": "HowToStep", "name": "Lapač krtků – nejúčinnější metoda", "text": "Lapač krtků (živý i smrtící) je nejspolehlivější metoda. Správná instalace je klíčová — špatně umístěný lapač nefunguje." },
+      { "@type": "HowToStep", "name": "Ochrana záhonů sítí – trvalé řešení", "text": "Ochrana záhonů sítí – trvalé řešení" }
+    ]
   }]
 };
 

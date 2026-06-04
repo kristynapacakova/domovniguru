@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč bazalka z obchodu rychle uhyne?", "acceptedAnswer": { "@type": "Answer", "text": "Supermarketové bylinky jsou pěstované v hydroponii za intenzivního osvětlení — jsou přemnožené a stresované prodejem. Na parapetu jim chybí světlo. Řešení: přesadit do většího květináče, oddělit trs na 3–4 menší části, přemístit na nejsvětlejší místo v bytě." } },
       { "@type": "Question", "name": "Kdy přesadit bylinky ven po zimě?", "acceptedAnswer": { "@type": "Answer", "text": "Trvalky (pažitka, máta, tymián) lze přesunout ven jakmile nehrozí mráz — typicky po polovině května (po zmrzlých). Bazalku venku sázej nejdříve koncem května kdy jsou noci teplé — bazalka je tropická rostlina a mráz ji okamžitě zničí." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#howto",
+    "name": "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026",
+    "description": "Jak založit bylinkovou zahrádku na parapetu, balkonu nebo v zahradě. Které bylinky jsou nejjednodušší a jak je sázet.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde pěstovat – parapet, balkon nebo zahrada", "text": "Kde pěstovat – parapet, balkon nebo zahrada" },
+      { "@type": "HowToStep", "name": "Jak začít – semena nebo sazenice", "text": "Jak začít – semena nebo sazenice" },
+      { "@type": "HowToStep", "name": "Péče o bylinky", "text": "Péče o bylinky" },
+      { "@type": "HowToStep", "name": "Jak správně sklízet bylinky", "text": "Jak správně sklízet bylinky" },
+      { "@type": "HowToStep", "name": "Nejčastější problémy", "text": "Nejčastější problémy" }
+    ]
   }]
 };
 

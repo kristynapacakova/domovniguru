@@ -20,6 +20,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Co je mulčování a jak ho správně provést?", "acceptedAnswer": { "@type": "Answer", "text": "Mulčování je pokrytí půdy kolem rostliny organickým materiálem (kůra, listí, sláma, kompost) ve vrstvě 10–15 cm. Izoluje kořeny před mrazem. Mulčuj vždy na vlhkou, nerozmrzlou půdu a nechej 2–3 cm mezeru u samotného kmene." } },
       { "@type": "Question", "name": "Kdy odkrýt rostliny na jaře?", "acceptedAnswer": { "@type": "Answer", "text": "Odkrývej postupně za oblačného dne, ne přímo do slunce – rostliny pod zábalem jsou oslabené a intenzivní slunce způsobí popáleniny. Pokud meteorologové hlásí pozdní mraz, zakryj znovu. Bezpečné je obvykle odkrývání po 15. března v jižních Čechách, ve zbytku republiky po 1. dubnu." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny#howto",
+    "name": "Jak přezimovat zahradní rostliny – co, kdy a jak",
+    "description": "Co zakrýt, co přestěhovat a co nechat být. Kompletní průvodce přezimováním zahradních rostlin krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co zakrýt a čím", "text": "Ne všechny rostliny zakrýváš stejně. Záleží na tom jak jsou mrazuvzdorné a co konkrétně potřebuješ chránit — pupeny, kořeny nebo celou nadzemní část." },
+      { "@type": "HowToStep", "name": "Co přestěhovat dovnitř", "text": "Tropické a subtropické rostliny nesnesou mráz vůbec — musí přezimovat v interiéru. Klíčové je přestěhovat je dřív než vytopíš — přechod z venkovní teploty do vytopeného bytu je stres. Ideální je nejdřív přenést do chladnější místnosti (chodba, sklep, garáž) a postupně přivykat teplu." },
+      { "@type": "HowToStep", "name": "Mulčování kořenů", "text": "Mulč je nejjednodušší a nejúčinnější ochrana kořenů před mrazem. Vrstva organického materiálu 10–15 cm kolem paty rostliny izoluje půdu, zabraňuje hlubokému promrznutí a zároveň zadržuje vlhkost." },
+      { "@type": "HowToStep", "name": "Nádoby a truhlíky", "text": "Rostliny v nádobách jsou náchylnější na mráz než rostliny v zemi — kořeny jsou ze všech stran obklopené vzduchem a substrát promrzá rychleji než zahradní půda. Navíc keramické a terakotové nádoby při opakovaném zmrznutí praskají." },
+      { "@type": "HowToStep", "name": "Co udělat na jaře", "text": "Stejně důležité jako zakrytí je včasné odkrytí. Rostliny pod netkanovinou nebo jutou se na jaře přehřívají a vyrašení pod zábalem může způsobit plísně." }
+    ]
   }]
 };
 

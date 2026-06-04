@@ -20,6 +20,20 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Jak najít hlavní uzávěr vody v novém bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Hlavní uzávěr vody bývá pod kuchyňskou dřezem, v koupelně za vanou, nebo v chodbě/předsíni v malé skříňce. Při přebírání požádej předchozího nájemníka nebo majitele, aby ti ho ukázal – budeš ho potřebovat při havárii." } },
       { "@type": "Question", "name": "Musím hned po nastěhování vyměnit zámky?", "acceptedAnswer": { "@type": "Answer", "text": "Doporučujeme ano. Nevíš, kolik kopií klíčů je v oběhu (předchozí nájemníci, sousedi, údržba). Výměna válce u bezpečnostního zámku stojí 500–1 500 Kč a dá ti jistotu, že máš jediné klíče." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#howto",
+    "name": "Co zkontrolovat při přebírání nového bytu – checklist",
+    "description": "Přebíráš nový byt nebo dům? Kompletní checklist co zkontrolovat: elektrika, voda, topení, okna, stěny, dokumenty. Nic nezapomeneš.",
+    "step": [
+      { "@type": "HowToStep", "name": "Než vstoupíš dovnitř – příprava", "text": "Než vstoupíš dovnitř – příprava" },
+      { "@type": "HowToStep", "name": "Elektrika a osvětlení", "text": "Elektrika a osvětlení" },
+      { "@type": "HowToStep", "name": "Voda a topení", "text": "Voda a topení" },
+      { "@type": "HowToStep", "name": "Okna a dveře", "text": "Okna a dveře" },
+      { "@type": "HowToStep", "name": "Stěny, stropy a podlahy", "text": "Stěny, stropy a podlahy" },
+      { "@type": "HowToStep", "name": "Dokumenty a klíče", "text": "Dokumenty a klíče" },
+      { "@type": "HowToStep", "name": "Kompletní checklist v bodech", "text": "Kompletní checklist v bodech" }
+    ]
   }]
 };
 

@@ -30,6 +30,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Pomáhá zateplovací fólie na okna?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, transparentní zateplovací fólie na rámeček okna zevnitř vytváří vzduchovou mezeru a snižuje tepelné ztráty oknem o 30–50 %. Pro starší jednoskla je to výrazný přínos. Pro moderní trojskla je přínos menší. Cena 200–500 Kč na okno a montáž 30 minut — dobrý poměr cena/výkon." } },
       { "@type": "Question", "name": "Mohu zateplit byt v pronájmu?", "acceptedAnswer": { "@type": "Answer", "text": "Všechna opatření v tomto článku jsou reverzibilní — těsnicí pásku lze odlepit, reflexní fólii vyjmout, závěsy sundat. Žádné z těchto opatření nevyžaduje souhlas pronajímatele. Pokud chceš udělat trvalejší úpravy (výměna oken, zateplení stěn), potřebuješ souhlas majitele." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#howto",
+    "name": "Jak zateplit byt bez rekonstrukce – levná řešení 2026",
+    "description": "Těsnění oken, těžké závěsy, reflexní fólie za radiátor a prahové lišty. Jak zateplit starý byt bez bourání a bez velkých investic – úspora až 20 % na vytápění.",
+    "step": [
+      { "@type": "HowToStep", "name": "Těsnění oken – největší přínos za nejméně peněz", "text": "Okna jsou největší slabina každého bytu — přes stará nebo špatně utěsněná okna uniká až 20 % tepla. Těsnění je nejlevnější a nejrychlejší opatření." },
+      { "@type": "HowToStep", "name": "Dveře a průvany – podceňovaný zdroj ztrát", "text": "Vstupní dveře a dveře do chodby jsou dalším velkým zdrojem průvanu. Teplý vzduch uniká pod dveřmi a chladný proudí ze schodiště nebo chodby." },
+      { "@type": "HowToStep", "name": "Reflexní fólie za radiátor – okamžitý efekt", "text": "Radiátor umístěný pod oknem nebo u vnější zdi vyzařuje část tepla přímo do zdi místo do místnosti. Reflexní fólie za radiátorem toto teplo odrazí zpět do místnosti." },
+      { "@type": "HowToStep", "name": "Závěsy a rolety – noční izolace", "text": "Okna jsou nejslabší místo v izolaci bytu — i trojsklo ztrácí v noci mnohem více tepla než izolovaná stěna. Těžké závěsy jsou překvapivě účinná izolace." },
+      { "@type": "HowToStep", "name": "Další levná opatření bez rekonstrukce", "text": "Další levná opatření bez rekonstrukce" },
+      { "@type": "HowToStep", "name": "V jakém pořadí začít – od nejlevnějšího", "text": "V jakém pořadí začít – od nejlevnějšího" }
+    ]
   }]
 };
 

@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Kolik oleje potřebuji na terasu?", "acceptedAnswer": { "@type": "Answer", "text": "Přibližně 0,5–1 litr na 5 m² pro první ošetření (suchá nebo nová terasa). Pro obnovu stačí 0,3–0,5 litru na 5 m². Vždy zkontroluj doporučení výrobce — vydatnost se liší. Lepší koupit o trochu víc než dojít." } },
       { "@type": "Question", "name": "Kdy po ošetření mohu terasu používat?", "acceptedAnswer": { "@type": "Answer", "text": "Po oleji typicky 24–48 hodin před lehkým provozem, plné zatížení a mytí po 7 dnech. Po lazuře 24 hodin pro chůzi, plné použití po 48–72 hodinách. Vždy sleduj pokyny výrobce — liší se podle teploty a vlhkosti." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/drevo-terasa-zima#howto",
+    "name": "Jak ošetřit dřevěnou terasu – broušení, olej a lazura 2026",
+    "description": "Dřevěná terasa zešedivěla nebo se loupe? Kompletní postup jarního ošetření – broušení, čištění, volba oleje nebo lazury a správné nanášení. Terasa jako nová.",
+    "step": [
+      { "@type": "HowToStep", "name": "Čištění a příprava terasy", "text": "Čištění a příprava terasy" },
+      { "@type": "HowToStep", "name": "Broušení – kdy a jak", "text": "Broušení není vždy nutné — záleží na stavu povrchu a zvoleném přípravku." },
+      { "@type": "HowToStep", "name": "Olej nebo lazura – co vybrat", "text": "Olej nebo lazura – co vybrat" },
+      { "@type": "HowToStep", "name": "Postup nanášení oleje nebo lazury", "text": "Postup nanášení oleje nebo lazury" }
+    ]
   }]
 };
 

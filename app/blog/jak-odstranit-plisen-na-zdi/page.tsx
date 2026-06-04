@@ -37,6 +37,23 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak se zbavit plísně v koupelně?", "acceptedAnswer": { "@type": "Answer", "text": "Koupelnová plíseň vzniká z kondenzace páry. Postup: (1) ošetři plíseň Savem nebo fungicidem, (2) přetři koupelnovou protiplísňovou barvou nebo spárovacím tmelem s fungicidem, (3) spusť ventilátor nebo vždy větrání oknem po sprchování – alespoň 15 minut." } },
       { "@type": "Question", "name": "Jaký je nejlepší přípravek na plíseň na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Na koupelnu a spáry funguje Savo ředěné 1:3 s vodou (levné, rychlé). Na stěny a stropy jsou lepší specializované fungicidy (HG Schimmelspray, Anticor), protože nekorodují omítku a nebagrují barvu. Na prevenci stačí ocet nebo tea tree olej." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi#howto",
+    "name": "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026",
+    "description": "Černá, zelená i bílá plíseň na zdi: příčiny, likvidace plísně v bytě a prevence. Krok za krokem jak plíseň odstranit jednou provždy – Savo, fungicidy, ocet.",
+    "step": [
+      { "@type": "HowToStep", "name": "Proč plíseň vzniká – skutečné příčiny", "text": "Plíseň není smůla ani nečistota. Je to přirozená reakce na konkrétní podmínky: vlhkost, teplo a nedostatek proudění vzduchu. Bez pochopení příčin je jakékoli čištění jen dočasné řešení – plíseň se vrátí." },
+      { "@type": "HowToStep", "name": "Typy plísní a jejich nebezpečnost", "text": "Ne každá plíseň je stejně nebezpečná. Barva ti dá první orientaci – ale definitivní diagnózu provede jen laboratorní test." },
+      { "@type": "HowToStep", "name": "Jak plíseň odstranit krok za krokem", "text": "Správný postup likvidace plísně není složitý, ale musíš dodržet pořadí. Přeskočení jakéhokoli kroku znamená, že plíseň se vrátí – obvykle do 2–3 měsíců." },
+      { "@type": "HowToStep", "name": "Srovnání metod likvidace – Savo vs. fungicidy vs. ocet", "text": "Srovnání metod likvidace – Savo vs. fungicidy vs. ocet" },
+      { "@type": "HowToStep", "name": "Nejlepší přípravky na plíseň 2026 – co koupit v Česku", "text": "Konkrétní produkty dostupné v Hornbachu, OBI nebo Baumarktu. Ceny jsou orientační a mohou se lišit podle prodejny." },
+      { "@type": "HowToStep", "name": "Plíseň v rohu zdi a za nábytkem", "text": "Nejčastější místa výskytu plísně jsou rohy místností, ostění oken a stěny za nábytkem — přesně tam kde proudění vzduchu chybí úplně." },
+      { "@type": "HowToStep", "name": "Likvidace plísně v bytě – kdy to zvládneš sám a kdy ne", "text": "Likvidace plísně v bytě je zvládnutelná svépomocí pokud je plíseň na povrchu, plocha je menší než 1 m² a nejde o černou lesklou plíseň (Stachybotrys). Ve všech ostatních případech doporučujeme odbornou firmu." },
+      { "@type": "HowToStep", "name": "Prevence – jak plíseň zastavit jednou provždy", "text": "Prevence – jak plíseň zastavit jednou provždy" },
+      { "@type": "HowToStep", "name": "Plíseň se vrací – co to znamená a jak to zastavit trvale", "text": "Pokud se plíseň na stejném místě vrací i po vyčištění, je to jasný signál: neodstranil jsi příčinu, jen symptom. Chemie plíseň zabije, ale spóry jsou přirozeně přítomny v každém vzduchu — stačí že se podmínky vrátí do stejného stavu a plíseň vyklíčí znovu." },
+      { "@type": "HowToStep", "name": "Plíseň v koupelně – specifický postup", "text": "Koupelnová plíseň je nejčastější typ — a zároveň nejsnáze řešitelný. Vzniká výhradně z kondenzace páry při sprchování nebo koupání. Na rozdíl od plísně ve stěnách způsobené tepelným mostem ji lze trvale eliminovat bez stavebních zásahů." }
+    ]
   }]
 };
 

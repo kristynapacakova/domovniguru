@@ -31,6 +31,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Jaký stmívač koupit pro LED žárovky?", "acceptedAnswer": { "@type": "Answer", "text": "Hledej stmívač označený LED dimmer nebo Universal dimmer. Oblíbené značky: Schneider Electric, Legrand, Jung, Busch-Jaeger. Před nákupem zkontroluj seznam kompatibilních žárovek na webu výrobce. Cena kvalitního LED stmívače je 300–600 Kč." } },
       { "@type": "Question", "name": "Funguje stmívač i pro svítidla s více žárovkami?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale součet výkonů všech žárovek musí být v rozsahu stmívače (minimum–maximum W). Například stmívač 10–200 W s pěti LED žárovkami po 9 W = 45 W celkem — to je v pořádku. Pokud celkový výkon překračuje maximum stmívače, stmívač se přehřívá a může se poškodit." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-stmivac#howto",
+    "name": "Jak nainstalovat stmívač světla – zapojení krok za krokem 2026",
+    "description": "Stmívač místo vypínače – jak ho správně zapojit, co je potřeba pro LED žárovky a kdy volat elektrikáře. Bezpečný postup montáže stmívače krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy stmívačů – který vybrat", "text": "Ne každý stmívač funguje s každou žárovkou. Před nákupem musíš vědět jaký typ osvětlení stmíváš." },
+      { "@type": "HowToStep", "name": "LED a stmívání – co musíš vědět předem", "text": "Toto je nejčastější zdroj problémů. Ne každá LED žárovka stmívání podporuje — a i „dimmable\" LED nemusí fungovat se starším stmívačem pro halogen." },
+      { "@type": "HowToStep", "name": "Zapojení stmívače krok za krokem", "text": "Zapojení stmívače krok za krokem" },
+      { "@type": "HowToStep", "name": "Problémy a jejich řešení", "text": "Problémy a jejich řešení" }
+    ]
   }]
 };
 

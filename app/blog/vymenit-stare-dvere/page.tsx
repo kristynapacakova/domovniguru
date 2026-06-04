@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak dlouho trvá výměna dveří?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna jen křídla do existující záruby: 30–60 minut. Výměna dveří i obložkové záruby (DIY): půl dne až celý den. Profesionální montáž jedněch dveří včetně záruby: 2–4 hodiny. Bourání staré ocelové záruby a instalace nové: celý pracovní den." } },
       { "@type": "Question", "name": "Jak vybrat správnou výšku a šířku dveří?", "acceptedAnswer": { "@type": "Answer", "text": "Standard v ČR: výška 1 970 nebo 2 020 mm (světlý rozměr), šířka 600–900 mm. Pro ložnici a dětský pokoj: 700–800 mm. Pro koupelnu: 600–700 mm. Pro obývák a hlavní průchody: 800–900 mm. Změř světlý rozměr existujících dveří jako základ." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#howto",
+    "name": "Jak vyměnit staré dveře – výběr, montáž a záruby 2026",
+    "description": "Jak vyměnit staré dveře v bytě nebo domě. Výběr správných dveří, typy zárubní, postup montáže a na co si dát pozor. Průvodce pro laiky i pokročilé.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak správně změřit otvor pro dveře", "text": "Špatné rozměry = dveře se nevejdou nebo jsou příliš malé. Měř vždy hrubý otvor ve zdi, ne existující zárubeň." },
+      { "@type": "HowToStep", "name": "Typy dveří – co vybrat", "text": "Typy dveří – co vybrat" },
+      { "@type": "HowToStep", "name": "Zárubeň nebo obložka – klíčové rozhodnutí", "text": "Zárubeň nebo obložka – klíčové rozhodnutí" },
+      { "@type": "HowToStep", "name": "Montáž obložkové záruby krok za krokem", "text": "Montáž obložkové záruby krok za krokem" },
+      { "@type": "HowToStep", "name": "Orientační ceny 2026", "text": "Orientační ceny 2026" }
+    ]
   }]
 };
 

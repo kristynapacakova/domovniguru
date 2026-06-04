@@ -34,7 +34,19 @@ const jsonLd = {
         { "@type": "Question", "name": "Proč chránič vypadává i bez vadného spotřebiče?", "acceptedAnswer": { "@type": "Answer", "text": "Chránič může vypadávat bez zjevně vadného spotřebiče kvůli: vlhkosti v zásuvce nebo krabici, stárnutí izolace vedení, příliš citlivému chrániči (30 mA vs. 300 mA), nebo rušení od frekvenčních měničů a UPS. Pokud nelze najít příčinu, zavolej elektrikáře na diagnostiku." } },
         { "@type": "Question", "name": "Co dělat když nejde proud v celém bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Nejprve zkontroluj zda nejde o výpadek v celém domě nebo oblasti — podívej se z okna na světla sousedů. Pokud je výpadek jen u tebe, zkontroluj hlavní jistič v rozvaděči (největší nebo nejvýše umístěný). Pokud je v pořádku, kontaktuj dodavatele elektřiny nebo správce budovy." } },
       ],
-    },
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#howto",
+    "name": "Co dělat když nejde proud v části bytu – postup 2026",
+    "description": "Nefungují zásuvky ale světla svítí? Nebo nejde proud v celé části bytu? Krok za krokem: jistič, chránič, přetížení nebo závada – rychlý postup jak to vyřešit.",
+    "step": [
+      { "@type": "HowToStep", "name": "Proč nejde proud jen v části bytu", "text": "Moderní elektroinstalace bytu je rozdělena do několika okruhů — každý okruh má svůj jistič nebo chránič v rozvaděči. Pokud vypadne jen část bytu, problém je téměř vždy v jednom konkrétním okruhu." },
+      { "@type": "HowToStep", "name": "Postup krok za krokem", "text": "Postup krok za krokem" },
+      { "@type": "HowToStep", "name": "Jistič vs. chránič – jaký je rozdíl", "text": "V rozvaděči jsou dva typy ochranných prvků — liší se funkcí i tím jak je poznáš." },
+      { "@type": "HowToStep", "name": "Jak najít vadný spotřebič", "text": "Pokud jistič nebo chránič po resetu drží ale vypadne při připojení určitého spotřebiče, postup je jednoduchý:" },
+      { "@type": "HowToStep", "name": "Kdy volat elektrikáře", "text": "Kdy volat elektrikáře" }
+    ]
+  }
   ],
 };
 

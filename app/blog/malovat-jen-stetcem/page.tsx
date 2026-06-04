@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak se zbavit stop po štětinaách?", "acceptedAnswer": { "@type": "Answer", "text": "Stopy po štětinaách vznikají z přeplněného štětce, špatné kvality štětce nebo malování přes zaschlou vrstvu. Řešení: méně barvy na štětci, kvalitnější štětec (syntetické štětiny Purdy nebo Wooster), maluj vždy do mokré vrstvy. Případné stopy po zaschnutí lehce přebrousit jemným papírem (180) a přemalovat." } },
       { "@type": "Question", "name": "Kdy sundat malířskou pásku?", "acceptedAnswer": { "@type": "Answer", "text": "Ideálně dokud je barva ještě mírně vlhká — po 30–60 minutách od nanášení. Sundej pomalu pod úhlem 45° od čáry. Pokud pásku sundáš po úplném zaschnutí, může strhnout barvu se sebou. Pokud barva ještě schne a pásku sundáš příliš brzy, může se rozmazat." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/malovat-jen-stetcem#howto",
+    "name": "Jak malovat jen štětcem – rohy, lišty a detaily bez válce 2026",
+    "description": "Kdy a jak malovat štětcem místo válce. Rohy, lišty, ostění oken a detaily – správná technika štětcem pro profesionální výsledek bez přetahování.",
+    "step": [
+      { "@type": "HowToStep", "name": "Výběr správného štětce", "text": "Výběr správného štětce" },
+      { "@type": "HowToStep", "name": "Technika malování štětcem", "text": "Technika malování štětcem" },
+      { "@type": "HowToStep", "name": "Malování rohů – technika krok za krokem", "text": "Malování rohů – technika krok za krokem" },
+      { "@type": "HowToStep", "name": "Malování lišt a ostění", "text": "Malování lišt a ostění" }
+    ]
   }]
 };
 

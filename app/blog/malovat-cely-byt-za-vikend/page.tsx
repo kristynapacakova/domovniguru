@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Lze malovat stejný den penetraci i barvu?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na penetraci. Rychleschnoucí penetrace schne 2–4 hodiny — pak lze malovat. Standardní penetrace vyžaduje 4–8 hodin. Pokud penetruješ v sobotu ráno, první vrstvu barvy dáš odpoledne. Přes noc schne a v neděli dáš druhou vrstvu. Nikdy nemaluj na mokrou penetraci — barva nepřilne." } },
       { "@type": "Question", "name": "Co s nábytkem během malování?", "acceptedAnswer": { "@type": "Answer", "text": "Těžký nábytek přesuň do středu místnosti a zakryj fólií nebo starými prostěradly. Lehký nábytek přesuň do jiné místnosti. Nemaž za nábytkem přisunutým ke zdi — tuto práci udělej teprve po přesunutí. Po malování nechej barvu zaschnout min. 24–48 hodin před vrácením nábytku ke zdi." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/malovat-cely-byt-za-vikend#howto",
+    "name": "Jak namalovat celý byt za víkend – plán a postup 2026",
+    "description": "Realistický plán jak vymalovat celý byt za dva dny. Pořadí místností, příprava, správné nářadí a jak nepracovat přesčas. Fungující strategie krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Je to reálné?", "text": "Ano — ale záleží na velikosti bytu a zkušenostech. Orientační časy pro jednoho člověka:" },
+      { "@type": "HowToStep", "name": "Příprava v pátek večer", "text": "Příprava v pátek je klíč. Ztracená hodina ráno hledáním malířské pásky nebo nářadí zruinuje harmonogram." },
+      { "@type": "HowToStep", "name": "Pořadí místností – proč záleží", "text": "Pořadí místností – proč záleží" }
+    ]
   }]
 };
 

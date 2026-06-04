@@ -20,6 +20,19 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Co všechno musím nahlásit při změně adresy?", "acceptedAnswer": { "@type": "Answer", "text": "Zaměstnavatel, banka, pojišťovna, zdravotní pojišťovna, lékař, škola nebo školka, dodavatelé energií, internet a TV, Česká pošta (přesměrování pošty). Nezapomeň na úřední registraci trvalého pobytu na obecním/městském úřadě." } },
       { "@type": "Question", "name": "Co udělat hned po nastěhování jako první?", "acceptedAnswer": { "@type": "Answer", "text": "Priorita č. 1: vyměň zámky u vstupních dveří – nevíš, kolik klíčů koluje. Pak zjisti umístění hlavních uzávěrů (voda, elektrika, plyn) a zkontroluj funkci topení, teplé vody a zásuvek." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#howto",
+    "name": "Stěhování bez stresu – kompletní checklist",
+    "description": "Kompletní checklist na stěhování: 6 týdnů před, den D a co udělat po nastěhování. Nic nezapomeneš, nic tě nepřekvapí.",
+    "step": [
+      { "@type": "HowToStep", "name": "6 týdnů před stěhováním", "text": "Čím dříve začneš, tím méně stresu v posledních dnech. Šest týdnů dopředu je ideální start pro větší stěhování." },
+      { "@type": "HowToStep", "name": "4 týdny před stěhováním", "text": "4 týdny před stěhováním" },
+      { "@type": "HowToStep", "name": "2 týdny před stěhováním", "text": "2 týdny před stěhováním" },
+      { "@type": "HowToStep", "name": "Týden před stěhováním", "text": "Týden před stěhováním" },
+      { "@type": "HowToStep", "name": "Den stěhování", "text": "Den stěhování" },
+      { "@type": "HowToStep", "name": "Po nastěhování – první týden", "text": "Po nastěhování – první týden" }
+    ]
   }]
 };
 

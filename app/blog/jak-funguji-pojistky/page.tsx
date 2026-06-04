@@ -31,6 +31,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak často se pojistky přepalují v normálním provozu?", "acceptedAnswer": { "@type": "Answer", "text": "Správně dimenzovaná pojistka by se neměla přepalovat vůbec — nebo jen výjimečně při zapnutí příliš mnoha spotřebičů najednou. Opakované přepalování signalizuje přetíženou instalaci nebo zkrat ve vedení. Oba případy vyžadují řešení, ne jen výměnu pojistky." } },
       { "@type": "Question", "name": "Kde koupím pojistky?", "acceptedAnswer": { "@type": "Answer", "text": "Pojistky koupíš v elektroobchodech (Mall, specializované elektro prodejny) nebo v hobbymarketech (Hornbach, Bauhaus, OBI). Cena 10–30 Kč za kus. Při nákupu nes s sebou starou pojistku nebo si zapiš přesný typ a hodnotu v ampérech." } },
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#howto",
+    "name": "Jak fungují pojistky a jističe – výměna a bezpečnost 2026",
+    "description": "Starý bytový rozvaděč s pojistkami nebo moderní jističe? Jak fungují, jak je bezpečně vyměnit a kdy je čas přejít na moderní rozvaděč. Průvodce pro laiky.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak pojistky fungují", "text": "Tavná pojistka je jednoduchý ochranný prvek — uvnitř je tenký drát z kovu s nízkou teplotou tání. Při přetížení obvodem proteče větší proud než je pojistka dimenzována, drát se zahřeje, přetaví a přeruší obvod. Tím ochrání vedení a spotřebiče před poškozením nebo požárem." },
+      { "@type": "HowToStep", "name": "Pojistka vs. jistič – hlavní rozdíly", "text": "Pojistka vs. jistič – hlavní rozdíly" },
+      { "@type": "HowToStep", "name": "Jak vyměnit přepálenou pojistku", "text": "Jak vyměnit přepálenou pojistku" },
+      { "@type": "HowToStep", "name": "Hodnoty pojistek – co kam patří", "text": "Vždy používej pojistku se stejnou nebo nižší hodnotou než originál. Vyšší hodnota nechrání vedení — drát se může přehřát a vznítit dříve než pojistka vypadne." },
+      { "@type": "HowToStep", "name": "Kdy přejít na moderní rozvaděč s jističi", "text": "Starý rozvaděč s pojistkami není nutně nebezpečný — ale moderní rozvaděč s jističi a chrániči nabízí výrazně lepší ochranu. Výměna stojí 5 000–15 000 Kč včetně práce elektrikáře a revize." }
+    ]
   }]
 };
 

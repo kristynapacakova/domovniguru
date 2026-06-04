@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Mám si najít stavebního inspektora nebo realitního makléře?", "acceptedAnswer": { "@type": "Answer", "text": "Stavební inspektor a realitní makléř jsou dvě různé věci. Makléř zprostředkovává prodej — není jeho zájmem odrazovat od koupě. Stavební inspektor (soudní znalec nebo certifikovaný inspektor) posuzuje technický stav nezávisle. Pro větší investici (byt, dům) se stavební inspektor vyplatí vždy." } },
       { "@type": "Question", "name": "Kdy je nejlepší čas na prohlídku bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Přes den za denního světla — umělé osvětlení skryje vlhkostní skvrny a nerovnosti. Ideálně po dešti — vlhkostní problémy jsou pak lépe viditelné. Naplánuj si dostatek času — min. 60–90 minut. Vyhni se uspěchaným prohlídkám s makléřem který tě pobízí k rychlému rozhodnutí." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu#howto",
+    "name": "Jak odhalit skryté vady bytu před koupí – checklist 2026",
+    "description": "Co zkontrolovat při prohlídce bytu před koupí. Vlhkost, elektrika, topení, hluk, právní vady – kompletní checklist kupce aby nezískal problémovou nemovitost.",
+    "step": [
+      { "@type": "HowToStep", "name": "Vlhkost a plíseň – nejčastější skrytá vada", "text": "Vlhkost je nejčastější a nejdražší skrytá vada. Prodávající ji zakryjí čerstvou malbou nebo nábytkem — ale existují signály které nepřehlédneš." },
+      { "@type": "HowToStep", "name": "Elektroinstalace", "text": "Elektroinstalace" },
+      { "@type": "HowToStep", "name": "Topení a voda", "text": "Topení a voda" },
+      { "@type": "HowToStep", "name": "Konstrukce a stavební stav", "text": "Konstrukce a stavební stav" },
+      { "@type": "HowToStep", "name": "Právní a administrativní vady", "text": "Právní a administrativní vady" }
+    ]
   }]
 };
 

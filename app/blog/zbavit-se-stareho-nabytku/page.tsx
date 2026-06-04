@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Kolik dostanu za starou pohovku na Bazoši?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na stavu, značce a lokalitě. Průměrná pohovka v dobrém stavu: 500–3 000 Kč. Designová nebo značková pohovka: 3 000–15 000 Kč. Pohovka v horším stavu: 0–500 Kč nebo darovat. Fotky a popis jsou klíčové — pohovka s dobrými fotkami se prodá za 2× více než stejná pohovka s tmavou rozmazanou fotkou." } },
       { "@type": "Question", "name": "Charity si samy odvezou nábytek?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na charitě a lokalitě. Armáda spásy a některé pobočky Naděje mají odvoz — ale kapacita je omezená a čekací doba může být 1–4 týdny. Zavolej předem a domluvte se. Podmínka je vždy dobrý stav nábytku — poškozený nebo opotřebovaný nábytek charity neberou." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku#howto",
+    "name": "Jak se zbavit starého nábytku",
+    "description": "Jak se zbavit starého nábytku rychle a bez stresu. Prodej online, darovací portály, sběrné dvory nebo kontejner – průvodce všemi možnostmi včetně cen.",
+    "step": [
+      { "@type": "HowToStep", "name": "Prodat online – jak na to", "text": "Dobrý nábytek v použitelném stavu se prodá rychle. Klíč je správná fotka a realistická cena." },
+      { "@type": "HowToStep", "name": "Darovat – kde a jak", "text": "Darovat – kde a jak" },
+      { "@type": "HowToStep", "name": "Sběrný dvůr – zdarma a ihned", "text": "Každá obec provozuje sběrný dvůr kde lze zdarma odevzdat starý nábytek. Je to nejrychlejší a nejlevnější způsob jak se zbavit nábytku který nikdo nechce." },
+      { "@type": "HowToStep", "name": "Odvozová firma – pohodlné ale placené", "text": "Pokud nemáš auto, nemůžeš rozložit nábytek nebo prostě nechceš ztrácet čas, zavolej odvozovou firmu. Za 500–3 000 Kč přijdou, odnesou a odvezou." }
+    ]
   }]
 };
 

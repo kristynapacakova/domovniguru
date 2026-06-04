@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč jsou moje jahody malé a bez chuti?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: nedostatek slunce (min. 6 hodin denně), přehnojení dusíkem (velké listy, malé plody), příliš husté sázení, stará přestárlá rostlina (po 4+ letech), nedostatek vody v době zrání, nebo sklizení příliš brzy. Jahody musí být plně červené a snadno se odtrhávat." } },
       { "@type": "Question", "name": "Jaké odrůdy jahod doporučuješ pro začátečníky?", "acceptedAnswer": { "@type": "Answer", "text": "Pro začátečníky: Senga Sengana (klasická česká odrůda, velmi odolná), Honeoye (raná, velké plody), Elsanta (výborná chuť). Pro balkon: přeběžné odrůdy (plodí celé léto) — Elan, Albion, Seascape. Přeběžné odrůdy mají menší plody ale déle plodí." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#howto",
+    "name": "Jak pěstovat jahody – výsadba, péče a sklizeň 2026",
+    "description": "Jak pěstovat jahody na záhoně, v truhlíku nebo vyvýšeném záhonu. Kdy sázet, jak hnojit, jak se zbavit slimáků a kdy sklízet. Průvodce pro začátečníky.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde jahody pěstovat", "text": "Kde jahody pěstovat" },
+      { "@type": "HowToStep", "name": "Výsadba krok za krokem", "text": "Výsadba krok za krokem" },
+      { "@type": "HowToStep", "name": "Péče – zálivka, hnojení, mulčování", "text": "Péče – zálivka, hnojení, mulčování" },
+      { "@type": "HowToStep", "name": "Škůdci a nemoci", "text": "Škůdci a nemoci" }
+    ]
   }]
 };
 

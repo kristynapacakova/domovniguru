@@ -19,6 +19,17 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Fungují chytrá zařízení bez internetu?", "acceptedAnswer": { "@type": "Answer", "text": "WiFi zařízení bez internetu nefungují – potřebují cloudové servery výrobce. Výjimkou jsou zařízení s lokálním řízením (Home Assistant, některé Zigbee produkty), která fungují i při výpadku internetu." } },
       { "@type": "Question", "name": "Co je Matter a proč se o něm mluví?", "acceptedAnswer": { "@type": "Answer", "text": "Matter je nový universální standard pro chytrá zařízení, který zajišťuje kompatibilitu mezi různými ekosystémy (Apple, Google, Amazon, Samsung). Nová zařízení s Matter certifikací fungují s kteroukoli platformou – nemusíš si vybírat jeden ekosystém." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#howto",
+    "name": "Jak funguje chytrá domácnost – začínáme",
+    "description": "Chytré zásuvky, žárovky a reproduktory bez vrtání a elektrikáře. Jak začít s chytrou domácností za pár stovek.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak chytrá domácnost funguje", "text": "Chytrá domácnost je systém zařízení která se připojují k domácí WiFi nebo jinému bezdrátovému protokolu a lze je ovládat přes telefon, hlasem nebo automatickými pravidly." },
+      { "@type": "HowToStep", "name": "Kde začít – nejjednodušší kroky", "text": "Vyšroubuj starou žárovku, zašroubuj chytrou LED — hotovo. Ovládáš jas, barvu světla a nastavíš časovače přes aplikaci. Cena od 200–500 Kč za žárovku." },
+      { "@type": "HowToStep", "name": "Zigbee, Z-Wave nebo WiFi?", "text": "Zigbee, Z-Wave nebo WiFi?" },
+      { "@type": "HowToStep", "name": "Potřebuji hub?", "text": "Pro začátek ne. WiFi zařízení fungují přímo přes tvoji domácí síť. Hub (centrální řídící jednotka) oceníš až když:" }
+    ]
   }]
 };
 

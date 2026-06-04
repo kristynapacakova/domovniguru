@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Kolik stojí kompletní rekonstrukce bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Kompletní rekonstrukce bytu 50–70 m² (bez nábytku) stojí orientačně 500 000–1 200 000 Kč v závislosti na rozsahu, kvalitě materiálů a lokalitě. Praha je zpravidla o 20–40 % dražší než regiony." } },
       { "@type": "Question", "name": "Potřebuji stavební povolení na rekonstrukci bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Běžná rekonstrukce (malování, podlahy, koupelna, kuchyň) nevyžaduje stavební povolení. Povolení nebo ohlášení je potřeba pokud bouráš nosné zdi, měníš dispozici bytu nebo přesouváš rozvody způsobem který ovlivňuje společné části domu. Vždy ověř na stavebním úřadě." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#howto",
+    "name": "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026",
+    "description": "Jak naplánovat rekonstrukci bytu od A do Z. Správné pořadí prací, realistický rozpočet, výběr řemeslníků a časový harmonogram. Bez nepříjemných překvapení.",
+    "step": [
+      { "@type": "HowToStep", "name": "Určení rozsahu rekonstrukce", "text": "Před jakýmkoli počítáním peněz nebo voláním řemeslníků musíš přesně vědět co chceš udělat. Nejasný rozsah je nejčastější příčina překročení rozpočtu." },
+      { "@type": "HowToStep", "name": "Sestavení realistického rozpočtu", "text": "Podhodnocený rozpočet je nejčastější příčina nedokončených rekonstrukcí. Raději plánuj více a buď příjemně překvapený, než naopak." },
+      { "@type": "HowToStep", "name": "Správné pořadí prací", "text": "Pořadí prací není náhodné — špatné pořadí znamená že musíš hotovou práci rozbít nebo překopat." },
+      { "@type": "HowToStep", "name": "Výběr řemeslníků", "text": "Výběr řemeslníků" },
+      { "@type": "HowToStep", "name": "Časový harmonogram", "text": "Časový harmonogram" }
+    ]
   }]
 };
 

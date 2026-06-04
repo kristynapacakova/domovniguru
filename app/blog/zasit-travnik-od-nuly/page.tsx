@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Trávník vs. travní koberec – co je lepší?", "acceptedAnswer": { "@type": "Answer", "text": "Travní koberec (hotový trávník na rolích) je okamžité řešení — po položení máš ihned zeleno. Cena 80–150 Kč/m² jen za materiál + pokládka. Výhodný pro malé plochy nebo kde potřebuješ rychlý výsledek. Setí je 5–10× levnější ale výsledek vidíš za 6–8 týdnů." } },
       { "@type": "Question", "name": "Proč trávník nevyklíčil?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: semeno vyschlo (zálivka jen 1× denně nestačí), semeno zapraveno příliš hluboko (nad 2 cm), teplota půdy pod 8 °C, staré semeno s nízkou klíčivostí. Zkontroluj datum spotřeby na obalu — trávníkové semeno má obvykle klíčivost 2–3 roky." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly#howto",
+    "name": "Jak zasít trávník od nuly – příprava půdy, setí, péče 2026",
+    "description": "Jak zasít nový trávník krok za krokem. Příprava půdy, výběr travní směsi, správné setí a péče po vzejití. Krásný hustý trávník za 6–8 týdnů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kdy zasít – nejlepší termín", "text": "Kdy zasít – nejlepší termín" },
+      { "@type": "HowToStep", "name": "Výběr travní směsi", "text": "Výběr travní směsi" },
+      { "@type": "HowToStep", "name": "Příprava půdy – krok za krokem", "text": "Příprava půdy je nejdůležitější část. Špatná příprava = nerovný, plevelnatý, špatně rostoucí trávník." },
+      { "@type": "HowToStep", "name": "Setí travního semene", "text": "Setí travního semene" },
+      { "@type": "HowToStep", "name": "Péče po vzejití", "text": "Péče po vzejití" }
+    ]
   }]
 };
 

@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Kde najdu transportní šrouby pro pračku?", "acceptedAnswer": { "@type": "Answer", "text": "Transportní šrouby jsou přiloženy v originálním balení pračky — zpravidla v sáčku spolu s návodem. Pokud jsi je ztratil, objednej je u výrobce nebo v autorizovaném servisu pračky (cena 100–300 Kč za sadu). Šrouby jsou specifické pro každý model — bez správného modelu pračky je nepůjde objednat." } },
       { "@type": "Question", "name": "Vyplatí se pořídit stěhování spotřebičů přes stěhování firmu?", "acceptedAnswer": { "@type": "Answer", "text": "Pro přesun přes více pater nebo vzdálenost nad 50 km ano — profesionální stěhovací firma má rudly, ochranné materiály a zkušenosti. Cena za přesun spotřebiče: 500–1 500 Kč za kus. Sám ušetříš peníze ale potřebuješ alespoň 2 silné pomocníky a vhodné vozidlo." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice#howto",
+    "name": "Jak přestěhovat velké spotřebiče – lednička, pračka, myčka 2026",
+    "description": "Bezpečné stěhování ledničky, pračky a myčky. Jak vyprázdnit, odpojit, zabalit a transportovat velké spotřebiče bez poškození – postup krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Lednička a mraznička – nejcitlivější spotřebič", "text": "Lednička je nejnáchylnější na nesprávné stěhování — poškozený kompresor nebo chladicí okruh je neopravitelný a znamená novou ledničku." },
+      { "@type": "HowToStep", "name": "Pračka – transportní šrouby jsou klíčové", "text": "Pračka – transportní šrouby jsou klíčové" },
+      { "@type": "HowToStep", "name": "Myčka nádobí", "text": "Myčka nádobí" },
+      { "@type": "HowToStep", "name": "Sporák, trouba a plynové spotřebiče", "text": "Sporák, trouba a plynové spotřebiče" },
+      { "@type": "HowToStep", "name": "Přeprava a transport – praktické tipy", "text": "Přeprava a transport – praktické tipy" }
+    ]
   }]
 };
 

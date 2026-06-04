@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Kdy začít balit před stěhováním?", "acceptedAnswer": { "@type": "Answer", "text": "Začni 2–3 týdny předem s věcmi které nejméně používáš — dekorace, knihy, sezónní oblečení, věci ze skladu. Týden před stěhováním: obývák, dětský pokoj, ložnice. Den před: kuchyň (nechej jen nezbytnosti). Ráno stěhovacího dne: toaletní věci a lůžkoviny." } },
       { "@type": "Question", "name": "Kde vzít krabice zdarma?", "acceptedAnswer": { "@type": "Answer", "text": "Supermarkety a hobbymarkety — zeptej se ve skladu nebo na pokladně. Nákupní centrum — u větších obchodů. Facebook Marketplace nebo Bazoš — \"dám krabice zdarma\" je časté. Lékárny mají pevné menší krabice vhodné pro křehké věci. Nové krabice kup jen pro nejcitlivější věci." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/spravne-zabalit-veci#howto",
+    "name": "Jak správně zabalit věci při stěhování – bez poškození 2026",
+    "description": "Jak zabalit věci při stěhování aby nic nepoškodit. Křehké věci, oblečení, knihy, elektronika – správný postup, jaké krabice použít a jak je označit.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co potřebuješ na balení", "text": "Co potřebuješ na balení" },
+      { "@type": "HowToStep", "name": "Křehké věci – nádobí a sklo", "text": "Křehké věci – nádobí a sklo" },
+      { "@type": "HowToStep", "name": "Elektronika", "text": "Elektronika" },
+      { "@type": "HowToStep", "name": "Oblečení a textil", "text": "Oblečení a textil" },
+      { "@type": "HowToStep", "name": "Systém popisování krabic", "text": "Systém popisování krabic" }
+    ]
   }]
 };
 

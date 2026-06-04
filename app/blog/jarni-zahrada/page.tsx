@@ -31,6 +31,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Můžu sít rajčata a papriky v dubnu?", "acceptedAnswer": { "@type": "Answer", "text": "Sít na semenáče ano — do sadbovače nebo truhlíku uvnitř. Výsadba ven je možná až po 15. května kdy nehrozí mráz. Rajčata a papriky jsou teplomilné — jeden mraz je zničí. V dubnu je ideální čas sít je dovnitř a pěstovat sadbu." } },
       { "@type": "Question", "name": "Jak dlouho trvá příprava zahrady na jaro?", "acceptedAnswer": { "@type": "Answer", "text": "Průměrná zahrada (200–400 m²) vyžaduje jeden celý víkend — sobota prořez a záhony, neděle trávník a terasa. Větší zahrada nebo po zanedbání může trvat 2–3 víkendy. Pravidelná péče každý rok zkracuje čas potřebný na jarní přípravu." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#howto",
+    "name": "Jak připravit zahradu na jaro – co udělat v dubnu 2026",
+    "description": "Kompletní jarní checklist pro zahradu. Co prořezat, přihnojit, zasít a zkontrolovat v březnu a dubnu. Zahrada připravená na sezónu za jeden víkend.",
+    "step": [
+      { "@type": "HowToStep", "name": "Trávník – jarní obnova po zimě", "text": "Trávník je po zimě oslabený — mráz, sníh a nedostatek světla ho vyčerpaly. Jarní péče v dubnu nastartuje hustý zelený koberec na celé léto." },
+      { "@type": "HowToStep", "name": "Záhony a zahradní půda", "text": "Záhony a zahradní půda" },
+      { "@type": "HowToStep", "name": "Prořez keřů a stromů", "text": "Jaro je ideální čas na prořez většiny keřů a ovocných stromů — před plným rašením nebo těsně při rašení. Po rašení prořez stresuje rostliny." },
+      { "@type": "HowToStep", "name": "Výsev a výsadba – co kdy sít", "text": "Výsev a výsadba – co kdy sít" },
+      { "@type": "HowToStep", "name": "Terasa a zahradní nábytek", "text": "Terasa a zahradní nábytek" },
+      { "@type": "HowToStep", "name": "Kompletní jarní checklist", "text": "Kompletní jarní checklist" }
+    ]
   }]
 };
 

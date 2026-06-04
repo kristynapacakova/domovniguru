@@ -22,7 +22,19 @@ const jsonLd = {
         { "@type": "Question", "name": "Co dělat, když jistič okamžitě vypadne po zapnutí?", "acceptedAnswer": { "@type": "Answer", "text": "Odpoj všechny spotřebiče z daného okruhu a zkus zapnout jistič. Pokud drží, problém je v jednom ze spotřebičů – zapojuj je po jednom. Pokud jistič vypadne i bez spotřebičů, je problém v samotné instalaci – volej elektrikáře." } },
         { "@type": "Question", "name": "Je nebezpečné, že jistič občas vypadává?", "acceptedAnswer": { "@type": "Answer", "text": "Samotné vypadnutí není nebezpečné – jistič funguje přesně jak má. Nebezpečné je ignorovat příčinu. Opakované vypadávání signalizuje přetížení, zkrat nebo vadný spotřebič, které mohou způsobit požár, pokud je nevyřešíš." } },
       ],
-    },
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#howto",
+    "name": "Proč mi vypadává jistič?",
+    "description": "Jistič vypadává opakovaně? Zjisti proč – přetížení okruhu, zkrat nebo vadný spotřebič. Postup diagnostiky krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak zjistit příčinu", "text": "Postup diagnostiky je jednoduchý — jde o systematické vyloučení příčin:" },
+      { "@type": "HowToStep", "name": "Přetížení okruhu", "text": "Každý okruh má maximální povolenou zátěž danou hodnotou jističe. Standardní bytový okruh na zásuvky má jistič 16 A = max. ~3500 W současně." },
+      { "@type": "HowToStep", "name": "Zkrat", "text": "Zkrat nastane když se fázový vodič dotkne nulového nebo ochranného vodiče — průchod obrovského proudu okamžitě vyhodí jistič. Příčiny:" },
+      { "@type": "HowToStep", "name": "Vadný spotřebič", "text": "Vadný spotřebič způsobuje zkrat nebo přetížení uvnitř sebe. Identifikace je jednoduchá:" },
+      { "@type": "HowToStep", "name": "Vadný jistič", "text": "Jističe mají životnost 10 000–20 000 sepnutí a mohou po letech provozu začít vypadávat i při normální zátěži. Poznáš to tak že jistič vypadá i při minimální zátěži nebo bez zjevné příčiny." }
+    ]
+  }
   ],
 };
 

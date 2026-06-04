@@ -31,6 +31,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Funguje ocet na plevel?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale jen na dlažbě a chodnících. Ocet (alespoň 10 %) ničí nadzemní části rostlin. Na trávník a záhony ho nepoužívej — není selektivní, zabije i žádoucí rostliny a okyselí půdu. Aplikuj přesně ve slunný den přímým postřikem na plevel." } },
       { "@type": "Question", "name": "Jak se natrvalo zbavit plevele?", "acceptedAnswer": { "@type": "Answer", "text": "Trvalé řešení kombinuje mechanické odstranění (celý kořen) + prevenci: mulčování záhonů, fugování dlažebních spár polymersandem a hustý zdravý trávník. Klíč je odstraňovat plevel před dozráním semen — jinak rozséváš tisíce nových semen po zahradě." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#howto",
+    "name": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)",
+    "description": "Mechanické vytrhávání, vroucí voda, ocet a plamen. Kompletní průvodce likvidací plevele bez herbicidů – bezpečně pro lidi, zvířata i půdu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Přírodní metody likvidace plevele – srovnání", "text": "Každá metoda má svůj kontext — co funguje skvěle na dlažbě, může zničit trávník. Tabulka ti pomůže vybrat správnou metodu pro správný povrch." },
+      { "@type": "HowToStep", "name": "Plevel v trávníku vs. na dlažbě – rozdílné přístupy", "text": "Největší chyba kterou zahradníci dělají je aplikovat stejnou metodu na všechny povrchy. Vroucí voda nebo ocet na dlažbě funguje skvěle — ale na trávníku zničí trávu i s plevelem." },
+      { "@type": "HowToStep", "name": "Domácí recepty na přírodní postřiky – bezpečné poměry", "text": "Přírodní postřiky jsou levné a snadno dostupné. Ale pozor — ocet a sůl mohou při nadměrném použití okyselit nebo zasolit půdu. Používej je cíleně, s rozumem a jen na nechtěné plochy." },
+      { "@type": "HowToStep", "name": "Prevence – jak plevel zastavit dřív než začne", "text": "Nejlepší boj s plevelem je ten, ke kterému nedojde. Preventivní opatření jsou méně práce než opakovaná likvidace." }
+    ]
   }]
 };
 

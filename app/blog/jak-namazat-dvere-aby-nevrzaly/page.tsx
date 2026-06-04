@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Vrzají mi nové dveře — proč?", "acceptedAnswer": { "@type": "Answer", "text": "Nové dveře mohou vrzat pokud jsou závěsy suchem nebo pokud nejsou správně seřízené (dveře se lehce třou o zárubeň). Moderní závěsy bývají nastavitelné (výška, hloubka, stranový posuv) — seřídit malým šroubem. Pokud nastavení nepomáhá, reklamuj montáž." } },
       { "@type": "Question", "name": "Jak namazat dveře bez sundávání závěsů?", "acceptedAnswer": { "@type": "Answer", "text": "Jednoduše — nanese mazivo přímo přes otevřené dveře na viditelný čep závěsu (trubičkový aplikátor WD-40 nebo silikonového spreje). Dveře otevři do 90° pro přístup k čepu. Nemusíš závěsy sundávat — mazivo pronikne kapilárně do mezery mezi čepem a objímkou pohybem dveří." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#howto",
+    "name": "Jak namazat dveře aby nevrzaly – čím a jak na to 2026",
+    "description": "Jak odstranit vrzání dveří rychle a natrvalo. Čím namazat závěsy a pantové dveře, co způsobuje vrzání a kdy je čas na výměnu závěsů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co způsobuje vrzání dveří", "text": "Co způsobuje vrzání dveří" },
+      { "@type": "HowToStep", "name": "Čím namazat závěsy – přehled maziv", "text": "Čím namazat závěsy – přehled maziv" },
+      { "@type": "HowToStep", "name": "Postup mazání krok za krokem", "text": "Postup mazání krok za krokem" }
+    ]
   }]
 };
 

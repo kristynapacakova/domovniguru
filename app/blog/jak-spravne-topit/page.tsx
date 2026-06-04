@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč je v bytě sucho při topení a jak to řešit?", "acceptedAnswer": { "@type": "Answer", "text": "Topení vysušuje vzduch — ohřátý vzduch má relativně nižší vlhkost. Řešení: zvlhčovač vzduchu (elektrický nebo pasivní nádoba na radiátor), pokojové rostliny, časté větrání (přináší vlhčí venkovní vzduch v mrazivém počasí — ale v oblačném počasí venkovní vzduch může být vlhčí). Ideální vlhkost: 40–60 %. Měř hygrometrem (200–500 Kč)." } },
       { "@type": "Question", "name": "Kdy spustit topení na podzim?", "acceptedAnswer": { "@type": "Answer", "text": "Topnou sezónu spusť když průměrná venkovní teplota klesne pod 13 °C po dobu alespoň 2 dnů — to je standardní definice začátku topné sezóny v ČR. Prakticky: když je v bytě chladněji než 18–20 °C i přes den. Nečekej až bude zima — studené stěny se ohřívají pomalu a musíš topit více." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#howto",
+    "name": "Jak správně topit – teploty, větrání a úspora energie 2026",
+    "description": "Jak správně topit aby bylo teplo, zdravý vzduch a nízké náklady. Optimální teploty v místnostech, jak větrat při topení a nejčastější chyby při vytápění.",
+    "step": [
+      { "@type": "HowToStep", "name": "Optimální teploty v místnostech", "text": "Různé místnosti mají různé nároky na teplotu. Topit celý byt na stejnou teplotu je neekonomické a nepohodlné." },
+      { "@type": "HowToStep", "name": "Jak větrat při topení", "text": "Větrání při topení je nutné — bez výměny vzduchu se hromadí vlhkost, CO₂ a znečišťující látky. Ale špatné větrání zbytečně prodraží topení." },
+      { "@type": "HowToStep", "name": "Správné nastavení radiátorů", "text": "Správné nastavení radiátorů" }
+    ]
   }]
 };
 

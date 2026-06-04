@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu čistit okapy sám nebo potřebuji odborníka?", "acceptedAnswer": { "@type": "Answer", "text": "Přízemní a jednopodlažní domy zvládneš sám se stabilním žebříkem. Domy se dvěma a více patry nebo se strmou střechou jsou nebezpečné pro laika — najmi odbornou firmu. Cena profesionálního čištění: 500–2 000 Kč podle délky okapů a výšky domu. Jednou za 2–3 roky je to rozumná investice." } },
       { "@type": "Question", "name": "Kdy vyměnit okapy místo čistit?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna okapů je nutná pokud: okap je prasklý nebo silně zkorodovaný (netěsní ani po opravě), okap se prohýbá a nejde vrátit do původního spádu, spoje konstantně zatékají i po opravě, nebo okapy jsou starší 25–30 let. Cena výměny okapů na rodinném domě: 15 000–50 000 Kč." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#howto",
+    "name": "Jak vyčistit okapy – postup a prevence ucpání",
+    "description": "Ucpané okapy způsobují zatékání do zdí a škody tisíce korun. Jak vyčistit okapy bezpečně sám, kdy to dělat a jak ucpání předejít jednou provždy.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak čistit okapy – postup", "text": "Jak čistit okapy – postup" },
+      { "@type": "HowToStep", "name": "Čištění okapních svodů", "text": "Ucpaný svod je zákeřnější než ucpaný okap — ucpání je skryté a voda hledá cestu ven přes spoje nebo zatéká ke grundu." },
+      { "@type": "HowToStep", "name": "Co při čištění zkontrolovat", "text": "Co při čištění zkontrolovat" },
+      { "@type": "HowToStep", "name": "Prevence ucpání – jak čistit méně často", "text": "Prevence ucpání – jak čistit méně často" }
+    ]
   }]
 };
 

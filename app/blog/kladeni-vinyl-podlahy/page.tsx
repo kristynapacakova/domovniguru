@@ -31,6 +31,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak opravit poškozené desky vinylu?", "acceptedAnswer": { "@type": "Answer", "text": "Click vinyl lze opravit výměnou poškozené desky — rozklíkovat od stěny až k poškozené desce, vyměnit a zase zakliknout. Je to pracné ale možné. Proto doporučujeme koupit 5–10 % navíc a uschovat jako zásobu pro případné opravy." } },
       { "@type": "Question", "name": "Lze pokládat vinyl na podlahové topení?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — vinyl je pro podlahové topení vhodný, ale zkontroluj certifikaci výrobce. Maximální teplota povrchu podlahy nesmí překročit 27–29 °C (závisí na výrobci). SPC vinyl je pro podlahové topení vhodnější než měkčí LVT — méně se deformuje při teplotních změnách." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy#howto",
+    "name": "Jak pokládat vinylovou podlahu – krok za krokem 2026",
+    "description": "Pokládka vinylové podlahy za víkend svépomocí. Příprava podkladu, výběr správného vinylu, kladení desek a lišty. Postup pro začátečníky bez speciálního nářadí.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy vinylových podlah", "text": "Vinyl není jen jeden materiál — existuje několik typů které se liší způsobem pokládky, trvanlivostí a cenou." },
+      { "@type": "HowToStep", "name": "Jak vybrat správný vinyl", "text": "Jak vybrat správný vinyl" },
+      { "@type": "HowToStep", "name": "Příprava podkladu – klíčový krok", "text": "Vinyl překryje starou podlahu ale neodpustí velké nerovnosti. Maximální povolená nerovnost podkladu je 3 mm na 2 m latě." },
+      { "@type": "HowToStep", "name": "Aklimatizace – proč je důležitá", "text": "Vinyl je citlivý na teplotu — při pokládce za studena se po zahřátí místnosti roztáhne a podlaha se vyduje. Aklimatizace toto zabrání." },
+      { "@type": "HowToStep", "name": "Pokládka vinylové podlahy krok za krokem", "text": "Pokládka vinylové podlahy krok za krokem" },
+      { "@type": "HowToStep", "name": "Lišty a dokončení", "text": "Lišty a dokončení" }
+    ]
   }]
 };
 

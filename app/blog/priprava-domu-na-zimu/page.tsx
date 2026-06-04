@@ -31,6 +31,19 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak zazimovat dům pokud budu pryč celou zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud dům bude prázdný: uzavři hlavní přívod vody a vyfoukni celý vodovod, nastav topení na protimrazový režim (min. 5–7 °C), požádej souseda nebo správce o pravidelnou kontrolu, vypni spotřebiče v zásuvkách. Nevypínej topení úplně — náklady na vysoušení domu po promrznutí jsou obrovské." } },
       { "@type": "Question", "name": "Kolik stojí příprava domu na zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Základní příprava bez servisního technika vychází na 500–2 000 Kč (těsnicí pásky, mazivo, posypová sůl, mulč). Se servisem kotle přidej 1 500–3 000 Kč. Celkem tedy 2 000–5 000 Kč — zlomek toho co stojí havarijní oprava v zimě." } },
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#howto",
+    "name": "Příprava domu na zimu – kompletní checklist 2026",
+    "description": "Kotel, okna, okapy, voda, zahrada – kompletní checklist přípravy domu na zimu. Co zkontrolovat v říjnu a listopadu aby zima nezaskočila.",
+    "step": [
+      { "@type": "HowToStep", "name": "Topení a kotel – priorita číslo jedna", "text": "Výpadek topení v zimě je nejhorší scénář — a zároveň nejpředvídatelnější. Kotel který celé léto stál potřebuje pozornost před první zimní zátěží." },
+      { "@type": "HowToStep", "name": "Okna a dveře – těsnění a kování", "text": "Netěsná okna způsobují průvan, tepelné ztráty a kondenzaci. Přezimová příprava oken trvá hodinu a ušetří stovky na vytápění." },
+      { "@type": "HowToStep", "name": "Vodovod a trubky – prevence prasknutí", "text": "Prasknutá trubka od mrazu je jedna z nejdražších zimních havárií. Preventivní opatření trvají hodinu." },
+      { "@type": "HowToStep", "name": "Okapy a střecha – čištění a kontrola", "text": "Ucpané okapy způsobují přetékání vody ke základům, tvorbu ledu a poškození fasády. Čistit na podzim po opadu listí — říjen/listopad." },
+      { "@type": "HowToStep", "name": "Zahrada a terasa – zazimování", "text": "Jaro je příjemnější pokud jsi na podzim udělal správnou přípravu. Zahradní práce v říjnu jsou investicí do jara." },
+      { "@type": "HowToStep", "name": "Ostatní – elektřina, nouzová výbava a sníh", "text": "Ostatní – elektřina, nouzová výbava a sníh" }
+    ]
   }]
 };
 

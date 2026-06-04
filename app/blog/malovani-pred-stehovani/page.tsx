@@ -21,6 +21,19 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Musím v prázdném bytě dávat penetraci?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na stavu stěn. Pokud byt nebyl malován roky, jsou na stěnách skvrny nebo byl odstraněn starý nátěr, penetrace je nutná. Na normálně malované zdi v dobrém stavu ji lze přeskočit." } },
       { "@type": "Question", "name": "Kolik barvy potřebuji na průměrný dvoupokojový byt?", "acceptedAnswer": { "@type": "Answer", "text": "Orientačně 15–20 litrů na dvě vrstvy (záleží na výšce stropu a počtu oken). Pro přesný výpočet zadej rozměry každé místnosti do kalkulačky barvy – dostaneš litry pro každou místnost zvlášť." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#howto",
+    "name": "Jak vymalovat byt před stěhováním – průvodce a načasování",
+    "description": "Malovat před nebo po stěhování? Jak vymalovat prázdný byt efektivně, v jakém pořadí a co neopomenout. Průvodce krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Malovat před nebo po stěhování?", "text": "Odpověď je jasná: vždy malovat před stěhováním do prázdného bytu, pokud to situace umožňuje. Důvody:" },
+      { "@type": "HowToStep", "name": "Načasování – kdy přesně malovat", "text": "Ideální scénář: dostaneš klíče od prázdného bytu, máš 3–5 dní před nastěhováním a v tu dobu vymaluješ. Barva stihne vyschnout a zafixovat se (doporučuje se 48–72 hodin před nastěhováním nábytku)." },
+      { "@type": "HowToStep", "name": "Příprava prázdného bytu", "text": "I v prázdném bytě zakryj podlahy fólií nebo starými novinami – kapky barvy jsou nevyhnutelné a z dlažby nebo dřevěné podlahy se špatně odstraňují." },
+      { "@type": "HowToStep", "name": "Pořadí místností a ploch", "text": "Začni od místností, které budeš potřebovat první: ložnice (kde budeš spát první noc), pak obývák, kuchyň, koupelna. Chodbu maluj nakonec – průchozí prostor se rychle zašpiní." },
+      { "@type": "HowToStep", "name": "Technika malování prázdného bytu", "text": "Bez nábytku se pohybuješ volně. Využij to – táhni válečkem delší tahy, nepřerušované od stropu k podlaze. Kratší tahy způsobují viditelné spoje. V prázdném bytě nejsi limitovaný nábytkem a stačí ti méně přesahů." },
+      { "@type": "HowToStep", "name": "Kolik barvy potřebuješ", "text": "Orientační spotřeba pro standardní místnosti (výška stropu 2,6 m, dvě vrstvy):" }
+    ]
   }]
 };
 

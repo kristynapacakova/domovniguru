@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak dlouho vydrží dřevěný plot?", "acceptedAnswer": { "@type": "Answer", "text": "Impregnovaná borovice s pravidelnou údržbou: 15–20 let. Modřín: 20–30 let. Akát: 30–40 let bez impregnace. Klíč je pravidelná impregnace každé 2–3 roky a správné odtékání vody (zaoblené vrcholy prken, sloupky v patce ne přímo v zemi)." } },
       { "@type": "Question", "name": "Kolik stojí dřevěný plot na 20 m?", "acceptedAnswer": { "@type": "Answer", "text": "Impregnovaná borovice, výška 150 cm, 20 m: materiál 5 000–10 000 Kč (sloupky, prkna, latě, šrouby, beton). Impregnace: 500–1 500 Kč. Celkem DIY: 6 000–12 000 Kč. Profesionální stavba přidá 3 000–8 000 Kč za práci. Akát nebo modřín zdraží materiál 2–3×." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva#howto",
+    "name": "Jak postavit dřevěný zahradní plot – postup krok za krokem 2026",
+    "description": "Dřevěný zahradní plot svépomocí – výběr dřeva, kotvení sloupků, montáž prken a ošetření. Průvodce pro každého kdo chce plot postavit sám za víkend.",
+    "step": [
+      { "@type": "HowToStep", "name": "Výběr dřeva a materiálu", "text": "Výběr dřeva a materiálu" },
+      { "@type": "HowToStep", "name": "Nářadí a příprava", "text": "Nářadí a příprava" },
+      { "@type": "HowToStep", "name": "Kotvení sloupků – nejdůležitější krok", "text": "Sloupky jsou základem celého plotu. Špatně zabetonovaný nebo mělce zakopaný sloupek způsobí, že plot brzy povolí nebo se nakloní." },
+      { "@type": "HowToStep", "name": "Montáž prken a latí", "text": "Montáž prken a latí" },
+      { "@type": "HowToStep", "name": "Impregnace a údržba", "text": "Impregnace a údržba" }
+    ]
   }]
 };
 

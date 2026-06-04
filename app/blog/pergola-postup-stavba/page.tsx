@@ -31,6 +31,20 @@ const jsonLd = {
       { "@type": "Question", "name": "Jaké dřevo je nejlepší na pergolu?", "acceptedAnswer": { "@type": "Answer", "text": "Nejodolnější je akát (bez nutnosti impregnace, vydrží 30+ let) a modřín (přirozená odolnost, krásná kresba). Levnější alternativa je impregnovaná borovice (zelená nebo hnědá impregnace) — vydrží 15–20 let s pravidelnou údržbou. Smrk bez impregnace pro venkovní použití není vhodný." } },
       { "@type": "Question", "name": "Mohu postavit pergolu u zdi domu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — pergola přistavená ke zdi domu (\"lean-to\" design) potřebuje jen 2 volné sloupy místo 4. Ke zdi domu se připevní tzv. ledger board (vodorovná deska) do které se zapustí příčné nosníky. Pozor na odvodnění — voda nesmí stékat do zdi domu." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pergola-postup-stavba#howto",
+    "name": "Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026",
+    "description": "Stavba pergoly krok za krokem – od výběru materiálu a kotvení sloupů po střešní latě a impregnaci. Dřevěná nebo hliníková pergola za víkend.",
+    "step": [
+      { "@type": "HowToStep", "name": "Dřevo vs. hliník – co vybrat", "text": "Dřevo vs. hliník – co vybrat" },
+      { "@type": "HowToStep", "name": "Plánování a povolení", "text": "Pergola do určité velikosti nevyžaduje stavební povolení — ale pravidla se liší podle obce a blízkosti hranic pozemku." },
+      { "@type": "HowToStep", "name": "Materiál a rozměry – co nakoupit", "text": "Pro standardní pergolu 4×3 m (12 m²) s dřevěnou konstrukcí potřebuješ:" },
+      { "@type": "HowToStep", "name": "Kotvení sloupů – nejdůležitější krok", "text": "Špatně kotvené sloupy jsou nejčastější příčina nestability pergoly. Existují dva způsoby kotvení." },
+      { "@type": "HowToStep", "name": "Stavba dřevěné pergoly krok za krokem", "text": "Stavba dřevěné pergoly krok za krokem" },
+      { "@type": "HowToStep", "name": "Střecha pergoly – varianty", "text": "Střecha pergoly – varianty" },
+      { "@type": "HowToStep", "name": "Údržba dřevěné pergoly", "text": "Údržba dřevěné pergoly" }
+    ]
   }]
 };
 

@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak poznat jestli elektroměr správně měří?", "acceptedAnswer": { "@type": "Answer", "text": "Zapoj do zásuvky spotřebič se známým příkonem (žárovka 60 W = 0,06 kW). Sleduj elektroměr po hodinu — měl by přibýt 0,06 kWh. Kontrolní měřidlo (chytrá zásuvka s měřením spotřeby) ti dá přesnější výsledek. Podezření na chybné měření nahlásíš distributorovi — mají povinnost elektroměr přezkoumat." } },
       { "@type": "Question", "name": "Mohu si elektroměr vyměnit za chytrý?", "acceptedAnswer": { "@type": "Answer", "text": "Elektroměr je majetek distributora (ČEZ Distribuce, EG.D, PREdistribuce) a výměnu provádí oni. Chytré elektroměry (AMM) jsou postupně instalovány plošně — dle plánu by všichni odběratelé měli mít chytrý elektroměr do roku 2030. O instalaci můžeš požádat svého distributora." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-cist-elektromer#howto",
+    "name": "Jak číst elektroměr – jednofázový i třífázový 2026",
+    "description": "Jak správně odečíst stav elektroměru a nahlásit ho dodavateli. Jednofázový i třífázový elektroměr, tarify NT/VT a jak zkontrolovat správnost vyúčtování.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jednofázový elektroměr", "text": "Jednofázový elektroměr je nejběžnější v bytech. Má jeden nebo dva displeje (pro jednosazbový nebo dvousazbový tarif)." },
+      { "@type": "HowToStep", "name": "Třífázový elektroměr", "text": "Třífázový elektroměr najdeš v domech, při vyšší spotřebě nebo u fotovoltaiky. Měří tři fáze elektřiny zvlášť nebo dohromady." },
+      { "@type": "HowToStep", "name": "Tariffy NT a VT – jak fungují", "text": "Tariffy NT a VT – jak fungují" },
+      { "@type": "HowToStep", "name": "Jak nahlásit odečet elektroměru", "text": "Jak nahlásit odečet elektroměru" },
+      { "@type": "HowToStep", "name": "Jak zkontrolovat správnost vyúčtování", "text": "Jak zkontrolovat správnost vyúčtování" }
+    ]
   }]
 };
 

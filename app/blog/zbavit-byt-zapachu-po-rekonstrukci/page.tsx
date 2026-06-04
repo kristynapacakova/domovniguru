@@ -30,6 +30,15 @@ const jsonLd = {
       { "@type": "Question", "name": "Je zápach po rekonstrukci zdraví nebezpečný?", "acceptedAnswer": { "@type": "Answer", "text": "Krátkodobá expozice VOC z běžných stavebních materiálů způsobuje bolest hlavy, nevolnost a podráždění sliznic. Není to akutně nebezpečné pro zdravé dospělé při krátkém pobytu. Problematické je spání v místnosti s intenzivním zápachem — zejména pro děti, těhotné nebo osoby s dýchacími potížemi. Dodržuj doporučené doby větrání od výrobce materiálu." } },
       { "@type": "Question", "name": "Proč zápach přetrvává i po týdnech větrání?", "acceptedAnswer": { "@type": "Answer", "text": "Možné příčiny: olejová barva nebo lak s vysokým obsahem VOC (dlouhá doba odpaření), špatné větrání (větrání jen jedním oknem bez průvanu), nízká teplota v bytě (chlad zpomaluje odpařování). Řešení: kombinace průvanu + tepla + aktivního uhlí. Pokud zápach přetrvává déle než 4 týdny u akrylátových barev, může jít o problém s podkladem nebo vlhkostí." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-byt-zapachu-po-rekonstrukci#howto",
+    "name": "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo 2026",
+    "description": "Jak odstranit zápach barvy, lepidla, tmelu a laku po rekonstrukci bytu. Efektivní větrání, neutralizátory pachů a jak dlouho zápach vydrží.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak správně větrat po rekonstrukci", "text": "Jak správně větrat po rekonstrukci" },
+      { "@type": "HowToStep", "name": "Neutralizátory a absorbéry zápachu", "text": "Neutralizátory a absorbéry zápachu" }
+    ]
   }]
 };
 

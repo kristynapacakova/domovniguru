@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Kolik stojí osvětlení kuchyňské linky?", "acceptedAnswer": { "@type": "Answer", "text": "Základní LED páska bez profilu: 300–500 Kč za 3 m + driver 150–300 Kč = celkem 450–800 Kč. S hliníkovým profilem: 800–1 500 Kč. Bateriové bodovky (sada 6 ks): 300–600 Kč. Profesionální instalace s vestavnými bodovkami a skrytou elektrikou: 2 000–5 000 Kč." } },
       { "@type": "Question", "name": "Jak dlouho vydrží LED páska?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní LED pásky mají životnost 30 000–50 000 hodin. Při 4 hodinách denního provozu to je 20–34 let. Kratší životnost způsobuje přehřívání (poddimenzovaný driver, špatné větrání) nebo vlhkost (nízké IP krytí v kuchyni)." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku#howto",
+    "name": "Jak osvětlit kuchyňskou linku – LED pásky a bodovky 2026",
+    "description": "Podsvícení kuchyňské linky LED páskem nebo bodovkami pod skříňky. Jak vybrat, jak připevnit a jak zapojit – bez elektrikáře za odpoledne.",
+    "step": [
+      { "@type": "HowToStep", "name": "LED pásky vs. bodovky – srovnání", "text": "Pro osvětlení kuchyňské linky máš dvě hlavní možnosti. Obě fungují, ale dávají různý výsledek." },
+      { "@type": "HowToStep", "name": "LED pásky – jak vybrat a namontovat", "text": "LED pásky – jak vybrat a namontovat" },
+      { "@type": "HowToStep", "name": "LED bodovky pod skříňky", "text": "LED bodovky (puck lights) jsou kulaté světelné body které se přišroubují ke spodní ploše skříňky. Dávají bodové světlo — vhodné spíše pro doplňkové osvětlení než jako hlavní pracovní světlo." },
+      { "@type": "HowToStep", "name": "Napájení a zapojení", "text": "LED pásky a bodovky jsou nízkoproudá 12V nebo 24V zařízení — bezpečná pro laickou instalaci. Potřebuješ jen správný napájecí zdroj (driver/transformátor)." },
+      { "@type": "HowToStep", "name": "Teplota světla – jakou zvolit pro kuchyň", "text": "Teplota světla v Kelvinech (K) zásadně ovlivňuje pocit z kuchyně." }
+    ]
   }]
 };
 

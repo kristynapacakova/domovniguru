@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč se barva loupe jen v koupelně nebo kuchyni?", "acceptedAnswer": { "@type": "Answer", "text": "Vlhkost a mastnota — typické problémy koupelny a kuchyně. V koupelně: nedostatečné větrání způsobí kondenzaci páry na stěnách. V kuchyni: mastnota z vaření se usazuje na zdi. Řešení: použít speciální koupelnovou nebo kuchyňskou barvu s vyšší odolností a zlepšit větrání." } },
       { "@type": "Question", "name": "Jak poznat jestli je starý nátěr kompatibilní s novou barvou?", "acceptedAnswer": { "@type": "Answer", "text": "Jednoduchý test: otři zeď isopropylalkoholem (lihem). Pokud se barva rozpustí nebo rozmaže — je to olejová barva. Pokud se nerozpustí — je to akrylát nebo latex. Olejový nátěr přetírat olejovým, akrylát akrátem. Akrylát nad starý olej bez přípravy způsobí loupaní." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#howto",
+    "name": "Proč se barva loupe – příčiny a jak to opravit 2026",
+    "description": "Proč se barva na zdi nebo dřevě loupe, praskáte a odlupuje? Nejčastější příčiny a jak správně opravit odlupující se barvu bez nutnosti přemalovat celou zeď.",
+    "step": [
+      { "@type": "HowToStep", "name": "Nejčastější příčiny loupající se barvy", "text": "Nejčastější příčiny loupající se barvy" },
+      { "@type": "HowToStep", "name": "Vlhkost – nejzákeřnější příčina", "text": "Pokud se barva loupe ve formě bublin nebo se začíná od spodního okraje zdi, je velmi pravděpodobná vlhkost. Přemalování bez odstranění příčiny vlhkosti způsobí totéž za 6–12 měsíců." },
+      { "@type": "HowToStep", "name": "Jak opravit loupající se barvu", "text": "Jak opravit loupající se barvu" },
+      { "@type": "HowToStep", "name": "Jak předejít loupání v budoucnu", "text": "Jak předejít loupání v budoucnu" }
+    ]
   }]
 };
 

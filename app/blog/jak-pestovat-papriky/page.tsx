@@ -30,6 +30,17 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu pěstovat papriky na severním balkoně?", "acceptedAnswer": { "@type": "Answer", "text": "Severní balkon bohužel nestačí — papriky potřebují min. 6 hodin přímého slunce denně. Na severním balkoně budou rostliny živořit a plody budou minimální. Pro stinné místo jsou vhodnější salát, špenát nebo bylinky jako petržel a pažitka." } },
       { "@type": "Question", "name": "Jaký je rozdíl mezi paprikou a chilli?", "acceptedAnswer": { "@type": "Answer", "text": "Obě jsou botanicky Capsicum annuum (nebo jiné druhy Capsicum). Paprika (sladká) obsahuje málo nebo žádný kapsaicin. Chilli obsahuje kapsaicin který způsobuje pálivost. Pěstování je identické — chilli jsou obvykle odolnější a méně náročné než velké sladké papriky." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-papriky#howto",
+    "name": "Jak pěstovat papriky – od výsevu po sklizeň 2026",
+    "description": "Jak pěstovat papriky doma i na záhoně. Kdy vysévat, jak přepěstovat sazenice, správná zálivka a hnojení. Průvodce pro začátečníky i zkušené zahradníky.",
+    "step": [
+      { "@type": "HowToStep", "name": "Výsev a předpěstování", "text": "Papriky mají dlouhou vegetační dobu (90–130 dní) — musí se předpěstovat doma od února aby stihly dozrát v české letní sezóně." },
+      { "@type": "HowToStep", "name": "Výsadba do záhonu nebo truhlíku", "text": "Výsadba do záhonu nebo truhlíku" },
+      { "@type": "HowToStep", "name": "Péče – zálivka, hnojení, opora", "text": "Péče – zálivka, hnojení, opora" },
+      { "@type": "HowToStep", "name": "Sklizeň a přezimování", "text": "Sklizeň a přezimování" }
+    ]
   }]
 };
 

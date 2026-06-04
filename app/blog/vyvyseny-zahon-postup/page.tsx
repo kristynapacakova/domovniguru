@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Musím vyměňovat substrát každý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — substrát vydrží 3–5 let. Každé jaro přidej 5–10 cm čerstvého kompostu navrch a přidej pomalu uvolňující hnojivo. Po 3–5 letech substrát prosej, vyjmi kořeny a doplň čerstvou zeminou. Spodní vrstvy (větve, kompost) průběžně hnijí — záhon se každý rok mírně snižuje, doplňuj substrátem." } },
       { "@type": "Question", "name": "Kolik stojí vybudování vyvýšeného záhonu?", "acceptedAnswer": { "@type": "Answer", "text": "Dřevěný záhon 120×240 cm: prkna 500–1 500 Kč, substrát (400 l) 800–2 000 Kč, kompost (200 l) vlastní nebo 500–1 000 Kč, geotextilie 150–300 Kč. Celkem 2 000–5 000 Kč. Hotový kovový nebo plastový záhon stojí 1 500–8 000 Kč bez substrátu." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#howto",
+    "name": "Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026",
+    "description": "Vyvýšený záhon ze dřeva nebo z betonu za víkend svépomocí. Správné rozměry, výplň substrátu, umístění a první výsev. Postup krok za krokem pro každého.",
+    "step": [
+      { "@type": "HowToStep", "name": "Proč vyvýšený záhon?", "text": "Proč vyvýšený záhon?" },
+      { "@type": "HowToStep", "name": "Správné rozměry vyvýšeného záhonu", "text": "Správné rozměry vyvýšeného záhonu" },
+      { "@type": "HowToStep", "name": "Dřevěný záhon – stavba krok za krokem", "text": "Dřevěný záhon – stavba krok za krokem" },
+      { "@type": "HowToStep", "name": "Výplň a substrát – klíč k úspěchu", "text": "Vrstvy záhonu plníš odspodu. Spodní vrstvy postupně hnijí a uvolňují teplo a živiny." },
+      { "@type": "HowToStep", "name": "Co pěstovat ve vyvýšeném záhonu", "text": "Vyvýšený záhon je ideální pro téměř veškerou zeleninu. Nejlépe se hodí:" }
+    ]
   }]
 };
 

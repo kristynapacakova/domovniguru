@@ -21,6 +21,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Lze postavit záhon na terase nebo balkoně?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale musíš počítat s nosností. Naplněný záhon 120 × 240 cm váží 400–600 kg. Standardní terasa unese 150–300 kg/m², takže rozmístění je klíčové. Na balkoně doporučujeme menší záhony (60 × 120 cm) s lehčím substrátem na bázi perlitu a kokosvlákna. Vždy zkontroluj nosnost balkonu u statika." } },
       { "@type": "Question", "name": "Kdy mohu začít sázet do nového záhonu?", "acceptedAnswer": { "@type": "Answer", "text": "Hned po naplnění a důkladném zalití – stačí počkat 2–3 dny na usazení vrstev a doplnit substrát. Nový záhon má výbornou strukturu a množství živin pro první sezónu. V dalších sezónách je třeba substrát doplňovat. Ideální čas pro výsadbu je jaro (duben–květen) nebo podzim pro cibuloviny a přezimující zeleninu." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vyvysene-zahony#howto",
+    "name": "Vyvýšené záhony – průvodce od stavby po sklizeň",
+    "description": "Jak postavit vyvýšený záhon, jaký materiál vybrat, jak správně vrstvit substráty a co sázet. Praktický průvodce pro začátečníky i zkušené zahradníky.",
+    "step": [
+      { "@type": "HowToStep", "name": "Výběr materiálu – co se vyplatí", "text": "Materiál záhonu ovlivňuje životnost, cenu, izolaci půdy a celkový vzhled zahrady. Každá volba má své kompromisy." },
+      { "@type": "HowToStep", "name": "Jak záhon postavit krok za krokem", "text": "Stavba záhonu zabere odpoledne. Nepotřebuješ žádné speciální nářadí ani zkušenosti se stavebnictvím." },
+      { "@type": "HowToStep", "name": "Zlaté pravidlo vrstvení – 4 vrstvy odspodu nahoru", "text": "Správné vrstvení je tajemství úspěšného záhonu. Spodní vrstvy zajišťují drenáž, odvětrání a postupné uvolňování živin. Horní vrstva je pěstební médium pro kořeny." },
+      { "@type": "HowToStep", "name": "Co sázet – kombinace rostlin které se podporují", "text": "Ve vyvýšeném záhonu je hustší výsadba než v klasickém záhonu. Klíč je kombinovat rostliny které si vzájemně pomáhají – odpuzují škůdce, fixují dusík nebo stíní kořeny sousedů." },
+      { "@type": "HowToStep", "name": "Péče během sezóny", "text": "Vyvýšený záhon je nenáročný, ale má jedno specifikum: rychleji vysychá než záhon v zemi. V horkém létě může být potřeba zalévat každý den." }
+    ]
   }]
 };
 

@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Funguje PIR senzor přes sklo?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — infračervené záření sklo nepropouští. PIR senzor za oknem nedetekuje pohyb venku. Pro venkovní detekci nainstaluj senzor přímo venku s krytím IP65. Mikrovlnný senzor sklem projde — ale je dražší a má více falešných poplachů." } },
       { "@type": "Question", "name": "Kolik ušetří pohybový senzor na elektřině?", "acceptedAnswer": { "@type": "Answer", "text": "Na chodbě kde svítíte průměrně 4 hodiny denně: senzor zkrátí svícení na 30–60 minut denně (jen při průchodu). Úspora: 75–85 % elektrické energie na daném svítidle. Pro LED svítidlo 10 W = úspora ~50 Kč ročně. Senzor se vrátí za 3–8 let — ale hlavní přínos je pohodlí a bezpečnost." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor#howto",
+    "name": "Jak nainstalovat pohybový senzor krok za krokem",
+    "description": "Jak nainstalovat pohybový senzor na světlo nebo alarm. PIR detektor, nastavení citlivosti a dosahu, zapojení – postup pro začátečníky bez elektrikáře.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy pohybových senzorů", "text": "Typy pohybových senzorů" },
+      { "@type": "HowToStep", "name": "Kde umístit pohybový senzor", "text": "Kde umístit pohybový senzor" },
+      { "@type": "HowToStep", "name": "Zapojení PIR senzoru – krok za krokem", "text": "PIR senzor se zapojuje do série mezi napájení a světlo. Senzor má zpravidla tři svorky: L (fáze), N (nula) a OUT nebo LOAD (výstup ke světlu)." },
+      { "@type": "HowToStep", "name": "Nastavení citlivosti a dosahu", "text": "Většina PIR senzorů má tři nastavovací prvky — otočné potenciometry nebo přepínače." },
+      { "@type": "HowToStep", "name": "Řešení problémů", "text": "Řešení problémů" }
+    ]
   }]
 };
 

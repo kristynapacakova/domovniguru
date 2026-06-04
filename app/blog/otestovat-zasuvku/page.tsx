@@ -30,6 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč zásuvka funguje chvíli a pak přestane?", "acceptedAnswer": { "@type": "Answer", "text": "Přerušovaný kontakt v zásuvce — uvolněný svorník nebo oxidovaný kontakt. Přetěžování okruhu — jistič se zahřeje a vybaví (tepelná ochrana). Všechny tyto příčiny vyžadují elektrikáře — přerušovaný kontakt způsobuje jiskření a je požárním rizikem." } },
       { "@type": "Question", "name": "Je nebezpečné používat zásuvku bez zemnění?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — zemnění chrání před úrazem elektrickým proudem při poruše spotřebiče. Bez zemnění se napětí při poruše přenese na kovové části spotřebiče (lednička, pračka, trouba) a dotek způsobí úraz. Starší byty bez zemnění by měly mít alespoň proudový chránič (RCD) jako alternativní ochranu." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#howto",
+    "name": "Jak otestovat zásuvku – fázová tužka a multimetr",
+    "description": "Jak zjistit jestli zásuvka funguje a správně zapojená. Fázová tužka, multimetr nebo zkoušečka zásuvek – co použít, jak postupovat a co výsledky znamenají.",
+    "step": [
+      { "@type": "HowToStep", "name": "Nejdřív zkontroluj toto – bez nářadí", "text": "Než vytáhneš měřicí přístroje, udělej tyto jednoduché kontroly:" },
+      { "@type": "HowToStep", "name": "Fázová tužka – nejjednodušší test", "text": "Fázová tužka je nejbezpečnější a nejjednodušší nástroj. Detekuje přítomnost fáze (L) v zásuvce bez nutnosti přímého kontaktu holých vodičů." },
+      { "@type": "HowToStep", "name": "Zkoušečka zásuvek – komplexní test", "text": "Zkoušečka zásuvek (tester) je malý přístroj který zasuneš přímo do zásuvky. LED indikátory ukážou stav všech tří vodičů — L, N a PE (zemnění)." },
+      { "@type": "HowToStep", "name": "Multimetr – přesné měření napětí", "text": "Multimetr – přesné měření napětí" },
+      { "@type": "HowToStep", "name": "Co výsledky znamenají", "text": "Co výsledky znamenají" }
+    ]
   }]
 };
 

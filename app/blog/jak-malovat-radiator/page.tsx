@@ -31,6 +31,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu radiátor namalovat na jinou barvu než bílou?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, radiátory v antracitové, černé nebo jiné barvě jsou moderní trend. Radiátorové barvy jsou dostupné v mnoha odstínech. Tmavé barvy zároveň mírně zvyšují sálání tepla." } },
       { "@type": "Question", "name": "Jak dlouho vydrží nátěr radiátoru?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní nátěr speciální radiátorovou barvou při správné přípravě povrchu vydrží 5–10 let bez výrazného žloutnutí. Levná barva nebo špatná příprava zkracuje životnost na 1–3 roky." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-radiator#howto",
+    "name": "Jak malovat radiátor – příprava, správná barva a postup 2026",
+    "description": "Žloutoucí nebo odlupující se barva na radiátoru? Správná příprava povrchu, výběr barvy odolné teplotám a postup krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Správná barva na radiátor – co koupit", "text": "Toto je nejdůležitější rozhodnutí. Běžná latexová nebo akrylátová barva na radiátor nepatří. Teplo způsobí že žloutne a loupe se během první topné sezóny." },
+      { "@type": "HowToStep", "name": "Příprava povrchu – klíč k trvanlivosti", "text": "Špatná příprava je příčina 90 % selhání nátěru radiátoru. Věnuj přípravě stejně času jako samotnému malování." },
+      { "@type": "HowToStep", "name": "Postup malování radiátoru", "text": "Radiátor maluj vždy v tomto pořadí — od vnitřku ven, od shora dolů." }
+    ]
   }]
 };
 

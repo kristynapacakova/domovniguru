@@ -30,6 +30,16 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak dlouho nelze chodit po renovovaných parketech?", "acceptedAnswer": { "@type": "Answer", "text": "Po polyuretanovém laku: 24 hodin pro opatrnou chůzi, 3–5 dní před přesunem nábytku, 2 týdny pro plné vytvrzení. Po oleji: 24–48 hodin. Vždy sleduj pokyny výrobce — závisí na teplotě a vlhkosti." } },
       { "@type": "Question", "name": "Mohu renovovat parkety sám nebo potřebuji profesionála?", "acceptedAnswer": { "@type": "Answer", "text": "Renovaci parket zvládne šikovný laik pokud má trpělivost a dodržuje postup. Největší riziko je bubnová bruska — příliš rychlá jízda nebo zastavení způsobí prohlubně. Pro začátečníky doporučujeme orbitální brusku. Profesionál se vyplatí pro velké plochy nebo historické parkety s geometrickým vzorem." } }
     ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#howto",
+    "name": "Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026",
+    "description": "Stará parketová podlaha vypadá jako nová – broušení, tmelení spár, lakování nebo voskování krok za krokem. Kdy renovovat sám a kdy povolat profesionála.",
+    "step": [
+      { "@type": "HowToStep", "name": "Broušení krok za krokem", "text": "Broušení krok za krokem" },
+      { "@type": "HowToStep", "name": "Tmelení spár mezi parketami", "text": "Po hrubém broušení jsou spáry mezi lamelami čisté a připravené na tmelení. Tmelení je volitelný ale doporučený krok pro esteticky čistý výsledek." },
+      { "@type": "HowToStep", "name": "Lak, olej nebo vosk – co vybrat", "text": "Lak, olej nebo vosk – co vybrat" }
+    ]
   }]
 };
 
