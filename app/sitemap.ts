@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+import fs from "fs";
+import path from "path";
 
 const BASE = "https://www.domovniguru.cz";
 
@@ -26,7 +28,7 @@ const BLOG_SLUGS = [
   "barva-se-loupe",
   "tapety-vs-barva",
   "jak-vybrat-barvu-na-zed",
-  
+
   // Elektrika & osvětlení
   "jak-vymenit-zasuvku",
   "jak-vymenit-vypinac",
@@ -49,6 +51,7 @@ const BLOG_SLUGS = [
   "otestovat-zasuvku",
   "jak-cist-elektromer",
   "vymena-zasuvky",
+
   // Zahrada & terasa
   "jarni-zahrada",
   "vyvyseny-zahon-postup",
@@ -78,6 +81,7 @@ const BLOG_SLUGS = [
   "jak-strihat-kere",
   "zahradni-nastroje-pece",
   "ochrana-rostlin-pred-zimou",
+
   // Stěhování & rekonstrukce
   "stehovani-checklist",
   "planovani-rekonstrukce-bytu",
@@ -100,6 +104,7 @@ const BLOG_SLUGS = [
   "prihlasit-trvaly-pobyt",
   "prebrani-bytu-checklist",
   "jak-namazat-dvere-aby-nevrzaly",
+
   // Sezónní údržba
   "priprava-domu-na-zimu",
   "jak-odvzdusnit-radiatory",
@@ -121,31 +126,44 @@ const BLOG_SLUGS = [
   "pece-o-septik-zumpu",
   "odlehcit-strechu-od-snehu",
   "jak-spravne-topit",
+
   // Ostatní
   "tepelne-cerpadlo-pruvodce",
 ];
 
+function getArticleLastModified(slug: string): Date | undefined {
+  try {
+    const filePath = path.join(process.cwd(), "app", "blog", slug, "page.tsx");
+    const content = fs.readFileSync(filePath, "utf-8");
+    const match = content.match(/"dateModified":\s*"([^"]+)"/);
+    return match ? new Date(match[1]) : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogUrls = BLOG_SLUGS.map((slug) => ({
     url: `${BASE}/blog/${slug}`,
+    lastModified: getArticleLastModified(slug),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
   return [
     // Hlavní stránky
-    { url: `${BASE}/`,                changeFrequency: "weekly",  priority: 1.0 },
-    { url: `${BASE}/blog`,            changeFrequency: "daily",   priority: 0.9 },
+    { url: `${BASE}/`,                lastModified: new Date("2026-06-04"), changeFrequency: "weekly",  priority: 1.0 },
+    { url: `${BASE}/blog`,            lastModified: new Date("2026-06-04"), changeFrequency: "daily",   priority: 0.9 },
     { url: `${BASE}/kalkulacky`,      changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/navody`,          changeFrequency: "weekly",  priority: 0.8 },
     { url: `${BASE}/chyby-ostatnich`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/o-webu`,          changeFrequency: "yearly",  priority: 0.3 },
     // Kategorie
-    { url: `${BASE}/blog/kategorie/malovani`,        changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/elektrika`,       changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/zahrada`,         changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/sezonni-udrzba`,  changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/stehovani`,       changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/malovani`,        lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/elektrika`,       lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/zahrada`,         lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/sezonni-udrzba`,  lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/stehovani`,       lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
     // Kalkulačky
     { url: `${BASE}/kalkulacky/kolik-barvy`,     changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-laminatu`,  changeFrequency: "monthly", priority: 0.7 },
