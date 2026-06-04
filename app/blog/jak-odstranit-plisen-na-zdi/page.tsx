@@ -17,7 +17,7 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi#article",
     "headline": "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026",
     "datePublished": "2026-03-01T08:00:00Z",
-    "dateModified": "2026-04-17T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
@@ -31,7 +31,11 @@ const jsonLd = {
     "mainEntity": [
       { "@type": "Question", "name": "Jak se zbavit plísně na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Nasaď respirátor FFP2 a rukavice. Nanes fungicid nebo Savo, nechej působit 20 minut, odstraň kartáčem. Přetři protiplísňovou barvou. Bez odstranění příčiny se plíseň vrátí." } },
       { "@type": "Question", "name": "Pomáhá ocet na plíseň?", "acceptedAnswer": { "@type": "Answer", "text": "Bílý ocet (alespoň 10%) má mírné fungicidní účinky. Na lehkou plíseň může pomoci, na rozvinutou nestačí." } },
-      { "@type": "Question", "name": "Kdy volat odborníka na likvidaci plísně?", "acceptedAnswer": { "@type": "Answer", "text": "Odborníka vol pokud plíseň pokrývá plochu větší než 1 m², je lesklá černá, nebo se vrací i po opakovaném ošetření." } }
+      { "@type": "Question", "name": "Kdy volat odborníka na likvidaci plísně?", "acceptedAnswer": { "@type": "Answer", "text": "Odborníka vol pokud plíseň pokrývá plochu větší než 1 m², je lesklá černá, nebo se vrací i po opakovaném ošetření." } },
+      { "@type": "Question", "name": "Proč se plíseň stále vrací?", "acceptedAnswer": { "@type": "Answer", "text": "Plíseň se vrací proto, že nebyla odstraněna příčina: tepelný most ve stěně, nedostatečné větrání nebo skrytá závada (prasklina, netěsnící okno). Chemie plíseň zabije, ale pokud podmínky zůstanou stejné, spóry z ovzduší znovu vyklíčí. Řešení: identifikuj příčinu vlhkosti a odstraň ji." } },
+      { "@type": "Question", "name": "Jak se zbavit plísně trvale?", "acceptedAnswer": { "@type": "Answer", "text": "Trvalé odstranění plísně vyžaduje tři kroky: (1) chemicky zlikvidovat existující plíseň fungicidem, (2) přetřít protiplísňovou barvou, (3) odstranit příčinu – zlepšit větrání, utěsnit tepelné mosty nebo opravit stavební závadu. Bez třetího kroku se plíseň vždy vrátí." } },
+      { "@type": "Question", "name": "Jak se zbavit plísně v koupelně?", "acceptedAnswer": { "@type": "Answer", "text": "Koupelnová plíseň vzniká z kondenzace páry. Postup: (1) ošetři plíseň Savem nebo fungicidem, (2) přetři koupelnovou protiplísňovou barvou nebo spárovacím tmelem s fungicidem, (3) spusť ventilátor nebo vždy větrání oknem po sprchování – alespoň 15 minut." } },
+      { "@type": "Question", "name": "Jaký je nejlepší přípravek na plíseň na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Na koupelnu a spáry funguje Savo ředěné 1:3 s vodou (levné, rychlé). Na stěny a stropy jsou lepší specializované fungicidy (HG Schimmelspray, Anticor), protože nekorodují omítku a nebagrují barvu. Na prevenci stačí ocet nebo tea tree olej." } }
     ]
   }]
 };
@@ -110,7 +114,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak se zbavit plísně na zdi – likvidace plísně v bytě</h1>
               <p className="article-lead">Plíseň na zdi není jen estetický problém – je to zdravotní riziko. Ukážeme ti jak ji správně odstranit, co ji způsobuje a hlavně jak zajistit, aby se nikdy nevrátila.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 17. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" title="Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026" />
             </header>
 
@@ -182,6 +186,8 @@ export default function ArticlePage() {
                 <li><a href="#roh">Plíseň v rohu a za nábytkem</a></li>
                 <li><a href="#chyby-ostatnich">Poučte se z chyb ostatních</a></li>
                 <li><a href="#prevence">Prevence – jak plíseň zastavit jednou provždy</a></li>
+                <li><a href="#plisen-se-vraci">Plíseň se vrací – co dělat?</a></li>
+                <li><a href="#koupelna">Plíseň v koupelně</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ol>
@@ -312,6 +318,43 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="plisen-se-vraci">
+              <h2>Plíseň se vrací – co to znamená a jak to zastavit trvale</h2>
+              <p>Pokud se plíseň na stejném místě vrací i po vyčištění, je to jasný signál: <strong>neodstranil jsi příčinu, jen symptom</strong>. Chemie plíseň zabije, ale spóry jsou přirozeně přítomny v každém vzduchu — stačí že se podmínky vrátí do stejného stavu a plíseň vyklíčí znovu.</p>
+              <p>Nejčastější příčiny vracející se plísně:</p>
+              <ul>
+                <li><strong>Tepelný most:</strong> Místo ve stěně které se ochlazuje pod rosný bod. Typicky rohy místností, ostění oken nebo stěna přiléhající k nevytápěnému prostoru. Bez zateplení nebo opravy se plíseň bude vracet každou zimu.</li>
+                <li><strong>Skrytá závada:</strong> Prasklina v omítce, netěsnící okno nebo porucha hydroizolace. Vlhkost proniká zvenčí a žádné čištění ji nezastaví.</li>
+                <li><strong>Chronicky špatné větrání:</strong> Pokud se větrání po čištění nezlepší, spóry z ovzduší najdou stejné podmínky a znovu se uchytí.</li>
+                <li><strong>Neúplná likvidace:</strong> Plíseň sahá hlouběji do omítky než je vidět na povrchu. Povrchové ošetření nestačí — někdy je nutné omítku odstranit a znovu nanést.</li>
+              </ul>
+              <div className="article-tip">
+                <strong>💡 Test tepelného mostu:</strong> V zimě přilož ruku ke stěně v místě kde se plíseň vrací. Pokud je stěna výrazně chladnější než okolí, máš tepelný most. Řešení: lokální vnitřní zateplení deskami Perlfix nebo extrudovaným polystyrenem.
+              </div>
+              <p>Jak se trvale zbavit plísně — kontrolní postup:</p>
+              <ol style={{ paddingLeft: "22px", display: "flex", flexDirection: "column", gap: "8px", marginBottom: "16px" }}>
+                <li style={{ fontSize: "15px", lineHeight: "1.6", color: "#2a2a28", fontWeight: 300 }}><strong>Identifikuj příčinu</strong> — vlhkoměr, tepelná kamera, vizuální kontrola těsnění</li>
+                <li style={{ fontSize: "15px", lineHeight: "1.6", color: "#2a2a28", fontWeight: 300 }}><strong>Odstraň příčinu</strong> — zlepši větrání, oprav závadu nebo zatepl tepelný most</li>
+                <li style={{ fontSize: "15px", lineHeight: "1.6", color: "#2a2a28", fontWeight: 300 }}><strong>Chemicky ošetři</strong> — fungicid, nechej působit, mechanicky odstraň</li>
+                <li style={{ fontSize: "15px", lineHeight: "1.6", color: "#2a2a28", fontWeight: 300 }}><strong>Přetři protiplísňovou barvou</strong> — ne obyčejnou malířskou!</li>
+                <li style={{ fontSize: "15px", lineHeight: "1.6", color: "#2a2a28", fontWeight: 300 }}><strong>Sleduj vlhkost 3 měsíce</strong> — vlhkoměr ukáže jestli je problém vyřešen</li>
+              </ol>
+            </section>
+
+            <section id="koupelna">
+              <h2>Plíseň v koupelně – specifický postup</h2>
+              <p>Koupelnová plíseň je nejčastější typ — a zároveň nejsnáze řešitelný. Vzniká výhradně z kondenzace páry při sprchování nebo koupání. Na rozdíl od plísně ve stěnách způsobené tepelným mostem ji lze trvale eliminovat bez stavebních zásahů.</p>
+              <ul>
+                <li><strong>Koupelna s oknem:</strong> Větrání je nejjednodušší. Otevři okno vždy před sprchou a nechej ho otevřené ještě 20 minut po skončení. Vlhkost nemá šanci kondenzovat na stěnách.</li>
+                <li><strong>Koupelna bez okna:</strong> Koupelnový ventilátor (cca 300–800 Kč) je nutnost, ne luxus. Spouštěj ho při každém sprchování a natoč na automatické doběhnutí 15 minut po zhasnutí světla.</li>
+                <li><strong>Plíseň ve spárách:</strong> Spárování je obvyklé první místo výskytu. Použij Savo přímo ve spáře (štěteček nebo stará kartáčová sprcha). Pokud je spárování narušené, vyloupi ho a nanovo — protiplísňový spárovací tmel vydrží roky.</li>
+                <li><strong>Plíseň na silikonu kolem vany nebo sprchy:</strong> Zastaralý silikon nelze vyléčit — musíš ho vyříznout, vyčistit plochu a nanést nový sanitární silikon s fungicidem. Postup najdeš v <Link href="/navody/jak-utesnit-vanu-silikonem" style={{ color: "inherit", fontWeight: 500 }}>návodu jak utěsnit vanu silikonem</Link>.</li>
+              </ul>
+              <div className="article-tip">
+                <strong>💡 Rychlý test:</strong> Po sprše přilož ruku ke spodní části zdi. Pokud kondenzuje kapky vody do 10 minut, větrání nestačí — rozvaž ventilátor nebo odvlhčovač.
+              </div>
+            </section>
+
             <section id="chyby">
               <h2>Nejčastější chyby při odstraňování plísně</h2>
               <ul>
@@ -350,6 +393,26 @@ export default function ArticlePage() {
                   <summary className="faq-summary">Kdy volat odbornou firmu na sanaci plísně?<span className="faq-icon">▾</span></summary>
                   <div className="faq-body">Odborníka vol vždy když: (1) plíseň pokrývá plochu větší než 1 m², (2) plíseň je lesklá černá (možný Stachybotrys), (3) plíseň se vrací i po opakovaném ošetření. Průměrná cena sanace je 3 000–15 000 Kč.</div>
                 </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Proč se plíseň stále vrací?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Plíseň se vrací proto, že nebyla odstraněna příčina — tepelný most, nedostatečné větrání nebo skrytá stavební závada. Chemie ji zabije, ale spóry z ovzduší znovu vyklíčí jakmile se podmínky vrátí. Řešení je identifikovat zdroj vlhkosti a odstranit ho — ne jen opakovat čištění.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Jak se zbavit plísně trvale?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Trvale se plísně zbavíš pouze kombinací tří kroků: (1) chemicky ji zlikvidovat fungicidem, (2) přetřít protiplísňovou barvou, (3) odstranit příčinu — zlepšit větrání, zateplení nebo opravit stavební závadu. Bez třetího kroku je jakékoli čištění dočasné.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Jak se zbavit plísně v koupelně bez okna?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Nainstaluj koupelnový ventilátor (300–800 Kč) a zapínej ho při každém sprchování + 15 minut poté. Stávající plíseň ošetři Savem nebo fungicidem. Poškozené spárování vyměň za protiplísňový spárovací tmel. Bez ventilace se plíseň v uzavřené koupelně vždy vrátí.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Jaký je nejlepší přípravek na plíseň na zdi?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Na koupelnu a spáry: Savo ředěné 1:3 s vodou (levné, rychlé). Na stěny a stropy: specializované fungicidy (HG Schimmelspray, Anticor, Detecha) — nekorodují omítku. Na prevenci: bílý ocet nebo tea tree olej zředěný ve vodě. Nejdůležitější ale není přípravek, ale protiplísňová barva na závěr a odstranění příčiny.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Co je bílá plíseň na zdi?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Bílá bavlnitá plíseň je nejčastěji Trichoderma nebo plíseň plazivá — méně toxická než černá Stachybotrys, ale stále alergizující. Bílá sůl vykvetající ze zdi (výkvět) je ale jiný jev — způsobuje ji vlhkost pronikající zdí a krystalizující síran. Tyto dva jevy se snadno pletou, ale léčba je jiná.</div>
+                </details>
               </div>
             </section>
 
@@ -382,6 +445,8 @@ export default function ArticlePage() {
                 <li><a href="#likvidace-plisne-v-byte">Likvidace plísně v bytě</a></li>
                 <li><a href="#chyby-ostatnich">Chyby ostatních</a></li>
                 <li><a href="#prevence">Prevence</a></li>
+                <li><a href="#plisen-se-vraci">Plíseň se vrací</a></li>
+                <li><a href="#koupelna">Plíseň v koupelně</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ul></nav>
             </div>
