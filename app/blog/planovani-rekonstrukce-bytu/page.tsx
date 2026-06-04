@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak naplánovat rekonstrukci bytu", "pořadí prací rekonstrukce", "rozpočet rekonstrukce bytu", "rekonstrukce bytu postup", "výběr řemeslníků rekonstrukce"]
+    "keywords": ["jak naplánovat rekonstrukci bytu", "pořadí prací rekonstrukce", "rozpočet rekonstrukce bytu", "rekonstrukce bytu postup", "výběr řemeslníků rekonstrukce"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kde začít při plánování rekonstrukce?", "acceptedAnswer": { "@type": "Answer", "text": "Začni průzkumem bytu a seznamem co chceš změnit. Pak zjisti stav rozvodů (elektro, voda) — jejich stav zásadně ovlivňuje cenu. Teprve pak kontaktuj řemeslníky pro první orientační nabídky. Nepodepisuj nic a nikomu neplať předem dokud nemáš celkový přehled o rozsahu a ceně." } },
+      { "@type": "Question", "name": "Kolik stojí kompletní rekonstrukce bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Kompletní rekonstrukce bytu 50–70 m² (bez nábytku) stojí orientačně 500 000–1 200 000 Kč v závislosti na rozsahu, kvalitě materiálů a lokalitě. Praha je zpravidla o 20–40 % dražší než regiony." } },
+      { "@type": "Question", "name": "Potřebuji stavební povolení na rekonstrukci bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Běžná rekonstrukce (malování, podlahy, koupelna, kuchyň) nevyžaduje stavební povolení. Povolení nebo ohlášení je potřeba pokud bouráš nosné zdi, měníš dispozici bytu nebo přesouváš rozvody způsobem který ovlivňuje společné části domu. Vždy ověř na stavebním úřadě." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací</h1>
               <p className="article-lead">Rekonstrukce bez plánu skončí přetažením rozpočtu, špatným pořadím prací a stresem. S dobrým plánem zvládneš i kompletní rekonstrukci bez nepříjemných překvapení. Tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu" title="Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026" />
             </header>
 

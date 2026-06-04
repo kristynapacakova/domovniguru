@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["kolik stojí rekonstrukce koupelny", "cena rekonstrukce koupelny 2026", "rekonstrukce koupelny cena práce", "obklady koupelna cena", "sanitární vybavení cena"]
+    "keywords": ["kolik stojí rekonstrukce koupelny", "cena rekonstrukce koupelny 2026", "rekonstrukce koupelny cena práce", "obklady koupelna cena", "sanitární vybavení cena"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho trvá rekonstrukce koupelny?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní rekonstrukce koupelny 6–8 m² trvá 3–6 týdnů. Závisí na rozsahu prací, dostupnosti řemeslníků a složitosti instalací. Počítej s tím že bude koupelna 3–5 týdnů nedostupná — zajisti si přístup k jiné koupelně." } },
+      { "@type": "Question", "name": "Vyplatí se rekonstrukce koupelny při prodeji bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — nová koupelna zvyšuje hodnotu bytu a urychluje prodej. Ekonomická rekonstrukce (100 000–150 000 Kč) se při prodeji vrátí v ceně o 150 000–250 000 Kč. Prémiová rekonstrukce se nemusí plně vrátit — záleží na lokalitě a trhu." } },
+      { "@type": "Question", "name": "Potřebuji hydroizolaci pod obklady?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — hydroizolace pod obklady je nutná v mokrých zónách (sprchový kout, vana, oblast kolem umyvadla). Bez hydroizolace voda pronikne pod obklady a způsobí vlhkost, plíseň a poškození stropů sousedů. Cena hydroizolace je 200–500 Kč/m² — vyplatí se vždy." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Kolik stojí rekonstrukce koupelny – ceny 2026</h1>
               <p className="article-lead">Rekonstrukce koupelny je jedna z nejdražších investic do bytu — a zároveň jedna z nejvíce se vracejících. Tady jsou realistické ceny pro rok 2026 a kde lze ušetřit bez kompromisů na kvalitě.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny" title="Kolik stojí rekonstrukce koupelny – ceny 2026" />
             </header>
 
