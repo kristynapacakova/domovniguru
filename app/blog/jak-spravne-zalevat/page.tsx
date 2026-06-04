@@ -38,10 +38,10 @@ const jsonLd = {
 };
 
 const RELATED = [
-  { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
-  { title: "Jak hnojit zahradu – organicky i minerálně", href: "/blog/jak-hnojit-zahradu", read: "6 min" },
+  { title: "Jak správně sekat trávník – hustý pažit bez plevele", href: "/blog/jak-sekat-travnik", read: "8 min" },
   { title: "Jak se zbavit plevele bez chemie", href: "/blog/zbavit-se-plevele-bez-chemie", read: "4 min" },
-  { title: "Jak kompostovat doma a na zahradě", href: "/blog/jak-kompostovat", read: "4 min" },
+  { title: "Jak hnojit zahradu – organicky i minerálně", href: "/blog/jak-hnojit-zahradu", read: "6 min" },
+  { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
 ];
 
 export default function ArticlePage() {
@@ -186,7 +186,7 @@ export default function ArticlePage() {
 
             <section id="travnik">
               <h2>Zalévání trávníku</h2>
-              <p>Trávník je nejodolnější část zahrady — zhnědnutý trávník v suchu nevypadá hezky, ale není mrtvý. Ozelená se při prvním dešti. Nepřelévej trávník ze strachu — přelití podporuje povrchové kořenění a plísně.</p>
+              <p>Trávník je nejodolnější část zahrady — zhnědnutý trávník v suchu nevypadá hezky, ale není mrtvý. Ozelená se při prvním dešti. Nepřelévej trávník ze strachu — přelití podporuje povrchové kořenění a plísně. Zdravý trávník potřebuje nejen správnou zálivku, ale i <Link href="/blog/jak-sekat-travnik">správnou techniku sekání</Link> — výška trávy přímo ovlivňuje jak rychle půda vysychá.</p>
               <ul>
                 <li><strong>Jak poznat že trávník potřebuje vodu:</strong> Šlápnutí zanechá otisk — tráva se nevrací. Nebo trávník začíná šednout a stáčet listy.</li>
                 <li><strong>Hloubka zálivky:</strong> Cíl je promočit půdu do hloubky 15–20 cm. Krátký déšť nebo krátká zálivka trávník jen "oblíbí" — voda se nevstřebá ke kořenům.</li>
