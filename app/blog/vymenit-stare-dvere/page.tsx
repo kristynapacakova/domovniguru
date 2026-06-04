@@ -60,7 +60,7 @@ const RELATED = [
   { title: "Jak naplánovat rekonstrukci bytu", href: "/blog/planovani-rekonstrukce-bytu", read: "8 min" },
   { title: "Jak odhadnout cenu rekonstrukce", href: "/blog/odhadnout-cenu-rekonstrukce", read: "6 min" },
   { title: "Jak najít a prověřit řemeslníka", href: "/blog/najit-proveri-remeslnika", read: "5 min" },
-  { title: "Jak malovat zeď", href: "/blog/jak-malovat-zed", read: "5 min" },
+  { title: "Jak namazat dveře aby nevrzaly – čím a jak na to", href: "/blog/jak-namazat-dvere-aby-nevrzaly", read: "4 min" },
 ];
 
 export default function ArticlePage() {

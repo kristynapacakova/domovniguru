@@ -60,9 +60,9 @@ const jsonLd = {
 
 const RELATED = [
   { title: "Jak zkontrolovat kotel před topnou sezónou", href: "/blog/zkontrolovat-kotel-pred-zimou", read: "6 min" },
-  { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
-  { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "6 min" },
   { title: "Jak se zbavit vlhkosti v bytě", href: "/blog/zbavit-se-vlhkosti-v-byte", read: "7 min" },
+  { title: "Jak bezpečně odlehčit střechu od sněhu", href: "/blog/odlehcit-strechu-od-snehu", read: "5 min" },
+  { title: "Jak pečovat o septik a žumpu – frekvence vyvážení a péče", href: "/blog/pece-o-septik-zumpu", read: "5 min" },
 ];
 
 export default function ArticlePage() {

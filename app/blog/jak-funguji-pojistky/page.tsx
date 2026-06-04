@@ -61,7 +61,7 @@ const RELATED = [
   { title: "Co dělat když nejde proud v části bytu", href: "/blog/nejde-proud-cast-bytu", read: "5 min" },
   { title: "Proč mi vypadává jistič?", href: "/blog/proc-vypadava-jistic", read: "4 min" },
   { title: "Jak vyměnit zásuvku sám", href: "/blog/jak-vymenit-zasuvku", read: "6 min" },
-  { title: "Jak snížit účet za elektřinu doma", href: "/blog/snizit-ucet-za-elektrinu", read: "7 min" },
+  { title: "Jak číst elektroměr – jednofázový i třífázový", href: "/blog/jak-cist-elektromer", read: "5 min" },
 ];
 
 export default function ArticlePage() {

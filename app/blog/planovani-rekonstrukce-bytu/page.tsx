@@ -58,9 +58,9 @@ const jsonLd = {
 
 const RELATED = [
   { title: "Jak odhadnout cenu rekonstrukce předem", href: "/blog/odhadnout-cenu-rekonstrukce", read: "5 min" },
-  { title: "Kolik stojí rekonstrukce koupelny", href: "/blog/cena-rekonstrukce-koupelny", read: "5 min" },
   { title: "Jak najít a prověřit řemeslníka", href: "/blog/najit-proveri-remeslnika", read: "5 min" },
-  { title: "Jak zateplit byt bez rekonstrukce", href: "/blog/zateplit-byt-bez-rekonstrukce", read: "6 min" },
+  { title: "Jak postavit příčku ze sádrokartonu", href: "/blog/sadrokarton-pricka-postup", read: "8 min" },
+  { title: "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo", href: "/blog/zbavit-byt-zapachu-po-rekonstrukci", read: "4 min" },
 ];
 
 export default function ArticlePage() {

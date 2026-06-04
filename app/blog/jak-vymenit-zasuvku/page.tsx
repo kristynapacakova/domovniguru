@@ -60,8 +60,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak vyměnit vypínač světla", href: "/blog/jak-vymenit-vypinac", read: "4 min" },
   { title: "Co dělat když nejde proud v části bytu", href: "/blog/nejde-proud-cast-bytu", read: "5 min" },
-  { title: "Jak nainstalovat stmívač světla", href: "/blog/instalovat-stmivac", read: "6 min" },
   { title: "Jak fungují pojistky a jak je vyměnit", href: "/blog/jak-funguji-pojistky", read: "5 min" },
+  { title: "Jak otestovat zásuvku – fázová tužka a multimetr", href: "/blog/otestovat-zasuvku", read: "4 min" },
 ];
 
 export default function ArticlePage() {

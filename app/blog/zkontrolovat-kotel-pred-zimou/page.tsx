@@ -60,9 +60,9 @@ const jsonLd = {
 
 const RELATED = [
   { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
-  { title: "Jak ušetřit na vytápění bez výměny kotle", href: "/blog/usetrit-na-vytapeni", read: "7 min" },
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
-  { title: "Tepelné čerpadlo – kompletní průvodce 2026", href: "/blog/tepelne-cerpadlo-pruvodce", read: "11 min" },
+  { title: "Jak vyčistit komín – kdy a jak na to, revize", href: "/blog/vycistit-komin", read: "5 min" },
+  { title: "Jak pečovat o septik a žumpu – frekvence vyvážení a péče", href: "/blog/pece-o-septik-zumpu", read: "5 min" },
 ];
 
 export default function ArticlePage() {

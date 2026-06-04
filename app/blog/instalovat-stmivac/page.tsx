@@ -59,8 +59,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak vyměnit vypínač světla", href: "/blog/jak-vymenit-vypinac", read: "4 min" },
   { title: "Jak vybrat správnou LED žárovku", href: "/blog/jak-vybrat-led-zarovku", read: "5 min" },
-  { title: "LED vs. žárovky – co se skutečně vyplatí?", href: "/blog/led-vs-zarovky", read: "4 min" },
   { title: "Jak snížit účet za elektřinu doma", href: "/blog/snizit-ucet-za-elektrinu", read: "7 min" },
+  { title: "Jak nainstalovat pohybový senzor krok za krokem", href: "/blog/instalovat-pohybovy-senzor", read: "5 min" },
 ];
 
 export default function ArticlePage() {

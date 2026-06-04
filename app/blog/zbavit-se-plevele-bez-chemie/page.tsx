@@ -60,7 +60,7 @@ const RELATED = [
   { title: "Jak správně sekat trávník – průvodce pro hustý pažit", href: "/blog/jak-sekat-travnik", read: "8 min" },
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
   { title: "Jak správně zalévat zahradu", href: "/blog/jak-spravne-zalevat", read: "5 min" },
-  { title: "Vyvýšené záhony: Kompletní průvodce od stavby po sklizeň", href: "/blog/vyvysene-zahony", read: "10 min" },
+  { title: "Jak se zbavit krtků na zahradě – co funguje a co ne", href: "/blog/zbavit-se-krtku", read: "5 min" },
 ];
 
 export default function ArticlePage() {

@@ -57,8 +57,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak pokládat vinylovou podlahu", href: "/blog/kladeni-vinyl-podlahy", read: "6 min" },
   { title: "Jak naplánovat rekonstrukci bytu", href: "/blog/planovani-rekonstrukce-bytu", read: "8 min" },
-  { title: "Jak ošetřit dřevěnou terasu", href: "/blog/drevo-terasa-zima", read: "5 min" },
-  { title: "Kolik stojí rekonstrukce koupelny", href: "/blog/cena-rekonstrukce-koupelny", read: "6 min" },
+  { title: "Jak namazat dveře aby nevrzaly – čím a jak na to", href: "/blog/jak-namazat-dvere-aby-nevrzaly", read: "4 min" },
+  { title: "Jak postavit příčku ze sádrokartonu", href: "/blog/sadrokarton-pricka-postup", read: "8 min" },
 ];
 
 export default function ArticlePage() {

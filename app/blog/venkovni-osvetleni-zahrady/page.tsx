@@ -59,8 +59,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak vybrat svítidla do místnosti", href: "/blog/vybrat-svitidla-do-mistnosti", read: "6 min" },
   { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zaciname", read: "7 min" },
-  { title: "Jak postavit pergolu na terasu", href: "/blog/pergola-postup-stavba", read: "9 min" },
   { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
+  { title: "Jak nainstalovat pohybový senzor krok za krokem", href: "/blog/instalovat-pohybovy-senzor", read: "5 min" },
 ];
 
 export default function ArticlePage() {

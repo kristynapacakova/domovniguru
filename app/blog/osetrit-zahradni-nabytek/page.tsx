@@ -59,8 +59,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak natřít venkovní dřevo", href: "/blog/natrit-venkovni-drevo", read: "6 min" },
   { title: "Jak ošetřit dřevěnou terasu", href: "/blog/drevo-terasa-zima", read: "5 min" },
-  { title: "Jak postavit dřevěný zahradní plot", href: "/blog/zahradni-plot-ze-dreva", read: "7 min" },
   { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
+  { title: "Jak vybrat zahradní gril – plynový nebo uhlíkový", href: "/blog/vybrat-zahradni-gril", read: "6 min" },
 ];
 
 const MATERIALS = [

@@ -49,8 +49,8 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
   { title: "Jak stříhat keře – průvodce pro každého", href: "/blog/jak-strihat-kere", read: "4 min" },
-  { title: "Jak pěstovat rajčata – od výsevu po sklizeň", href: "/blog/jak-pestovat-rajcata", read: "7 min" },
   { title: "Ochrana rostlin před zimou – co, kdy a jak", href: "/blog/ochrana-rostlin-pred-zimou", read: "5 min" },
+  { title: "Jak se zbavit krtků na zahradě – co funguje a co ne", href: "/blog/zbavit-se-krtku", read: "5 min" },
 ];
 
 export default function ArticlePage() {

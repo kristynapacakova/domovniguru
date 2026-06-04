@@ -58,8 +58,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak ošetřit dřevěnou terasu před zimou", href: "/blog/drevo-terasa-zima", read: "5 min" },
   { title: "Jak postavit dřevěný zahradní plot", href: "/blog/zahradni-plot-ze-dreva", read: "7 min" },
-  { title: "Jak postavit pergolu na terasu", href: "/blog/pergola-postup-stavba", read: "9 min" },
   { title: "Jak ošetřit zahradní nábytek", href: "/blog/osetrit-zahradni-nabytek", read: "4 min" },
+  { title: "Fasádní barva – jak vybrat správný typ a jak nanášet", href: "/blog/fasadni-barva-vyber", read: "7 min" },
 ];
 
 export default function ArticlePage() {

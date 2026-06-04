@@ -62,8 +62,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
   { title: "Jak ošetřit dřevěnou terasu", href: "/blog/drevo-terasa-zima", read: "5 min" },
-  { title: "Jak pokládat betonové dlaždice na terasu", href: "/blog/pokladat-betonove-dlazdice", read: "8 min" },
   { title: "Jak zařídit terasu na balkoně", href: "/blog/terasa-na-balkone", read: "5 min" },
+  { title: "Jak vybrat zahradní gril – plynový nebo uhlíkový", href: "/blog/vybrat-zahradni-gril", read: "6 min" },
 ];
 
 export default function ArticlePage() {

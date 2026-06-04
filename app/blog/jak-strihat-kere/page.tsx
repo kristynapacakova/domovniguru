@@ -46,8 +46,8 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
   { title: "Zahradní nástroje – jak o ně pečovat", href: "/blog/zahradni-nastroje-pece", read: "4 min" },
-  { title: "Ochrana rostlin před zimou", href: "/blog/prezimovat-zahradni-rostliny", read: "5 min" },
   { title: "Jak hnojit zahradu", href: "/blog/jak-hnojit-zahradu", read: "5 min" },
+  { title: "Jak stříhat ovocné stromy – kdy a jak správně řezat", href: "/blog/jak-strihat-ovocne-stromy", read: "6 min" },
 ];
 
 export default function ArticlePage() {

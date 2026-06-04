@@ -66,7 +66,7 @@ const RELATED = [
   { title: "Jak ušetřit na vytápění", href: "/blog/usetrit-na-vytapeni", read: "7 min" },
   { title: "Jak odvzdušnit radiátory", href: "/blog/jak-odvzdusnit-radiatory", read: "3 min" },
   { title: "Jak zkontrolovat kotel před zimou", href: "/blog/zkontrolovat-kotel-pred-zimou", read: "6 min" },
-  { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "4 min" },
+  { title: "Jak vyčistit komín – kdy a jak na to, revize", href: "/blog/vycistit-komin", read: "5 min" },
 ];
 
 export default function ArticlePage() {

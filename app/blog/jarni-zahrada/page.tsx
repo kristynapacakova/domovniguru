@@ -62,7 +62,7 @@ const RELATED = [
   { title: "Jak hnojit zahradu – organicky i minerálně", href: "/blog/jak-hnojit-zahradu", read: "6 min" },
   { title: "Jak správně zalévat zahradu", href: "/blog/jak-spravne-zalevat", read: "4 min" },
   { title: "Jak se zbavit plevele bez chemie", href: "/blog/zbavit-se-plevele-bez-chemie", read: "4 min" },
-  { title: "Jak ošetřit dřevěnou terasu před zimou", href: "/blog/drevo-terasa-zima", read: "4 min" },
+  { title: "Jak stříhat ovocné stromy – kdy a jak správně řezat", href: "/blog/jak-strihat-ovocne-stromy", read: "6 min" },
 ];
 
 export default function ArticlePage() {

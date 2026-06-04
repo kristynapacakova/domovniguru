@@ -57,9 +57,9 @@ const jsonLd = {
 
 const RELATED = [
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
-  { title: "Jak se zbavit plísně na zdi", href: "/blog/jak-odstranit-plisen-na-zdi", read: "12 min" },
   { title: "Jak se zbavit vlhkosti v bytě", href: "/blog/zbavit-se-vlhkosti-v-byte", read: "7 min" },
   { title: "Jak zkontrolovat kotel před zimou", href: "/blog/zkontrolovat-kotel-pred-zimou", read: "6 min" },
+  { title: "Jak bezpečně odlehčit střechu od sněhu", href: "/blog/odlehcit-strechu-od-snehu", read: "5 min" },
 ];
 
 export default function ArticlePage() {

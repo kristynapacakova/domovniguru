@@ -49,7 +49,7 @@ const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce", href: "/blog/jak-malovat-zed", read: "5 min" },
   { title: "Jak vybrat barvu na zeď", href: "/blog/jak-vybrat-barvu-na-zed", read: "9 min" },
   { title: "Jak opravit škrábance a díry ve zdi", href: "/blog/opravit-skrabance-diry-ve-zdi", read: "5 min" },
-  { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "5 min" },
+  { title: "Barvy do dětského pokoje – jak vybrat bezpečné a správné", href: "/blog/barvy-do-detskeho-pokoje", read: "6 min" },
 ];
 
 export default function ArticlePage() {

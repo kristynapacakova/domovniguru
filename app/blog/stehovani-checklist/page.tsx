@@ -50,8 +50,8 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
 const RELATED = [
   { title: "Co zkontrolovat při přebírání nového bytu", href: "/blog/prebrani-bytu-checklist", read: "4 min" },
   { title: "Jak vymalovat byt před stěhováním", href: "/blog/malovani-pred-stehovani", read: "5 min" },
-  { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
   { title: "Jak připravit dům na zimu – checklist", href: "/blog/priprava-domu-na-zimu", read: "5 min" },
+  { title: "Jak přihlásit trvalý pobyt na nové adrese – postup", href: "/blog/prihlasit-trvaly-pobyt", read: "4 min" },
 ];
 
 export default function ArticlePage() {

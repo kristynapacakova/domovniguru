@@ -51,8 +51,8 @@ const jsonLd = {
 const RELATED = [
   { title: "Jak zapojit nové světlo na strop", href: "/blog/zapojit-svetlo-na-strop", read: "5 min" },
   { title: "Jak vyměnit zásuvku sám", href: "/blog/jak-vymenit-zasuvku", read: "5 min" },
-  { title: "Co dělat, když nejde proud jen v části bytu", href: "/blog/nejde-proud-cast-bytu", read: "4 min" },
   { title: "Jak fungují pojistky a jak je vyměnit", href: "/blog/jak-funguji-pojistky", read: "4 min" },
+  { title: "Jak otestovat zásuvku – fázová tužka a multimetr", href: "/blog/otestovat-zasuvku", read: "4 min" },
 ];
 
 export default function ArticlePage() {

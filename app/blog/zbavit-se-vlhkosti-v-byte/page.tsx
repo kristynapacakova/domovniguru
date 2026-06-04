@@ -67,7 +67,7 @@ const RELATED = [
   { title: "Jak se zbavit plísně v bytě jednou provždy", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
   { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "6 min" },
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
-  { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
+  { title: "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo", href: "/blog/zbavit-byt-zapachu-po-rekonstrukci", read: "4 min" },
 ];
 
 export default function ArticlePage() {
