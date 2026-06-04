@@ -9,7 +9,29 @@ export const metadata: Metadata = {
   openGraph: { title: "Jak odvzdušnit radiátor 2026", description: "Studený radiátor nahoře? Za 10 minut to vyřešíš.", url: "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-03-01T08:00:00Z", modifiedTime: "2026-04-12T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20odvzdu%C5%A1nit%20radi%C3%A1tor%20%E2%80%93%20krok%20za%20krokem%20%2B%20%C3%BAspora%20tepla%202026&cat=blog", width: 1200, height: 630, alt: "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak odvzdušnit radiátor 2026", description: "Studený radiátor nahoře? Za 10 minut to vyřešíš." },
 };
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory#article", "headline": "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odvzdušnit radiátor", "odvzdušnění radiátoru", "studený radiátor nahoře", "jak odvzdušnit radiátor bez ventilu", "radiátor nefunguje", "úspora tepla radiátor"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory#article",
+    "headline": "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026",
+    "datePublished": "2026-03-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["jak odvzdušnit radiátor", "odvzdušnění radiátoru", "studený radiátor nahoře", "jak odvzdušnit radiátor bez ventilu", "radiátor nefunguje", "úspora tepla radiátor"]
+  }, {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak odvzdušnit radiátor bez ventilu?", "acceptedAnswer": { "@type": "Answer", "text": "Radiátor bez odvzdušňovacího ventilu nelze standardně odvzdušnit — ventil chybí nebo je zaslepený. Možnosti: (1) zkontroluj zda není ventil zakrytý plastovou krytkou, (2) moderní kondenzační kotle mají vlastní odvzdušnění — zkus odvzdušnit přes kotel, (3) zavolej topenáře, který instaluje nový odvzdušňovací ventil (cca 300–600 Kč, 15 minut práce). Automatický plovákový ventil (cca 100–200 Kč) pak odvzdušňuje sám." } },
+      { "@type": "Question", "name": "Co když po odvzdušnění radiátor stále netopí?", "acceptedAnswer": { "@type": "Answer", "text": "Zkontroluj: (1) termostatický ventil — může být zaseklý nebo zavřený, zkus otočit na maximum, (2) tlak v soustavě — příliš nízký tlak zabrání cirkulaci, (3) oběhové čerpadlo — pokud nepracuje, voda necirkuluje. Pokud nic nepomáhá, zavolej topenáře." } },
+      { "@type": "Question", "name": "Jak poznám, že radiátor potřebuje odvzdušnit?", "acceptedAnswer": { "@type": "Answer", "text": "Hlavní příznaky: radiátor je nahoře studený, dole teplý. Bublání nebo kloktání při zapnutém topení — vzduch se pohybuje soustavou. V některých případech může být celý radiátor studený i při otevřeném ventilu." } },
+      { "@type": "Question", "name": "Musím odvzdušňovat každý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Doporučujeme odvzdušnit na začátku každé topné sezóny — v říjnu nebo listopadu. Vzduch se do soustavy dostává přirozeně přes těsnění a kyslíkem rozpuštěným ve vodě. Roční odvzdušnění je jednoduchá prevence zbytečně vysokých účtů za teplo." } },
+      { "@type": "Question", "name": "Jak odvzdušnit topení v bytě v paneláku?", "acceptedAnswer": { "@type": "Answer", "text": "V paneláku je topná soustava společná — odvzdušňování musíš koordinovat se správcem domu nebo servisní firmou. Neoprávněný zásah do soustavy může způsobit pokles tlaku pro celý dům. Nahlaste problém správci, který zajistí odvzdušnění celé stoupačky." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
@@ -42,7 +64,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak odvzdušnit radiátor – krok za krokem</h1>
               <p className="article-lead">Radiátor je nahoře studený a dole teplý? Vzduch v topné soustavě snižuje výkon topení o 15–25 % a zbytečně zvyšuje účty. Odvzdušnění zvládnete sami za 10 minut a bez instalatéra.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 20. března 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory"
                 title="Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026"
@@ -380,6 +402,24 @@ export default function ArticlePage() {
                   </summary>
                   <div className="faq-body">
                     Odvzdušnění je jednoduchá operace kterou zvládne každý sám — nepotřebuješ žádnou kvalifikaci ani speciální vybavení. Stačí odvzdušňovací klíč za 20–50 Kč a 10 minut času. Topenáře potřebuješ pouze pokud: tlak v soustavě opakovaně klesá (netěsnost), radiátor netopí ani po odvzdušnění (zaseklý ventil nebo porucha čerpadla), nebo chceš vyvážit celou topnou soustavu pro maximální efektivitu.
+                  </div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">
+                    Jak odvzdušnit radiátor bez odvzdušňovacího ventilu?
+                    <span className="faq-icon">▾</span>
+                  </summary>
+                  <div className="faq-body">
+                    Radiátor bez ventilu nelze standardně odvzdušnit. Postup: (1) zkontroluj zda není ventil zakrytý plastovou krytkou — u starších radiátorů bývá ukrytý pod čepičkou, (2) moderní kondenzační kotle mají vlastní odvzdušnění v rozdělovači — zkontroluj kotel, (3) nejlepší řešení je zavolat topenáře, který za 300–600 Kč a 15 minut práce nainstaluje nový odvzdušňovací ventil. Nejlepší investice: automatický plovákový ventil (cca 150 Kč) — odvzdušňuje sám, nikdy ho nemusíš točit ručně.
+                  </div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">
+                    Jak odvzdušnit topení v bytě v paneláku?
+                    <span className="faq-icon">▾</span>
+                  </summary>
+                  <div className="faq-body">
+                    V paneláku je topná soustava společná — nahlaste problém správci domu nebo SVJ. Neoprávněný zásah (např. pokles tlaku) může postihnout celou stoupačku. Správce zajistí odvzdušnění celé soustavy. Pokud správce nereaguje, máš právo reklamovat nefunkční topení jako závadu společných částí domu.
                   </div>
                 </details>
               </div>

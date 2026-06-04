@@ -34,7 +34,7 @@ const jsonLd = {
       "headline": "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
       "description": "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování.",
       "datePublished": "2025-01-15T08:00:00Z",
-      "dateModified": "2026-04-12T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.domovniguru.cz/blog/jak-malovat-zed" },
@@ -60,6 +60,8 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak dlouho schne barva na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Latexové a akrylátové barvy schnou k dotyku za 1–2 hodiny. Plnou odolnosti dosáhnou za 24–48 hodin. Druhou vrstvu nanášejte nejdříve po 4 hodinách." } },
         { "@type": "Question", "name": "Jak odhadnout, kolik barvy budu potřebovat?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní výdej je 8–12 m² na litr při jedné vrstvě. Spočítej plochu stěn, odečti okna a dveře, vyděl vydatností barvy a přidej 10 % rezervu." } },
         { "@type": "Question", "name": "Jaká barva je nejlepší na zeď v obývacím pokoji?", "acceptedAnswer": { "@type": "Answer", "text": "Do obýváku se hodí latexová nebo akrylátová barva s jemným hedvábným leskem – snadno se otírá a dobře vypadá. Matný povrch zakryje nerovnosti, lesklý je trvanlivější." } },
+        { "@type": "Question", "name": "Jak malovat zeď za radiátorem?", "acceptedAnswer": { "@type": "Answer", "text": "Na malování za radiátorem použij mini váleček s prodlouženou (ohnutou) rukojetí — tzv. radiátorový váleček (cca 150–300 Kč). Nejdřív naber barvu, opatrně protáhni shora za radiátor, pak zdola. Pro dokonalý výsledek odmontuj radiátor od zdi — zvedne se z konzol nahoru, zeď vymaluj a radiátor vrať zpět." } },
+        { "@type": "Question", "name": "Jak malovat pruhy na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Pruhy na zdi: (1) namaluj základní barvu a nech 24 hodin zaschnout, (2) vyznač pruhy tužkou a pravítkem, (3) přelep malířskou páskou přesně po okraji, (4) namaž hranu pásky rukou aby barva nepodtekla, (5) nanes vrchní barvu a pásku stáhni hned po nanesení — nejlépe dokud je barva ještě mírně mokrá. Pásku stahuj šikmo pod úhlem 45°." } },
       ],
     },
   ],
@@ -96,7 +98,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak malovat zeď – kompletní průvodce pro začátečníky 2026</h1>
               <p className="article-lead">Malování zdi zvládne každý – ale bez správné přípravy skončíš s pruhy, loupanou barvou nebo přemalováváním. Tenhle průvodce tě provede od prázdné místnosti k perfektnímu výsledku krok za krokem.</p>
               <div className="article-meta-row">
-                <span>Aktualizováno: 12. dubna 2026</span><span>·</span><span>DomovniGuru</span>
+                <span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span>
               </div>
             </header>
 
@@ -262,6 +264,8 @@ export default function ArticlePage() {
                   { q: "Jak dlouho schne barva na zdi?", a: "Latexové a akrylátové barvy schnou k dotyku za 1–2 hodiny. Plnou odolnosti dosáhnou za 24–48 hodin. Druhou vrstvu nanášejte nejdříve po 4 hodinách." },
                   { q: "Jak odhadnout, kolik barvy budu potřebovat?", a: "Standardní výdej je 8–12 m² na litr při jedné vrstvě. Spočítej plochu stěn, odečti okna a dveře, vyděl vydatností barvy a přidej 10 % rezervu." },
                   { q: "Jaká barva je nejlepší na zeď v obývacím pokoji?", a: "Do obýváku se hodí latexová nebo akrylátová barva s jemným hedvábným leskem – snadno se otírá a dobře vypadá. Matný povrch zakryje nerovnosti, lesklý je trvanlivější." },
+                  { q: "Jak malovat zeď za radiátorem?", a: "Na malování za radiátorem použij mini váleček s prodlouženou (ohnutou) rukojetí — tzv. radiátorový váleček (cca 150–300 Kč). Nejdřív naber barvu, opatrně protáhni shora za radiátor, pak zdola. Pro dokonalý výsledek odmontuj radiátor od zdi — zvedne se z konzol nahoru, zeď vymaluj a radiátor vrať zpět." },
+                  { q: "Jak malovat pruhy na zdi?", a: "Pruhy na zdi: (1) namaluj základní barvu a nech 24 hodin zaschnout, (2) vyznač pruhy tužkou a pravítkem, (3) přelep malířskou páskou přesně po okraji, (4) namaž hranu pásky rukou aby barva nepodtekla, (5) nanes vrchní barvu a pásku stáhni hned po nanesení — nejlépe dokud je barva ještě mírně mokrá. Pásku stahuj šikmo pod úhlem 45°." },
                 ].map(({ q, a }) => (
                   <details key={q} className="faq-item">
                     <summary className="faq-q">{q}</summary>
