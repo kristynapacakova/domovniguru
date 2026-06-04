@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8"/>
+<style>
+
+@font-face {
+  font-family: 'Pinyon Script';
+  src: url('fonts/PinyonScript.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/EBGaramond-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/EBGaramond-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/EBGaramond-BoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@page {
+  size: 216mm 216mm;  /* 210mm + 3mm bleed each side */
+  margin: 0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'EB Garamond', serif;
+  background: white;
+}
+
+/* Stránka = 216x216mm (s 3mm spadávkou) */
+.page {
+  width: 216mm;
+  height: 216mm;
+  position: relative;
+  overflow: hidden;
+  background-color: #f3f2ef;
+  page-break-after: always;
+}
+
+/* Tečkovaná mřížka jako SVG na pozadí */
+.page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, #b0aca6 0.8px, transparent 0.8px);
+  background-size: 5.5mm 5.5mm;
+  background-position: 3mm 3mm;
+}
+
+/* Bezpečná oblast — obsah začíná 8mm od okraje (3mm bleed + 5mm safe) */
+.safe {
+  position: absolute;
+  inset: 8mm;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Nadpis ─── */
+.title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 42pt;
+  color: #1a1a1a;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 9mm;
+}
+
+/* ─── Otázky ─── */
+.q {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11pt;
+  color: #1a1a1a;
+  line-height: 1.4;
+  margin-bottom: 1.5mm;
+}
+
+.q strong {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.gap   { height: 9mm; }
+.gap-s { height: 5mm; }
+.gap-l { height: 14mm; }
+
+/* Řádek otázka + datum vpravo */
+.q-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* ─── Dolní část: citát vlevo, foto vpravo ─── */
+.bottom {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.deco {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 22pt;
+  color: #1a1a1a;
+  line-height: 1.55;
+  max-width: 68mm;
+}
+
+.photo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2mm;
+}
+
+.photo-label {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 11pt;
+  color: #1a1a1a;
+}
+
+.photo-label strong {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.photo-box {
+  width: 52mm;
+  height: 38mm;
+  border: 0.3mm solid #8a8680;
+  border-radius: 2mm;
+}
+
+</style>
+</head>
+<body>
+
+<!-- STRÁNKA 1: Den, kdy ses narodila (vypráví maminka) -->
+<div class="page">
+  <div class="safe">
+
+    <div class="title">Den, kdy ses narodila</div>
+
+    <div class="q">Přišla jsi na svět dne</div>
+    <div class="gap"></div>
+
+    <div class="q-row">
+      <div class="q">Kdy jsem tě <strong>poprvé uviděla</strong></div>
+      <div class="q">Datum:</div>
+    </div>
+    <div class="gap"></div>
+
+    <div class="q">Nikdy nezapomenu na</div>
+    <div class="gap"></div>
+
+    <div class="q">Vážila jsi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a měřila jsi</div>
+    <div class="gap"></div>
+
+    <div class="q">První věc, kterou jsem řekla, <strong>když jsem tě uviděla</strong></div>
+    <div class="gap-l"></div>
+
+    <div class="q">Co jsem v tu chvíli cítila</div>
+    <div class="gap-l"></div>
+
+    <div class="bottom">
+      <div class="deco">
+        Tehdy se pro nás<br>
+        zkomplilovalo<br>
+        slovo láska
+      </div>
+      <div class="photo-wrap">
+        <div class="photo-label">Tvoje <strong>první fotka</strong></div>
+        <div class="photo-box"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
