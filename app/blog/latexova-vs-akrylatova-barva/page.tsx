@@ -44,7 +44,7 @@ const jsonLd = {
       "description":
         "Porovnání latexové a akrylátové barvy: omyvatelnost, cena, trvanlivost a pro které místnosti se hodí.",
       "datePublished": "2025-01-20T08:00:00Z",
-      "dateModified": "2025-03-01T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": {
         "@type": "Organization",
         "name": "DomovniGuru",
@@ -186,7 +186,7 @@ export default function ArticlePage() {
                 do které místnosti malujete.
               </p>
               <div className="article-meta-row">
-                <span>Aktualizováno: 1. března 2025</span>
+                <span>Aktualizováno: 4. června 2026</span>
                 <span>·</span>
                 <span>DomovniGuru</span>
               </div>
