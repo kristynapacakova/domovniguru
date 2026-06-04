@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/odhadnout-cenu-rekonstrukce#article",
     "headline": "Jak odhadnout cenu rekonstrukce předem – kalkulace 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak odhadnout cenu rekonstrukce", "cena rekonstrukce bytu", "rozpočet rekonstrukce", "orientační ceny řemeslníků", "vícenáklady rekonstrukce", "kalkulace rekonstrukce"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/odhadnout-cenu-rekonstrukce#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak rychle dostanu nabídky od řemeslníků?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní řemeslníci jsou vytížení — čekej 1–3 týdny na první schůzku a dalších 1–2 týdny na písemnou nabídku. Proto poptávej alespoň 2–3 měsíce před plánovaným začátkem rekonstrukce. Na jaro a léto jsou řemeslníci obsazeni nejdříve." } },
+      { "@type": "Question", "name": "Proč se ceny řemeslníků tak liší?", "acceptedAnswer": { "@type": "Answer", "text": "Rozdíl 50–100 % mezi nejlevnější a nejdražší nabídkou je normální. Levnější nabídka může znamenat méně zkušeného řemeslníka, nekvalitní materiál zahrnutý v ceně, nebo skryté vícepráce. Nejlevnější nabídka není vždy nejlevnější výsledek — ověř reference a co přesně cena zahrnuje." } },
+      { "@type": "Question", "name": "Mám platit za vypracování rozpočtu?", "acceptedAnswer": { "@type": "Answer", "text": "Standardně řemeslníci nabídku vypracují zdarma v rámci obchodního jednání. Pokud někdo požaduje platbu za nabídku, je to neobvyklé — ale může jít o architekta nebo projektanta pro složitější zakázky kde je příprava nabídky skutečně pracná. V takovém případě se cena nabídky obvykle odečte od ceny zakázky." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak odhadnout cenu rekonstrukce předem</h1>
               <p className="article-lead">Většina rekonstrukcí přijde o 20–40 % dražší než původní odhad. Není to smůla — je to špatné plánování. Tady je jak sestavit realistický rozpočet který tě nepřekvapí.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/odhadnout-cenu-rekonstrukce" title="Jak odhadnout cenu rekonstrukce předem – kalkulace 2026" />
             </header>
 

@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/pergola-postup-stavba#article",
     "headline": "Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak postavit pergolu", "pergola na terasu", "dřevěná pergola stavba", "kotvení sloupů pergoly", "hliníková pergola", "pergola postup"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/pergola-postup-stavba#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Potřebuji stavební povolení na pergolu?", "acceptedAnswer": { "@type": "Answer", "text": "Pergola do 25 m² a výšky do 5 m zpravidla nevyžaduje stavební povolení, ale musí splnit odstupové vzdálenosti od hranice pozemku (min. 2 m). Pravidla se liší podle obce — vždy ověř u místního stavebního úřadu před stavbou. Pergola s nepropustnou střechou může vyžadovat ohlášení." } },
+      { "@type": "Question", "name": "Jak dlouho trvá stavba pergoly?", "acceptedAnswer": { "@type": "Answer", "text": "Dřevěná pergola 4×3 m: příprava a kotvení patek den 1, betonování a schnutí 2 dny, montáž konstrukce den 4–5. Celkem 4–5 dní při práci 2 osob (1 člověk nestačí — nutná pomoc). Hliníková systémová pergola: 1 den montáže pro zkušeného montéra, 2 dny pro laika." } },
+      { "@type": "Question", "name": "Jaké dřevo je nejlepší na pergolu?", "acceptedAnswer": { "@type": "Answer", "text": "Nejodolnější je akát (bez nutnosti impregnace, vydrží 30+ let) a modřín (přirozená odolnost, krásná kresba). Levnější alternativa je impregnovaná borovice (zelená nebo hnědá impregnace) — vydrží 15–20 let s pravidelnou údržbou. Smrk bez impregnace pro venkovní použití není vhodný." } },
+      { "@type": "Question", "name": "Mohu postavit pergolu u zdi domu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — pergola přistavená ke zdi domu (\"lean-to\" design) potřebuje jen 2 volné sloupy místo 4. Ke zdi domu se připevní tzv. ledger board (vodorovná deska) do které se zapustí příčné nosníky. Pozor na odvodnění — voda nesmí stékat do zdi domu." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak postavit pergolu na terasu – dřevěná nebo hliníková</h1>
               <p className="article-lead">Pergola proměňuje holou terasu v příjemný venkovní pokoj. Dřevěná pergola za víkend svépomocí nebo hliníková systémová za odpoledne — tady je jak na to od základů až po střešní latě.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/pergola-postup-stavba" title="Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026" />
             </header>
 

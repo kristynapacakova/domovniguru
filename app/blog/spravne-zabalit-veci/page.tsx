@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/spravne-zabalit-veci#article",
     "headline": "Jak správně zabalit věci při stěhování – bez poškození 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak zabalit věci při stěhování", "balení stěhování", "jak zabalit křehké věci", "stěhovací krabice", "jak označit krabice stěhování"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/spravne-zabalit-veci#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak těžká má být jedna krabice?", "acceptedAnswer": { "@type": "Answer", "text": "Max. 20–25 kg — to je bezpečný limit pro jednu osobu. Krabice s knihami jsou nejčastější chybou — plná krabice knih váží 30–40 kg a je nebezpečná pro záda a pro dno krabice. Knihy dávej do malých krabic nebo do sportovních tašek." } },
+      { "@type": "Question", "name": "Kdy začít balit před stěhováním?", "acceptedAnswer": { "@type": "Answer", "text": "Začni 2–3 týdny předem s věcmi které nejméně používáš — dekorace, knihy, sezónní oblečení, věci ze skladu. Týden před stěhováním: obývák, dětský pokoj, ložnice. Den před: kuchyň (nechej jen nezbytnosti). Ráno stěhovacího dne: toaletní věci a lůžkoviny." } },
+      { "@type": "Question", "name": "Kde vzít krabice zdarma?", "acceptedAnswer": { "@type": "Answer", "text": "Supermarkety a hobbymarkety — zeptej se ve skladu nebo na pokladně. Nákupní centrum — u větších obchodů. Facebook Marketplace nebo Bazoš — \"dám krabice zdarma\" je časté. Lékárny mají pevné menší krabice vhodné pro křehké věci. Nové krabice kup jen pro nejcitlivější věci." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně zabalit věci při stěhování – bez poškození</h1>
               <p className="article-lead">Poškozené věci při stěhování jsou nejčastěji výsledkem špatného balení, ne špatných stěhovníků. Správná technika zabalení ušetří stres a peníze.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/spravne-zabalit-veci" title="Jak správně zabalit věci při stěhování – bez poškození 2026" />
             </header>
 

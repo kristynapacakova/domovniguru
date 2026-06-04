@@ -9,7 +9,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak přezimovat zahradní rostliny", description: "Co zakrýt, co přestěhovat a co nechat být." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny#article", "headline": "Jak přezimovat zahradní rostliny – co, kdy a jak", "datePublished": "2025-03-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["prezimovat zahradní rostliny", "přezimování rostlin", "ochrana rostlin před mrazem", "zimní zakrytí keřů", "rostliny na zimu"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny#article", "headline": "Jak přezimovat zahradní rostliny – co, kdy a jak", "datePublished": "2025-03-25T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["prezimovat zahradní rostliny", "přezimování rostlin", "ochrana rostlin před mrazem", "zimní zakrytí keřů", "rostliny na zimu"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy začít připravovat zahradní rostliny na zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Začni v říjnu postupně: přesun citlivých nádob dovnitř, mulčování záhonů. V listopadu zakryj keře a trvalky netkanovinou. V prosinci zkontroluj zakrytí a při silných mrazech přidej další mulč." } },
+      { "@type": "Question", "name": "Jak přezimovat hortenzie velkolisté?", "acceptedAnswer": { "@type": "Answer", "text": "Hortenzie velkolisté kvetou na loňském dřevu, které musí přežít zimu. Celou nadzemní část zakryj netkanovinou nebo jutovým vakem před prvními mrazy. Odkrývej opatrně na jaře – loňské výhony s pupeny jsou křehké." } },
+      { "@type": "Question", "name": "Jak přezimovat citrus (pomerančovník, citroník)?", "acceptedAnswer": { "@type": "Answer", "text": "Citrus přenes do světlého, chladného interiéru (8–12 °C). Minimalizuj zálivku – substrát mírně vlhký, ne mokrý. Vyhni se blízkosti topení. Přechodem do teplejšího bytu otužuj postupně – nejdřív studená chodba, pak teplejší místnost." } },
+      { "@type": "Question", "name": "Co je mulčování a jak ho správně provést?", "acceptedAnswer": { "@type": "Answer", "text": "Mulčování je pokrytí půdy kolem rostliny organickým materiálem (kůra, listí, sláma, kompost) ve vrstvě 10–15 cm. Izoluje kořeny před mrazem. Mulčuj vždy na vlhkou, nerozmrzlou půdu a nechej 2–3 cm mezeru u samotného kmene." } },
+      { "@type": "Question", "name": "Kdy odkrýt rostliny na jaře?", "acceptedAnswer": { "@type": "Answer", "text": "Odkrývej postupně za oblačného dne, ne přímo do slunce – rostliny pod zábalem jsou oslabené a intenzivní slunce způsobí popáleniny. Pokud meteorologové hlásí pozdní mraz, zakryj znovu. Bezpečné je obvykle odkrývání po 15. března v jižních Čechách, ve zbytku republiky po 1. dubnu." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak stříhat keře – průvodce pro každého", href: "/blog/jak-strihat-kere", read: "4 min" },
@@ -39,7 +51,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak přezimovat zahradní rostliny – co, kdy a jak</h1>
               <p className="article-lead">Spousta rostlin přežije zimu bez pomoci. Ale ty které pomoc potřebují, o ní dají vědět jen jednou – tím že na jaře nevyraší. Tady je přehled co udělat a kdy.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}

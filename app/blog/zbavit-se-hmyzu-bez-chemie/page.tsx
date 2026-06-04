@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie#article",
     "headline": "Jak se zbavit hmyzu bez chemie – přírodní rady",
     "datePublished": "2026-04-13T08:00:00Z",
-    "dateModified": "2026-04-13T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak se zbavit hmyzu bez chemie", "přírodní odpuzovač komárů", "jak se zbavit mravenců", "mouchy v domě", "sítě proti hmyzu", "hmyz v bytě léto"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Fungují přírodní metody stejně dobře jako chemické?", "acceptedAnswer": { "@type": "Answer", "text": "Na prevenci ano, na likvidaci velké infestace ne. Přírodní metody jsou výborné jako prevence a při malém výskytu hmyzu. Při masivní infestaci (švábi, bed bugs) je nutný profesionální zásah nebo silnější přípravky. Klíčové slovo je prevence — přírodní metody fungují nejlépe pokud začneš před problémem, ne po něm." } },
+      { "@type": "Question", "name": "Jak se zbavit komárů v ložnici přes noc?", "acceptedAnswer": { "@type": "Answer", "text": "Nejlepší kombinace: (1) Síť na okno pro větrání bez vstupu. (2) Ventilátor u postele — komáři nemohou letět v proudu vzduchu. (3) Pár kapek levandulového oleje na polštář. (4) Před spaním projdi místnost s tyčinkou citronely. Pokud je komár již uvnitř, vypni světlo a zapni lampičku v jiné místnosti — přiláká ho tam." } },
+      { "@type": "Question", "name": "Proč se mravenci vrací i po vyčištění kuchyně?", "acceptedAnswer": { "@type": "Answer", "text": "Mravenci sledují feromonové stopy které přetrvávají i po vizuálním vyčištění. Setři stopy octem nebo citronovou šťávou — kyselina feromony neutralizuje. Pak najdi a zapečeť vstupní bod. Pokud mravenci přicházejí i bez viditelného jídla, hnízdo je pravděpodobně uvnitř stěn — kontaktuj odborníka." } },
+      { "@type": "Question", "name": "Jsou elektrické odpuzovače hmyzu účinné?", "acceptedAnswer": { "@type": "Answer", "text": "Ultrazvukové odpuzovače (zástrčkové přístroje) mají smíšené výsledky ve studiích — některé druhy hmyzu reagují, jiné ne. UV lapače (modré světlo + mřížka) jsou účinné na letající hmyz ale přitahují i užitečný hmyz. Elektrické odpuzovače jsou doplněk, ne náhrada za sítě a prevenci." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak se zbavit hmyzu v létě – bez chemie a pesticidů</h1>
               <p className="article-lead">Komáři v ložnici, mravenci v kuchyni, mouchy u stolu — letní hmyz dokáže znepříjemnit život. Ukážeme jak ho účinně odehnat přírodními metodami, bez pesticidů bezpečných pro děti i domácí zvířata.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie" title="Jak se zbavit hmyzu bez chemie – přírodní rady" />
             </header>
 

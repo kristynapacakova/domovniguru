@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#article",
     "headline": "Jak pokládat betonové dlaždice na terasu – postup 2026",
     "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak pokládat betonové dlaždice", "pokládka dlaždic terasa", "příprava podloží dlaždice", "spád terasy", "spárování dlaždic", "betonové dlaždice postup"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak hluboký výkop potřebuji pro betonové dlaždice?", "acceptedAnswer": { "@type": "Answer", "text": "Pro pěší terasu s dlaždicemi tloušťky 5 cm: výkop 22–25 cm (5 cm dlaždice + 4 cm písek + 13 cm štěrk + rezerva). Pro pojezdovou plochu osobním autem: min. 30 cm s dlaždicemi 8 cm tloušťky. Výkop vždy zahrnuj rezervu pro geotextilii a zhutnění." } },
+      { "@type": "Question", "name": "Je nutná geotextilie?", "acceptedAnswer": { "@type": "Answer", "text": "Geotextilie není povinná ale výrazně prodlužuje životnost terasy. Zabrání promíchávání štěrku se zeminou (štěrk by se postupně propadal), prorůstání plevele spárami a zlepšuje odvodnění. Cena je nízká (15–25 Kč/m²) a montáž trvá minuty — vyplatí se vždy." } },
+      { "@type": "Question", "name": "Mohu položit dlaždice sám nebo potřebuji řemeslníka?", "acceptedAnswer": { "@type": "Answer", "text": "Pokládka betonových dlaždic na sucho (bez lepení) je DIY přístupná práce. Nejtěžší část je příprava podloží — zhutnění štěrku vyžaduje vibrační desku. Malé plochy (do 20 m²) zvládne šikovný laik za víkend. Větší plochy nebo složité vzory jsou lepší svěřit dlaždiči." } },
+      { "@type": "Question", "name": "Jak čistit betonové dlaždice od mechů a řas?", "acceptedAnswer": { "@type": "Answer", "text": "Tlakový čistič (100–150 bar) je nejúčinnější. Pro mech a řasy použij roztok jedlé sody (3 lžíce/litr) nebo speciální přípravek na čištění dlaždic. Po vyčištění lze nanést impregnaci proti prorůstání mechu — vydrží 2–3 sezóny." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pokládat betonové dlaždice na terasu – příprava podloží, spád a spárování</h1>
               <p className="article-lead">Špatně položená terasa se po první zimě zdvihne, praskne nebo zamokří. Správná příprava podloží je 80 % práce — samotná pokládka dlaždic pak trvá odpoledne. Tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice" title="Jak pokládat betonové dlaždice na terasu – postup 2026" />
             </header>
 

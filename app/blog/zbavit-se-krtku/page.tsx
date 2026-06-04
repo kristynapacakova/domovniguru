@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zbavit-se-krtku#article",
     "headline": "Jak se zbavit krtků na zahradě – co funguje a co ne 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak se zbavit krtků", "krtci zahrada", "odpuzovač krtků", "ultrazvuk krtci", "krtiny zahrada řešení"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-krtku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je krtek chráněný zákonem?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — krtek obecný (Talpa europaea) je chráněný zákonem č. 114/1992 Sb. Záměrné usmrcení bez výjimky je přestupek. Legální jsou: odpuzovače, lapací klece s přemístěním, ochranné sítě. Při opakovaném výskytu lze požádat Agenturu ochrany přírody o výjimku pro odlov." } },
+      { "@type": "Question", "name": "Pomáhá zasypat krtiny hlínou?", "acceptedAnswer": { "@type": "Answer", "text": "Zasypání krtiny krtovi vůbec nevadí — tunel má zpravidla desítky metrů a krtina je jen odpadní hlína. Zasypáváním krtince zbývá jen urovnat trávník — nedojde k vyplašení krtka. Hlínu z krtiny použij jako kvalitní substrát do záhonu nebo kompostu." } },
+      { "@type": "Question", "name": "Pomáhají kočky nebo psi na krtky?", "acceptedAnswer": { "@type": "Answer", "text": "Kočky a psi krtky loví — zejména kočky jsou přirození predátoři. Jejich přítomnost na zahradě krtka odradí (pach). Kočka skutečně loví a přináší ulovené krtky. Je to přirozené řešení ale nelze ho spolehlivě \"nařídit\". Pachové stopy mazlíčků (trus) jako odpuzovač fungují krátkodobě." } }
+    ]
   }]
 };
 
@@ -61,7 +69,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak se zbavit krtků na zahradě – co funguje a co ne</h1>
               <p className="article-lead">Krtek za den přelopatí 20 kg hlíny a zničí záhon který jsi pěstoval celé jaro. Existují humánní i méně humánní metody — tady je přehled co skutečně funguje.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-krtku" title="Jak se zbavit krtků na zahradě – co funguje a co ne 2026" />
             </header>
 

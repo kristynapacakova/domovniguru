@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vybrat-zahradni-gril#article",
     "headline": "Jak vybrat zahradní gril – plynový nebo uhlíkový",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vybrat zahradní gril", "plynový vs uhlíkový gril", "elektrický gril zahrada", "výběr grilu zahrada", "zahradní gril srovnání"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vybrat-zahradni-gril#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu grilovat na balkoně?", "acceptedAnswer": { "@type": "Answer", "text": "Elektrický gril na balkoně je ve většině případů povolen — bez kouře a otevřeného ohně. Uhlíkový gril na balkoně je ve většině bytových domů zakázán a navíc nebezpečný (CO, požár). Plynový gril na balkoně — zkontroluj domovní řád. Vždy informuj sousedy a buď ohleduplný ke kouři." } },
+      { "@type": "Question", "name": "Uhlíkový nebo plynový – co si vybrat?", "acceptedAnswer": { "@type": "Answer", "text": "Uhlíkový: lepší chuť, nižší cena, ale více práce s rozpalem a čistěním. Plynový: rychlý start, snadné čistění, přesná regulace, ale dražší a chuť o trochu horší. Pokud grilujete 1–2× měsíčně v létě a máte čas — uhlíkový. Pokud grilujete každý víkend nebo během týdne — plynový za jeho pohodlnost se vyplatí." } },
+      { "@type": "Question", "name": "Jak bezpečně skladovat propanbutanovou lahev?", "acceptedAnswer": { "@type": "Answer", "text": "Vždy venku nebo v dobře větraném prostoru — nikdy ve skladu nebo garáži bez ventilace. Plyny jsou těžší než vzduch a hromadí se u podlahy. Lahev uchovej stojatě, mimo dosah tepla a slunce. Uzavři ventil lahve po každém grilování. Nikdy neskladuj lahev v uzavřeném automobilu." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vybrat zahradní gril – plynový, uhlíkový nebo elektrický</h1>
               <p className="article-lead">Výběr grilu závisí na tom kde grilujete, jak často a co od grilování očekáváte. Každý typ má své kouzlo a své kompromisy — tady je přehled bez marketingového tlachání.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-zahradni-gril" title="Jak vybrat zahradní gril – plynový nebo uhlíkový" />
             </header>
 

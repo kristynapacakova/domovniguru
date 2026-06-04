@@ -10,7 +10,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Kolik barvy potřebuji?", description: "Vzorec, tabulka spotřeby a tipy." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji#article", "headline": "Kolik barvy potřebuji? Kalkulačka + vzorec", "datePublished": "2025-01-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["kolik barvy potřebuji", "kalkulačka barvy", "spotřeba barvy na m2", "výpočet barvy na zeď"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji#article", "headline": "Kolik barvy potřebuji? Kalkulačka + vzorec", "datePublished": "2025-01-20T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["kolik barvy potřebuji", "kalkulačka barvy", "spotřeba barvy na m2", "výpočet barvy na zeď"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jaký je základní vzorec pro výpočet barvy?", "acceptedAnswer": { "@type": "Answer", "text": "Množství barvy (l) = plocha stěn (m²) ÷ vydatnost barvy (m²/l) × počet vrstev. Vydatnost najdeš na plechovce – počítej vždy s nižší hodnotou z rozsahu pro realistický odhad." } },
+      { "@type": "Question", "name": "Co je vydatnost barvy a kde ji najdu?", "acceptedAnswer": { "@type": "Answer", "text": "Vydatnost udává, kolik m² pokryje 1 litr barvy při jedné vrstvě. Je uvedena na plechovce jako rozmezí (např. 8–12 m²/l). Na hrubší podklady a tmavší barvy počítej s nižší hodnotou." } },
+      { "@type": "Question", "name": "Musím vždy odečítat okna a dveře?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na velikosti. Standardní dveře (1,8 m²) a větší okna odečítej. Malé okno pod 0,5 m² přeskoč – slouží jako přirozená rezerva. U místností s panoramatickými okny úspora může být 15–20 %." } },
+      { "@type": "Question", "name": "O kolik procent koupit barvy navíc jako rezervu?", "acceptedAnswer": { "@type": "Answer", "text": "Vždy alespoň 10 %. Barva ze dvou různých šarží se může mírně lišit odstínem, proto je lepší mít dost z jedné šarže. Zbytek barvy uchovávej v uzavřené nádobě – vydrží 2–3 roky." } },
+      { "@type": "Question", "name": "Je výhodnější koupit velké nebo malé balení barvy?", "acceptedAnswer": { "@type": "Answer", "text": "Velká balení (10 l kbelík) jsou obvykle o 20–30 % levnější na litr než dvě malá balení. Pokud potřebuješ více než 5 litrů, vždy se vyplatí koupit větší balení." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -40,7 +52,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Kolik barvy potřebuji? Kalkulačka + vzorec</h1>
               <p className="article-lead">Zbývající půllitr barvy v koutě skladu nebo naopak druhá cesta do obchodu uprostřed malování — obojí se dá snadno vyhnout. Tady je přesný výpočet.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}

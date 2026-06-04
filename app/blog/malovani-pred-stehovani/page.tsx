@@ -10,7 +10,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak vymalovat byt před stěhováním", description: "Průvodce a načasování. Malovat před nebo po stěhování?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#article", "headline": "Jak vymalovat byt před stěhováním – průvodce a načasování", "datePublished": "2025-02-22T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat před stěhováním", "malování prázdného bytu", "jak vymalovat byt", "malování při stěhování"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#article", "headline": "Jak vymalovat byt před stěhováním – průvodce a načasování", "datePublished": "2025-02-22T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat před stěhováním", "malování prázdného bytu", "jak vymalovat byt", "malování při stěhování"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je vždy lepší malovat před stěhováním?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud situace dovolí. V prázdném bytě malíš 2–3× rychleji, dostaneš se ke každé části zdi a eliminuješ riziko poškrábání nábytku čerstvou barvou. Výjimkou je situace bez přechodného ubytování." } },
+      { "@type": "Question", "name": "Jak dlouho musí barva schnout před nastěhováním?", "acceptedAnswer": { "@type": "Answer", "text": "Barva je suchá na dotek za 1–2 hodiny, ale plnou pevnost získá za 48–72 hodin. Ideálně nastěhuj nábytek nejdříve 48 hodin po poslední vrstvě. Dřív hrozí otlačení a poškrábání nové barvy." } },
+      { "@type": "Question", "name": "V jakém pořadí malovat místnosti v novém bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Začni od místností, které budeš potřebovat první: ložnice (kde budeš spát první noc), pak obývák a kuchyň. Chodbu maluj nakonec – je průchozí a rychle se ušpiní." } },
+      { "@type": "Question", "name": "Musím v prázdném bytě dávat penetraci?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na stavu stěn. Pokud byt nebyl malován roky, jsou na stěnách skvrny nebo byl odstraněn starý nátěr, penetrace je nutná. Na normálně malované zdi v dobrém stavu ji lze přeskočit." } },
+      { "@type": "Question", "name": "Kolik barvy potřebuji na průměrný dvoupokojový byt?", "acceptedAnswer": { "@type": "Answer", "text": "Orientačně 15–20 litrů na dvě vrstvy (záleží na výšce stropu a počtu oken). Pro přesný výpočet zadej rozměry každé místnosti do kalkulačky barvy – dostaneš litry pro každou místnost zvlášť." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -39,7 +51,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vymalovat byt před stěhováním – průvodce a načasování</h1>
               <p className="article-lead">Prázdný byt se maluje třikrát rychleji než zařízený. Žádné stěhování nábytku, žádné zakrývání, dokonalý přístup ke každé stěně. Tenhle článek ti ukáže, jak to udělat chytře – s správným načasováním a pořadím místností.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

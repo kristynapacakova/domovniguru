@@ -10,7 +10,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak odstranit starou barvu ze zdi", description: "Škrabka, teplo nebo chemie?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu#article", "headline": "Jak odstranit starou barvu ze zdi", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit starou barvu", "stará barva ze zdi", "teplovzdušná pistole barva", "chemický odstraňovač barvy"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu#article", "headline": "Jak odstranit starou barvu ze zdi", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak odstranit starou barvu", "stará barva ze zdi", "teplovzdušná pistole barva", "chemický odstraňovač barvy"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Musím vždy odstraňovat starou barvu před přemalováním?", "acceptedAnswer": { "@type": "Answer", "text": "Ne. Pokud stará barva drží pevně, neloupl se a povrch je rovný, stačí přebrousit a přemalovat. Odstraňování má smysl jen při odlupování, příliš silných vrstvách nebo špatném podkladu." } },
+      { "@type": "Question", "name": "Je teplovzdušná pistole bezpečná na omítku?", "acceptedAnswer": { "@type": "Answer", "text": "Ne. Přehřátí omítky způsobuje praskání. Teplovzdušnou pistoli používej pouze na dřevo, kov a silné vrstvy barvy na hladkých plochách. Na omítku použij spíše chemický odstraňovač." } },
+      { "@type": "Question", "name": "Jak zjistím, zda barva ve starém domě obsahuje olovo?", "acceptedAnswer": { "@type": "Answer", "text": "Domy stavěné před rokem 1978 mohou mít olovnaté nátěry. Testy na olovo jsou dostupné v hobby marketech (~200 Kč). Pokud je test pozitivní, odstraňování svěř odborné firmě – nevyužívej tepelnou metodu." } },
+      { "@type": "Question", "name": "Co musím udělat po odstranění barvy, než začnu malovat?", "acceptedAnswer": { "@type": "Answer", "text": "Přebrousit jemným papírem (P150–P180), setřít prach vlhkým hadrem, opravit díry a škrábance tmelem a po zaschnutí nanést penetraci. Bez penetrace barva špatně přilne na holou omítku." } },
+      { "@type": "Question", "name": "Jaká metoda je nejrychlejší na velké plochy?", "acceptedAnswer": { "@type": "Answer", "text": "Teplovzdušná pistole je na velkých hladkých plochách nejrychlejší – změkčí barvu, která jde pak snadno seškrábat. Na tvarované plochy, lišty a rohy je praktičtější chemický odstraňovač." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak malovat zeď – průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -40,7 +52,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak odstranit starou barvu ze zdi</h1>
               <p className="article-lead">Ne každou starou barvu musíš odstraňovat — ale když se loupe, praskla nebo je příliš silná, nová barva na ní dobře nepřilne. Tady je jak na to správnou metodou.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}

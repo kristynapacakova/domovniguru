@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#article",
     "headline": "Jak namazat dveře aby nevrzaly – čím a jak na to 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak namazat dveře", "vrzající dveře", "čím namazat závěsy dveří", "jak odstranit vrzání dveří", "WD-40 dveře závěsy"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Pomáhá WD-40 na vrzající dveře?", "acceptedAnswer": { "@type": "Answer", "text": "Krátkodobě ano — WD-40 uvolní rez, odstraní nečistoty a dveře přestanou vrzat. Ale WD-40 je primárně odrezovač a ředidlo, ne trvalé mazivo. Po 1–3 měsících vyprchá a vrzání se vrátí. Pro trvalé řešení použij silikonový sprej nebo grafitový prášek po prvním ošetření WD-40." } },
+      { "@type": "Question", "name": "Vrzají mi nové dveře — proč?", "acceptedAnswer": { "@type": "Answer", "text": "Nové dveře mohou vrzat pokud jsou závěsy suchem nebo pokud nejsou správně seřízené (dveře se lehce třou o zárubeň). Moderní závěsy bývají nastavitelné (výška, hloubka, stranový posuv) — seřídit malým šroubem. Pokud nastavení nepomáhá, reklamuj montáž." } },
+      { "@type": "Question", "name": "Jak namazat dveře bez sundávání závěsů?", "acceptedAnswer": { "@type": "Answer", "text": "Jednoduše — nanese mazivo přímo přes otevřené dveře na viditelný čep závěsu (trubičkový aplikátor WD-40 nebo silikonového spreje). Dveře otevři do 90° pro přístup k čepu. Nemusíš závěsy sundávat — mazivo pronikne kapilárně do mezery mezi čepem a objímkou pohybem dveří." } }
+    ]
   }]
 };
 
@@ -61,7 +69,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak namazat dveře aby nevrzaly – čím a jak na to</h1>
               <p className="article-lead">Vrzající dveře jsou otravné ale snadná oprava — trvá 5 minut a přípravek za pár desítek korun máš doma nebo ho koupíš v každém hobbymarketu. Tady je co přesně použít.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly" title="Jak namazat dveře aby nevrzaly – čím a jak na to 2026" />
             </header>
 

@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/dum-priprava-na-leto#article",
     "headline": "Příprava domu na léto – co zkontrolovat na jaře 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["příprava domu na léto", "jarní checklist dům", "co zkontrolovat na jaře dům", "jarní údržba domu", "příprava domu jaro"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/dum-priprava-na-leto#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy nejlépe udělat jarní prohlídku domu?", "acceptedAnswer": { "@type": "Answer", "text": "Duben a první polovina května jsou ideální. Počasí je stabilní, řemeslníci méně vytížení a před hlavní sezónou máš čas opravit problémy. Nezačínej v únoru nebo březnu — mráz stále hrozí a barvy a silikony neschnou správně pod 10 °C." } },
+      { "@type": "Question", "name": "Co udělat s domem před dovolenou v létě?", "acceptedAnswer": { "@type": "Answer", "text": "Uzavři přívod vody (nebo alespoň k pračce a myčce). Vypni bojler nebo nastavit na minimum. Uzavři okna a zatemni žaluzie (zabrání přehřívání). Nastav závlahu zahrady na timer. Požádej souseda o kontrolu. Vytáhni zástrčky nepotřebných spotřebičů. Nezapomeň na klimatizaci — vypni nebo nastav na ekonomický mód." } },
+      { "@type": "Question", "name": "Jak ochránit dům před letními bouřkami?", "acceptedAnswer": { "@type": "Answer", "text": "Vyčistit okapy a svody pro volný odtok vody. Zkontrolovat střechu a opravit uvolněné tašky. Prořezat stromy u domu (větev na střeše při bouřce = tisíce korun škody). Zkontrolovat hromosvod. Pojistit si dům pro případ přírodní katastrofy pokud ještě nemáš." } }
+    ]
   }]
 };
 
@@ -62,7 +70,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Příprava domu na léto – co zkontrolovat na jaře</h1>
               <p className="article-lead">Jaro je ideální čas na revizi domu po zimě a přípravu na letní provoz. Pár hodin dnes ušetří tisíce korun na opravách v létě nebo podzim.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/dum-priprava-na-leto" title="Příprava domu na léto – co zkontrolovat na jaře 2026" />
             </header>
 

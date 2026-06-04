@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup#article",
     "headline": "Jak zavlažovat zahradu – ruční i automatická závlaha 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak zavlažovat zahradu", "automatická závlaha zahrada", "zavlažování trávníku", "kapková závlaha", "kdy zalévat zahradu", "závlaha postup"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik litrů vody potřebuje zahrada denně?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na typu rostlin a počasí. Trávník: 20–30 l/m² za týden. Zelenina: 10–20 l/m² za týden. Stromy: 30–50 l za zálivku. V horkém létě (nad 30 °C) potřeba stoupá o 50 %. Nejspolehlivější je test půdy prstem nebo vlhkoměrem." } },
+      { "@type": "Question", "name": "Je lepší dešťová nebo vodovodní voda?", "acceptedAnswer": { "@type": "Answer", "text": "Dešťová voda je pro rostliny lepší — má přirozené pH, neobsahuje chlor a je teplejší než vodovodní voda. Pokud máš možnost sbírat dešťovku do sudu, rozhodně to doporučujeme. Sníží i spotřebu vody a účet za vodné." } },
+      { "@type": "Question", "name": "Jak poznat že zahradu zaléváme příliš?", "acceptedAnswer": { "@type": "Answer", "text": "Příznaky přezalití: žloutnoucí listy (i přes dostatek světla), hniloba kořenů, plesnivá půda, opadávání listů. Půda by mezi zálivkami měla mírně oschnout — stále vlhká půda bez přestávky signalizuje přezalití." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak zavlažovat zahradu – ruční i automatická závlaha</h1>
               <p className="article-lead">Špatné zalévání zabije rostliny stejně spolehlivě jako sucho. Příliš mnoho vody = hniloba kořenů, příliš málo = stres a slabý růst. Tady je jak zalévat správně — a jestli se automatická závlaha vyplatí.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zavlaha-zahrada-postup" title="Jak zavlažovat zahradu – ruční i automatická závlaha 2026" />
             </header>
 

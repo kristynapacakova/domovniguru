@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#article",
     "headline": "Jak vyměnit staré dveře – výběr, montáž a záruby 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vyměnit dveře", "výměna dveří byt", "zárubeň dveře výměna", "montáž dveří postup", "dveře obložková zárubeň", "výběr interiérových dveří"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu vyměnit dveře sám bez odborníka?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna dveřního křídla (do existující záruby) zvládneš sám — odstraníš staré závěsy, nasadíš nové dveře a seřídíš. Výměna záruby je náročnější ale stále proveditelná pro šikovného kutila s vodováhou a trpělivostí. Vyměnit ocelovou zárubeň v nosné zdi je práce pro odborníka." } },
+      { "@type": "Question", "name": "Jak dlouho trvá výměna dveří?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna jen křídla do existující záruby: 30–60 minut. Výměna dveří i obložkové záruby (DIY): půl dne až celý den. Profesionální montáž jedněch dveří včetně záruby: 2–4 hodiny. Bourání staré ocelové záruby a instalace nové: celý pracovní den." } },
+      { "@type": "Question", "name": "Jak vybrat správnou výšku a šířku dveří?", "acceptedAnswer": { "@type": "Answer", "text": "Standard v ČR: výška 1 970 nebo 2 020 mm (světlý rozměr), šířka 600–900 mm. Pro ložnici a dětský pokoj: 700–800 mm. Pro koupelnu: 600–700 mm. Pro obývák a hlavní průchody: 800–900 mm. Změř světlý rozměr existujících dveří jako základ." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vyměnit staré dveře – výběr, montáž a záruby</h1>
               <p className="article-lead">Výměna dveří je jedna z nejefektivnějších renovací — promění celý charakter místnosti za jeden den. Zárubeň nebo obložka, posuvné nebo otočné — tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vymenit-stare-dvere" title="Jak vyměnit staré dveře – výběr, montáž a záruby 2026" />
             </header>
 

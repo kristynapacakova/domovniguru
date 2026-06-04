@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/malovat-jen-stetcem#article",
     "headline": "Jak malovat jen štětcem – rohy, lišty a detaily bez válce 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["malovat štětcem rohy", "jak malovat štětcem", "malování rohů stěny", "štětec vs váleček", "malování lišt štětcem", "technika malování štětcem"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/malovat-jen-stetcem#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Lze namalovat celý pokoj jen štětcem?", "acceptedAnswer": { "@type": "Answer", "text": "Technicky ano, ale je to mnohonásobně pomalejší a výsledek bývá méně rovnoměrný. Váleček aplikuje barvu rychleji a rovnoměrněji bez stop po nástroici. Štětcem celý pokoj zvládneš za 4–6 hodin, válečkem za 1–2 hodiny. Výjimka: velmi malé místnosti nebo specifické dekorativní techniky (efektová barva, lazura)." } },
+      { "@type": "Question", "name": "Jak se zbavit stop po štětinaách?", "acceptedAnswer": { "@type": "Answer", "text": "Stopy po štětinaách vznikají z přeplněného štětce, špatné kvality štětce nebo malování přes zaschlou vrstvu. Řešení: méně barvy na štětci, kvalitnější štětec (syntetické štětiny Purdy nebo Wooster), maluj vždy do mokré vrstvy. Případné stopy po zaschnutí lehce přebrousit jemným papírem (180) a přemalovat." } },
+      { "@type": "Question", "name": "Kdy sundat malířskou pásku?", "acceptedAnswer": { "@type": "Answer", "text": "Ideálně dokud je barva ještě mírně vlhká — po 30–60 minutách od nanášení. Sundej pomalu pod úhlem 45° od čáry. Pokud pásku sundáš po úplném zaschnutí, může strhnout barvu se sebou. Pokud barva ještě schne a pásku sundáš příliš brzy, může se rozmazat." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak malovat jen štětcem – rohy, lišty a detaily bez válce</h1>
               <p className="article-lead">Váleček je král velkých ploch, ale rohy, lišty a detaily mu vzdorují. Správná technika štětcem je klíč ke krásnému výsledku bez ostrých přechodů a přetahování.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/malovat-jen-stetcem" title="Jak malovat jen štětcem – rohy, lišty a detaily bez válce 2026" />
             </header>
 

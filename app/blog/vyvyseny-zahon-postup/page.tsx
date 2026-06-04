@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#article",
     "headline": "Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026",
     "datePublished": "2026-04-16T08:00:00Z",
-    "dateModified": "2026-04-16T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak postavit vyvýšený záhon", "vyvýšený záhon dřevěný", "vyvýšený záhon postup", "substrát vyvýšený záhon", "vyvýšený záhon rozměry"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho vydrží dřevěný vyvýšený záhon?", "acceptedAnswer": { "@type": "Answer", "text": "Impregnovaná borovice vydrží 5–8 let, modřín 10–15 let, akát 20+ let bez impregnace. Pro záhon s jedlými rostlinami nepoužívej chemicky impegnované dřevo (kreosot, CCA) — volitelné jsou pouze přírodní oleje nebo lněný olej. Geotextilie na vnitřní straně záhonu prodlouží životnost dřeva o 2–3 roky." } },
+      { "@type": "Question", "name": "Musím vyměňovat substrát každý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — substrát vydrží 3–5 let. Každé jaro přidej 5–10 cm čerstvého kompostu navrch a přidej pomalu uvolňující hnojivo. Po 3–5 letech substrát prosej, vyjmi kořeny a doplň čerstvou zeminou. Spodní vrstvy (větve, kompost) průběžně hnijí — záhon se každý rok mírně snižuje, doplňuj substrátem." } },
+      { "@type": "Question", "name": "Kolik stojí vybudování vyvýšeného záhonu?", "acceptedAnswer": { "@type": "Answer", "text": "Dřevěný záhon 120×240 cm: prkna 500–1 500 Kč, substrát (400 l) 800–2 000 Kč, kompost (200 l) vlastní nebo 500–1 000 Kč, geotextilie 150–300 Kč. Celkem 2 000–5 000 Kč. Hotový kovový nebo plastový záhon stojí 1 500–8 000 Kč bez substrátu." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak postavit vyvýšený záhon – dřevěný nebo z betonu</h1>
               <p className="article-lead">Vyvýšený záhon je nejlepší investice do zahrady — rychleji prohřátá půda, žádné klečení, snazší údržba a 2–3× vyšší výnosy než v záhoně na zemi. Za víkend máš hotovo.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 16. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vyvyseny-zahon-postup" title="Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026" />
             </header>
 

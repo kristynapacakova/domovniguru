@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje#article",
     "headline": "Barvy do dětského pokoje – jak vybrat bezpečné a správné 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["barvy do dětského pokoje", "bezpečné barvy pro děti", "barvy bez VOC dětský pokoj", "jakou barvu do dětského pokoje", "dětský pokoj barva stěny"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy po malování může dítě spát v pokoji?", "acceptedAnswer": { "@type": "Answer", "text": "Minimálně 48 hodin po vymalování, ideálně 72 hodin. Tuto dobu větr s otevřenými okny. Pro kojence a alergiky doporučujeme týden. Low VOC barvy mají výrazně méně zápachu a emisí — ale přesto větrání doporučujeme." } },
+      { "@type": "Question", "name": "Jaká barva pomáhá dětem lépe spát?", "acceptedAnswer": { "@type": "Answer", "text": "Světlá modrá, levandulová a světlé pastelové zelené jsou nejlepší pro spánek. Věda potvrzuje že modré tóny snižují srdeční tep a podporují relaxaci. Červená, oranžová a jasná žlutá naopak spánek narušují. Pro nejlepší výsledek kombinuj uklidňující barvu stěn s tmavými závěsy (blackout)." } },
+      { "@type": "Question", "name": "Smím dát výraznou barvu do dětského pokoje?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale s mírou. Výrazná barva jako akcent (jedna stěna, nábytek) je v pořádku. Čtyři výrazně červené nebo tmavě fialové stěny mohou být pro dítě přestimulující nebo rušivé. Pokud dítě trvá na výrazné barvě, nabídni kompromis — jedna akcentní stěna." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Barvy do dětského pokoje – jak vybrat bezpečné a správné</h1>
               <p className="article-lead">Barvy v dětském pokoji ovlivňují náladu, soustředění i kvalitu spánku. A ne každá barva je pro děti bezpečná. Tady je jak vybrat správně — bezpečně i esteticky.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje" title="Barvy do dětského pokoje – jak vybrat bezpečné a správné 2026" />
             </header>
 

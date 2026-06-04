@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy#article",
     "headline": "Jak stříhat ovocné stromy – kdy a jak správně řezat 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak stříhat ovocné stromy", "řez jabloně", "řez hrušně", "kdy stříhat ovocné stromy", "zimní řez ovocných stromů", "tvarování ovocného stromu"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu ostříhat stromy které nikdo nestříhal 10 let?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale postupně — radikální řez najednou strom oslabí nebo zahubí. Omlazovací řez provádět přes 2–3 roky: první rok odstraň největší přebytečné větve, druhý rok prosvětli, třetí rok finální tvarování. Stromy reagují na silný řez tvorbou husté spleti vlků (silné svislé výhony) — tyto průběžně odstraňovat." } },
+      { "@type": "Question", "name": "Co jsou vlci na stromech a co s nimi?", "acceptedAnswer": { "@type": "Answer", "text": "Vlci (vlkové výhony) jsou silné svislé výhony které vyrůstají po silném řezu nebo z kořenů. Nenesou plody, jen odebírají energii stromu. Odstraňovat co nejdříve (v létě vylomit, v zimě odříznout). Pokud je vlk v dobrém místě, lze ho tvarováním proměnit v plodnou větev — ohnutím do vodorovné polohy." } },
+      { "@type": "Question", "name": "Stříhat stromky při mrazu nebo ne?", "acceptedAnswer": { "@type": "Answer", "text": "Při lehkém mrazu (do -5 °C) řez nevadí jabloni a hrušni. Při silnějším mrazu (pod -10 °C) řezy špatně hojí a strom je více náchylný na choroby — počkej na teplejší den. Švestky, třešně a meruňky nestříhat za mrazu nikdy — raději počkat na jaro nebo léto po sklizni." } }
+    ]
   }]
 };
 
@@ -60,7 +68,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak stříhat ovocné stromy – kdy a jak správně řezat</h1>
               <p className="article-lead">Pravidelný řez ovocných stromů je základ dobré sklizně. Nestříhaný strom zaroste, plodí méně a plody jsou menší. Přitom základní řez zvládne každý zahrádkář.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy" title="Jak stříhat ovocné stromy – kdy a jak správně řezat 2026" />
             </header>
 

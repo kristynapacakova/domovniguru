@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/pece-o-septik-zumpu#article",
     "headline": "Jak pečovat o septik a žumpu – frekvence vyvážení a péče 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["péče o septik", "vyvážení žumpy", "jak často vyvážet septik", "septik žumpa rozdíl", "bakterie do septiku", "čistička odpadních vod dům"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-septik-zumpu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak poznám že je žumpa nebo septik plný?", "acceptedAnswer": { "@type": "Answer", "text": "Signály plné žumpy: zpomalené odtékání vody v domácnosti, bublání v záchodech a odpadech, zápach v okolí nádrže. Zaplněný septik: voda se vrací nebo odtéká velmi pomalu, plísňový nebo shnilý zápach v blízkosti filtračního pole. Vizuální kontrola: otevři vstupní otvor a zkontroluj hladinu." } },
+      { "@type": "Question", "name": "Musím mít povolení k provozu septiku nebo žumpy?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — žumpa i septik musí být v souladu s místními předpisy a vodním zákonem. Žumpa musí být vodotěsná a vyvážení musí být doloženo dokladem od oprávněné firmy (při kontrole inspekce). Septik a domácí ČOV vyžadují povolení k vypouštění odpadních vod do půdy nebo vodoteče (vydává obecní úřad nebo vodoprávní úřad)." } },
+      { "@type": "Question", "name": "Vyplatí se vyměnit starou žumpu za domácí ČOV?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na frekvenci vyvážení. Pokud vyvážíš žumpu 4× ročně po 2 500 Kč = 10 000 Kč/rok. Domácí ČOV pořizovací náklady 100 000–200 000 Kč, roční provoz (servis + elektřina + odvoz kalu) 5 000–8 000 Kč. Návratnost: 10–20 let. Ekologicky i provozně výhodnější — ale pořizovací investice je vysoká." } }
+    ]
   }]
 };
 
@@ -53,7 +61,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pečovat o septik a žumpu – frekvence vyvážení a péče</h1>
               <p className="article-lead">Zanedbaná žumpa nebo septik jsou nejdražší a nejzapáchanější problém domu. Přitom pravidelná péče stojí zlomek ceny havárie nebo pokuty od inspekce.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/pece-o-septik-zumpu" title="Jak pečovat o septik a žumpu – frekvence vyvážení a péče 2026" />
             </header>
 

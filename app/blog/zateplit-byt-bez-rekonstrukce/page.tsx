@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#article",
     "headline": "Jak zateplit byt bez rekonstrukce – levná řešení 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak zateplit byt bez rekonstrukce", "zateplení bytu levně", "těsnění oken", "tepelné ztráty byt", "jak ušetřit na topení byt", "reflexní fólie radiátor"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik ušetřím na vytápění bez rekonstrukce?", "acceptedAnswer": { "@type": "Answer", "text": "Kombinací těsnění oken, prahové lišty, reflexní fólie a termostatických hlavic lze reálně ušetřit 15–25 % nákladů na vytápění. Při průměrném účtu 30 000 Kč/rok jde o 4 500–7 500 Kč ročně. Nejlevnější opatření (zimní nastavení kování, těsnicí páska) se vrátí za první topnou sezónu." } },
+      { "@type": "Question", "name": "Pomáhá zateplovací fólie na okna?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, transparentní zateplovací fólie na rámeček okna zevnitř vytváří vzduchovou mezeru a snižuje tepelné ztráty oknem o 30–50 %. Pro starší jednoskla je to výrazný přínos. Pro moderní trojskla je přínos menší. Cena 200–500 Kč na okno a montáž 30 minut — dobrý poměr cena/výkon." } },
+      { "@type": "Question", "name": "Mohu zateplit byt v pronájmu?", "acceptedAnswer": { "@type": "Answer", "text": "Všechna opatření v tomto článku jsou reverzibilní — těsnicí pásku lze odlepit, reflexní fólii vyjmout, závěsy sundat. Žádné z těchto opatření nevyžaduje souhlas pronajímatele. Pokud chceš udělat trvalejší úpravy (výměna oken, zateplení stěn), potřebuješ souhlas majitele." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak zateplit byt bez rekonstrukce – levná řešení</h1>
               <p className="article-lead">Nechceš bourat ani utrácet desítky tisíc za zateplení? Existují levná opatření která sníží tepelné ztráty o 15–25 % — bez řemeslníků, bez povolení a většinou za víkend.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce" title="Jak zateplit byt bez rekonstrukce – levná řešení 2026" />
             </header>
 

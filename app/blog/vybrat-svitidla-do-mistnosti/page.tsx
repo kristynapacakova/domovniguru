@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti#article",
     "headline": "Jak vybrat svítidla do místnosti",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vybrat svítidla", "teplota světla Kelvin", "LED svítidla výběr", "osvětlení do místnosti", "svítidla obývák ložnice", "příkon LED žárovky"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jakou teplotu světla vybrat do ložnice?", "acceptedAnswer": { "@type": "Answer", "text": "Do ložnice patří teplá bílá 2 700 K — připomíná světlo svíček a napomáhá produkci melatoninu (spánkového hormonu). Studená bílá (4 000 K+) v ložnici narušuje spánek. Ideálně kombinuj stropní svítidlo 2 700 K s nočními lampičkami které lze ztlumit nebo vypnout ze lůžka." } },
+      { "@type": "Question", "name": "Co znamená IP44 u svítidel do koupelny?", "acceptedAnswer": { "@type": "Answer", "text": "IP44 znamená ochranu proti vstřikující vodě ze všech stran. V koupelně jsou definovány zóny 0, 1, 2 a 3 — v zóně 0 (uvnitř vany) musí být min. IP67, v zóně 1 (nad vanou do výšky 2,25 m) min. IP45, v zóně 2 (60 cm od vany) min. IP44. Mimo tyto zóny stačí standardní svítidla." } },
+      { "@type": "Question", "name": "Kolik svítidel dát do místnosti?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na typu. Bodová svítidla: 1 ks na 1–2 m² pro rovnoměrné osvětlení. Lustr: 1 ks do středu místnosti stačí jako hlavní světlo. Doplňkové osvětlení (lampy, apliky): 2–4 ks podle velikosti místnosti. Čím více zdrojů světla (i méně výkonných), tím příjemnější a flexibilnější osvětlení." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vybrat svítidla do místnosti – teplota světla, příkon, typy</h1>
               <p className="article-lead">Špatné osvětlení unavuje oči, kazí náladu a zvyšuje účet za elektřinu. Správná kombinace svítidel a teploty světla promění každou místnost — bez rekonstrukce a za rozumné peníze.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" title="Jak vybrat svítidla do místnosti" />
             </header>
 

@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/natrit-venkovni-drevo#article",
     "headline": "Jak natřít venkovní dřevo – lazura, olej nebo lak 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak natřít venkovní dřevo", "lazura na dřevo", "olej na terasu", "ochrana venkovního dřeva", "lak na venkovní dřevo", "impregnace dřeva"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/natrit-venkovni-drevo#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu natřít mokré dřevo?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — vlhkost dřeva musí být pod 18–20 % (měřit vlhkoměrem dřeva). Mokré dřevo nepřijme přípravek správně a nátěr se brzy začne loupit nebo bublat. Po dešti čekej min. 48 hodin suchého počasí. Po tlakové vodě min. 72 hodin." } },
+      { "@type": "Question", "name": "Proč se nátěr loupl i když jsem postupoval správně?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: dřevo bylo příliš vlhké při nanášení, povrch nebyl dostatečně vyčištěn od starého nátěru nebo řas, nanesena příliš silná vrstva, nebo přípravek nanesen za přímého slunce (barva schla příliš rychle na povrchu a uzavřela vlhkost uvnitř). Loupající nátěr obrousit a začít znovu." } },
+      { "@type": "Question", "name": "Jaký je rozdíl mezi lazurou a mořidlem?", "acceptedAnswer": { "@type": "Answer", "text": "Lazura chrání i barví — obsahuje pigmenty, pojiva a UV filtry. Mořidlo pouze barví dřevo (jako barvivo) bez ochrany — po mořidle musíš nanést ochranu (lak, olej). Pro venkovní použití volte lazuru která kombinuje oboje, nebo mořidlo + lak dohromady." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak natřít venkovní dřevo – lazura, olej nebo lak</h1>
               <p className="article-lead">Nenatřené venkovní dřevo šediví, praská a hnije. Správná ochrana prodlouží životnost terasy, plotu nebo zahradního nábytku o 10–20 let. Výběr přípravku je přitom jednodušší než si myslíš.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/natrit-venkovni-drevo" title="Jak natřít venkovní dřevo – lazura, olej nebo lak 2026" />
             </header>
 

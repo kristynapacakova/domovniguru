@@ -9,7 +9,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#article", "headline": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "datePublished": "2025-03-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["péče o zahradní nástroje", "broušení nářadí", "čištění zahradního nářadí", "údržba lopaty", "mazání nářadí"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#article", "headline": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "datePublished": "2025-03-15T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["péče o zahradní nástroje", "broušení nářadí", "čištění zahradního nářadí", "údržba lopaty", "mazání nářadí"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak poznám, že zahradní nůžky potřebují nabrousit?", "acceptedAnswer": { "@type": "Answer", "text": "Ostré nůžky listy a stonky čistě řežou. Tupé listy spíše trhají, drtí a kloubí se na větvičce. Praktický test: zkus přestřihnout arch papíru – tupé nůžky papír mačkají místo řezu." } },
+      { "@type": "Question", "name": "Čím namazat zahradní nůžky a jak často?", "acceptedAnswer": { "@type": "Answer", "text": "Kapka strojního oleje nebo WD-40 na kloub po každém použití – zvláště po mytí vodou. Kovové části lopaty, motyky a hráb chraň lněným olejem před zimním uskladněním. Přemaz přitahuje prach, takže stačí tenká vrstva." } },
+      { "@type": "Question", "name": "Jak opravit uvolněný nebo zlomený dřevěný násad lopaty?", "acceptedAnswer": { "@type": "Answer", "text": "Uvolněný násad: zasaď a zajisti klín nebo šroub přes otvor v kovové hlavici. Zlomený: kup náhradní násad (80–200 Kč v zahradnictví), vyšroubuj staré zbytky a nahraď. Povolený násad oprav okamžitě – uvolněná hlavice ve švihu je vážné riziko úrazu." } },
+      { "@type": "Question", "name": "Proč silikonový sprej není vhodný na zahradní nářadí?", "acceptedAnswer": { "@type": "Answer", "text": "Silikonový sprej kontaminuje půdu a zhoršuje její strukturu. Používej ho pouze na části které se nedotýkají země (panty nůžek, osy). Na kovové díly lopatek, motyk a hráb používej místo silikonu lněný nebo řepkový olej." } },
+      { "@type": "Question", "name": "Jak skladovat nářadí přes zimu, aby nerezavělo?", "acceptedAnswer": { "@type": "Answer", "text": "Vyčisti, osuš, nabrousíš a promažeš lněným olejem. Skladuj zavěšené nebo ve stojanu – nikdy přímo na zemi (vzdušná vlhkost). Silikagel v uzavřeném kufříku s malým nářadím pohltí vlhkost i v nevytápěné kůlně." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
@@ -39,7 +51,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Zahradní nástroje – jak o ně pečovat, aby vydržely</h1>
               <p className="article-lead">Kvalitní lopata nebo nůžky vydrží celý život – pokud je po každém použití očistíš, občas nabrousíš a před zimou promaštíš. Většina nářadí nerezaví stářím, ale zanedbáním.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}

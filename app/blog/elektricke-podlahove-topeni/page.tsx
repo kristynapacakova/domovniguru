@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#article",
     "headline": "Elektrické podlahové topení – typy a instalace",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["elektrické podlahové topení", "topná rohož", "podlahové topení koupelna", "provozní náklady podlahové topení", "instalace podlahového topení", "topný kabel"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Lze elektrické podlahové topení nainstalovat pod plovoucí podlahu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — ale jen infračervenou fólii nebo speciální topný kabel určený pro plovoucí podlahy. Teplota podlahy musí být max. 27 °C aby nedocházelo k roztahování laminátové nebo vinylové podlahy. Topná rohož v tmelu pod plovoucí podlahu nepatří." } },
+      { "@type": "Question", "name": "Je elektrické podlahové topení bezpečné v koupelně?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — při správné instalaci je zcela bezpečné. Musí být zapojen proudový chránič (RCD) 30 mA, instalaci provede elektrikář, a rohož musí mít certifikaci pro mokré prostory. Topný kabel je zalitý v tmelu — není v přímém kontaktu s vodou." } },
+      { "@type": "Question", "name": "Mohu zapnout topení hned po pokládce dlažby?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — čekej minimálně 28 dní od pokládky dlažby. Tmel a spárovací hmota potřebují zaschnout bez tepla. Předčasné zapnutí způsobí nerovnoměrné schnutí, praskání spár a odlepení dlažby. Výjimka: výrobce udává kratší dobu — dodržuj jeho pokyny." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Elektrické podlahové topení – typy, instalace a provozní náklady</h1>
               <p className="article-lead">Teplá podlaha v koupelně je luxus který si dnes může dovolit skoro každý. Topná rohož do dlažby stojí 2 000–5 000 Kč a provoz vyjde na 200–600 Kč měsíčně. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" title="Elektrické podlahové topení – typy a instalace" />
             </header>
 

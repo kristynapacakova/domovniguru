@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie#article",
     "headline": "Auto na zimu – jak připravit karoserii a chránit před rzí 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["auto na zimu karoserie", "ochrana karoserie před rzí", "ošetření podvozku zima", "vosk na auto podzim", "zimní příprava auta", "ochrana prahů auta"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy nejlépe připravit auto na zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Říjen je ideální — před prvním sněhem a posypem. Vosk a dutinová ochrana potřebují suchý a teplý den (min. 10 °C) pro správné zatvrdnutí. Nenechávej to na první mráz — pak je pozdě a auto jezdí celou zimu nechráněné." } },
+      { "@type": "Question", "name": "Je lepší mýt auto v zimě nebo nenechat sůl na karoserii?", "acceptedAnswer": { "@type": "Answer", "text": "Mýt — a to co nejčastěji. Sůl na karoserii urychluje korozi, zejména v místech kde se voda drží (prahy, podvozek). Mýt auto každé 2–3 týdny v zimě je ideální. Oblíbená myšlenka \"počkám na konec zimy\" způsobuje, že sůl pracuje celou sezónu bez přerušení." } },
+      { "@type": "Question", "name": "Kolik stojí ochrana podvozku a dutinová konzervace v servisu?", "acceptedAnswer": { "@type": "Answer", "text": "Dutinová konzervace: 500–1 500 Kč (závisí na velikosti auta). Podvozková ochrana: 500–2 000 Kč. Kompletní zimní konzervace (dutiny + podvozek + mytí): 1 500–4 000 Kč. DIY produkty (Dinitrol, Tectyl) vyjdou na 300–800 Kč za materiál — aplikace zvládneš sám po mytí auta." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Auto na zimu – jak připravit karoserii a chránit před rzí</h1>
               <p className="article-lead">Sůl na silnicích je největší nepřítel karoserie. Každá zima bez přípravy zkracuje život auta o rok. Tady je co udělat na podzim aby auto přežilo zimu bez koroze.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/auto-na-zimu-karoserie" title="Auto na zimu – jak připravit karoserii a chránit před rzí 2026" />
             </header>
 

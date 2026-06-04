@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/michani-barev-ral-ncs#article",
     "headline": "Míchání barev RAL a NCS – průvodce odstíny",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["míchání barev RAL", "NCS barevný systém", "jak namíchat barvu", "RAL kód barva", "NCS kód barva", "namíchaná barva prodejna"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/michani-barev-ral-ncs#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu namíchat jakoukoli barvu dle fotky?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — míchací stroje v hobbymarketech dokážou namíchat tisíce odstínů. Přines vzor barvy (kus materiálu, dřevo, kov) nebo fotku — technik pomocí spektrofotometru změří přesný odstín a namíchá ho. Výsledek se může mírně lišit od originálu kvůli různým povrchům a podmínkám." } },
+      { "@type": "Question", "name": "Proč vypadá namíchaná barva jinak než na monitoru?", "acceptedAnswer": { "@type": "Answer", "text": "Monitory zobrazují barvy světlem (RGB), barvy na stěně odrážejí světlo (CMYK/pigmenty). Každý monitor je kalibrovaný jinak. Proto nikdy nevybírej barvu podle monitoru — vždy fyzický vzorník nebo RAL/NCS kód. Tiskárny a monitory nikdy nereproducují barvy 100% přesně." } },
+      { "@type": "Question", "name": "Je RAL a Pantone totéž?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — jsou to různé barevné systémy pro různá odvětví. Pantone je americký systém primárně pro tisk a grafický design. RAL je evropský systém pro průmyslové nátěry, fasády a výrobní procesy. NCS je švédský systém pro architekturu a design. Hobbymarkety míchají RAL a NCS, ne Pantone." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Míchání barev RAL a NCS – jak vybrat a namíchat přesný odstín</h1>
               <p className="article-lead">Viděl jsi barvu na webu, v katalogu nebo na sousedově fasádě a chceš přesně tu samou? RAL nebo NCS kód ti zaručí identický odstín — kdekoli na světě a kdykoli.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/michani-barev-ral-ncs" title="Míchání barev RAL a NCS – průvodce odstíny" />
             </header>
 

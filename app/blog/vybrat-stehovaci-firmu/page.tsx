@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vybrat-stehovaci-firmu#article",
     "headline": "Jak vybrat stěhovací firmu – na co si dát pozor 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vybrat stěhovací firmu", "stěhovací firma doporučení", "cena stěhování", "stěhování pojištění", "spolehlivá stěhovací firma", "stěhování smlouva"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vybrat-stehovaci-firmu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho dopředu objednat stěhovací firmu?", "acceptedAnswer": { "@type": "Answer", "text": "Minimálně 2–4 týdny předem, pro stěhování v sezóně (jaro, léto) nebo koncem měsíce (kdy se stěhuje nejvíc) ideálně 4–8 týdnů. Konec měsíce je nejnáročnější — firmy jsou plně vytíženy a ceny bývají vyšší." } },
+      { "@type": "Question", "name": "Mám si věci balit sám nebo platit firmě?", "acceptedAnswer": { "@type": "Answer", "text": "Balení firmou je pohodlnější ale výrazně dražší (přidá 30–50 % k ceně). Firmy také profesionálně balí křehké věci a nesou odpovědnost za poškození. Pokud balíš sám, firma obvykle neodpovídá za obsah kartonů. Kompromis: balit si méně křehké věci sám, křehké nechej na firmu." } },
+      { "@type": "Question", "name": "Co dělat když firma poškodí nábytek?", "acceptedAnswer": { "@type": "Answer", "text": "Okamžitě zaznamenej poškození do předávacího protokolu — to je základ pro reklamaci. Fotografuj. Sepíš reklamaci písemně s popisem a fotografiemi do 3 dnů. Pokud firma odmítá náhradu, obrátíš se na Českou obchodní inspekci nebo soud. Proto je pojištění a předávací protokol tak důležité." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vybrat stěhovací firmu – na co si dát pozor</h1>
               <p className="article-lead">Špatná stěhovací firma dokáže zničit stěhování — poškozený nábytek, zmizené věci, nebo firma která zdvojnásobí cenu na místě. Tady je jak spolehlivou firmu najít a podvodníkům se vyhnout.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vybrat-stehovaci-firmu" title="Jak vybrat stěhovací firmu – na co si dát pozor 2026" />
             </header>
 

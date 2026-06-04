@@ -11,7 +11,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Tepelné čerpadlo: Kompletní průvodce 2026", description: "Srovnání typů, úspory, návratnost a dotace NZÚ." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#article", "headline": "Tepelné čerpadlo: Průvodce výběrem a úsporami", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-12T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["tepelné čerpadlo", "tepelné čerpadlo vzduch voda", "tepelné čerpadlo cena", "dotace tepelné čerpadlo", "nová zelená úsporám tepelné čerpadlo", "tepelné čerpadlo návratnost"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#article", "headline": "Tepelné čerpadlo: Průvodce výběrem a úsporami", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["tepelné čerpadlo", "tepelné čerpadlo vzduch voda", "tepelné čerpadlo cena", "dotace tepelné čerpadlo", "nová zelená úsporám tepelné čerpadlo", "tepelné čerpadlo návratnost"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Funguje tepelné čerpadlo při –20 °C?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — moderní čerpadla vzduch–voda od předních výrobců (Mitsubishi, Daikin, Stiebel Eltron) fungují až do –25 °C. COP při takových teplotách klesá na 1,5–2,0, ale čerpadlo stále topí. Pod bivalentním bodem (obvykle –15 až –20 °C) se automaticky zapíná záložní elektrická topná tyč pro doplnění výkonu." } },
+      { "@type": "Question", "name": "Jak vysoká je dotace Nová zelená úsporám na tepelné čerpadlo?", "acceptedAnswer": { "@type": "Answer", "text": "V roce 2026 lze získat až 100 000 Kč na tepelné čerpadlo vzduch–voda a až 120 000 Kč na země–voda v programu NZÚ. Podmínkou je minimální SCOP 3,5, instalace oprávněnou firmou a podání žádosti před zahájením prací. Dotace se kombinuje s krajskými kotlíkovými dotacemi — celková podpora může pokrýt 40–60 % nákladů." } },
+      { "@type": "Question", "name": "Potřebuji stavební povolení na tepelné čerpadlo?", "acceptedAnswer": { "@type": "Answer", "text": "Zpravidla ne — instalace tepelného čerpadla vzduch–voda na rodinný dům nevyžaduje stavební povolení ani ohlášení stavby, pokud venkovní jednotka nepřesahuje určité rozměry a je umístěna na vlastním pozemku. Výjimkou jsou památkově chráněné objekty nebo domy v chráněných krajinných oblastech. Vždy ověř na místním stavebním úřadě." } },
+      { "@type": "Question", "name": "Lze tepelné čerpadlo použít i na chlazení v létě?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — většina moderních čerpadel vzduch–voda umí reverzní provoz (chlazení). Při podlahovém topení funguje jako pasivní chlazení, při aktivním chlazení dosahuje EER 3–4. Čerpadlo vzduch–vzduch funguje jako plnohodnotná klimatizace. Chlazení není podporováno dotacemi NZÚ." } },
+      { "@type": "Question", "name": "Jak dlouho trvá instalace a musím být bez tepla?", "acceptedAnswer": { "@type": "Answer", "text": "Instalace standardního čerpadla vzduch–voda trvá 2–3 dny. Profesionální firma naplánuje instalaci tak, aby byl výpadek topení minimální — obvykle 4–8 hodin během připojování. Doporučujeme instalaci naplánovat na jaro nebo léto. V zimě je instalace možná, ale komplikovanější." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
@@ -44,7 +56,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací</h1>
               <p className="article-lead">Tepelné čerpadlo může snížit náklady na vytápění o 50–70 %. Ale jen pokud si vyberete správný typ a máte dům připravený. Tenhle průvodce ti ukáže vše co potřebuješ vědět — než podepíšeš smlouvu.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 12. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce"
                 title="Tepelné čerpadlo: Průvodce výběrem a úsporami"

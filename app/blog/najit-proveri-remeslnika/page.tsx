@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/najit-proveri-remeslnika#article",
     "headline": "Jak najít a prověřit řemeslníka – na co si dát pozor 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak najít řemeslníka", "prověřit řemeslníka", "spolehlivý řemeslník", "varovné signály podvodný řemeslník", "jak vybrat řemeslníka rekonstrukce"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/najit-proveri-remeslnika#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho dopředu objednat řemeslníka?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní řemeslníci jsou vytížení — počítej s 4–8 týdny čekání na první schůzku a dalšími 2–4 týdny na vypracování nabídky. Pro jarní a letní sezónu (duben–září) poptávej v únoru nebo březnu. Řemeslník dostupný okamžitě může být signálem nízkého zájmu o jeho práce." } },
+      { "@type": "Question", "name": "Co dělat když řemeslník odvede nekvalitní práci?", "acceptedAnswer": { "@type": "Answer", "text": "Reklamuj písemně s fotografiemi a popisem vad. Zákonná záruční lhůta je 2 roky na stavební práce. Firma musí vady opravit nebo poskytnout slevu z ceny. Odmítá-li — obrátit se na Českou obchodní inspekci nebo soud. Proto je smlouva a předávací protokol tak důležitý — bez nich je reklamace složitá." } },
+      { "@type": "Question", "name": "Je lepší vybírat řemeslníka podle ceny nebo referencí?", "acceptedAnswer": { "@type": "Answer", "text": "Reference jsou vždy důležitější. Nejlevnější nabídka skoro nikdy neznamená nejlepší výsledek — levný řemeslník používá levnější materiál, spěchá nebo přidá vícepráce které navýší cenu. Výzkumy ukazují že zákazníci kteří si vybrali nejlevnější nabídku zaplatili průměrně o 40 % více kvůli opravám a vícepracím." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak najít a prověřit řemeslníka – na co si dát pozor</h1>
               <p className="article-lead">Špatný řemeslník dokáže proměnit rekonstrukci v noční můru. Nekvalitní práce, nedodržené termíny, mizení po záloze. Tady je jak spolehlivého řemeslníka najít a podvodníkům se vyhnout.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/najit-proveri-remeslnika" title="Jak najít a prověřit řemeslníka – na co si dát pozor 2026" />
             </header>
 

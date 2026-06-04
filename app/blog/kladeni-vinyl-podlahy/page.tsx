@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy#article",
     "headline": "Jak pokládat vinylovou podlahu – krok za krokem 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak pokládat vinylovou podlahu", "vinyl podlaha pokládka", "LVT podlaha postup", "vinylové desky kladení", "příprava podkladu vinyl", "vinyl podlaha DIY"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu pokládat vinyl přes starou dlažbu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud je dlažba pevná, rovná a bez uvolněných dlaždic. Výrazné spáry (nad 3 mm) vyrovnej samonivelační stěrkou. Výhoda: nemusíš bourat starou dlažbu. Nevýhoda: zvedne se úroveň podlahy o tloušťku vinylu (5–8 mm) — zkontroluj výšku dveří." } },
+      { "@type": "Question", "name": "Je vinyl vhodný do koupelny?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — SPC vinyl s certifikací pro mokré prostory je výborná volba do koupelny. Je 100% vodoodolný na povrchu. Pozor: voda nesmí pronikat pod vinyl (skulinami u stěn nebo ve spárách) — proto u koupelnového vinylu použij silikonový tmel u stěn místo soklové lišty." } },
+      { "@type": "Question", "name": "Jak opravit poškozené desky vinylu?", "acceptedAnswer": { "@type": "Answer", "text": "Click vinyl lze opravit výměnou poškozené desky — rozklíkovat od stěny až k poškozené desce, vyměnit a zase zakliknout. Je to pracné ale možné. Proto doporučujeme koupit 5–10 % navíc a uschovat jako zásobu pro případné opravy." } },
+      { "@type": "Question", "name": "Lze pokládat vinyl na podlahové topení?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — vinyl je pro podlahové topení vhodný, ale zkontroluj certifikaci výrobce. Maximální teplota povrchu podlahy nesmí překročit 27–29 °C (závisí na výrobci). SPC vinyl je pro podlahové topení vhodnější než měkčí LVT — méně se deformuje při teplotních změnách." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pokládat vinylovou podlahu – krok za krokem</h1>
               <p className="article-lead">Vinylová podlaha je nejoblíbenější podlahová krytina posledních let — vodoodolná, teplá, tichá a snadno se pokládá. Místnost 20 m² zvládneš sám za jeden den.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy" title="Jak pokládat vinylovou podlahu – krok za krokem 2026" />
             </header>
 

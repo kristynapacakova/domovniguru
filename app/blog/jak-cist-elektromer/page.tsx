@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-cist-elektromer#article",
     "headline": "Jak číst elektroměr – jednofázový i třífázový 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak číst elektroměr", "odečet elektroměru", "NT VT tarif elektřina", "třífázový elektroměr", "jak nahlásit stav elektroměru", "EAN číslo elektroměr"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-cist-elektromer#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Co je EAN (EIC) číslo a kde ho najdu?", "acceptedAnswer": { "@type": "Answer", "text": "EAN (nebo EIC) je 18místné číslo které jednoznačně identifikuje tvé odběrné místo. Najdeš ho na faktuře za elektřinu, na štítku elektroměru, nebo v zákaznické zóně dodavatele. Začíná na 859182... (pro ČR). Je nutné pro nahlášení odečtu nebo změnu dodavatele." } },
+      { "@type": "Question", "name": "Jak poznat jestli elektroměr správně měří?", "acceptedAnswer": { "@type": "Answer", "text": "Zapoj do zásuvky spotřebič se známým příkonem (žárovka 60 W = 0,06 kW). Sleduj elektroměr po hodinu — měl by přibýt 0,06 kWh. Kontrolní měřidlo (chytrá zásuvka s měřením spotřeby) ti dá přesnější výsledek. Podezření na chybné měření nahlásíš distributorovi — mají povinnost elektroměr přezkoumat." } },
+      { "@type": "Question", "name": "Mohu si elektroměr vyměnit za chytrý?", "acceptedAnswer": { "@type": "Answer", "text": "Elektroměr je majetek distributora (ČEZ Distribuce, EG.D, PREdistribuce) a výměnu provádí oni. Chytré elektroměry (AMM) jsou postupně instalovány plošně — dle plánu by všichni odběratelé měli mít chytrý elektroměr do roku 2030. O instalaci můžeš požádat svého distributora." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak číst elektroměr – jednofázový i třífázový</h1>
               <p className="article-lead">Správný odečet elektroměru ti pomůže zkontrolovat vyúčtování od dodavatele a odhalit neobvyklou spotřebu. Je to jednoduché — stačí vědět co číslice znamenají.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-cist-elektromer" title="Jak číst elektroměr – jednofázový i třífázový 2026" />
             </header>
 

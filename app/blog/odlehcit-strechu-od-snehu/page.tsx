@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu#article",
     "headline": "Jak bezpečně odlehčit střechu od sněhu",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["odlehčit střechu od sněhu", "sníh na střeše nebezpečný", "jak odstranit sníh ze střechy", "shrnutí sněhu střecha", "zatížení střechy sněhem"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik sněhu unese standardní střecha rodinného domu?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní šikmá střecha rodinného domu je dimenzována na 100–200 kg/m² dle sněhové zóny (závisí na nadmořské výšce a poloze). Moderní střechy s dřevěnými vazníky mají obvykle rezervu 2–3× nad normou. Problém nastává u starších a oslabených konstrukcí nebo při extrémním sněžení. Při pochybnostech zavolej statika." } },
+      { "@type": "Question", "name": "Jsou rampochy na střeše nebezpečné?", "acceptedAnswer": { "@type": "Answer", "text": "Rampochy samy o sobě střechu nezatěžují výrazně, ale signalizují tepelné mosty (teplo uniká střechou a taje sníh). Padající rampouchy jsou nebezpečné pro kolemjdoucí. Odstraňuj je tyčí ze země — nikdy nestoupej pod visící rampouchy. Opakované rampochy řeš zateplením podkroví nebo topným kabelem na okraj střechy." } },
+      { "@type": "Question", "name": "Pojišťovna proplácí škody způsobené sněhem?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na pojistné smlouvě. Škody způsobené tíhou sněhu nebo pádem sněhových mas jsou obvykle kryty v rámci pojištění budovy pro \"živelní události\" nebo \"tíhu sněhu\". Přečti pojistnou smlouvu a při havárii okamžitě kontaktuj pojišťovnu a zdokumentuj škodu fotografiemi před odklízením." } }
+    ]
   }]
 };
 
@@ -53,7 +61,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak odlehčit střechu od sněhu – kdy je nebezpečný a jak ho odstranit</h1>
               <p className="article-lead">Jeden metr mokrého sněhu váží 150–300 kg. Na běžném rodinném domě může sníh přidat desítky tun zatížení. Kdy je to nebezpečné a jak bezpečně zasáhnout?</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" title="Jak bezpečně odlehčit střechu od sněhu" />
             </header>
 

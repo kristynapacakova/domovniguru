@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vycistit-komin#article",
     "headline": "Jak vyčistit komín – kdy a jak na to, revize 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vyčistit komín", "čištění komína", "kominík revize", "ucpaný komín příznaky", "zákon čištění komína", "požár komína prevence"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vycistit-komin#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik stojí čištění komína kominíkem?", "acceptedAnswer": { "@type": "Answer", "text": "Čištění komína kominíkem: 500–1 500 Kč za běžný domácí komín. Revize komína: 1 000–2 500 Kč. Zanedbaný komín s nálety dehtu: 2 000–5 000 Kč + doprovodné práce. Ceny závisí na délce komína, přístupnosti a lokalitě." } },
+      { "@type": "Question", "name": "Kdy je nejlepší čas na čištění komína?", "acceptedAnswer": { "@type": "Answer", "text": "Jaro (duben–květen) po topné sezóně — komín je naplněný sazemi ze zimy a čistí se nejlépe. A podzim (září–říjen) před topnou sezónou — aby byl komín čistý pro zimu. Kominíci jsou nejméně vytížení na jaře — snáze seženeš termín." } },
+      { "@type": "Question", "name": "Musím čistit komín i když tolik netopím?", "acceptedAnswer": { "@type": "Answer", "text": "Zákon stanovuje lhůty bez ohledu na intenzitu topení. Málotopení je navíc nebezpečnější než pravidelné topení — kondenzace při nízké teplotě spalin způsobuje nánosy dehtu rychleji. Studené spaliny = více kondenzace = více dehtu = větší požární riziko." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vyčistit komín – kdy a jak na to, revize</h1>
               <p className="article-lead">Nečistěný komín je nejčastější příčina požárů rodinných domů. Zákon stanovuje povinné lhůty čištění — a nejsou to rady, ale povinnosti s pokutou.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vycistit-komin" title="Jak vyčistit komín – kdy a jak na to, revize 2026" />
             </header>
 

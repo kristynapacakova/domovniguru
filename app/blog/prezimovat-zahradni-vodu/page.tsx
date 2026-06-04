@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu#article",
     "headline": "Jak přezimovat zahradní vodovodní přípojku – aby nezamrzla 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["přezimovat zahradní vodu", "zahradní kohout mráz", "jak vypustit závlahu na zimu", "zamrznutí zahradní přípojky", "ochrana vody před mrazem zahrada"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak hluboko musí být zahradní přípojka aby nezamrzla?", "acceptedAnswer": { "@type": "Answer", "text": "V ČR je doporučená hloubka min. 100–120 cm pod povrchem pro trvalé potrubí. Pro sezónní zahradní přípojku (používanou jen v létě) stačí menší hloubka pokud je každý rok řádně přezimována — uzavřena, vypuštěna a odvzdušněna." } },
+      { "@type": "Question", "name": "Musím přezimovat zahradní vodu každý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud je přípojka vedena v dostatečné hloubce (100+ cm) a není v exponovaném místě, v mírných zimách nemusí zamrznout. Ale přezimování (uzavření a vypuštění) je jednoduchá prevence která trvá 15 minut a může ušetřit tisíce korun opravy. Doporučujeme dělat ho každý rok." } },
+      { "@type": "Question", "name": "Kdy mohu na jaře znovu spustit zahradní vodu?", "acceptedAnswer": { "@type": "Answer", "text": "Až nehrozí mráz — typicky polovina dubna nebo po \"ledových mužích\" (12.–15. května). Před spuštěním zkontroluj těsnost všech spojů — zimní pohyby půdy mohou uvolnit špatně zajištěné spoje. Spouštěj postupně a kontroluj jestli někde neteče." } }
+    ]
   }]
 };
 
@@ -53,7 +61,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak přezimovat zahradní vodovodní přípojku – aby nezamrzla</h1>
               <p className="article-lead">Zamrzlá zahradní přípojka praskne a oprava stojí tisíce korun. Přitom ochrana zabere 15 minut a nepotřebuješ žádné speciální nářadí.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu" title="Jak přezimovat zahradní vodovodní přípojku – aby nezamrzla 2026" />
             </header>
 

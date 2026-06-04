@@ -10,7 +10,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Vyvýšené záhony – průvodce od stavby po sklizeň", description: "Materiály, vrstvení, výsadba a péče o vyvýšené záhony." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/vyvysene-zahony#article", "headline": "Vyvýšené záhony – průvodce od stavby po sklizeň", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-20T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["vyvýšený záhon", "jak postavit vyvýšený záhon", "vrstvení vyvýšeného záhonu", "vyvýšený záhon materiál", "co sázet do vyvýšeného záhonu"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/vyvysene-zahony#article", "headline": "Vyvýšené záhony – průvodce od stavby po sklizeň", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["vyvýšený záhon", "jak postavit vyvýšený záhon", "vrstvení vyvýšeného záhonu", "vyvýšený záhon materiál", "co sázet do vyvýšeného záhonu"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vyvysene-zahony#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak vysoký má být vyvýšený záhon?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na účelu. Pro práci ve stoje (bez ohýbání) je ideální výška 80–100 cm. Pro práci v kleku nebo na nižším místě stačí 40–60 cm. Minimální výška pro plnohodnotné vrstvení je 30 cm – méně nedává dostatečný prostor pro kořenový systém a vrstvení." } },
+      { "@type": "Question", "name": "Musí být vespod pletivo proti hlodavcům?", "acceptedAnswer": { "@type": "Answer", "text": "Silně doporučujeme ano, zejména pokud máš v zahradě krtky nebo hraboše. Drátěné pletivo s okem 1–1,5 cm na dně záhonu je levná pojistka (100–200 Kč) která zachrání celou sezónu. Bez pletiva mohou hlodavci zničit kořenovou zeleninu a cibuloviny za jediný týden." } },
+      { "@type": "Question", "name": "Kolik substrátu potřebuji na záhon 120 × 240 cm?", "acceptedAnswer": { "@type": "Answer", "text": "Pro záhon 120 × 240 cm o výšce 80 cm potřebuješ přibližně: větve a klacky (volně) cca 0,5 m³, listí a organika cca 0,3 m³, kompost + zemina cca 0,4 m³, pěstební substrát cca 0,5 m³. Celkem přibližně 1,7 m³ materiálu. Počítej s tím, že vrstvy se po zalití usadí o 15–20 %." } },
+      { "@type": "Question", "name": "Lze postavit záhon na terase nebo balkoně?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale musíš počítat s nosností. Naplněný záhon 120 × 240 cm váží 400–600 kg. Standardní terasa unese 150–300 kg/m², takže rozmístění je klíčové. Na balkoně doporučujeme menší záhony (60 × 120 cm) s lehčím substrátem na bázi perlitu a kokosvlákna. Vždy zkontroluj nosnost balkonu u statika." } },
+      { "@type": "Question", "name": "Kdy mohu začít sázet do nového záhonu?", "acceptedAnswer": { "@type": "Answer", "text": "Hned po naplnění a důkladném zalití – stačí počkat 2–3 dny na usazení vrstev a doplnit substrát. Nový záhon má výbornou strukturu a množství živin pro první sezónu. V dalších sezónách je třeba substrát doplňovat. Ideální čas pro výsadbu je jaro (duben–květen) nebo podzim pro cibuloviny a přezimující zeleninu." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
@@ -43,7 +55,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Vyvýšené záhony: Kompletní průvodce od stavby po první sklizeň</h1>
               <p className="article-lead">Vyvýšený záhon ti dá o 30 % vyšší úrodu, méně plevelů a žádné bolesti zad. Ukážeme ti jak vybrat materiál, správně vrstvit substráty a co sázet, aby záhon fungoval od první sezóny.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 20. března 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/vyvysene-zahony"
                 title="Vyvýšené záhony – průvodce od stavby po sklizeň"

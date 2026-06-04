@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/osetrit-zahradni-nabytek#article",
     "headline": "Jak ošetřit zahradní nábytek – dřevo, kov, plast a ratan 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak ošetřit zahradní nábytek", "péče o zahradní nábytek", "zahradní nábytek dřevo ošetření", "zahradní nábytek kov natřít", "přezimování zahradního nábytku"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/osetrit-zahradni-nabytek#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy je nejlepší čas na ošetření zahradního nábytku?", "acceptedAnswer": { "@type": "Answer", "text": "Jaro (duben–květen) je ideální — po zimě vyčistit a ošetřit před sezónou. Ošetřovat za suchého dne, teplota min. 10 °C. Podzim (září–říjen) je druhý termín — ošetřit před uložením na zimu. Nikdy neošetřuj mokré dřevo — přípravek nepenetuje správně." } },
+      { "@type": "Question", "name": "Jak odstranit plíseň ze zahradního nábytku?", "acceptedAnswer": { "@type": "Answer", "text": "Plíseň na dřevě: roztok octu (1:1 s vodou) nebo speciální biocidní čistič dřeva. Kartáčem vyčistit, opláchnout, nechat vyschnout. Po vyschnutí ošetřit impregnací s biocidní přísadou. Na kovu a plastu: mýdlová voda nebo roztok chloru (1 díl chloru + 10 dílů vody) — pozor na barevné povrchy." } },
+      { "@type": "Question", "name": "Lze přebarlit dřevěný zahradní nábytek?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — ale záleží na stávajícím nátěru. Lazura přes lazuru funguje dobře (tmavší přes světlejší). Olejový nátěr přes lazuru — nutno přebrousit. Přebarlit ze světlé na tmavou je snazší než naopak. Před přebarvením vždy vyčistit, nechat vyschnout a lehce přebrousit pro lepší přilnavost." } }
+    ]
   }]
 };
 
@@ -62,7 +70,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak ošetřit zahradní nábytek – dřevo, kov, plast a ratan</h1>
               <p className="article-lead">Zahradní nábytek bez péče vydrží 3–5 let. Ošetřovaný nábytek 15–20 let. Jednou za rok věnovat hodinu ošetření se tisíckrát vyplatí.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/osetrit-zahradni-nabytek" title="Jak ošetřit zahradní nábytek – dřevo, kov, plast a ratan 2026" />
             </header>
 

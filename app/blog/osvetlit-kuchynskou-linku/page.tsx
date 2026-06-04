@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku#article",
     "headline": "Jak osvětlit kuchyňskou linku – LED pásky a bodovky 2026",
     "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak osvětlit kuchyňskou linku", "LED pásek pod skříňky", "podsvícení kuchyně", "bodovky kuchyňská linka", "osvětlení pracovní desky", "kuchyňské LED světlo"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je instalace LED pásku pod skříňky bezpečná pro laika?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, 12V nebo 24V LED pásky jsou bezpečné — napětí je příliš nízké pro úraz elektrickým proudem. Driver (transformátor) se zapojuje do standardní zásuvky 230V — jako každý jiný spotřebič. Žádné zapojení do elektroinstalace není nutné." } },
+      { "@type": "Question", "name": "Kolik stojí osvětlení kuchyňské linky?", "acceptedAnswer": { "@type": "Answer", "text": "Základní LED páska bez profilu: 300–500 Kč za 3 m + driver 150–300 Kč = celkem 450–800 Kč. S hliníkovým profilem: 800–1 500 Kč. Bateriové bodovky (sada 6 ks): 300–600 Kč. Profesionální instalace s vestavnými bodovkami a skrytou elektrikou: 2 000–5 000 Kč." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží LED páska?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní LED pásky mají životnost 30 000–50 000 hodin. Při 4 hodinách denního provozu to je 20–34 let. Kratší životnost způsobuje přehřívání (poddimenzovaný driver, špatné větrání) nebo vlhkost (nízké IP krytí v kuchyni)." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak osvětlit kuchyňskou linku – LED pásky a bodovky</h1>
               <p className="article-lead">Strop svítí ale pracovní deska je ve stínu skříněk — klasický problém každé kuchyně. LED pásky nebo bodovky pod skříňkami to vyřeší za odpoledne a bez elektrikáře. Tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku" title="Jak osvětlit kuchyňskou linku – LED pásky a bodovky 2026" />
             </header>
 

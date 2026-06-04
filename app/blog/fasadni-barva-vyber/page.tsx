@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/fasadni-barva-vyber#article",
     "headline": "Fasádní barva – jak vybrat správný typ a jak nanášet 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["fasádní barva výběr", "silikonová fasádní barva", "jak natřít fasádu", "akrylátová fasádní barva", "minerální fasádní barva", "fasáda barva postup"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/fasadni-barva-vyber#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik stojí malování fasády?", "acceptedAnswer": { "@type": "Answer", "text": "Práce malíře: 80–200 Kč/m² (2 vrstvy). Materiál: 50–150 Kč/m². Pro rodinný dům 150 m² fasády počítej 40 000–80 000 Kč včetně lešení. Lešení tvoří 20–30 % ceny — vyplatí se sjednat malování a lešení najednou." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží fasádní barva?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na typu barvy a orientaci fasády. Silikonová: 12–15 let. Akrylátová: 7–10 let. Minerální: 5–8 let. Jižní fasáda (přímé slunce) se opotřebí rychleji než severní. Pravidelné čištění fasády (každé 3–5 let) prodlouží životnost nátěru." } },
+      { "@type": "Question", "name": "Mohu malovat fasádu sám bez lešení?", "acceptedAnswer": { "@type": "Answer", "text": "Pro přízemí a nízkopodlažní části ano. Pro patro a výše potřebuješ lešení nebo plošinu — práce na žebříku je nebezpečná a neumožňuje rovnoměrné nanášení. Lešení pro rodinný dům stojí 5 000–15 000 Kč na pronájem na 2–3 týdny." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Fasádní barva – jak vybrat správný typ a jak nanášet</h1>
               <p className="article-lead">Špatně vybraná fasádní barva vydrží 3–5 let a pak se loupe. Správná vydrží 10–15 let bez opravy. Rozdíl je v typu barvy, přípravě povrchu a podmínkách nanášení.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/fasadni-barva-vyber" title="Fasádní barva – jak vybrat správný typ a jak nanášet 2026" />
             </header>
 

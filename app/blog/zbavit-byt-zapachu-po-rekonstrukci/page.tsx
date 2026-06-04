@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zbavit-byt-zapachu-po-rekonstrukci#article",
     "headline": "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["zápach po rekonstrukci", "jak odstranit zápach barvy", "větrání po malování", "zápach laku podlaha", "jak se zbavit zápachu po rekonstrukci"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-byt-zapachu-po-rekonstrukci#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho musím čekat po malování než se nastěhovat?", "acceptedAnswer": { "@type": "Answer", "text": "Akrylátová barva: 24–48 hodin intenzivního větrání, pak bezpečné. Olejová barva nebo lak: 3–7 dní větrání. Citlivé skupiny (děti, těhotné, alergici): počkat déle nebo zvolit barvy s označením \"Nízké VOC\" nebo \"VOC-free\" — tyto barvy jsou výrazně méně problematické." } },
+      { "@type": "Question", "name": "Je zápach po rekonstrukci zdraví nebezpečný?", "acceptedAnswer": { "@type": "Answer", "text": "Krátkodobá expozice VOC z běžných stavebních materiálů způsobuje bolest hlavy, nevolnost a podráždění sliznic. Není to akutně nebezpečné pro zdravé dospělé při krátkém pobytu. Problematické je spání v místnosti s intenzivním zápachem — zejména pro děti, těhotné nebo osoby s dýchacími potížemi. Dodržuj doporučené doby větrání od výrobce materiálu." } },
+      { "@type": "Question", "name": "Proč zápach přetrvává i po týdnech větrání?", "acceptedAnswer": { "@type": "Answer", "text": "Možné příčiny: olejová barva nebo lak s vysokým obsahem VOC (dlouhá doba odpaření), špatné větrání (větrání jen jedním oknem bez průvanu), nízká teplota v bytě (chlad zpomaluje odpařování). Řešení: kombinace průvanu + tepla + aktivního uhlí. Pokud zápach přetrvává déle než 4 týdny u akrylátových barev, může jít o problém s podkladem nebo vlhkostí." } }
+    ]
   }]
 };
 
@@ -53,7 +61,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo</h1>
               <p className="article-lead">Čerstvá barva, lak na podlahu nebo lepidlo na dlaždice — každý z nich vydává těkavé látky (VOC) které mohou přetrvávat dny až týdny. Správné větrání a pár triků věc výrazně urychlí.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-byt-zapachu-po-rekonstrukci" title="Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo 2026" />
             </header>
 

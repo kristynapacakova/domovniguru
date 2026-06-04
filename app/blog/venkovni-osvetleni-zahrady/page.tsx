@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#article",
     "headline": "Venkovní osvětlení zahrady – typy a instalace",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["venkovní osvětlení zahrady", "solární osvětlení zahrada", "zahradní svítidla", "osvětlení terasy", "kabelové osvětlení zahrada", "IP65 zahradní svítidla"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak hluboko musí být kabel v zemi?", "acceptedAnswer": { "@type": "Answer", "text": "Kabel 230 V v zemi musí být uložen min. 35 cm hluboko (pod trávníkem) nebo 60 cm pod pojezdovými plochami. Vždy v chráničce. Kabel 12 V nebo 24 V z nízkonapěťového transformátoru nemá předepsanou minimální hloubku — stačí několik centimetrů." } },
+      { "@type": "Question", "name": "Jsou solární světla dostatečně jasná?", "acceptedAnswer": { "@type": "Answer", "text": "Pro dekoraci a osvětlení cest ano. Pro bezpečnostní osvětlení vstupu nebo osvětlení pracovní plochy (gril, stůl) jsou slabší. Moderní solární světla s baterií dosahují 200–800 lm — srovnatelné s kabelovými pro dekorativní účely. Výkon závisí na množství slunečního světla — v zimě svítí kratší dobu." } },
+      { "@type": "Question", "name": "Potřebuji elektrikáře na venkovní osvětlení?", "acceptedAnswer": { "@type": "Answer", "text": "Pro připojení svítidla na existující venkovní zásuvku elektrikáře nepotřebuješ. Pro vedení nového kabelu z rozvaděče nebo instalaci nové venkovní zásuvky elektrikáře potřebuješ. Nízkonapěťové systémy (12 V) s transformátorem zvládneš sám bez elektrikáře." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Venkovní osvětlení zahrady – solární nebo kabelové?</h1>
               <p className="article-lead">Správné osvětlení zahrady prodlouží čas strávený venku, zvýší bezpečnost a dodá večerní atmosféru. Solární nebo kabelové? Tady je jak vybrat a jak nainstalovat.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" title="Venkovní osvětlení zahrady – typy a instalace" />
             </header>
 

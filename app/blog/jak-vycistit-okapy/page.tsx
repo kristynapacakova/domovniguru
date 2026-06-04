@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#article",
     "headline": "Jak vyčistit okapy – postup a prevence ucpání",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vyčistit okapy", "čištění okapů", "ucpané okapy", "čistění okapního svodu", "ochrana okapů před listím", "okapy postup čištění"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak poznám že jsou okapy ucpané?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější signály: voda přetéká přes okraj okapu při dešti (ne jen ze svodu), ze svodu neteče voda nebo teče slabě, okapy jsou viditelně plné listí, ze spodní části svodu vytéká voda i při suchém počasí (kondenzace nebo ucpání). Ideálně zkontroluj okapy při každém vydatném dešti." } },
+      { "@type": "Question", "name": "Mohu čistit okapy sám nebo potřebuji odborníka?", "acceptedAnswer": { "@type": "Answer", "text": "Přízemní a jednopodlažní domy zvládneš sám se stabilním žebříkem. Domy se dvěma a více patry nebo se strmou střechou jsou nebezpečné pro laika — najmi odbornou firmu. Cena profesionálního čištění: 500–2 000 Kč podle délky okapů a výšky domu. Jednou za 2–3 roky je to rozumná investice." } },
+      { "@type": "Question", "name": "Kdy vyměnit okapy místo čistit?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna okapů je nutná pokud: okap je prasklý nebo silně zkorodovaný (netěsní ani po opravě), okap se prohýbá a nejde vrátit do původního spádu, spoje konstantně zatékají i po opravě, nebo okapy jsou starší 25–30 let. Cena výměny okapů na rodinném domě: 15 000–50 000 Kč." } }
+    ]
   }]
 };
 
@@ -54,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vyčistit okapy – postup, kdy čistit a jak předejít ucpání</h1>
               <p className="article-lead">Ucpané okapy jsou tichý nepřítel domu — voda přetéká přes okraj, zatéká do zdí a způsobuje škody tisíce korun. Čištění okapů trvá hodinu a ušetří roky problémů.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-vycistit-okapy" title="Jak vyčistit okapy – postup a prevence ucpání" />
             </header>
 

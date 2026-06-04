@@ -9,7 +9,19 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#article", "headline": "Stěhování bez stresu – kompletní checklist", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["stěhování checklist", "jak se stěhovat", "příprava na stěhování", "stěhování do nového bytu", "stěhovací firma"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#article", "headline": "Stěhování bez stresu – kompletní checklist", "datePublished": "2025-02-15T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["stěhování checklist", "jak se stěhovat", "příprava na stěhování", "stěhování do nového bytu", "stěhovací firma"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy nejdříve začít s přípravou na stěhování?", "acceptedAnswer": { "@type": "Answer", "text": "Ideálně 6 týdnů dopředu. Prvních 6 týdnů je čas na třídění věcí a domluvu stěhovací firmy (oblíbené termíny se obsazují rychle). Čím dříve začneš, tím méně stresu v posledních dnech." } },
+      { "@type": "Question", "name": "Co je krabice první noci a co do ní patří?", "acceptedAnswer": { "@type": "Answer", "text": "Krabice (nebo taška) první noci obsahuje věci, které budeš potřebovat hned v noci po nastěhování – ložní prádlo, ručník, toaletní potřeby, nabíječku, hrnek, kávu a základní nádobí. Nepakuj ji do stěhovacího auta jako poslední, ať je hned po ruce." } },
+      { "@type": "Question", "name": "Je levnější pronajmout dodávku nebo objednat stěhovací firmu?", "acceptedAnswer": { "@type": "Answer", "text": "Pronájem dodávky (1 500–3 000 Kč/den) je výrazně levnější než firma (5 000–15 000 Kč). Firma ale ušetří 6–8 hodin fyzicky náročné práce. Pokud máš těžký nábytek z masivu nebo piano, firma se vyplatí – předejdeš zraněním." } },
+      { "@type": "Question", "name": "Co všechno musím nahlásit při změně adresy?", "acceptedAnswer": { "@type": "Answer", "text": "Zaměstnavatel, banka, pojišťovna, zdravotní pojišťovna, lékař, škola nebo školka, dodavatelé energií, internet a TV, Česká pošta (přesměrování pošty). Nezapomeň na úřední registraci trvalého pobytu na obecním/městském úřadě." } },
+      { "@type": "Question", "name": "Co udělat hned po nastěhování jako první?", "acceptedAnswer": { "@type": "Answer", "text": "Priorita č. 1: vyměň zámky u vstupních dveří – nevíš, kolik klíčů koluje. Pak zjisti umístění hlavních uzávěrů (voda, elektrika, plyn) a zkontroluj funkci topení, teplé vody a zásuvek." } }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Co zkontrolovat při přebírání nového bytu", href: "/blog/prebrani-bytu-checklist", read: "4 min" },
@@ -38,7 +50,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Stěhování bez stresu – kompletní checklist</h1>
               <p className="article-lead">Stěhování je jeden z nejstresovějších životních momentů – ale ne proto, že by bylo tak složité. Stresuje proto, že nikdy nevíš, na co jsi zapomněl. Tenhle checklist to řeší.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

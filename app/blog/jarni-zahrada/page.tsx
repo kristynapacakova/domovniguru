@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#article",
     "headline": "Jak připravit zahradu na jaro – co udělat v dubnu 2026",
     "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak připravit zahradu na jaro", "jarní zahrada checklist", "zahrada duben", "jarní prořez", "hnojení jaro zahrada", "co dělat na zahradě v dubnu"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy začít zahradní práce na jaře?", "acceptedAnswer": { "@type": "Answer", "text": "Jakmile teplota půdy překročí 5–8 °C a noční mrazy ustoupí — v ČR typicky konec března až začátek dubna. Půda nesmí být podmáčená. Prořez keřů a stromů lze začít dříve (při teplotách nad 0 °C), výsev studených plodin od dubna." } },
+      { "@type": "Question", "name": "Co je nejdůležitější udělat na zahradě v dubnu?", "acceptedAnswer": { "@type": "Answer", "text": "Top 3 priority: (1) Přihnojit trávník jarním hnojivem — spustí hustý zelený růst. (2) Prokypřit záhony a přidat kompost — základ celé sezóny. (3) Prořezat ovocné stromy a keře — před plným rašením je poslední šance." } },
+      { "@type": "Question", "name": "Můžu sít rajčata a papriky v dubnu?", "acceptedAnswer": { "@type": "Answer", "text": "Sít na semenáče ano — do sadbovače nebo truhlíku uvnitř. Výsadba ven je možná až po 15. května kdy nehrozí mráz. Rajčata a papriky jsou teplomilné — jeden mraz je zničí. V dubnu je ideální čas sít je dovnitř a pěstovat sadbu." } },
+      { "@type": "Question", "name": "Jak dlouho trvá příprava zahrady na jaro?", "acceptedAnswer": { "@type": "Answer", "text": "Průměrná zahrada (200–400 m²) vyžaduje jeden celý víkend — sobota prořez a záhony, neděle trávník a terasa. Větší zahrada nebo po zanedbání může trvat 2–3 víkendy. Pravidelná péče každý rok zkracuje čas potřebný na jarní přípravu." } }
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak připravit zahradu na jaro – kompletní checklist</h1>
               <p className="article-lead">Duben je nejdůležitější měsíc zahradní sezóny. Co uděláš teď, sklízíš celé léto. Tady je kompletní checklist co prořezat, přihnojit, zasít a zkontrolovat — ideálně za jeden víkend.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jarni-zahrada" title="Jak připravit zahradu na jaro – co udělat v dubnu 2026" />
             </header>
 

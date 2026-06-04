@@ -17,11 +17,19 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#article",
     "headline": "Jak správně topit – teploty, větrání a úspora energie 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak správně topit", "optimální teplota místnosti", "větrání při topení", "úspora vytápění", "správné vytápění domu"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je lepší topit méně ale nepřerušeně nebo více ale jen ráno a večer?", "acceptedAnswer": { "@type": "Answer", "text": "Pro teplovodní radiátory (velká tepelná kapacita): plynulé topení na nižší teplotu je efektivnější než přerušované topení na vyšší teplotu. Pro elektrické přímotopy (malá tepelná kapacita): přerušované topení může být výhodnější — rychle hřejí a rychle chladnou. Obecně: programovatelný termostat s nočním útlumem je optimální kompromis pro oba systémy." } },
+      { "@type": "Question", "name": "Proč je v bytě sucho při topení a jak to řešit?", "acceptedAnswer": { "@type": "Answer", "text": "Topení vysušuje vzduch — ohřátý vzduch má relativně nižší vlhkost. Řešení: zvlhčovač vzduchu (elektrický nebo pasivní nádoba na radiátor), pokojové rostliny, časté větrání (přináší vlhčí venkovní vzduch v mrazivém počasí — ale v oblačném počasí venkovní vzduch může být vlhčí). Ideální vlhkost: 40–60 %. Měř hygrometrem (200–500 Kč)." } },
+      { "@type": "Question", "name": "Kdy spustit topení na podzim?", "acceptedAnswer": { "@type": "Answer", "text": "Topnou sezónu spusť když průměrná venkovní teplota klesne pod 13 °C po dobu alespoň 2 dnů — to je standardní definice začátku topné sezóny v ČR. Prakticky: když je v bytě chladněji než 18–20 °C i přes den. Nečekej až bude zima — studené stěny se ohřívají pomalu a musíš topit více." } }
+    ]
   }]
 };
 
@@ -61,7 +69,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně topit – teploty, větrání a úspora energie</h1>
               <p className="article-lead">Přetápění je nejčastější chyba — za každý 1 °C navíc platíš o 6 % více. Správné nastavení teplot v jednotlivých místnostech a správné větrání jsou klíč ke komfortu i úspoře.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-spravne-topit" title="Jak správně topit – teploty, větrání a úspora energie 2026" />
             </header>
 
