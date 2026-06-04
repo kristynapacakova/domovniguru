@@ -5,8 +5,8 @@ import ShareButtons from "@/app/components/ShareButtons";
 export const metadata: Metadata = {
   title: "Jak opravit kapající kohoutek – výměna těsnění krok za krokem",
   description: "Kapající kohoutek vás stojí stovky korun ročně a otravuje nervy. Opravte ho sami za 20 minut výměnou těsnění – bez instalatéra a s nářadím z domácí dílny.",
-  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-opravit-kapici-kohoutek" },
-  openGraph: { title: "Jak opravit kapající kohoutek – výměna těsnění krok za krokem", description: "Kapající kohoutek vás stojí stovky korun ročně. Opravte ho sami za 20 minut výměnou těsnění – bez instalatéra.", url: "https://www.domovniguru.cz/blog/jak-opravit-kapici-kohoutek", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-06-04T08:00:00Z", modifiedTime: "2026-06-04T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20opravit%20kapaj%C3%ADc%C3%AD%20kohoutek%20%E2%80%93%20v%C3%BDm%C4%9Bna%20t%C4%9Bsn%C4%9Bn%C3%AD&cat=blog", width: 1200, height: 630, alt: "Jak opravit kapající kohoutek – výměna těsnění krok za krokem" }] },
+  alternates: { canonical: "https://www.domovniguru.cz/blog/jak-opravit-kapajici-kohoutek" },
+  openGraph: { title: "Jak opravit kapající kohoutek – výměna těsnění krok za krokem", description: "Kapající kohoutek vás stojí stovky korun ročně. Opravte ho sami za 20 minut výměnou těsnění – bez instalatéra.", url: "https://www.domovniguru.cz/blog/jak-opravit-kapajici-kohoutek", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-06-04T08:00:00Z", modifiedTime: "2026-06-04T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20opravit%20kapaj%C3%ADc%C3%AD%20kohoutek%20%E2%80%93%20v%C3%BDm%C4%9Bna%20t%C4%9Bsn%C4%9Bn%C3%AD&cat=blog", width: 1200, height: 630, alt: "Jak opravit kapající kohoutek – výměna těsnění krok za krokem" }] },
   twitter: { card: "summary_large_image", title: "Jak opravit kapající kohoutek 2026", description: "Výměna těsnění kohoutku krok za krokem – opravte sami za 20 minut bez instalatéra." },
 };
 
@@ -14,7 +14,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [{
     "@type": "Article",
-    "@id": "https://www.domovniguru.cz/blog/jak-opravit-kapici-kohoutek#article",
+    "@id": "https://www.domovniguru.cz/blog/jak-opravit-kapajici-kohoutek#article",
     "headline": "Jak opravit kapající kohoutek – výměna těsnění krok za krokem",
     "datePublished": "2026-06-04T08:00:00Z",
     "dateModified": "2026-06-04T08:00:00Z",
@@ -55,7 +55,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak opravit kapající kohoutek – výměna těsnění krok za krokem</h1>
               <p className="article-lead">Kapající kohoutek otravuje nervy, přerušuje spánek a tiše vám zdražuje účty za vodu. Dobrá zpráva: ve většině případů stačí vyměnit těsnění za pár korun — a celá oprava zabere méně než dvacet minut.</p>
               <div className="article-meta-row"><span>Publikováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/jak-opravit-kapici-kohoutek" title="Jak opravit kapající kohoutek – výměna těsnění krok za krokem" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-opravit-kapajici-kohoutek" title="Jak opravit kapající kohoutek – výměna těsnění krok za krokem" />
             </header>
 
             <div className="hero-illustration" aria-hidden="true">
@@ -232,7 +232,7 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            <ShareButtons url="https://www.domovniguru.cz/blog/jak-opravit-kapici-kohoutek" title="Jak opravit kapající kohoutek – výměna těsnění krok za krokem" />
+            <ShareButtons url="https://www.domovniguru.cz/blog/jak-opravit-kapajici-kohoutek" title="Jak opravit kapající kohoutek – výměna těsnění krok za krokem" />
 
             <section className="related-section">
               <h2>Související články</h2>
