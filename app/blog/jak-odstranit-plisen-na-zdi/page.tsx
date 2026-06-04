@@ -183,6 +183,7 @@ export default function ArticlePage() {
                 <li><a href="#typy">Typy plísní a jejich nebezpečnost</a></li>
                 <li><a href="#likvidace">Jak plíseň odstranit krok za krokem</a></li>
                 <li><a href="#metody">Srovnání metod – Savo vs. fungicidy vs. ocet</a></li>
+                <li><a href="#produkty">Nejlepší přípravky 2026</a></li>
                 <li><a href="#roh">Plíseň v rohu a za nábytkem</a></li>
                 <li><a href="#chyby-ostatnich">Poučte se z chyb ostatních</a></li>
                 <li><a href="#prevence">Prevence – jak plíseň zastavit jednou provždy</a></li>
@@ -252,6 +253,25 @@ export default function ArticlePage() {
                 </table>
               </div>
               <div className="article-tip"><strong>⚠️ Důležité:</strong> Savo NIKDY nemíchej s octem, WC gelem ani jiným čisticím prostředkem. Vzniká toxický chlor.</div>
+            </section>
+
+            <section id="produkty">
+              <h2>Nejlepší přípravky na plíseň 2026 – co koupit v Česku</h2>
+              <p>Konkrétní produkty dostupné v Hornbachu, OBI nebo Baumarktu. Ceny jsou orientační a mohou se lišit podle prodejny.</p>
+              <div className="article-table-wrap">
+                <table className="article-table">
+                  <thead><tr><th>Produkt</th><th>Objem</th><th>Cena (cca)</th><th>Nejlepší na</th><th>Poznámka</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>Savo Prim (chlornan sodný)</strong></td><td>1 000 ml</td><td>50–70 Kč</td><td>Koupelna, spáry, dlaždice</td><td>Ředit 1:3 s vodou, nutná ventilace</td></tr>
+                    <tr><td><strong>HG Schimmelspray</strong></td><td>500 ml</td><td>180–220 Kč</td><td>Stěny, strop, koupelna</td><td>Bez zápachu, nepoškozuje omítku</td></tr>
+                    <tr><td><strong>Triga Stop Schimmel</strong></td><td>500 ml</td><td>150–190 Kč</td><td>Stěny, spáry</td><td>Německá kvalita, dostupný v Hornbachu</td></tr>
+                    <tr><td><strong>Anticor Antiplíseň</strong></td><td>750 ml</td><td>130–160 Kč</td><td>Stěny, dřevo, omítka</td><td>Česká výroba, vhodný i na dřevo</td></tr>
+                    <tr><td><strong>Bochemit Antigreen</strong></td><td>1 000 ml</td><td>160–200 Kč</td><td>Fasády, sklepy, garáže</td><td>Na vnější i vnitřní použití</td></tr>
+                    <tr><td><strong>Ocet bílý (10 %)</strong></td><td>1 000 ml</td><td>25–40 Kč</td><td>Lehká plíseň, prevence</td><td>Přírodní, ale méně účinný na rozvinutou plíseň</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div className="article-tip"><strong>💡 Tip:</strong> Na větší plochy (přes 0,5 m²) se vyplatí koupit koncentrát a ředit — vychází výrazně levněji než sprej. HG Schimmelspray a Triga jsou ale pohodlnější pro bodové ošetření.</div>
             </section>
 
             <section id="roh">
@@ -441,6 +461,7 @@ export default function ArticlePage() {
                 <li><a href="#typy">Typy plísní</a></li>
                 <li><a href="#likvidace">Jak plíseň odstranit</a></li>
                 <li><a href="#metody">Srovnání metod</a></li>
+                <li><a href="#produkty">Přípravky 2026</a></li>
                 <li><a href="#roh">Plíseň v rohu</a></li>
                 <li><a href="#likvidace-plisne-v-byte">Likvidace plísně v bytě</a></li>
                 <li><a href="#chyby-ostatnich">Chyby ostatních</a></li>
