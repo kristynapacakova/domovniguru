@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Co znamená IP44 u svítidel do koupelny?", "acceptedAnswer": { "@type": "Answer", "text": "IP44 znamená ochranu proti vstřikující vodě ze všech stran. V koupelně jsou definovány zóny 0, 1, 2 a 3 — v zóně 0 (uvnitř vany) musí být min. IP67, v zóně 1 (nad vanou do výšky 2,25 m) min. IP45, v zóně 2 (60 cm od vany) min. IP44. Mimo tyto zóny stačí standardní svítidla." } },
       { "@type": "Question", "name": "Kolik svítidel dát do místnosti?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na typu. Bodová svítidla: 1 ks na 1–2 m² pro rovnoměrné osvětlení. Lustr: 1 ks do středu místnosti stačí jako hlavní světlo. Doplňkové osvětlení (lampy, apliky): 2–4 ks podle velikosti místnosti. Čím více zdrojů světla (i méně výkonných), tím příjemnější a flexibilnější osvětlení." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vybrat svítidla do místnosti", "item": "https://www.domovniguru.cz/blog/vybrat-svitidla-do-mistnosti" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

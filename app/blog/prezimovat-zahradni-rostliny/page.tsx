@@ -32,7 +32,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Nádoby a truhlíky", "text": "Rostliny v nádobách jsou náchylnější na mráz než rostliny v zemi — kořeny jsou ze všech stran obklopené vzduchem a substrát promrzá rychleji než zahradní půda. Navíc keramické a terakotové nádoby při opakovaném zmrznutí praskají." },
       { "@type": "HowToStep", "name": "Co udělat na jaře", "text": "Stejně důležité jako zakrytí je včasné odkrytí. Rostliny pod netkanovinou nebo jutou se na jaře přehřívají a vyrašení pod zábalem může způsobit plísně." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak přezimovat zahradní rostliny – co, kdy a jak", "item": "https://www.domovniguru.cz/blog/prezimovat-zahradni-rostliny" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -33,7 +33,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Srovnání metod", "text": "Srovnání metod" },
       { "@type": "HowToStep", "name": "Co dělat po odstranění", "text": "Po odstranění barvy je povrch surový a připravený — ale ještě není připravený k malování. Důležité kroky:" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak odstranit starou barvu ze zdi", "item": "https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

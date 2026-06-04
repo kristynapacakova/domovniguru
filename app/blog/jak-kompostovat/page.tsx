@@ -44,7 +44,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak kompostér správně založit krok za krokem", "text": "Jak kompostér správně založit krok za krokem" },
       { "@type": "HowToStep", "name": "Problémy a jak je řešit", "text": "Problémy a jak je řešit" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně kompostovat – průvodce od A do Z", "item": "https://www.domovniguru.cz/blog/jak-kompostovat" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

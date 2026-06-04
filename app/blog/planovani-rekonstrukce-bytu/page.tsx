@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Výběr řemeslníků", "text": "Výběr řemeslníků" },
       { "@type": "HowToStep", "name": "Časový harmonogram", "text": "Časový harmonogram" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026", "item": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

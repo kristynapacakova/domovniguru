@@ -45,7 +45,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Těžké závěsy jako doplněk", "text": "Těžké termální závěsy nebo záclony nevyřeší průvan, ale snižují tepelné ztráty přes studené okno. Fungují jako tepelná bariéra mezi chladným oknem a místností. Jejich efekt je největší v noci, kdy jsou zatažené." },
       { "@type": "HowToStep", "name": "Srovnání metod – co kdy použít", "text": "Srovnání metod – co kdy použít" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak utěsnit okna na zimu – přehled metod", "item": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Co dělat když řemeslník odvede nekvalitní práci?", "acceptedAnswer": { "@type": "Answer", "text": "Reklamuj písemně s fotografiemi a popisem vad. Zákonná záruční lhůta je 2 roky na stavební práce. Firma musí vady opravit nebo poskytnout slevu z ceny. Odmítá-li — obrátit se na Českou obchodní inspekci nebo soud. Proto je smlouva a předávací protokol tak důležitý — bez nich je reklamace složitá." } },
       { "@type": "Question", "name": "Je lepší vybírat řemeslníka podle ceny nebo referencí?", "acceptedAnswer": { "@type": "Answer", "text": "Reference jsou vždy důležitější. Nejlevnější nabídka skoro nikdy neznamená nejlepší výsledek — levný řemeslník používá levnější materiál, spěchá nebo přidá vícepráce které navýší cenu. Výzkumy ukazují že zákazníci kteří si vybrali nejlevnější nabídku zaplatili průměrně o 40 % více kvůli opravám a vícepracím." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/najit-proveri-remeslnika#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak najít a prověřit řemeslníka – na co si dát pozor 2026", "item": "https://www.domovniguru.cz/blog/najit-proveri-remeslnika" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

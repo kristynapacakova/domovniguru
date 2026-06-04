@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Olej nebo lazura – co vybrat", "text": "Olej nebo lazura – co vybrat" },
       { "@type": "HowToStep", "name": "Postup nanášení oleje nebo lazury", "text": "Postup nanášení oleje nebo lazury" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/drevo-terasa-zima#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak ošetřit dřevěnou terasu – broušení, olej a lazura 2026", "item": "https://www.domovniguru.cz/blog/drevo-terasa-zima" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

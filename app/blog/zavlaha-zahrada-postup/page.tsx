@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Kapková závlaha – instalace a výhody", "text": "Kapková závlaha přivádí vodu přímo ke kořenům každé rostliny. Oproti postřikovači ušetří 40–60 % vody a výrazně snižuje výskyt plísňových chorob." },
       { "@type": "HowToStep", "name": "Automatická závlaha – vyplatí se?", "text": "Automatická závlaha se vyplatí pokud trávíš hodně času zalíváním, cestuješ nebo máš zahradu nad 100 m². Návratnost je 3–7 let v úspoře vody a práce." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak zavlažovat zahradu – ruční i automatická závlaha 2026", "item": "https://www.domovniguru.cz/blog/zavlaha-zahrada-postup" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

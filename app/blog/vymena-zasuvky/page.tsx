@@ -39,7 +39,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jakou zásuvku koupit jako náhradu", "text": "Při výběru nové zásuvky dbej na kompatibilitu s existující krabicí a elektroinstalací." },
       { "@type": "HowToStep", "name": "Jak na výměnu – postup krok za krokem", "text": "Výměna zásuvky je práce pro šikovného laika — ale vyžaduje přísné dodržení bezpečnostního postupu. Nejdůležitější je vždy vypnout jistič a ověřit absenci napětí fázovou tužkou." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vymena-zasuvky#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Výměna zásuvky – kdy a jak ji vyměnit správně 2026", "item": "https://www.domovniguru.cz/blog/vymena-zasuvky" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

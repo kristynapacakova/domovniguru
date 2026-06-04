@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Kolik stojí efektová malba oproti klasické?", "acceptedAnswer": { "@type": "Answer", "text": "Klasická malba: 50–200 Kč/m² materiál. Efektové techniky: 200–1 500 Kč/m² materiál (závisí na technice). Profesionální provedení efektové malby: 500–3 000 Kč/m² práce + materiál. DIY ušetří 60–80 % nákladů oproti profesionálovi." } },
       { "@type": "Question", "name": "Jak dlouho vydrží efektová malba?", "acceptedAnswer": { "@type": "Answer", "text": "Efektová malba správně zapečetěná lakem vydrží 5–10 let — stejně jako standardní malba. Bez laku je náchylnější na poškrábání a vlhkost. Vintage patina a mramorování jsou méně omyvatelné než standardní barva — nevhodné do kuchyně nebo koupelny." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/efektove-barvy-techniky#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Efektové barvy a techniky – mramorování, vintage, beton 2026", "item": "https://www.domovniguru.cz/blog/efektove-barvy-techniky" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

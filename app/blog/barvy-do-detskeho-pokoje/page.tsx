@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jaká barva pomáhá dětem lépe spát?", "acceptedAnswer": { "@type": "Answer", "text": "Světlá modrá, levandulová a světlé pastelové zelené jsou nejlepší pro spánek. Věda potvrzuje že modré tóny snižují srdeční tep a podporují relaxaci. Červená, oranžová a jasná žlutá naopak spánek narušují. Pro nejlepší výsledek kombinuj uklidňující barvu stěn s tmavými závěsy (blackout)." } },
       { "@type": "Question", "name": "Smím dát výraznou barvu do dětského pokoje?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale s mírou. Výrazná barva jako akcent (jedna stěna, nábytek) je v pořádku. Čtyři výrazně červené nebo tmavě fialové stěny mohou být pro dítě přestimulující nebo rušivé. Pokud dítě trvá na výrazné barvě, nabídni kompromis — jedna akcentní stěna." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Barvy do dětského pokoje – jak vybrat bezpečné a správné 2026", "item": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -31,7 +31,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Mohu lepit tapety přes staré tapety?", "acceptedAnswer": { "@type": "Answer", "text": "Nedoporučujeme. Stará tapeta může bobtnout nebo odpadnout pod vlhkostí lepidla — nová tapeta se pak nerovnoměrně přichytí. Staré tapety vždy odstraň, zeď vyrovnej a penetruj. Výjimka: tenká papírová tapeta na rovné zdi bez bublin." } },
       { "@type": "Question", "name": "Kolik rolí tapet potřebuji?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní role tapety pokryje 5–5,5 m². Pro místnost 4×3 m (obvod 14 m, výška 2,5 m = 35 m²) potřebuješ 7–8 rolí. Pro tapety se vzorem přidej 1–2 role navíc na sladění vzoru. Vždy kup o jednu roli více — doobjednat stejnou šarži může být problém." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/tapety-vs-barva#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Tapety vs. barva na zeď – co je lepší volba pro váš byt 2026", "item": "https://www.domovniguru.cz/blog/tapety-vs-barva" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Instalace kabelového osvětlení", "text": "Instalace kabelového osvětlení" },
       { "@type": "HowToStep", "name": "Jak vytvořit večerní atmosféru na zahradě", "text": "Jak vytvořit večerní atmosféru na zahradě" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Venkovní osvětlení zahrady – typy a instalace", "item": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

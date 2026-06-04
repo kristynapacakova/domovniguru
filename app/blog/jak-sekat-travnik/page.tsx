@@ -35,6 +35,16 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Ostrý nůž – proč na tom záleží víc než si myslíš", "text": "Tupý nůž sekačky je druhá nejčastější příčina nezdravého trávníku (po špatné výšce sekání). Tupé ostří nestříhá — trhá. Roztřepený konec stébla žloutne, stává se vstupní branou pro houby a bakterie a trávník získá šedivý nádech který trvá dny." },
       { "@type": "HowToStep", "name": "Mulčovat nebo dávat do koše – co je lepší", "text": "Posečená tráva je hodnotný organický materiál. Co s ní uděláš, má velký vliv na zdraví a živiny trávníku." }
     ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně sekat trávník – hustý pažit bez plevele", "item": "https://www.domovniguru.cz/blog/jak-sekat-travnik" }
+    ]
   }
   ],
 };

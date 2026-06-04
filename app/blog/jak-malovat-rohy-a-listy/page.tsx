@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Malování u lišt a zárubní", "text": "Maluj vždy od lišty směrem nahoru (nebo dolů), ne podél lišty. Techniku odřezávání prováděj s lehce naklopeným štětcem tak aby špička sledovala horní hranu lišty. Pokud lišta není rovná (starší domy), malířská páska je rychlejší řešení." },
       { "@type": "HowToStep", "name": "Kdy použít malířskou pásku", "text": "Malířská páska není slabost — je to správné řešení v konkrétních situacích. Nepoužívej ji všude jen proto, že se bojíš odřezávání." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak malovat rohy a lišty – technika štětcem", "item": "https://www.domovniguru.cz/blog/jak-malovat-rohy-a-listy" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

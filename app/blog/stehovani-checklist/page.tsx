@@ -33,7 +33,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Den stěhování", "text": "Den stěhování" },
       { "@type": "HowToStep", "name": "Po nastěhování – první týden", "text": "Po nastěhování – první týden" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/stehovani-checklist#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Stěhování bez stresu – kompletní checklist", "item": "https://www.domovniguru.cz/blog/stehovani-checklist" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

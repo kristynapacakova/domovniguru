@@ -25,6 +25,16 @@ const jsonLd = {
         { "@type": "Question", "name": "Mohu míchat barvy různých výrobců?", "acceptedAnswer": { "@type": "Answer", "text": "Technicky ano, ale nedoporučuje se. Barvy různých výrobců mohou mít různá pojiva (akrylát vs. latex) a různé konzistence — výsledná barva bude nepředvídatelná. Pokud potřebuješ smíchat dva odstíny, drž se jednoho výrobce a jedné řady produktů." } },
       ],
     },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", "item": "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed" }
+    ]
+  }
   ],
 };
 

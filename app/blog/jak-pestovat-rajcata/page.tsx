@@ -36,6 +36,16 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Nejčastější problémy", "text": "Nejčastější problémy" },
       { "@type": "HowToStep", "name": "Sklizeň a skladování", "text": "Rajčata sklízej až jsou plně zbarvená a mírně povolují pod prstem. Nesklízej zelená – dozrají sice při pokojové teplotě, ale bez chuti. Výjimkou je situace kdy hrozí plíseň nebo mráz – pak sklidíš i zelená a necháš dozrát v teple." }
     ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak pěstovat rajčata – od výsevu po sklizeň", "item": "https://www.domovniguru.cz/blog/jak-pestovat-rajcata" }
+    ]
   }
   ],
 };

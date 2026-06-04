@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Napájení a zapojení", "text": "LED pásky a bodovky jsou nízkoproudá 12V nebo 24V zařízení — bezpečná pro laickou instalaci. Potřebuješ jen správný napájecí zdroj (driver/transformátor)." },
       { "@type": "HowToStep", "name": "Teplota světla – jakou zvolit pro kuchyň", "text": "Teplota světla v Kelvinech (K) zásadně ovlivňuje pocit z kuchyně." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak osvětlit kuchyňskou linku – LED pásky a bodovky 2026", "item": "https://www.domovniguru.cz/blog/osvetlit-kuchynskou-linku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -20,7 +20,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Může LED žárovka fungovat v uzavřeném svítidle?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na žárovce. LED žárovky jsou citlivé na teplo — v uzavřeném svítidle bez cirkulace vzduchu se přehřívají, zkracuje se jejich životnost a může klesat jas. Hledej žárovky označené „suitable for enclosed fixtures\" nebo „pro uzavřená svítidla\" — mají lepší tepelný management. Případně použij menší žárovky s nižším příkonem (méně tepla) nebo svítidlo vyměň za otevřené." } },
       { "@type": "Question", "name": "Jaký je rozdíl mezi E27, E14 a GU10 paticí?", "acceptedAnswer": { "@type": "Answer", "text": "E27 (Edison 27 mm) je standardní velká závitová patice — nejrozšířenější, používá se v lustrech, stojacích lampách a nástěnkách. E14 (Edison 14 mm) je malá závitová — typická pro dekorativní svítidla, lustry s více rameny a malé nástěnky. GU10 je bodová bajonetová patice — používá se v podhledových a koupelnových svítidlech. Před koupí vždy fyzicky zkontroluj patici svítidla nebo vyšroubuj starú žárovku a zkontroluj označení na její patici." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vybrat LED žárovku – parametry a úspory", "item": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

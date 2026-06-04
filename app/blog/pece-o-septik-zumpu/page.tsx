@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak pečovat o septik", "text": "Jak pečovat o septik" },
       { "@type": "HowToStep", "name": "Co do septiku a žumpy nepatří", "text": "Co do septiku a žumpy nepatří" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-septik-zumpu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak pečovat o septik a žumpu – frekvence vyvážení a péče 2026", "item": "https://www.domovniguru.cz/blog/pece-o-septik-zumpu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

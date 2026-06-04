@@ -49,7 +49,17 @@ const jsonLd = {
         { "@type": "HowToStep", "name": "Odvlhčovač – kdy ano a jak vybrat", "text": "Odvlhčovač je účinné doplňkové řešení — ale není náhradou za větrání ani za opravu stavební závady. Používej ho jako podporu, ne jako hlavní řešení." },
         { "@type": "HowToStep", "name": "Vlhkost v zimě vs. v létě – různé problémy", "text": "Vlhkost v bytě se chová jinak v různých ročních obdobích a vyžaduje různý přístup." }
       ]
-    }
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026", "item": "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte" }
+    ]
+  }
   ]
 };
 

@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Podvozek a prahy – nejrizikovější místa", "text": "Podvozek a prahy – nejrizikovější místa" },
       { "@type": "HowToStep", "name": "Technická příprava auta na zimu", "text": "Technická příprava auta na zimu" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Auto na zimu – jak připravit karoserii a chránit před rzí 2026", "item": "https://www.domovniguru.cz/blog/auto-na-zimu-karoserie" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

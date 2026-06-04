@@ -44,7 +44,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Spárování – finální krok", "text": "Spárování uzavře spáry, zabrání prorůstání plevele a dá terasu finální vzhled." },
       { "@type": "HowToStep", "name": "Kolik materiálu potřebuješ", "text": "Kolik materiálu potřebuješ" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak pokládat betonové dlaždice na terasu – postup 2026", "item": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

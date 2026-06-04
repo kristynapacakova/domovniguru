@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Typy filtrů – mytí nebo výměna", "text": "Většina domácích klimatizací má hrubé síťové filtry (mytí) a volitelné sekundární filtry (výměna). Zkontroluj návod k tvé klimatizaci jaké typy filtrů obsahuje." },
       { "@type": "HowToStep", "name": "Co zvládneš sám a co vyžaduje technika", "text": "Co zvládneš sám a co vyžaduje technika" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak čistit filtr klimatizace doma – postup krok za krokem 2026", "item": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

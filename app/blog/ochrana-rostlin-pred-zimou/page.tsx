@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Co přestěhovat dovnitř", "text": "Co přestěhovat dovnitř" },
       { "@type": "HowToStep", "name": "Mulčování záhonů – jednoduchá ochrana", "text": "Mulčování záhonů – jednoduchá ochrana" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Ochrana rostlin před zimou – co zakrýt", "item": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" }
+    ]
+  }
+  ]
 };
 
 const PLANT_GROUPS = [

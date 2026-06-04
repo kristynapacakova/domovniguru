@@ -44,7 +44,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Velké díry (nad 50 mm) – záplata ze sádrokartonu", "text": "Velké díry nelze vyplnit tmelem — praskaly by. Nejlepší řešení je záplata ze sádrokartonu." },
       { "@type": "HowToStep", "name": "Broušení a finální příprava před malováním", "text": "Broušení je posledním a nejdůležitějším krokem před malováním. Neopravené nebo špatně přebroušené místo bude pod barvou viditelné jako vyvýšenina nebo prohlubeň." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak opravit škrábance a díry ve zdi před malováním 2026", "item": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

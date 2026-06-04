@@ -43,7 +43,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Zapojení vodičů L, N, PE", "text": "Moderní zásuvka má tři svorky — fáze (L), nula (N) a zemnění (PE). Správné zapojení je klíčové pro bezpečnost." },
       { "@type": "HowToStep", "name": "Typy zásuvek – co koupit", "text": "Typy zásuvek – co koupit" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem 2026", "item": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -54,7 +54,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Plíseň se vrací – co to znamená a jak to zastavit trvale", "text": "Pokud se plíseň na stejném místě vrací i po vyčištění, je to jasný signál: neodstranil jsi příčinu, jen symptom. Chemie plíseň zabije, ale spóry jsou přirozeně přítomny v každém vzduchu — stačí že se podmínky vrátí do stejného stavu a plíseň vyklíčí znovu." },
       { "@type": "HowToStep", "name": "Plíseň v koupelně – specifický postup", "text": "Koupelnová plíseň je nejčastější typ — a zároveň nejsnáze řešitelný. Vzniká výhradně z kondenzace páry při sprchování nebo koupání. Na rozdíl od plísně ve stěnách způsobené tepelným mostem ji lze trvale eliminovat bez stavebních zásahů." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit plísně na zdi – likvidace plísně v bytě 2026", "item": "https://www.domovniguru.cz/blog/jak-odstranit-plisen-na-zdi" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

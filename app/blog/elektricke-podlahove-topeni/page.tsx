@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Instalace topné rohože – postup", "text": "Topná rohož pod dlažbu je nejčastější a nejjednodušší varianta elektrického podlahového topení. Zvládneš ji sám — ale zapojení do elektriky musí provést elektrikář." },
       { "@type": "HowToStep", "name": "Termostat a ovládání", "text": "Termostat a ovládání" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Elektrické podlahové topení – typy a instalace", "item": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

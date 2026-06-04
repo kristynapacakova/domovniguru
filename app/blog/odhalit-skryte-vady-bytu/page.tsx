@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Konstrukce a stavební stav", "text": "Konstrukce a stavební stav" },
       { "@type": "HowToStep", "name": "Právní a administrativní vady", "text": "Právní a administrativní vady" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak odhalit skryté vady bytu před koupí – checklist 2026", "item": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

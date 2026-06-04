@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Proč mi vypadává jistič?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs" },
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Proč mi vypadává jistič?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["proč vypadává jistič", "jistič vypadává", "přetížení okruhu", "zkrat jistič", "vadný spotřebič jistič", "elektroinstalace pojistky"] },
     {
       "@type": "FAQPage",
       "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#faq",
@@ -33,6 +33,16 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Zkrat", "text": "Zkrat nastane když se fázový vodič dotkne nulového nebo ochranného vodiče — průchod obrovského proudu okamžitě vyhodí jistič. Příčiny:" },
       { "@type": "HowToStep", "name": "Vadný spotřebič", "text": "Vadný spotřebič způsobuje zkrat nebo přetížení uvnitř sebe. Identifikace je jednoduchá:" },
       { "@type": "HowToStep", "name": "Vadný jistič", "text": "Jističe mají životnost 10 000–20 000 sepnutí a mohou po letech provozu začít vypadávat i při normální zátěži. Poznáš to tak že jistič vypadá i při minimální zátěži nebo bez zjevné příčiny." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Proč mi vypadává jistič?", "item": "https://www.domovniguru.cz/blog/proc-vypadava-jistic" }
     ]
   }
   ],

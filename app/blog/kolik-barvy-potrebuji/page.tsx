@@ -21,7 +21,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "O kolik procent koupit barvy navíc jako rezervu?", "acceptedAnswer": { "@type": "Answer", "text": "Vždy alespoň 10 %. Barva ze dvou různých šarží se může mírně lišit odstínem, proto je lepší mít dost z jedné šarže. Zbytek barvy uchovávej v uzavřené nádobě – vydrží 2–3 roky." } },
       { "@type": "Question", "name": "Je výhodnější koupit velké nebo malé balení barvy?", "acceptedAnswer": { "@type": "Answer", "text": "Velká balení (10 l kbelík) jsou obvykle o 20–30 % levnější na litr než dvě malá balení. Pokud potřebuješ více než 5 litrů, vždy se vyplatí koupit větší balení." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Kolik barvy potřebuji? Kalkulačka + vzorec", "item": "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

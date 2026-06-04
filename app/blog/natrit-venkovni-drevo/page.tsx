@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Nanášení krok za krokem", "text": "Nanášení krok za krokem" },
       { "@type": "HowToStep", "name": "Jak a kdy obnovit nátěr", "text": "Jak a kdy obnovit nátěr" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/natrit-venkovni-drevo#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak natřít venkovní dřevo – lazura, olej nebo lak 2026", "item": "https://www.domovniguru.cz/blog/natrit-venkovni-drevo" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

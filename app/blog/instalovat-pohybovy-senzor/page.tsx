@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Nastavení citlivosti a dosahu", "text": "Většina PIR senzorů má tři nastavovací prvky — otočné potenciometry nebo přepínače." },
       { "@type": "HowToStep", "name": "Řešení problémů", "text": "Řešení problémů" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak nainstalovat pohybový senzor krok za krokem", "item": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

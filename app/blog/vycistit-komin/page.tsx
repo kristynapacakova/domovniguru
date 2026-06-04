@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Čištění komína – sám nebo kominík", "text": "Čištění menšího komína (průřez do 150 mm, délka do 5 m) zvládneš sám. Větší komíny, komíny s ohyby nebo zanedbaný komín s nálety dehtu vyžadují kominíka." },
       { "@type": "HowToStep", "name": "Požár sazí – co dělat", "text": "Požár sazí – co dělat" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vycistit-komin#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vyčistit komín – kdy a jak na to, revize 2026", "item": "https://www.domovniguru.cz/blog/vycistit-komin" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

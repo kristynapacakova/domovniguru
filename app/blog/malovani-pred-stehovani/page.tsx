@@ -34,7 +34,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Technika malování prázdného bytu", "text": "Bez nábytku se pohybuješ volně. Využij to – táhni válečkem delší tahy, nepřerušované od stropu k podlaze. Kratší tahy způsobují viditelné spoje. V prázdném bytě nejsi limitovaný nábytkem a stačí ti méně přesahů." },
       { "@type": "HowToStep", "name": "Kolik barvy potřebuješ", "text": "Orientační spotřeba pro standardní místnosti (výška stropu 2,6 m, dvě vrstvy):" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vymalovat byt před stěhováním – průvodce a načasování", "item": "https://www.domovniguru.cz/blog/malovani-pred-stehovani" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

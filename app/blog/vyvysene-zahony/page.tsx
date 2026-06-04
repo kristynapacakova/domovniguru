@@ -33,7 +33,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Co sázet – kombinace rostlin které se podporují", "text": "Ve vyvýšeném záhonu je hustší výsadba než v klasickém záhonu. Klíč je kombinovat rostliny které si vzájemně pomáhají – odpuzují škůdce, fixují dusík nebo stíní kořeny sousedů." },
       { "@type": "HowToStep", "name": "Péče během sezóny", "text": "Vyvýšený záhon je nenáročný, ale má jedno specifikum: rychleji vysychá než záhon v zemi. V horkém létě může být potřeba zalévat každý den." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vyvysene-zahony#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Vyvýšené záhony – průvodce od stavby po sklizeň", "item": "https://www.domovniguru.cz/blog/vyvysene-zahony" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -29,7 +29,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Technika řezu", "text": "Jak řez provedeš je stejně důležité jako kdy ho provedeš. Špatný řez poškozuje větvičku a zpomaluje hojení." },
       { "@type": "HowToStep", "name": "Různé keře, různý přístup", "text": "Stříhají se na jaře (březen) těsně před rašením. Čajohybridní růže zkrať na 3–5 zdravých pupenů od země (výška asi 20–30 cm). Půdopokryvné a pnoucí růže stříhej méně agresivně – jen odstraň staré dřevo a zkrať výhony o třetinu." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak stříhat keře – průvodce pro každého", "item": "https://www.domovniguru.cz/blog/jak-strihat-kere" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

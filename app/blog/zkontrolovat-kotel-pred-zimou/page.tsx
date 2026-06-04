@@ -44,7 +44,17 @@ const jsonLd = {
         { "@type": "HowToStep", "name": "Co musí udělat servisní technik", "text": "Část kontrol vyžaduje odbornou kvalifikaci, speciální nástroje nebo přístup k plynovým rozvodům. Toto nechej na autorizovaném technikovi." },
         { "@type": "HowToStep", "name": "Specifika podle typu kotle", "text": "Nejmodernější a nejúčinnější typ. Navíc ke standardní kontrole: čištění kondenzátního sifonu, kontrola neutralizátoru kondenzátu a kontrola koaxiálního odvodu spalin. Kondenzát (kyselá voda) musí správně odtékat." }
       ]
-    }
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zkontrolovat-kotel-pred-zimou#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak zkontrolovat kotel před topnou sezónou – checklist 2026", "item": "https://www.domovniguru.cz/blog/zkontrolovat-kotel-pred-zimou" }
+    ]
+  }
   ]
 };
 

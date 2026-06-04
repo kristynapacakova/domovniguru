@@ -47,7 +47,17 @@ const jsonLd = {
         { "@type": "HowToStep", "name": "Větrání a topení – jak je kombinovat správně", "text": "Větrání při zapnutém topení naplno je přímá ztráta peněz. Ale zavřený, nevětraný byt také zdražuje — vlhký vzduch se hůře ohřívá a kondenzace na stěnách odvádí teplo." },
         { "@type": "HowToStep", "name": "Další tipy s malou investicí", "text": "Další tipy s malou investicí" }
       ]
-    }
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/usetrit-na-vytapeni#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak ušetřit na vytápění bez výměny kotle – 10 tipů 2026", "item": "https://www.domovniguru.cz/blog/usetrit-na-vytapeni" }
+    ]
+  }
   ]
 };
 

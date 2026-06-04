@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Mám si věci balit sám nebo platit firmě?", "acceptedAnswer": { "@type": "Answer", "text": "Balení firmou je pohodlnější ale výrazně dražší (přidá 30–50 % k ceně). Firmy také profesionálně balí křehké věci a nesou odpovědnost za poškození. Pokud balíš sám, firma obvykle neodpovídá za obsah kartonů. Kompromis: balit si méně křehké věci sám, křehké nechej na firmu." } },
       { "@type": "Question", "name": "Co dělat když firma poškodí nábytek?", "acceptedAnswer": { "@type": "Answer", "text": "Okamžitě zaznamenej poškození do předávacího protokolu — to je základ pro reklamaci. Fotografuj. Sepíš reklamaci písemně s popisem a fotografiemi do 3 dnů. Pokud firma odmítá náhradu, obrátíš se na Českou obchodní inspekci nebo soud. Proto je pojištění a předávací protokol tak důležité." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vybrat-stehovaci-firmu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vybrat stěhovací firmu – na co si dát pozor 2026", "item": "https://www.domovniguru.cz/blog/vybrat-stehovaci-firmu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

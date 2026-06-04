@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Zahrada a terasa – jarní start", "text": "Zahrada a terasa – jarní start" },
       { "@type": "HowToStep", "name": "Technické kontroly", "text": "Technické kontroly" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/dum-priprava-na-leto#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Příprava domu na léto – co zkontrolovat na jaře 2026", "item": "https://www.domovniguru.cz/blog/dum-priprava-na-leto" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak zabalit díly na transport", "text": "Jak zabalit díly na transport" },
       { "@type": "HowToStep", "name": "Sestavení na novém místě", "text": "Sestavení na novém místě" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026", "item": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

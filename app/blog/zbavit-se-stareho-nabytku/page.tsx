@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Sběrný dvůr – zdarma a ihned", "text": "Každá obec provozuje sběrný dvůr kde lze zdarma odevzdat starý nábytek. Je to nejrychlejší a nejlevnější způsob jak se zbavit nábytku který nikdo nechce." },
       { "@type": "HowToStep", "name": "Odvozová firma – pohodlné ale placené", "text": "Pokud nemáš auto, nemůžeš rozložit nábytek nebo prostě nechceš ztrácet čas, zavolej odvozovou firmu. Za 500–3 000 Kč přijdou, odnesou a odvezou." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit starého nábytku", "item": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

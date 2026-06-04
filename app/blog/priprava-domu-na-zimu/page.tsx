@@ -44,7 +44,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Zahrada a terasa – zazimování", "text": "Jaro je příjemnější pokud jsi na podzim udělal správnou přípravu. Zahradní práce v říjnu jsou investicí do jara." },
       { "@type": "HowToStep", "name": "Ostatní – elektřina, nouzová výbava a sníh", "text": "Ostatní – elektřina, nouzová výbava a sníh" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Příprava domu na zimu – kompletní checklist 2026", "item": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

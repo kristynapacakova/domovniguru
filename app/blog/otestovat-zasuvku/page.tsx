@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Multimetr – přesné měření napětí", "text": "Multimetr – přesné měření napětí" },
       { "@type": "HowToStep", "name": "Co výsledky znamenají", "text": "Co výsledky znamenají" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak otestovat zásuvku – fázová tužka a multimetr", "item": "https://www.domovniguru.cz/blog/otestovat-zasuvku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

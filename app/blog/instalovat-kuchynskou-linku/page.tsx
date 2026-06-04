@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Pracovní deska", "text": "Pracovní deska" },
       { "@type": "HowToStep", "name": "Spotřebiče a zapojení", "text": "Spotřebiče a zapojení" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak nainstalovat kuchyňskou linku – postup montáže 2026", "item": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

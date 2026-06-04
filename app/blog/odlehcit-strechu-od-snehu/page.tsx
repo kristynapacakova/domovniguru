@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak bezpečně odlehčit střechu", "text": "Jak bezpečně odlehčit střechu" },
       { "@type": "HowToStep", "name": "Prevence – co pomáhá", "text": "Prevence – co pomáhá" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak bezpečně odlehčit střechu od sněhu", "item": "https://www.domovniguru.cz/blog/odlehcit-strechu-od-snehu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak opravit loupající se barvu", "text": "Jak opravit loupající se barvu" },
       { "@type": "HowToStep", "name": "Jak předejít loupání v budoucnu", "text": "Jak předejít loupání v budoucnu" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Proč se barva loupe – příčiny a jak to opravit 2026", "item": "https://www.domovniguru.cz/blog/barva-se-loupe" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

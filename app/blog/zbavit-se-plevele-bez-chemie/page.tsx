@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Domácí recepty na přírodní postřiky – bezpečné poměry", "text": "Přírodní postřiky jsou levné a snadno dostupné. Ale pozor — ocet a sůl mohou při nadměrném použití okyselit nebo zasolit půdu. Používej je cíleně, s rozumem a jen na nechtěné plochy." },
       { "@type": "HowToStep", "name": "Prevence – jak plevel zastavit dřív než začne", "text": "Nejlepší boj s plevelem je ten, ke kterému nedojde. Preventivní opatření jsou méně práce než opakovaná likvidace." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", "item": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

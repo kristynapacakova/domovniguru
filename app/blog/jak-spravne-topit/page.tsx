@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak větrat při topení", "text": "Větrání při topení je nutné — bez výměny vzduchu se hromadí vlhkost, CO₂ a znečišťující látky. Ale špatné větrání zbytečně prodraží topení." },
       { "@type": "HowToStep", "name": "Správné nastavení radiátorů", "text": "Správné nastavení radiátorů" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně topit – teploty, větrání a úspora energie 2026", "item": "https://www.domovniguru.cz/blog/jak-spravne-topit" }
+    ]
+  }
+  ]
 };
 
 const TEMPS = [

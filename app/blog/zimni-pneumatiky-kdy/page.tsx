@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Kolik stojí přezutí pneumatik?", "acceptedAnswer": { "@type": "Answer", "text": "Přezutí (výměna kol na diskách): 200–400 Kč za auto. Přezutí s přehozením pneumatik na disky + vyvážení: 600–1 200 Kč za auto. Sezónní přezutí s uskladněním: 800–1 500 Kč. Ceny se liší dle lokality — Praha a velká města jsou dražší." } },
       { "@type": "Question", "name": "Jak poznám že zimní pneumatika je opotřebená?", "acceptedAnswer": { "@type": "Answer", "text": "Hloubka dezénu pod 4 mm (zákonné minimum 1,6 mm ale bezpečnostní minimum 4 mm). Dezén má ukazatele opotřebení (TWI) — malé výstupky v drážkách dezénu. Když je dezén na úrovni těchto výstupků, pneumatika je opotřebená. Měř pomocí hloubkoměru dezénu (20–50 Kč v hobbymarketu)." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Zimní pneumatiky – kdy přezout a jak vybrat 2026", "item": "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

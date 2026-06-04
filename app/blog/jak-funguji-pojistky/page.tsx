@@ -43,7 +43,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Hodnoty pojistek – co kam patří", "text": "Vždy používej pojistku se stejnou nebo nižší hodnotou než originál. Vyšší hodnota nechrání vedení — drát se může přehřát a vznítit dříve než pojistka vypadne." },
       { "@type": "HowToStep", "name": "Kdy přejít na moderní rozvaděč s jističi", "text": "Starý rozvaděč s pojistkami není nutně nebezpečný — ale moderní rozvaděč s jističi a chrániči nabízí výrazně lepší ochranu. Výměna stojí 5 000–15 000 Kč včetně práce elektrikáře a revize." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak fungují pojistky a jističe – výměna a bezpečnost 2026", "item": "https://www.domovniguru.cz/blog/jak-funguji-pojistky" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

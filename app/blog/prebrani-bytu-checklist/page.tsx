@@ -34,7 +34,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Dokumenty a klíče", "text": "Dokumenty a klíče" },
       { "@type": "HowToStep", "name": "Kompletní checklist v bodech", "text": "Kompletní checklist v bodech" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Co zkontrolovat při přebírání nového bytu – checklist", "item": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

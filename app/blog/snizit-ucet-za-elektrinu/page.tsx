@@ -47,7 +47,17 @@ const jsonLd = {
         { "@type": "HowToStep", "name": "Správný tarif elektřiny – platíš za svůj profil spotřeby?", "text": "Výběr špatného tarifu může znamenat stovky až tisíce korun přeplatku ročně. Distributoři nabízejí různé sazby pro různé profily spotřeby." },
         { "@type": "HowToStep", "name": "Návyky které šetří – bez nulové investice", "text": "Návyky které šetří – bez nulové investice" }
       ]
-    }
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak snížit účet za elektřinu doma – 12 tipů bez investic 2026", "item": "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu" }
+    ]
+  }
   ]
 };
 

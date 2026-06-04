@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Přírodní ratan a bambus", "text": "Přírodní ratan a bambus" },
       { "@type": "HowToStep", "name": "Přezimování zahradního nábytku", "text": "Přezimování zahradního nábytku" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/osetrit-zahradni-nabytek#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak ošetřit zahradní nábytek – dřevo, kov, plast a ratan 2026", "item": "https://www.domovniguru.cz/blog/osetrit-zahradni-nabytek" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

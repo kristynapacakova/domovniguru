@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20funguje%20chytr%C3%A1%20dom%C3%A1cnost%20%E2%80%93%20za%C4%8D%C3%ADn%C3%A1me%20bez%20rekonstrukce%202025&cat=blog", width: 1200, height: 630, alt: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025" }] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs"
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["chytrá domácnost", "smart home začátečníci", "chytré osvětlení", "chytré zásuvky", "Zigbee Z-Wave WiFi", "home automation"]
   }, {
     "@type": "FAQPage",
     "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#faq",
@@ -30,7 +30,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Zigbee, Z-Wave nebo WiFi?", "text": "Zigbee, Z-Wave nebo WiFi?" },
       { "@type": "HowToStep", "name": "Potřebuji hub?", "text": "Pro začátek ne. WiFi zařízení fungují přímo přes tvoji domácí síť. Hub (centrální řídící jednotka) oceníš až když:" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak funguje chytrá domácnost – začínáme", "item": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

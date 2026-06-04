@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Tmelení spár mezi parketami", "text": "Po hrubém broušení jsou spáry mezi lamelami čisté a připravené na tmelení. Tmelení je volitelný ale doporučený krok pro esteticky čistý výsledek." },
       { "@type": "HowToStep", "name": "Lak, olej nebo vosk – co vybrat", "text": "Lak, olej nebo vosk – co vybrat" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026", "item": "https://www.domovniguru.cz/blog/renovovat-parkety" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

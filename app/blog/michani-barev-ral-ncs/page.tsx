@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Proč vypadá namíchaná barva jinak než na monitoru?", "acceptedAnswer": { "@type": "Answer", "text": "Monitory zobrazují barvy světlem (RGB), barvy na stěně odrážejí světlo (CMYK/pigmenty). Každý monitor je kalibrovaný jinak. Proto nikdy nevybírej barvu podle monitoru — vždy fyzický vzorník nebo RAL/NCS kód. Tiskárny a monitory nikdy nereproducují barvy 100% přesně." } },
       { "@type": "Question", "name": "Je RAL a Pantone totéž?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — jsou to různé barevné systémy pro různá odvětví. Pantone je americký systém primárně pro tisk a grafický design. RAL je evropský systém pro průmyslové nátěry, fasády a výrobní procesy. NCS je švédský systém pro architekturu a design. Hobbymarkety míchají RAL a NCS, ne Pantone." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/michani-barev-ral-ncs#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Míchání barev RAL a NCS – průvodce odstíny", "item": "https://www.domovniguru.cz/blog/michani-barev-ral-ncs" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

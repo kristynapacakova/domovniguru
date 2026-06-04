@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Malování rohů – technika krok za krokem", "text": "Malování rohů – technika krok za krokem" },
       { "@type": "HowToStep", "name": "Malování lišt a ostění", "text": "Malování lišt a ostění" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/malovat-jen-stetcem#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak malovat jen štětcem – rohy, lišty a detaily bez válce 2026", "item": "https://www.domovniguru.cz/blog/malovat-jen-stetcem" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

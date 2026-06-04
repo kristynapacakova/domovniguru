@@ -22,7 +22,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "Question", "name": "Lze tepelné čerpadlo použít i na chlazení v létě?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — většina moderních čerpadel vzduch–voda umí reverzní provoz (chlazení). Při podlahovém topení funguje jako pasivní chlazení, při aktivním chlazení dosahuje EER 3–4. Čerpadlo vzduch–vzduch funguje jako plnohodnotná klimatizace. Chlazení není podporováno dotacemi NZÚ." } },
       { "@type": "Question", "name": "Jak dlouho trvá instalace a musím být bez tepla?", "acceptedAnswer": { "@type": "Answer", "text": "Instalace standardního čerpadla vzduch–voda trvá 2–3 dny. Profesionální firma naplánuje instalaci tak, aby byl výpadek topení minimální — obvykle 4–8 hodin během připojování. Doporučujeme instalaci naplánovat na jaro nebo léto. V zimě je instalace možná, ale komplikovanější." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Tepelné čerpadlo: Průvodce výběrem a úsporami", "item": "https://www.domovniguru.cz/blog/tepelne-cerpadlo-pruvodce" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

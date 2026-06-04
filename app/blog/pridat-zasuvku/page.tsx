@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Kdy nutně potřebuješ elektrikáře", "text": "Kdy nutně potřebuješ elektrikáře" },
       { "@type": "HowToStep", "name": "Orientační ceny 2026", "text": "Orientační ceny 2026" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pridat-zasuvku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak přidat zásuvku do místnosti – povrchová nebo zapuštěná 2026", "item": "https://www.domovniguru.cz/blog/pridat-zasuvku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

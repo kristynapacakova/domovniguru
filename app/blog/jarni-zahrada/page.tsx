@@ -44,7 +44,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Terasa a zahradní nábytek", "text": "Terasa a zahradní nábytek" },
       { "@type": "HowToStep", "name": "Kompletní jarní checklist", "text": "Kompletní jarní checklist" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak připravit zahradu na jaro – co udělat v dubnu 2026", "item": "https://www.domovniguru.cz/blog/jarni-zahrada" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

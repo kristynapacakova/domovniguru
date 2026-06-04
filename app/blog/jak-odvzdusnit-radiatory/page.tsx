@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Kolik ušetříš odvzdušněním", "text": "Vzduch v soustavě je přímá ztráta peněz. Radiátor s vzduchovou kapsou musí topné těleso pracovat déle a intenzivněji aby dosáhlo požadované teploty v místnosti — nebo ji vůbec nedosáhne." },
       { "@type": "HowToStep", "name": "Jak odvzdušnit radiátor bez odvzdušňovacího ventilu", "text": "Starší radiátory — zejména litinové nebo paneláková tělesa — někdy nemají klasický odvzdušňovací ventil s čtyřhrannou hlavicí. V takovém případě máš dvě možnosti." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak odvzdušnit radiátor – krok za krokem + úspora tepla 2026", "item": "https://www.domovniguru.cz/blog/jak-odvzdusnit-radiatory" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

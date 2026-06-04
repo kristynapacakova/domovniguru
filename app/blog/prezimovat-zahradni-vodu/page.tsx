@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Přezimování automatické závlahy", "text": "Přezimování automatické závlahy" },
       { "@type": "HowToStep", "name": "Co dělat když přípojka zamrzla", "text": "Co dělat když přípojka zamrzla" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak přezimovat zahradní vodovodní přípojku – aby nezamrzla 2026", "item": "https://www.domovniguru.cz/blog/prezimovat-zahradni-vodu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

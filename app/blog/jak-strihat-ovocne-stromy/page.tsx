@@ -39,7 +39,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Postup řezu krok za krokem", "text": "Postup řezu krok za krokem" },
       { "@type": "HowToStep", "name": "Řez podle druhu stromu", "text": "Řez podle druhu stromu" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak stříhat ovocné stromy – kdy a jak správně řezat 2026", "item": "https://www.domovniguru.cz/blog/jak-strihat-ovocne-stromy" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Čím namazat závěsy – přehled maziv", "text": "Čím namazat závěsy – přehled maziv" },
       { "@type": "HowToStep", "name": "Postup mazání krok za krokem", "text": "Postup mazání krok za krokem" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak namazat dveře aby nevrzaly – čím a jak na to 2026", "item": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

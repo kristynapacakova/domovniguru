@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Montáž obložkové záruby krok za krokem", "text": "Montáž obložkové záruby krok za krokem" },
       { "@type": "HowToStep", "name": "Orientační ceny 2026", "text": "Orientační ceny 2026" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vyměnit staré dveře – výběr, montáž a záruby 2026", "item": "https://www.domovniguru.cz/blog/vymenit-stare-dvere" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

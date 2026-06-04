@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Druhy stropních krabic", "text": "Druhy stropních krabic" },
       { "@type": "HowToStep", "name": "Časté problémy", "text": "Časté problémy" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak zapojit nové světlo na strop", "item": "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

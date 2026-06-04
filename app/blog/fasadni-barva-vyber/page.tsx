@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak dlouho vydrží fasádní barva?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na typu barvy a orientaci fasády. Silikonová: 12–15 let. Akrylátová: 7–10 let. Minerální: 5–8 let. Jižní fasáda (přímé slunce) se opotřebí rychleji než severní. Pravidelné čištění fasády (každé 3–5 let) prodlouží životnost nátěru." } },
       { "@type": "Question", "name": "Mohu malovat fasádu sám bez lešení?", "acceptedAnswer": { "@type": "Answer", "text": "Pro přízemí a nízkopodlažní části ano. Pro patro a výše potřebuješ lešení nebo plošinu — práce na žebříku je nebezpečná a neumožňuje rovnoměrné nanášení. Lešení pro rodinný dům stojí 5 000–15 000 Kč na pronájem na 2–3 týdny." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/fasadni-barva-vyber#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Fasádní barva – jak vybrat správný typ a jak nanášet 2026", "item": "https://www.domovniguru.cz/blog/fasadni-barva-vyber" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

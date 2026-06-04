@@ -27,6 +27,7 @@ const jsonLd = {
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
+      "keywords": ["jak malovat strop", "malování stropu bez šmouh", "technika mokrý do mokrého", "váleček na strop", "penetrace před malováním stropu"],
     },
     {
       "@type": "FAQPage",

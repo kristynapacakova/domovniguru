@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Vyplatí se rekonstrukce koupelny při prodeji bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — nová koupelna zvyšuje hodnotu bytu a urychluje prodej. Ekonomická rekonstrukce (100 000–150 000 Kč) se při prodeji vrátí v ceně o 150 000–250 000 Kč. Prémiová rekonstrukce se nemusí plně vrátit — záleží na lokalitě a trhu." } },
       { "@type": "Question", "name": "Potřebuji hydroizolaci pod obklady?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — hydroizolace pod obklady je nutná v mokrých zónách (sprchový kout, vana, oblast kolem umyvadla). Bez hydroizolace voda pronikne pod obklady a způsobí vlhkost, plíseň a poškození stropů sousedů. Cena hydroizolace je 200–500 Kč/m² — vyplatí se vždy." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Kolik stojí rekonstrukce koupelny – ceny 2026", "item": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

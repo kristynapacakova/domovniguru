@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Jak poznat barvu odolnou plísním?", "acceptedAnswer": { "@type": "Answer", "text": "Na plechovce nebo v technickém listu hledej výrazy: fungicidní, protiplísňová, biocidní přísada nebo antimikrobiální. Výrobci jako Primalex, HET, Dulux mají speciální řady pro vlhké prostory — obvykle označeny Koupelna nebo Protec v názvu." } },
       { "@type": "Question", "name": "Musím novou barvu nanášet na celou koupelnu nebo jen na poškozené části?", "acceptedAnswer": { "@type": "Answer", "text": "Pro nejlepší výsledek celou koupelnu — záplata bude patrná i pod barvou pokud se barvy mírně liší. Pokud opravuješ malou plochu, snaž se sehnat stejnou barvu ze stejné šarže nebo proveď barevnou korekci. Lokální oprava je přijatelná pro drobné poškození, ne pro plíseň." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/barva-do-vlhkych-prostoru#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jakou barvu do vlhkých prostor – koupelna, kuchyň, sklep 2026", "item": "https://www.domovniguru.cz/blog/barva-do-vlhkych-prostoru" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Lapač krtků – nejúčinnější metoda", "text": "Lapač krtků (živý i smrtící) je nejspolehlivější metoda. Správná instalace je klíčová — špatně umístěný lapač nefunguje." },
       { "@type": "HowToStep", "name": "Ochrana záhonů sítí – trvalé řešení", "text": "Ochrana záhonů sítí – trvalé řešení" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-krtku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit krtků na zahradě – co funguje a co ne 2026", "item": "https://www.domovniguru.cz/blog/zbavit-se-krtku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Příprava povrchu – klíč k trvanlivosti", "text": "Špatná příprava je příčina 90 % selhání nátěru radiátoru. Věnuj přípravě stejně času jako samotnému malování." },
       { "@type": "HowToStep", "name": "Postup malování radiátoru", "text": "Radiátor maluj vždy v tomto pořadí — od vnitřku ven, od shora dolů." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-radiator#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak malovat radiátor – příprava, správná barva a postup 2026", "item": "https://www.domovniguru.cz/blog/jak-malovat-radiator" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Postup krok za krokem", "text": "Postup krok za krokem" },
       { "@type": "HowToStep", "name": "Kolik vrstev potřebuješ", "text": "Kolik vrstev potřebuješ" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak malovat přes tmavou barvu na světlo", "item": "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

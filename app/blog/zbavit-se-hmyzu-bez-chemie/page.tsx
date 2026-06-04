@@ -44,7 +44,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Molové a švábi – přírodní prevence", "text": "Molové a švábi – přírodní prevence" },
       { "@type": "HowToStep", "name": "Rostliny které odpuzují hmyz", "text": "Některé rostliny přirozeně odpuzují hmyz díky esenciálním olejům. Umísti je na okna a terasy pro pasivní ochranu." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit hmyzu bez chemie – přírodní rady", "item": "https://www.domovniguru.cz/blog/zbavit-se-hmyzu-bez-chemie" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

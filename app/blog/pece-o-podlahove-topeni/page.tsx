@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Péče o podlahy nad topením", "text": "Péče o podlahy nad topením" },
       { "@type": "HowToStep", "name": "Údržba teplovodního podlahového topení", "text": "Údržba teplovodního podlahového topení" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Péče o podlahové topení – teplota, provoz a údržba 2026", "item": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak nahlásit odečet elektroměru", "text": "Jak nahlásit odečet elektroměru" },
       { "@type": "HowToStep", "name": "Jak zkontrolovat správnost vyúčtování", "text": "Jak zkontrolovat správnost vyúčtování" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-cist-elektromer#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak číst elektroměr – jednofázový i třífázový 2026", "item": "https://www.domovniguru.cz/blog/jak-cist-elektromer" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

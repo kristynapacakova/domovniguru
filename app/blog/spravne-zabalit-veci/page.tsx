@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Oblečení a textil", "text": "Oblečení a textil" },
       { "@type": "HowToStep", "name": "Systém popisování krabic", "text": "Systém popisování krabic" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/spravne-zabalit-veci#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně zabalit věci při stěhování – bez poškození 2026", "item": "https://www.domovniguru.cz/blog/spravne-zabalit-veci" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

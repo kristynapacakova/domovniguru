@@ -43,7 +43,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Další levná opatření bez rekonstrukce", "text": "Další levná opatření bez rekonstrukce" },
       { "@type": "HowToStep", "name": "V jakém pořadí začít – od nejlevnějšího", "text": "V jakém pořadí začít – od nejlevnějšího" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak zateplit byt bez rekonstrukce – levná řešení 2026", "item": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

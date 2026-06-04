@@ -40,7 +40,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Kabelová spojka – pevné prodloužení", "text": "Kabelová spojka umožňuje pevně prodloužit kabel spotřebiče. Musí být provedena správně — v elektroinstalační krabici s víkem." },
       { "@type": "HowToStep", "name": "Nová zásuvka – nejlepší trvalé řešení", "text": "Pokud ti zásuvka stále chybí na stejném místě, nejlepší řešení je přidat novou zásuvku do elektroinstalace. Trvale, bezpečně a bez kabelů křížem přes místnost." }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak prodloužit elektrický kabel bezpečně – postup 2026", "item": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

@@ -46,6 +46,16 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak najít vadný spotřebič", "text": "Pokud jistič nebo chránič po resetu drží ale vypadne při připojení určitého spotřebiče, postup je jednoduchý:" },
       { "@type": "HowToStep", "name": "Kdy volat elektrikáře", "text": "Kdy volat elektrikáře" }
     ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Co dělat když nejde proud v části bytu – postup 2026", "item": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu" }
+    ]
   }
   ],
 };

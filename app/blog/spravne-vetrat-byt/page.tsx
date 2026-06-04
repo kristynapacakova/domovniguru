@@ -46,7 +46,17 @@ const jsonLd = {
         { "@type": "HowToStep", "name": "Větrání podle místnosti – co kde potřebuješ", "text": "Nejkritičtější místnost. Po každém sprchování nebo koupání musí vlhkost odejít. Bez okna je nutný ventilátor — a to nejlevnější co koupíš (500–1 500 Kč) se ti vrátí na zabráněné škodě od plísně mnohonásobně. Nechej ho běžet 15 minut po sprchování." },
         { "@type": "HowToStep", "name": "Vlhkost a plíseň – přímá spojitost s větráním", "text": "Plíseň roste při vlhkosti nad 70 % a teplotě 10–35 °C. Větrání je nejdůležitější a nejlevnější prevence — levnější než jakýkoli fungicid nebo renovace." }
       ]
-    }
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/spravne-vetrat-byt#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně větrat byt – efektivní větrání v létě i v zimě 2026", "item": "https://www.domovniguru.cz/blog/spravne-vetrat-byt" }
+    ]
+  }
   ]
 };
 

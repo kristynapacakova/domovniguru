@@ -32,7 +32,18 @@ const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Articl
       { "@type": "HowToStep", "name": "Péče o dřevěné násady", "text": "Dřevěné násady jsou slabým místem každého nářadí. Suché dřevo praská, mokré bobtnáme a pouštíme kovovou hlavici. Jednou ročně (ideálně na podzim) obruste násadu jemným smirkem a natři lněným olejem – nechej vsáknout přes noc, přebytek setři." },
       { "@type": "HowToStep", "name": "Skladování přes zimu", "text": "Podzimní příprava nářadí na zimu ti ušetří hodiny práce na jaře:" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "item": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

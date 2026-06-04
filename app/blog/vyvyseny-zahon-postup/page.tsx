@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Výplň a substrát – klíč k úspěchu", "text": "Vrstvy záhonu plníš odspodu. Spodní vrstvy postupně hnijí a uvolňují teplo a živiny." },
       { "@type": "HowToStep", "name": "Co pěstovat ve vyvýšeném záhonu", "text": "Vyvýšený záhon je ideální pro téměř veškerou zeleninu. Nejlépe se hodí:" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026", "item": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

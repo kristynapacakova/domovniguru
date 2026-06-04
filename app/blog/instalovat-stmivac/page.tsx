@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Zapojení stmívače krok za krokem", "text": "Zapojení stmívače krok za krokem" },
       { "@type": "HowToStep", "name": "Problémy a jejich řešení", "text": "Problémy a jejich řešení" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-stmivac#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak nainstalovat stmívač světla – zapojení krok za krokem 2026", "item": "https://www.domovniguru.cz/blog/instalovat-stmivac" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

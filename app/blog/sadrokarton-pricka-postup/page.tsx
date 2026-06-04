@@ -43,7 +43,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Tmelení spár a finalizace", "text": "Tmelení spár je nejzdlouhavější část — ale i nejdůležitější pro výsledný vzhled. Špatně přetmelená příčka bude mít viditelné nerovnosti pod barvou." },
       { "@type": "HowToStep", "name": "Typy sádrokartonových desek", "text": "Typy sádrokartonových desek" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak postavit příčku ze sádrokartonu", "item": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

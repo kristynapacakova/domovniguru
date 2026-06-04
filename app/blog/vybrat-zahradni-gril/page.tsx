@@ -30,7 +30,18 @@ const jsonLd = {
       { "@type": "Question", "name": "Uhlíkový nebo plynový – co si vybrat?", "acceptedAnswer": { "@type": "Answer", "text": "Uhlíkový: lepší chuť, nižší cena, ale více práce s rozpalem a čistěním. Plynový: rychlý start, snadné čistění, přesná regulace, ale dražší a chuť o trochu horší. Pokud grilujete 1–2× měsíčně v létě a máte čas — uhlíkový. Pokud grilujete každý víkend nebo během týdne — plynový za jeho pohodlnost se vyplatí." } },
       { "@type": "Question", "name": "Jak bezpečně skladovat propanbutanovou lahev?", "acceptedAnswer": { "@type": "Answer", "text": "Vždy venku nebo v dobře větraném prostoru — nikdy ve skladu nebo garáži bez ventilace. Plyny jsou těžší než vzduch a hromadí se u podlahy. Lahev uchovej stojatě, mimo dosah tepla a slunce. Uzavři ventil lahve po každém grilování. Nikdy neskladuj lahev v uzavřeném automobilu." } }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vybrat-zahradni-gril#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vybrat zahradní gril – plynový nebo uhlíkový", "item": "https://www.domovniguru.cz/blog/vybrat-zahradni-gril" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

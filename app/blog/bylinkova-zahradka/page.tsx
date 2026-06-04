@@ -42,7 +42,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Jak správně sklízet bylinky", "text": "Jak správně sklízet bylinky" },
       { "@type": "HowToStep", "name": "Nejčastější problémy", "text": "Nejčastější problémy" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026", "item": "https://www.domovniguru.cz/blog/bylinkova-zahradka" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [

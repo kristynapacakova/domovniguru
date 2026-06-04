@@ -41,7 +41,18 @@ const jsonLd = {
       { "@type": "HowToStep", "name": "Co při čištění zkontrolovat", "text": "Co při čištění zkontrolovat" },
       { "@type": "HowToStep", "name": "Prevence ucpání – jak čistit méně často", "text": "Prevence ucpání – jak čistit méně často" }
     ]
-  }]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vyčistit okapy – postup a prevence ucpání", "item": "https://www.domovniguru.cz/blog/jak-vycistit-okapy" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
