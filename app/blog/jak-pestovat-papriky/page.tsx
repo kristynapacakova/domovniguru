@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak pěstovat papriky", "papriky výsev", "pěstování paprik záhon", "papriky balkon", "kdy sázet papriky", "péče o papriky"]
+    "keywords": ["jak pěstovat papriky", "papriky výsev", "pěstování paprik záhon", "papriky balkon", "kdy sázet papriky", "péče o papriky"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-papriky#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Proč papriky kvetou ale plody neopadávají?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčina: příliš vysoké teploty nad 35 °C (pyly nejsou životaschopné), nedostatek opylovačů, příliš nízká vlhkost vzduchu, nebo přehnojení dusíkem. Řešení: přemísti do polostínu při horku, jemně otřes rostlinu pro samoopylení, zalévej pravidelně." } },
+      { "@type": "Question", "name": "Mohu pěstovat papriky na severním balkoně?", "acceptedAnswer": { "@type": "Answer", "text": "Severní balkon bohužel nestačí — papriky potřebují min. 6 hodin přímého slunce denně. Na severním balkoně budou rostliny živořit a plody budou minimální. Pro stinné místo jsou vhodnější salát, špenát nebo bylinky jako petržel a pažitka." } },
+      { "@type": "Question", "name": "Jaký je rozdíl mezi paprikou a chilli?", "acceptedAnswer": { "@type": "Answer", "text": "Obě jsou botanicky Capsicum annuum (nebo jiné druhy Capsicum). Paprika (sladká) obsahuje málo nebo žádný kapsaicin. Chilli obsahuje kapsaicin který způsobuje pálivost. Pěstování je identické — chilli jsou obvykle odolnější a méně náročné než velké sladké papriky." } }
+    ]
   }]
 };
 
@@ -53,7 +62,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pěstovat papriky – od výsevu po sklizeň</h1>
               <p className="article-lead">Papriky jsou teplo milující zelenina která v Česku vyžaduje trochu péče — ale odměnou jsou plody které jsou nesrovnatelně lepší než z obchodu. Záhon i velký truhlík na balkoně postačí.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-pestovat-papriky" title="Jak pěstovat papriky – od výsevu po sklizeň 2026" />
             </header>
 

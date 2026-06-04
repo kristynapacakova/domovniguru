@@ -21,7 +21,16 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak pěstovat jahody", "jahody výsadba", "péče o jahody", "jahody záhon", "jahody truhlík", "kdy sázet jahody"]
+    "keywords": ["jak pěstovat jahody", "jahody výsadba", "péče o jahody", "jahody záhon", "jahody truhlík", "kdy sázet jahody"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho vydrží jahodník na záhoně?", "acceptedAnswer": { "@type": "Answer", "text": "Jedna rostlina jahodníku plodí nejlépe 2.–4. rok. Po 4–5 letech výnosy klesají a plody jsou menší. Obnov záhon každé 3–4 roky — vysaď nové sazenice (ideálně z vlastních šlahounů) na nové místo. Staré rostliny vytrhni a zakompostuj." } },
+      { "@type": "Question", "name": "Proč jsou moje jahody malé a bez chuti?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: nedostatek slunce (min. 6 hodin denně), přehnojení dusíkem (velké listy, malé plody), příliš husté sázení, stará přestárlá rostlina (po 4+ letech), nedostatek vody v době zrání, nebo sklizení příliš brzy. Jahody musí být plně červené a snadno se odtrhávat." } },
+      { "@type": "Question", "name": "Jaké odrůdy jahod doporučuješ pro začátečníky?", "acceptedAnswer": { "@type": "Answer", "text": "Pro začátečníky: Senga Sengana (klasická česká odrůda, velmi odolná), Honeoye (raná, velké plody), Elsanta (výborná chuť). Pro balkon: přeběžné odrůdy (plodí celé léto) — Elan, Albion, Seascape. Přeběžné odrůdy mají menší plody ale déle plodí." } }
+    ]
   }]
 };
 
@@ -61,7 +70,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pěstovat jahody – výsadba, péče a sklizeň</h1>
               <p className="article-lead">Jahody jsou nejvděčnější ovoce pro zahradu i balkon — první plody přijdou už měsíc po výsadbě a jedna rostlina vydrží 3–4 roky. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-pestovat-jahody" title="Jak pěstovat jahody – výsadba, péče a sklizeň 2026" />
             </header>
 

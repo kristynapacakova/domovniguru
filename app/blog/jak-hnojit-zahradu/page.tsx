@@ -21,7 +21,17 @@ const jsonLd = {
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
-    "keywords": ["jak hnojit zahradu", "jarní hnojení zahrady", "hnojení trávníku jaro", "organické hnojivo zahrada", "minerální hnojivo", "kdy hnojit zahradu", "NPK hnojivo"]
+    "keywords": ["jak hnojit zahradu", "jarní hnojení zahrady", "hnojení trávníku jaro", "organické hnojivo zahrada", "minerální hnojivo", "kdy hnojit zahradu", "NPK hnojivo"],
+    "dateModified": "2026-06-04T08:00:00Z"
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Co znamenají čísla na hnojivu (15-5-20)?", "acceptedAnswer": { "@type": "Answer", "text": "Tři čísla označují procentuální obsah dusíku (N), fosforu (P) a draslíku (K). NPK 15-5-20 obsahuje 15 % dusíku, 5 % fosforu a 20 % draslíku. Vyšší první číslo = více dusíku = vhodné pro trávník a listovou zeleninu. Vyšší třetí číslo = více draslíku = vhodné pro plodovou zeleninu a podzimní hnojení." } },
+      { "@type": "Question", "name": "Je lepší organické nebo minerální hnojivo?", "acceptedAnswer": { "@type": "Answer", "text": "Oba typy mají své místo. Organická hnojiva (kompost, hnůj) zlepšují strukturu půdy a podporují půdní život — jsou základem zdravé zahrady. Minerální hnojiva dodávají přesné množství živin rychle. Ideální je kombinace: organické jako základ, minerální pro doplnění v sezóně." } },
+      { "@type": "Question", "name": "Kdy je nejlepší čas pro jarní hnojení?", "acceptedAnswer": { "@type": "Answer", "text": "Duben je ideální měsíc pro jarní hnojení v ČR. Teplota půdy by měla být nad 8 °C — při nižší teplotě kořeny živiny špatně vstřebávají. Trávník hnojíme při aktivním růstu, záhony při přípravě půdy, stromy při rašení." } },
+      { "@type": "Question", "name": "Mohu použít hnojivo z obchodu na organickou zahradu?", "acceptedAnswer": { "@type": "Answer", "text": "Pro certifikovanou bio zahradu jsou povolena pouze organická hnojiva a speciálně certifikované minerální přípravky. Pro běžnou domácí zahradu bez certifikace není omezení — můžeš kombinovat organické i minerální podle potřeby." } }
+    ]
   }]
 };
 
@@ -54,7 +64,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak hnojit zahradu – organicky i minerálně</h1>
               <p className="article-lead">Jaro je nejdůležitější čas pro hnojení zahrady. Správné hnojivo ve správný čas nastartuje sezónu — špatné hnojivo spálí rostliny nebo zůstane nevyužité. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-hnojit-zahradu" title="Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026" />
             </header>
 
