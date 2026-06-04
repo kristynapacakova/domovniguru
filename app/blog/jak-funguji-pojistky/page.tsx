@@ -17,11 +17,20 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#article",
     "headline": "Jak fungují pojistky a jističe – výměna a bezpečnost 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak fungují pojistky", "výměna pojistky", "pojistky vs jističe", "starý rozvaděč pojistky", "bytový rozvaděč", "jak vyměnit pojistku"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu vyměnit pojistku sám nebo potřebuji elektrikáře?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna přepálené pojistky za stejnou hodnotu je považována za drobnou údržbu — laik ji může provést pokud bezpečně vypne hlavní přívod. Výměna celého rozvaděče nebo přidání nových okruhů vyžaduje elektrikáře a revizi." } },
+      { "@type": "Question", "name": "Co se stane když dám pojistku s vyšší hodnotou?", "acceptedAnswer": { "@type": "Answer", "text": "Pojistka s vyšší hodnotou nechrání vedení — kabel se může přehřát a vznítit dříve než pojistka reaguje. Toto je velmi nebezpečné a častá příčina elektrických požárů. Vždy používej pojistku se stejnou nebo nižší hodnotou." } },
+      { "@type": "Question", "name": "Jak často se pojistky přepalují v normálním provozu?", "acceptedAnswer": { "@type": "Answer", "text": "Správně dimenzovaná pojistka by se neměla přepalovat vůbec — nebo jen výjimečně při zapnutí příliš mnoha spotřebičů najednou. Opakované přepalování signalizuje přetíženou instalaci nebo zkrat ve vedení. Oba případy vyžadují řešení, ne jen výměnu pojistky." } },
+      { "@type": "Question", "name": "Kde koupím pojistky?", "acceptedAnswer": { "@type": "Answer", "text": "Pojistky koupíš v elektroobchodech (Mall, specializované elektro prodejny) nebo v hobbymarketech (Hornbach, Bauhaus, OBI). Cena 10–30 Kč za kus. Při nákupu nes s sebou starou pojistku nebo si zapiš přesný typ a hodnotu v ampérech." } },
+    ]
   }]
 };
 
@@ -54,7 +63,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak fungují pojistky a jističe – výměna a bezpečnost</h1>
               <p className="article-lead">Máš v bytě starý rozvaděč s pojistkami místo jističů? Nebo nevíš jaký je rozdíl? Pojistky chrání elektroinstalaci před přetížením — ale jejich čas pomalu míjí. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-funguji-pojistky" title="Jak fungují pojistky a jističe – výměna a bezpečnost 2026" />
             </header>
 

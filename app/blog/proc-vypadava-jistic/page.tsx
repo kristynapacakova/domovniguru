@@ -8,7 +8,23 @@ export const metadata: Metadata = {
   openGraph: { title: "Proč mi vypadává jistič?", description: "Přetížení, zkrat nebo vadný spotřebič – jak zjistit příčinu.", url: "https://www.domovniguru.cz/blog/proc-vypadava-jistic", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Pro%C4%8D%20vypad%C3%A1v%C3%A1%20jisti%C4%8D%3F%20P%C5%99et%C3%AD%C5%BEen%C3%AD%20nebo%20zkrat&cat=blog", width: 1200, height: 630, alt: "Proč vypadává jistič? Přetížení nebo zkrat" }] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Proč mi vypadává jistič?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Proč mi vypadává jistič?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs" },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Co způsobuje nejčastěji vypadávání jističe?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastěji přetížení okruhu – příliš mnoho spotřebičů zapojených najednou. Druhá příčina je vadný spotřebič s poruchou uvnitř. Méně časté jsou zkrat v instalaci nebo opotřebovaný jistič." } },
+        { "@type": "Question", "name": "Mohu si sám vyměnit jistič za silnější, aby přestal vypadávat?", "acceptedAnswer": { "@type": "Answer", "text": "Ne. Silnější jistič je nebezpečný – kabely jsou dimenzované na konkrétní proud a silnější jistič je chrání hůř. Při přetížení by kabely mohly přehřát a způsobit požár. Jistič vyměňuj jen za stejnou hodnotu, vždy nechej elektrikáře." } },
+        { "@type": "Question", "name": "Jaký je rozdíl mezi jističem a proudovým chráničem (RCD)?", "acceptedAnswer": { "@type": "Answer", "text": "Jistič chrání elektrické vedení před přetížením a zkratem. Proudový chránič (RCD, označen 'IΔ') chrání osoby před úrazem elektrickým proudem – zaznamená únikový proud a okamžitě odpojí okruh. Obě zařízení spolupracují a mají různé funkce." } },
+        { "@type": "Question", "name": "Co dělat, když jistič okamžitě vypadne po zapnutí?", "acceptedAnswer": { "@type": "Answer", "text": "Odpoj všechny spotřebiče z daného okruhu a zkus zapnout jistič. Pokud drží, problém je v jednom ze spotřebičů – zapojuj je po jednom. Pokud jistič vypadne i bez spotřebičů, je problém v samotné instalaci – volej elektrikáře." } },
+        { "@type": "Question", "name": "Je nebezpečné, že jistič občas vypadává?", "acceptedAnswer": { "@type": "Answer", "text": "Samotné vypadnutí není nebezpečné – jistič funguje přesně jak má. Nebezpečné je ignorovat příčinu. Opakované vypadávání signalizuje přetížení, zkrat nebo vadný spotřebič, které mohou způsobit požár, pokud je nevyřešíš." } },
+      ],
+    },
+  ],
+};
 
 const RELATED = [
   { title: "Jak zapojit nové světlo na strop", href: "/blog/zapojit-svetlo-na-strop", read: "5 min" },
@@ -38,7 +54,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Proč mi vypadává jistič?</h1>
               <p className="article-lead">Jistič není závada — je to ochrana. Pokud vypadává opakovaně, říká ti že v okruhu je něco špatně. Tady je jak najít příčinu a co s tím.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
             </header>
 
             {/* HERO ILLUSTRATION */}
