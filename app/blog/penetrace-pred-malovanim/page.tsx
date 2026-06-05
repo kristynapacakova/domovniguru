@@ -81,7 +81,7 @@ export default function ArticlePage() {
             <section id="kdy-nutna">
               <h2>Kdy je penetrace nutná</h2>
               <h3>Nová nebo opravená omítka</h3>
-              <p>Nová omítka je velmi savá. Bez penetrace barva okamžitě zasychá v povrchu, nevytváří pevný film a spotřebuješ 2–3× více barvy. Penetrace savost sníží a vytvoří rovnoměrný podklad.</p>
+              <p>Nová omítka je velmi savá. Bez penetrace barva okamžitě zasychá v povrchu, nevytváří pevný film a spotřebuješ 2–3× více barvy. Penetrace savost sníží a vytvoří rovnoměrný podklad. Kolik penetrace budete potřebovat, zjistíte pomocí naší <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky penetrace</Link>.</p>
               <h3>Sádrokarton</h3>
               <p>Sádrokarton má papírový povrch, který je extrémně savý. Bez penetrace barva nedrží, papír se může zvlnit nebo odtrhnout. Zde penetrace není volitelná – je povinná.</p>
               <h3>Po stržení tapet</h3>

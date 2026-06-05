@@ -219,7 +219,7 @@ export default function ArticlePage() {
 
             <section id="testovani">
               <h2>Jak testovat vzorky na zdi – zlatá pravidla</h2>
-              <p>Největší chyba při výběru barvy je rozhodnutí podle malého vzorníku v obchodě pod zářivkovým světlem. Barva na velké ploše zdi v přirozeném světle vypadá vždy jinak — zpravidla intenzivněji.</p>
+              <p>Největší chyba při výběru barvy je rozhodnutí podle malého vzorníku v obchodě pod zářivkovým světlem. Barva na velké ploše zdi v přirozeném světle vypadá vždy jinak — zpravidla intenzivněji. Jakmile znáte finální barvu, přesné množství litrů si spočítejte v naší <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
               <ul>
                 <li><strong>✅ Kupuj zkušební plechovky (0,1–0,5 l):</strong> Každý seriózní výrobce nabízí zkušební balení. Investice 50–100 Kč za vzorek tě zachrání od přemalování celé místnosti za tisíce korun.</li>
                 <li><strong>✅ Nanes vzorek velkou plochou (min. 50×50 cm):</strong> Malý vzorek ti nedá představu o výsledku. Nanes barvu na papír nebo přímo na zeď na plochu alespoň 50×50 cm — ideálně A2 formát.</li>

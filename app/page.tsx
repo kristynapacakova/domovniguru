@@ -7,12 +7,15 @@ import Link from "next/link";
 // ─── Data ────────────────────────────────────────────────────────────────────
 
 const KALKULACKY = [
-  { icon: "🪣", title: "Kolik barvy potřebuji?",       desc: "Plocha, vrstvy, litry. Bez přemýšlení.",          href: "/kalkulacky/kolik-barvy" },
-  { icon: "📐", title: "Kolik laminátu potřebuji?",    desc: "m² + rezerva + počet balení.",                    href: "/kalkulacky/kolik-laminatu" },
-  { icon: "🧱", title: "Kolik dlažby potřebuji?",      desc: "Plocha, spáry, odpad. Přesně na balení.",         href: "/kalkulacky/kolik-dlazby" },
-  { icon: "🏗️", title: "Kolik betonu potřebuji?",      desc: "Objem, pytlů nebo m³ hotového betonu.",           href: "/kalkulacky/kolik-betonu" },
-  { icon: "🌿", title: "Kolik tapet potřebuji?",       desc: "Obvod místnosti, výška, počet rolí.",             href: "/kalkulacky/kolik-tapet" },
-  { icon: "💧", title: "Kolik tepelné izolace?",       desc: "Plocha stěny, tloušťka, počet desek.",            href: "/kalkulacky/tepelna-izolace" },
+  { icon: "🪣", title: "Kolik barvy potřebuji?",         desc: "Plocha, vrstvy, litry. Výsledek za 5 sekund.",     href: "/kalkulacky/kolik-barvy" },
+  { icon: "🖌️", title: "Kolik stojí malování?",          desc: "Práce + materiál – orientační cena ihned.",        href: "/kalkulacky/cena-malovani" },
+  { icon: "📐", title: "Kolik laminátu potřebuji?",      desc: "m² + rezerva + počet balení.",                     href: "/kalkulacky/kolik-laminatu" },
+  { icon: "⚡", title: "Spotřeba elektřiny domácnosti",  desc: "Spotřebiče, hodiny provozu – roční náklady v Kč.", href: "/kalkulacky/spotreba-elektriciny" },
+  { icon: "☀️", title: "Kolik solárních panelů?",        desc: "Spotřeba – počet panelů, úspora, návratnost.",     href: "/kalkulacky/solarni-panely" },
+  { icon: "🔥", title: "Spotřeba plynu na vytápění",     desc: "Plocha domu, třída izolace – m³ a Kč/rok.",        href: "/kalkulacky/spotreba-plynu" },
+  { icon: "🌱", title: "Kolik osiva na trávník?",        desc: "Plocha a dávka – kg a počet pytlíků k nákupu.",    href: "/kalkulacky/kolik-osiva" },
+  { icon: "🧱", title: "Kolik dlažby potřebuji?",        desc: "Plocha, spáry, odpad. Přesně na balení.",          href: "/kalkulacky/kolik-dlazby" },
+  { icon: "🚿", title: "Jaký bojler potřebuji?",         desc: "Počet osob a sprchování – doporučený objem.",      href: "/kalkulacky/velikost-bojleru" },
 ] as const;
 
 const NAVODY = [

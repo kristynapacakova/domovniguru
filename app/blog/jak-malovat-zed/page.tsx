@@ -188,7 +188,7 @@ export default function ArticlePage() {
               <h3>Kdy penetraci přeskočit lze</h3>
               <p>Na starší dobře přiléhající malované zdi v dobrém stavu – penetraci přeskočit lze. Ale prodlouží životnost a zlepší výsledek i tam.</p>
               <h3>Jak penetraci nanést</h3>
-              <p>Penetraci nanáš válenkem stejně jako barvu – jednou vrstvou. Nechej vyschnout dle pokynů výrobce (obvykle 2–4 hodiny), pak teprve maluj.</p>
+              <p>Penetraci nanáš válenkem stejně jako barvu – jednou vrstvou. Nechej vyschnout dle pokynů výrobce (obvykle 2–4 hodiny), pak teprve maluj. Přesné množství penetrace spočítáte v naší <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce penetrace</Link>.</p>
             </section>
 
             <section id="vyber-barvy">
@@ -254,7 +254,7 @@ export default function ArticlePage() {
 
             <section id="kalkukacka">
               <h2>Kolik barvy budeš potřebovat?</h2>
-              <p>Standardní vydatnost malířské barvy je <strong>8–12 m² na litr</strong> při jedné vrstvě. Pro dvě vrstvy tedy potřebuješ přibližně dvojnásobek.</p>
+              <p>Standardní vydatnost malířské barvy je <strong>8–12 m² na litr</strong> při jedné vrstvě. Pro dvě vrstvy tedy potřebuješ přibližně dvojnásobek. Přesné množství vám spočítá naše <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka barvy</Link>.</p>
               <p>Rychlý vzorec: <strong>(plocha stěn v m² ÷ vydatnost barvy) × počet vrstev + 10 % rezerva</strong>.</p>
               <PaintCalculator />
               <div className="article-cta-box">
