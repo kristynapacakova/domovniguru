@@ -172,7 +172,7 @@ export default function ArticlePage() {
             <section id="tipy">
               <h2>Praktické tipy pro malování dětského pokoje</h2>
               <ul>
-                <li><strong>Omyvatelná barva je nutnost:</strong> Dětský pokoj = kresby na zdech, šmouhy, otisky rukou. Vždy vol barvu s třídou omyvatelnosti 1 (nejvyšší).</li>
+                <li><strong>Omyvatelná barva je nutnost:</strong> Dětský pokoj = kresby na zdech, šmouhy, otisky rukou. Vždy vol barvu s třídou omyvatelnosti 1 (nejvyšší). Kolik barvy na celý pokoj budeš potřebovat, snadno spočítáš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</li>
                 <li><strong>Testovací vzorník:</strong> Kup testovací balení (50–100 Kč) a nanes na zeď. Nechej zaschnout 24 hodin a pozoruj v různém světle — ráno, odpoledne, večer.</li>
                 <li><strong>Světlost místnosti:</strong> Tmavý pokoj na sever = světlé barvy pro odraz světla. Slunný pokoj na jih = můžeš si dovolit tmavší odstíny.</li>
                 <li><strong>Výška malování:</strong> Pro malé děti přemýšlej o jiné barvě v dolní části zdi (do výšky 1 m) — snadněji se vymaluje po kresbách.</li>

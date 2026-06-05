@@ -145,7 +145,7 @@ export default function ArticlePage() {
               <h3>1. Základní zakrývací nátěr (nejlepší volba)</h3>
               <p>Speciální <strong>základní nátěr s vysokou kryvostí</strong> (tzv. primer nebo zakrývací základ) obsahuje více pigmentu než běžná barva. Jedna vrstva základu + jedna až dvě vrstvy finální barvy = čistý výsledek.</p>
               <h3>2. Více vrstev finální barvy</h3>
-              <p>Bez základu budeš potřebovat 3–4 vrstvy kvalitní barvy. Funguje, ale je to pomalejší a dražší než základ. Každá vrstva musí být suchá (min. 4 hodiny) před nanášením další.</p>
+              <p>Bez základu budeš potřebovat 3–4 vrstvy kvalitní barvy. Funguje, ale je to pomalejší a dražší než základ. Každá vrstva musí být suchá (min. 4 hodiny) před nanášením další. Přesné množství barvy pro celou místnost snadno zjistíš pomocí <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky barvy</Link>.</p>
               <h3>3. Sejmutí staré barvy</h3>
               <p>Nejradikálnější varianta — škrabka nebo teplovzdušná pistole. Doporučuje se jen pokud je stará barva silná, loupe se nebo je povrch jinak problematický. Více v článku <Link href="/blog/jak-odstranit-starou-barvu">jak odstranit starou barvu</Link>.</p>
               <div className="article-tip"><strong>💡 Doporučení:</strong> Základní nátěr je nejúspornější řešení. Jeden litr zakrývacího základu stojí 150–300 Kč a ušetří ti 2–3 vrstvy finální barvy.</div>
