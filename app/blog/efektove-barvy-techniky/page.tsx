@@ -175,7 +175,7 @@ export default function ArticlePage() {
               <h2>Obecné tipy pro efektové techniky</h2>
               <ul>
                 <li><strong>Vždy nejdřív vyzkoušej na kartonu:</strong> Efektové techniky jsou nepředvídatelné. Vyzkoušej techniku na větším kusu kartonu nebo dřevotřísky před aplikací na zeď.</li>
-                <li><strong>Pracuj v sekcích:</strong> Efektové barvy schnou rychle — pracuj v menších sekcích (1–2 m²) aby přechody nebyly viditelné.</li>
+                <li><strong>Pracuj v sekcích:</strong> Efektové barvy schnou rychle — pracuj v menších sekcích (1–2 m²) aby přechody nebyly viditelné. Celkové množství barvy na plochu zjistíš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</li>
                 <li><strong>Dva lidé = lepší výsledek:</strong> Jeden nanáší barvu, druhý ihned vytváří efekt. U mramorování a betonového efektu je to téměř nutnost.</li>
                 <li><strong>Zapečetit finální vrstvou:</strong> Efektové povrchy jsou citlivější než standardní malba. Vždy zapečeť transparentním matným nebo lesklým lakem.</li>
                 <li><strong>Méně je více:</strong> Začni subtilně — efekt lze vždy zesílit, ale přehnaný efekt těžko opravit.</li>

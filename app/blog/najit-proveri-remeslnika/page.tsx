@@ -144,7 +144,7 @@ export default function ArticlePage() {
                 <li><strong>Přesný popis prací:</strong> Ne "rekonstrukce koupelny" ale "bourání starých obkladů, pokládka nových obkladů 15 m², instalace WC, umyvadla a sprchového koutu, veškeré zednické práce".</li>
                 <li><strong>Cena materiálu zvlášť od práce:</strong> Musíš vědět kolik platíš za práci a kolik za materiál. Umožňuje to srovnání nabídek.</li>
                 <li><strong>Termín zahájení a dokončení:</strong> Konkrétní data, ne "zhruba za měsíc".</li>
-                <li><strong>Co není zahrnuto:</strong> Vícepráce, odvoz odpadu, malování po dokončení — co přesně cena nezahrnuje.</li>
+                <li><strong>Co není zahrnuto:</strong> Vícepráce, odvoz odpadu, malování po dokončení — co přesně cena nezahrnuje. Orientační náklady na malování zjistíš přes <Link href="/kalkulacky/cena-malovani" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku ceny malování</Link>.</li>
                 <li><strong>Záruční podmínky:</strong> Zákonná záruční lhůta je 2 roky na stavební práce. Seriózní řemeslník ji v nabídce uvede.</li>
               </ul>
             </section>

@@ -127,7 +127,7 @@ export default function ArticlePage() {
               <h2>Proč zápach vzniká a jak dlouho vydrží</h2>
               <p>Stavební materiály obsahují těkavé organické sloučeniny (VOC — Volatile Organic Compounds) které se uvolňují při schnutí. Intenzita a délka závisí na typu materiálu, teplotě a větrání.</p>
               <ul>
-                <li><strong>Akrylátové barvy (vodou ředitelné):</strong> Nejméně agresivní. Intenzivní zápach 24–48 hodin, pak rychle mizí. Při dobrém větrání byt obyvatelný za 1–2 dny.</li>
+                <li><strong>Akrylátové barvy (vodou ředitelné):</strong> Nejméně agresivní. Intenzivní zápach 24–48 hodin, pak rychle mizí. Při dobrém větrání byt obyvatelný za 1–2 dny. Kolik barvy potřebuješ na celý byt zjistíš přes <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku barvy</Link>.</li>
                 <li><strong>Olejové barvy a laky:</strong> Obsahují organická rozpouštědla. Zápach intenzivní 3–7 dní, slabý zápach může přetrvávat 2–3 týdny.</li>
                 <li><strong>Lak na podlahu (PU nebo olejový):</strong> Silný zápach 2–5 dní. V místnosti nelze spát min. 24–48 hodin po aplikaci poslední vrstvy.</li>
                 <li><strong>Lepidlo na dlaždice nebo vinyl:</strong> Závisí na typu — disperzní lepidla 1–3 dny, reaktivní (epoxidová) 3–7 dní.</li>

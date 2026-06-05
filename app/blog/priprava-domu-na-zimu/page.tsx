@@ -163,7 +163,7 @@ export default function ArticlePage() {
 
             <section id="topeni">
               <h2>Topení a kotel – priorita číslo jedna</h2>
-              <p>Výpadek topení v zimě je nejhorší scénář — a zároveň nejpředvídatelnější. Kotel který celé léto stál potřebuje pozornost před první zimní zátěží.</p>
+              <p>Výpadek topení v zimě je nejhorší scénář — a zároveň nejpředvídatelnější. Kotel který celé léto stál potřebuje pozornost před první zimní zátěží. Jak vysoké budou náklady na vytápění, zjistíš předem v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</p>
               <ul>
                 <li><strong>☐ Zkontroluj tlak v soustavě</strong> — manometr na kotli, správný tlak za studena 1,5–2,0 bar. Doplň vodu pokud je pod 1 bar.</li>
                 <li><strong>☐ Odvzdušni všechny radiátory</strong> — studené nahoře = vzduch v soustavě = plýtvání energií. Viz <Link href="/blog/jak-odvzdusnit-radiatory" style={{color:"#5a9e6f",fontWeight:600}}>Jak odvzdušnit radiátor →</Link></li>

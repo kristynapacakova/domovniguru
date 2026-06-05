@@ -191,7 +191,7 @@ export default function ArticlePage() {
               <h2>Nářadí a příprava</h2>
               <ul>
                 <li><strong>Nářadí:</strong> Pásová pila nebo motorová pila (řezání sloupků), vrtačka, vodováha (min. 1 m), olovnice, šňůra na vyznačení, lopata nebo vrtací souprava na sloupky, šroubovák nebo hřebíkovačka.</li>
-                <li><strong>Materiál na 10 m plotu výšky 150 cm:</strong> Sloupky 9×9 cm, délka 250 cm (150 cm viditelná část + 100 cm v zemi): 6 ks. Prkna 2×10 cm, délka dle návrhu. Vodorovné latě 5×10 cm. Impregnační přípravek. Šrouby pozinkované nebo nerezové.</li>
+                <li><strong>Materiál na 10 m plotu výšky 150 cm:</strong> Sloupky 9×9 cm, délka 250 cm (150 cm viditelná část + 100 cm v zemi): 6 ks. Prkna 2×10 cm, délka dle návrhu — přesný počet prken pro délku svého plotu si spočítáš v <Link href="/kalkulacky/kolik-prknu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce prken</Link>. Vodorovné latě 5×10 cm. Impregnační přípravek. Šrouby pozinkované nebo nerezové.</li>
                 <li><strong>Příprava terénu:</strong> Vyznač linii plotu šňůrou. Zkontroluj rovnost — plot na nerovném terénu vypadá neupraveně. Zvaž svah — plot může sledovat terén nebo být vodorovný.</li>
               </ul>
             </section>

@@ -154,7 +154,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Zálivka:</strong> Pravidelně a rovnoměrně — jahody nemají rády extrémní sucho ani přemokření. V létě 2–3× týdně. Zalévej pod listy (ne na listy) — mokré listy = plíseň. Kapková závlaha je ideální.</li>
                 <li><strong>Mulčování:</strong> Vrstva slány, kůry nebo speciální jahodové rohože pod rostlinami. Chrání plody před kontaktem se zemí (hniloba), udržuje vlhkost a potlačuje plevel. Tradičně se používá sláma — odtud anglicky "strawberry".</li>
-                <li><strong>Hnojení:</strong> Na jaře před kvetením: hnojivo s více dusíkem (podporuje listy). Po sklizni: hnojivo s více draslíkem a fosforem (pro příští rok). Přehnojování dusíkem = velké listy, málo plodů.</li>
+                <li><strong>Hnojení:</strong> Na jaře před kvetením: hnojivo s více dusíkem (podporuje listy). Po sklizni: hnojivo s více draslíkem a fosforem (pro příští rok) — správnou dávku pro svůj záhon si spočítáš v <Link href="/kalkulacky/kolik-hnojiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hnojiva</Link>. Přehnojování dusíkem = velké listy, málo plodů.</li>
                 <li><strong>Šlahouny:</strong> Jahody tvoří šlahouny (výběžky) které zapouštějí nové rostliny. Pokud nechceš rozmnožovat, odštipni je — rostlina investuje energii do plodů. Pokud chceš nové sazenice, nechej je zakořenit a přesaď.</li>
               </ul>
             </section>

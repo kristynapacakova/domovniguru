@@ -178,7 +178,7 @@ export default function ArticlePage() {
 
             <section id="kolik">
               <h2>Kolik vody potřebují rostliny</h2>
-              <p>Základní pravidlo: <strong>zalévat méně často ale více</strong>. Mělká každodenní zálivka způsobuje povrchové kořenění — rostliny jsou pak náchylnější k suchu. Hluboká zálivka 2–3× týdně podporuje hluboké kořeny odolné vůči suchu.</p>
+              <p>Základní pravidlo: <strong>zalévat méně často ale více</strong>. Mělká každodenní zálivka způsobuje povrchové kořenění — rostliny jsou pak náchylnější k suchu. Hluboká zálivka 2–3× týdně podporuje hluboké kořeny odolné vůči suchu. Přesné množství vody pro svoji zahradu nebo záhon spočítáš v <Link href="/kalkulacky/kolik-zavlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce zavlažování</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Typ rostliny / plochy</th><th>Množství vody</th><th>Frekvence</th><th>Poznámka</th></tr></thead>

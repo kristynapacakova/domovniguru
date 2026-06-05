@@ -210,7 +210,7 @@ export default function ArticlePage() {
                 <li><strong>Vrstva 1 — Dno (10–15 cm):</strong> Hrubý materiál — větve, kulatina, kůra. Zajistí odvodnění a postupně hnijí jako "topení" záhonu.</li>
                 <li><strong>Vrstva 2 — Střed (15–20 cm):</strong> Hrubý kompost, hnůj, listí, zelený odpad. Zdroj živin na roky.</li>
                 <li><strong>Vrstva 3 — Vrchní (25–30 cm):</strong> Kvalitní zahradní substrát smíchaný s kompostem (50:50). Do tohoto seješ a sázíš.</li>
-                <li><strong>Celkové množství:</strong> Záhon 120×240 cm, výška 70 cm = 200 litrů substrátu do vrchní vrstvy + hrubý materiál.</li>
+                <li><strong>Celkové množství:</strong> Záhon 120×240 cm, výška 70 cm = 200 litrů substrátu do vrchní vrstvy + hrubý materiál. Přesné množství hlíny pro svůj záhon snadno spočítáš v <Link href="/kalkulacky/kolik-hliny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hlíny</Link>.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Po naplnění záhon vydatně zalij — substrát sedne o 10–15 cm. Doplň do výše 5 cm pod okraj. Záhon je připravený k setí za 2–3 dny.</div>
             </section>

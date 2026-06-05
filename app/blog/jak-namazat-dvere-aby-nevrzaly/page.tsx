@@ -162,7 +162,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Dřevěné dveře bobtnají:</strong> Pokud dveře nejdou zavřít nebo se třou o zárubeň — problém je v deformaci dřeva, ne v závěsech. Přebrousit hranu dveří nebo počkat až dřevo vyschne (otop v zimě). Pokud problém přetrvává — seřídit závěsy nebo zárubeň.</li>
                 <li><strong>Uvolněné šrouby závěsů:</strong> Pokud šroub nejde dotáhnout (otáčí se naprázdno) — díra je rozšroubovaná. Zalij díru sekundovým lepidlem nebo dřevěnou špejlí + lepidlo, nechej zaschnout a zašroubuj znovu.</li>
-                <li><strong>Rez na závěsu:</strong> Pokud závěs rezaví a vrzá i po namazání — vyměnit závěs. Nové závěsy jsou levné (50–200 Kč/ks) a výměna trvá 15 minut s šroubovákem.</li>
+                <li><strong>Rez na závěsu:</strong> Pokud závěs rezaví a vrzá i po namazání — vyměnit závěs. Nové závěsy jsou levné (50–200 Kč/ks) a výměna trvá 15 minut s šroubovákem. Při výměně celých dveří se vyplatí rámy utěsnit montážní pěnou — kolik jí spotřebuješ zjistíš přes <Link href="/kalkulacky/kolik-montazni-peny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku montážní pěny</Link>.</li>
               </ul>
             </section>
 

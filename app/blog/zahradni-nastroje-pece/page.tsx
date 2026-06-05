@@ -197,7 +197,7 @@ export default function ArticlePage() {
             <section id="proc-pecovat">
               <h2>Proč se péče o nářadí vyplatí</h2>
               <p>Kvalitní zahradní nástroje nekupuješ každý rok. Kovářská lopata nebo profesionální zahradní nůžky stojí 500–2 000 Kč a při dobré péči vydrží 20–30 let. Při zanedbání zreziví a otupí za dvě sezóny.</p>
-              <p>Tupé a rezavé nářadí je navíc nebezpečné – klouže, vyžaduje větší sílu a zvyšuje riziko úrazu. Ostré nůžky dělají čistý řez který se lépe hojí, tupé listy drtí a trhají – a to je vstupní brána pro choroby rostliny.</p>
+              <p>Tupé a rezavé nářadí je navíc nebezpečné – klouže, vyžaduje větší sílu a zvyšuje riziko úrazu. Ostré nůžky dělají čistý řez který se lépe hojí, tupé listy drtí a trhají – a to je vstupní brána pro choroby rostliny. Až budeš na jaře připravovat trávník, pomůže ti naše <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka osiva na trávník</Link>.</p>
             </section>
 
             <section id="cisteni">

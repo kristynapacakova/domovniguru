@@ -164,7 +164,7 @@ export default function ArticlePage() {
               <h2>Jak nechat namíchat barvu</h2>
               <ul>
                 <li><strong>Postup:</strong> Přijď do hobbymarketu (Hornbach, Bauhaus, OBI, Malíř.cz) s RAL nebo NCS kódem. Obchod má míchací stroj — technik zadá kód, vyberou se pigmenty a barva se namíchá přesně dle kódu.</li>
-                <li><strong>Co si připravit:</strong> RAL nebo NCS kód, typ barvy (interiérová, exteriérová, na dřevo, na kov), množství (v litrech), lesklost (matná, satin, lesklá).</li>
+                <li><strong>Co si připravit:</strong> RAL nebo NCS kód, typ barvy (interiérová, exteriérová, na dřevo, na kov), množství (v litrech) — přesný počet litrů si předem spočítáš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>, lesklost (matná, satin, lesklá).</li>
                 <li><strong>Cena míchání:</strong> Obvykle zdarma nebo za 20–50 Kč jako příplatek za servis. Samotná barva se platí standardně.</li>
                 <li><strong>Objednat online:</strong> Mnoho hobbymarketů nabízí míchání online s dodávkou. Zadáš kód, množství a typ — barva dorazí domů.</li>
               </ul>

@@ -132,7 +132,7 @@ export default function ArticlePage() {
 
             <section id="vlhkost">
               <h2>Vlhkost a plíseň – nejčastější skrytá vada</h2>
-              <p>Vlhkost je nejčastější a nejdražší skrytá vada. Prodávající ji zakryjí čerstvou malbou nebo nábytkem — ale existují signály které nepřehlédneš.</p>
+              <p>Vlhkost je nejčastější a nejdražší skrytá vada. Prodávající ji zakryjí čerstvou malbou nebo nábytkem — ale existují signály které nepřehlédneš. Pokud koupelna vyžaduje rekonstrukci, orientační náklady zjistíš přes <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku ceny rekonstrukce</Link>.</p>
               <ul>
                 <li><strong>Tmavé skvrny na stropě nebo v rozích:</strong> Hnědé nebo šedé skvrny = zatékání nebo kondenzace. Zkontroluj pod střechou a u oken.</li>
                 <li><strong>Bublinková nebo vydutá malba:</strong> Barva se loupe nebo je vydutá — vlhkost za ní způsobuje odlupování. Jemně zmáčkni — pokud je dutá, pod ní je problém.</li>

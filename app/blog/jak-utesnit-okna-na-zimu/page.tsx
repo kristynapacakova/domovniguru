@@ -125,7 +125,7 @@ export default function ArticlePage() {
 
             <section id="tesnici-paska">
               <h2>Těsnicí páska – rychlé a levné řešení</h2>
-              <p>Samolepicí těsnicí páska z pěnového nebo gumového materiálu se lepí do drážky rámu nebo na rám a při zavření okna utěsní spáru. Stojí 30–100 Kč za 6 metrů.</p>
+              <p>Samolepicí těsnicí páska z pěnového nebo gumového materiálu se lepí do drážky rámu nebo na rám a při zavření okna utěsní spáru. Stojí 30–100 Kč za 6 metrů. Jak moc ušetříš na plynu po utěsnění, spočítáš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</p>
               <h3>Kde se hodí</h3>
               <ul>
                 <li>Starší dřevěná okna s většími spárami</li>

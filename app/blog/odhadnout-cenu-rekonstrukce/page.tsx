@@ -121,7 +121,7 @@ export default function ArticlePage() {
 
             <section id="postup">
               <h2>Jak sestavit odhad krok za krokem</h2>
-              <p>Realistický odhad ceny rekonstrukce nelze sestavit za hodinu. Potřebuješ projít byt místnost po místnosti a pro každou práci zjistit tři věci: co se bude dělat, kolik m² nebo kusů a jaká je orientační cena za jednotku.</p>
+              <p>Realistický odhad ceny rekonstrukce nelze sestavit za hodinu. Potřebuješ projít byt místnost po místnosti a pro každou práci zjistit tři věci: co se bude dělat, kolik m² nebo kusů a jaká je orientační cena za jednotku. Pro koupelnu jako nejnákladnější místnost ti pomůže <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka ceny rekonstrukce koupelny</Link>.</p>
               <ul>
                 <li><strong>Krok 1 — Soupis prací:</strong> Projdi každou místnost a zapiš co chceš změnit. Buď konkrétní — ne "opravit koupelnu" ale "vybourat staré obklady 12 m², položit nové obklady 12 m², vyměnit WC, umyvadlo, baterie".</li>
                 <li><strong>Krok 2 — Změř plochy:</strong> Každá práce se počítá v m² nebo kusech. Změř podlahy, stěny, strop. Zapiš každou místnost zvlášť.</li>

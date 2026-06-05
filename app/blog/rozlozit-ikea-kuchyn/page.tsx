@@ -181,7 +181,7 @@ export default function ArticlePage() {
                 </details>
                 <details className="faq-item">
                   <summary className="faq-summary">Co dělat pokud kuchyň není šroubovaná ale přilepená?<span className="faq-icon">▾</span></summary>
-                  <div className="faq-body">Starší kuchyně nebo kuchyně montované "natvrdo" mohou být přilepené ke zdi montážní pěnou nebo tmelem. V tom případě je demontáž destructivní — skříňky se při oddělování od zdi poškodí. Zavolej odbornou firmu která posoudí jestli je demontáž bez poškození možná, nebo zda je lepší kuchyň nechat a koupit novou.</div>
+                  <div className="faq-body">Starší kuchyně nebo kuchyně montované "natvrdo" mohou být přilepené ke zdi montážní pěnou nebo tmelem. V tom případě je demontáž destructivní — skříňky se při oddělování od zdi poškodí. Zavolej odbornou firmu která posoudí jestli je demontáž bez poškození možná, nebo zda je lepší kuchyň nechat a koupit novou. Při montáži nové kuchyně ti pomůže <Link href="/kalkulacky/kolik-sterky" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka stěrky a tmelu</Link> s odhadem spotřeby.</div>
                 </details>
               </div>
             </section>

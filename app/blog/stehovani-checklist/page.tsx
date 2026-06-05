@@ -109,7 +109,7 @@ export default function ArticlePage() {
                 <li><strong>Začni balit věci, které nepoužíváš</strong> – knihy, dekorace, sezónní oblečení</li>
                 <li><strong>Nahlásí změnu adresy</strong> na poště (přesměrování pošty na 3 měsíce)</li>
                 <li><strong>Informuj zaměstnavatele</strong> o změně adresy pro výplatní pásky a daňové doklady</li>
-                <li><strong>Zjisti, co je potřeba zařídit v novém bytě</strong> – přepis energií, internet, případné opravy</li>
+                <li><strong>Zjisti, co je potřeba zařídit v novém bytě</strong> – přepis energií, internet, případné opravy nebo malování (cenu odhadneš pomocí naší <Link href="/kalkulacky/cena-malovani" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny malování</Link>)</li>
               </ul>
             </section>
 

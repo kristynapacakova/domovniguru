@@ -246,7 +246,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 4 – Urychlovač:</strong> Na každou novou vrstvu posyp hrst kompostovacího urychlovače nebo hotového kompostu — přidáš aktivní mikroorganismy.</li>
                 <li><strong>Krok 5 – Vlhkost:</strong> Zkontroluj vlhkost stisknutím hrsti. Mělo by vykapat jen pár kapek — ne téct, ne být prašně suché.</li>
                 <li><strong>Krok 6 – Promíchávání:</strong> Každých 7–14 dní promíchej vidlemi pro přístup vzduchu.</li>
-                <li><strong>Krok 7 – Test zralosti:</strong> Zralý kompost je tmavý, drobivý, voní po zemi. Test: uzavři hrst do plastového sáčku na 3 dny — pokud nevznikne zápach, kompost je hotový.</li>
+                <li><strong>Krok 7 – Test zralosti:</strong> Zralý kompost je tmavý, drobivý, voní po zemi. Test: uzavři hrst do plastového sáčku na 3 dny — pokud nevznikne zápach, kompost je hotový. Kolik kompostu budeš potřebovat na záhony ti pomůže určit naše <Link href="/kalkulacky/kolik-kompostu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka kompostu</Link>.</li>
               </ul>
             </section>
 

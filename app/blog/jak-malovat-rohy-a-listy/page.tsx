@@ -209,7 +209,7 @@ export default function ArticlePage() {
 
             <section id="technika">
               <h2>Technika odřezávání krok za krokem</h2>
-              <p>Odřezávání (cutting in) je technika malování přesné linie u okraje — bez pásky, bez šablon. Vyžaduje trochu praxe, ale výsledek je čistší než s páskou pokud ji zvládneš.</p>
+              <p>Odřezávání (cutting in) je technika malování přesné linie u okraje — bez pásky, bez šablon. Vyžaduje trochu praxe, ale výsledek je čistší než s páskou pokud ji zvládneš. Kolik barvy celkem na místnost spotřebuješ zjistíš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
               <ul>
                 <li><strong>Krok 1 — Načítání štětce:</strong> Ponoř špičku štětce do barvy přibližně do třetiny délky štětin. Odstraň přebytečnou barvu otřením o okraj nádoby — ne o kraj. Štětec nesmí kapat.</li>
                 <li><strong>Krok 2 — Zahájení tahu:</strong> Začni 5–10 mm od okraje lišty nebo stropu. Prvním tahem nanes barvu mimo okraj — ne přímo u něj.</li>

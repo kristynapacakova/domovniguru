@@ -155,7 +155,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 4 — Zkrátit roční přírůstky:</strong> Loňské přírůstky (světlé, bez kůry) zkrátit o 1/3 na vnější pupen. Stimuluje větvení a tvorbu krátkých plodných větvičtek.</li>
                 <li><strong>Řez nad pupenem:</strong> Vždy řez 5 mm nad pupenem, šikmo (voda steče). Pupen musí směřovat ven z koruny.</li>
               </ul>
-              <div className="article-tip"><strong>💡 Zlaté pravidlo:</strong> Lépe méně než více. Jeden rok nestříhej moc — strom musí mít dost listové plochy pro fotosyntézu. Radikální řez provádět postupně přes 2–3 roky.</div>
+              <div className="article-tip"><strong>💡 Zlaté pravidlo:</strong> Lépe méně než více. Jeden rok nestříhej moc — strom musí mít dost listové plochy pro fotosyntézu. Radikální řez provádět postupně přes 2–3 roky. Po řezu doporučujeme stromy přihnojit — správné množství hnojiva snadno zjistíš pomocí naší <Link href="/kalkulacky/kolik-hnojiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky hnojiva</Link>.</div>
             </section>
 
             <section id="druhy">

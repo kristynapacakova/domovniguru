@@ -216,7 +216,7 @@ export default function ArticlePage() {
               <p>Preventivní kontrola v září nebo říjnu trvá 15–30 minut a může předejít:</p>
               <ul>
                 <li><strong>Poruše v mrazech</strong> — nejhorší možný čas kdy je servis nejdražší a nejpomaleji dostupný</li>
-                <li><strong>Vyšší spotřebě plynu</strong> — znečištěný výměník nebo vzduch v soustavě zvyšuje spotřebu o 10–20 %</li>
+                <li><strong>Vyšší spotřebě plynu</strong> — znečištěný výměník nebo vzduch v soustavě zvyšuje spotřebu o 10–20 %; celkovou spotřebu za sezónu odhadneš pomocí <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky spotřeby plynu na sezónu</Link></li>
                 <li><strong>Nebezpečí CO</strong> — špatně seřízený hořák nebo ucpaný odvod spalin může produkovat oxid uhelnatý</li>
                 <li><strong>Propadnutí záruky</strong> — většina výrobců podmínkou záruky stanovuje roční nebo dvouletý servis</li>
               </ul>

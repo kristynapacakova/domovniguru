@@ -250,7 +250,7 @@ export default function ArticlePage() {
               <div className="faq-list">
                 <details className="faq-item">
                   <summary className="faq-summary">Kolik ušetřím na vytápění bez rekonstrukce?<span className="faq-icon">▾</span></summary>
-                  <div className="faq-body">Kombinací těsnění oken, prahové lišty, reflexní fólie a termostatických hlavic lze reálně ušetřit 15–25 % nákladů na vytápění. Při průměrném účtu 30 000 Kč/rok jde o 4 500–7 500 Kč ročně. Nejlevnější opatření (zimní nastavení kování, těsnicí páska) se vrátí za první topnou sezónu.</div>
+                  <div className="faq-body">Kombinací těsnění oken, prahové lišty, reflexní fólie a termostatických hlavic lze reálně ušetřit 15–25 % nákladů na vytápění. Při průměrném účtu 30 000 Kč/rok jde o 4 500–7 500 Kč ročně. Nejlevnější opatření (zimní nastavení kování, těsnicí páska) se vrátí za první topnou sezónu. Přesné náklady na plyn spočítáš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</div>
                 </details>
                 <details className="faq-item">
                   <summary className="faq-summary">Pomáhá zateplovací fólie na okna?<span className="faq-icon">▾</span></summary>

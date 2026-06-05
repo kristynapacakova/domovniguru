@@ -137,7 +137,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Jarní ošetření:</strong> Vyčisti povrch tlakovou vodou nebo mýdlovou vodou a kartáčem. Nechej vyschnout 48 hodin. Přebrousit jemným papírem (120–150). Nanést terasový olej nebo lazuru ve směru dřevěného vlákna.</li>
                 <li><strong>Teak a akát:</strong> Nejodolnější dřeva — vydají bez ošetření 5–10 let. Ale ošetřovaný olej zabrání šedivění a zachová krásnou barvu. Teak olej 1× ročně na jaře.</li>
-                <li><strong>Borovice a smrk:</strong> Méně odolné — bez ošetření se rozpadnou za 3–5 let. Impregnace + lazura každý rok jsou nutností.</li>
+                <li><strong>Borovice a smrk:</strong> Méně odolné — bez ošetření se rozpadnou za 3–5 let. Impregnace + lazura každý rok jsou nutností. Kolik barvy nebo lazury spotřebuješ na celý nábytek, ti poradí naše <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka barvy</Link>.</li>
                 <li><strong>Šedivění dřeva:</strong> Šedivění způsobuje UV záření — je přirozené a nepoškozuje dřevo. Zabrání mu pravidelná lazura s UV filtrem. Šedivé dřevo obnoví čistič dřeva.</li>
               </ul>
             </section>

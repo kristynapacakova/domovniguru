@@ -318,7 +318,7 @@ export default function ArticlePage() {
                   <strong>✅ Vrstva 2 – Listí, tráva, sláma a organika (15–20 cm):</strong> Jemná organická hmota vyplní mezery mezi větvemi. Rychle se rozkládá a zahřívá záhon zevnitř (kompostovací teplo). Přidej zkosenou trávu, podzimní listí nebo slámu.
                 </li>
                 <li>
-                  <strong>✅ Vrstva 3 – Zralý kompost a zahradní zemina (15–20 cm):</strong> Tato vrstva je bohatá na živiny a mikroorganismy. Ideální poměr je 50 % zralý kompost a 50 % zahradní zemina. Nikdy nepoužívej čerstvý hnůj – kořeny by spálil.
+                  <strong>✅ Vrstva 3 – Zralý kompost a zahradní zemina (15–20 cm):</strong> Tato vrstva je bohatá na živiny a mikroorganismy. Ideální poměr je 50 % zralý kompost a 50 % zahradní zemina. Kolik hlíny a substrátu celkem potřebuješ, ti spočítá naše <Link href="/kalkulacky/kolik-hliny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka hlíny</Link>. Nikdy nepoužívej čerstvý hnůj – kořeny by spálil.
                 </li>
                 <li>
                   <strong>✅ Vrstva 4 – Pěstební substrát (20–30 cm):</strong> Horní vrstva je to, s čím přijdou do kontaktu kořeny rostlin. Použij kvalitní univerzální nebo zeleninový substrát. Smíchej ho s perlitem (20 %) pro lepší zadržování vody a provzdušnění.

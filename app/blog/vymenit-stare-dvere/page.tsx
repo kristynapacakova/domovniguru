@@ -175,7 +175,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 3 — Usaď zárubeň:</strong> Zárubeň vlož do otvoru, vyrovnej vodováhou ve všech směrech. Dočasně podepři klíny.</li>
                 <li><strong>Krok 4 — Připevni zárubeň:</strong> Zárubeň přišroubuj kotevními šrouby do zdi. Zkontroluj svislost a vodorovnost po každém šroubu.</li>
                 <li><strong>Krok 5 — Zavěs dveřní křídlo:</strong> Nasaď závěsy, zkontroluj vůle (2–3 mm na stranách, 3–5 mm dole). Dolaď polohu závěsů.</li>
-                <li><strong>Krok 6 — Vyspáruj a zakryj mezery:</strong> Mezery mezi zárubeň a zdí vyplň PU pěnou nebo maltou. Obložky překryjí spoje se zdí.</li>
+                <li><strong>Krok 6 — Vyspáruj a zakryj mezery:</strong> Mezery mezi zárubeň a zdí vyplň PU pěnou nebo maltou — kolik pěny spotřebuješ snadno spočítáš pomocí <Link href="/kalkulacky/kolik-montazni-peny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky montážní pěny</Link>. Obložky překryjí spoje se zdí.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Montáž dveří je přesná práce — 1 mm rozdíl v svislosti záruby způsobí, že dveře samy od sebe padají nebo se samovolně otevírají. Vodováhu používej po celou dobu montáže.</div>
             </section>

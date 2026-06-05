@@ -177,7 +177,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>Pro přesný výpočet včetně odečtení oken a dveří použij <Link href="/kalkulacky/kolik-barvy">kalkulačku barvy</Link>.</p>
+              <p>Pro přesný výpočet včetně odečtení oken a dveří použij <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku barvy</Link>.</p>
             </section>
 
             <section id="tipy">

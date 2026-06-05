@@ -180,7 +180,7 @@ export default function ArticlePage() {
 
             <section id="odvzdusni">
               <h2>Odvzdušnění radiátorů – zdarma, okamžitý efekt</h2>
-              <p>Vzduch v topné soustavě snižuje výkon radiátoru o 15–25 %. Topení pracuje naplno, ale teplo se do místnosti nedostane — blokovány vzduchovou kapsou. Odvzdušnění stojí 0 Kč (jen čas) a klíč za 20–50 Kč.</p>
+              <p>Vzduch v topné soustavě snižuje výkon radiátoru o 15–25 %. Topení pracuje naplno, ale teplo se do místnosti nedostane — blokovány vzduchovou kapsou. Odvzdušnění stojí 0 Kč (jen čas) a klíč za 20–50 Kč. Přesné náklady na plyn spočítáš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</p>
               <ul>
                 <li><strong>Jak poznat vzduch:</strong> Radiátor je nahoře studený, dole teplý. Bublání nebo kloktání při provozu topení.</li>
                 <li><strong>Kdy odvzdušnit:</strong> Na začátku každé topné sezóny — říjen/listopad. Po každém doplnění vody do soustavy.</li>

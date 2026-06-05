@@ -193,6 +193,7 @@ export default function ArticlePage() {
                 <li><strong>Jedna barva na vše:</strong> Pokud je to možné, jedna barva na celý byt = jedno míchání, žádné přepínání, méně odpadu.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Kup o 10–15 % více barvy než kolik potřebuješ. Doobjednávat během víkendu zdržuje. Zbytek vrátíš nebo uschovej pro opravy.</div>
+              <p>Chceš vědět, co tě celé malování bytu bude stát? Orientační cenu za práci i materiál zjistíš v <Link href="/kalkulacky/cena-malovani" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce ceny malování</Link>.</p>
             </section>
 
             <section id="chyby">

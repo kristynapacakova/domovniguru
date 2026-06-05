@@ -129,7 +129,7 @@ export default function ArticlePage() {
 
             <section id="prodat">
               <h2>Prodat online – jak na to</h2>
-              <p>Dobrý nábytek v použitelném stavu se prodá rychle. Klíč je správná fotka a realistická cena.</p>
+              <p>Dobrý nábytek v použitelném stavu se prodá rychle. Klíč je správná fotka a realistická cena. Peníze z prodeje se hodí na malování nového bytu — cenu odhadneš pomocí <Link href="/kalkulacky/cena-malovani" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny malování</Link>.</p>
               <ul>
                 <li><strong>Kde inzerovat:</strong> Bazoš.cz (největší databáze kupujících v ČR), Facebook Marketplace (rychlé místní prodeje), Fler.cz (pro designové nebo vintage kusy).</li>
                 <li><strong>Fotky rozhodují:</strong> Foť na denním světle, pozadí uklizené. Víc fotek = víc zájemců. Vyfotografuj případné poškození — předejdeš reklamacím a ztrátě času.</li>

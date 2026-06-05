@@ -172,7 +172,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Frekence ošetření olejem:</strong> Každý rok nebo každé 2 roky podle intenzity používání a typu dřeva.</li>
                 <li><strong>Frekvence lazury:</strong> Každé 2–3 roky. Lazura tvoří film na povrchu — přebroušení je nutné až při loupání.</li>
-                <li><strong>Jak poznat že je čas ošetřit:</strong> Kapka vody na dřevu — pokud se vsákne okamžitě (do 30 sekund), dřevo je suché a potřebuje ošetření. Pokud zůstane jako kulička, ochrana funguje.</li>
+                <li><strong>Jak poznat že je čas ošetřit:</strong> Kapka vody na dřevu — pokud se vsákne okamžitě (do 30 sekund), dřevo je suché a potřebuje ošetření. Pokud zůstane jako kulička, ochrana funguje. Kolik prken na terasu potřebuješ nakoupit ti poradí naše <Link href="/kalkulacky/kolik-prknu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka prken na terasu</Link>.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Nové dřevo neolejuj hned — nech ho "zrát" 3–6 měsíců. Čerstvé dřevo obsahuje příliš mnoho pryskyřice a olej se nevstřebá správně.</div>
             </section>

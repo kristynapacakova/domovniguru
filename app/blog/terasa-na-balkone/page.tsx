@@ -91,7 +91,7 @@ export default function ArticlePage() {
               <h3>Dřevěné dlaždice (deck tiles)</h3>
               <p>
                 Nejpopulárnější varianta – plastové nebo dřevěné dlaždice 30×30 nebo 50×50 cm, které se skládají jako puzzle. Žádné lepení, žádné vrtání. Jednoduše rozložíš a odvezeš při stěhování.
-                Cena: 300–800 Kč/m² podle materiálu.
+                Cena: 300–800 Kč/m² podle materiálu. Kolik dlaždic na svůj balkon přesně potřebuješ spočítáš v naší <Link href="/kalkulacky/kolik-dlazby" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce dlažby</Link>.
               </p>
               <p>
                 <strong>Dřevo (akácie, teak, bangkirai):</strong> přirozený vzhled, vydrží 10–20 let, potřebuje každoroční ošetření olejem.<br />

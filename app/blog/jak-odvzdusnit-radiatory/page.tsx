@@ -347,7 +347,7 @@ export default function ArticlePage() {
             {/* SECTION 6 */}
             <section id="uspora">
               <h2>Kolik ušetříš odvzdušněním</h2>
-              <p>Vzduch v soustavě je přímá ztráta peněz. Radiátor s vzduchovou kapsou musí topné těleso pracovat déle a intenzivněji aby dosáhlo požadované teploty v místnosti — nebo ji vůbec nedosáhne.</p>
+              <p>Vzduch v soustavě je přímá ztráta peněz. Radiátor s vzduchovou kapsou musí topné těleso pracovat déle a intenzivněji aby dosáhlo požadované teploty v místnosti — nebo ji vůbec nedosáhne. Kolik tě vytápění celkově stojí, spočítáš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</p>
               <ul>
                 <li><strong>Vzduch v 1 radiátoru:</strong> Snížení výkonu o 15–25 %. Při průměrných nákladech na vytápění 40 000 Kč/rok a 10 radiátorech v domě jde o 600–1 000 Kč ztráty ročně jen z jednoho radiátoru.</li>
                 <li><strong>Vzduch ve více radiátorech:</strong> Celková ztráta efektivity topné soustavy může být 10–20 %, což při průměrném domě odpovídá 4 000–8 000 Kč zbytečných nákladů ročně.</li>

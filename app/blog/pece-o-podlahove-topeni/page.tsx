@@ -126,7 +126,7 @@ export default function ArticlePage() {
 
             <section id="teplota">
               <h2>Správná teplota podlahového topení</h2>
-              <p>Teplota podlahového topení se nastavuje ve dvou hodnotách: teplota teplonosné vody (u teplovodního) a teplota povrchu podlahy.</p>
+              <p>Teplota podlahového topení se nastavuje ve dvou hodnotách: teplota teplonosné vody (u teplovodního) a teplota povrchu podlahy. Výkon a náklady svého systému snadno spočítáš v naší <Link href="/kalkulacky/podlahove-topeni" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce podlahového topení</Link>.</p>
               <ul>
                 <li><strong>Teplota povrchu podlahy:</strong> Max. 29 °C pro obytné místnosti. Max. 27 °C pro plovoucí a vinylové podlahy. Příliš horká podlaha je nepohodlná pro chůzi naboso a poškozuje podlahoviny.</li>
                 <li><strong>Teplota vody (teplovodní):</strong> Standardně 35–45 °C (nízkoteplotní systém). Klasické kotle nastavené na 70–80 °C je třeba doplnit směšovacím ventilem pro snížení teploty na podlahu.</li>

@@ -131,7 +131,7 @@ export default function ArticlePage() {
               <h2>Příprava a plánování</h2>
               <ul>
                 <li><strong>Zaměření prostoru:</strong> Přesně změř délku, výšku a hloubku prostoru kuchyně. Zaznamenat polohu vývodů vody, odpadů a elektroinstalace.</li>
-                <li><strong>Příprava stěn:</strong> Stěny musí být rovné a suché. Nerovnosti vyrovnat sádrovou omítkovinou. Zkontroluj jestli jsou stěny kolmé k podlaze — šikmá zeď komplikuje montáž.</li>
+                <li><strong>Příprava stěn:</strong> Stěny musí být rovné a suché. Nerovnosti vyrovnat sádrovou omítkovinou nebo stěrkou — kolik stěrky spotřebuješ zjistíš pomocí <Link href="/kalkulacky/kolik-sterky" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky stěrky</Link>. Zkontroluj jestli jsou stěny kolmé k podlaze — šikmá zeď komplikuje montáž.</li>
                 <li><strong>Označení výšek:</strong> Pomocí vodováhy označ na stěně výšku spodní řady (obvykle 85–87 cm od podlahy) a horní řady (obvykle 145–155 cm).</li>
                 <li><strong>Nářadí:</strong> Vrtačka s příklepem, vodováha (min. 1 m), hoblík nebo přímočará pila na desku, silikonová pistole, šroubovák, metr.</li>
               </ul>

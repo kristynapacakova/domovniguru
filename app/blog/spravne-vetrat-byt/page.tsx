@@ -271,7 +271,7 @@ export default function ArticlePage() {
             <section id="mistnosti">
               <h2>Větrání podle místnosti – co kde potřebuješ</h2>
               <h3>Koupelna</h3>
-              <p>Nejkritičtější místnost. Po každém sprchování nebo koupání musí vlhkost odejít. Bez okna je nutný ventilátor — a to nejlevnější co koupíš (500–1 500 Kč) se ti vrátí na zabráněné škodě od plísně mnohonásobně. Nechej ho běžet 15 minut po sprchování.</p>
+              <p>Nejkritičtější místnost. Po každém sprchování nebo koupání musí vlhkost odejít. Bez okna je nutný ventilátor — a to nejlevnější co koupíš (500–1 500 Kč) se ti vrátí na zabráněné škodě od plísně mnohonásobně. Nechej ho běžet 15 minut po sprchování. Celkovou spotřebu elektřiny domácnosti zjistíš v naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby elektřiny</Link>.</p>
               <h3>Kuchyně</h3>
               <p>Vaření produkuje vlhkost, pachy a oxid uhličitý. Digestoř odvádí vzduch ven jen pokud má odtah do fasády — recirkulační digestoř pouze filtruje pachy, vlhkost zpět vrací. Při vaření větrej oknem.</p>
               <h3>Ložnice</h3>

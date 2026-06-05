@@ -152,7 +152,7 @@ export default function ArticlePage() {
             <section id="chyby">
               <h2>Nejčastější chyby při topení</h2>
               <ul>
-                <li><strong>Přetápění:</strong> Každý 1 °C navíc = 6 % více na účtu. 24 °C v obýváku místo 21 °C = o 18 % vyšší náklady. Nastav termostat na 20–21 °C a oblékni se.</li>
+                <li><strong>Přetápění:</strong> Každý 1 °C navíc = 6 % více na účtu. 24 °C v obýváku místo 21 °C = o 18 % vyšší náklady — přesnou spotřebu plynu zjistíš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>. Nastav termostat na 20–21 °C a oblékni se.</li>
                 <li><strong>Zakrytí radiátorů:</strong> Nábytek nebo záclony před radiátorem blokují cirkulaci vzduchu. Radiátor hřeje jen okolní vzduch, který stoupá ke stropu místo do místnosti. Vždy min. 30 cm volného prostoru před radiátorem.</li>
                 <li><strong>Topení a přitom otevřená okna:</strong> Topíš ven — doslova. Buď topíš nebo větráš — ne oboje najednou.</li>
                 <li><strong>Nezavřené dveře v noci:</strong> Teplo z vytápěných místností uniká do nevytápěných prostor. Zavírej dveře — každá místnost by měla mít svou teplotní zónu.</li>

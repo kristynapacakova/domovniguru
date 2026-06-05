@@ -219,7 +219,7 @@ export default function ArticlePage() {
                 <li><strong>Kotvy sloupů 4 ks:</strong> Ocelové patky na zabetonování nebo přišroubování do dlažby.</li>
                 <li><strong>Spojovací materiál:</strong> Šrouby, svorníky, úhelníky — pozinkované nebo nerezové pro venkovní použití.</li>
               </ul>
-              <div className="article-tip"><strong>💡 Tip:</strong> Vždy kupuj dřevo s 10–15 % rezervou na odpad a chyby v řezání. Dřevo měř dvakrát, řež jednou.</div>
+              <div className="article-tip"><strong>💡 Tip:</strong> Vždy kupuj dřevo s 10–15 % rezervou na odpad a chyby v řezání. Přesný počet a délky prken pro svou pergolu ti spočítá naše <Link href="/kalkulacky/kolik-prknu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka prken</Link>. Dřevo měř dvakrát, řež jednou.</div>
             </section>
 
             <section id="kotveni">

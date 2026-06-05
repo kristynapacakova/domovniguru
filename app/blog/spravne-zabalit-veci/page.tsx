@@ -175,7 +175,7 @@ export default function ArticlePage() {
                 <li><strong>Každá krabice musí mít:</strong> Místnost kam patří (Ložnice, Kuchyň, Obývák), obsah (hrubý popis – Nádobí, Knihy, Oblečení).</li>
                 <li><strong>Barevný kód:</strong> Každá místnost = jiná barva pásky nebo bodu fixem. Stěhovníci okamžitě vědí kam krabici dát.</li>
                 <li><strong>Křehké:</strong> Červený nápis KŘEHKÉ na všech 4 stranách krabice (ne jen na víku — víko se může obrátit).</li>
-                <li><strong>Prioritní krabice:</strong> Jedna "pohotovostní" krabice s věcmi které potřebuješ první den — ložní prádlo, pyžamo, kávovar, nabíječky, toaletní potřeby. Označit OTEVŘÍT PRVNÍ.</li>
+                <li><strong>Prioritní krabice:</strong> Jedna "pohotovostní" krabice s věcmi které potřebuješ první den — ložní prádlo, pyžamo, kávovar, nabíječky, toaletní potřeby. Označit OTEVŘÍT PRVNÍ. Pokud nový byt potřebuje rekonstrukci koupelny, náklady dopředu odhadneš přes <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku ceny rekonstrukce koupelny</Link>.</li>
               </ul>
             </section>
 

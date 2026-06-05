@@ -158,7 +158,7 @@ export default function ArticlePage() {
               <h2>Provozní náklady – kolik to stojí</h2>
               <p>Elektrické podlahové topení je dražší na provoz než teplovodní systém, ale levnější na instalaci. Ideální jako doplňkové nebo komfortní topení, ne jako primární zdroj tepla pro celý byt.</p>
               <ul>
-                <li><strong>Příklad — koupelna 6 m², 150 W/m²:</strong> Celkový výkon 900 W. Při 4 hodinách denně: 900 W × 4 h = 3,6 kWh/den. Při ceně 6 Kč/kWh = 21,6 Kč/den = 650 Kč/měsíc.</li>
+                <li><strong>Příklad — koupelna 6 m², 150 W/m²:</strong> Celkový výkon 900 W. Při 4 hodinách denně: 900 W × 4 h = 3,6 kWh/den. Při ceně 6 Kč/kWh = 21,6 Kč/den = 650 Kč/měsíc. Náklady pro svou místnost spočítáš v naší <Link href="/kalkulacky/podlahove-topeni" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce podlahového topení</Link>.</li>
                 <li><strong>Termostat ušetří 40–60 %:</strong> Programovatelný termostat spouští topení jen když je potřeba — ráno před vstáváním a večer. Bez termostatu topení běží neustále.</li>
                 <li><strong>Srovnání s radiátorem:</strong> Radiátor (teplovodní) má nižší provozní náklady ale vyšší investici. Elektrické podlahové topení je levnější na instalaci ale dražší na provoz.</li>
               </ul>

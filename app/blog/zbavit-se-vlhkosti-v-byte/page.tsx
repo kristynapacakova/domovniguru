@@ -304,6 +304,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
+              <p>Spotřebu elektřiny odvlhčovače si předem spočítáš v naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby elektřiny</Link>.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Odvlhčovač nastav na cílovou vlhkost 50–55 % — pak se automaticky vypne a šetří energii. Nepřehánět to na 30 % — příliš suchý vzduch dráždí sliznice a způsobuje praskání dřevěného nábytku.</div>
             </section>
 

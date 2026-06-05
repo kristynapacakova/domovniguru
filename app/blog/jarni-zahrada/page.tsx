@@ -146,7 +146,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>☐ První sečení:</strong> Jakmile tráva dosáhne 8–10 cm, přijde první seč. Nastav sekačku na vyšší výšku (5–6 cm) — příliš krátký první střih oslabí trávník. Sečenou trávu kompostuj.</li>
                 <li><strong>☐ Vertikutace:</strong> Speciální vertikutátor nebo vertikutační nástavec na sekačku provzdušní drn a odstraní mech a filc. Ideálně jednou ročně na jaře. Pronájem vertikutátoru 300–600 Kč/den.</li>
-                <li><strong>☐ Přísev holých míst:</strong> Zimní výpady (mráz, mech, psí moč) přisej trávníkovým semenem. Přimáčkni semena pěchem nebo prochozením pro dobrý kontakt s půdou.</li>
+                <li><strong>☐ Přísev holých míst:</strong> Zimní výpady (mráz, mech, psí moč) přisej trávníkovým semenem — kolik ho budeš potřebovat zjistíš v <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce osiva</Link>. Přimáčkni semena pěchem nebo prochozením pro dobrý kontakt s půdou.</li>
                 <li><strong>☐ Jarní hnojení:</strong> NPK hnojivo s vyšším dusíkem (jarní trávníkové hnojivo), dávka dle návodu. Více v článku <Link href="/blog/jak-hnojit-zahradu" style={{color:"#5a9e6f",fontWeight:600}}>Jak hnojit zahradu →</Link></li>
                 <li><strong>☐ Vápnění (pokud je potřeba):</strong> Mech na trávníku = kyselá půda. Test pH a případné vápnění dolomitickým vápencem.</li>
               </ul>

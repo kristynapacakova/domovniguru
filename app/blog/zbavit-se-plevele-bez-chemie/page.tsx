@@ -398,7 +398,7 @@ export default function ArticlePage() {
               <h2>Prevence – jak plevel zastavit dřív než začne</h2>
               <p>Nejlepší boj s plevelem je ten, ke kterému nedojde. Preventivní opatření jsou méně práce než opakovaná likvidace.</p>
               <ul>
-                <li><strong>Mulčování záhonů:</strong> Vrstva mulče (kůra, štěpka, listí) 5–8 cm na záhonech blokuje světlo a zabraňuje klíčení semen plevele. Zároveň udržuje vlhkost a obohacuje půdu. Obnovuj každý rok na jaře.</li>
+                <li><strong>Mulčování záhonů:</strong> Vrstva mulče (kůra, štěpka, listí) 5–8 cm na záhonech blokuje světlo a zabraňuje klíčení semen plevele. Zároveň udržuje vlhkost a obohacuje půdu. Přesné množství mulče pro svůj záhon snadno spočítáš pomocí naší <Link href="/kalkulacky/kolik-mulce" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky mulče</Link>. Obnovuj každý rok na jaře.</li>
                 <li><strong>Krajinná textilie:</strong> Pod mulč nebo štěrk polož krajinnou (geotextilní) textilii — zabrání plevelu proniknout zdola a zároveň propouští vodu. Trvanlivost 5–10 let.</li>
                 <li><strong>Fugování dlažebních spár:</strong> Polymersand nebo spárovací malta ve spárách dlažby fyzicky zabrání klíčení semen. Jednou zaférovné spáry jsou bez plevele roky.</li>
                 <li><strong>Hustý trávník:</strong> Zdravý, hustý a pravidelně sekávaný trávník je nejlepší prevence plevele. Tráva stíní půdu a obsazuje místo kde by plevel klíčil.</li>

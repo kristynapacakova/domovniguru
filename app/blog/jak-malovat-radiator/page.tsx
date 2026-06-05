@@ -210,7 +210,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>Hledej barvy s označením <strong>„na radiátory"</strong>, <strong>„na topná tělesa"</strong> nebo <strong>„teplotně odolná do 130 °C"</strong>. Všechny větší značky (Primalex, HET, Balakryl, Dulux) mají speciální řadu na radiátory.</p>
+              <p>Hledej barvy s označením <strong>„na radiátory"</strong>, <strong>„na topná tělesa"</strong> nebo <strong>„teplotně odolná do 130 °C"</strong>. Všechny větší značky (Primalex, HET, Balakryl, Dulux) mají speciální řadu na radiátory. Kolik barvy celkem spotřebuješ i na okolní stěny spočítáš snadno v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Bílá barva na radiátor bývá označena jako „radiátorová bílá" nebo „sněhobílá" — je formulována tak aby nežloutla při teplotě topení. Standardní bílá zeď-barva na radiátoru zežloutne do jedné sezóny.</div>
             </section>
 

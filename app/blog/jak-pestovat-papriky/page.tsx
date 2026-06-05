@@ -150,7 +150,7 @@ export default function ArticlePage() {
               <h2>Péče – zálivka, hnojení, opora</h2>
               <ul>
                 <li><strong>Zálivka:</strong> Pravidelně a rovnoměrně — papriky nesnáší sucho ani přemokření. Zalévej ráno u kořenů, ne na listy. V horkém létě každý den nebo ob den.</li>
-                <li><strong>Hnojení:</strong> Každé 2 týdny tekutým hnojivem pro rajčata a papriky (bohatým na draslík a fosfor). Přehnojení dusíkem = velké listy, málo plodů.</li>
+                <li><strong>Hnojení:</strong> Každé 2 týdny tekutým hnojivem pro rajčata a papriky (bohatým na draslík a fosfor) — kolik hnojiva přesně potřebuješ zjistíš v naší <Link href="/kalkulacky/kolik-hnojiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hnojiva</Link>. Přehnojení dusíkem = velké listy, málo plodů.</li>
                 <li><strong>Odlomení první pupeny:</strong> První 2–3 pupeny odlomit — rostlina nejdřív zapustí silné kořeny a pak teprve plodí bohatě. Tento krok výrazně zvýší celkovou sklizeň.</li>
                 <li><strong>Teplota:</strong> Papriky přestanou nasazovat plody při teplotách nad 35 °C nebo pod 15 °C. V horkém létě zavlažuj a stínuj — obnoví se při poklesu teplot.</li>
               </ul>

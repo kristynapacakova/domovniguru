@@ -197,7 +197,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Rozměry a layout:</strong> Nakresli si půdorys terasy na papír. Dlaždice rozmísti tak aby byly u viditelných hran celé — řezané dlaždice nechej u zdi nebo za nábytkem. Ideálně začni od středu nebo od nejviditelnějšího rohu.</li>
                 <li><strong>Výběr dlaždic:</strong> Betonové dlaždice pro exteriér musí mít mrazuvzdornost (označení C3 nebo W4). Tloušťka min. 5 cm pro pěší provoz, 8+ cm pro pojezdové plochy. Povrchová textura (protiskluznost) je důležitá — hladká dlaždice je kluzká za mokra.</li>
-                <li><strong>Nákup materiálu:</strong> Dlaždice + 10 % rezerva na odpad a řezání. Štěrk: plocha × 0,15 m = m³. Písek: plocha × 0,05 m = m³. Geotextilie: plocha + 20 % přesah.</li>
+                <li><strong>Nákup materiálu:</strong> Dlaždice + 10 % rezerva na odpad a řezání — přesný počet dlaždic pro svou plochu ti spočítá naše <Link href="/kalkulacky/kolik-dlazby" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka dlažby</Link>. Štěrk: plocha × 0,15 m = m³. Písek: plocha × 0,05 m = m³. Geotextilie: plocha + 20 % přesah.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Před nákupem dlaždic polož 2–3 kusy na zem a dívej se na ně za různého osvětlení. Barva a textura v obchodě vypadá jinak než venku na přímém slunci.</div>
             </section>

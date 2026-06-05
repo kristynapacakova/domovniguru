@@ -247,7 +247,7 @@ export default function ArticlePage() {
               <h3>Hnojení</h3>
               <ul>
                 <li>Do výsadby: zapracuj kompost nebo hnojivo do záhonu</li>
-                <li>Po nasazení plodů: přihnojuj draslíkem každé 2 týdny (podpoří zrání)</li>
+                <li>Po nasazení plodů: přihnojuj draslíkem každé 2 týdny (podpoří zrání) — správné množství si spočítáš v naší <Link href="/kalkulacky/kolik-hnojiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hnojiva</Link></li>
                 <li>Nepřehnoj dusíkem – rostlina bujní do listů, neplodí</li>
               </ul>
             </section>

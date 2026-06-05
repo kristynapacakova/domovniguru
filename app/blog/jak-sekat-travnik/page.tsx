@@ -310,7 +310,7 @@ export default function ArticlePage() {
             {/* SECTION 2 — PRAVIDLO 1/3 */}
             <section id="pravidlo-tretiny">
               <h2>Zlaté pravidlo jedné třetiny – proč ho nikdy nepřekračovat</h2>
-              <p>Pravidlo jedné třetiny je nejdůležitější zásada péče o trávník. Říká: <strong>při každém sekání odstraň maximálně 1/3 aktuální délky stébla</strong>. Pokud je tráva 9 cm vysoká, sečeš maximálně 3 cm — a necháš ji 6 cm.</p>
+              <p>Pravidlo jedné třetiny je nejdůležitější zásada péče o trávník. Říká: <strong>při každém sekání odstraň maximálně 1/3 aktuální délky stébla</strong>. Pokud je tráva 9 cm vysoká, sečeš maximálně 3 cm — a necháš ji 6 cm. Pokud potřebuješ po létě trávník dosít, množství semene pro svoji plochu snadno spočítáš v <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce osiva na dosévání</Link>.</p>
 
               <h3>Proč na tom záleží</h3>
               <p>Stéblo trávy je zásobníkem energie a živin pro kořen. Při sekání dochází k "stresu" — tráva musí obnovit ztracenou listovou plochu a přestane se soustředit na rozvoj kořenů. Čím větší část stébla odstraníš, tím větší stres.</p>

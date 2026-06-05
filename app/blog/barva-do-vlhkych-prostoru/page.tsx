@@ -136,7 +136,7 @@ export default function ArticlePage() {
 
             <section id="koupelna">
               <h2>Barva do koupelny</h2>
-              <p>Koupelna je nejnáročnější prostředí pro barvu — vysoká vlhkost, teplotní výkyvy a kondenzace páry. Běžná barva zde nevydrží déle než 1–2 roky.</p>
+              <p>Koupelna je nejnáročnější prostředí pro barvu — vysoká vlhkost, teplotní výkyvy a kondenzace páry. Běžná barva zde nevydrží déle než 1–2 roky. Kolik litrů speciální barvy budeš potřebovat, spočítáš snadno v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
               <ul>
                 <li><strong>Speciální koupelnová barva:</strong> Obsahuje fungicidní přísadu (biocid) která zabraňuje růstu plísní. Třída omyvatelnosti 1. Značky: Primalex Koupelna, HET Klasik Koupelna, Dulux Koupelna. Cena 200–400 Kč/litr.</li>
                 <li><strong>Silikonová barva:</strong> Difuzní — propouští vodní páru ven ale nepouští vlhkost dovnitř. Ideální pro koupelny s kondenzací. Výrazně odolnější než akrylátová.</li>

@@ -131,7 +131,7 @@ export default function ArticlePage() {
                 <li><strong>Na konci sezóny (podzim):</strong> Vyčistit před odstavením — čistý filtr neplesniví přes zimu.</li>
                 <li><strong>Signály zanešeného filtru:</strong> Slabší chlazení, vyšší hluk, nepříjemný zápach při spuštění, viditelný šedý povlak na filtru.</li>
               </ul>
-              <div className="article-tip"><strong>💡 Ekonomický důvod:</strong> Zanesený filtr zvyšuje spotřebu elektřiny o 15–25 %. Při klimatizaci s příkonem 1 kW a ceně 6 Kč/kWh a 8 hodinách provozu denně = úspora 18–36 Kč denně po vyčistění filtru.</div>
+              <div className="article-tip"><strong>💡 Ekonomický důvod:</strong> Zanesený filtr zvyšuje spotřebu elektřiny o 15–25 %. Při klimatizaci s příkonem 1 kW a ceně 6 Kč/kWh a 8 hodinách provozu denně = úspora 18–36 Kč denně po vyčistění filtru. Celkové náklady na provoz klimatizace spočítáš v naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby elektřiny</Link>.</div>
             </section>
 
             <section id="postup">

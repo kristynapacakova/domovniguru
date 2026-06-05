@@ -148,7 +148,7 @@ export default function ArticlePage() {
                 <li><strong>Trhliny ve stěnách</strong> – tenké vlasové trhliny jsou normální; diagonální nebo širší trhliny mohou signalizovat statické problémy</li>
                 <li><strong>Podlahy</strong> – chůzí po celé ploše zkontroluj skřípání, pružnost a uvolněné dlaždice</li>
                 <li><strong>Strop</strong> – skvrny, trhliny, odpadávající omítka</li>
-                <li><strong>Koupelna a WC</strong> – spáry kolem vany a sprchy, stav dlažby, funkce větráku</li>
+                <li><strong>Koupelna a WC</strong> – spáry kolem vany a sprchy, stav dlažby, funkce větráku; pokud koupelna vyžaduje rekonstrukci, cenu odhadneš pomocí <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny rekonstrukce koupelny</Link></li>
               </ul>
             </section>
 

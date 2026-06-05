@@ -201,7 +201,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Kdy:</strong> Duben–květen, když tráva aktivně roste a teplota půdy je nad 8 °C. Příliš brzy hnojivo nevyužijí, příliš pozdě zbytečně podporuje plevel.</li>
                 <li><strong>Čím:</strong> Jarní trávníkové hnojivo s vyšším obsahem dusíku (N) — typicky NPK 20-5-10 nebo speciální „spring fertilizer". Dusík zajistí sytě zelenou barvu a hustý růst.</li>
-                <li><strong>Kolik:</strong> Dle návodu výrobce — typicky 30–50 g/m². Více není lépe — předávkování dusíkem způsobí spálení trávníku.</li>
+                <li><strong>Kolik:</strong> Dle návodu výrobce — typicky 30–50 g/m². Přesnou dávku pro plochu své zahrady ti pomůže určit <Link href="/kalkulacky/kolik-hnojiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka hnojiva</Link>. Více není lépe — předávkování dusíkem způsobí spálení trávníku.</li>
                 <li><strong>Jak:</strong> Rozhoď granule rovnoměrně ručně nebo rozmetadlem. Bezprostředně po aplikaci zalij nebo počkej na déšť — hnojivo se musí rozpustit a dostat do půdy.</li>
                 <li><strong>Podzimní hnojení:</strong> Září/říjen — hnojivo s nižším N a vyšším K (draslíkem) pro posílení odolnosti. Speciální „autumn fertilizer".</li>
               </ul>

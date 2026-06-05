@@ -171,7 +171,7 @@ export default function ArticlePage() {
 
             <section id="kdy-odstranovat">
               <h2>Kdy barvu vůbec odstraňovat</h2>
-              <p>Starou barvu nemusíš odstraňovat vždy — v mnoha případech stačí přebrousit a přemalovat. Odstranění má smysl pokud:</p>
+              <p>Starou barvu nemusíš odstraňovat vždy — v mnoha případech stačí přebrousit a přemalovat. Jakmile máš povrch připravený, kolik nové barvy budeš potřebovat snadno zjistíš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>. Odstranění má smysl pokud:</p>
               <ul>
                 <li>Barva se loupe nebo praskla ve větších plochách</li>
                 <li>Je naneseno příliš mnoho vrstev (zeď "vypadá tučně", detaily jsou zahlazené)</li>

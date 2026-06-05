@@ -174,7 +174,7 @@ export default function ArticlePage() {
             <section id="seti">
               <h2>Setí travního semene</h2>
               <ul>
-                <li><strong>Množství semene:</strong> 30–40 g/m² pro nový trávník. Více než polovina zahrádkářů seji příliš málo — výsledek je řídký trávník.</li>
+                <li><strong>Množství semene:</strong> 30–40 g/m² pro nový trávník. Více než polovina zahrádkářů seji příliš málo — výsledek je řídký trávník. Přesné množství osiva pro svoji plochu snadno spočítáš v <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce osiva</Link>.</li>
                 <li><strong>Technika setí:</strong> Rozděl semeno na dvě poloviny. Jednu nanes podél plochy, druhou napříč (křížem). Zajistí rovnoměrné pokrytí.</li>
                 <li><strong>Pro velké plochy</strong> použij rozmetadlo hnojiva (pronájem 200 Kč/den nebo koupě 500–1 500 Kč).</li>
                 <li><strong>Zapravení semene:</strong> Po setí přejdi hráběmi lehce po povrchu — semeno zaprav 0,5–1 cm hluboko. Hlubší = nezklijí, mělčeji = vyschnou.</li>

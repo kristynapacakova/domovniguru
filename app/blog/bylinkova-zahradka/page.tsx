@@ -150,7 +150,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Sazenice (koupit hotové):</strong> Nejrychlejší start — koupíš hotovou rostlinu v zahradnictví nebo supermarketu. Přesaď do většího květináče s čerstvým substrátem. Dostaneš bylinky ihned.</li>
                 <li><strong>Semena:</strong> Levnější ale pomalejší. Pažitka klíčí za 7–10 dní, bazalka 5–7 dní, petržel 3–4 týdny. Semena sej do vlhkého substrátu, přikryj fólií do vzejití, drž na teple (20–25 °C).</li>
-                <li><strong>Substrát:</strong> Bylinky potřebují propustný substrát — smíchej zahradní hlínu s pískem nebo perlitem (3:1). Ucpávající se těžká zemina způsobí hnilobu kořenů.</li>
+                <li><strong>Substrát:</strong> Bylinky potřebují propustný substrát — smíchej zahradní hlínu s pískem nebo perlitem (3:1). Kolik substrátu a hlíny pro své nádoby potřebuješ zjistíš v <Link href="/kalkulacky/kolik-hliny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hlíny a substrátu</Link>. Ucpávající se těžká zemina způsobí hnilobu kořenů.</li>
                 <li><strong>Dobrý start:</strong> Při přesazování z supermarketové nádoby přesaď celý trs do 2× většího květináče s čerstvým substrátem. Supermarketové bylinky jsou přemnoženévystresované — v nové nádobě se zotaví.</li>
               </ul>
             </section>

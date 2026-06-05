@@ -173,7 +173,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Vždy dvě osoby minimum:</strong> Velké spotřebiče jsou těžké (50–100 kg) a neohrabané. Jedna osoba nestačí a hrozí zranění nebo poškození spotřebiče.</li>
                 <li><strong>Rudl (vozík na těžká břemena):</strong> Pronájem nebo koupě 500–1 500 Kč — nezbytný pro transport bez poškození zad a podlahy.</li>
-                <li><strong>Ochrana podlahy:</strong> Při posunutí spotřebiče přes podlahu vlož pod rohy lepenku nebo přeložený karton — zabrání škrábání dlažby nebo vinylu.</li>
+                <li><strong>Ochrana podlahy:</strong> Při posunutí spotřebiče přes podlahu vlož pod rohy lepenku nebo přeložený karton — zabrání škrábání dlažby nebo vinylu. Pokud dlažbu plánuješ brzy vyměnit, množství materiálu spočítáš přes <Link href="/kalkulacky/kolik-dlazby" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku dlažby</Link>.</li>
                 <li><strong>Přepravní auto:</strong> Spotřebiče přepravuj svisle v uzavřeném voze. Překryvná deka nebo polystyrén zabrání poškrábání povrchu.</li>
               </ul>
             </section>
