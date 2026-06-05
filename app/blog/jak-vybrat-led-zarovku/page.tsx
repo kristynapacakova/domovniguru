@@ -388,7 +388,7 @@ export default function ArticlePage() {
             {/* SECTION 5 */}
             <section id="uspory">
               <h2>Reálné úspory při výměně žárovek v bytě</h2>
-              <p>Výměna všech žárovek v bytě za LED je jedna z mála investic do domácnosti která se vrátí do roka. Počítejme reálný příklad pro průměrný byt 3+kk s 15 žárovkami.</p>
+              <p>Výměna všech žárovek v bytě za LED je jedna z mála investic do domácnosti která se vrátí do roka. Počítejme reálný příklad pro průměrný byt 3+kk s 15 žárovkami. Svou osobní úsporu snadno zjistíš v naší <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce úspory LED žárovek</Link>.</p>
               <ul>
                 <li><strong>Průměrný byt 3+kk:</strong> 15 žárovek, průměrně 60 W klasická žárovka, svícení 4 hodiny denně</li>
                 <li><strong>Roční spotřeba před výměnou:</strong> 15 × 60 W × 4 h × 365 = 1 314 kWh → při 6 Kč/kWh = <strong>7 884 Kč/rok</strong></li>

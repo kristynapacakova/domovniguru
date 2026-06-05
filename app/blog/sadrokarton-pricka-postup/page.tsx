@@ -177,6 +177,7 @@ export default function ArticlePage() {
             <section id="material">
               <h2>Materiál a nářadí – co potřebuješ</h2>
               <h3>Materiál (pro příčku 3×2,5 m = 7,5 m²)</h3>
+              <p>Kolik desek, profilů a tmelu přesně potřebuješ, spočítá <Link href="/kalkulacky/kolik-sadrokartonu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka množství sádrokartonu</Link>.</p>
               <ul>
                 <li><strong>SDK desky:</strong> 2× 7,5 m² = 15 m² desek (+ 10 % rezerva). Standardní deska 12,5 mm nebo 15 mm pro lepší zvukovou izolaci.</li>
                 <li><strong>UW profil (podlahový/stropní):</strong> Délka příčky × 2 = 6 m + rezerva. Šířka 75 mm pro standardní příčku.</li>

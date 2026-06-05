@@ -194,7 +194,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>Při 15 žárovkách v domácnosti je roční úspora při přechodu na LED <strong>4 000–7 000 Kč ročně</strong>. LED žárovka stojí 50–150 Kč a vydrží 15 000–25 000 hodin — tedy 10–17 let při 4 hodinách denně.</p>
+              <p>Při 15 žárovkách v domácnosti je <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>roční úspora při přechodu na LED</Link> <strong>4 000–7 000 Kč ročně</strong>. LED žárovka stojí 50–150 Kč a vydrží 15 000–25 000 hodin — tedy 10–17 let při 4 hodinách denně.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Při výběru LED žárovek sleduj Kelvinů (barva světla) — 2 700 K = teplá bílá (vhodná do obýváku a ložnice), 4 000 K = neutrální bílá (kuchyň, pracovna), 6 000 K = studená bílá (garáž, sklep). Více v článku <Link href="/blog/jak-vybrat-led-zarovku" style={{color:"#5a9e6f",fontWeight:600}}>Jak vybrat správnou LED žárovku →</Link></div>
             </section>
 
@@ -224,7 +224,7 @@ export default function ArticlePage() {
 
             <section id="ohrev">
               <h2>Ohřev vody – největší položka po vytápění</h2>
-              <p>Pokud ohříváš vodu elektřinou (bojler), jde o 20–30 % celkové spotřeby elektřiny v domácnosti.</p>
+              <p>Pokud ohříváš vodu elektřinou (bojler), jde o 20–30 % celkové <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>spotřeby elektřiny v domácnosti</Link>.</p>
               <ul>
                 <li><strong>Správná teplota bojleru:</strong> 55–60 °C je hygienické minimum (eliminace bakterie Legionella). Výše nastavené teploty jen plýtvají energií.</li>
                 <li><strong>Noční tarif pro bojler:</strong> Pokud máš dvousazbový tarif a bojler s časovačem, nastav ohřev na noční hodiny (levnější proud). Úspora 30–40 % nákladů na ohřev vody.</li>

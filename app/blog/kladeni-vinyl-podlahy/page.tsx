@@ -140,7 +140,7 @@ export default function ArticlePage() {
 
             <section id="typy">
               <h2>Typy vinylových podlah</h2>
-              <p>Vinyl není jen jeden materiál — existuje několik typů které se liší způsobem pokládky, trvanlivostí a cenou.</p>
+              <p>Vinyl není jen jeden materiál — existuje několik typů které se liší způsobem pokládky, trvanlivostí a cenou. Kolik balení budeš potřebovat, spočítá <Link href="/kalkulacky/kolik-laminatu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka laminátu a vinylu</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Typ</th><th>Cena (m²)</th><th>Pokládka</th><th>Vhodné pro</th></tr></thead>
@@ -167,7 +167,7 @@ export default function ArticlePage() {
 
             <section id="podklad">
               <h2>Příprava podkladu – klíčový krok</h2>
-              <p>Vinyl překryje starou podlahu ale neodpustí velké nerovnosti. Maximální povolená nerovnost podkladu je <strong>3 mm na 2 m latě</strong>.</p>
+              <p>Vinyl překryje starou podlahu ale neodpustí velké nerovnosti. Maximální povolená nerovnost podkladu je <strong>3 mm na 2 m latě</strong>. Celkové náklady na materiál i pokládku odhadneš pomocí <Link href="/kalkulacky/cena-podlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny podlahy</Link>.</p>
               <ul>
                 <li><strong>Vyčisti podklad:</strong> Odstraň veškeré zbytky lepidla, tmel, prach a mastnotu. Vinyl se nesmí pohybovat — čistý podklad je základ.</li>
                 <li><strong>Zkontroluj nerovnosti:</strong> Přilož 2m latě nebo vodováhu. Nerovnosti větší než 3 mm vyrovnej samonivelační stěrkou (50–150 Kč/m²). Nechej zaschnout dle návodu (min. 24 hodin).</li>

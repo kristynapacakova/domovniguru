@@ -151,7 +151,7 @@ export default function ArticlePage() {
 
             <section id="jecnofa">
               <h2>Jednofázový elektroměr</h2>
-              <p>Jednofázový elektroměr je nejběžnější v bytech. Má jeden nebo dva displeje (pro jednosazbový nebo dvousazbový tarif).</p>
+              <p>Jednofázový elektroměr je nejběžnější v bytech. Má jeden nebo dva displeje (pro jednosazbový nebo dvousazbový tarif). Pokud chceš lépe pochopit svou celkovou <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>spotřebu elektřiny</Link>, pomůže ti naše kalkulačka.</p>
               <ul>
                 <li><strong>Jednosazbový (T1):</strong> Jeden displej s jedním číslem — to je celková spotřeba v kWh. Jednoduché — odečteš číslo a nahlásíš.</li>
                 <li><strong>Dvousazbový (T2):</strong> Dva displeje — VT (vysoký tarif, dražší) a NT (nízký tarif, levnější). Displeje se střídají automaticky nebo mačkáš tlačítko pro přepnutí. Oba stavy nahlásíš dodavateli.</li>

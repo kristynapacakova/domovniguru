@@ -164,7 +164,7 @@ export default function ArticlePage() {
               <h3>1. Chytré žárovky (nejjednodušší start)</h3>
               <p>Vyšroubuj starou žárovku, zašroubuj chytrou LED — hotovo. Ovládáš jas, barvu světla a nastavíš časovače přes aplikaci. Cena od 200–500 Kč za žárovku.</p>
               <h3>2. Chytré zásuvky</h3>
-              <p>Zasuň do normální zásuvky — získáš dálkové ovládání vypínání/zapínání a měření spotřeby. Ideální pro lampy, nabíječky nebo spotřebiče které chceš automaticky vypínat. Cena od 300–600 Kč.</p>
+              <p>Zasuň do normální zásuvky — získáš dálkové ovládání vypínání/zapínání a měření spotřeby. Ideální pro lampy, nabíječky nebo spotřebiče které chceš automaticky vypínat. Cena od 300–600 Kč. Jak moc vaše domácnost spotřebovává elektřiny celkem, ti pomůže zjistit naše <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka spotřeby elektřiny</Link>.</p>
               <h3>3. Chytrý termostat</h3>
               <p>Výměna za stávající termostat — snížíš náklady na vytápění o 15–25 % díky přesnému plánování. Cena od 1500–4000 Kč.</p>
               <h3>4. Chytré bezpečnostní kamery</h3>

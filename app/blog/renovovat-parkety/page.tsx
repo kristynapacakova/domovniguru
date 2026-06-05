@@ -165,7 +165,7 @@ export default function ArticlePage() {
 
             <section id="kdy">
               <h2>Kdy renovovat a kdy raději vyměnit</h2>
-              <p>Ne každé parkety se vyplatí renovovat. Před rozhodnutím zkontroluj jejich stav.</p>
+              <p>Ne každé parkety se vyplatí renovovat. Před rozhodnutím zkontroluj jejich stav. Přesnou <Link href="/kalkulacky/cena-podlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>cenu nové podlahy</Link> si můžeš porovnat v naší kalkulačce.</p>
               <ul>
                 <li><strong>Renovace se vyplatí pokud:</strong> Parkety jsou pevné a nevrží, dřevo je zdravé (bez hniloby), tloušťka prkna nad 10 mm (prostor pro broušení), povrchové šrámy a matný lak.</li>
                 <li><strong>Raději vyměnit pokud:</strong> Parkety vrží a pohybují se, dřevo je poškozené hnilobou nebo houbou, tloušťka prkna pod 8 mm (nezbude materiál po broušení), poškozeno více než 30 % plochy.</li>

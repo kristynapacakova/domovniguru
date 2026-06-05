@@ -149,6 +149,7 @@ export default function ArticlePage() {
                 </table>
               </div>
               <div className="article-tip"><strong>💡 Tip:</strong> Na většinu běžných oprav v bytě stačí jeden kg akrylátového tmelu a jeden kg sádrového tmelu. Nekupuj velké balení — otevřený tmel vyschne do týdne.</div>
+              <p>Přesné množství stěrky nebo tmelu pro vyrovnání povrchu si snadno spočítáte v naší <Link href="/kalkulacky/kolik-sterky" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce stěrky</Link>.</p>
             </section>
 
             <section id="skrabance">

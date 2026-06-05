@@ -220,7 +220,7 @@ export default function ArticlePage() {
 
             <section id="kombinace">
               <h2>Kombinace – akcentní stěna s tapetou</h2>
-              <p>Nejpopulárnější moderní řešení — jedna stěna s tapetou, zbytek místnosti malovaný. Tato kombinace dá pokoji výraz a charakter bez nutnosti tapetovat celý byt.</p>
+              <p>Nejpopulárnější moderní řešení — jedna stěna s tapetou, zbytek místnosti malovaný. Tato kombinace dá pokoji výraz a charakter bez nutnosti tapetovat celý byt. Kolik rolí tapet budete potřebovat na akcentní stěnu, zjistíte pomocí naší <Link href="/kalkulacky/kolik-tapet" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky tapet</Link>, a množství barvy pro zbytek místnosti vám spočítá <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka barvy</Link>.</p>
               <ul>
                 <li><strong>Která stěna:</strong> Zpravidla stěna za postelí (ložnice), za pohovkou (obývák) nebo vstupní stěna u dveří (chodba).</li>
                 <li><strong>Jak kombinovat barvy:</strong> Tapeta s dominantní barvou → vybrat jeden odstín z tapety pro zbytek místnosti. Nebo neutrální tapeta (béžová, šedá) + výrazná barva stěn.</li>

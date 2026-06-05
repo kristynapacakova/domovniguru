@@ -253,7 +253,7 @@ export default function ArticlePage() {
             <section id="navratnost">
               <h2>Úspory a návratnost investice v roce 2026</h2>
               <HeatPumpCalculator />
-              <p>Návratnost závisí na aktuálních cenách energií, velikosti domu, kvalitě zateplení a typu stávajícího topení. Níže jsou realistické odhady pro průměrný rodinný dům 150 m² v ČR.</p>
+              <p>Návratnost závisí na aktuálních cenách energií, velikosti domu, kvalitě zateplení a typu stávajícího topení. Níže jsou realistické odhady pro průměrný rodinný dům 150 m² v ČR. Přesnou <Link href="/kalkulacky/tepelne-cerpadlo" style={{ color: "#2a6496", textDecoration: "underline" }}>návratnost investice do tepelného čerpadla</Link> vám spočítá naše kalkulačka.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead>
@@ -309,7 +309,7 @@ export default function ArticlePage() {
             {/* SECTION 4 — CHECKLIST */}
             <section id="checklist">
               <h2>5 věcí, které musíš zkontrolovat než si čerpadlo objednáš</h2>
-              <p>Tepelné čerpadlo není plug-and-play. Aby fungovalo efektivně a investice se vrátila, dům musí splňovat určité podmínky.</p>
+              <p>Tepelné čerpadlo není plug-and-play. Aby fungovalo efektivně a investice se vrátila, dům musí splňovat určité podmínky. Pokud zvažuješ i solární panely pro pokrytí spotřeby čerpadla, podívej se na naši <Link href="/kalkulacky/solarni-panely" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku solárních panelů</Link>.</p>
               <ul>
                 <li><strong>✅ 1. Zateplení domu:</strong> Čerpadlo funguje nejlépe v dobře zatepleném domě. Pokud máš tepelnou ztrátu nad 10 kW (starší nezateplený dům), nejdřív zateplit — pak čerpadlo. Jinak budeš platit za velké čerpadlo které běží na plný výkon celou zimu.</li>
                 <li><strong>✅ 2. Topný systém — výstupní teplota:</strong> Zkontroluj na jakou teplotu topí tvoje soustava. Podlahové topení (35–45 °C) je ideální. Starší radiátory na 70–90 °C vyžadují buď výměnu za větší, nebo speciální čerpadlo s vyšší výstupní teplotou (s nižším COP).</li>

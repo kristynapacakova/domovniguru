@@ -181,7 +181,7 @@ export default function ArticlePage() {
 
             <section id="ip">
               <h2>Co znamená IP krytí pro venkovní svítidla</h2>
-              <p>Venkovní svítidla musí být odolná vůči vlhkosti a prachu. IP krytí určuje jejich odolnost — první číslice = prach, druhá = voda.</p>
+              <p>Venkovní svítidla musí být odolná vůči vlhkosti a prachu. IP krytí určuje jejich odolnost — první číslice = prach, druhá = voda. Roční náklady na provoz zahradního osvětlení zjistíš pomocí naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky spotřeby elektřiny</Link>. Kolik ušetříš přechodem na LED svítidla ti ukáže <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka úspory LED</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>IP krytí</th><th>Odolnost</th><th>Vhodné pro</th></tr></thead>

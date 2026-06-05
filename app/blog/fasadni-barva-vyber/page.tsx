@@ -164,7 +164,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 2 — První vrstva:</strong> Nanes fasádním válcem (s dlouhým vlasem) nebo štětcem pro rohové detaily. Pohyb shora dolů, překrývej pásy o 10 cm.</li>
                 <li><strong>Krok 3 — Schnutí:</strong> Nechej první vrstvu zaschnout dle návodu — typicky 4–8 hodin. Nespeš — nedostatečně zaschlá první vrstva způsobí odlepování druhé.</li>
                 <li><strong>Krok 4 — Druhá vrstva:</strong> Druhou vrstvu nanes bez ředění nebo jen mírně. Pohyb v opačném směru než první vrstva.</li>
-                <li><strong>Spotřeba:</strong> Typicky 1 litr barvy na 5–8 m² fasády (závisí na savosti omítky a struktuře). Vždy kup 10–15 % navíc.</li>
+                <li><strong>Spotřeba:</strong> Typicky 1 litr barvy na 5–8 m² fasády (závisí na savosti omítky a struktuře). Vždy kup 10–15 % navíc. Přesné množství litrů si snadno spočítáte v naší <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</li>
               </ul>
             </section>
 

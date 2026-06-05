@@ -238,7 +238,7 @@ export default function ArticlePage() {
 
             <section id="kdy-elektrikar">
               <h2>Kdy volat elektrikáře</h2>
-              <p>Výměna vypínače za stmívač je jednoduchá elektrikářská práce kterou zvládne šikovný laik. Existují ale situace kdy je odborník nutností.</p>
+              <p>Výměna vypínače za stmívač je jednoduchá elektrikářská práce kterou zvládne šikovný laik. Existují ale situace kdy je odborník nutností. Jaký vliv má stmívání na vaši celkovou <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>spotřebu elektřiny</Link> zjistíš v naší kalkulačce.</p>
               <ul>
                 <li><strong>Volej elektrikáře pokud:</strong> V krabici je více vodičů než očekáváš a nevíš jak jsou zapojeny. Jistič po zapnutí okamžitě vypadne. Chceš stmívač s přepínačem (ovládání ze dvou míst). Instalace není standardní nebo jsou vodiče poškozené.</li>
                 <li><strong>Nemusíš volat elektrikáře pokud:</strong> Jde o jednoduché nahrazení vypínače stmívačem ve standardní jednopólové instalaci. Víš jak identifikovat vodiče a jak bezpečně pracovat s elektroinstalací.</li>

@@ -72,7 +72,7 @@ export default function ArticlePage() {
 
             <section id="uspory">
               <h2>Kolik ušetříš – konkrétní čísla</h2>
-              <p>Vezměme reálný příklad: nahrazení jedné klasické žárovky 60 W za LED 9 W při průměrné ceně elektřiny 6 Kč/kWh a 4 hodinách svícení denně.</p>
+              <p>Vezměme reálný příklad: nahrazení jedné klasické žárovky 60 W za LED 9 W při průměrné ceně elektřiny 6 Kč/kWh a 4 hodinách svícení denně. Celkovou <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>spotřebu elektřiny</Link> domácnosti ti pomůže spočítat naše kalkulačka.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th></th><th>Klasická 60 W</th><th>LED 9 W</th><th>Úspora</th></tr></thead>
@@ -84,7 +84,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>A to je jen jedna žárovka. Průměrná domácnost má 15–25 žárovek. Při kompletní výměně na LED tedy ušetříš <strong>5 000–8 000 Kč ročně</strong> na elektřině.</p>
+              <p>A to je jen jedna žárovka. Průměrná domácnost má 15–25 žárovek. Při kompletní výměně na LED tedy <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>ušetříš 5 000–8 000 Kč ročně</Link> na elektřině.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Největší úsporu přinesou výměny v místnostech, kde svítíš nejvíce – kuchyně, obývák, pracovna. Sklep nebo spíž se tolik nevyplatí.</div>
             </section>
 

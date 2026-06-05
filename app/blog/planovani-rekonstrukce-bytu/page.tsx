@@ -156,7 +156,7 @@ export default function ArticlePage() {
 
             <section id="rozpocet">
               <h2>Sestavení realistického rozpočtu</h2>
-              <p>Podhodnocený rozpočet je nejčastější příčina nedokončených rekonstrukcí. Raději plánuj více a buď příjemně překvapený, než naopak.</p>
+              <p>Podhodnocený rozpočet je nejčastější příčina nedokončených rekonstrukcí. Raději plánuj více a buď příjemně překvapený, než naopak. Rychlý odhad za koupelnu sestavíš pomocí <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny rekonstrukce koupelny</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Práce</th><th>Orientační cena (m² nebo kus)</th><th>Poznámka</th></tr></thead>
@@ -176,7 +176,7 @@ export default function ArticlePage() {
 
             <section id="poradi">
               <h2>Správné pořadí prací</h2>
-              <p>Pořadí prací není náhodné — špatné pořadí znamená že musíš hotovou práci rozbít nebo překopat.</p>
+              <p>Pořadí prací není náhodné — špatné pořadí znamená že musíš hotovou práci rozbít nebo překopat. Náklady na novou podlahu snadno odhadneš pomocí <Link href="/kalkulacky/cena-podlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny podlahy</Link>.</p>
               <ul>
                 <li><strong>1. Projekt a povolení:</strong> Pokud je potřeba stavební povolení, zařiď ho jako první — může trvat měsíce. Bez povolení nezačínej.</li>
                 <li><strong>2. Demolice a bourání:</strong> Vybourání starých rozvodů, obkladů, podlah a nepotřebných příček. Odvoz suti.</li>

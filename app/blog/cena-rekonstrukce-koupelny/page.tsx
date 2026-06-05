@@ -126,7 +126,7 @@ export default function ArticlePage() {
 
             <section id="celkove">
               <h2>Celkové náklady – tři scénáře</h2>
-              <p>Cena rekonstrukce koupelny závisí především na velikosti, kvalitě materiálů a rozsahu prací. Pro koupelnu 6–8 m² počítej s těmito rozsahy:</p>
+              <p><Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>Cena rekonstrukce koupelny</Link> závisí především na velikosti, kvalitě materiálů a rozsahu prací. Pro koupelnu 6–8 m² počítej s těmito rozsahy:</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Scénář</th><th>Celková cena (6–8 m²)</th><th>Co zahrnuje</th></tr></thead>
@@ -190,6 +190,7 @@ export default function ArticlePage() {
 
             <section id="usporit">
               <h2>Kde ušetřit bez kompromisů na kvalitě</h2>
+              <p>Pokud nevíš kde začít, <Link href="/blog/najit-proveri-remeslnika" style={{ color: "#2a6496", textDecoration: "underline" }}>tipy na výběr spolehlivého řemeslníka</Link> ti pomohou vyhnout se nepříjemným překvapením.</p>
               <ul>
                 <li><strong>Zachovej rozmístění rozvodů:</strong> Přesunutí WC nebo sprchy na jiné místo zdražuje instalatérské práce o 20 000–50 000 Kč. Pokud to není nutné, zachovej stávající rozmístění.</li>
                 <li><strong>Obklady z výprodeje nebo přebytků:</strong> Stavební prodejny mají výprodejní sklady s plně funkčními obklady za zlomek ceny. Nutné koupit najednou (nestejné šarže se liší odstínem).</li>

@@ -156,7 +156,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 1 — Odstraň vše co se loupe:</strong> Škrabkou nebo bruskou odstraň vše co není pevně spojeno s podkladem. Loupe-li se víc než si myslíš — je to normální, odstraň vše nestabilní.</li>
                 <li><strong>Krok 2 — Přebrousit hrany:</strong> Na hranách kde barva přechází od odlupujícího se místa k pevnému podkladu přebrousit jemným papírem — vytvoříš plynulý přechod.</li>
                 <li><strong>Krok 3 — Oprav povrch:</strong> Prohlubně a nerovnosti vyplň tmelem nebo omítkovinou. Nechej zaschnout.</li>
-                <li><strong>Krok 4 — Penetruj:</strong> Penetrace je povinná — sjednotí savost a zlepší přilnavost nové barvy.</li>
+                <li><strong>Krok 4 — Penetruj:</strong> Penetrace je povinná — sjednotí savost a zlepší přilnavost nové barvy. Kolik penetrace budete potřebovat, spočítáte v naší <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce penetrace</Link>.</li>
                 <li><strong>Krok 5 — Namaluj novou vrstvu:</strong> Dvě tenké vrstvy barvy, nechej každou vrstvu řádně zaschnout.</li>
               </ul>
               <div className="article-tip"><strong>⚠️ Varování:</strong> Nestříkej novou barvu přes loupající se povrch bez opravy — nová barva se začne loupit s tou starou brzy. Je to ztráta času a peněz.</div>

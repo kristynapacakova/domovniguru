@@ -225,10 +225,10 @@ export default function ArticlePage() {
             <section id="priciny">
               <h2>Proč plíseň vzniká – skutečné příčiny</h2>
               <p>Plíseň není smůla ani nečistota. Je to přirozená reakce na konkrétní podmínky: <strong>vlhkost, teplo a nedostatek proudění vzduchu</strong>. Bez pochopení příčin je jakékoli čištění jen dočasné řešení – plíseň se vrátí.</p>
-              <p>Plísňové spóry jsou přirozeně přítomny v každém vzduchu. Problém nastává, když najdou ideální podmínky pro množení: relativní vlhkost vzduchu nad 70 %, teplota mezi 10–35 °C a organický podklad (omítka, tapeta, dřevo, spáry).</p>
+              <p>Plísňové spóry jsou přirozeně přítomny v každém vzduchu. Problém nastává, když najdou ideální podmínky pro množení: relativní vlhkost vzduchu nad 70 %, teplota mezi 10–35 °C a organický podklad (omítka, tapeta, dřevo, spáry). Jak efektivně snižovat vlhkost v bytě popisujeme v článku <Link href="/blog/zbavit-se-vlhkosti-v-byte" style={{ color: "#2a6496", textDecoration: "underline" }}>jak se zbavit vlhkosti v bytě</Link>.</p>
               <ul>
                 <li><strong>Tepelné mosty:</strong> Místa kde se stěna ochlazuje pod rosný bod – rohy, ostění oken, místa za nábytkem přisunutým ke zdi.</li>
-                <li><strong>Nedostatečné větrání:</strong> Moderní plastová okna těsní perfektně, ale zabraňují přirozené výměně vzduchu. Vlhkost z vaření, sprchování a dýchání nemá kam odejít.</li>
+                <li><strong>Nedostatečné větrání:</strong> Moderní plastová okna těsní perfektně, ale zabraňují přirozené výměně vzduchu. Vlhkost z vaření, sprchování a dýchání nemá kam odejít. Správný postup větrání najdete v článku <Link href="/blog/spravne-vetrat-byt" style={{ color: "#2a6496", textDecoration: "underline" }}>jak správně větrat byt</Link>.</li>
                 <li><strong>Skrytá závada:</strong> Prasklina v omítce, netěsnící okno nebo porucha hydroizolace. Plíseň v jednom místě přes celou zimu = pravděpodobně stavební závada.</li>
                 <li><strong>Nevhodné topení:</strong> Málo vytápěná místnost nebo přerušované topení způsobuje kondenzaci vlhkosti na chladných površích.</li>
               </ul>

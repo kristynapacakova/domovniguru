@@ -92,7 +92,7 @@ export default function MalovaniStropuPage() {
           <p>Strop je první věc, kterou v místnosti uvidíte, když se ráno probudíte. Zároveň je to plocha, na které je vidět každá chyba. Pokud podceníte přípravu, světlo z okna vám odhalí každý tah válečkem.</p>
           
           <h2>1. Proč vždy začínat stropem?</h2>
-          <p>Pokud plánujete malovat i stěny, strop musí jít jako první. Barva ze stropu bude nevyhnutelně stříkat dolů. Pokud byste měli stěny už hotové, drobné kapičky bílé barvy by vám je znehodnotily.</p>
+          <p>Pokud plánujete malovat i stěny, strop musí jít jako první. Barva ze stropu bude nevyhnutelně stříkat dolů. Pokud byste měli stěny už hotové, drobné kapičky bílé barvy by vám je znehodnotily. Přesné množství barvy na strop spočítáte v naší <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
 
           <div style={{ background: "#fdfcf0", padding: "25px", borderRadius: "12px", margin: "30px 0", border: "1px solid #e0dcb8" }}>
             <strong>💡 GURU TIP: Technika "Mokrý do mokrého"</strong><br />
@@ -127,7 +127,7 @@ export default function MalovaniStropuPage() {
 
           <h2>3. Postup, který zajistí výsledek</h2>
           <ol>
-            <li><strong>Penetrace:</strong> Zpevní podklad a sjednotí savost.</li>
+            <li><strong>Penetrace:</strong> Zpevní podklad a sjednotí savost. Potřebné množství si spočítejte v <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce penetrace</Link>.</li>
             <li><strong>Osvětlení:</strong> Malujte při denním světle.</li>
             <li><strong>Směr:</strong> Poslední tahy válečkem by měly směřovat vždy k oknu.</li>
           </ol>
