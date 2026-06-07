@@ -150,7 +150,7 @@ const ARTICLES: Article[] = [
   { id: 99,  cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak odlehčit střechu od sněhu",                        desc: "Kdy je nebezpečný a jak ho odstranit.",                                           slug: "odlehcit-strechu-od-snehu",           read: "4 min" },
   { id: 100, cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Jak správně topit v topné sezóně",                     desc: "Teploty, přetápění, větrání.",                                                    slug: "jak-spravne-topit",                   read: "4 min" },
   { id: 103, cat: "sezonni",  catLabel: "Sezónní údržba",           title: "Tepelné čerpadlo: Kompletní průvodce výběrem, úsporami a instalací", desc: "Srovnání typů, reálné úspory, návratnost a dotace NZÚ 2026.",         slug: "tepelne-cerpadlo-pruvodce",           read: "11 min" },
-  { id: 116, cat: "sezonni-udrzba", catLabel: "Sezónní údržba", title: "Vodní podlahové topení – průvodce instalací, provozem a náklady", desc: "Mokrý vs. suchý systém, reálné náklady na m² a provoz, vhodné zdroje tepla i časté chyby při seřízení.", slug: "vodni-podlahove-topeni", read: "6 min" },
+  { id: 116, cat: "sezonni", catLabel: "Sezónní údržba", title: "Vodní podlahové topení – průvodce instalací, provozem a náklady", desc: "Mokrý vs. suchý systém, reálné náklady na m² a provoz, vhodné zdroje tepla i časté chyby při seřízení.", slug: "vodni-podlahove-topeni", read: "6 min" },
   { id: 118, cat: "sezonni", catLabel: "Sezónní údržba", title: "Chytrý termostat – jak funguje a kolik ušetří na vytápění", desc: "Srovnání s klasickým termostatem, reálné úspory, návratnost investice a tipy na výběr i instalaci.", slug: "chytry-termostat-uspora-vytapeni", read: "5 min" },
 ];
 
