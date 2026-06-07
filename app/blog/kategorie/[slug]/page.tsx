@@ -91,6 +91,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 38, cat: "elektrika", title: "Elektrické podlahové topení – co vědět před montáží",   desc: "Rohož nebo kabel? Co pod dlažbu a vinyl.",                         slug: "elektricke-podlahove-topeni",         read: "5 min" },
     { id: 39, cat: "elektrika", title: "Jak otestovat zásuvku – je pod napětím?",               desc: "Fázová tužka nebo multimetr.",                                     slug: "otestovat-zasuvku",                   read: "3 min" },
     { id: 40, cat: "elektrika", title: "Jak číst elektroměr a hlídat spotřebu",                desc: "Jednosazbový, dvousazbový, chytrý.",                               slug: "jak-cist-elektromer",                 read: "4 min" },
+    { id: 114, cat: "elektrika", title: "Solární panely na dům – jak vybrat výkon, typ a dodavatele", desc: "Jaký výkon (kWp) zvolit, kolik FVE stojí, jaká je návratnost s dotací a jak poznat spolehlivého dodavatele.", slug: "jak-vybrat-solarni-panely", read: "6 min" },
+    { id: 117, cat: "elektrika", title: "Jak vybrat dodavatele a tarif elektřiny a ušetřit tisíce ročně", desc: "Jednotarif, dvoutarif nebo spotová cena? Jak porovnat nabídky, přejít k levnějšímu dodavateli a ušetřit bez rizika.", slug: "jak-vybrat-dodavatele-elektriny", read: "6 min" },
+    { id: 115, cat: "elektrika", title: "Jaký bojler vybrat – elektrický, plynový nebo zásobníkový?", desc: "Srovnání typů, výpočet velikosti podle počtu osob a reálné roční náklady na ohřev vody.", slug: "jaky-bojler-vybrat", read: "5 min" },
   ],
   zahrada: [
     { id: 41, cat: "zahrada", title: "Jak připravit zahradu na jaro",                           desc: "Co udělat v březnu a dubnu.",                                      slug: "jarni-zahrada",                       read: "6 min" },
@@ -166,7 +169,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 98,  cat: "sezonni-udrzba", title: "Jak pečovat o septik a žumpu",                     desc: "Frekvence vyvážení, životnost.",                                   slug: "pece-o-septik-zumpu",                 read: "4 min" },
     { id: 99,  cat: "sezonni-udrzba", title: "Jak odlehčit střechu od sněhu",                    desc: "Kdy je nebezpečný a jak ho odstranit.",                            slug: "odlehcit-strechu-od-snehu",           read: "4 min" },
     { id: 100, cat: "sezonni-udrzba", title: "Jak správně topit v topné sezóně",                 desc: "Teploty, přetápění, větrání.",                                     slug: "jak-spravne-topit",                   read: "4 min" },
-    { id: 112, cat: "sezonni-udrzba", title: "Tepelné čerpadlo – průvodce pro domácnosti", desc: "Jak funguje, kolik stojí a kdy se vyplatí.", slug: "tepelne-cerpadlo-pruvodce", read: "6 min" }, 
+    { id: 112, cat: "sezonni-udrzba", title: "Tepelné čerpadlo – průvodce pro domácnosti", desc: "Jak funguje, kolik stojí a kdy se vyplatí.", slug: "tepelne-cerpadlo-pruvodce", read: "6 min" },
+    { id: 116, cat: "sezonni-udrzba", title: "Vodní podlahové topení – průvodce instalací, provozem a náklady", desc: "Mokrý vs. suchý systém, reálné náklady na m² a provoz, vhodné zdroje tepla i časté chyby při seřízení.", slug: "vodni-podlahove-topeni", read: "6 min" },
+    { id: 118, cat: "sezonni-udrzba", title: "Chytrý termostat – jak funguje a kolik ušetří na vytápění", desc: "Srovnání s klasickým termostatem, reálné úspory, návratnost investice a tipy na výběr i instalaci.", slug: "chytry-termostat-uspora-vytapeni", read: "5 min" },
   ],
 };
 

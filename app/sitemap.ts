@@ -34,6 +34,8 @@ const BLOG_SLUGS = [
   "jak-vymenit-vypinac",
   "led-vs-zarovky",
   "jak-vybrat-led-zarovku",
+  "jak-vybrat-solarni-panely",
+  "jaky-bojler-vybrat",
   "zapojit-svetlo-na-strop",
   "proc-vypadava-jistic",
   "chytra-domacnost-zaciname",
@@ -51,6 +53,7 @@ const BLOG_SLUGS = [
   "otestovat-zasuvku",
   "jak-cist-elektromer",
   "vymena-zasuvky",
+  "jak-vybrat-dodavatele-elektriny",
 
   // Zahrada & terasa
   "jarni-zahrada",
@@ -126,6 +129,8 @@ const BLOG_SLUGS = [
   "pece-o-septik-zumpu",
   "odlehcit-strechu-od-snehu",
   "jak-spravne-topit",
+  "vodni-podlahove-topeni",
+  "chytry-termostat-uspora-vytapeni",
 
   // Ostatní
   "tepelne-cerpadlo-pruvodce",
