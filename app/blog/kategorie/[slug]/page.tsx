@@ -127,6 +127,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 109, cat: "zahrada", title: "Zahradní nástroje – jak o ně pečovat", desc: "Čištění, broušení, uskladnění.", slug: "zahradni-nastroje-pece", read: "3 min" },
     { id: 110, cat: "zahrada", title: "Jak ochránit rostliny před zimou", desc: "Mulčování, zábal, přesun do interiéru.", slug: "ochrana-rostlin-pred-zimou", read: "4 min" },
     { id: 125, cat: "zahrada", title: "Automatické zavlažování zahrady – instalace, nastavení a cena", desc: "Kapkové, postřikové nebo podzemní zavlažování? Jak naplánovat, nainstalovat a nastavit automatický závlahový systém.", slug: "automaticke-zavlazovani-zahrady", read: "6 min" },
+    { id: 126, cat: "zahrada", title: "Jak navrhnout zahradu od nuly – plán, zóny a výběr rostlin", desc: "Jak rozdělit zahradu na zóny, vybrat styl a rostliny, naplánovat trávník a celou realizaci rozfázovat do etap.", slug: "jak-navrhnout-zahradu", read: "7 min" },
   ],
   stehovani: [
     { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },

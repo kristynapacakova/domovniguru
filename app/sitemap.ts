@@ -138,6 +138,7 @@ const BLOG_SLUGS = [
   "jak-vybrat-dlazbu-do-koupelny",
   "sprchovy-kout-nebo-vana",
   "automaticke-zavlazovani-zahrady",
+  "jak-navrhnout-zahradu",
   "kuchynska-linka-na-miru-vs-ikea",
   "plovouci-podlaha-vs-dlazba",
 
