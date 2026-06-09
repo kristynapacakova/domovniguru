@@ -213,6 +213,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/vykon-klimatizace`,                 changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/spotreba-vody`,                     changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/splaceni-hypoteky`,                 changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/uspora-zatepleni`,                  changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/cena-kuchyne`,                      changeFrequency: "monthly", priority: 0.7 },
     // Návody
     { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`,    changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/navody/jak-odvzdusnit-radiator`,       changeFrequency: "monthly", priority: 0.7 },

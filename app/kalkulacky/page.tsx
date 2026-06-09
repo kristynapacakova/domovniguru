@@ -34,6 +34,8 @@ export default function KalkulackyHub() {
     { icon: "❄️", title: "Výkon klimatizace – kolik kW?", desc: "Plocha, výška, orientace – kW a BTU ihned.", href: "/kalkulacky/vykon-klimatizace" },
     { icon: "💧", title: "Spotřeba vody domácnosti", desc: "Sprcha, vana, WC, pračka – m³ a Kč/rok.", href: "/kalkulacky/spotreba-vody" },
     { icon: "🏦", title: "Kalkulačka hypotéky", desc: "Výše úvěru, sazba, splatnost – měsíční splátka a přeplacení.", href: "/kalkulacky/splaceni-hypoteky" },
+    { icon: "🏠", title: "Kolik ušetřím po zateplení?", desc: "Rozsah zateplení, náklady – roční úspora a návratnost.", href: "/kalkulacky/uspora-zatepleni" },
+    { icon: "🍳", title: "Kolik stojí nová kuchyně?", desc: "Délka linky, standard, spotřebiče – celková cena.", href: "/kalkulacky/cena-kuchyne" },
     // Zahrada
     { icon: "🌱", title: "Kolik osiva na trávník?", desc: "Plocha a dávka – kg a počet pytlíků.", href: "/kalkulacky/kolik-osiva" },
     { icon: "🌱", title: "Kolik hnojiva potřebuji?", desc: "Plocha, dávka g/m² – kg a počet pytlíků.", href: "/kalkulacky/kolik-hnojiva" },
