@@ -131,6 +131,15 @@ const BLOG_SLUGS = [
   "jak-spravne-topit",
   "vodni-podlahove-topeni",
   "chytry-termostat-uspora-vytapeni",
+  "jak-vybrat-klimatizaci",
+  "fotovoltaika-s-baterii",
+  "jak-zateplit-dum",
+  "rekonstrukce-koupelny-pruvodce",
+  "jak-vybrat-dlazbu-do-koupelny",
+  "sprchovy-kout-nebo-vana",
+  "automaticke-zavlazovani-zahrady",
+  "kuchynska-linka-na-miru-vs-ikea",
+  "plovouci-podlaha-vs-dlazba",
 
   // Ostatní
   "tepelne-cerpadlo-pruvodce",

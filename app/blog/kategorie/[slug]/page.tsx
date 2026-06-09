@@ -94,6 +94,8 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 114, cat: "elektrika", title: "Solární panely na dům – jak vybrat výkon, typ a dodavatele", desc: "Jaký výkon (kWp) zvolit, kolik FVE stojí, jaká je návratnost s dotací a jak poznat spolehlivého dodavatele.", slug: "jak-vybrat-solarni-panely", read: "6 min" },
     { id: 117, cat: "elektrika", title: "Jak vybrat dodavatele a tarif elektřiny a ušetřit tisíce ročně", desc: "Jednotarif, dvoutarif nebo spotová cena? Jak porovnat nabídky, přejít k levnějšímu dodavateli a ušetřit bez rizika.", slug: "jak-vybrat-dodavatele-elektriny", read: "6 min" },
     { id: 115, cat: "elektrika", title: "Jaký bojler vybrat – elektrický, plynový nebo zásobníkový?", desc: "Srovnání typů, výpočet velikosti podle počtu osob a reálné roční náklady na ohřev vody.", slug: "jaky-bojler-vybrat", read: "5 min" },
+    { id: 119, cat: "elektrika", title: "Klimatizace – jak vybrat výkon, typ a dodavatele", desc: "Split, mobilní nebo multi-split? Jak vybrat správný výkon, co stojí provoz a jak ušetřit na elektřině.", slug: "jak-vybrat-klimatizaci", read: "7 min" },
+    { id: 121, cat: "elektrika", title: "Fotovoltaika s baterií – má smysl doma skladovat elektřinu?", desc: "Vyplatí se baterie k fotovoltaice? Srovnání LFP vs. NMC, výpočet kapacity, dotace NZÚ a realistická návratnost.", slug: "fotovoltaika-s-baterii", read: "6 min" },
   ],
   zahrada: [
     { id: 41, cat: "zahrada", title: "Jak připravit zahradu na jaro",                           desc: "Co udělat v březnu a dubnu.",                                      slug: "jarni-zahrada",                       read: "6 min" },
@@ -123,7 +125,8 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 107, cat: "zahrada", title: "Jak stříhat ovocné stromy", desc: "Jarní a letní řez – kdy a jak na to.", slug: "jak-strihat-ovocne-stromy", read: "5 min" },
     { id: 108, cat: "zahrada", title: "Jak stříhat keře a živý plot", desc: "Tvarovací a omlazovací řez krok za krokem.", slug: "jak-strihat-kere", read: "4 min" },
     { id: 109, cat: "zahrada", title: "Zahradní nástroje – jak o ně pečovat", desc: "Čištění, broušení, uskladnění.", slug: "zahradni-nastroje-pece", read: "3 min" },
-    { id: 110, cat: "zahrada", title: "Jak ochránit rostliny před zimou", desc: "Mulčování, zábal, přesun do interiéru.", slug: "ochrana-rostlin-pred-zimou", read: "4 min" },  
+    { id: 110, cat: "zahrada", title: "Jak ochránit rostliny před zimou", desc: "Mulčování, zábal, přesun do interiéru.", slug: "ochrana-rostlin-pred-zimou", read: "4 min" },
+    { id: 125, cat: "zahrada", title: "Automatické zavlažování zahrady – instalace, nastavení a cena", desc: "Kapkové, postřikové nebo podzemní zavlažování? Jak naplánovat, nainstalovat a nastavit automatický závlahový systém.", slug: "automaticke-zavlazovani-zahrady", read: "6 min" },
   ],
   stehovani: [
     { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },
@@ -147,6 +150,12 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 79, cat: "stehovani", title: "Jak přihlásit trvalý pobyt na nové adrese",               desc: "Postup, dokumenty, lhůty.",                                        slug: "prihlasit-trvaly-pobyt",              read: "3 min" },
     { id: 80, cat: "stehovani", title: "Co zkontrolovat při přebírání nového bytu",               desc: "Elektrika, voda, topení, dokumenty.",                              slug: "prebrani-bytu-checklist",             read: "4 min" },
     { id: 111, cat: "stehovani", title: "Jak namazat dveře aby nevrzaly", desc: "Závěsy, pant nebo práh – rychlá oprava.", slug: "jak-namazat-dvere-aby-nevrzaly", read: "3 min" },
+    { id: 120, cat: "stehovani", title: "Jak zateplovat dům – fasáda, střecha, podlaha a návratnost", desc: "Fasáda, střecha, podlaha nebo okna? Jak postupovat při zateplování, reálné ceny a návratnost s dotacemi NZÚ.", slug: "jak-zateplit-dum", read: "7 min" },
+    { id: 122, cat: "stehovani", title: "Rekonstrukce koupelny – průvodce, ceny a pořadí prací", desc: "Kolik stojí rekonstrukce koupelny, v jakém pořadí jdou práce a co zvládneš svépomocí. Od bourání po dokončení.", slug: "rekonstrukce-koupelny-pruvodce", read: "8 min" },
+    { id: 123, cat: "stehovani", title: "Jak vybrat dlažbu do koupelny – protiskluz, formát a spárování", desc: "Protiskluzové třídy, formáty, keramika vs. porcelán a jak vybrat správnou spárovací hmotu.", slug: "jak-vybrat-dlazbu-do-koupelny", read: "5 min" },
+    { id: 124, cat: "stehovani", title: "Sprchový kout nebo vana – co se vyplatí v malé koupelně?", desc: "Sprchový kout nebo vana? Srovnání plochy, spotřeby vody a nákladů pro malou koupelnu, páry i rodiny.", slug: "sprchovy-kout-nebo-vana", read: "5 min" },
+    { id: 127, cat: "stehovani", title: "Kuchyňská linka – na míru, IKEA nebo kuchyňské studio?", desc: "IKEA, kuchyňské studio nebo truhlář na míru? Srovnání cen, kvality a termínů + jak se připravit na rekonstrukci kuchyně.", slug: "kuchynska-linka-na-miru-vs-ikea", read: "6 min" },
+    { id: 128, cat: "stehovani", title: "Plovoucí podlaha vs. dlažba – co vybrat do jakých místností?", desc: "Laminát, vinyl, dřevo nebo dlažba? Co vybrat do obýváku, ložnice, kuchyně nebo koupelny – srovnání cen a vhodnosti.", slug: "plovouci-podlaha-vs-dlazba", read: "6 min" },
   ],
   "sezonni-udrzba": [
     { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "priprava-domu-na-zimu",               read: "5 min" },
