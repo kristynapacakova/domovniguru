@@ -31,6 +31,9 @@ export default function KalkulackyHub() {
     { icon: "♨️", title: "Návratnost tepelného čerpadla", desc: "Investice, dotace NZÚ, roky návratnosti.", href: "/kalkulacky/tepelne-cerpadlo" },
     { icon: "☀️", title: "Kolik solárních panelů?", desc: "Spotřeba – počet panelů, úspora, návratnost.", href: "/kalkulacky/solarni-panely" },
     { icon: "💡", title: "Kolik ušetřím LED žárovkami?", desc: "Příkon, počet žárovek, roční úspora v Kč.", href: "/kalkulacky/led-uspora" },
+    { icon: "❄️", title: "Výkon klimatizace – kolik kW?", desc: "Plocha, výška, orientace – kW a BTU ihned.", href: "/kalkulacky/vykon-klimatizace" },
+    { icon: "💧", title: "Spotřeba vody domácnosti", desc: "Sprcha, vana, WC, pračka – m³ a Kč/rok.", href: "/kalkulacky/spotreba-vody" },
+    { icon: "🏦", title: "Kalkulačka hypotéky", desc: "Výše úvěru, sazba, splatnost – měsíční splátka a přeplacení.", href: "/kalkulacky/splaceni-hypoteky" },
     // Zahrada
     { icon: "🌱", title: "Kolik osiva na trávník?", desc: "Plocha a dávka – kg a počet pytlíků.", href: "/kalkulacky/kolik-osiva" },
     { icon: "🌱", title: "Kolik hnojiva potřebuji?", desc: "Plocha, dávka g/m² – kg a počet pytlíků.", href: "/kalkulacky/kolik-hnojiva" },
