@@ -69,6 +69,10 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 20, cat: "malovani", title: "Barva se loupe – co jde špatně a jak to napravit",      desc: "Nejčastější příčiny a řešení.",                                    slug: "barva-se-loupe",                      read: "4 min" },
     { id: 101, cat: "malovani", title: "Tapety vs. barva na zeď – co se více vyplatí?", desc: "Srovnání ceny, náročnosti i výsledku.", slug: "tapety-vs-barva", read: "4 min" },
     { id: 102, cat: "malovani", title: "Jak vybrat barvu na zeď – podle světla i stylu", desc: "Teplé, studené odstíny a jak testovat vzorník.", slug: "jak-vybrat-barvu-na-zed", read: "4 min" },
+    { id: 129, cat: "malovani", title: "Jak vybrat barvu pro každou místnost v bytě", desc: "Jaké barvy a odstíny se hodí do obýváku, ložnice, kuchyně, koupelny i dětského pokoje – praktický průvodce výběrem.", slug: "jak-vybrat-barvu-pro-kazdou-mistnost", read: "6 min" },
+    { id: 130, cat: "malovani", title: "Jak malovat nábytek a dveře krok za krokem", desc: "Postup renovace starého nábytku a dveří barvou – příprava povrchu, výběr barvy, technika nanášení a finální ochrana.", slug: "jak-malovat-nabytek-a-dvere", read: "6 min" },
+    { id: 131, cat: "malovani", title: "Nejčastější chyby při malování a jak se jim vyhnout", desc: "Od špatné přípravy povrchu po nesprávné ředění barvy – přehled typických chyb při malování a jak je opravit.", slug: "nejcastejsi-chyby-pri-malovani", read: "7 min" },
+    { id: 132, cat: "malovani", title: "Jak vyzdobit zeď pomocí šablon a vzorů", desc: "Návod na malování geometrických vzorů, pruhů a šablon na zeď – pomůcky, postup a tipy pro rovné linie.", slug: "malovani-vzory-sablony-postup", read: "6 min" },
   ],
   elektrika: [
     { id: 21, cat: "elektrika", title: "Jak vyměnit zásuvku sám – bezpečný postup",             desc: "Vypni jistič, odšroubuj, přepoj. Krok za krokem.",                 slug: "jak-vymenit-zasuvku",                 read: "5 min" },
@@ -96,6 +100,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 115, cat: "elektrika", title: "Jaký bojler vybrat – elektrický, plynový nebo zásobníkový?", desc: "Srovnání typů, výpočet velikosti podle počtu osob a reálné roční náklady na ohřev vody.", slug: "jaky-bojler-vybrat", read: "5 min" },
     { id: 119, cat: "elektrika", title: "Klimatizace – jak vybrat výkon, typ a dodavatele", desc: "Split, mobilní nebo multi-split? Jak vybrat správný výkon, co stojí provoz a jak ušetřit na elektřině.", slug: "jak-vybrat-klimatizaci", read: "7 min" },
     { id: 121, cat: "elektrika", title: "Fotovoltaika s baterií – má smysl doma skladovat elektřinu?", desc: "Vyplatí se baterie k fotovoltaice? Srovnání LFP vs. NMC, výpočet kapacity, dotace NZÚ a realistická návratnost.", slug: "fotovoltaika-s-baterii", read: "6 min" },
+    { id: 133, cat: "elektrika", title: "Klimatizace v bytě: instalace, provoz a úspora energie", desc: "Co obnáší instalace split klimatizace, jak ji správně provozovat a jak snížit spotřebu elektřiny při chlazení.", slug: "klimatizace-instalace-a-provoz", read: "7 min" },
   ],
   zahrada: [
     { id: 41, cat: "zahrada", title: "Jak připravit zahradu na jaro",                           desc: "Co udělat v březnu a dubnu.",                                      slug: "jarni-zahrada",                       read: "6 min" },
@@ -128,6 +133,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 110, cat: "zahrada", title: "Jak ochránit rostliny před zimou", desc: "Mulčování, zábal, přesun do interiéru.", slug: "ochrana-rostlin-pred-zimou", read: "4 min" },
     { id: 125, cat: "zahrada", title: "Automatické zavlažování zahrady – instalace, nastavení a cena", desc: "Kapkové, postřikové nebo podzemní zavlažování? Jak naplánovat, nainstalovat a nastavit automatický závlahový systém.", slug: "automaticke-zavlazovani-zahrady", read: "6 min" },
     { id: 126, cat: "zahrada", title: "Jak navrhnout zahradu od nuly – plán, zóny a výběr rostlin", desc: "Jak rozdělit zahradu na zóny, vybrat styl a rostliny, naplánovat trávník a celou realizaci rozfázovat do etap.", slug: "jak-navrhnout-zahradu", read: "7 min" },
+    { id: 138, cat: "zahrada", title: "Jak vybudovat skleník na zahradě svépomocí", desc: "Typy skleníků, výběr materiálu, umístění na zahradě a postup stavby svépomocí krok za krokem.", slug: "sklenik-na-zahrade-svepomoci", read: "6 min" },
   ],
   stehovani: [
     { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },
@@ -157,6 +163,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 124, cat: "stehovani", title: "Sprchový kout nebo vana – co se vyplatí v malé koupelně?", desc: "Sprchový kout nebo vana? Srovnání plochy, spotřeby vody a nákladů pro malou koupelnu, páry i rodiny.", slug: "sprchovy-kout-nebo-vana", read: "5 min" },
     { id: 127, cat: "stehovani", title: "Kuchyňská linka – na míru, IKEA nebo kuchyňské studio?", desc: "IKEA, kuchyňské studio nebo truhlář na míru? Srovnání cen, kvality a termínů + jak se připravit na rekonstrukci kuchyně.", slug: "kuchynska-linka-na-miru-vs-ikea", read: "6 min" },
     { id: 128, cat: "stehovani", title: "Plovoucí podlaha vs. dlažba – co vybrat do jakých místností?", desc: "Laminát, vinyl, dřevo nebo dlažba? Co vybrat do obýváku, ložnice, kuchyně nebo koupelny – srovnání cen a vhodnosti.", slug: "plovouci-podlaha-vs-dlazba", read: "6 min" },
+    { id: 135, cat: "stehovani", title: "Hypotéka na rekonstrukci: jak spočítat splátky a vybrat úvěr", desc: "Jak funguje úvěr na rekonstrukci, na co si dát pozor u úrokové sazby a fixace a jak si spočítat měsíční splátku.", slug: "hypoteka-na-rekonstrukci", read: "7 min" },
+    { id: 136, cat: "stehovani", title: "Zateplení domu: kolik stojí a za jak dlouho se vrátí", desc: "Náklady na zateplení fasády, střechy a oken, dostupné dotace a reálná doba návratnosti investice.", slug: "navratnost-zatepleni-domu", read: "7 min" },
+    { id: 137, cat: "stehovani", title: "Jak naplánovat novou kuchyň krok za krokem", desc: "Od měření prostoru přes návrh dispozice až po výběr spotřebičů a rozpočet – kompletní plán pořízení kuchyně.", slug: "planovani-kuchyne-krok-za-krokem", read: "7 min" },
   ],
   "sezonni-udrzba": [
     { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "priprava-domu-na-zimu",               read: "5 min" },
@@ -182,6 +191,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 112, cat: "sezonni-udrzba", title: "Tepelné čerpadlo – průvodce pro domácnosti", desc: "Jak funguje, kolik stojí a kdy se vyplatí.", slug: "tepelne-cerpadlo-pruvodce", read: "6 min" },
     { id: 116, cat: "sezonni-udrzba", title: "Vodní podlahové topení – průvodce instalací, provozem a náklady", desc: "Mokrý vs. suchý systém, reálné náklady na m² a provoz, vhodné zdroje tepla i časté chyby při seřízení.", slug: "vodni-podlahove-topeni", read: "6 min" },
     { id: 118, cat: "sezonni-udrzba", title: "Chytrý termostat – jak funguje a kolik ušetří na vytápění", desc: "Srovnání s klasickým termostatem, reálné úspory, návratnost investice a tipy na výběr i instalaci.", slug: "chytry-termostat-uspora-vytapeni", read: "5 min" },
+    { id: 134, cat: "sezonni-udrzba", title: "Jak snížit spotřebu vody v domácnosti", desc: "Praktické tipy na úsporu vody při sprchování, praní, mytí nádobí i zalévání zahrady – kolik se dá reálně ušetřit.", slug: "jak-snizit-spotrebu-vody", read: "6 min" },
   ],
 };
 

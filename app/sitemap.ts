@@ -144,6 +144,18 @@ const BLOG_SLUGS = [
 
   // Ostatní
   "tepelne-cerpadlo-pruvodce",
+
+  // Nové
+  "jak-vybrat-barvu-pro-kazdou-mistnost",
+  "jak-malovat-nabytek-a-dvere",
+  "nejcastejsi-chyby-pri-malovani",
+  "malovani-vzory-sablony-postup",
+  "klimatizace-instalace-a-provoz",
+  "jak-snizit-spotrebu-vody",
+  "hypoteka-na-rekonstrukci",
+  "navratnost-zatepleni-domu",
+  "planovani-kuchyne-krok-za-krokem",
+  "sklenik-na-zahrade-svepomoci",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {
