@@ -156,6 +156,28 @@ const BLOG_SLUGS = [
   "navratnost-zatepleni-domu",
   "planovani-kuchyne-krok-za-krokem",
   "sklenik-na-zahrade-svepomoci",
+
+  // Nové 2
+  "jak-udrzovat-mycku-nadobi",
+  "priprava-bazenu-na-leto",
+  "zazimovani-bazenu",
+  "pece-o-drevene-podlahy",
+  "pripravit-dum-na-boure-a-vitr",
+  "malovani-skla-zrcadel-a-kovu",
+  "barva-na-strop-a-do-koupelny",
+  "osetrit-novou-omitku-pred-malovanim",
+  "obnova-fasady-naterem",
+  "vyber-domovniho-zvonku-a-videotelefonu",
+  "zalozni-zdroj-generator-pro-domacnost",
+  "instalace-venkovni-zasuvky-a-osvetleni",
+  "jak-vybrat-okna-pri-rekonstrukci",
+  "uloziste-v-malem-byte",
+  "planovani-osvetleni-bytu",
+  "jak-vybrat-vchodove-dvere",
+  "stavba-zahradniho-jezirka",
+  "vyber-a-udrzba-zahradniho-nabytku",
+  "bylinky-a-zelenina-na-balkone",
+  "drevene-schody-a-cesticky-na-zahrade",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {
