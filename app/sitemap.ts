@@ -178,6 +178,28 @@ const BLOG_SLUGS = [
   "vyber-a-udrzba-zahradniho-nabytku",
   "bylinky-a-zelenina-na-balkone",
   "drevene-schody-a-cesticky-na-zahrade",
+
+  // Nové 3
+  "vyber-stetcu-a-valecku",
+  "jak-malovat-kovovy-plot-a-branu",
+  "malovani-betonove-podlahy-garaz",
+  "jak-malovat-na-sadrokarton",
+  "oprava-prasklin-ve-fasade-pred-malovanim",
+  "jak-postavit-zahradni-domek-na-naradi",
+  "jak-vybudovat-skalku",
+  "podzimni-vysadba-cibulovin",
+  "vertikalni-zahrada-na-balkone",
+  "pestovani-okurek-a-cuket",
+  "planovani-detskeho-pokoje",
+  "jak-vybrat-kuchynsky-drez-a-baterii",
+  "vyber-podlahovych-krytin-pro-byt",
+  "stehovani-s-detmi-tipy",
+  "jak-navrhnout-male-koupelny",
+  "jak-pripravit-auto-na-leto",
+  "udrzba-grilu-pred-sezonou",
+  "letni-stinici-technika-oken",
+  "zazimovani-zahradni-techniky",
+  "jak-ochranit-dum-pred-blesky",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {
