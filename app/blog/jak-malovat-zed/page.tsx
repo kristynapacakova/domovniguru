@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
@@ -157,6 +158,15 @@ export default function ArticlePage() {
                 <li><strong>Barva</strong> (viz sekce o výběru)</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Nekupuj nejlevnější váleček. Levné vločkují a zanechávají v barvě chloupky. Dobrý váleček za 150–200 Kč ti ušetří přemalování.</div>
+              {/* Affiliate – nahraď href svým tracking linkem z Dognetu */}
+              <ProductBox
+                icon="🖌️"
+                name="Sada na malování – váleček, vana, teleskopická tyč"
+                store="Alza"
+                price="od 290 Kč"
+                href="https://www.alza.cz/malovani/18854316.htm"
+                why="Kompletní sada na jedno malování: kvalitní váleček s délkou vlasu 12 mm, hliníková vana s mřížkou a teleskopická tyč. Nemusíš kupovat části zvlášť."
+              />
             </section>
 
             <section id="priprava-podkladu">

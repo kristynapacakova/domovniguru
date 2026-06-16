@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Co dělat když nejde proud v části bytu – postup 2026",
@@ -200,6 +201,15 @@ export default function ArticlePage() {
                 <li><strong>Krok 5 — Připojuj spotřebiče postupně:</strong> Jeden po druhém připojuj spotřebiče. Ten který způsobí opětovný výpadek je vadný — odlož ho a nechej opravit nebo vyměnit.</li>
               </ul>
               <div className="article-tip"><strong>⚠️ Pozor:</strong> Pokud jistič vypadne okamžitě po resetu ještě před připojením jakéhokoli spotřebiče, jde o problém v samotné elektroinstalaci (zkrat ve vedení nebo zásuvce) — volej elektrikáře.</div>
+              {/* Affiliate – nahraď href svým tracking linkem z Dognetu */}
+              <ProductBox
+                icon="🔦"
+                name="Fázová tužka – indikátor napětí"
+                store="Alza"
+                price="od 89 Kč"
+                href="https://www.alza.cz/fazova-tuzka/18854317.htm"
+                why="Než sáhneš na cokoliv v rozvaděči, ověř si kde je napětí. Fázová tužka ti za sekundu poví, který vodič je pod proudem — základní bezpečnostní pomůcka každé domácnosti."
+              />
             </section>
 
             <section id="jistic-vs-chranič">
