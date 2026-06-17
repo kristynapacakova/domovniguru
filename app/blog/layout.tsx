@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ArticleFeedback from "@/app/components/ArticleFeedback";
 
 export const metadata: Metadata = {
   title: "Blog o domácnosti – tipy, návody a rady | DomovniGuru",
@@ -13,5 +14,12 @@ export const metadata: Metadata = {
 };
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      {children}
+      <div className="wrap">
+        <ArticleFeedback />
+      </div>
+    </>
+  );
 }
