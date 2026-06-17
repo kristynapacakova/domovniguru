@@ -200,6 +200,23 @@ const BLOG_SLUGS = [
   "letni-stinici-technika-oken",
   "zazimovani-zahradni-techniky",
   "jak-ochranit-dum-pred-blesky",
+
+  // Nové 4
+  "barvy-s-nizkym-obsahem-voc",
+  "jak-skladovat-zbylou-barvu",
+  "kridova-barva-na-nabytek-postup",
+  "usb-zasuvky-a-nabijeci-stanice",
+  "schodistovy-vypinac-zapojeni",
+  "spotrebice-ve-standby-jak-usetrit",
+  "jak-pestovat-cesnek-a-cibuli",
+  "okenni-truhliky-postup-a-vyber-rostlin",
+  "odvodneni-zahrady-pri-destich",
+  "rekonstrukce-bytu-v-najmu-co-je-mozne",
+  "jak-bydlet-behem-rekonstrukce",
+  "demolicni-prace-svepomoci-vs-firma",
+  "jak-pripravit-balkon-na-zimu",
+  "jak-pripravit-garaz-na-zimu",
+  "kontrola-hasicich-pristroju-a-detektoru-koure",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {
@@ -271,6 +288,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/splaceni-hypoteky`,                 changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/uspora-zatepleni`,                  changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/cena-kuchyne`,                      changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-vody-do-bazenu`,              changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/rozestup-rostlin-kalkulacka`,       changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-zarovek-potrebuji`,           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kalkulacka-rozpoctu-rekonstrukce`,  changeFrequency: "monthly", priority: 0.7 },
     // Návody
     { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`,    changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/navody/jak-odvzdusnit-radiator`,       changeFrequency: "monthly", priority: 0.7 },

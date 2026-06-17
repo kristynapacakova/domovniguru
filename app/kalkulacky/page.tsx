@@ -43,6 +43,12 @@ export default function KalkulackyHub() {
     { icon: "♻️", title: "Kolik kompostu na záhony?", desc: "Plocha, tloušťka vrstvy – litry a pytlů.", href: "/kalkulacky/kolik-kompostu" },
     { icon: "💧", title: "Kolik vody na zavlažování?", desc: "Plocha, typ rostlin – litry/zavlažování.", href: "/kalkulacky/kolik-zavlahy" },
     { icon: "🪴", title: "Kolik hlíny potřebuji?", desc: "Objem květináčů, truhlíků a litry substrátu.", href: "/kalkulacky/kolik-hliny" },
+    { icon: "🏊", title: "Kolik vody do bazénu?", desc: "Objem bazénu v litrech a dávkování chlóru.", href: "/kalkulacky/kolik-vody-do-bazenu" },
+    { icon: "🌼", title: "Rozestup rostlin na záhonu", desc: "Plocha a rozestup – kolik rostlin potřebuješ.", href: "/kalkulacky/rozestup-rostlin-kalkulacka" },
+    // Elektrika & osvětlení
+    { icon: "💡", title: "Kolik žárovek potřebuji?", desc: "Plocha, typ místnosti a výkon – počet žárovek.", href: "/kalkulacky/kolik-zarovek-potrebuji" },
+    // Rekonstrukce & náklady
+    { icon: "🏗️", title: "Kalkulačka rozpočtu rekonstrukce", desc: "Plocha, standard a mokré provozy – celkový rozpočet.", href: "/kalkulacky/kalkulacka-rozpoctu-rekonstrukce" },
   ];
 
   return (

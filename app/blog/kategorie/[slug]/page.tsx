@@ -82,6 +82,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 161, cat: "malovani", title: "Jak namalovat betonovou podlahu v garáži nebo dílně", desc: "Příprava betonu, penetrace, výběr epoxidové nebo podlahové barvy a postup nátěru podlahy v garáži krok za krokem.", slug: "malovani-betonove-podlahy-garaz", read: "6 min" },
     { id: 162, cat: "malovani", title: "Malování nových sádrokartonových stěn – co nepodcenit", desc: "Jak správně připravit a natřít nový sádrokarton – penetrace, tmelení spojů, počet vrstev a výběr barvy.", slug: "jak-malovat-na-sadrokarton", read: "5 min" },
     { id: 163, cat: "malovani", title: "Jak opravit praskliny ve fasádě před nátěrem", desc: "Diagnostika typů prasklin na fasádě, jejich oprava tmelem nebo sítí a příprava povrchu před fasádním nátěrem.", slug: "oprava-prasklin-ve-fasade-pred-malovanim", read: "6 min" },
+    { id: 179, cat: "malovani", title: "Barvy bez VOC – jak vybrat zdravou barvu do interiéru", desc: "Co je VOC, jak rozeznat nízko-VOC barvu, kdy je to klíčové a jak správně větrat při malování.", slug: "barvy-s-nizkym-obsahem-voc", read: "5 min" },
+    { id: 180, cat: "malovani", title: "Jak správně skladovat a uchovat zbylou barvu", desc: "Jak plechovku správně uzavřít, kde a jak dlouho barvu skladovat a jak poznat, že je už nepoužitelná.", slug: "jak-skladovat-zbylou-barvu", read: "5 min" },
+    { id: 181, cat: "malovani", title: "Křídová barva na nábytek – postup pro vintage look", desc: "Jak natřít starý nábytek křídovou barvou bez broušení a penetrace. Postup, vintage efekt a typické chyby.", slug: "kridova-barva-na-nabytek-postup", read: "5 min" },
   ],
   elektrika: [
     { id: 21, cat: "elektrika", title: "Jak vyměnit zásuvku sám – bezpečný postup",             desc: "Vypni jistič, odšroubuj, přepoj. Krok za krokem.",                 slug: "jak-vymenit-zasuvku",                 read: "5 min" },
@@ -113,6 +116,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 148, cat: "elektrika", title: "Jak vybrat a nainstalovat domovní zvonek nebo videotelefon", desc: "Drátový vs. bezdrátový zvonek, klasický vypínač nebo videotelefon s kamerou – přehled, výběr a instalace.", slug: "vyber-domovniho-zvonku-a-videotelefonu", read: "6 min" },
     { id: 149, cat: "elektrika", title: "Jak vybrat záložní zdroj nebo generátor pro výpadky proudu", desc: "Elektrocentrála, powerstation nebo záložní baterie k fotovoltaice – srovnání řešení pro výpadky elektřiny v domácnosti.", slug: "zalozni-zdroj-generator-pro-domacnost", read: "7 min" },
     { id: 150, cat: "elektrika", title: "Jak bezpečně instalovat venkovní zásuvku a osvětlení na zahradě", desc: "Krytí IP, proudový chránič a uložení kabelu do země – co je potřeba pro bezpečnou venkovní elektroinstalaci.", slug: "instalace-venkovni-zasuvky-a-osvetleni", read: "6 min" },
+    { id: 182, cat: "elektrika", title: "USB zásuvky a nabíjecí stanice doma – jak na to", desc: "Jak vybrat a nainstalovat USB zásuvku, kam ji umístit a kdy zvládneš výměnu sám a kdy zavolat elektrikáře.", slug: "usb-zasuvky-a-nabijeci-stanice", read: "5 min" },
+    { id: 183, cat: "elektrika", title: "Schodišťový vypínač – jak zapojit a k čemu slouží", desc: "Schodišťové zapojení vypínače umožní rozsvítit i zhasnout světlo ze dvou míst. Schéma a bezpečnost.", slug: "schodistovy-vypinac-zapojeni", read: "5 min" },
+    { id: 184, cat: "elektrika", title: "Spotřebiče v pohotovostním režimu – kolik stojí standby", desc: "Tabulka standby příkonů, roční náklady a praktické tipy jak fantomovou spotřebu omezit.", slug: "spotrebice-ve-standby-jak-usetrit", read: "5 min" },
   ],
   zahrada: [
     { id: 41, cat: "zahrada", title: "Jak připravit zahradu na jaro",                           desc: "Co udělat v březnu a dubnu.",                                      slug: "jarni-zahrada",                       read: "6 min" },
@@ -155,6 +161,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 166, cat: "zahrada", title: "Podzimní výsadba cibulovin – tulipány, narcisy, krokusy", desc: "Kdy a jak na podzim sázet cibuloviny, aby na jaře vykvetly – hloubka výsadby, kombinace druhů a péče.", slug: "podzimni-vysadba-cibulovin", read: "5 min" },
     { id: 167, cat: "zahrada", title: "Vertikální zahrada na balkoně – inspirace a postup", desc: "Jak si vybudovat vertikální zahradu na balkoně – konstrukce, vhodné rostliny, zavlažování a údržba.", slug: "vertikalni-zahrada-na-balkone", read: "6 min" },
     { id: 168, cat: "zahrada", title: "Jak pěstovat okurky a cukety na zahradě", desc: "Výsadba, zálivka, hnojení a ochrana proti plísním – praktický návod na pěstování okurek a cuket.", slug: "pestovani-okurek-a-cuket", read: "6 min" },
+    { id: 185, cat: "zahrada", title: "Jak pěstovat česnek a cibuli na zahradě", desc: "Ozimý vs. jarní česnek, sadba vs. semena cibule, sázení, hnojení i sklizeň a uskladnění.", slug: "jak-pestovat-cesnek-a-cibuli", read: "6 min" },
+    { id: 186, cat: "zahrada", title: "Okenní truhlíky – postup instalace a výběr rostlin", desc: "Jak vybrat truhlík, bezpečně ho uchytit a zvolit rostliny podle orientace okna.", slug: "okenni-truhliky-postup-a-vyber-rostlin", read: "5 min" },
+    { id: 187, cat: "zahrada", title: "Odvodnění zahrady – jak řešit přebytečnou dešťovou vodu", desc: "Drenáž, vsakovací jímka, dešťová zahrada nebo úprava sklonu terénu – řešení podle závažnosti problému.", slug: "odvodneni-zahrady-pri-destich", read: "5 min" },
   ],
   stehovani: [
     { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },
@@ -196,6 +205,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 171, cat: "stehovani", title: "Jak vybrat podlahovou krytinu do bytu podle místnosti", desc: "Srovnání laminátu, vinylu, dlažby a dřeva pro obytné místnosti, kuchyň, koupelnu a chodbu – co se kam hodí.", slug: "vyber-podlahovych-krytin-pro-byt", read: "7 min" },
     { id: 172, cat: "stehovani", title: "Stěhování s dětmi – jak to zvládnout v klidu", desc: "Praktické tipy, jak připravit děti na stěhování, zorganizovat balení a první dny v novém bydlení.", slug: "stehovani-s-detmi-tipy", read: "5 min" },
     { id: 173, cat: "stehovani", title: "Jak navrhnout malou koupelnu, aby působila větší", desc: "Tipy na rozvržení, barvy, osvětlení a úložné prostory v malé koupelně – jak vizuálně i prakticky zvětšit prostor.", slug: "jak-navrhnout-male-koupelny", read: "7 min" },
+    { id: 188, cat: "stehovani", title: "Rekonstrukce pronajatého bytu – co můžete a co ne", desc: "Co si nájemník může v pronajatém bytě upravit bez souhlasu a co vyžaduje písemné svolení pronajímatele.", slug: "rekonstrukce-bytu-v-najmu-co-je-mozne", read: "6 min" },
+    { id: 189, cat: "stehovani", title: "Jak přežít bydlení během rekonstrukce bytu", desc: "Kdy zůstat bydlet a kdy se odstěhovat, provizorní zázemí a vaření i hygiena bez kuchyně a koupelny.", slug: "jak-bydlet-behem-rekonstrukce", read: "6 min" },
+    { id: 190, cat: "stehovani", title: "Demoliční práce svépomocí, nebo najmout firmu?", desc: "Co lze bourat svépomocí, jak zjistit nosnou stěnu, nářadí, odvoz suti a kdy se vyplatí demoliční firma.", slug: "demolicni-prace-svepomoci-vs-firma", read: "6 min" },
   ],
   "sezonni-udrzba": [
     { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "priprava-domu-na-zimu",               read: "5 min" },
@@ -232,6 +244,9 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 176, cat: "sezonni-udrzba", title: "Markýzy, rolety a žaluzie – jak vybrat stínění oken na léto", desc: "Srovnání venkovních a vnitřních stínicích technik – markýzy, venkovní žaluzie, rolety a fólie – jak vybrat podle orientace oken.", slug: "letni-stinici-technika-oken", read: "6 min" },
     { id: 177, cat: "sezonni-udrzba", title: "Jak zazimovat sekačku a další zahradní techniku", desc: "Postup zazimování sekačky, křovinořezu a dalšího zahradního nářadí, aby na jaře bez problémů nastartovaly.", slug: "zazimovani-zahradni-techniky", read: "5 min" },
     { id: 178, cat: "sezonni-udrzba", title: "Ochrana domu před bleskem – hromosvod a přepětí", desc: "Jak funguje hromosvod, kdy je povinný a jak ochránit elektroniku v domě před přepětím při bouřce.", slug: "jak-ochranit-dum-pred-blesky", read: "6 min" },
+    { id: 191, cat: "sezonni-udrzba", title: "Jak připravit balkon na zimu – kompletní checklist", desc: "Rostliny, nábytek, odtok, dlažba i zábradlí – jak balkon připravit na mráz a sníh bez škod.", slug: "jak-pripravit-balkon-na-zimu", read: "5 min" },
+    { id: 192, cat: "sezonni-udrzba", title: "Jak připravit garáž na zimu – kompletní checklist", desc: "Vrata, těsnění, vlhkost, nářadí, auto i elektřina – co zkontrolovat než přijdou mrazy.", slug: "jak-pripravit-garaz-na-zimu", read: "6 min" },
+    { id: 193, cat: "sezonni-udrzba", title: "Hasicí přístroj a detektory kouře doma – kontrola a údržba", desc: "Jak často testovat detektor kouře, kdy měnit baterii a jaká je revizní lhůta hasicího přístroje.", slug: "kontrola-hasicich-pristroju-a-detektoru-koure", read: "5 min" },
   ],
 };
 
