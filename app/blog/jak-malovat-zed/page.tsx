@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
@@ -113,6 +114,8 @@ export default function ArticlePage() {
               <div className="article-meta-row">
                 <span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span>
               </div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-zed" title="Jak malovat zeď – kompletní průvodce pro začátečníky 2026" />
             </header>
 
             {/* PDF ke stažení */}

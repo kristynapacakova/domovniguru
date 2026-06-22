@@ -2,14 +2,15 @@
 // SOUBOR: app/kalkulacky/kolik-tapet/page.tsx
 // ════════════════════════════════════════════════════════════════
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import TapetyCalculator from "@/app/components/TapetyCalculator";
 
 export const metadata: Metadata = {
   title: "Kalkulačka tapet – kolik rolí potřebuju",
   description: "Spočítej počet rolí tapet včetně odpadu na vzor (raport). Zadej obvod místnosti, výšku a rozměry role – výsledek okamžitě.",
-  alternates: { canonical: "https://domovniguru.cz/kalkulacky/kolik-tapet" },
-  openGraph: { title: "Kalkulačka tapet 2026", description: "Počet rolí tapet s raportem vzoru. Výsledek okamžitě.", url: "https://domovniguru.cz/kalkulacky/kolik-tapet", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20tapet%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka tapet 2026" }] },
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/kolik-tapet" },
+  openGraph: { title: "Kalkulačka tapet 2026", description: "Počet rolí tapet s raportem vzoru. Výsledek okamžitě.", url: "https://www.domovniguru.cz/kalkulacky/kolik-tapet", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20tapet%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka tapet 2026" }] },
 };
 
 export default function KolikTapetPage() {

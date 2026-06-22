@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -73,6 +74,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak funguje chytrá domácnost – začínáme</h1>
               <p className="article-lead">Chytrá domácnost neznamená rekonstrukci ani desítky tisíc za instalaci. Začít se dá za pár stovek s chytrou žárovkou nebo zásuvkou — bez vrtání a elektrikáře.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" title="Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}

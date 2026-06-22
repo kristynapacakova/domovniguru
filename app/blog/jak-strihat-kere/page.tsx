@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -72,6 +73,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak stříhat keře – průvodce pro každého</h1>
               <p className="article-lead">Správný řez keře nezničí – naopak ho omlazuje, podpoří kvetení a udrží tvar. Špatný řez ve špatnou dobu ale může zahubit i letitý keř. Tady je co potřebuješ vědět.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-strihat-kere" title="Jak stříhat keře – průvodce pro každého 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import BarvyCalculator from "@/app/components/BarvyCalculator";
 
@@ -35,6 +36,8 @@ export default function KolikBarvyPage() {
         </p>
 
         <BarvyCalculator />
+
+        <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-barvy" title="Kalkulačka barvy na zeď 2026 – kolik litrů potřebuju?" />
 
         {/* SEO TEXT */}
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>

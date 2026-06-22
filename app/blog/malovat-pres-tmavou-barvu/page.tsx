@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
@@ -85,6 +86,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak malovat přes tmavou barvu na světlo</h1>
               <p className="article-lead">Jedna vrstva bílé přes tmavě modrou zeď? Skončíš s nerovnoměrnou šedavou plochou. S správným postupem to ale zvládneš čistě a bez zbytečných vrstev.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" title="Jak malovat přes tmavou barvu na světlo – bez šmouh 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}

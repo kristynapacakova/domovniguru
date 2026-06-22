@@ -36,6 +36,8 @@ export default function KalkulackyHub() {
     { icon: "🏦", title: "Kalkulačka hypotéky", desc: "Výše úvěru, sazba, splatnost – měsíční splátka a přeplacení.", href: "/kalkulacky/splaceni-hypoteky" },
     { icon: "🏠", title: "Kolik ušetřím po zateplení?", desc: "Rozsah zateplení, náklady – roční úspora a návratnost.", href: "/kalkulacky/uspora-zatepleni" },
     { icon: "🍳", title: "Kolik stojí nová kuchyně?", desc: "Délka linky, standard, spotřebiče – celková cena.", href: "/kalkulacky/cena-kuchyne" },
+    { icon: "🧱", title: "Kolik SDK desek potřebuji?", desc: "Desky, profily, šrouby a tmel na příčku.", href: "/kalkulacky/kolik-sdk" },
+    { icon: "🏡", title: "Kolik střešních tašek potřebuji?", desc: "Plocha střechy, typ krytiny, počet tašek a palet.", href: "/kalkulacky/kolik-stresnych-tasek" },
     // Zahrada
     { icon: "🌱", title: "Kolik osiva na trávník?", desc: "Plocha a dávka – kg a počet pytlíků.", href: "/kalkulacky/kolik-osiva" },
     { icon: "🌱", title: "Kolik hnojiva potřebuji?", desc: "Plocha, dávka g/m² – kg a počet pytlíků.", href: "/kalkulacky/kolik-hnojiva" },

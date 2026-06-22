@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Ochrana soukromí – DomovniGuru",
   description: "Zásady ochrany osobních údajů na webu DomovniGuru – jaká data sbíráme, jak je zpracováváme a jak je chráníme.",
-  alternates: { canonical: "https://domovniguru.cz/soukromi" },
+  alternates: { canonical: "https://www.domovniguru.cz/soukromi" },
 };
 
 export default function SoukromiPage() {

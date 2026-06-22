@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -75,6 +76,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Zahradní nástroje – jak o ně pečovat, aby vydržely</h1>
               <p className="article-lead">Kvalitní lopata nebo nůžky vydrží celý život – pokud je po každém použití očistíš, občas nabrousíš a před zimou promaštíš. Většina nářadí nerezaví stářím, ale zanedbáním.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/zahradni-nastroje-pece" title="Zahradní nástroje – jak o ně pečovat, aby vydržely 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}

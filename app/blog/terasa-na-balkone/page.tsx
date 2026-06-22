@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -69,6 +70,8 @@ export default function ArticlePage() {
               <div className="article-meta-row">
                 <span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span>
               </div>
+            
+              <ShareButtons url="https://www.domovniguru.cz/blog/terasa-na-balkone" title="Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2025" />
             </header>
 
             <nav className="toc" aria-label="Obsah článku">

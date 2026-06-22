@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
@@ -76,6 +77,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak odstranit starou barvu ze zdi</h1>
               <p className="article-lead">Ne každou starou barvu musíš odstraňovat — ale když se loupe, praskla nebo je příliš silná, nová barva na ní dobře nepřilne. Tady je jak na to správnou metodou.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-odstranit-starou-barvu" title="Jak odstranit starou barvu ze zdi" />
             </header>
 
             {/* HERO ILLUSTRATION */}

@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 
 const bg = "#f8f4f0";
@@ -12,7 +11,7 @@ const inputCss: React.CSSProperties = { width:"100%", padding:"10px 14px", borde
 function CopyButton({ text }: { text: string }) {
   const [copied, setCopied] = useState(false);
   const copy = async () => {
-    try { await navigator.clipboard.writeText(text); } catch { /* fallback */ }
+    try { await navigator.clipboard.writeText(text); } catch { }
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -23,75 +22,101 @@ function CopyButton({ text }: { text: string }) {
   );
 }
 
+const TYPY_TRAVNIKU = [
+  { label: "Rekreační (25 g/m²)",        davka: 25 },
+  { label: "Okrasný (35 g/m²)",           davka: 35 },
+  { label: "Odolný/sportovní (45 g/m²)", davka: 45 },
+  { label: "Pro stín (30 g/m²)",          davka: 30 },
+];
+
+const TYPY_VYSEVU = [
+  { label: "Nový výsev (100%)",   podil: 1.0 },
+  { label: "Dosev/oprava (50%)", podil: 0.5 },
+];
+
 export default function OsivoCalculator() {
-  const [plocha, setPlocha]   = useState("50");
-  const [davka, setDavka]     = useState("30");
-  const [pytlik, setPytlik]   = useState("1");
+  const [delka, setDelka] = useState("10");
+  const [sirka, setSirka] = useState("8");
+  const [travnikIdx, setTravnikIdx] = useState(0);
+  const [vysevIdx, setVysevIdx] = useState(0);
 
   const n = (v: string) => parseFloat(v.replace(",", ".")) || 0;
-  const kg    = n(plocha) * n(davka) / 1000;
-  const pytlu = Math.ceil(kg / n(pytlik));
-  const copyText = `Potřebujete ${pytlu} pytlíků osiva (${kg.toFixed(2)} kg) na ${n(plocha)} m² trávníku. Spočíteno na DomovniGuru.cz`;
+  const plocha = n(delka) * n(sirka);
+  const { davka } = TYPY_TRAVNIKU[travnikIdx];
+  const { podil } = TYPY_VYSEVU[vysevIdx];
+  const osivoKg = Math.ceil((plocha * davka * podil) / 1000 * 10) / 10;
+  const hnojivo = Math.ceil(plocha * 0.03 * 10) / 10;
+  const zalevani = `~${Math.round(plocha * 5)} litrů/den po výsevu`;
+
+  const copyText = `Trávník ${n(delka)}×${n(sirka)} m (${plocha.toFixed(0)} m²): ${osivoKg} kg osiva, ${hnojivo} kg hnojiva. ${zalevani}. Spočíteno na DomovniGuru.cz`;
 
   return (
     <div style={{ background: bg, borderRadius:"16px", padding:"28px 24px", border:`1px solid ${border}`, fontFamily:"inherit" }}>
       <div style={{ marginBottom:"20px" }}>
         <div style={{ display:"flex", alignItems:"center", gap:"10px", marginBottom:"4px" }}>
           <span style={{ fontSize:"22px" }}>🌱</span>
-          <h3 style={{ margin:0, fontSize:"18px", fontWeight:700, color:"#2a2a28" }}>Kalkulačka osiva na trávník</h3>
+          <h3 style={{ margin:0, fontSize:"18px", fontWeight:700, color:"#2a2a28" }}>Kalkulačka osiva trávníku</h3>
         </div>
-        <p style={{ margin:0, fontSize:"13px", color:muted }}>Spočítej kolik kg osiva a počet pytlíků na tvůj trávník.</p>
+        <p style={{ margin:0, fontSize:"13px", color:muted }}>Zadej rozměry plochy a typ trávníku — zjistíš přesné množství osiva i hnojiva.</p>
       </div>
 
       <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(140px, 1fr))", gap:"14px", marginBottom:"18px" }}>
         <div style={{ display:"flex", flexDirection:"column" }}>
-          <label style={labelCss}>Plocha trávníku (m²)</label>
-          <input type="number" min="0" step="1" value={plocha}
-            onChange={(e) => setPlocha(e.target.value)}
-            style={inputCss}
-            onFocus={e=>(e.target.style.borderColor=accent)}
-            onBlur={e=>(e.target.style.borderColor=border)} />
+          <label style={labelCss}>Délka pozemku (m)</label>
+          <input type="number" min="0" step="0.5" value={delka}
+            onChange={e => setDelka(e.target.value)} style={inputCss}
+            onFocus={e => (e.target.style.borderColor = accent)}
+            onBlur={e => (e.target.style.borderColor = border)} />
         </div>
         <div style={{ display:"flex", flexDirection:"column" }}>
-          <label style={labelCss}>Dávka osiva (g/m²)</label>
-          <input type="number" min="0" step="1" value={davka}
-            onChange={(e) => setDavka(e.target.value)}
-            style={inputCss}
-            onFocus={e=>(e.target.style.borderColor=accent)}
-            onBlur={e=>(e.target.style.borderColor=border)} />
-          <span style={{ fontSize:"11px", color:muted, marginTop:"4px" }}>nový trávník: 25–35 g / přesev: 10–15 g</span>
+          <label style={labelCss}>Šířka pozemku (m)</label>
+          <input type="number" min="0" step="0.5" value={sirka}
+            onChange={e => setSirka(e.target.value)} style={inputCss}
+            onFocus={e => (e.target.style.borderColor = accent)}
+            onBlur={e => (e.target.style.borderColor = border)} />
         </div>
         <div style={{ display:"flex", flexDirection:"column" }}>
-          <label style={labelCss}>Velikost pytlíku (kg)</label>
-          <input type="number" min="0" step="0.5" value={pytlik}
-            onChange={(e) => setPytlik(e.target.value)}
-            style={inputCss}
-            onFocus={e=>(e.target.style.borderColor=accent)}
-            onBlur={e=>(e.target.style.borderColor=border)} />
+          <label style={labelCss}>Typ trávníku</label>
+          <select value={travnikIdx} onChange={e => setTravnikIdx(Number(e.target.value))}
+            style={{ ...inputCss, cursor:"pointer" }}>
+            {TYPY_TRAVNIKU.map((t, i) => (
+              <option key={i} value={i}>{t.label}</option>
+            ))}
+          </select>
+        </div>
+        <div style={{ display:"flex", flexDirection:"column" }}>
+          <label style={labelCss}>Způsob výsevu</label>
+          <select value={vysevIdx} onChange={e => setVysevIdx(Number(e.target.value))}
+            style={{ ...inputCss, cursor:"pointer" }}>
+            {TYPY_VYSEVU.map((t, i) => (
+              <option key={i} value={i}>{t.label}</option>
+            ))}
+          </select>
         </div>
       </div>
 
       <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"10px", marginBottom:"14px" }}>
         <div style={{ background:"#fff", border:`1px solid ${border}`, borderRadius:"10px", padding:"12px 14px" }}>
-          <div style={{ fontSize:"10px", color:muted, fontWeight:700, letterSpacing:"0.06em", textTransform:"uppercase", marginBottom:"4px" }}>Celkem osiva</div>
-          <div style={{ fontSize:"20px", fontWeight:700, color:"#2a2a28" }}>{kg.toFixed(2)} kg</div>
+          <div style={{ fontSize:"10px", color:muted, fontWeight:700, letterSpacing:"0.06em", textTransform:"uppercase", marginBottom:"4px" }}>Plocha trávníku</div>
+          <div style={{ fontSize:"20px", fontWeight:700, color:"#2a2a28" }}>{plocha.toFixed(0)} m²</div>
         </div>
         <div style={{ background:"#fff", border:`1px solid ${border}`, borderRadius:"10px", padding:"12px 14px" }}>
-          <div style={{ fontSize:"10px", color:muted, fontWeight:700, letterSpacing:"0.06em", textTransform:"uppercase", marginBottom:"4px" }}>Počet pytlíků</div>
-          <div style={{ fontSize:"20px", fontWeight:700, color:"#2a2a28" }}>{pytlu} ks</div>
+          <div style={{ fontSize:"10px", color:muted, fontWeight:700, letterSpacing:"0.06em", textTransform:"uppercase", marginBottom:"4px" }}>Startovací hnojivo</div>
+          <div style={{ fontSize:"20px", fontWeight:700, color:"#2a2a28" }}>{hnojivo} kg</div>
         </div>
       </div>
 
       <div style={{ background:accent, borderRadius:"12px", padding:"20px 24px", display:"flex", alignItems:"center", justifyContent:"space-between", flexWrap:"wrap", gap:"12px" }}>
         <div>
           <div style={{ fontSize:"11px", color:"#a0a090", fontWeight:600, letterSpacing:"0.08em", textTransform:"uppercase", marginBottom:"4px" }}>Potřebujete přibližně</div>
-          <div style={{ fontSize:"32px", fontWeight:800, color:"#fff", lineHeight:1.1 }}>{pytlu} pytlíků po {n(pytlik)} kg</div>
+          <div style={{ fontSize:"32px", fontWeight:800, color:"#fff", lineHeight:1.1 }}>{osivoKg} kg osiva</div>
+          <div style={{ fontSize:"13px", color:"#b0b0a0", marginTop:"6px" }}>Zálivka: {zalevani}</div>
         </div>
         <CopyButton text={copyText} />
       </div>
 
       <div style={{ marginTop:"12px", background:"#fffbf0", border:"1px solid #e8d890", borderRadius:"8px", padding:"10px 14px", fontSize:"12px", color:"#7a6a20", display:"flex", gap:"8px" }}>
-        <span>💡</span><span>Na nový trávník sypte 25–35 g/m², na přesev stávajícího trávníku 10–15 g/m². Osivo zahrábejte a lehce udusite.</span>
+        <span>💡</span><span>Nejlepší čas na výsev je <strong>duben–květen</strong> nebo <strong>srpen–září</strong>. Po výsevu udržuj půdu vlhkou alespoň 3 týdny.</span>
       </div>
     </div>
   );

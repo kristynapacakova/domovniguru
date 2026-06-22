@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -77,6 +78,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Proč mi vypadává jistič?</h1>
               <p className="article-lead">Jistič není závada — je to ochrana. Pokud vypadává opakovaně, říká ti že v okruhu je něco špatně. Tady je jak najít příčinu a co s tím.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/proc-vypadava-jistic" title="Proč vypadává jistič? Přetížení nebo zkrat" />
             </header>
 
             {/* HERO ILLUSTRATION */}

@@ -2,14 +2,15 @@
 // SOUBOR: app/kalkulacky/kolik-dlazby/page.tsx
 // ════════════════════════════════════════════════════════════════
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import DlazbCalculator from "@/app/components/DlazbCalculator";
 
 export const metadata: Metadata = {
   title: "Kalkulačka dlažby 2026 – kolik dlaždic potřebuju s rezervou?",
   description: "Spočítej přesný počet dlaždic včetně 10% rezervy na prořezy a rohy. Zadej rozměry místnosti a dlaždice – výsledek okamžitě.",
-  alternates: { canonical: "https://domovniguru.cz/kalkulacky/kolik-dlazby" },
-  openGraph: { title: "Kalkulačka dlažby 2026", description: "Počet dlaždic s rezervou na prořezy. Výsledek okamžitě.", url: "https://domovniguru.cz/kalkulacky/kolik-dlazby", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20dla%C5%BEby%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka dlažby 2026" }] },
+  alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/kolik-dlazby" },
+  openGraph: { title: "Kalkulačka dlažby 2026", description: "Počet dlaždic s rezervou na prořezy. Výsledek okamžitě.", url: "https://www.domovniguru.cz/kalkulacky/kolik-dlazby", siteName: "DomovniGuru", locale: "cs_CZ", type: "website", images: [{ url: "/api/og?title=Kalkula%C4%8Dka%20dla%C5%BEby%202026&cat=kalkulacky", width: 1200, height: 630, alt: "Kalkulačka dlažby 2026" }] },
 };
 
 export default function KolikDlazbyPage() {

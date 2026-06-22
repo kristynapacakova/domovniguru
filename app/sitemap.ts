@@ -217,6 +217,11 @@ const BLOG_SLUGS = [
   "jak-pripravit-balkon-na-zimu",
   "jak-pripravit-garaz-na-zimu",
   "kontrola-hasicich-pristroju-a-detektoru-koure",
+
+  // Nové 5
+  "jak-opravit-kapajici-kohoutek",
+  "jak-vycistit-pracku",
+  "jak-opravit-trhlinu-ve-zdi",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {
@@ -262,6 +267,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/led-uspora`,      changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/tepelna-izolace`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/tepelne-cerpadlo`,changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-sdk`,                          changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-stresnych-tasek`,             changeFrequency: "monthly", priority: 0.7 },
     // Kalkulačky – nové
     { url: `${BASE}/kalkulacky/kolik-osiva`,                       changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-sadrokartonu`,                changeFrequency: "monthly", priority: 0.7 },

@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -84,6 +85,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak zapojit nové světlo na strop</h1>
               <p className="article-lead">Výměna stropního svítidla je jedna z nejběžnějších domácích elektroinstalací — a zvládne ji každý kdo dodržuje bezpečnostní pravidla. Klíč je vypnout jistič a správně přiřadit vodiče.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop" title="Jak zapojit nové světlo na strop – L, N, PE vodiče 2025" />
             </header>
 
             {/* HERO ILLUSTRATION */}

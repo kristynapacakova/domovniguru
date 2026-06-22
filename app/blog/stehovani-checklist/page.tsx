@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -75,6 +76,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Stěhování bez stresu – kompletní checklist</h1>
               <p className="article-lead">Stěhování je jeden z nejstresovějších životních momentů – ale ne proto, že by bylo tak složité. Stresuje proto, že nikdy nevíš, na co jsi zapomněl. Tenhle checklist to řeší.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/stehovani-checklist" title="Stěhování bez stresu – kompletní checklist 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

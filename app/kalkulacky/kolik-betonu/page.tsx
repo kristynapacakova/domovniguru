@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
+import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import BetonCalculator from "@/app/components/BetonCalculator";
-import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
   title: "Kalkulačka betonu 2026 – výpočet m³, kubíků a počtu pytlů",

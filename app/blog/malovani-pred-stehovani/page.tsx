@@ -1,3 +1,4 @@
+import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
@@ -76,6 +77,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak vymalovat byt před stěhováním – průvodce a načasování</h1>
               <p className="article-lead">Prázdný byt se maluje třikrát rychleji než zařízený. Žádné stěhování nábytku, žádné zakrývání, dokonalý přístup ke každé stěně. Tenhle článek ti ukáže, jak to udělat chytře – s správným načasováním a pořadím místností.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <ShareButtons url="https://www.domovniguru.cz/blog/malovani-pred-stehovani" title="Jak vymalovat byt před stěhováním – průvodce a načasování 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>
