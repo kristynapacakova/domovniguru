@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+import fs from "fs";
+import path from "path";
 
 const BASE = "https://www.domovniguru.cz";
 
@@ -26,12 +28,14 @@ const BLOG_SLUGS = [
   "barva-se-loupe",
   "tapety-vs-barva",
   "jak-vybrat-barvu-na-zed",
-  
+
   // Elektrika & osvětlení
   "jak-vymenit-zasuvku",
   "jak-vymenit-vypinac",
   "led-vs-zarovky",
   "jak-vybrat-led-zarovku",
+  "jak-vybrat-solarni-panely",
+  "jaky-bojler-vybrat",
   "zapojit-svetlo-na-strop",
   "proc-vypadava-jistic",
   "chytra-domacnost-zaciname",
@@ -49,6 +53,8 @@ const BLOG_SLUGS = [
   "otestovat-zasuvku",
   "jak-cist-elektromer",
   "vymena-zasuvky",
+  "jak-vybrat-dodavatele-elektriny",
+
   // Zahrada & terasa
   "jarni-zahrada",
   "vyvyseny-zahon-postup",
@@ -78,6 +84,7 @@ const BLOG_SLUGS = [
   "jak-strihat-kere",
   "zahradni-nastroje-pece",
   "ochrana-rostlin-pred-zimou",
+
   // Stěhování & rekonstrukce
   "stehovani-checklist",
   "planovani-rekonstrukce-bytu",
@@ -100,6 +107,7 @@ const BLOG_SLUGS = [
   "prihlasit-trvaly-pobyt",
   "prebrani-bytu-checklist",
   "jak-namazat-dvere-aby-nevrzaly",
+
   // Sezónní údržba
   "priprava-domu-na-zimu",
   "jak-odvzdusnit-radiatory",
@@ -121,35 +129,135 @@ const BLOG_SLUGS = [
   "pece-o-septik-zumpu",
   "odlehcit-strechu-od-snehu",
   "jak-spravne-topit",
+  "vodni-podlahove-topeni",
+  "chytry-termostat-uspora-vytapeni",
+  "jak-vybrat-klimatizaci",
+  "fotovoltaika-s-baterii",
+  "jak-zateplit-dum",
+  "rekonstrukce-koupelny-pruvodce",
+  "jak-vybrat-dlazbu-do-koupelny",
+  "sprchovy-kout-nebo-vana",
+  "automaticke-zavlazovani-zahrady",
+  "jak-navrhnout-zahradu",
+  "kuchynska-linka-na-miru-vs-ikea",
+  "plovouci-podlaha-vs-dlazba",
+
   // Ostatní
   "tepelne-cerpadlo-pruvodce",
+
+  // Nové
+  "jak-vybrat-barvu-pro-kazdou-mistnost",
+  "jak-malovat-nabytek-a-dvere",
+  "nejcastejsi-chyby-pri-malovani",
+  "malovani-vzory-sablony-postup",
+  "klimatizace-instalace-a-provoz",
+  "jak-snizit-spotrebu-vody",
+  "hypoteka-na-rekonstrukci",
+  "navratnost-zatepleni-domu",
+  "planovani-kuchyne-krok-za-krokem",
+  "sklenik-na-zahrade-svepomoci",
+
+  // Nové 2
+  "jak-udrzovat-mycku-nadobi",
+  "priprava-bazenu-na-leto",
+  "zazimovani-bazenu",
+  "pece-o-drevene-podlahy",
+  "pripravit-dum-na-boure-a-vitr",
+  "malovani-skla-zrcadel-a-kovu",
+  "barva-na-strop-a-do-koupelny",
+  "osetrit-novou-omitku-pred-malovanim",
+  "obnova-fasady-naterem",
+  "vyber-domovniho-zvonku-a-videotelefonu",
+  "zalozni-zdroj-generator-pro-domacnost",
+  "instalace-venkovni-zasuvky-a-osvetleni",
+  "jak-vybrat-okna-pri-rekonstrukci",
+  "uloziste-v-malem-byte",
+  "planovani-osvetleni-bytu",
+  "jak-vybrat-vchodove-dvere",
+  "stavba-zahradniho-jezirka",
+  "vyber-a-udrzba-zahradniho-nabytku",
+  "bylinky-a-zelenina-na-balkone",
+  "drevene-schody-a-cesticky-na-zahrade",
+
+  // Nové 3
+  "vyber-stetcu-a-valecku",
+  "jak-malovat-kovovy-plot-a-branu",
+  "malovani-betonove-podlahy-garaz",
+  "jak-malovat-na-sadrokarton",
+  "oprava-prasklin-ve-fasade-pred-malovanim",
+  "jak-postavit-zahradni-domek-na-naradi",
+  "jak-vybudovat-skalku",
+  "podzimni-vysadba-cibulovin",
+  "vertikalni-zahrada-na-balkone",
+  "pestovani-okurek-a-cuket",
+  "planovani-detskeho-pokoje",
+  "jak-vybrat-kuchynsky-drez-a-baterii",
+  "vyber-podlahovych-krytin-pro-byt",
+  "stehovani-s-detmi-tipy",
+  "jak-navrhnout-male-koupelny",
+  "jak-pripravit-auto-na-leto",
+  "udrzba-grilu-pred-sezonou",
+  "letni-stinici-technika-oken",
+  "zazimovani-zahradni-techniky",
+  "jak-ochranit-dum-pred-blesky",
+
+  // Nové 4
+  "barvy-s-nizkym-obsahem-voc",
+  "jak-skladovat-zbylou-barvu",
+  "kridova-barva-na-nabytek-postup",
+  "usb-zasuvky-a-nabijeci-stanice",
+  "schodistovy-vypinac-zapojeni",
+  "spotrebice-ve-standby-jak-usetrit",
+  "jak-pestovat-cesnek-a-cibuli",
+  "okenni-truhliky-postup-a-vyber-rostlin",
+  "odvodneni-zahrady-pri-destich",
+  "rekonstrukce-bytu-v-najmu-co-je-mozne",
+  "jak-bydlet-behem-rekonstrukce",
+  "demolicni-prace-svepomoci-vs-firma",
+  "jak-pripravit-balkon-na-zimu",
+  "jak-pripravit-garaz-na-zimu",
+  "kontrola-hasicich-pristroju-a-detektoru-koure",
+
+  // Nové 5
   "jak-opravit-kapajici-kohoutek",
   "jak-vycistit-pracku",
   "jak-opravit-trhlinu-ve-zdi",
 ];
 
+function getArticleLastModified(slug: string): Date | undefined {
+  try {
+    const filePath = path.join(process.cwd(), "app", "blog", slug, "page.tsx");
+    const content = fs.readFileSync(filePath, "utf-8");
+    const match = content.match(/"dateModified":\s*"([^"]+)"/);
+    return match ? new Date(match[1]) : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogUrls = BLOG_SLUGS.map((slug) => ({
     url: `${BASE}/blog/${slug}`,
+    lastModified: getArticleLastModified(slug),
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
   return [
     // Hlavní stránky
-    { url: `${BASE}/`,                changeFrequency: "weekly",  priority: 1.0 },
-    { url: `${BASE}/blog`,            changeFrequency: "daily",   priority: 0.9 },
+    { url: `${BASE}/`,                lastModified: new Date("2026-06-04"), changeFrequency: "weekly",  priority: 1.0 },
+    { url: `${BASE}/blog`,            lastModified: new Date("2026-06-04"), changeFrequency: "daily",   priority: 0.9 },
     { url: `${BASE}/kalkulacky`,      changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/navody`,          changeFrequency: "weekly",  priority: 0.8 },
     { url: `${BASE}/chyby-ostatnich`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/o-webu`,          changeFrequency: "yearly",  priority: 0.3 },
     // Kategorie
-    { url: `${BASE}/blog/kategorie/malovani`,        changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/elektrika`,       changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/zahrada`,         changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/sezonni-udrzba`,  changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/blog/kategorie/stehovani`,       changeFrequency: "weekly", priority: 0.7 },
-    // Kalkulačky
+    { url: `${BASE}/blog/kategorie/malovani`,        lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/elektrika`,       lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/zahrada`,         lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/sezonni-udrzba`,  lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/blog/kategorie/stehovani`,       lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
+    // Kalkulačky – původní
     { url: `${BASE}/kalkulacky/kolik-barvy`,     changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-laminatu`,  changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-dlazby`,    changeFrequency: "monthly", priority: 0.7 },
@@ -158,11 +266,39 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/kolik-hliny`,     changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/led-uspora`,      changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/tepelna-izolace`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/kalkulacky/tepelne-cerpadlo`,      changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/kalkulacky/kolik-sdk`,             changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/kalkulacky/kolik-cihel`,           changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/kalkulacky/kolik-osiva`,           changeFrequency: "monthly", priority: 0.7 },
-    { url: `${BASE}/kalkulacky/kolik-stresnych-tasek`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/tepelne-cerpadlo`,changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-sdk`,                          changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-stresnych-tasek`,             changeFrequency: "monthly", priority: 0.7 },
+    // Kalkulačky – nové
+    { url: `${BASE}/kalkulacky/kolik-osiva`,                       changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-sadrokartonu`,                changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-primeru`,                     changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-sterky`,                      changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-mulce`,                       changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-hnojiva`,                     changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-prknu`,                       changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-cihel`,                       changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-montazni-peny`,               changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-kompostu`,                    changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/spotreba-elektriciny`,              changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/spotreba-plynu`,                    changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/cena-malovani`,                     changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/cena-podlahy`,                      changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-zavlahy`,                     changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/velikost-bojleru`,                  changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/podlahove-topeni`,                  changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/cena-rekonstrukce-koupelny-odhad`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/solarni-panely`,                    changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-stresni-tasek`,               changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/vykon-klimatizace`,                 changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/spotreba-vody`,                     changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/splaceni-hypoteky`,                 changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/uspora-zatepleni`,                  changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/cena-kuchyne`,                      changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-vody-do-bazenu`,              changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/rozestup-rostlin-kalkulacka`,       changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-zarovek-potrebuji`,           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kalkulacka-rozpoctu-rekonstrukce`,  changeFrequency: "monthly", priority: 0.7 },
     // Návody
     { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`,    changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/navody/jak-odvzdusnit-radiator`,       changeFrequency: "monthly", priority: 0.7 },

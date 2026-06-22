@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#article",
     "headline": "Jak otestovat zásuvku – fázová tužka a multimetr",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak otestovat zásuvku", "fázová tužka", "multimetr zásuvka", "zkoušečka zásuvek", "zásuvka nefunguje", "test elektrické zásuvky"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu otestovat zásuvku sám nebo potřebuji elektrikáře?", "acceptedAnswer": { "@type": "Answer", "text": "Test fázovou tužkou nebo zkoušečkou zvládneš sám — jsou bezpečné pro laiky. Měření multimetrem je bezpečné pokud ho správně nastavíš a dodržíš bezpečnostní pravidla. Otevření zásuvky a jakákoli práce na instalaci vyžaduje elektrikáře nebo osobu s elektrotechnickou kvalifikací." } },
+      { "@type": "Question", "name": "Proč zásuvka funguje chvíli a pak přestane?", "acceptedAnswer": { "@type": "Answer", "text": "Přerušovaný kontakt v zásuvce — uvolněný svorník nebo oxidovaný kontakt. Přetěžování okruhu — jistič se zahřeje a vybaví (tepelná ochrana). Všechny tyto příčiny vyžadují elektrikáře — přerušovaný kontakt způsobuje jiskření a je požárním rizikem." } },
+      { "@type": "Question", "name": "Je nebezpečné používat zásuvku bez zemnění?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — zemnění chrání před úrazem elektrickým proudem při poruše spotřebiče. Bez zemnění se napětí při poruše přenese na kovové části spotřebiče (lednička, pračka, trouba) a dotek způsobí úraz. Starší byty bez zemnění by měly mít alespoň proudový chránič (RCD) jako alternativní ochranu." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#howto",
+    "name": "Jak otestovat zásuvku – fázová tužka a multimetr",
+    "description": "Jak zjistit jestli zásuvka funguje a správně zapojená. Fázová tužka, multimetr nebo zkoušečka zásuvek – co použít, jak postupovat a co výsledky znamenají.",
+    "step": [
+      { "@type": "HowToStep", "name": "Nejdřív zkontroluj toto – bez nářadí", "text": "Než vytáhneš měřicí přístroje, udělej tyto jednoduché kontroly:" },
+      { "@type": "HowToStep", "name": "Fázová tužka – nejjednodušší test", "text": "Fázová tužka je nejbezpečnější a nejjednodušší nástroj. Detekuje přítomnost fáze (L) v zásuvce bez nutnosti přímého kontaktu holých vodičů." },
+      { "@type": "HowToStep", "name": "Zkoušečka zásuvek – komplexní test", "text": "Zkoušečka zásuvek (tester) je malý přístroj který zasuneš přímo do zásuvky. LED indikátory ukážou stav všech tří vodičů — L, N a PE (zemnění)." },
+      { "@type": "HowToStep", "name": "Multimetr – přesné měření napětí", "text": "Multimetr – přesné měření napětí" },
+      { "@type": "HowToStep", "name": "Co výsledky znamenají", "text": "Co výsledky znamenají" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/otestovat-zasuvku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak otestovat zásuvku – fázová tužka a multimetr", "item": "https://www.domovniguru.cz/blog/otestovat-zasuvku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak otestovat zásuvku – fázová tužka, multimetr a zkoušečka</h1>
               <p className="article-lead">Nefungující zásuvka má několik možných příčin. Správný test prozradí jestli je problém v zásuvce, jističi nebo vedení — a jestli to zvládneš opravit sám.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/otestovat-zasuvku" title="Jak otestovat zásuvku – fázová tužka a multimetr" />
             </header>
 

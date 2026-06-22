@@ -23,10 +23,33 @@ const jsonLd = {
       "headline": "Jak malovat strop bez šmouh",
       "description": "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
       "datePublished": "2025-01-10T08:00:00Z",
-      "dateModified": "2025-03-01T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
+      "keywords": ["jak malovat strop", "malování stropu bez šmouh", "technika mokrý do mokrého", "váleček na strop", "penetrace před malováním stropu"],
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/jak-malovat-strop#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Proč musím malovat strop jako první?", "acceptedAnswer": { "@type": "Answer", "text": "Barva ze stropu nevyhnutelně kape dolů. Pokud by stěny byly hotové, kapičky bílé barvy by je znehodnotily. Strop vždy maluj před stěnami." } },
+        { "@type": "Question", "name": "Jak se vyhnout šmouhám na stropě?", "acceptedAnswer": { "@type": "Answer", "text": "Klíč je technika mokrý do mokrého — nikdy nenechej okraj zaschnout dříve, než k němu přimaluješ další pruh. Maluj v pásech o šířce cca 1 m rovnoběžně se světlem z okna." } },
+        { "@type": "Question", "name": "Jaký váleček je nejlepší na strop?", "acceptedAnswer": { "@type": "Answer", "text": "Na hladký sádrokarton mikrovlákno (vlas 9–11 mm), na klasickou omítku polyamidový váleček (vlas 12–18 mm). Teleskopická tyč je základ — bez ní budeš mít bolesti zad." } },
+        { "@type": "Question", "name": "Musím strop penetrovat před malováním?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud je strop nový, opravovaný, nebo po stržení tapet. Penetrace sjednotí savost a barva pak nestéká a krytí je rovnoměrné." } },
+        { "@type": "Question", "name": "Kolik vrstev barvy potřebuji na strop?", "acceptedAnswer": { "@type": "Answer", "text": "Standardně dvě vrstvy. Na tmavý podklad nebo výraznou skvrnu může být potřeba tři. Každou vrstvu nechej schnout minimálně 2–4 hodiny." } },
+      ],
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/jak-malovat-strop#howto",
+      "name": "Jak malovat strop bez šmouh",
+      "description": "Bojujete se šmouhami na stropě? Naučte se správnou techniku malování, výběr válečku a proč je důležité malovat mokrý do mokrého.",
+      "step": [
+        { "@type": "HowToStep", "name": "Proč vždy začínat stropem?", "text": "Pokud plánujete malovat i stěny, strop musí jít jako první. Barva ze stropu bude nevyhnutelně stříkat dolů. Pokud byste měli stěny už hotové, drobné kapičky bílé barvy by vám je znehodnotily." },
+        { "@type": "HowToStep", "name": "Výběr správného nářadí", "text": "Zvolte správný váleček: na hladký sádrokarton mikrovlákno (vlas 9–11 mm), na klasickou omítku polyamidový váleček (vlas 12–18 mm). Teleskopická tyč je základ — bez ní budeš mít bolesti zad." },
+        { "@type": "HowToStep", "name": "Postup, který zajistí výsledek", "text": "Penetrace zpevní podklad a sjednotí savost. Malujte při denním světle v pásech rovnoběžných se světlem z okna. Poslední tahy válečkem by měly směřovat vždy k oknu." }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -69,7 +92,7 @@ export default function MalovaniStropuPage() {
           <p>Strop je první věc, kterou v místnosti uvidíte, když se ráno probudíte. Zároveň je to plocha, na které je vidět každá chyba. Pokud podceníte přípravu, světlo z okna vám odhalí každý tah válečkem.</p>
           
           <h2>1. Proč vždy začínat stropem?</h2>
-          <p>Pokud plánujete malovat i stěny, strop musí jít jako první. Barva ze stropu bude nevyhnutelně stříkat dolů. Pokud byste měli stěny už hotové, drobné kapičky bílé barvy by vám je znehodnotily.</p>
+          <p>Pokud plánujete malovat i stěny, strop musí jít jako první. Barva ze stropu bude nevyhnutelně stříkat dolů. Pokud byste měli stěny už hotové, drobné kapičky bílé barvy by vám je znehodnotily. Přesné množství barvy na strop spočítáte v naší <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
 
           <div style={{ background: "#fdfcf0", padding: "25px", borderRadius: "12px", margin: "30px 0", border: "1px solid #e0dcb8" }}>
             <strong>💡 GURU TIP: Technika "Mokrý do mokrého"</strong><br />
@@ -104,7 +127,7 @@ export default function MalovaniStropuPage() {
 
           <h2>3. Postup, který zajistí výsledek</h2>
           <ol>
-            <li><strong>Penetrace:</strong> Zpevní podklad a sjednotí savost.</li>
+            <li><strong>Penetrace:</strong> Zpevní podklad a sjednotí savost. Potřebné množství si spočítejte v <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce penetrace</Link>.</li>
             <li><strong>Osvětlení:</strong> Malujte při denním světle.</li>
             <li><strong>Směr:</strong> Poslední tahy válečkem by měly směřovat vždy k oknu.</li>
           </ol>

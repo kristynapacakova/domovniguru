@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "LED vs. žárovky – co se skutečně vyplatí?", description: "Spotřeba, životnost, cena a návratnost. Kompletní srovnání 2025." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/led-vs-zarovky#article", "headline": "LED vs. žárovky – co se skutečně vyplatí?", "datePublished": "2025-02-01T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["LED žárovky", "úsporné žárovky", "LED vs žárovka", "spotřeba LED", "návratnost LED"] }, { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" }, { "@type": "ListItem", "position": 4, "name": "LED vs. žárovky", "item": "https://www.domovniguru.cz/blog/led-vs-zarovky" }] }, { "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Kolik ušetří LED žárovka oproti klasické?", "acceptedAnswer": { "@type": "Answer", "text": "LED žárovka 9 W nahrazuje klasickou 60 W. Při 4 hodinách svícení denně a ceně 6 Kč/kWh ušetří přibližně 380 Kč ročně na jedné žárovce." } }, { "@type": "Question", "name": "Za jak dlouho se LED žárovka zaplatí?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní LED žárovka za 100–150 Kč se zaplatí za 3–6 měsíců při běžném používání. Poté je každý rok čistá úspora." } }] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/led-vs-zarovky#article", "headline": "LED vs. žárovky – co se skutečně vyplatí?", "datePublished": "2025-02-01T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["LED žárovky", "úsporné žárovky", "LED vs žárovka", "spotřeba LED", "návratnost LED"] }, { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" }, { "@type": "ListItem", "position": 4, "name": "LED vs. žárovky", "item": "https://www.domovniguru.cz/blog/led-vs-zarovky" }] }, { "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Kolik ušetří LED žárovka oproti klasické?", "acceptedAnswer": { "@type": "Answer", "text": "LED žárovka 9 W nahrazuje klasickou 60 W. Při 4 hodinách svícení denně a ceně 6 Kč/kWh ušetří přibližně 380 Kč ročně na jedné žárovce." } }, { "@type": "Question", "name": "Za jak dlouho se LED žárovka zaplatí?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní LED žárovka za 100–150 Kč se zaplatí za 3–6 měsíců při běžném používání. Poté je každý rok čistá úspora." } }] }] };
 
 const RELATED = [
   { title: "Jak vyměnit vypínač – krok za krokem", href: "/blog/jak-vymenit-vypinac", read: "4 min" },
@@ -75,7 +75,7 @@ export default function ArticlePage() {
 
             <section id="uspory">
               <h2>Kolik ušetříš – konkrétní čísla</h2>
-              <p>Vezměme reálný příklad: nahrazení jedné klasické žárovky 60 W za LED 9 W při průměrné ceně elektřiny 6 Kč/kWh a 4 hodinách svícení denně.</p>
+              <p>Vezměme reálný příklad: nahrazení jedné klasické žárovky 60 W za LED 9 W při průměrné ceně elektřiny 6 Kč/kWh a 4 hodinách svícení denně. Celkovou <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>spotřebu elektřiny</Link> domácnosti ti pomůže spočítat naše kalkulačka.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th></th><th>Klasická 60 W</th><th>LED 9 W</th><th>Úspora</th></tr></thead>
@@ -87,7 +87,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>A to je jen jedna žárovka. Průměrná domácnost má 15–25 žárovek. Při kompletní výměně na LED tedy ušetříš <strong>5 000–8 000 Kč ročně</strong> na elektřině.</p>
+              <p>A to je jen jedna žárovka. Průměrná domácnost má 15–25 žárovek. Při kompletní výměně na LED tedy <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>ušetříš 5 000–8 000 Kč ročně</Link> na elektřině.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Největší úsporu přinesou výměny v místnostech, kde svítíš nejvíce – kuchyně, obývák, pracovna. Sklep nebo spíž se tolik nevyplatí.</div>
             </section>
 

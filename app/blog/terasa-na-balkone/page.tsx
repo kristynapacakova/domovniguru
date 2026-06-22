@@ -13,8 +13,26 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/terasa-na-balkone#article", "headline": "Jak zařídit terasu na balkóně", "datePublished": "2025-02-12T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs" },
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/terasa-na-balkone#article", "headline": "Jak zařídit terasu na balkóně", "datePublished": "2025-02-12T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["terasa na balkóně", "jak zařídit balkón", "podlaha na balkón", "nábytek na balkón", "WPC dlaždice balkón", "osvětlení balkónu"] },
     { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" }, { "@type": "ListItem", "position": 4, "name": "Terasa na balkóně", "item": "https://www.domovniguru.cz/blog/terasa-na-balkone" }] },
+    { "@type": "FAQPage", "@id": "https://www.domovniguru.cz/blog/terasa-na-balkone#faq", "mainEntity": [
+      { "@type": "Question", "name": "Jak těžká je dřevěná podlaha na balkóně a musím kontrolovat nosnost?", "acceptedAnswer": { "@type": "Answer", "text": "Dřevěné dlaždice WPC (2 cm tlusté) váží 15–25 kg/m². Pro balkón 6 m² přidáš 90–150 kg — standardní balkón unese 150–300 kg/m², tedy bez problémů. U starších budov konzultuj statika pokud máš pochybnosti o stavu balkónu." } },
+      { "@type": "Question", "name": "Jaká podlaha na balkón nevyžaduje vrtání a lepení?", "acceptedAnswer": { "@type": "Answer", "text": "WPC dlaždice na plastových roštech — položí se volně, drží vlastní vahou a lze je kdykoli sundat nebo přeskupit. Vhodné pro nájemníky nebo pro ty kdo nechtějí trvale upravovat balkón." } },
+      { "@type": "Question", "name": "Jak ošetřit dřevěnou podlahu na balkóně přes zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Před zimou očisti dřevo, nechej vyschnout a aplikuj impregnaci nebo olej. WPC (dřevoplastové dlaždice) nepotřebují ošetření — jsou mrazuvzdorné a nešednou. Přírodní dřevo (teak, akácie) ošetřuj 1× ročně teakovým olejem." } }
+    ] },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/terasa-na-balkone#howto",
+      "name": "Jak zařídit terasu na balkóně",
+      "description": "Jak proměnit holý balkón v příjemnou terasu: podlaha, nábytek, stínění, rostliny a osvětlení.",
+      "step": [
+        { "@type": "HowToStep", "name": "Podlaha na balkón", "text": "Nejjednodušší volba je WPC dlažba na plastových roštech — klade se volně bez lepení a je odolná vůči mrazu i vodě. Přírodní dřevo (teak, akácie) vyžaduje každoroční ošetření olejem." },
+        { "@type": "HowToStep", "name": "Nábytek pro malý balkón", "text": "Na malý balkón volte skládací nebo stohující nábytek. Bistro sety, závěsná křesla nebo rohová lavice s úložným prostorem maximalizují využití plochy." },
+        { "@type": "HowToStep", "name": "Stínění a soukromí", "text": "Slunečník, markýza nebo závěsný baldachýn zajistí stín. Bambusový plot nebo rostlinná zástěna z popínavek přidá soukromí." },
+        { "@type": "HowToStep", "name": "Rostliny do nádob na balkón", "text": "Volte nádoby s podmisky a lehký substrát. Na slunný balkón jsou ideální levandule, rozmarýn a muškáty. Na stinný kapradiny, begonie a fuchsie." },
+        { "@type": "HowToStep", "name": "Osvětlení balkónu", "text": "Solární světelné řetězy nebo LED pásky na zábradlí vytvoří večerní atmosféru bez nutnosti vedení elektřiny. Pro stálé osvětlení instalujte nástěnné svítidlo s IP44 krytím." }
+      ]
+    }
   ],
 };
 
@@ -50,7 +68,7 @@ export default function ArticlePage() {
                 I malý balkon 4–6 m² může být plnohodnotný venkovní obývák. Stačí správně zvolit podlahu, nábytek a rostliny. Ukážeme ti, jak na to bez zbytečných výdajů.
               </p>
               <div className="article-meta-row">
-                <span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span>
+                <span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span>
               </div>
             
               <ShareButtons url="https://www.domovniguru.cz/blog/terasa-na-balkone" title="Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2025" />
@@ -76,7 +94,7 @@ export default function ArticlePage() {
               <h3>Dřevěné dlaždice (deck tiles)</h3>
               <p>
                 Nejpopulárnější varianta – plastové nebo dřevěné dlaždice 30×30 nebo 50×50 cm, které se skládají jako puzzle. Žádné lepení, žádné vrtání. Jednoduše rozložíš a odvezeš při stěhování.
-                Cena: 300–800 Kč/m² podle materiálu.
+                Cena: 300–800 Kč/m² podle materiálu. Kolik dlaždic na svůj balkon přesně potřebuješ spočítáš v naší <Link href="/kalkulacky/kolik-dlazby" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce dlažby</Link>.
               </p>
               <p>
                 <strong>Dřevo (akácie, teak, bangkirai):</strong> přirozený vzhled, vydrží 10–20 let, potřebuje každoroční ošetření olejem.<br />

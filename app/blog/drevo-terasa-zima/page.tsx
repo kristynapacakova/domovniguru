@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/drevo-terasa-zima#article",
     "headline": "Jak ošetřit dřevěnou terasu – broušení, olej a lazura 2026",
     "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak ošetřit dřevěnou terasu", "terasové dřevo olej", "lazura na terasu", "broušení terasy", "šedivá terasa obnova", "terasová prkna péče jaro"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/drevo-terasa-zima#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak vrátit šedivé dřevo zpět na přirozenou barvu?", "acceptedAnswer": { "@type": "Answer", "text": "Šedivění je přirozený proces UV degradace. Speciální \"greying oil\" nebo čistič na dřevo s oxalem kyselinou zrestauruje přirozenou barvu. Po vyčištění a olejování šedivá terasa výrazně zesvětlí. Kompletní vrácení barvy vyžaduje broušení do čistého dřeva." } },
+      { "@type": "Question", "name": "Kolik oleje potřebuji na terasu?", "acceptedAnswer": { "@type": "Answer", "text": "Přibližně 0,5–1 litr na 5 m² pro první ošetření (suchá nebo nová terasa). Pro obnovu stačí 0,3–0,5 litru na 5 m². Vždy zkontroluj doporučení výrobce — vydatnost se liší. Lepší koupit o trochu víc než dojít." } },
+      { "@type": "Question", "name": "Kdy po ošetření mohu terasu používat?", "acceptedAnswer": { "@type": "Answer", "text": "Po oleji typicky 24–48 hodin před lehkým provozem, plné zatížení a mytí po 7 dnech. Po lazuře 24 hodin pro chůzi, plné použití po 48–72 hodinách. Vždy sleduj pokyny výrobce — liší se podle teploty a vlhkosti." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/drevo-terasa-zima#howto",
+    "name": "Jak ošetřit dřevěnou terasu – broušení, olej a lazura 2026",
+    "description": "Dřevěná terasa zešedivěla nebo se loupe? Kompletní postup jarního ošetření – broušení, čištění, volba oleje nebo lazury a správné nanášení. Terasa jako nová.",
+    "step": [
+      { "@type": "HowToStep", "name": "Čištění a příprava terasy", "text": "Čištění a příprava terasy" },
+      { "@type": "HowToStep", "name": "Broušení – kdy a jak", "text": "Broušení není vždy nutné — záleží na stavu povrchu a zvoleném přípravku." },
+      { "@type": "HowToStep", "name": "Olej nebo lazura – co vybrat", "text": "Olej nebo lazura – co vybrat" },
+      { "@type": "HowToStep", "name": "Postup nanášení oleje nebo lazury", "text": "Postup nanášení oleje nebo lazury" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/drevo-terasa-zima#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak ošetřit dřevěnou terasu – broušení, olej a lazura 2026", "item": "https://www.domovniguru.cz/blog/drevo-terasa-zima" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +84,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak ošetřit dřevěnou terasu – broušení, olej a lazura</h1>
               <p className="article-lead">Dřevěná terasa po zimě zešedivěla nebo se začíná loupit? Jaro je ideální čas na obnovu. Správné ošetření prodlouží životnost dřeva o roky — a terasa bude vypadat jako nová.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/drevo-terasa-zima" title="Jak ošetřit dřevěnou terasu – broušení, olej a lazura 2026" />
             </header>
 
@@ -142,7 +172,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Frekence ošetření olejem:</strong> Každý rok nebo každé 2 roky podle intenzity používání a typu dřeva.</li>
                 <li><strong>Frekvence lazury:</strong> Každé 2–3 roky. Lazura tvoří film na povrchu — přebroušení je nutné až při loupání.</li>
-                <li><strong>Jak poznat že je čas ošetřit:</strong> Kapka vody na dřevu — pokud se vsákne okamžitě (do 30 sekund), dřevo je suché a potřebuje ošetření. Pokud zůstane jako kulička, ochrana funguje.</li>
+                <li><strong>Jak poznat že je čas ošetřit:</strong> Kapka vody na dřevu — pokud se vsákne okamžitě (do 30 sekund), dřevo je suché a potřebuje ošetření. Pokud zůstane jako kulička, ochrana funguje. Kolik prken na terasu potřebuješ nakoupit ti poradí naše <Link href="/kalkulacky/kolik-prknu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka prken na terasu</Link>.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Nové dřevo neolejuj hned — nech ho "zrát" 3–6 měsíců. Čerstvé dřevo obsahuje příliš mnoho pryskyřice a olej se nevstřebá správně.</div>
             </section>

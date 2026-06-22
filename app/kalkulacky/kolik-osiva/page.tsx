@@ -36,6 +36,7 @@ export default function KolikOsivaPage() {
         </p>
 
         <OsivoCalculator />
+        <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-osiva" title="Kalkulačka osiva trávníku 2026 – kolik kg osiva na zahradu?" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>

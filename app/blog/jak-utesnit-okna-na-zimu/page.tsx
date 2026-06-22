@@ -10,7 +10,55 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak utěsnit okna na zimu", description: "Průvan u oken? Přehled metod utěsnění, co funguje." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article", "headline": "Jak utěsnit okna na zimu – přehled metod", "datePublished": "2025-09-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#article",
+    "headline": "Jak utěsnit okna na zimu – přehled metod",
+    "datePublished": "2025-09-20T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["utěsnit okna na zimu", "průvan u oken", "těsnicí páska okna", "zimní nastavení oken"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak zjistím, kde okna táhnou?", "acceptedAnswer": { "@type": "Answer", "text": "Přilož zapálenou svíčku (nebo vlhkou ruku) ke každé spáře a okraji rámu. Kde se plamen odchyluje nebo cítíš chlad – tam uniká teplo. Nejčastěji jde o spáru mezi křídlem a rámem, nebo mezi rámem a zdí." } },
+      { "@type": "Question", "name": "Jak přepnout plastová okna do zimního režimu?", "acceptedAnswer": { "@type": "Answer", "text": "Na závěsech okna najdeš malý válcový čep s drážkou. Otočením šroubováku o 90° přepneš z letní (drážka svisle) do zimní polohy (drážka vodorovně), která přitlačí křídlo pevněji k rámu. Trvá to 5 minut." } },
+      { "@type": "Question", "name": "Lze kombinovat více metod utěsnění?", "acceptedAnswer": { "@type": "Answer", "text": "Ano a je to dokonce doporučeno. Zimní nastavení kování (plastová okna) + přetmelení spáry rám-zeď + těžké závěsy jako doplněk. Každá metoda řeší jiný zdroj tepelných ztrát." } },
+      { "@type": "Question", "name": "Fungují izolační fólie na moderní okna s dvojsklem?", "acceptedAnswer": { "@type": "Answer", "text": "Na moderní plastová okna s dvojsklem fólie nemají velký efekt – u nich teplo uniká hlavně netěsnými spárami, ne přes sklo. Fólie má smysl na starší okna s jednoduchým sklem nebo zastaralým dvojsklem." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží těsnicí páska?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní samolepicí těsnicí páska vydrží 2–3 sezóny. Každoročně ji zkontroluj – pokud se rozlepuje, ztvrdla nebo praskla, vyměň ji. Je to nejlevnější a nejjednodušší řešení pro dřevěná okna bez nastavitelného kování." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#howto",
+    "name": "Jak utěsnit okna na zimu – přehled metod",
+    "description": "Průvan u oken zvyšuje účty za topení. Přehled metod utěsnění: těsnicí pásky, kity, fólie a přenastavení plastových oken. Co funguje a co nestojí za to.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde nejvíce uniká teplo kolem oken", "text": "Než začneš těsnit, zjisti kde přesně tvoří průvan. Hlavní místa úniku tepla jsou:" },
+      { "@type": "HowToStep", "name": "Plastová okna – zimní nastavení kování", "text": "Toto je nejrychlejší a nejlevnější řešení pro plastová okna. Moderní plastová okna mají nastavitelné kování, které umožňuje změnit přítlak křídla k rámu." },
+      { "@type": "HowToStep", "name": "Těsnicí páska – rychlé a levné řešení", "text": "Samolepicí těsnicí páska z pěnového nebo gumového materiálu se lepí do drážky rámu nebo na rám a při zavření okna utěsní spáru. Stojí 30–100 Kč za 6 metrů." },
+      { "@type": "HowToStep", "name": "Silikonový tmel a akrylový kit – trvalé utěsnění spár", "text": "Spára mezi rámem okna a zdí nebo ostěním se utěsňuje tmelem. Stará spára praskla, vyschla nebo chybí? Tady je řešení." },
+      { "@type": "HowToStep", "name": "Izolační fólie na okna – pro starší okna", "text": "Průhledná izolační fólie se lepí na okenní tabule a vytváří vzduchovou kapsu, která snižuje tepelné ztráty. Vhodná zejména pro starší okna s jednoduchým sklem." },
+      { "@type": "HowToStep", "name": "Těžké závěsy jako doplněk", "text": "Těžké termální závěsy nebo záclony nevyřeší průvan, ale snižují tepelné ztráty přes studené okno. Fungují jako tepelná bariéra mezi chladným oknem a místností. Jejich efekt je největší v noci, kdy jsou zatažené." },
+      { "@type": "HowToStep", "name": "Srovnání metod – co kdy použít", "text": "Srovnání metod – co kdy použít" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak utěsnit okna na zimu – přehled metod", "item": "https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Jak připravit dům na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "5 min" },
@@ -39,8 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak utěsnit okna na zimu – přehled metod a co skutečně funguje</h1>
               <p className="article-lead">Průvan kolem oken může tvořit až 25 % tepelných ztrát v domácnosti. Přitom utěsnění stojí korunky a hodinu práce. Tenhle článek ti ukáže, co kdy použít a co nestojí za čas ani peníze.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-utesnit-okna-na-zimu" title="Jak utěsnit okna na zimu – co skutečně funguje" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
@@ -80,7 +127,7 @@ export default function ArticlePage() {
 
             <section id="tesnici-paska">
               <h2>Těsnicí páska – rychlé a levné řešení</h2>
-              <p>Samolepicí těsnicí páska z pěnového nebo gumového materiálu se lepí do drážky rámu nebo na rám a při zavření okna utěsní spáru. Stojí 30–100 Kč za 6 metrů.</p>
+              <p>Samolepicí těsnicí páska z pěnového nebo gumového materiálu se lepí do drážky rámu nebo na rám a při zavření okna utěsní spáru. Stojí 30–100 Kč za 6 metrů. Jak moc ušetříš na plynu po utěsnění, spočítáš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</p>
               <h3>Kde se hodí</h3>
               <ul>
                 <li>Starší dřevěná okna s většími spárami</li>

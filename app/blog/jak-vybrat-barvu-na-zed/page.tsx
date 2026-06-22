@@ -10,13 +10,39 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", description: "Psychologie barev, srovnání typů barev a praktické tipy." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed#article", "headline": "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-13T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat barvu na zeď", "psychologie barev interiér", "barva do obýváku", "barva do ložnice", "latexová barva", "akrylátová barva", "testování vzorků barvy", "RAL vzorník"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed#article", "headline": "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat barvu na zeď", "psychologie barev interiér", "barva do obýváku", "barva do ložnice", "latexová barva", "akrylátová barva", "testování vzorků barvy", "RAL vzorník"] },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Bílá nebo barevná zeď – co je lepší volba?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na prostoru a účelu. Bílá (nebo teplá bílá) je bezpečná volba která funguje vždy — nechá vyniknout nábytek a umění na zdech. Barevná zeď dává místnosti charakter a osobitost. Kompromis: akcentní stěna — jedna barevná stěna (zpravidla za postelí nebo pohovkou) ve zbytku bílém pokoji." } },
+        { "@type": "Question", "name": "Jak vybrat barvu do malé místnosti?", "acceptedAnswer": { "@type": "Answer", "text": "Pro optické zvětšení malé místnosti fungují světlé tóny — teplá bílá, světlá béžová nebo světlé pastelové barvy. Namaluj strop stejnou barvou jako stěny nebo ještě světlejším odstínem — místnost bude vypadat vyšší. Jedna tmavá akcentní stěna ale může fungovat i v malé místnosti — dá jí hloubku." } },
+        { "@type": "Question", "name": "Jak poznat že barva je dostatečně omyvatelná?", "acceptedAnswer": { "@type": "Answer", "text": "Na etiketě hledej třídu omyvatelnosti dle normy EN 13300. Třída 1 = odolná vůči mokrému otírání — vhodná do kuchyně, koupelny, chodby. Třída 2 = odolná vůči lehkému čištění. Třída 3 a výše = standardní, pouze do nenáročných prostor." } },
+        { "@type": "Question", "name": "Co jsou VOC emise a proč na nich záleží?", "acceptedAnswer": { "@type": "Answer", "text": "VOC (Volatile Organic Compounds) jsou těkavé organické sloučeniny které se uvolňují z barvy při schnutí a ještě několik týdnů po nanesení. Způsobují bolesti hlavy, podráždění očí a dýchacích cest. Pro dětské pokoje a alergiky hledej barvy s označením nízký obsah VOC nebo bez VOC a certifikát kvality ovzduší A nebo A+." } },
+        { "@type": "Question", "name": "Mohu míchat barvy různých výrobců?", "acceptedAnswer": { "@type": "Answer", "text": "Technicky ano, ale nedoporučuje se. Barvy různých výrobců mohou mít různá pojiva (akrylát vs. latex) a různé konzistence — výsledná barva bude nepředvídatelná. Pokud potřebuješ smíchat dva odstíny, drž se jednoho výrobce a jedné řady produktů." } },
+      ],
+    },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026", "item": "https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed" }
+    ]
+  }
+  ],
+};
 
 const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
   { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "3 min" },
   { title: "Jak se zbavit plísně na zdi natrvalo", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
-  { title: "Jak malovat radiátor", href: "/blog/jak-malovat-radiator", read: "4 min" },
+  { title: "Barvy do dětského pokoje – jak vybrat bezpečné a správné", href: "/blog/barvy-do-detskeho-pokoje", read: "6 min" },
 ];
 
 export default function ArticlePage() {
@@ -41,7 +67,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vybrat barvu na zeď – psychologie barev a typy pojiv</h1>
               <p className="article-lead">Barva zdi dokáže místnost vizuálně zvětšit, zmenšit, uklidnit nebo povzbudit. Než sáhnete po vzorníku, přečtěte si jak barvy fungují v interiéru – a jak si vybrat tu správnou pro každou místnost.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-vybrat-barvu-na-zed" title="Jak vybrat barvu na zeď – psychologie barev a typy pojiv 2026" />
             </header>
 
@@ -193,7 +219,7 @@ export default function ArticlePage() {
 
             <section id="testovani">
               <h2>Jak testovat vzorky na zdi – zlatá pravidla</h2>
-              <p>Největší chyba při výběru barvy je rozhodnutí podle malého vzorníku v obchodě pod zářivkovým světlem. Barva na velké ploše zdi v přirozeném světle vypadá vždy jinak — zpravidla intenzivněji.</p>
+              <p>Největší chyba při výběru barvy je rozhodnutí podle malého vzorníku v obchodě pod zářivkovým světlem. Barva na velké ploše zdi v přirozeném světle vypadá vždy jinak — zpravidla intenzivněji. Jakmile znáte finální barvu, přesné množství litrů si spočítejte v naší <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
               <ul>
                 <li><strong>✅ Kupuj zkušební plechovky (0,1–0,5 l):</strong> Každý seriózní výrobce nabízí zkušební balení. Investice 50–100 Kč za vzorek tě zachrání od přemalování celé místnosti za tisíce korun.</li>
                 <li><strong>✅ Nanes vzorek velkou plochou (min. 50×50 cm):</strong> Malý vzorek ti nedá představu o výsledku. Nanes barvu na papír nebo přímo na zeď na plochu alespoň 50×50 cm — ideálně A2 formát.</li>

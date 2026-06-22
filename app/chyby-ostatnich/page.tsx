@@ -21,6 +21,8 @@ const CATEGORIES = [
       { icon: "🪣", title: "Přeskočili penetraci", story: "Proč kupovat penetraci když je barva drahá a 'stačí dvě vrstvy'? Skončili jsme se třemi vrstvami a zeď stále prosvítala.", lesson: "Penetrace sníží savost povrchu a spotřebu barvy. Ušetříš víc na barvě než co penetrace stojí." },
       { icon: "🎭", title: "Vybrali barvu z vzorníku, ne ze stěny", story: "V obchodě vypadal odstín perfektně. Doma na stěně byl úplně jiný — tmavší, chladnější.", lesson: "Vždy si kup malý testovací váleček (50–100 Kč) a nanes na zeď. Nechej zaschnout 24 hodin — mokrá barva vypadá jinak." },
       { icon: "☀️", title: "Malovali za přímého slunce", story: "Krásný letní den, otevřená okna, malujeme. Barva schla tak rychle, že válec zanechával pruhy a schly otahy.", lesson: "Maluj ráno nebo večer, nebo v zamračeném dni. Přímé slunce barvu vysuší příliš rychle — nestihne se roztáhnout." },
+      { icon: "🩹", title: "Sundali maskovací pásku druhý den", story: "Chtěli jsme mít rovné hrany, tak jsme pásku nechali přes noc 'ať barva pořádně zaschne'. Ráno se s páskou odlepily celé pruhy barvy.", lesson: "Pásku odstraňuj, dokud je barva ještě mírně vlhká až zaschlá na dotek (cca 1–2 hodiny), nebo hranu nejdřív naříznout ostrým nožem." },
+      { icon: "🌧️", title: "Použili interiérovou barvu na plot venku", story: "Zbyla nám barva z obýváku, tak jsme s ní natřeli plot. Po prvním dešti se barva začala smývat a plot vypadal hůř než před nátěrem.", lesson: "Interiérová barva nemá UV a vodu odolnou úpravu. Na venkovní dřevo, kov nebo fasádu vždy kupuj barvu označenou jako exteriérová." },
     ],
   },
   {
@@ -34,6 +36,8 @@ const CATEGORIES = [
       { icon: "💰", title: "Podhodnotili rozpočet o 40 %", story: "Řekli jsme si: 200 000 Kč. Skončili na 320 000 Kč. Koupelna vydala víc skrytých problémů, řemeslníci měli vícepráce.", lesson: "Vždy přidej 20 % rezervu navíc. Každá rekonstrukce přinese překvapení — počítej s tím předem." },
       { icon: "🤝", title: "Platili řemeslníkovi předem celou částku", story: "Sympatický chlap, referenci jsme neověřili. Záloha 80 % a řemeslník přestal přicházet po 2 dnech práce.", lesson: "Max. 30 % záloha předem, zbytek po dokončení. Vždy písemná smlouva s termínem a rozsahem prací." },
       { icon: "🚿", title: "Neudělali hydroizolaci v koupelně", story: "Ušetřili jsme na hydroizolaci pod obklady. Za rok zavolali sousedi ze spodního patra — vytéká jim ze stropu.", lesson: "Hydroizolace v mokrých zónách je základ. Cena 200–500 Kč/m² — oproti škodám na sousedech je to drobná investice." },
+      { icon: "📦", title: "Objednali dlažbu až po vybourání staré", story: "Mysleli jsme, že vybereme dlažbu v klidu během demolice. Vybraný vzor byl vyprodaný, náhradní dodávka trvala 6 týdnů. Koupelna bez podlahy půl léta.", lesson: "Materiál na klíčové prvky (dlažba, obklady, dveře, kuchyňská linka) objednej hned na začátku — termíny dodání se počítají na týdny, ne dny." },
+      { icon: "🚪", title: "Nezměřili dveře před objednáním nové vany", story: "Vybrali jsme krásnou rohovou vanu. Po dovezení na patro zjistili, že se nevejde přes dveře ani po sklopení.", lesson: "Před objednáním velkých kusů (vana, sedačka, skříň) změř nejen místo, kam to má jít, ale i celou trasu — dveře, schodiště, výtah." },
     ],
   },
   {
@@ -47,6 +51,8 @@ const CATEGORIES = [
       { icon: "💡", title: "Koupili LED žárovky bez označení DIMMABLE", story: "Nový stmívač, nové LED žárovky. Žárovky blikají, stmívač bzučí. Celý výběr na vyhození.", lesson: "LED žárovky pro stmívač musí mít označení DIMMABLE. Obyčejné LED na stmívači nefungují správně." },
       { icon: "🔥", title: "Zapomněli vyjmout transportní šrouby z pračky", story: "Nová pračka, první prání. Pračka se otřásla, prošla přes koupelnu a poškodila obklady.", lesson: "Transportní šrouby jsou červené nebo žluté šrouby vzadu na pračce. VŽDY vyjmout před prvním spuštěním." },
       { icon: "🧯", title: "Smíchali Savo s čisticím prostředkem", story: "Chtěli jsme mocnější roztok na plíseň. Přidali WC gel do Sava. Okamžitě začal unikat chlór.", lesson: "Savo (chlornan sodný) NIKDY nemíchej s kyselinami — ocet, WC gel, citronová šťáva. Vzniká toxický chlor." },
+      { icon: "🔋", title: "Zapojili rychlovarnou konvici, topinkovač a fritézu do jedné prodlužky", story: "Ráno jsme si v kuchyni pustili všechno najednou na jednu prodlužku. Zásuvka začala čoudit a prodlužka se na dotek roztekla.", lesson: "Spotřebiče nad 1500 W (konvice, fritéza, topení) zapojuj přímo do zásuvky, ne do prodlužky, a ne víc najednou do jednoho okruhu." },
+      { icon: "🔄", title: "Prohodili fázový a nulový vodič v zásuvce", story: "Zapojovali jsme novou zásuvku podle barvy vodičů od oka. Spotřebiče fungovaly, ale spotřebič pod napětím 'kousal' i po vypnutí.", lesson: "Hnědý/černý vodič je fáze, modrý je nulák, žlutozelený zem — vždy podle barev, nikdy odhadem. Při nejistotě nech zapojení zkontrolovat elektrikářem." },
     ],
   },
   {
@@ -60,6 +66,8 @@ const CATEGORIES = [
       { icon: "💧", title: "Zalévali trávník každý den po troše", story: "Pečlivě jsme zalévali trávník každý večer trochu. Trávník přesto žloutnul a slábnul.", lesson: "Každodenní mělká zálivka způsobuje povrchové kořenění. Lépe 2× týdně ale důkladně — voda musí proniknout 15 cm hluboko." },
       { icon: "🪴", title: "Zasadili rostliny do špatné půdy", story: "Borůvky krásně vzkvétaly u souseda. Koupili jsme tři keře, zasadili do zahradní zeminy. Za měsíc uschlé.", lesson: "Borůvky potřebují kyselou půdu (pH 4–5). V běžné zahradní zemině nepřežijí. Vždy zkontroluj požadavky rostliny." },
       { icon: "🪵", title: "Neolejovali terasu před zimou", story: "Přeskočili jsme podzimní ošetření terasy. Na jaře popraskaná prkna, šedivá barva, dvě prkna shnilá.", lesson: "Dřevěná terasa potřebuje ošetření olejem nebo lazurou každé 1–2 roky. Podzim je ideální čas — pak hned přijde test zimou." },
+      { icon: "🌼", title: "Vysadili všechno hned vedle sebe podle obrázku v sáčku", story: "Sazenice z hrnku vypadaly tak maličké, vysadili jsme je co nejblíž sebe, ať to vypadá plné. O dva měsíce později jeden hustý zelený chumel bez vzduchu a plný plísně.", lesson: "Vždy dodržuj doporučenou rozteč na obalu — rostliny během sezóny výrazně zvětší objem a potřebují proudění vzduchu, jinak hnijí a chytají houbové choroby." },
+      { icon: "🍂", title: "Nechali záhony v létě bez mulče", story: "Holá černá zem mezi rostlinami vysychala do hodiny po zálivce a za týden tam vyrazil koberec plevele.", lesson: "Mulč (kůra, slama, posečená trává) udrží vlhkost v půdě a zadusí plevel. Vrstva 5–7 cm ušetří zálivku i hodiny vytrhávání." },
     ],
   },
   {
@@ -73,6 +81,8 @@ const CATEGORIES = [
       { icon: "🧹", title: "Kartáčovali plíseň za sucha", story: "Vzali jsme kartáč a drhnuli zeď. Za týden jsme všichni kašlali a plíseň se objevila na druhé zdi.", lesson: "Suchý kartáč rozhodí spóry do celé místnosti. Vždy nejdřív nanes fungicid, počkej 20 minut, pak teprve odstraňuj." },
       { icon: "🚿", title: "Vyčistili koupelnu ale nezlepšili větrání", story: "Dokonale jsme vyčistili koupelnu, koupili nejdražší fungicid. Za 2 měsíce plíseň zpátky.", lesson: "Chemie plíseň zlikviduje, ale podmínky se musí změnit. Větrání po každém sprchování je základ." },
       { icon: "🪑", title: "Vrátili nábytek ke zdi", story: "Po vyčištění jsme vrátili skříň na stejné místo. O zimu později — plíseň za skříní větší než dřív.", lesson: "Za nábytkem u vnější zdi vzduch nestojí a vlhkost kondenzuje. Minimálně 8 cm mezera od zdi." },
+      { icon: "👕", title: "Sušili prádlo v ložnici se zavřenými dveřmi", story: "Přes zimu jsme sušili prádlo na stojanu v ložnici, ať to 'nepřekáží'. Po pár týdnech se v rohu za skříní objevily černé skvrny.", lesson: "Mokré prádlo uvolní do vzduchu litry vody. Sušit jen v místnosti, kterou lze pravidelně větrat, ideálně s otevřeným oknem nebo odvlhčovačem." },
+      { icon: "🕳️", title: "Zalepili větrací mřížku při rekonstrukci", story: "Při malování jsme přelepili 'ošklivou' větrací mřížku v koupelně a zapomněli ji odlepit. Za měsíc se objevila plíseň kolem celého stropu.", lesson: "Větrací mřížky a průduchy nikdy nezakrývej ani nezalepuj — i ty 'nevzhledné' mají zásadní funkci pro odvod vlhkého vzduchu." },
     ],
   },
 ];
@@ -89,7 +99,7 @@ export default function ChybyOstatnichPage() {
           <p className="co-hero-lead">Každá tady popsaná chyba někoho stála čas, peníze nebo zdraví. Přečtěte si je dřív než začnete — ušetříte si spoustu bolestí hlavy.</p>
           <div className="co-hero-stats">
             <div className="co-stat"><span className="co-stat-num">5</span><span className="co-stat-label">kategorií</span></div>
-            <div className="co-stat"><span className="co-stat-num">20</span><span className="co-stat-label">reálných chyb</span></div>
+            <div className="co-stat"><span className="co-stat-num">30</span><span className="co-stat-label">reálných chyb</span></div>
             <div className="co-stat"><span className="co-stat-num">∞</span><span className="co-stat-label">ušetřených problémů</span></div>
           </div>
         </header>

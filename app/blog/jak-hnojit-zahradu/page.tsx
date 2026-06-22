@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#article",
     "headline": "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026",
     "datePublished": "2026-04-13T08:00:00Z",
-    "dateModified": "2026-04-13T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak hnojit zahradu", "jarní hnojení zahrady", "hnojení trávníku jaro", "organické hnojivo zahrada", "minerální hnojivo", "kdy hnojit zahradu", "NPK hnojivo"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Co znamenají čísla na hnojivu (15-5-20)?", "acceptedAnswer": { "@type": "Answer", "text": "Tři čísla označují procentuální obsah dusíku (N), fosforu (P) a draslíku (K). NPK 15-5-20 obsahuje 15 % dusíku, 5 % fosforu a 20 % draslíku. Vyšší první číslo = více dusíku = vhodné pro trávník a listovou zeleninu. Vyšší třetí číslo = více draslíku = vhodné pro plodovou zeleninu a podzimní hnojení." } },
+      { "@type": "Question", "name": "Je lepší organické nebo minerální hnojivo?", "acceptedAnswer": { "@type": "Answer", "text": "Oba typy mají své místo. Organická hnojiva (kompost, hnůj) zlepšují strukturu půdy a podporují půdní život — jsou základem zdravé zahrady. Minerální hnojiva dodávají přesné množství živin rychle. Ideální je kombinace: organické jako základ, minerální pro doplnění v sezóně." } },
+      { "@type": "Question", "name": "Kdy je nejlepší čas pro jarní hnojení?", "acceptedAnswer": { "@type": "Answer", "text": "Duben je ideální měsíc pro jarní hnojení v ČR. Teplota půdy by měla být nad 8 °C — při nižší teplotě kořeny živiny špatně vstřebávají. Trávník hnojíme při aktivním růstu, záhony při přípravě půdy, stromy při rašení." } },
+      { "@type": "Question", "name": "Mohu použít hnojivo z obchodu na organickou zahradu?", "acceptedAnswer": { "@type": "Answer", "text": "Pro certifikovanou bio zahradu jsou povolena pouze organická hnojiva a speciálně certifikované minerální přípravky. Pro běžnou domácí zahradu bez certifikace není omezení — můžeš kombinovat organické i minerální podle potřeby." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#howto",
+    "name": "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026",
+    "description": "Jarní hnojení zahrady krok za krokem. Kdy hnojit trávník, záhony a stromy, jaké hnojivo vybrat a jak nepředávkovat. Praktický průvodce pro každého zahrádkáře.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy hnojiv – organická vs. minerální", "text": "Typy hnojiv – organická vs. minerální" },
+      { "@type": "HowToStep", "name": "Hnojení trávníku – jarní start sezóny", "text": "Trávník je největší a nejviditelnější část zahrady. Správné jarní hnojení je základ husté zelené plochy bez plevele a mechu." },
+      { "@type": "HowToStep", "name": "Hnojení záhonů a zeleniny", "text": "Zeleninové záhony jsou nejvíce náročné na živiny — zelenina roste rychle a plody odebírají hodně fosforu a draslíku." },
+      { "@type": "HowToStep", "name": "Hnojení stromů, keřů a trvalek", "text": "Hnojení stromů, keřů a trvalek" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026", "item": "https://www.domovniguru.cz/blog/jak-hnojit-zahradu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak hnojit zahradu – organicky i minerálně</h1>
               <p className="article-lead">Jaro je nejdůležitější čas pro hnojení zahrady. Správné hnojivo ve správný čas nastartuje sezónu — špatné hnojivo spálí rostliny nebo zůstane nevyužité. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-hnojit-zahradu" title="Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026" />
             </header>
 
@@ -170,7 +201,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Kdy:</strong> Duben–květen, když tráva aktivně roste a teplota půdy je nad 8 °C. Příliš brzy hnojivo nevyužijí, příliš pozdě zbytečně podporuje plevel.</li>
                 <li><strong>Čím:</strong> Jarní trávníkové hnojivo s vyšším obsahem dusíku (N) — typicky NPK 20-5-10 nebo speciální „spring fertilizer". Dusík zajistí sytě zelenou barvu a hustý růst.</li>
-                <li><strong>Kolik:</strong> Dle návodu výrobce — typicky 30–50 g/m². Více není lépe — předávkování dusíkem způsobí spálení trávníku.</li>
+                <li><strong>Kolik:</strong> Dle návodu výrobce — typicky 30–50 g/m². Přesnou dávku pro plochu své zahrady ti pomůže určit <Link href="/kalkulacky/kolik-hnojiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka hnojiva</Link>. Více není lépe — předávkování dusíkem způsobí spálení trávníku.</li>
                 <li><strong>Jak:</strong> Rozhoď granule rovnoměrně ručně nebo rozmetadlem. Bezprostředně po aplikaci zalij nebo počkej na déšť — hnojivo se musí rozpustit a dostat do půdy.</li>
                 <li><strong>Podzimní hnojení:</strong> Září/říjen — hnojivo s nižším N a vyšším K (draslíkem) pro posílení odolnosti. Speciální „autumn fertilizer".</li>
               </ul>

@@ -17,19 +17,50 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#article",
     "headline": "Jak vyměnit staré dveře – výběr, montáž a záruby 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vyměnit dveře", "výměna dveří byt", "zárubeň dveře výměna", "montáž dveří postup", "dveře obložková zárubeň", "výběr interiérových dveří"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu vyměnit dveře sám bez odborníka?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna dveřního křídla (do existující záruby) zvládneš sám — odstraníš staré závěsy, nasadíš nové dveře a seřídíš. Výměna záruby je náročnější ale stále proveditelná pro šikovného kutila s vodováhou a trpělivostí. Vyměnit ocelovou zárubeň v nosné zdi je práce pro odborníka." } },
+      { "@type": "Question", "name": "Jak dlouho trvá výměna dveří?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna jen křídla do existující záruby: 30–60 minut. Výměna dveří i obložkové záruby (DIY): půl dne až celý den. Profesionální montáž jedněch dveří včetně záruby: 2–4 hodiny. Bourání staré ocelové záruby a instalace nové: celý pracovní den." } },
+      { "@type": "Question", "name": "Jak vybrat správnou výšku a šířku dveří?", "acceptedAnswer": { "@type": "Answer", "text": "Standard v ČR: výška 1 970 nebo 2 020 mm (světlý rozměr), šířka 600–900 mm. Pro ložnici a dětský pokoj: 700–800 mm. Pro koupelnu: 600–700 mm. Pro obývák a hlavní průchody: 800–900 mm. Změř světlý rozměr existujících dveří jako základ." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#howto",
+    "name": "Jak vyměnit staré dveře – výběr, montáž a záruby 2026",
+    "description": "Jak vyměnit staré dveře v bytě nebo domě. Výběr správných dveří, typy zárubní, postup montáže a na co si dát pozor. Průvodce pro laiky i pokročilé.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak správně změřit otvor pro dveře", "text": "Špatné rozměry = dveře se nevejdou nebo jsou příliš malé. Měř vždy hrubý otvor ve zdi, ne existující zárubeň." },
+      { "@type": "HowToStep", "name": "Typy dveří – co vybrat", "text": "Typy dveří – co vybrat" },
+      { "@type": "HowToStep", "name": "Zárubeň nebo obložka – klíčové rozhodnutí", "text": "Zárubeň nebo obložka – klíčové rozhodnutí" },
+      { "@type": "HowToStep", "name": "Montáž obložkové záruby krok za krokem", "text": "Montáž obložkové záruby krok za krokem" },
+      { "@type": "HowToStep", "name": "Orientační ceny 2026", "text": "Orientační ceny 2026" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vymenit-stare-dvere#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vyměnit staré dveře – výběr, montáž a záruby 2026", "item": "https://www.domovniguru.cz/blog/vymenit-stare-dvere" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak naplánovat rekonstrukci bytu", href: "/blog/planovani-rekonstrukce-bytu", read: "8 min" },
   { title: "Jak odhadnout cenu rekonstrukce", href: "/blog/odhadnout-cenu-rekonstrukce", read: "6 min" },
   { title: "Jak najít a prověřit řemeslníka", href: "/blog/najit-proveri-remeslnika", read: "5 min" },
-  { title: "Jak malovat zeď", href: "/blog/jak-malovat-zed", read: "5 min" },
+  { title: "Jak namazat dveře aby nevrzaly – čím a jak na to", href: "/blog/jak-namazat-dvere-aby-nevrzaly", read: "4 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vyměnit staré dveře – výběr, montáž a záruby</h1>
               <p className="article-lead">Výměna dveří je jedna z nejefektivnějších renovací — promění celý charakter místnosti za jeden den. Zárubeň nebo obložka, posuvné nebo otočné — tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vymenit-stare-dvere" title="Jak vyměnit staré dveře – výběr, montáž a záruby 2026" />
             </header>
 
@@ -144,7 +175,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 3 — Usaď zárubeň:</strong> Zárubeň vlož do otvoru, vyrovnej vodováhou ve všech směrech. Dočasně podepři klíny.</li>
                 <li><strong>Krok 4 — Připevni zárubeň:</strong> Zárubeň přišroubuj kotevními šrouby do zdi. Zkontroluj svislost a vodorovnost po každém šroubu.</li>
                 <li><strong>Krok 5 — Zavěs dveřní křídlo:</strong> Nasaď závěsy, zkontroluj vůle (2–3 mm na stranách, 3–5 mm dole). Dolaď polohu závěsů.</li>
-                <li><strong>Krok 6 — Vyspáruj a zakryj mezery:</strong> Mezery mezi zárubeň a zdí vyplň PU pěnou nebo maltou. Obložky překryjí spoje se zdí.</li>
+                <li><strong>Krok 6 — Vyspáruj a zakryj mezery:</strong> Mezery mezi zárubeň a zdí vyplň PU pěnou nebo maltou — kolik pěny spotřebuješ snadno spočítáš pomocí <Link href="/kalkulacky/kolik-montazni-peny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky montážní pěny</Link>. Obložky překryjí spoje se zdí.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Montáž dveří je přesná práce — 1 mm rozdíl v svislosti záruby způsobí, že dveře samy od sebe padají nebo se samovolně otevírají. Vodováhu používej po celou dobu montáže.</div>
             </section>

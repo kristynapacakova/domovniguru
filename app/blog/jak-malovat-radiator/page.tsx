@@ -17,19 +17,49 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-malovat-radiator#article",
     "headline": "Jak malovat radiátor – příprava, správná barva a postup 2026",
     "datePublished": "2026-04-13T08:00:00Z",
-    "dateModified": "2026-04-13T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak malovat radiátor", "barva na radiátor", "žloutnutí radiátoru", "příprava radiátoru na malování", "teplotně odolná barva", "radiátor nátěr"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Proč radiátor žloutne?", "acceptedAnswer": { "@type": "Answer", "text": "Žloutnutí způsobuje kombinace tepla a UV záření. Levné nebo nevhodné barvy žloutnou rychleji. Barvy označené 'na radiátory' obsahují pigmenty odolné žloutnutí při teplotách do 130 °C. Pokud radiátor žloutne každý rok, příčinou je použití nesprávné barvy." } },
+      { "@type": "Question", "name": "Musím sundávat radiátor ze zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Ne, sundávání je zbytečné pro standardní přemalování. Speciální radiátorový štětec s dlouhou rukojetí dostane i na zadní část a do profilů. Sundávání má smysl jen při výměně nebo při malování zdi za radiátorem." } },
+      { "@type": "Question", "name": "Jak malovat zeď za radiátorem?", "acceptedAnswer": { "@type": "Answer", "text": "Zeď za radiátorem maluj speciálním mini válečkem s dlouhou tyčí (válček do rohů). Nejdřív odmaluj co jde z boku, pak protáhni váleček shora i zdola. Pokud chceš dokonalý výsledek, odmontuj radiátor od zdi — uchopí se na dvou konzolách a po uvolnění šroubů se zvedne nahoru." } },
+      { "@type": "Question", "name": "Mohu radiátor namalovat na jinou barvu než bílou?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, radiátory v antracitové, černé nebo jiné barvě jsou moderní trend. Radiátorové barvy jsou dostupné v mnoha odstínech. Tmavé barvy zároveň mírně zvyšují sálání tepla." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží nátěr radiátoru?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní nátěr speciální radiátorovou barvou při správné přípravě povrchu vydrží 5–10 let bez výrazného žloutnutí. Levná barva nebo špatná příprava zkracuje životnost na 1–3 roky." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-radiator#howto",
+    "name": "Jak malovat radiátor – příprava, správná barva a postup 2026",
+    "description": "Žloutoucí nebo odlupující se barva na radiátoru? Správná příprava povrchu, výběr barvy odolné teplotám a postup krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Správná barva na radiátor – co koupit", "text": "Toto je nejdůležitější rozhodnutí. Běžná latexová nebo akrylátová barva na radiátor nepatří. Teplo způsobí že žloutne a loupe se během první topné sezóny." },
+      { "@type": "HowToStep", "name": "Příprava povrchu – klíč k trvanlivosti", "text": "Špatná příprava je příčina 90 % selhání nátěru radiátoru. Věnuj přípravě stejně času jako samotnému malování." },
+      { "@type": "HowToStep", "name": "Postup malování radiátoru", "text": "Radiátor maluj vždy v tomto pořadí — od vnitřku ven, od shora dolů." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-radiator#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak malovat radiátor – příprava, správná barva a postup 2026", "item": "https://www.domovniguru.cz/blog/jak-malovat-radiator" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
   { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
   { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "5 min" },
-  { title: "Jak ušetřit na vytápění bez výměny kotle", href: "/blog/usetrit-na-vytapeni", read: "7 min" },
+  { title: "Kalkulačka barvy – kolik litrů budeš potřebovat?", href: "/kalkulacky/kolik-barvy", read: "2 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +84,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak malovat radiátor – příprava, správná barva a postup</h1>
               <p className="article-lead">Žloutoucí nebo odlupující se barva na radiátoru kazí dojem celé místnosti. Přemalování zvládneš sám za odpoledne — ale jen pokud použiješ správnou barvu a správně připravíš povrch.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-radiator" title="Jak malovat radiátor – příprava, správná barva a postup 2026" />
             </header>
 
@@ -180,7 +210,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>Hledej barvy s označením <strong>„na radiátory"</strong>, <strong>„na topná tělesa"</strong> nebo <strong>„teplotně odolná do 130 °C"</strong>. Všechny větší značky (Primalex, HET, Balakryl, Dulux) mají speciální řadu na radiátory.</p>
+              <p>Hledej barvy s označením <strong>„na radiátory"</strong>, <strong>„na topná tělesa"</strong> nebo <strong>„teplotně odolná do 130 °C"</strong>. Všechny větší značky (Primalex, HET, Balakryl, Dulux) mají speciální řadu na radiátory. Kolik barvy celkem spotřebuješ i na okolní stěny spočítáš snadno v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Bílá barva na radiátor bývá označena jako „radiátorová bílá" nebo „sněhobílá" — je formulována tak aby nežloutla při teplotě topení. Standardní bílá zeď-barva na radiátoru zežloutne do jedné sezóny.</div>
             </section>
 
@@ -249,6 +279,10 @@ export default function ArticlePage() {
                 <details className="faq-item">
                   <summary className="faq-summary">Jak dlouho vydrží nátěr radiátoru?<span className="faq-icon">▾</span></summary>
                   <div className="faq-body">Kvalitní nátěr speciální radiátorovou barvou při správné přípravě povrchu vydrží 5–10 let bez výrazného žloutnutí nebo odlupování. Levná barva nebo špatná příprava zkracuje životnost na 1–3 roky.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Jak malovat zeď za radiátorem?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Zeď za radiátorem maluj speciálním mini válečkem s prodlouženou tyčí — nebo tzv. radiatórkovým válečkem s ohnutou rukojetí (cca 150–300 Kč v malířských potřebách). Nejdřív naber barvu, protáhni váleček shora, pak zdola. Pokud chceš dokonalý výsledek, odmontuj radiátor od zdi — uchopí se na dvou konzolách a po uvolnění šroubů se zvedne nahoru. Zeď vymali, počkej než barva zaschne, a radiátor vrať zpět.</div>
                 </details>
               </div>
             </section>

@@ -17,12 +17,45 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy#article",
     "headline": "Jak pokládat vinylovou podlahu – krok za krokem 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak pokládat vinylovou podlahu", "vinyl podlaha pokládka", "LVT podlaha postup", "vinylové desky kladení", "příprava podkladu vinyl", "vinyl podlaha DIY"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu pokládat vinyl přes starou dlažbu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud je dlažba pevná, rovná a bez uvolněných dlaždic. Výrazné spáry (nad 3 mm) vyrovnej samonivelační stěrkou. Výhoda: nemusíš bourat starou dlažbu. Nevýhoda: zvedne se úroveň podlahy o tloušťku vinylu (5–8 mm) — zkontroluj výšku dveří." } },
+      { "@type": "Question", "name": "Je vinyl vhodný do koupelny?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — SPC vinyl s certifikací pro mokré prostory je výborná volba do koupelny. Je 100% vodoodolný na povrchu. Pozor: voda nesmí pronikat pod vinyl (skulinami u stěn nebo ve spárách) — proto u koupelnového vinylu použij silikonový tmel u stěn místo soklové lišty." } },
+      { "@type": "Question", "name": "Jak opravit poškozené desky vinylu?", "acceptedAnswer": { "@type": "Answer", "text": "Click vinyl lze opravit výměnou poškozené desky — rozklíkovat od stěny až k poškozené desce, vyměnit a zase zakliknout. Je to pracné ale možné. Proto doporučujeme koupit 5–10 % navíc a uschovat jako zásobu pro případné opravy." } },
+      { "@type": "Question", "name": "Lze pokládat vinyl na podlahové topení?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — vinyl je pro podlahové topení vhodný, ale zkontroluj certifikaci výrobce. Maximální teplota povrchu podlahy nesmí překročit 27–29 °C (závisí na výrobci). SPC vinyl je pro podlahové topení vhodnější než měkčí LVT — méně se deformuje při teplotních změnách." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy#howto",
+    "name": "Jak pokládat vinylovou podlahu – krok za krokem 2026",
+    "description": "Pokládka vinylové podlahy za víkend svépomocí. Příprava podkladu, výběr správného vinylu, kladení desek a lišty. Postup pro začátečníky bez speciálního nářadí.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy vinylových podlah", "text": "Vinyl není jen jeden materiál — existuje několik typů které se liší způsobem pokládky, trvanlivostí a cenou." },
+      { "@type": "HowToStep", "name": "Jak vybrat správný vinyl", "text": "Jak vybrat správný vinyl" },
+      { "@type": "HowToStep", "name": "Příprava podkladu – klíčový krok", "text": "Vinyl překryje starou podlahu ale neodpustí velké nerovnosti. Maximální povolená nerovnost podkladu je 3 mm na 2 m latě." },
+      { "@type": "HowToStep", "name": "Aklimatizace – proč je důležitá", "text": "Vinyl je citlivý na teplotu — při pokládce za studena se po zahřátí místnosti roztáhne a podlaha se vyduje. Aklimatizace toto zabrání." },
+      { "@type": "HowToStep", "name": "Pokládka vinylové podlahy krok za krokem", "text": "Pokládka vinylové podlahy krok za krokem" },
+      { "@type": "HowToStep", "name": "Lišty a dokončení", "text": "Lišty a dokončení" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak pokládat vinylovou podlahu – krok za krokem 2026", "item": "https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pokládat vinylovou podlahu – krok za krokem</h1>
               <p className="article-lead">Vinylová podlaha je nejoblíbenější podlahová krytina posledních let — vodoodolná, teplá, tichá a snadno se pokládá. Místnost 20 m² zvládneš sám za jeden den.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/kladeni-vinyl-podlahy" title="Jak pokládat vinylovou podlahu – krok za krokem 2026" />
             </header>
 
@@ -107,7 +140,7 @@ export default function ArticlePage() {
 
             <section id="typy">
               <h2>Typy vinylových podlah</h2>
-              <p>Vinyl není jen jeden materiál — existuje několik typů které se liší způsobem pokládky, trvanlivostí a cenou.</p>
+              <p>Vinyl není jen jeden materiál — existuje několik typů které se liší způsobem pokládky, trvanlivostí a cenou. Kolik balení budeš potřebovat, spočítá <Link href="/kalkulacky/kolik-laminatu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka laminátu a vinylu</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Typ</th><th>Cena (m²)</th><th>Pokládka</th><th>Vhodné pro</th></tr></thead>
@@ -134,7 +167,7 @@ export default function ArticlePage() {
 
             <section id="podklad">
               <h2>Příprava podkladu – klíčový krok</h2>
-              <p>Vinyl překryje starou podlahu ale neodpustí velké nerovnosti. Maximální povolená nerovnost podkladu je <strong>3 mm na 2 m latě</strong>.</p>
+              <p>Vinyl překryje starou podlahu ale neodpustí velké nerovnosti. Maximální povolená nerovnost podkladu je <strong>3 mm na 2 m latě</strong>. Celkové náklady na materiál i pokládku odhadneš pomocí <Link href="/kalkulacky/cena-podlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny podlahy</Link>.</p>
               <ul>
                 <li><strong>Vyčisti podklad:</strong> Odstraň veškeré zbytky lepidla, tmel, prach a mastnotu. Vinyl se nesmí pohybovat — čistý podklad je základ.</li>
                 <li><strong>Zkontroluj nerovnosti:</strong> Přilož 2m latě nebo vodováhu. Nerovnosti větší než 3 mm vyrovnej samonivelační stěrkou (50–150 Kč/m²). Nechej zaschnout dle návodu (min. 24 hodin).</li>

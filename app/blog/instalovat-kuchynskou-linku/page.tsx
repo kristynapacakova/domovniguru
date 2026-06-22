@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku#article",
     "headline": "Jak nainstalovat kuchyňskou linku – postup montáže 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak nainstalovat kuchyňskou linku", "montáž kuchyně", "instalace kuchyňských skříněk", "kuchyňská linka postup", "montáž pracovní desky kuchyň"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho trvá montáž kuchyňské linky?", "acceptedAnswer": { "@type": "Answer", "text": "Pro dva lidi s řemeslnickými zkušenostmi: 1–2 dny na střední kuchyň. Profesionální montážní tým: 4–8 hodin. Pokud montujete sami poprvé: počítejte 2–3 dny. Navíc čas na instalatéra a elektrikáře. Celkem od dodávky kuchyně po plný provoz: 3–5 dní." } },
+      { "@type": "Question", "name": "Mohu nainstalovat kuchyň sám bez odborníka?", "acceptedAnswer": { "@type": "Answer", "text": "Skříňky, pracovní desku a dvířka zvládneš sám pokud máš základní řemeslnické dovednosti a správné nářadí. Zapojení pevných elektrických spotřebičů (varná deska, trouba) musí provést elektrikář. Plynové spotřebiče musí zapojit certifikovaný technik. Vodoinstalace (dřez, myčka) — záleží na zkušenostech." } },
+      { "@type": "Question", "name": "Co dělat pokud zeď není rovná?", "acceptedAnswer": { "@type": "Answer", "text": "Nerovná zeď je nejčastější problém. Řešení: spodní skříňky vyrovnat nožičkami (nastavitelný rozsah 10–15 cm). Mezeru mezi skříňkami a nerovnou zdí zakrýt lištou. Horní skříňky zarovnat montážní lištou — lišta se přizpůsobí rovině, ne stěně. Větší nerovnosti (nad 2 cm) vyrovnat sádrovou omítkovinou před instalací." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku#howto",
+    "name": "Jak nainstalovat kuchyňskou linku – postup montáže 2026",
+    "description": "Jak nainstalovat kuchyňskou linku krok za krokem. Příprava, montáž skříněk, instalace pracovní desky a připojení spotřebičů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava a plánování", "text": "Příprava a plánování" },
+      { "@type": "HowToStep", "name": "Montáž spodních skříněk", "text": "Montáž spodních skříněk" },
+      { "@type": "HowToStep", "name": "Montáž horních skříněk", "text": "Montáž horních skříněk" },
+      { "@type": "HowToStep", "name": "Pracovní deska", "text": "Pracovní deska" },
+      { "@type": "HowToStep", "name": "Spotřebiče a zapojení", "text": "Spotřebiče a zapojení" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak nainstalovat kuchyňskou linku – postup montáže 2026", "item": "https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak nainstalovat kuchyňskou linku – postup montáže</h1>
               <p className="article-lead">Instalace kuchyňské linky je náročná ale zvladatelná zakázka pro šikovného kutila. Správné pořadí kroků a přesné měření jsou klíčem k výsledku který bude vypadat profesionálně.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/instalovat-kuchynskou-linku" title="Jak nainstalovat kuchyňskou linku – postup montáže 2026" />
             </header>
 
@@ -100,7 +131,7 @@ export default function ArticlePage() {
               <h2>Příprava a plánování</h2>
               <ul>
                 <li><strong>Zaměření prostoru:</strong> Přesně změř délku, výšku a hloubku prostoru kuchyně. Zaznamenat polohu vývodů vody, odpadů a elektroinstalace.</li>
-                <li><strong>Příprava stěn:</strong> Stěny musí být rovné a suché. Nerovnosti vyrovnat sádrovou omítkovinou. Zkontroluj jestli jsou stěny kolmé k podlaze — šikmá zeď komplikuje montáž.</li>
+                <li><strong>Příprava stěn:</strong> Stěny musí být rovné a suché. Nerovnosti vyrovnat sádrovou omítkovinou nebo stěrkou — kolik stěrky spotřebuješ zjistíš pomocí <Link href="/kalkulacky/kolik-sterky" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky stěrky</Link>. Zkontroluj jestli jsou stěny kolmé k podlaze — šikmá zeď komplikuje montáž.</li>
                 <li><strong>Označení výšek:</strong> Pomocí vodováhy označ na stěně výšku spodní řady (obvykle 85–87 cm od podlahy) a horní řady (obvykle 145–155 cm).</li>
                 <li><strong>Nářadí:</strong> Vrtačka s příklepem, vodováha (min. 1 m), hoblík nebo přímočará pila na desku, silikonová pistole, šroubovák, metr.</li>
               </ul>

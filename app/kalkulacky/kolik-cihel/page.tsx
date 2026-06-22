@@ -36,6 +36,7 @@ export default function KolikCihelPage() {
         </p>
 
         <CihelCalculator />
+        <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-cihel" title="Kalkulačka cihel a tvárnic 2026 – kolik kusů a palet potřebuju?" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>

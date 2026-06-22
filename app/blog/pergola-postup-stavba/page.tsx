@@ -17,19 +17,53 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/pergola-postup-stavba#article",
     "headline": "Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak postavit pergolu", "pergola na terasu", "dřevěná pergola stavba", "kotvení sloupů pergoly", "hliníková pergola", "pergola postup"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/pergola-postup-stavba#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Potřebuji stavební povolení na pergolu?", "acceptedAnswer": { "@type": "Answer", "text": "Pergola do 25 m² a výšky do 5 m zpravidla nevyžaduje stavební povolení, ale musí splnit odstupové vzdálenosti od hranice pozemku (min. 2 m). Pravidla se liší podle obce — vždy ověř u místního stavebního úřadu před stavbou. Pergola s nepropustnou střechou může vyžadovat ohlášení." } },
+      { "@type": "Question", "name": "Jak dlouho trvá stavba pergoly?", "acceptedAnswer": { "@type": "Answer", "text": "Dřevěná pergola 4×3 m: příprava a kotvení patek den 1, betonování a schnutí 2 dny, montáž konstrukce den 4–5. Celkem 4–5 dní při práci 2 osob (1 člověk nestačí — nutná pomoc). Hliníková systémová pergola: 1 den montáže pro zkušeného montéra, 2 dny pro laika." } },
+      { "@type": "Question", "name": "Jaké dřevo je nejlepší na pergolu?", "acceptedAnswer": { "@type": "Answer", "text": "Nejodolnější je akát (bez nutnosti impregnace, vydrží 30+ let) a modřín (přirozená odolnost, krásná kresba). Levnější alternativa je impregnovaná borovice (zelená nebo hnědá impregnace) — vydrží 15–20 let s pravidelnou údržbou. Smrk bez impregnace pro venkovní použití není vhodný." } },
+      { "@type": "Question", "name": "Mohu postavit pergolu u zdi domu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — pergola přistavená ke zdi domu (\"lean-to\" design) potřebuje jen 2 volné sloupy místo 4. Ke zdi domu se připevní tzv. ledger board (vodorovná deska) do které se zapustí příčné nosníky. Pozor na odvodnění — voda nesmí stékat do zdi domu." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pergola-postup-stavba#howto",
+    "name": "Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026",
+    "description": "Stavba pergoly krok za krokem – od výběru materiálu a kotvení sloupů po střešní latě a impregnaci. Dřevěná nebo hliníková pergola za víkend.",
+    "step": [
+      { "@type": "HowToStep", "name": "Dřevo vs. hliník – co vybrat", "text": "Dřevo vs. hliník – co vybrat" },
+      { "@type": "HowToStep", "name": "Plánování a povolení", "text": "Pergola do určité velikosti nevyžaduje stavební povolení — ale pravidla se liší podle obce a blízkosti hranic pozemku." },
+      { "@type": "HowToStep", "name": "Materiál a rozměry – co nakoupit", "text": "Pro standardní pergolu 4×3 m (12 m²) s dřevěnou konstrukcí potřebuješ:" },
+      { "@type": "HowToStep", "name": "Kotvení sloupů – nejdůležitější krok", "text": "Špatně kotvené sloupy jsou nejčastější příčina nestability pergoly. Existují dva způsoby kotvení." },
+      { "@type": "HowToStep", "name": "Stavba dřevěné pergoly krok za krokem", "text": "Stavba dřevěné pergoly krok za krokem" },
+      { "@type": "HowToStep", "name": "Střecha pergoly – varianty", "text": "Střecha pergoly – varianty" },
+      { "@type": "HowToStep", "name": "Údržba dřevěné pergoly", "text": "Údržba dřevěné pergoly" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pergola-postup-stavba#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026", "item": "https://www.domovniguru.cz/blog/pergola-postup-stavba" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
   { title: "Jak ošetřit dřevěnou terasu", href: "/blog/drevo-terasa-zima", read: "5 min" },
-  { title: "Jak pokládat betonové dlaždice na terasu", href: "/blog/pokladat-betonove-dlazdice", read: "8 min" },
   { title: "Jak zařídit terasu na balkoně", href: "/blog/terasa-na-balkone", read: "5 min" },
+  { title: "Jak vybrat zahradní gril – plynový nebo uhlíkový", href: "/blog/vybrat-zahradni-gril", read: "6 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +88,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak postavit pergolu na terasu – dřevěná nebo hliníková</h1>
               <p className="article-lead">Pergola proměňuje holou terasu v příjemný venkovní pokoj. Dřevěná pergola za víkend svépomocí nebo hliníková systémová za odpoledne — tady je jak na to od základů až po střešní latě.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/pergola-postup-stavba" title="Jak postavit pergolu na terasu – dřevěná nebo hliníková 2026" />
             </header>
 
@@ -185,7 +219,7 @@ export default function ArticlePage() {
                 <li><strong>Kotvy sloupů 4 ks:</strong> Ocelové patky na zabetonování nebo přišroubování do dlažby.</li>
                 <li><strong>Spojovací materiál:</strong> Šrouby, svorníky, úhelníky — pozinkované nebo nerezové pro venkovní použití.</li>
               </ul>
-              <div className="article-tip"><strong>💡 Tip:</strong> Vždy kupuj dřevo s 10–15 % rezervou na odpad a chyby v řezání. Dřevo měř dvakrát, řež jednou.</div>
+              <div className="article-tip"><strong>💡 Tip:</strong> Vždy kupuj dřevo s 10–15 % rezervou na odpad a chyby v řezání. Přesný počet a délky prken pro svou pergolu ti spočítá naše <Link href="/kalkulacky/kolik-prknu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka prken</Link>. Dřevo měř dvakrát, řež jednou.</div>
             </section>
 
             <section id="kotveni">

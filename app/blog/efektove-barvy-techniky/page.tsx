@@ -17,12 +17,31 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/efektove-barvy-techniky#article",
     "headline": "Efektové barvy a techniky – mramorování, vintage, beton 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["efektové barvy stěny", "mramorování stěny", "dekorativní malířské techniky", "vintage efekt stěna", "betonový efekt stěna", "glazura stěna technika"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/efektove-barvy-techniky#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jsou efektové barvy vhodné pro začátečníky?", "acceptedAnswer": { "@type": "Answer", "text": "Vintage patina a ombre gradient zvládne začátečník po tréningu na kartonu. Mramorování a betonový efekt vyžadují více trpělivosti a zručnosti — doporučujeme začít jednoduchou technikou. Žádná technika není nevratná — pokud se nepovede, přemaluj základní barvou a zkus znovu." } },
+      { "@type": "Question", "name": "Kolik stojí efektová malba oproti klasické?", "acceptedAnswer": { "@type": "Answer", "text": "Klasická malba: 50–200 Kč/m² materiál. Efektové techniky: 200–1 500 Kč/m² materiál (závisí na technice). Profesionální provedení efektové malby: 500–3 000 Kč/m² práce + materiál. DIY ušetří 60–80 % nákladů oproti profesionálovi." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží efektová malba?", "acceptedAnswer": { "@type": "Answer", "text": "Efektová malba správně zapečetěná lakem vydrží 5–10 let — stejně jako standardní malba. Bez laku je náchylnější na poškrábání a vlhkost. Vintage patina a mramorování jsou méně omyvatelné než standardní barva — nevhodné do kuchyně nebo koupelny." } }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/efektove-barvy-techniky#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Efektové barvy a techniky – mramorování, vintage, beton 2026", "item": "https://www.domovniguru.cz/blog/efektove-barvy-techniky" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -93,7 +112,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Efektové barvy a techniky – mramorování, vintage, beton</h1>
               <p className="article-lead">Dekorativní malířské techniky promění obyčejnou zeď v designový prvek. Betonový efekt, mramorování nebo vintage patina — žádná z těchto technik není tak složitá jak vypadá.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/efektove-barvy-techniky" title="Efektové barvy a techniky – mramorování, vintage, beton 2026" />
             </header>
 
@@ -156,7 +175,7 @@ export default function ArticlePage() {
               <h2>Obecné tipy pro efektové techniky</h2>
               <ul>
                 <li><strong>Vždy nejdřív vyzkoušej na kartonu:</strong> Efektové techniky jsou nepředvídatelné. Vyzkoušej techniku na větším kusu kartonu nebo dřevotřísky před aplikací na zeď.</li>
-                <li><strong>Pracuj v sekcích:</strong> Efektové barvy schnou rychle — pracuj v menších sekcích (1–2 m²) aby přechody nebyly viditelné.</li>
+                <li><strong>Pracuj v sekcích:</strong> Efektové barvy schnou rychle — pracuj v menších sekcích (1–2 m²) aby přechody nebyly viditelné. Celkové množství barvy na plochu zjistíš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</li>
                 <li><strong>Dva lidé = lepší výsledek:</strong> Jeden nanáší barvu, druhý ihned vytváří efekt. U mramorování a betonového efektu je to téměř nutnost.</li>
                 <li><strong>Zapečetit finální vrstvou:</strong> Efektové povrchy jsou citlivější než standardní malba. Vždy zapečeť transparentním matným nebo lesklým lakem.</li>
                 <li><strong>Méně je více:</strong> Začni subtilně — efekt lze vždy zesílit, ale přehnaný efekt těžko opravit.</li>

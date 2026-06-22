@@ -17,19 +17,51 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku#article",
     "headline": "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vyměnit zásuvku", "výměna elektrické zásuvky", "zásuvka nefunguje", "jak zapojit zásuvku", "výměna zásuvky bez elektrikáře", "zapojení L N PE"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je výměna zásuvky legální bez elektrikáře?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna zásuvky za stejný typ na stejném místě je považována za drobnou údržbu — zákonně ji může provést laik. Nová elektroinstalace (nové vedení, nové okruhy) musí být provedena elektrikářem a zrevidována." } },
+      { "@type": "Question", "name": "Proč zásuvka nefunguje i když jistič nevypadl?", "acceptedAnswer": { "@type": "Answer", "text": "Možné příčiny: (1) Uvolněný vodič ve svorce zásuvky — dotáhni svorky. (2) Vadná zásuvka — mechanické opotřebení kontaktů. (3) Přerušený vodič za krabicí — nutný elektrikář. (4) Chránič (FI relé) místo jističe — zkontroluj rozvaděč." } },
+      { "@type": "Question", "name": "Mohu vyměnit zásuvku bez zemnění za uzemněnou?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud v krabici je žlutozelený vodič (PE), ano — zapojs ho do zemnicího kolíku nové zásuvky. Pokud PE vodič chybí (starší instalace), nelze bezpečně přidat zemnění bez nového vedení PE vodiče od rozvaděče — to je práce pro elektrikáře." } },
+      { "@type": "Question", "name": "Jak zjistím který jistič ovládá danou zásuvku?", "acceptedAnswer": { "@type": "Answer", "text": "Zapoj lampičku nebo nabíječku do zásuvky a postupně vypínej jističe v rozvaděči dokud nezhasne. Pak přilep na jistič štítek s popisem. Pokud je rozvaděč nepopsaný, je ideální čas celý ho zmapovat." } },
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku#howto",
+    "name": "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem 2026",
+    "description": "Výměna elektrické zásuvky svépomocí: vypnutí jističe, odpojení, zapojení nové zásuvky. Bezpečný postup pro laiky bez elektrikáře.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co potřebuješ na výměnu zásuvky", "text": "Co potřebuješ na výměnu zásuvky" },
+      { "@type": "HowToStep", "name": "Bezpečnost – nejdůležitější krok", "text": "Práce na elektroinstalaci bez vypnutého jističe je smrtelně nebezpečná. Nikdy nepracuj pod napětím — ani na \"chvilku\" a ani pokud si myslíš že víš co děláš." },
+      { "@type": "HowToStep", "name": "Postup výměny krok za krokem", "text": "Postup výměny krok za krokem" },
+      { "@type": "HowToStep", "name": "Zapojení vodičů L, N, PE", "text": "Moderní zásuvka má tři svorky — fáze (L), nula (N) a zemnění (PE). Správné zapojení je klíčové pro bezpečnost." },
+      { "@type": "HowToStep", "name": "Typy zásuvek – co koupit", "text": "Typy zásuvek – co koupit" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vyměnit zásuvku sám – bezpečný postup krok za krokem 2026", "item": "https://www.domovniguru.cz/blog/jak-vymenit-zasuvku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak vyměnit vypínač světla", href: "/blog/jak-vymenit-vypinac", read: "4 min" },
   { title: "Co dělat když nejde proud v části bytu", href: "/blog/nejde-proud-cast-bytu", read: "5 min" },
-  { title: "Jak nainstalovat stmívač světla", href: "/blog/instalovat-stmivac", read: "6 min" },
   { title: "Jak fungují pojistky a jak je vyměnit", href: "/blog/jak-funguji-pojistky", read: "5 min" },
+  { title: "Jak otestovat zásuvku – fázová tužka a multimetr", href: "/blog/otestovat-zasuvku", read: "4 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +86,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vyměnit zásuvku sám – bezpečný postup</h1>
               <p className="article-lead">Zásuvka přestala fungovat nebo chceš vyměnit starý hnědý plast za moderní bílý rámeček? Výměna zásuvky je jednoduchá práce která trvá 20 minut — ale musíš dodržet bezpečnostní postup. Tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-vymenit-zasuvku" title="Jak vyměnit zásuvku sám – bezpečný postup krok za krokem 2026" />
             </header>
 

@@ -10,7 +10,53 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak správně kompostovat 2026", description: "Poměr C:N, co patří do kompostu, typy kompostérů." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#article", "headline": "Jak správně kompostovat – průvodce od A do Z", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-04-14T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak kompostovat", "domaci kompostovani", "kuchynsky kompost", "pomer cn kompost", "kompostovac typy", "vermikompostovani"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#article",
+    "headline": "Jak správně kompostovat – průvodce od A do Z",
+    "datePublished": "2026-03-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["jak kompostovat", "domaci kompostovani", "kuchynsky kompost", "pomer cn kompost", "kompostovac typy", "vermikompostovani"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Proč kompost smrdí a jak to zastavit?", "acceptedAnswer": { "@type": "Answer", "text": "Zápach má vždy příčinu: (1) Amoniak — příliš mnoho zeleného. Přidej hnědý materiál v poměru 3:1 a promíchej. (2) Hniloba — nedostatek vzduchu. Hluboce promíchej, přidej drcené větve a zkontroluj vlhkost. Správně vedený kompost voní zeminou — ne hnilobou." } },
+      { "@type": "Question", "name": "Jak zrychlit zrání kompostu?", "acceptedAnswer": { "@type": "Answer", "text": "Nejúčinnější způsoby: (1) Drobení materiálu — menší kousky mají větší povrch. (2) Časté promíchávání — každých 5–7 dní. (3) Přidej urychlovač — hrst zeminy nebo hotového kompostu. (4) Udržuj správnou vlhkost. (5) Kompost v horké fázi (50–70 °C) se rozkládá 3–4× rychleji." } },
+      { "@type": "Question", "name": "Mohu do kompostu dávat citrusy a kávovou sedlinu?", "acceptedAnswer": { "@type": "Answer", "text": "Citrusy ano — s mírou. Velké množství může zpomalit rozklad a odradit žížaly. Kávová sedlina je výborná — obsahuje dusík, přitahuje žížaly a urychluje rozklad. Obojí přidávej v rozumném množství a míchej s dalšími materiály." } },
+      { "@type": "Question", "name": "Jak poznám že je kompost hotový?", "acceptedAnswer": { "@type": "Answer", "text": "Zralý kompost je tmavě hnědý až černý, drobivý, voní příjemně po zemi a nejsou v něm viditelné nerozložené kousky. Test: uzavři hrst do plastového sáčku na 3 dny. Pokud nevznikne zápach, kompost je zralý a připravený k použití." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#howto",
+    "name": "Jak správně kompostovat – průvodce od A do Z",
+    "description": "Poměr C:N, co patří a nepatří do kompostu, typy kompostérů a jak zrychlit zrání. Kompletní průvodce kompostováním pro zahradu i byt.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak kompostování funguje – věda za hromadou", "text": "Kompostování je řízený rozklad organické hmoty mikroorganismy, žížalami a houbami za přítomnosti vzduchu a vlhkosti. Výsledkem je humus — nejbohatší půdní materiál s obsahem živin, mikroorganismů a organické hmoty." },
+      { "@type": "HowToStep", "name": "Co patří a nepatří do kompostu", "text": "Nesprávné materiály v kompostu způsobují zápach, přitahují škůdce a hlodavce, nebo brání správnému rozkladu." },
+      { "@type": "HowToStep", "name": "Poměr C:N – tajemství kompostu který nesmrdí", "text": "Poměr uhlíku (C) a dusíku (N) je nejdůležitější parametr správného kompostování. Ideální poměr je přibližně 25–30 dílů uhlíku na 1 díl dusíku. V praxi stačí jednoduché pravidlo:" },
+      { "@type": "HowToStep", "name": "Typy kompostérů – srovnání pro zahradu i byt", "text": "Typy kompostérů – srovnání pro zahradu i byt" },
+      { "@type": "HowToStep", "name": "Jak kompostér správně založit krok za krokem", "text": "Jak kompostér správně založit krok za krokem" },
+      { "@type": "HowToStep", "name": "Problémy a jak je řešit", "text": "Problémy a jak je řešit" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-kompostovat#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně kompostovat – průvodce od A do Z", "item": "https://www.domovniguru.cz/blog/jak-kompostovat" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "7 min" },
@@ -41,7 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně kompostovat: Průvodce od založení po černé zlato na zahradě</h1>
               <p className="article-lead">Kompost je nejlepší a nejlevnější hnojivo které můžeš své zahradě dát. Ale špatně vedený kompost smrdí, nehnije a přitahuje škůdce. Tenhle průvodce ti ukáže jak to dělat správně — od prvního listí po zralý kompost za 3–6 měsíců.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-kompostovat" title="Jak správně kompostovat – průvodce od A do Z" />
             </header>
 
@@ -200,7 +246,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 4 – Urychlovač:</strong> Na každou novou vrstvu posyp hrst kompostovacího urychlovače nebo hotového kompostu — přidáš aktivní mikroorganismy.</li>
                 <li><strong>Krok 5 – Vlhkost:</strong> Zkontroluj vlhkost stisknutím hrsti. Mělo by vykapat jen pár kapek — ne téct, ne být prašně suché.</li>
                 <li><strong>Krok 6 – Promíchávání:</strong> Každých 7–14 dní promíchej vidlemi pro přístup vzduchu.</li>
-                <li><strong>Krok 7 – Test zralosti:</strong> Zralý kompost je tmavý, drobivý, voní po zemi. Test: uzavři hrst do plastového sáčku na 3 dny — pokud nevznikne zápach, kompost je hotový.</li>
+                <li><strong>Krok 7 – Test zralosti:</strong> Zralý kompost je tmavý, drobivý, voní po zemi. Test: uzavři hrst do plastového sáčku na 3 dny — pokud nevznikne zápach, kompost je hotový. Kolik kompostu budeš potřebovat na záhony ti pomůže určit naše <Link href="/kalkulacky/kolik-kompostu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka kompostu</Link>.</li>
               </ul>
             </section>
 

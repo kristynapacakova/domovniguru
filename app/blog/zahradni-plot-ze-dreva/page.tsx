@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva#article",
     "headline": "Jak postavit dřevěný zahradní plot – postup krok za krokem 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak postavit dřevěný plot", "zahradní plot ze dřeva", "kotvení sloupků plotu", "dřevěný plot postup", "plot zahrada DIY", "impregnace dřevěného plotu"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Potřebuji souhlas souseda na plot?", "acceptedAnswer": { "@type": "Answer", "text": "Plot do výšky 180 cm na hranici pozemku nevyžaduje stavební povolení, ale sousedský souhlas nebo dohoda je dobrá praxe. Plot vyšší než 180 cm nebo na hranici s veřejnou komunikací může vyžadovat ohlášení stavby. Vždy ověř u místního stavebního úřadu a zkontroluj zakreslení hranice pozemku v katastru." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží dřevěný plot?", "acceptedAnswer": { "@type": "Answer", "text": "Impregnovaná borovice s pravidelnou údržbou: 15–20 let. Modřín: 20–30 let. Akát: 30–40 let bez impregnace. Klíč je pravidelná impregnace každé 2–3 roky a správné odtékání vody (zaoblené vrcholy prken, sloupky v patce ne přímo v zemi)." } },
+      { "@type": "Question", "name": "Kolik stojí dřevěný plot na 20 m?", "acceptedAnswer": { "@type": "Answer", "text": "Impregnovaná borovice, výška 150 cm, 20 m: materiál 5 000–10 000 Kč (sloupky, prkna, latě, šrouby, beton). Impregnace: 500–1 500 Kč. Celkem DIY: 6 000–12 000 Kč. Profesionální stavba přidá 3 000–8 000 Kč za práci. Akát nebo modřín zdraží materiál 2–3×." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva#howto",
+    "name": "Jak postavit dřevěný zahradní plot – postup krok za krokem 2026",
+    "description": "Dřevěný zahradní plot svépomocí – výběr dřeva, kotvení sloupků, montáž prken a ošetření. Průvodce pro každého kdo chce plot postavit sám za víkend.",
+    "step": [
+      { "@type": "HowToStep", "name": "Výběr dřeva a materiálu", "text": "Výběr dřeva a materiálu" },
+      { "@type": "HowToStep", "name": "Nářadí a příprava", "text": "Nářadí a příprava" },
+      { "@type": "HowToStep", "name": "Kotvení sloupků – nejdůležitější krok", "text": "Sloupky jsou základem celého plotu. Špatně zabetonovaný nebo mělce zakopaný sloupek způsobí, že plot brzy povolí nebo se nakloní." },
+      { "@type": "HowToStep", "name": "Montáž prken a latí", "text": "Montáž prken a latí" },
+      { "@type": "HowToStep", "name": "Impregnace a údržba", "text": "Impregnace a údržba" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak postavit dřevěný zahradní plot – postup krok za krokem 2026", "item": "https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak postavit dřevěný zahradní plot – krok za krokem</h1>
               <p className="article-lead">Dřevěný plot je nejhezčí ohraničení zahrady — přirozený, teplý a zvladatelný svépomocí. Za víkend máš hotový celý plot. Tady je kompletní postup od sloupků po impregnaci.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zahradni-plot-ze-dreva" title="Jak postavit dřevěný zahradní plot – postup krok za krokem 2026" />
             </header>
 
@@ -160,7 +191,7 @@ export default function ArticlePage() {
               <h2>Nářadí a příprava</h2>
               <ul>
                 <li><strong>Nářadí:</strong> Pásová pila nebo motorová pila (řezání sloupků), vrtačka, vodováha (min. 1 m), olovnice, šňůra na vyznačení, lopata nebo vrtací souprava na sloupky, šroubovák nebo hřebíkovačka.</li>
-                <li><strong>Materiál na 10 m plotu výšky 150 cm:</strong> Sloupky 9×9 cm, délka 250 cm (150 cm viditelná část + 100 cm v zemi): 6 ks. Prkna 2×10 cm, délka dle návrhu. Vodorovné latě 5×10 cm. Impregnační přípravek. Šrouby pozinkované nebo nerezové.</li>
+                <li><strong>Materiál na 10 m plotu výšky 150 cm:</strong> Sloupky 9×9 cm, délka 250 cm (150 cm viditelná část + 100 cm v zemi): 6 ks. Prkna 2×10 cm, délka dle návrhu — přesný počet prken pro délku svého plotu si spočítáš v <Link href="/kalkulacky/kolik-prknu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce prken</Link>. Vodorovné latě 5×10 cm. Impregnační přípravek. Šrouby pozinkované nebo nerezové.</li>
                 <li><strong>Příprava terénu:</strong> Vyznač linii plotu šňůrou. Zkontroluj rovnost — plot na nerovném terénu vypadá neupraveně. Zvaž svah — plot může sledovat terén nebo být vodorovný.</li>
               </ul>
             </section>

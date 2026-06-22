@@ -45,7 +45,7 @@ const jsonLd = {
       "description":
         "Porovnání latexové a akrylátové barvy: omyvatelnost, cena, trvanlivost a pro které místnosti se hodí.",
       "datePublished": "2025-01-20T08:00:00Z",
-      "dateModified": "2025-03-01T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": {
         "@type": "Organization",
         "name": "DomovniGuru",
@@ -187,7 +187,7 @@ export default function ArticlePage() {
                 do které místnosti malujete.
               </p>
               <div className="article-meta-row">
-                <span>Aktualizováno: 1. března 2025</span>
+                <span>Aktualizováno: 4. června 2026</span>
                 <span>·</span>
                 <span>DomovniGuru</span>
               </div>
@@ -323,7 +323,7 @@ export default function ArticlePage() {
               <p>
                 Tady se stěny tolik nenamáhají a akrylátová barva plně postačí. Ušetříš
                 a výsledek bude vizuálně stejný. Pokud chceš ale větší jistotu nebo plánuješ
-                za pár let přemalovat tmavší barvou, i tady latexová nezaškodí.
+                za pár let přemalovat tmavší barvou, i tady latexová nezaškodí. Tipy jak vybrat správný odstín najdete v článku <Link href="/blog/jak-vybrat-barvu-na-zed" style={{ color: "#2a6496", textDecoration: "underline" }}>jak vybrat barvu na zeď</Link>.
               </p>
 
               <h3>Obývací pokoj</h3>
@@ -432,7 +432,7 @@ export default function ArticlePage() {
                 Základní akrylátové barvy jsou dostupné v každém hobby marketu.
                 Vydatnost bývá 8–10 m²/l, potřebuješ 2 vrstvy. Na ložnici 12 m²
                 vystačí jedna 4litrová plechovka. Pro méně namáhané místnosti
-                je to ekonomická volba.
+                je to ekonomická volba. Přesný počet litrů si snadno spočítáte pomocí naší <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky barvy</Link>.
               </p>
 
               <h3>Latexové barvy (400–800 Kč / 4 l)</h3>

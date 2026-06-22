@@ -17,19 +17,48 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#article",
     "headline": "Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026",
     "datePublished": "2026-04-16T08:00:00Z",
-    "dateModified": "2026-04-16T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak renovovat parkety", "broušení parket", "lak na parkety", "tmelení parket", "renovace parketové podlahy", "parkety jako nové"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolikrát lze parkety přebrousit?", "acceptedAnswer": { "@type": "Answer", "text": "Mozaikové parkety (8–10 mm) lze přebrousit 1–2×, palubky (15–22 mm) 3–5×. Každé broušení odebere 1–2 mm materiálu. Pokud jsou viditelné drážky na spodní straně lamely, brousit nelze — dřevo by prasklo." } },
+      { "@type": "Question", "name": "Jak dlouho nelze chodit po renovovaných parketech?", "acceptedAnswer": { "@type": "Answer", "text": "Po polyuretanovém laku: 24 hodin pro opatrnou chůzi, 3–5 dní před přesunem nábytku, 2 týdny pro plné vytvrzení. Po oleji: 24–48 hodin. Vždy sleduj pokyny výrobce — závisí na teplotě a vlhkosti." } },
+      { "@type": "Question", "name": "Mohu renovovat parkety sám nebo potřebuji profesionála?", "acceptedAnswer": { "@type": "Answer", "text": "Renovaci parket zvládne šikovný laik pokud má trpělivost a dodržuje postup. Největší riziko je bubnová bruska — příliš rychlá jízda nebo zastavení způsobí prohlubně. Pro začátečníky doporučujeme orbitální brusku. Profesionál se vyplatí pro velké plochy nebo historické parkety s geometrickým vzorem." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#howto",
+    "name": "Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026",
+    "description": "Stará parketová podlaha vypadá jako nová – broušení, tmelení spár, lakování nebo voskování krok za krokem. Kdy renovovat sám a kdy povolat profesionála.",
+    "step": [
+      { "@type": "HowToStep", "name": "Broušení krok za krokem", "text": "Broušení krok za krokem" },
+      { "@type": "HowToStep", "name": "Tmelení spár mezi parketami", "text": "Po hrubém broušení jsou spáry mezi lamelami čisté a připravené na tmelení. Tmelení je volitelný ale doporučený krok pro esteticky čistý výsledek." },
+      { "@type": "HowToStep", "name": "Lak, olej nebo vosk – co vybrat", "text": "Lak, olej nebo vosk – co vybrat" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/renovovat-parkety#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026", "item": "https://www.domovniguru.cz/blog/renovovat-parkety" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak pokládat vinylovou podlahu", href: "/blog/kladeni-vinyl-podlahy", read: "6 min" },
   { title: "Jak naplánovat rekonstrukci bytu", href: "/blog/planovani-rekonstrukce-bytu", read: "8 min" },
-  { title: "Jak ošetřit dřevěnou terasu", href: "/blog/drevo-terasa-zima", read: "5 min" },
-  { title: "Kolik stojí rekonstrukce koupelny", href: "/blog/cena-rekonstrukce-koupelny", read: "6 min" },
+  { title: "Jak namazat dveře aby nevrzaly – čím a jak na to", href: "/blog/jak-namazat-dvere-aby-nevrzaly", read: "4 min" },
+  { title: "Jak postavit příčku ze sádrokartonu", href: "/blog/sadrokarton-pricka-postup", read: "8 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +83,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak renovovat parketovou podlahu – broušení, tmelení, lak</h1>
               <p className="article-lead">Parketová podlaha vypadá zničeně, ale pod vrstvou šrámů a starého laku je krásné dřevo. Renovace parket prodlouží jejich životnost o dalších 20–30 let — a výsledek předčí novou vinyl podlahu.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 16. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/renovovat-parkety" title="Jak renovovat parketovou podlahu – broušení, tmelení, lak 2026" />
             </header>
 
@@ -136,7 +165,7 @@ export default function ArticlePage() {
 
             <section id="kdy">
               <h2>Kdy renovovat a kdy raději vyměnit</h2>
-              <p>Ne každé parkety se vyplatí renovovat. Před rozhodnutím zkontroluj jejich stav.</p>
+              <p>Ne každé parkety se vyplatí renovovat. Před rozhodnutím zkontroluj jejich stav. Přesnou <Link href="/kalkulacky/cena-podlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>cenu nové podlahy</Link> si můžeš porovnat v naší kalkulačce.</p>
               <ul>
                 <li><strong>Renovace se vyplatí pokud:</strong> Parkety jsou pevné a nevrží, dřevo je zdravé (bez hniloby), tloušťka prkna nad 10 mm (prostor pro broušení), povrchové šrámy a matný lak.</li>
                 <li><strong>Raději vyměnit pokud:</strong> Parkety vrží a pohybují se, dřevo je poškozené hnilobou nebo houbou, tloušťka prkna pod 8 mm (nezbude materiál po broušení), poškozeno více než 30 % plochy.</li>

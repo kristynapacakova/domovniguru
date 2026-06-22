@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/opravit-travnik-ples-mech#article",
     "headline": "Jak opravit trávník – plíseň, mech a holá místa 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak opravit trávník", "mech v trávníku", "plíseň trávník", "holá místa trávník", "obnova trávníku", "odstranění mechu ze zahrady"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/opravit-travnik-ples-mech#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy je nejlepší čas na opravu trávníku?", "acceptedAnswer": { "@type": "Answer", "text": "Duben a srpen jsou ideální termíny. Duben: tráva začíná růst, podmínky pro klíčení semen jsou ideální. Srpen: stále teplá půda, ale bez letního sucha. Vyvaruj se jarní setby v červnu a červenci — sucho a vedro neumožní vzejití. Říjen je pozdní ale ještě možný termín." } },
+      { "@type": "Question", "name": "Jak se zbavit mechu bez chemie?", "acceptedAnswer": { "@type": "Answer", "text": "Mechanicky — vertikutátorem nebo hraběmi vyhrábni mech, vápni půdu (pH nad 6,5), provzdušni aerátorem a hustě přeseji trávníkovou směsí. Hustá silná tráva mech vytlačí přirozeně. Bez změny podmínek (pH, drenáž, světlo) se mech vrátí s chemií i bez ní." } },
+      { "@type": "Question", "name": "Jak rychle vyroste nový trávník po přesevu?", "acceptedAnswer": { "@type": "Answer", "text": "Travní semeno vyklíčí za 10–21 dní (závisí na teplotě a druhu trávy). Při teplotě půdy 15–20 °C klíčení nejrychlejší. Po vzejití tráva potřebuje dalších 4–6 týdnů než bude připravena na první sečení. Celkem 6–8 týdnů od setby do prvního sekání." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/opravit-travnik-ples-mech#howto",
+    "name": "Jak opravit trávník – plíseň, mech a holá místa 2026",
+    "description": "Jak se zbavit mechu, plísně a holých míst v trávníku. Příčiny poškození, správný postup obnovy a prevence – krásný trávník bez chemie i s ní.",
+    "step": [
+      { "@type": "HowToStep", "name": "Diagnóza – co trápí tvůj trávník", "text": "Než sáhneš po herbicidu nebo fungicidu, zjisti co skutečně trávník trápí. Každý problém má jiné řešení a špatná diagnóza situaci zhorší." },
+      { "@type": "HowToStep", "name": "Mech v trávníku – jak se zbavit", "text": "Mech je symptom, ne příčina. Chemické odstranění mechu bez změny podmínek ho přivede zpět do 1–2 sezón." },
+      { "@type": "HowToStep", "name": "Plíseň trávníku", "text": "Trávníkové plísně (Fusarium, Pythium, Red Thread) se projevují různě — šedivé pavučiny, červenohnědé skvrny nebo kroužky. Nejčastěji se objevují na jaře a na podzim za vlhkého počasí." },
+      { "@type": "HowToStep", "name": "Holá a žlutá místa – oprava", "text": "Holá a žlutá místa – oprava" },
+      { "@type": "HowToStep", "name": "Jarní obnova trávníku – postup", "text": "Duben je ideální čas na kompletní obnovu trávníku po zimě. Správné pořadí prací je důležité." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/opravit-travnik-ples-mech#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak opravit trávník – plíseň, mech a holá místa 2026", "item": "https://www.domovniguru.cz/blog/opravit-travnik-ples-mech" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak opravit trávník – plíseň, mech a holá místa</h1>
               <p className="article-lead">Žlutá holá místa, zelený mech nebo šedivá plíseň — každý problém má jinou příčinu a jiné řešení. Správná diagnóza je základ. Tady je jak ji udělat a jak trávník obnovit.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/opravit-travnik-ples-mech" title="Jak opravit trávník – plíseň, mech a holá místa 2026" />
             </header>
 

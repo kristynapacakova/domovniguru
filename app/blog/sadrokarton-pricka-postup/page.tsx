@@ -17,12 +17,44 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup#article",
     "headline": "Jak postavit příčku ze sádrokartonu",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak postavit příčku ze sádrokartonu", "sádrokarton příčka postup", "ocelové profily příčka", "sádrokartonová stěna", "spárování sádrokarton", "SDK příčka DIY"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak moc izoluje sádrokartonová příčka zvuk?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní jednoduchá příčka (SDK + profily, bez izolace) má Rw kolem 35–38 dB — to nestačí pro oddělení ložnice od obývacího pokoje. S minerální vatou uvnitř se dostaneš na 42–48 dB, což je výrazně lepší. Pro maximální zvukovou izolaci použij dvojité opláštění (2 desky na každé straně) a akustické desky — Rw až 55 dB." } },
+      { "@type": "Question", "name": "Mohu zavěsit těžké předměty na sádrokartonovou příčku?", "acceptedAnswer": { "@type": "Answer", "text": "Na sádrokarton bez kotvení do profilu lze zavěsit max. 15–20 kg (obrázky, lehké police). Pro těžší předměty (TV, police s knihami) musíš trefně kotvit přímo do ocelového CW profilu nebo použít speciální sádrokartonové hmoždinky (molly) — únosnost až 30–50 kg. Při stavbě příčky je vhodné plánovat kde bude těžká police a přidat extra profil." } },
+      { "@type": "Question", "name": "Kolik stojí sádrokartonová příčka?", "acceptedAnswer": { "@type": "Answer", "text": "Materiál na příčku 3×2,5 m (7,5 m²) stojí 2 000–5 000 Kč (desky, profily, tmel, vata). Profesionální montáž přidá 150–300 Kč/m², tedy 1 100–2 250 Kč práce. Celkem 3 000–7 000 Kč za příčku. Svépomocí ušetříš práci — za víkend zvládneš příčku sám." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup#howto",
+    "name": "Jak postavit příčku ze sádrokartonu",
+    "description": "Sádrokartonová příčka krok za krokem. Jak vyměřit, postavit ocelové profily, přišroubovat desky a přetmelit spáry. Postup pro laiky bez speciálního nářadí.",
+    "step": [
+      { "@type": "HowToStep", "name": "Materiál a nářadí – co potřebuješ", "text": "Materiál a nářadí – co potřebuješ" },
+      { "@type": "HowToStep", "name": "Montáž profilů – základ příčky", "text": "Montáž profilů – základ příčky" },
+      { "@type": "HowToStep", "name": "Pokládka sádrokartonových desek", "text": "Pokládka sádrokartonových desek" },
+      { "@type": "HowToStep", "name": "Izolace a rozvody uvnitř příčky", "text": "Izolace a rozvody uvnitř příčky" },
+      { "@type": "HowToStep", "name": "Tmelení spár a finalizace", "text": "Tmelení spár je nejzdlouhavější část — ale i nejdůležitější pro výsledný vzhled. Špatně přetmelená příčka bude mít viditelné nerovnosti pod barvou." },
+      { "@type": "HowToStep", "name": "Typy sádrokartonových desek", "text": "Typy sádrokartonových desek" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak postavit příčku ze sádrokartonu", "item": "https://www.domovniguru.cz/blog/sadrokarton-pricka-postup" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +86,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak postavit příčku ze sádrokartonu – profily, desky, spárování</h1>
               <p className="article-lead">Sádrokartonová příčka je nejrychlejší způsob jak rozdělit místnost nebo vytvořit novou stěnu. Zvládneš ji sám za víkend — bez zedníků a bez lití betonu.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/sadrokarton-pricka-postup" title="Jak postavit příčku ze sádrokartonu" />
             </header>
 
@@ -145,6 +177,7 @@ export default function ArticlePage() {
             <section id="material">
               <h2>Materiál a nářadí – co potřebuješ</h2>
               <h3>Materiál (pro příčku 3×2,5 m = 7,5 m²)</h3>
+              <p>Kolik desek, profilů a tmelu přesně potřebuješ, spočítá <Link href="/kalkulacky/kolik-sadrokartonu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka množství sádrokartonu</Link>.</p>
               <ul>
                 <li><strong>SDK desky:</strong> 2× 7,5 m² = 15 m² desek (+ 10 % rezerva). Standardní deska 12,5 mm nebo 15 mm pro lepší zvukovou izolaci.</li>
                 <li><strong>UW profil (podlahový/stropní):</strong> Délka příčky × 2 = 6 m + rezerva. Šířka 75 mm pro standardní příčku.</li>

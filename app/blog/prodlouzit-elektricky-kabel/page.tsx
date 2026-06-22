@@ -17,12 +17,41 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel#article",
     "headline": "Jak prodloužit elektrický kabel bezpečně – postup 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak prodloužit elektrický kabel", "prodloužení kabelu", "kabelová spojka", "prodlužovačka bezpečnost", "elektro kabel prodloužení", "přidání zásuvky"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jaký průřez kabelu potřebuji na prodloužení?", "acceptedAnswer": { "@type": "Answer", "text": "Průřez prodlužovacího kabelu musí být stejný nebo větší než průřez původního kabelu. Pro běžné spotřebiče do 2 500 W (svítidla, televize, počítač): 1,5 mm². Pro silnější spotřebiče (pračka, myčka, trouba): 2,5 mm². Pro elektrokotle a klimatizace: 4 mm² a více — nutný elektrikář." } },
+      { "@type": "Question", "name": "Smím sám prodloužit kabel od svítidla?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — prodloužení kabelu přenosného svítidla (stolní lampa, stojací lampa) zvládneš sám v kabelové spojovací krabici. Vždy vypoj svítidlo ze zásuvky před zahájením práce. Prodloužení pevně zapojeného svítidla (svítidlo připojené přímo do elektroinstalace) musí provést elektrikář." } },
+      { "@type": "Question", "name": "Jak dlouhá může být prodlužovačka?", "acceptedAnswer": { "@type": "Answer", "text": "Délka prodlužovačky závisí na průřezu kabelu a zatížení. Standardní prodlužovačka (1,5 mm², 10 A): do 10 m bez výrazné ztráty napětí. Delší prodlužovačky pro silné spotřebiče potřebují silnější kabel (2,5 mm²). Při delším kabelu vždy bubnovou prodlužovačku zcela odroluj — navinutý kabel se přehřívá." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel#howto",
+    "name": "Jak prodloužit elektrický kabel bezpečně – postup 2026",
+    "description": "Jak bezpečně prodloužit elektrický kabel pomocí spojky, prodlužovačky nebo nové zásuvky. Co je legální a co je nebezpečné – průvodce pro domácí kutily.",
+    "step": [
+      { "@type": "HowToStep", "name": "Prodlužovačka – dočasné řešení", "text": "Prodlužovačka je nejrychlejší a nejbezpečnější řešení pro přechodné potřeby. Ale má svá pravidla." },
+      { "@type": "HowToStep", "name": "Kabelová spojka – pevné prodloužení", "text": "Kabelová spojka umožňuje pevně prodloužit kabel spotřebiče. Musí být provedena správně — v elektroinstalační krabici s víkem." },
+      { "@type": "HowToStep", "name": "Nová zásuvka – nejlepší trvalé řešení", "text": "Pokud ti zásuvka stále chybí na stejném místě, nejlepší řešení je přidat novou zásuvku do elektroinstalace. Trvale, bezpečně a bez kabelů křížem přes místnost." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak prodloužit elektrický kabel bezpečně – postup 2026", "item": "https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +83,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak prodloužit elektrický kabel bezpečně</h1>
               <p className="article-lead">Krátký kabel od spotřebiče je frustrace každého domácího kutila. Existují tři způsoby jak to vyřešit — každý má jiné použití a jiné bezpečnostní nároky. Tady je který kdy použít.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/prodlouzit-elektricky-kabel" title="Jak prodloužit elektrický kabel bezpečně – postup 2026" />
             </header>
 

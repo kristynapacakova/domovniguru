@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn#article",
     "headline": "Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak rozložit kuchyň", "přestěhování kuchyňské linky", "demontáž kuchyně", "stěhování kuchyň postup", "jak sejmout dvířka kuchyně"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Vyplatí se přestěhovat starou kuchyň nebo koupit novou?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na stáří a stavu kuchyně. Kuchyň starší 15 let nebo poškozená demontáží se pravděpodobně nevyplatí stěhovat. Mladší kuchyň v dobrém stavu se vyplatí přestěhovat — nová kuchyň stojí 50 000–200 000 Kč a víc, přestěhování kuchyně 3 000–8 000 Kč práce. Navíc nová kuchyň nemusí pasovat do nového prostoru." } },
+      { "@type": "Question", "name": "Jak dlouho trvá demontáž kuchyně?", "acceptedAnswer": { "@type": "Answer", "text": "Průměrná kuchyň (3–4 metry): 3–5 hodin pro dva lidi. Velká kuchyň nebo kuchyň s mnoha spotřebiči: 5–8 hodin. Profesionální stěhovací firma se specializací na kuchyně zvládne demontáž za 2–3 hodiny. Nezapočítávej čas na balení — to je dalších 1–2 hodiny." } },
+      { "@type": "Question", "name": "Co dělat pokud kuchyň není šroubovaná ale přilepená?", "acceptedAnswer": { "@type": "Answer", "text": "Starší kuchyně nebo kuchyně montované \"natvrdo\" mohou být přilepené ke zdi montážní pěnou nebo tmelem. V tom případě je demontáž destructivní — skříňky se při oddělování od zdi poškodí. Zavolej odbornou firmu která posoudí jestli je demontáž bez poškození možná, nebo zda je lepší kuchyň nechat a koupit novou." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn#howto",
+    "name": "Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026",
+    "description": "Jak bezpečně rozložit kuchyňskou linku při stěhování. Co demontovat jako první, jak zabalit dvířka a pracovní desku a jak kuchyni znovu sestavit na novém místě.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava před demontáží", "text": "Příprava před demontáží" },
+      { "@type": "HowToStep", "name": "Postup demontáže krok za krokem", "text": "Postup demontáže krok za krokem" },
+      { "@type": "HowToStep", "name": "Jak zabalit díly na transport", "text": "Jak zabalit díly na transport" },
+      { "@type": "HowToStep", "name": "Sestavení na novém místě", "text": "Sestavení na novém místě" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026", "item": "https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +84,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak rozložit a přestěhovat kuchyň – postup bez poškození</h1>
               <p className="article-lead">Přestěhování kuchyně je jeden z nejtěžších úkolů při stěhování. Správné pořadí demontáže a balení rozhoduje o tom jestli kuchyni úspěšně sestavíš na novém místě.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/rozlozit-ikea-kuchyn" title="Jak rozložit a přestěhovat kuchyň – postup bez poškození 2026" />
             </header>
 
@@ -151,7 +181,7 @@ export default function ArticlePage() {
                 </details>
                 <details className="faq-item">
                   <summary className="faq-summary">Co dělat pokud kuchyň není šroubovaná ale přilepená?<span className="faq-icon">▾</span></summary>
-                  <div className="faq-body">Starší kuchyně nebo kuchyně montované "natvrdo" mohou být přilepené ke zdi montážní pěnou nebo tmelem. V tom případě je demontáž destructivní — skříňky se při oddělování od zdi poškodí. Zavolej odbornou firmu která posoudí jestli je demontáž bez poškození možná, nebo zda je lepší kuchyň nechat a koupit novou.</div>
+                  <div className="faq-body">Starší kuchyně nebo kuchyně montované "natvrdo" mohou být přilepené ke zdi montážní pěnou nebo tmelem. V tom případě je demontáž destructivní — skříňky se při oddělování od zdi poškodí. Zavolej odbornou firmu která posoudí jestli je demontáž bez poškození možná, nebo zda je lepší kuchyň nechat a koupit novou. Při montáži nové kuchyně ti pomůže <Link href="/kalkulacky/kolik-sterky" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka stěrky a tmelu</Link> s odhadem spotřeby.</div>
                 </details>
               </div>
             </section>

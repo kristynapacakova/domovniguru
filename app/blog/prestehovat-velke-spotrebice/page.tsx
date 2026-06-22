@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice#article",
     "headline": "Jak přestěhovat velké spotřebiče – lednička, pračka, myčka 2026",
     "datePublished": "2026-04-16T08:00:00Z",
-    "dateModified": "2026-04-16T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak přestěhovat ledničku", "stěhování pračky", "přeprava velké spotřebiče", "jak odpojit pračku", "stěhování myčky", "přesun ledničky postup"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu přepravovat ledničku na boku?", "acceptedAnswer": { "@type": "Answer", "text": "Ideálně ne. Pokud to nelze jinak (nízký strop dodávky), přepravuj ji nakloněnou maximálně 45° na stranu kde je kompresor nahoře. Po přestěhování nechej stát svisle 24 hodin před zapnutím — olej se musí vrátit z chladicích trubic do kompresoru. Ležení na boku zkracuje životnost kompresoru." } },
+      { "@type": "Question", "name": "Kde najdu transportní šrouby pro pračku?", "acceptedAnswer": { "@type": "Answer", "text": "Transportní šrouby jsou přiloženy v originálním balení pračky — zpravidla v sáčku spolu s návodem. Pokud jsi je ztratil, objednej je u výrobce nebo v autorizovaném servisu pračky (cena 100–300 Kč za sadu). Šrouby jsou specifické pro každý model — bez správného modelu pračky je nepůjde objednat." } },
+      { "@type": "Question", "name": "Vyplatí se pořídit stěhování spotřebičů přes stěhování firmu?", "acceptedAnswer": { "@type": "Answer", "text": "Pro přesun přes více pater nebo vzdálenost nad 50 km ano — profesionální stěhovací firma má rudly, ochranné materiály a zkušenosti. Cena za přesun spotřebiče: 500–1 500 Kč za kus. Sám ušetříš peníze ale potřebuješ alespoň 2 silné pomocníky a vhodné vozidlo." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice#howto",
+    "name": "Jak přestěhovat velké spotřebiče – lednička, pračka, myčka 2026",
+    "description": "Bezpečné stěhování ledničky, pračky a myčky. Jak vyprázdnit, odpojit, zabalit a transportovat velké spotřebiče bez poškození – postup krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Lednička a mraznička – nejcitlivější spotřebič", "text": "Lednička je nejnáchylnější na nesprávné stěhování — poškozený kompresor nebo chladicí okruh je neopravitelný a znamená novou ledničku." },
+      { "@type": "HowToStep", "name": "Pračka – transportní šrouby jsou klíčové", "text": "Pračka – transportní šrouby jsou klíčové" },
+      { "@type": "HowToStep", "name": "Myčka nádobí", "text": "Myčka nádobí" },
+      { "@type": "HowToStep", "name": "Sporák, trouba a plynové spotřebiče", "text": "Sporák, trouba a plynové spotřebiče" },
+      { "@type": "HowToStep", "name": "Přeprava a transport – praktické tipy", "text": "Přeprava a transport – praktické tipy" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak přestěhovat velké spotřebiče – lednička, pračka, myčka 2026", "item": "https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak přestěhovat velké spotřebiče – lednička, pračka, myčka</h1>
               <p className="article-lead">Špatně přestěhovaná lednička nebo pračka může přijít draho — poškozený kompresor, voda v motoru nebo prasknutá hadice. Správná příprava před stěhováním trvá hodinu a ušetří tisíce.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 16. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/prestehovat-velke-spotrebice" title="Jak přestěhovat velké spotřebiče – lednička, pračka, myčka 2026" />
             </header>
 
@@ -142,7 +173,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Vždy dvě osoby minimum:</strong> Velké spotřebiče jsou těžké (50–100 kg) a neohrabané. Jedna osoba nestačí a hrozí zranění nebo poškození spotřebiče.</li>
                 <li><strong>Rudl (vozík na těžká břemena):</strong> Pronájem nebo koupě 500–1 500 Kč — nezbytný pro transport bez poškození zad a podlahy.</li>
-                <li><strong>Ochrana podlahy:</strong> Při posunutí spotřebiče přes podlahu vlož pod rohy lepenku nebo přeložený karton — zabrání škrábání dlažby nebo vinylu.</li>
+                <li><strong>Ochrana podlahy:</strong> Při posunutí spotřebiče přes podlahu vlož pod rohy lepenku nebo přeložený karton — zabrání škrábání dlažby nebo vinylu. Pokud dlažbu plánuješ brzy vyměnit, množství materiálu spočítáš přes <Link href="/kalkulacky/kolik-dlazby" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku dlažby</Link>.</li>
                 <li><strong>Přepravní auto:</strong> Spotřebiče přepravuj svisle v uzavřeném voze. Překryvná deka nebo polystyrén zabrání poškrábání povrchu.</li>
               </ul>
             </section>

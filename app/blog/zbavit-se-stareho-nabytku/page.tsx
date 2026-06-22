@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku#article",
     "headline": "Jak se zbavit starého nábytku",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak se zbavit starého nábytku", "prodat starý nábytek", "darovat nábytek", "odvoz starého nábytku", "sběrný dvůr nábytek", "bazaar nábytek"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu starou pohovku vyhodit do kontejneru?", "acceptedAnswer": { "@type": "Answer", "text": "Do běžného komunálního kontejneru (popelnice) ne — velký nábytek tam nepatří a hrozí pokuta. Možnosti: sběrný dvůr (zdarma), pronájem velkoobjemového kontejneru, nebo přistavení kontejneru od technických služeb obce. Mnoho obcí nabízí 1–2× ročně přistavení kontejneru na velké odpady zdarma pro občany." } },
+      { "@type": "Question", "name": "Kolik dostanu za starou pohovku na Bazoši?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na stavu, značce a lokalitě. Průměrná pohovka v dobrém stavu: 500–3 000 Kč. Designová nebo značková pohovka: 3 000–15 000 Kč. Pohovka v horším stavu: 0–500 Kč nebo darovat. Fotky a popis jsou klíčové — pohovka s dobrými fotkami se prodá za 2× více než stejná pohovka s tmavou rozmazanou fotkou." } },
+      { "@type": "Question", "name": "Charity si samy odvezou nábytek?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na charitě a lokalitě. Armáda spásy a některé pobočky Naděje mají odvoz — ale kapacita je omezená a čekací doba může být 1–4 týdny. Zavolej předem a domluvte se. Podmínka je vždy dobrý stav nábytku — poškozený nebo opotřebovaný nábytek charity neberou." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku#howto",
+    "name": "Jak se zbavit starého nábytku",
+    "description": "Jak se zbavit starého nábytku rychle a bez stresu. Prodej online, darovací portály, sběrné dvory nebo kontejner – průvodce všemi možnostmi včetně cen.",
+    "step": [
+      { "@type": "HowToStep", "name": "Prodat online – jak na to", "text": "Dobrý nábytek v použitelném stavu se prodá rychle. Klíč je správná fotka a realistická cena." },
+      { "@type": "HowToStep", "name": "Darovat – kde a jak", "text": "Darovat – kde a jak" },
+      { "@type": "HowToStep", "name": "Sběrný dvůr – zdarma a ihned", "text": "Každá obec provozuje sběrný dvůr kde lze zdarma odevzdat starý nábytek. Je to nejrychlejší a nejlevnější způsob jak se zbavit nábytku který nikdo nechce." },
+      { "@type": "HowToStep", "name": "Odvozová firma – pohodlné ale placené", "text": "Pokud nemáš auto, nemůžeš rozložit nábytek nebo prostě nechceš ztrácet čas, zavolej odvozovou firmu. Za 500–3 000 Kč přijdou, odnesou a odvezou." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit starého nábytku", "item": "https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +84,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak se zbavit starého nábytku – prodat, darovat nebo odvézt</h1>
               <p className="article-lead">Stará pohovka nebo skříň blokují místo a brání stěhování. Tady jsou všechny možnosti jak se jich zbavit — od prodeje za pár tisíc po bezplatný odvoz do 24 hodin.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-stareho-nabytku" title="Jak se zbavit starého nábytku" />
             </header>
 
@@ -99,7 +129,7 @@ export default function ArticlePage() {
 
             <section id="prodat">
               <h2>Prodat online – jak na to</h2>
-              <p>Dobrý nábytek v použitelném stavu se prodá rychle. Klíč je správná fotka a realistická cena.</p>
+              <p>Dobrý nábytek v použitelném stavu se prodá rychle. Klíč je správná fotka a realistická cena. Peníze z prodeje se hodí na malování nového bytu — cenu odhadneš pomocí <Link href="/kalkulacky/cena-malovani" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny malování</Link>.</p>
               <ul>
                 <li><strong>Kde inzerovat:</strong> Bazoš.cz (největší databáze kupujících v ČR), Facebook Marketplace (rychlé místní prodeje), Fler.cz (pro designové nebo vintage kusy).</li>
                 <li><strong>Fotky rozhodují:</strong> Foť na denním světle, pozadí uklizené. Víc fotek = víc zájemců. Vyfotografuj případné poškození — předejdeš reklamacím a ztrátě času.</li>

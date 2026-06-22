@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#article",
     "headline": "Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026",
     "datePublished": "2026-04-16T08:00:00Z",
-    "dateModified": "2026-04-16T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak postavit vyvýšený záhon", "vyvýšený záhon dřevěný", "vyvýšený záhon postup", "substrát vyvýšený záhon", "vyvýšený záhon rozměry"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho vydrží dřevěný vyvýšený záhon?", "acceptedAnswer": { "@type": "Answer", "text": "Impregnovaná borovice vydrží 5–8 let, modřín 10–15 let, akát 20+ let bez impregnace. Pro záhon s jedlými rostlinami nepoužívej chemicky impegnované dřevo (kreosot, CCA) — volitelné jsou pouze přírodní oleje nebo lněný olej. Geotextilie na vnitřní straně záhonu prodlouží životnost dřeva o 2–3 roky." } },
+      { "@type": "Question", "name": "Musím vyměňovat substrát každý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — substrát vydrží 3–5 let. Každé jaro přidej 5–10 cm čerstvého kompostu navrch a přidej pomalu uvolňující hnojivo. Po 3–5 letech substrát prosej, vyjmi kořeny a doplň čerstvou zeminou. Spodní vrstvy (větve, kompost) průběžně hnijí — záhon se každý rok mírně snižuje, doplňuj substrátem." } },
+      { "@type": "Question", "name": "Kolik stojí vybudování vyvýšeného záhonu?", "acceptedAnswer": { "@type": "Answer", "text": "Dřevěný záhon 120×240 cm: prkna 500–1 500 Kč, substrát (400 l) 800–2 000 Kč, kompost (200 l) vlastní nebo 500–1 000 Kč, geotextilie 150–300 Kč. Celkem 2 000–5 000 Kč. Hotový kovový nebo plastový záhon stojí 1 500–8 000 Kč bez substrátu." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#howto",
+    "name": "Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026",
+    "description": "Vyvýšený záhon ze dřeva nebo z betonu za víkend svépomocí. Správné rozměry, výplň substrátu, umístění a první výsev. Postup krok za krokem pro každého.",
+    "step": [
+      { "@type": "HowToStep", "name": "Proč vyvýšený záhon?", "text": "Proč vyvýšený záhon?" },
+      { "@type": "HowToStep", "name": "Správné rozměry vyvýšeného záhonu", "text": "Správné rozměry vyvýšeného záhonu" },
+      { "@type": "HowToStep", "name": "Dřevěný záhon – stavba krok za krokem", "text": "Dřevěný záhon – stavba krok za krokem" },
+      { "@type": "HowToStep", "name": "Výplň a substrát – klíč k úspěchu", "text": "Vrstvy záhonu plníš odspodu. Spodní vrstvy postupně hnijí a uvolňují teplo a živiny." },
+      { "@type": "HowToStep", "name": "Co pěstovat ve vyvýšeném záhonu", "text": "Vyvýšený záhon je ideální pro téměř veškerou zeleninu. Nejlépe se hodí:" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026", "item": "https://www.domovniguru.cz/blog/vyvyseny-zahon-postup" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak postavit vyvýšený záhon – dřevěný nebo z betonu</h1>
               <p className="article-lead">Vyvýšený záhon je nejlepší investice do zahrady — rychleji prohřátá půda, žádné klečení, snazší údržba a 2–3× vyšší výnosy než v záhoně na zemi. Za víkend máš hotovo.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 16. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vyvyseny-zahon-postup" title="Jak postavit vyvýšený záhon – dřevěný nebo z betonu 2026" />
             </header>
 
@@ -179,7 +210,7 @@ export default function ArticlePage() {
                 <li><strong>Vrstva 1 — Dno (10–15 cm):</strong> Hrubý materiál — větve, kulatina, kůra. Zajistí odvodnění a postupně hnijí jako "topení" záhonu.</li>
                 <li><strong>Vrstva 2 — Střed (15–20 cm):</strong> Hrubý kompost, hnůj, listí, zelený odpad. Zdroj živin na roky.</li>
                 <li><strong>Vrstva 3 — Vrchní (25–30 cm):</strong> Kvalitní zahradní substrát smíchaný s kompostem (50:50). Do tohoto seješ a sázíš.</li>
-                <li><strong>Celkové množství:</strong> Záhon 120×240 cm, výška 70 cm = 200 litrů substrátu do vrchní vrstvy + hrubý materiál.</li>
+                <li><strong>Celkové množství:</strong> Záhon 120×240 cm, výška 70 cm = 200 litrů substrátu do vrchní vrstvy + hrubý materiál. Přesné množství hlíny pro svůj záhon snadno spočítáš v <Link href="/kalkulacky/kolik-hliny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hlíny</Link>.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Po naplnění záhon vydatně zalij — substrát sedne o 10–15 cm. Doplň do výše 5 cm pod okraj. Záhon je připravený k setí za 2–3 dny.</div>
             </section>

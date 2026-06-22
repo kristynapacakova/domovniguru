@@ -17,12 +17,44 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#article",
     "headline": "Jak zateplit byt bez rekonstrukce – levná řešení 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak zateplit byt bez rekonstrukce", "zateplení bytu levně", "těsnění oken", "tepelné ztráty byt", "jak ušetřit na topení byt", "reflexní fólie radiátor"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik ušetřím na vytápění bez rekonstrukce?", "acceptedAnswer": { "@type": "Answer", "text": "Kombinací těsnění oken, prahové lišty, reflexní fólie a termostatických hlavic lze reálně ušetřit 15–25 % nákladů na vytápění. Při průměrném účtu 30 000 Kč/rok jde o 4 500–7 500 Kč ročně. Nejlevnější opatření (zimní nastavení kování, těsnicí páska) se vrátí za první topnou sezónu." } },
+      { "@type": "Question", "name": "Pomáhá zateplovací fólie na okna?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, transparentní zateplovací fólie na rámeček okna zevnitř vytváří vzduchovou mezeru a snižuje tepelné ztráty oknem o 30–50 %. Pro starší jednoskla je to výrazný přínos. Pro moderní trojskla je přínos menší. Cena 200–500 Kč na okno a montáž 30 minut — dobrý poměr cena/výkon." } },
+      { "@type": "Question", "name": "Mohu zateplit byt v pronájmu?", "acceptedAnswer": { "@type": "Answer", "text": "Všechna opatření v tomto článku jsou reverzibilní — těsnicí pásku lze odlepit, reflexní fólii vyjmout, závěsy sundat. Žádné z těchto opatření nevyžaduje souhlas pronajímatele. Pokud chceš udělat trvalejší úpravy (výměna oken, zateplení stěn), potřebuješ souhlas majitele." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#howto",
+    "name": "Jak zateplit byt bez rekonstrukce – levná řešení 2026",
+    "description": "Těsnění oken, těžké závěsy, reflexní fólie za radiátor a prahové lišty. Jak zateplit starý byt bez bourání a bez velkých investic – úspora až 20 % na vytápění.",
+    "step": [
+      { "@type": "HowToStep", "name": "Těsnění oken – největší přínos za nejméně peněz", "text": "Okna jsou největší slabina každého bytu — přes stará nebo špatně utěsněná okna uniká až 20 % tepla. Těsnění je nejlevnější a nejrychlejší opatření." },
+      { "@type": "HowToStep", "name": "Dveře a průvany – podceňovaný zdroj ztrát", "text": "Vstupní dveře a dveře do chodby jsou dalším velkým zdrojem průvanu. Teplý vzduch uniká pod dveřmi a chladný proudí ze schodiště nebo chodby." },
+      { "@type": "HowToStep", "name": "Reflexní fólie za radiátor – okamžitý efekt", "text": "Radiátor umístěný pod oknem nebo u vnější zdi vyzařuje část tepla přímo do zdi místo do místnosti. Reflexní fólie za radiátorem toto teplo odrazí zpět do místnosti." },
+      { "@type": "HowToStep", "name": "Závěsy a rolety – noční izolace", "text": "Okna jsou nejslabší místo v izolaci bytu — i trojsklo ztrácí v noci mnohem více tepla než izolovaná stěna. Těžké závěsy jsou překvapivě účinná izolace." },
+      { "@type": "HowToStep", "name": "Další levná opatření bez rekonstrukce", "text": "Další levná opatření bez rekonstrukce" },
+      { "@type": "HowToStep", "name": "V jakém pořadí začít – od nejlevnějšího", "text": "V jakém pořadí začít – od nejlevnějšího" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak zateplit byt bez rekonstrukce – levná řešení 2026", "item": "https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +86,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak zateplit byt bez rekonstrukce – levná řešení</h1>
               <p className="article-lead">Nechceš bourat ani utrácet desítky tisíc za zateplení? Existují levná opatření která sníží tepelné ztráty o 15–25 % — bez řemeslníků, bez povolení a většinou za víkend.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zateplit-byt-bez-rekonstrukce" title="Jak zateplit byt bez rekonstrukce – levná řešení 2026" />
             </header>
 
@@ -218,7 +250,7 @@ export default function ArticlePage() {
               <div className="faq-list">
                 <details className="faq-item">
                   <summary className="faq-summary">Kolik ušetřím na vytápění bez rekonstrukce?<span className="faq-icon">▾</span></summary>
-                  <div className="faq-body">Kombinací těsnění oken, prahové lišty, reflexní fólie a termostatických hlavic lze reálně ušetřit 15–25 % nákladů na vytápění. Při průměrném účtu 30 000 Kč/rok jde o 4 500–7 500 Kč ročně. Nejlevnější opatření (zimní nastavení kování, těsnicí páska) se vrátí za první topnou sezónu.</div>
+                  <div className="faq-body">Kombinací těsnění oken, prahové lišty, reflexní fólie a termostatických hlavic lze reálně ušetřit 15–25 % nákladů na vytápění. Při průměrném účtu 30 000 Kč/rok jde o 4 500–7 500 Kč ročně. Nejlevnější opatření (zimní nastavení kování, těsnicí páska) se vrátí za první topnou sezónu. Přesné náklady na plyn spočítáš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</div>
                 </details>
                 <details className="faq-item">
                   <summary className="faq-summary">Pomáhá zateplovací fólie na okna?<span className="faq-icon">▾</span></summary>

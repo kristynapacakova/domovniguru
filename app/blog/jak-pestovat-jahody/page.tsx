@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#article",
     "headline": "Jak pěstovat jahody – výsadba, péče a sklizeň 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak pěstovat jahody", "jahody výsadba", "péče o jahody", "jahody záhon", "jahody truhlík", "kdy sázet jahody"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho vydrží jahodník na záhoně?", "acceptedAnswer": { "@type": "Answer", "text": "Jedna rostlina jahodníku plodí nejlépe 2.–4. rok. Po 4–5 letech výnosy klesají a plody jsou menší. Obnov záhon každé 3–4 roky — vysaď nové sazenice (ideálně z vlastních šlahounů) na nové místo. Staré rostliny vytrhni a zakompostuj." } },
+      { "@type": "Question", "name": "Proč jsou moje jahody malé a bez chuti?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: nedostatek slunce (min. 6 hodin denně), přehnojení dusíkem (velké listy, malé plody), příliš husté sázení, stará přestárlá rostlina (po 4+ letech), nedostatek vody v době zrání, nebo sklizení příliš brzy. Jahody musí být plně červené a snadno se odtrhávat." } },
+      { "@type": "Question", "name": "Jaké odrůdy jahod doporučuješ pro začátečníky?", "acceptedAnswer": { "@type": "Answer", "text": "Pro začátečníky: Senga Sengana (klasická česká odrůda, velmi odolná), Honeoye (raná, velké plody), Elsanta (výborná chuť). Pro balkon: přeběžné odrůdy (plodí celé léto) — Elan, Albion, Seascape. Přeběžné odrůdy mají menší plody ale déle plodí." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#howto",
+    "name": "Jak pěstovat jahody – výsadba, péče a sklizeň 2026",
+    "description": "Jak pěstovat jahody na záhoně, v truhlíku nebo vyvýšeném záhonu. Kdy sázet, jak hnojit, jak se zbavit slimáků a kdy sklízet. Průvodce pro začátečníky.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde jahody pěstovat", "text": "Kde jahody pěstovat" },
+      { "@type": "HowToStep", "name": "Výsadba krok za krokem", "text": "Výsadba krok za krokem" },
+      { "@type": "HowToStep", "name": "Péče – zálivka, hnojení, mulčování", "text": "Péče – zálivka, hnojení, mulčování" },
+      { "@type": "HowToStep", "name": "Škůdci a nemoci", "text": "Škůdci a nemoci" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-pestovat-jahody#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak pěstovat jahody – výsadba, péče a sklizeň 2026", "item": "https://www.domovniguru.cz/blog/jak-pestovat-jahody" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -61,7 +91,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pěstovat jahody – výsadba, péče a sklizeň</h1>
               <p className="article-lead">Jahody jsou nejvděčnější ovoce pro zahradu i balkon — první plody přijdou už měsíc po výsadbě a jedna rostlina vydrží 3–4 roky. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-pestovat-jahody" title="Jak pěstovat jahody – výsadba, péče a sklizeň 2026" />
             </header>
 
@@ -124,7 +154,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Zálivka:</strong> Pravidelně a rovnoměrně — jahody nemají rády extrémní sucho ani přemokření. V létě 2–3× týdně. Zalévej pod listy (ne na listy) — mokré listy = plíseň. Kapková závlaha je ideální.</li>
                 <li><strong>Mulčování:</strong> Vrstva slány, kůry nebo speciální jahodové rohože pod rostlinami. Chrání plody před kontaktem se zemí (hniloba), udržuje vlhkost a potlačuje plevel. Tradičně se používá sláma — odtud anglicky "strawberry".</li>
-                <li><strong>Hnojení:</strong> Na jaře před kvetením: hnojivo s více dusíkem (podporuje listy). Po sklizni: hnojivo s více draslíkem a fosforem (pro příští rok). Přehnojování dusíkem = velké listy, málo plodů.</li>
+                <li><strong>Hnojení:</strong> Na jaře před kvetením: hnojivo s více dusíkem (podporuje listy). Po sklizni: hnojivo s více draslíkem a fosforem (pro příští rok) — správnou dávku pro svůj záhon si spočítáš v <Link href="/kalkulacky/kolik-hnojiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hnojiva</Link>. Přehnojování dusíkem = velké listy, málo plodů.</li>
                 <li><strong>Šlahouny:</strong> Jahody tvoří šlahouny (výběžky) které zapouštějí nové rostliny. Pokud nechceš rozmnožovat, odštipni je — rostlina investuje energii do plodů. Pokud chceš nové sazenice, nechej je zakořenit a přesaď.</li>
               </ul>
             </section>

@@ -18,7 +18,7 @@ const jsonLd = {
       "@id": "https://www.domovniguru.cz/blog/usetrit-na-vytapeni#article",
       "headline": "Jak ušetřit na vytápění bez výměny kotle – 10 tipů 2026",
       "datePublished": "2026-04-13T08:00:00Z",
-      "dateModified": "2026-04-13T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
@@ -32,7 +32,32 @@ const jsonLd = {
         { "@type": "Question", "name": "Vyplatí se termostatická hlavice?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, termostatická hlavice se vrátí za 1–2 topné sezóny. Cena je 200–600 Kč za kus, úspora při správném nastavení 10–15 % na dané místnosti. Chytrá hlavice (800–2 000 Kč) se naprogramuje podle rozvrhu a úspora je ještě vyšší." } },
         { "@type": "Question", "name": "Na jakou teplotu nastavit vytápění přes noc?", "acceptedAnswer": { "@type": "Answer", "text": "Doporučená noční teplota je 16–18 °C v ložnici a 15–17 °C v ostatních místnostech. Každý stupeň dolů ušetří přibližně 6 % nákladů na vytápění. Teplotu nenechávej klesnout pod 15 °C — opětovné zahřátí studeného bytu spotřebuje víc energie než udržování mírné teploty." } },
       ]
-    }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/usetrit-na-vytapeni#howto",
+      "name": "Jak ušetřit na vytápění bez výměny kotle – 10 tipů 2026",
+      "description": "Termostatické hlavice, programovatelný termostat, těsnění oken – jak ušetřit 20–30 % na vytápění bez investice do nového kotle nebo tepelného čerpadla.",
+      "step": [
+        { "@type": "HowToStep", "name": "Termostatické hlavice – nejrychlejší návratnost", "text": "Termostatická hlavice je malé zařízení které nahrazuje ruční ventil na radiátoru a automaticky reguluje průtok vody podle nastavené teploty místnosti. Stojí 200–600 Kč za kus, montáž zvládneš sám za 10 minut." },
+        { "@type": "HowToStep", "name": "Programovatelný termostat – automatická úspora bez námahy", "text": "Pokojový termostat řídí kotel nebo celou soustavu — na rozdíl od termostatické hlavice která ovládá jeden radiátor. Programovatelný termostat automaticky snižuje teplotu v době kdy jste pryč nebo spíte." },
+        { "@type": "HowToStep", "name": "Odvzdušnění radiátorů – zdarma, okamžitý efekt", "text": "Vzduch v topné soustavě snižuje výkon radiátoru o 15–25 %. Topení pracuje naplno, ale teplo se do místnosti nedostane — blokovány vzduchovou kapsou. Odvzdušnění stojí 0 Kč (jen čas) a klíč za 20–50 Kč." },
+        { "@type": "HowToStep", "name": "Těsnění oken a dveří – levná investice s velkou úsporou", "text": "Netěsná okna a dveře způsobují průvan a tepelné ztráty. V starším bytě může infiltrací (nekontrolovaným prouděním vzduchu netěsnostmi) unikat až 15 % tepla. Těsnění stojí 50–300 Kč za okno." },
+        { "@type": "HowToStep", "name": "Správné teploty v místnostech – za kolik topíš zbytečně", "text": "Přetápění je největší plýtvání. Každý stupeň navíc znamená 6 % vyšší účet. Doporučené teploty jsou nižší než většina lidí topí." },
+        { "@type": "HowToStep", "name": "Větrání a topení – jak je kombinovat správně", "text": "Větrání při zapnutém topení naplno je přímá ztráta peněz. Ale zavřený, nevětraný byt také zdražuje — vlhký vzduch se hůře ohřívá a kondenzace na stěnách odvádí teplo." },
+        { "@type": "HowToStep", "name": "Další tipy s malou investicí", "text": "Další tipy s malou investicí" }
+      ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/usetrit-na-vytapeni#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak ušetřit na vytápění bez výměny kotle – 10 tipů 2026", "item": "https://www.domovniguru.cz/blog/usetrit-na-vytapeni" }
+    ]
+  }
   ]
 };
 
@@ -65,7 +90,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak ušetřit na vytápění bez výměny kotle</h1>
               <p className="article-lead">Nový kotel nebo tepelné čerpadlo nejsou jediná cesta ke nižším účtům za topení. Termostatické hlavice, správné větrání a těsnění oken dokáží ušetřit 20–35 % – bez velké investice.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/usetrit-na-vytapeni" title="Jak ušetřit na vytápění bez výměny kotle – 10 tipů 2026" />
             </header>
 
@@ -155,7 +180,7 @@ export default function ArticlePage() {
 
             <section id="odvzdusni">
               <h2>Odvzdušnění radiátorů – zdarma, okamžitý efekt</h2>
-              <p>Vzduch v topné soustavě snižuje výkon radiátoru o 15–25 %. Topení pracuje naplno, ale teplo se do místnosti nedostane — blokovány vzduchovou kapsou. Odvzdušnění stojí 0 Kč (jen čas) a klíč za 20–50 Kč.</p>
+              <p>Vzduch v topné soustavě snižuje výkon radiátoru o 15–25 %. Topení pracuje naplno, ale teplo se do místnosti nedostane — blokovány vzduchovou kapsou. Odvzdušnění stojí 0 Kč (jen čas) a klíč za 20–50 Kč. Přesné náklady na plyn spočítáš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</p>
               <ul>
                 <li><strong>Jak poznat vzduch:</strong> Radiátor je nahoře studený, dole teplý. Bublání nebo kloktání při provozu topení.</li>
                 <li><strong>Kdy odvzdušnit:</strong> Na začátku každé topné sezóny — říjen/listopad. Po každém doplnění vody do soustavy.</li>

@@ -9,7 +9,30 @@ export const metadata: Metadata = {
   openGraph: { title: "Jak vybrat LED žárovku 2026", description: "Watt vs. lumen, Kelviny, CRI index a reálné úspory.", url: "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", images: [{ url: "/api/og?title=Jak%20vybrat%20LED%20%C5%BE%C3%A1rovku%20%E2%80%93%20parametry%20a%20%C3%BAspory&cat=blog", width: 1200, height: 630, alt: "Jak vybrat LED žárovku – parametry a úspory" }] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku#article", "headline": "Jak vybrat LED žárovku – parametry a úspory", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat LED žárovku", "LED žárovka watt lumen", "teplota světla Kelviny", "CRI index", "úspora LED žárovky", "E27 E14 GU10"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku#article", "headline": "Jak vybrat LED žárovku – parametry a úspory", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vybrat LED žárovku", "LED žárovka watt lumen", "teplota světla Kelviny", "CRI index", "úspora LED žárovky", "E27 E14 GU10"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Proč LED žárovka po vypnutí mírně svítí?", "acceptedAnswer": { "@type": "Answer", "text": "Toto je běžný jev způsobený dvěma věcmi: (1) Indukční napětí ze souběžně vedených kabelů v elektroinstalaci — malé množství proudu prochází i vypnutým obvodem. (2) Nevhodný stmívač nebo spínač se signalizační LED diodou — tato dioda pouští malý proud přes obvod i ve vypnutém stavu. Řešení: vyměň spínač za typ bez signalizační LED, nebo nainstaluj tzv. „bleed resistor\" (bypass). Zdraví ani bezpečnost to neohrožuje, ale obtěžuje to." } },
+      { "@type": "Question", "name": "Co je to stmívatelná LED a jak ji poznám?", "acceptedAnswer": { "@type": "Answer", "text": "Stmívatelná LED (dimmable) obsahuje speciální elektroniku která umožňuje plynulou regulaci jasu pomocí stmívače. Na krabičce hledej označení „dimmable\" nebo symbol stmívání. Pozor: ne každá stmívatelná LED je kompatibilní s každým stmívačem. Výrobci uvádějí seznam kompatibilních stmívačů — zkontroluj ho před nákupem. Nestmívatelná LED v obvodu se stmívačem bliká, může bzučet a zkracuje si životnost." } },
+      { "@type": "Question", "name": "Jak ušetřím co nejvíce při výměně žárovek v bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Prioritizuj podle hodin svícení: obývák a kuchyně svítí nejvíc — tam se investice vrátí nejrychleji. Sklep a WC svítí méně — tam klasické žárovky ještě doslužují. Kupuj žárovky v sadách (3–5 kusů) — cena za kus je nižší. Hledej energetický štítek třídy A nebo A+. Vyhni se výprodejovým „energeticky úsporným\" žárovkám starší generace (spiral CFL) — LED je efektivnější, spouští se okamžitě a neobsahuje rtuť." } },
+      { "@type": "Question", "name": "Může LED žárovka fungovat v uzavřeném svítidle?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na žárovce. LED žárovky jsou citlivé na teplo — v uzavřeném svítidle bez cirkulace vzduchu se přehřívají, zkracuje se jejich životnost a může klesat jas. Hledej žárovky označené „suitable for enclosed fixtures\" nebo „pro uzavřená svítidla\" — mají lepší tepelný management. Případně použij menší žárovky s nižším příkonem (méně tepla) nebo svítidlo vyměň za otevřené." } },
+      { "@type": "Question", "name": "Jaký je rozdíl mezi E27, E14 a GU10 paticí?", "acceptedAnswer": { "@type": "Answer", "text": "E27 (Edison 27 mm) je standardní velká závitová patice — nejrozšířenější, používá se v lustrech, stojacích lampách a nástěnkách. E14 (Edison 14 mm) je malá závitová — typická pro dekorativní svítidla, lustry s více rameny a malé nástěnky. GU10 je bodová bajonetová patice — používá se v podhledových a koupelnových svítidlech. Před koupí vždy fyzicky zkontroluj patici svítidla nebo vyšroubuj starú žárovku a zkontroluj označení na její patici." } }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vybrat LED žárovku – parametry a úspory", "item": "https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "LED vs. žárovky – co se skutečně vyplatí?", href: "/blog/led-vs-zarovky", read: "4 min" },
@@ -42,7 +65,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vybrat LED žárovku: Průvodce parametry, barvou světla a úsporami</h1>
               <p className="article-lead">Krabička od LED žárovky je plná čísel — watt, lumen, kelvin, CRI. Víme co každé číslo znamená a jak ho použít pro výběr správné žárovky do každé místnosti. Plus reálné úspory při výměně celého bytu.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 21. března 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/jak-vybrat-led-zarovku"
                 title="Jak vybrat LED žárovku – parametry a úspory"
@@ -365,7 +388,7 @@ export default function ArticlePage() {
             {/* SECTION 5 */}
             <section id="uspory">
               <h2>Reálné úspory při výměně žárovek v bytě</h2>
-              <p>Výměna všech žárovek v bytě za LED je jedna z mála investic do domácnosti která se vrátí do roka. Počítejme reálný příklad pro průměrný byt 3+kk s 15 žárovkami.</p>
+              <p>Výměna všech žárovek v bytě za LED je jedna z mála investic do domácnosti která se vrátí do roka. Počítejme reálný příklad pro průměrný byt 3+kk s 15 žárovkami. Svou osobní úsporu snadno zjistíš v naší <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce úspory LED žárovek</Link>.</p>
               <ul>
                 <li><strong>Průměrný byt 3+kk:</strong> 15 žárovek, průměrně 60 W klasická žárovka, svícení 4 hodiny denně</li>
                 <li><strong>Roční spotřeba před výměnou:</strong> 15 × 60 W × 4 h × 365 = 1 314 kWh → při 6 Kč/kWh = <strong>7 884 Kč/rok</strong></li>

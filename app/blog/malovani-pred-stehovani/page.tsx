@@ -11,7 +11,43 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak vymalovat byt před stěhováním", description: "Průvodce a načasování. Malovat před nebo po stěhování?" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#article", "headline": "Jak vymalovat byt před stěhováním – průvodce a načasování", "datePublished": "2025-02-22T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat před stěhováním", "malování prázdného bytu", "jak vymalovat byt", "malování při stěhování"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#article", "headline": "Jak vymalovat byt před stěhováním – průvodce a načasování", "datePublished": "2025-02-22T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["malovat před stěhováním", "malování prázdného bytu", "jak vymalovat byt", "malování při stěhování"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je vždy lepší malovat před stěhováním?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud situace dovolí. V prázdném bytě malíš 2–3× rychleji, dostaneš se ke každé části zdi a eliminuješ riziko poškrábání nábytku čerstvou barvou. Výjimkou je situace bez přechodného ubytování." } },
+      { "@type": "Question", "name": "Jak dlouho musí barva schnout před nastěhováním?", "acceptedAnswer": { "@type": "Answer", "text": "Barva je suchá na dotek za 1–2 hodiny, ale plnou pevnost získá za 48–72 hodin. Ideálně nastěhuj nábytek nejdříve 48 hodin po poslední vrstvě. Dřív hrozí otlačení a poškrábání nové barvy." } },
+      { "@type": "Question", "name": "V jakém pořadí malovat místnosti v novém bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Začni od místností, které budeš potřebovat první: ložnice (kde budeš spát první noc), pak obývák a kuchyň. Chodbu maluj nakonec – je průchozí a rychle se ušpiní." } },
+      { "@type": "Question", "name": "Musím v prázdném bytě dávat penetraci?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na stavu stěn. Pokud byt nebyl malován roky, jsou na stěnách skvrny nebo byl odstraněn starý nátěr, penetrace je nutná. Na normálně malované zdi v dobrém stavu ji lze přeskočit." } },
+      { "@type": "Question", "name": "Kolik barvy potřebuji na průměrný dvoupokojový byt?", "acceptedAnswer": { "@type": "Answer", "text": "Orientačně 15–20 litrů na dvě vrstvy (záleží na výšce stropu a počtu oken). Pro přesný výpočet zadej rozměry každé místnosti do kalkulačky barvy – dostaneš litry pro každou místnost zvlášť." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#howto",
+    "name": "Jak vymalovat byt před stěhováním – průvodce a načasování",
+    "description": "Malovat před nebo po stěhování? Jak vymalovat prázdný byt efektivně, v jakém pořadí a co neopomenout. Průvodce krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Malovat před nebo po stěhování?", "text": "Odpověď je jasná: vždy malovat před stěhováním do prázdného bytu, pokud to situace umožňuje. Důvody:" },
+      { "@type": "HowToStep", "name": "Načasování – kdy přesně malovat", "text": "Ideální scénář: dostaneš klíče od prázdného bytu, máš 3–5 dní před nastěhováním a v tu dobu vymaluješ. Barva stihne vyschnout a zafixovat se (doporučuje se 48–72 hodin před nastěhováním nábytku)." },
+      { "@type": "HowToStep", "name": "Příprava prázdného bytu", "text": "I v prázdném bytě zakryj podlahy fólií nebo starými novinami – kapky barvy jsou nevyhnutelné a z dlažby nebo dřevěné podlahy se špatně odstraňují." },
+      { "@type": "HowToStep", "name": "Pořadí místností a ploch", "text": "Začni od místností, které budeš potřebovat první: ložnice (kde budeš spát první noc), pak obývák, kuchyň, koupelna. Chodbu maluj nakonec – průchozí prostor se rychle zašpiní." },
+      { "@type": "HowToStep", "name": "Technika malování prázdného bytu", "text": "Bez nábytku se pohybuješ volně. Využij to – táhni válečkem delší tahy, nepřerušované od stropu k podlaze. Kratší tahy způsobují viditelné spoje. V prázdném bytě nejsi limitovaný nábytkem a stačí ti méně přesahů." },
+      { "@type": "HowToStep", "name": "Kolik barvy potřebuješ", "text": "Orientační spotřeba pro standardní místnosti (výška stropu 2,6 m, dvě vrstvy):" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/malovani-pred-stehovani#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vymalovat byt před stěhováním – průvodce a načasování", "item": "https://www.domovniguru.cz/blog/malovani-pred-stehovani" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
@@ -40,8 +76,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vymalovat byt před stěhováním – průvodce a načasování</h1>
               <p className="article-lead">Prázdný byt se maluje třikrát rychleji než zařízený. Žádné stěhování nábytku, žádné zakrývání, dokonalý přístup ke každé stěně. Tenhle článek ti ukáže, jak to udělat chytře – s správným načasováním a pořadím místností.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/malovani-pred-stehovani" title="Jak vymalovat byt před stěhováním – průvodce a načasování 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
@@ -144,7 +179,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>Pro přesný výpočet včetně odečtení oken a dveří použij <Link href="/kalkulacky/kolik-barvy">kalkulačku barvy</Link>.</p>
+              <p>Pro přesný výpočet včetně odečtení oken a dveří použij <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku barvy</Link>.</p>
             </section>
 
             <section id="tipy">

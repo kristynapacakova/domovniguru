@@ -17,19 +17,52 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#article",
     "headline": "Příprava domu na zimu – kompletní checklist 2026",
     "datePublished": "2026-04-13T08:00:00Z",
-    "dateModified": "2026-04-13T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["příprava domu na zimu", "zazimování domu", "checklist příprava na zimu", "kotel před zimou", "okna těsnění zima", "okapy čištění podzim", "zahrada zazimování"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Co je nejdůležitější udělat před zimou?", "acceptedAnswer": { "@type": "Answer", "text": "Top 3 priority: (1) Zkontrolovat kotel a odvzdušnit radiátory — výpadek topení v zimě je nejhorší scénář. (2) Uzavřít zahradní přípojku vody — prasknutá trubka od mrazu je drahá havárie. (3) Vyčistit okapy — ucpané okapy způsobují zatékání a tvorbu ledových rampouchů." } },
+      { "@type": "Question", "name": "Kdy nejpozději musím zazimovat dům?", "acceptedAnswer": { "@type": "Answer", "text": "Zahradní přípojka vody musí být uzavřena před prvními mrazy — v ČR typicky říjen nebo začátek listopadu. Kotel zkontroluj v září nebo říjnu. Okapy vyčisti po opadu listí — říjen/listopad. Čím dříve, tím lépe — v listopadu jsou technici nejvíce vytížení." } },
+      { "@type": "Question", "name": "Jak zazimovat dům pokud budu pryč celou zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Pokud dům bude prázdný: uzavři hlavní přívod vody a vyfoukni celý vodovod, nastav topení na protimrazový režim (min. 5–7 °C), požádej souseda nebo správce o pravidelnou kontrolu, vypni spotřebiče v zásuvkách. Nevypínej topení úplně — náklady na vysoušení domu po promrznutí jsou obrovské." } },
+      { "@type": "Question", "name": "Kolik stojí příprava domu na zimu?", "acceptedAnswer": { "@type": "Answer", "text": "Základní příprava bez servisního technika vychází na 500–2 000 Kč (těsnicí pásky, mazivo, posypová sůl, mulč). Se servisem kotle přidej 1 500–3 000 Kč. Celkem tedy 2 000–5 000 Kč — zlomek toho co stojí havarijní oprava v zimě." } },
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#howto",
+    "name": "Příprava domu na zimu – kompletní checklist 2026",
+    "description": "Kotel, okna, okapy, voda, zahrada – kompletní checklist přípravy domu na zimu. Co zkontrolovat v říjnu a listopadu aby zima nezaskočila.",
+    "step": [
+      { "@type": "HowToStep", "name": "Topení a kotel – priorita číslo jedna", "text": "Výpadek topení v zimě je nejhorší scénář — a zároveň nejpředvídatelnější. Kotel který celé léto stál potřebuje pozornost před první zimní zátěží." },
+      { "@type": "HowToStep", "name": "Okna a dveře – těsnění a kování", "text": "Netěsná okna způsobují průvan, tepelné ztráty a kondenzaci. Přezimová příprava oken trvá hodinu a ušetří stovky na vytápění." },
+      { "@type": "HowToStep", "name": "Vodovod a trubky – prevence prasknutí", "text": "Prasknutá trubka od mrazu je jedna z nejdražších zimních havárií. Preventivní opatření trvají hodinu." },
+      { "@type": "HowToStep", "name": "Okapy a střecha – čištění a kontrola", "text": "Ucpané okapy způsobují přetékání vody ke základům, tvorbu ledu a poškození fasády. Čistit na podzim po opadu listí — říjen/listopad." },
+      { "@type": "HowToStep", "name": "Zahrada a terasa – zazimování", "text": "Jaro je příjemnější pokud jsi na podzim udělal správnou přípravu. Zahradní práce v říjnu jsou investicí do jara." },
+      { "@type": "HowToStep", "name": "Ostatní – elektřina, nouzová výbava a sníh", "text": "Ostatní – elektřina, nouzová výbava a sníh" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Příprava domu na zimu – kompletní checklist 2026", "item": "https://www.domovniguru.cz/blog/priprava-domu-na-zimu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak zkontrolovat kotel před topnou sezónou", href: "/blog/zkontrolovat-kotel-pred-zimou", read: "6 min" },
-  { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
-  { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "6 min" },
   { title: "Jak se zbavit vlhkosti v bytě", href: "/blog/zbavit-se-vlhkosti-v-byte", read: "7 min" },
+  { title: "Jak bezpečně odlehčit střechu od sněhu", href: "/blog/odlehcit-strechu-od-snehu", read: "5 min" },
+  { title: "Jak pečovat o septik a žumpu – frekvence vyvážení a péče", href: "/blog/pece-o-septik-zumpu", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Příprava domu na zimu – kompletní checklist</h1>
               <p className="article-lead">Prasknutá trubka, kotel který nespustí, ucpané okapy nebo promrzlá zahradní přípojka — to vše jsou problémy které lze předejít hodinou práce v říjnu. Tady je vše co musíš udělat.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/priprava-domu-na-zimu" title="Příprava domu na zimu – kompletní checklist 2026" />
             </header>
 
@@ -130,7 +163,7 @@ export default function ArticlePage() {
 
             <section id="topeni">
               <h2>Topení a kotel – priorita číslo jedna</h2>
-              <p>Výpadek topení v zimě je nejhorší scénář — a zároveň nejpředvídatelnější. Kotel který celé léto stál potřebuje pozornost před první zimní zátěží.</p>
+              <p>Výpadek topení v zimě je nejhorší scénář — a zároveň nejpředvídatelnější. Kotel který celé léto stál potřebuje pozornost před první zimní zátěží. Jak vysoké budou náklady na vytápění, zjistíš předem v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>.</p>
               <ul>
                 <li><strong>☐ Zkontroluj tlak v soustavě</strong> — manometr na kotli, správný tlak za studena 1,5–2,0 bar. Doplň vodu pokud je pod 1 bar.</li>
                 <li><strong>☐ Odvzdušni všechny radiátory</strong> — studené nahoře = vzduch v soustavě = plýtvání energií. Viz <Link href="/blog/jak-odvzdusnit-radiatory" style={{color:"#5a9e6f",fontWeight:600}}>Jak odvzdušnit radiátor →</Link></li>

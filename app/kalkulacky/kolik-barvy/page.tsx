@@ -5,7 +5,7 @@ import BarvyCalculator from "@/app/components/BarvyCalculator";
 
 export const metadata: Metadata = {
   title: "Kalkulačka barvy na zeď 2026 – kolik litrů potřebuju?",
-  description: "Spočítej přesné množství barvy na malování místnosti. Zadej rozměry stěn, počet nátěrů a vydatnost barvy. Výsledek ihned – zdarma.",
+  description: "Kolik litrů barvy potřebuješ? Zadej rozměry místnosti, počet nátěrů a vydatnost – výpočet spotřeby barvy na m² ihned. Zdarma, bez registrace.",
   alternates: { canonical: "https://www.domovniguru.cz/kalkulacky/kolik-barvy" },
   openGraph: {
     title: "Kalkulačka barvy na zeď 2026",

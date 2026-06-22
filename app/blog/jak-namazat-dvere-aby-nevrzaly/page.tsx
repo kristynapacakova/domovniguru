@@ -17,12 +17,41 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#article",
     "headline": "Jak namazat dveře aby nevrzaly – čím a jak na to 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak namazat dveře", "vrzající dveře", "čím namazat závěsy dveří", "jak odstranit vrzání dveří", "WD-40 dveře závěsy"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Pomáhá WD-40 na vrzající dveře?", "acceptedAnswer": { "@type": "Answer", "text": "Krátkodobě ano — WD-40 uvolní rez, odstraní nečistoty a dveře přestanou vrzat. Ale WD-40 je primárně odrezovač a ředidlo, ne trvalé mazivo. Po 1–3 měsících vyprchá a vrzání se vrátí. Pro trvalé řešení použij silikonový sprej nebo grafitový prášek po prvním ošetření WD-40." } },
+      { "@type": "Question", "name": "Vrzají mi nové dveře — proč?", "acceptedAnswer": { "@type": "Answer", "text": "Nové dveře mohou vrzat pokud jsou závěsy suchem nebo pokud nejsou správně seřízené (dveře se lehce třou o zárubeň). Moderní závěsy bývají nastavitelné (výška, hloubka, stranový posuv) — seřídit malým šroubem. Pokud nastavení nepomáhá, reklamuj montáž." } },
+      { "@type": "Question", "name": "Jak namazat dveře bez sundávání závěsů?", "acceptedAnswer": { "@type": "Answer", "text": "Jednoduše — nanese mazivo přímo přes otevřené dveře na viditelný čep závěsu (trubičkový aplikátor WD-40 nebo silikonového spreje). Dveře otevři do 90° pro přístup k čepu. Nemusíš závěsy sundávat — mazivo pronikne kapilárně do mezery mezi čepem a objímkou pohybem dveří." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#howto",
+    "name": "Jak namazat dveře aby nevrzaly – čím a jak na to 2026",
+    "description": "Jak odstranit vrzání dveří rychle a natrvalo. Čím namazat závěsy a pantové dveře, co způsobuje vrzání a kdy je čas na výměnu závěsů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co způsobuje vrzání dveří", "text": "Co způsobuje vrzání dveří" },
+      { "@type": "HowToStep", "name": "Čím namazat závěsy – přehled maziv", "text": "Čím namazat závěsy – přehled maziv" },
+      { "@type": "HowToStep", "name": "Postup mazání krok za krokem", "text": "Postup mazání krok za krokem" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak namazat dveře aby nevrzaly – čím a jak na to 2026", "item": "https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -61,7 +90,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak namazat dveře aby nevrzaly – čím a jak na to</h1>
               <p className="article-lead">Vrzající dveře jsou otravné ale snadná oprava — trvá 5 minut a přípravek za pár desítek korun máš doma nebo ho koupíš v každém hobbymarketu. Tady je co přesně použít.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-namazat-dvere-aby-nevrzaly" title="Jak namazat dveře aby nevrzaly – čím a jak na to 2026" />
             </header>
 
@@ -133,7 +162,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Dřevěné dveře bobtnají:</strong> Pokud dveře nejdou zavřít nebo se třou o zárubeň — problém je v deformaci dřeva, ne v závěsech. Přebrousit hranu dveří nebo počkat až dřevo vyschne (otop v zimě). Pokud problém přetrvává — seřídit závěsy nebo zárubeň.</li>
                 <li><strong>Uvolněné šrouby závěsů:</strong> Pokud šroub nejde dotáhnout (otáčí se naprázdno) — díra je rozšroubovaná. Zalij díru sekundovým lepidlem nebo dřevěnou špejlí + lepidlo, nechej zaschnout a zašroubuj znovu.</li>
-                <li><strong>Rez na závěsu:</strong> Pokud závěs rezaví a vrzá i po namazání — vyměnit závěs. Nové závěsy jsou levné (50–200 Kč/ks) a výměna trvá 15 minut s šroubovákem.</li>
+                <li><strong>Rez na závěsu:</strong> Pokud závěs rezaví a vrzá i po namazání — vyměnit závěs. Nové závěsy jsou levné (50–200 Kč/ks) a výměna trvá 15 minut s šroubovákem. Při výměně celých dveří se vyplatí rámy utěsnit montážní pěnou — kolik jí spotřebuješ zjistíš přes <Link href="/kalkulacky/kolik-montazni-peny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku montážní pěny</Link>.</li>
               </ul>
             </section>
 

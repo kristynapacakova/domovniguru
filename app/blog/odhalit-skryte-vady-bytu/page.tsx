@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu#article",
     "headline": "Jak odhalit skryté vady bytu před koupí – checklist 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["skryté vady bytu", "checklist koupě bytu", "co zkontrolovat při koupi bytu", "prohlídka bytu před koupí", "vady nemovitosti"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Co dělat když po koupi zjistím skrytou vadu?", "acceptedAnswer": { "@type": "Answer", "text": "Skrytou vadu o které prodávající věděl a zamlčel ji lze reklamovat do 5 let od koupě. Musíš prokázat že vada existovala v době prodeje a prodávající o ní věděl (nebo vědět měl). Ihned fotografuj, zdokumentuj a konzultuj s advokátem. Bez právní pomoci je vymáhání složité." } },
+      { "@type": "Question", "name": "Mám si najít stavebního inspektora nebo realitního makléře?", "acceptedAnswer": { "@type": "Answer", "text": "Stavební inspektor a realitní makléř jsou dvě různé věci. Makléř zprostředkovává prodej — není jeho zájmem odrazovat od koupě. Stavební inspektor (soudní znalec nebo certifikovaný inspektor) posuzuje technický stav nezávisle. Pro větší investici (byt, dům) se stavební inspektor vyplatí vždy." } },
+      { "@type": "Question", "name": "Kdy je nejlepší čas na prohlídku bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Přes den za denního světla — umělé osvětlení skryje vlhkostní skvrny a nerovnosti. Ideálně po dešti — vlhkostní problémy jsou pak lépe viditelné. Naplánuj si dostatek času — min. 60–90 minut. Vyhni se uspěchaným prohlídkám s makléřem který tě pobízí k rychlému rozhodnutí." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu#howto",
+    "name": "Jak odhalit skryté vady bytu před koupí – checklist 2026",
+    "description": "Co zkontrolovat při prohlídce bytu před koupí. Vlhkost, elektrika, topení, hluk, právní vady – kompletní checklist kupce aby nezískal problémovou nemovitost.",
+    "step": [
+      { "@type": "HowToStep", "name": "Vlhkost a plíseň – nejčastější skrytá vada", "text": "Vlhkost je nejčastější a nejdražší skrytá vada. Prodávající ji zakryjí čerstvou malbou nebo nábytkem — ale existují signály které nepřehlédneš." },
+      { "@type": "HowToStep", "name": "Elektroinstalace", "text": "Elektroinstalace" },
+      { "@type": "HowToStep", "name": "Topení a voda", "text": "Topení a voda" },
+      { "@type": "HowToStep", "name": "Konstrukce a stavební stav", "text": "Konstrukce a stavební stav" },
+      { "@type": "HowToStep", "name": "Právní a administrativní vady", "text": "Právní a administrativní vady" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak odhalit skryté vady bytu před koupí – checklist 2026", "item": "https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -60,7 +91,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak odhalit skryté vady bytu před koupí – checklist</h1>
               <p className="article-lead">Skrytá vada bytu může stát stovky tisíc korun na opravu. Prodávající ji nemusí přiznat dobrovolně — ale pokud víš co hledat, odhalíš ji při prohlídce sám.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/odhalit-skryte-vady-bytu" title="Jak odhalit skryté vady bytu před koupí – checklist 2026" />
             </header>
 
@@ -101,7 +132,7 @@ export default function ArticlePage() {
 
             <section id="vlhkost">
               <h2>Vlhkost a plíseň – nejčastější skrytá vada</h2>
-              <p>Vlhkost je nejčastější a nejdražší skrytá vada. Prodávající ji zakryjí čerstvou malbou nebo nábytkem — ale existují signály které nepřehlédneš.</p>
+              <p>Vlhkost je nejčastější a nejdražší skrytá vada. Prodávající ji zakryjí čerstvou malbou nebo nábytkem — ale existují signály které nepřehlédneš. Pokud koupelna vyžaduje rekonstrukci, orientační náklady zjistíš přes <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačku ceny rekonstrukce</Link>.</p>
               <ul>
                 <li><strong>Tmavé skvrny na stropě nebo v rozích:</strong> Hnědé nebo šedé skvrny = zatékání nebo kondenzace. Zkontroluj pod střechou a u oken.</li>
                 <li><strong>Bublinková nebo vydutá malba:</strong> Barva se loupe nebo je vydutá — vlhkost za ní způsobuje odlupování. Jemně zmáčkni — pokud je dutá, pod ní je problém.</li>

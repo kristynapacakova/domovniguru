@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/prihlasit-trvaly-pobyt#article",
     "headline": "Jak přihlásit trvalý pobyt na nové adrese – postup 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["přihlásit trvalý pobyt", "změna trvalého pobytu", "přihlášení k trvalému pobytu", "ohlašovna trvalý pobyt", "doklady trvalý pobyt"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/prihlasit-trvaly-pobyt#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Do kdy musím přihlásit trvalý pobyt?", "acceptedAnswer": { "@type": "Answer", "text": "Zákon nestanovuje přesnou lhůtu pro přihlášení trvalého pobytu v rámci ČR. Přihlásit se můžeš kdykoli. Doporučujeme to udělat co nejdříve — zejména kvůli doručování pošty, správě daní a přístupu k místním službám. Zaměstnavatel a finanční úřad by o změně měly vědět do 15 dní." } },
+      { "@type": "Question", "name": "Může pronajímatel odmítnout souhlas s přihlášením?", "acceptedAnswer": { "@type": "Answer", "text": "Pronajímatel má právo odmítnout souhlas s přihlášením trvalého pobytu — není to zákonná povinnost pronajímatele. V praxi to záleží na dohodě při uzavírání nájemní smlouvy. Pokud souhlas odmítne, nemůžeš se přihlásit na dané adrese. Přihlášení trvalého pobytu bez souhlasu vlastníka není možné." } },
+      { "@type": "Question", "name": "Co se stane se starým trvalým pobytem?", "acceptedAnswer": { "@type": "Answer", "text": "Přihlášením na nové adrese automaticky zaniká trvalý pobyt na staré adrese — nemusíš se odhlašovat. Evidence obyvatel si změnu zpracuje sama. Starý trvalý pobyt přestane platit v okamžiku přihlášení na nové adrese." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prihlasit-trvaly-pobyt#howto",
+    "name": "Jak přihlásit trvalý pobyt na nové adrese – postup 2026",
+    "description": "Jak přihlásit trvalý pobyt na nové adrese krok za krokem. Které doklady přinést, na jaký úřad jít, lhůty a co se změní po přihlášení trvalého pobytu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde přihlásit trvalý pobyt", "text": "Kde přihlásit trvalý pobyt" },
+      { "@type": "HowToStep", "name": "Jaké doklady přinést", "text": "Jaké doklady přinést" },
+      { "@type": "HowToStep", "name": "Postup krok za krokem", "text": "Postup krok za krokem" },
+      { "@type": "HowToStep", "name": "Co změnit po přihlášení trvalého pobytu", "text": "Co změnit po přihlášení trvalého pobytu" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prihlasit-trvaly-pobyt#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak přihlásit trvalý pobyt na nové adrese – postup 2026", "item": "https://www.domovniguru.cz/blog/prihlasit-trvaly-pobyt" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -53,7 +83,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak přihlásit trvalý pobyt na nové adrese – postup</h1>
               <p className="article-lead">Přihlášení trvalého pobytu je jedna z prvních věcí po stěhování. Trvá to 15 minut na úřadě a potřebuješ jen pár dokladů. Tady je přesný postup.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/prihlasit-trvaly-pobyt" title="Jak přihlásit trvalý pobyt na nové adrese – postup 2026" />
             </header>
 

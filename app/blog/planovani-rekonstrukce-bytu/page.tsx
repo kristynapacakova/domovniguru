@@ -17,19 +17,50 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#article",
     "headline": "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak naplánovat rekonstrukci bytu", "pořadí prací rekonstrukce", "rozpočet rekonstrukce bytu", "rekonstrukce bytu postup", "výběr řemeslníků rekonstrukce"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kde začít při plánování rekonstrukce?", "acceptedAnswer": { "@type": "Answer", "text": "Začni průzkumem bytu a seznamem co chceš změnit. Pak zjisti stav rozvodů (elektro, voda) — jejich stav zásadně ovlivňuje cenu. Teprve pak kontaktuj řemeslníky pro první orientační nabídky. Nepodepisuj nic a nikomu neplať předem dokud nemáš celkový přehled o rozsahu a ceně." } },
+      { "@type": "Question", "name": "Kolik stojí kompletní rekonstrukce bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Kompletní rekonstrukce bytu 50–70 m² (bez nábytku) stojí orientačně 500 000–1 200 000 Kč v závislosti na rozsahu, kvalitě materiálů a lokalitě. Praha je zpravidla o 20–40 % dražší než regiony." } },
+      { "@type": "Question", "name": "Potřebuji stavební povolení na rekonstrukci bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Běžná rekonstrukce (malování, podlahy, koupelna, kuchyň) nevyžaduje stavební povolení. Povolení nebo ohlášení je potřeba pokud bouráš nosné zdi, měníš dispozici bytu nebo přesouváš rozvody způsobem který ovlivňuje společné části domu. Vždy ověř na stavebním úřadě." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#howto",
+    "name": "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026",
+    "description": "Jak naplánovat rekonstrukci bytu od A do Z. Správné pořadí prací, realistický rozpočet, výběr řemeslníků a časový harmonogram. Bez nepříjemných překvapení.",
+    "step": [
+      { "@type": "HowToStep", "name": "Určení rozsahu rekonstrukce", "text": "Před jakýmkoli počítáním peněz nebo voláním řemeslníků musíš přesně vědět co chceš udělat. Nejasný rozsah je nejčastější příčina překročení rozpočtu." },
+      { "@type": "HowToStep", "name": "Sestavení realistického rozpočtu", "text": "Podhodnocený rozpočet je nejčastější příčina nedokončených rekonstrukcí. Raději plánuj více a buď příjemně překvapený, než naopak." },
+      { "@type": "HowToStep", "name": "Správné pořadí prací", "text": "Pořadí prací není náhodné — špatné pořadí znamená že musíš hotovou práci rozbít nebo překopat." },
+      { "@type": "HowToStep", "name": "Výběr řemeslníků", "text": "Výběr řemeslníků" },
+      { "@type": "HowToStep", "name": "Časový harmonogram", "text": "Časový harmonogram" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026", "item": "https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak odhadnout cenu rekonstrukce předem", href: "/blog/odhadnout-cenu-rekonstrukce", read: "5 min" },
-  { title: "Kolik stojí rekonstrukce koupelny", href: "/blog/cena-rekonstrukce-koupelny", read: "5 min" },
   { title: "Jak najít a prověřit řemeslníka", href: "/blog/najit-proveri-remeslnika", read: "5 min" },
-  { title: "Jak zateplit byt bez rekonstrukce", href: "/blog/zateplit-byt-bez-rekonstrukce", read: "6 min" },
+  { title: "Jak postavit příčku ze sádrokartonu", href: "/blog/sadrokarton-pricka-postup", read: "8 min" },
+  { title: "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo", href: "/blog/zbavit-byt-zapachu-po-rekonstrukci", read: "4 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací</h1>
               <p className="article-lead">Rekonstrukce bez plánu skončí přetažením rozpočtu, špatným pořadím prací a stresem. S dobrým plánem zvládneš i kompletní rekonstrukci bez nepříjemných překvapení. Tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/planovani-rekonstrukce-bytu" title="Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026" />
             </header>
 
@@ -125,7 +156,7 @@ export default function ArticlePage() {
 
             <section id="rozpocet">
               <h2>Sestavení realistického rozpočtu</h2>
-              <p>Podhodnocený rozpočet je nejčastější příčina nedokončených rekonstrukcí. Raději plánuj více a buď příjemně překvapený, než naopak.</p>
+              <p>Podhodnocený rozpočet je nejčastější příčina nedokončených rekonstrukcí. Raději plánuj více a buď příjemně překvapený, než naopak. Rychlý odhad za koupelnu sestavíš pomocí <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny rekonstrukce koupelny</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Práce</th><th>Orientační cena (m² nebo kus)</th><th>Poznámka</th></tr></thead>
@@ -145,7 +176,7 @@ export default function ArticlePage() {
 
             <section id="poradi">
               <h2>Správné pořadí prací</h2>
-              <p>Pořadí prací není náhodné — špatné pořadí znamená že musíš hotovou práci rozbít nebo překopat.</p>
+              <p>Pořadí prací není náhodné — špatné pořadí znamená že musíš hotovou práci rozbít nebo překopat. Náklady na novou podlahu snadno odhadneš pomocí <Link href="/kalkulacky/cena-podlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny podlahy</Link>.</p>
               <ul>
                 <li><strong>1. Projekt a povolení:</strong> Pokud je potřeba stavební povolení, zařiď ho jako první — může trvat měsíce. Bez povolení nezačínej.</li>
                 <li><strong>2. Demolice a bourání:</strong> Vybourání starých rozvodů, obkladů, podlah a nepotřebných příček. Odvoz suti.</li>

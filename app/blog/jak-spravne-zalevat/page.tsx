@@ -12,24 +12,58 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@graph": [{
-    "@type": "Article",
-    "@id": "https://www.domovniguru.cz/blog/jak-spravne-zalevat#article",
-    "headline": "Jak správně zalévat zahradu – ráno nebo večer, kolik vody 2026",
-    "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
-    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
-    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
-    "inLanguage": "cs",
-    "keywords": ["jak správně zalévat zahradu", "kdy zalévat zahradu", "zálivka ráno nebo večer", "kapková závlaha", "kolik vody na záhon", "zalévání zeleniny"]
-  }]
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.domovniguru.cz/blog/jak-spravne-zalevat#article",
+      "headline": "Jak správně zalévat zahradu – ráno nebo večer, kolik vody 2026",
+      "datePublished": "2026-04-14T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
+      "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "inLanguage": "cs",
+      "keywords": ["jak správně zalévat zahradu", "kdy zalévat zahradu", "zálivka ráno nebo večer", "kapková závlaha", "kolik vody na záhon", "zalévání zeleniny"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/jak-spravne-zalevat#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Je lepší zalévat ráno nebo večer?", "acceptedAnswer": { "@type": "Answer", "text": "Ráno je jednoznačně lepší. Voda se vstřebá ke kořenům, listy schnou přes den (nižší riziko plísní) a výpar je nižší než v polední horko. Večerní zálivka je přijatelná, ale listy zůstávají mokré přes noc — riziko plísní je vyšší zvláště u rajčat a okurek." } },
+        { "@type": "Question", "name": "Jak poznám že zalévám příliš nebo málo?", "acceptedAnswer": { "@type": "Answer", "text": "Příliš málo: listy se svinují, žloutnou nebo vadnou i po zálivce, půda je suchá v hloubce. Příliš mnoho: listy žloutnou a opadávají, půda je trvale mokrá, kořeny zapáchají. Test prstem v půdě je nejspolehlivější — vlhká = nezalévej, suchá = čas na zálivku." } },
+        { "@type": "Question", "name": "Jak zalévat zahradu při dovolené?", "acceptedAnswer": { "@type": "Answer", "text": "Nejlepší řešení: zálivkový časovač na kohoutek (300–800 Kč) + kapková závlaha pro záhony. Pro nádoby: terracotta hroty nebo velké misky s vodou. Zásadně nemulčuj záhony před odjezdem — mulč udrží vlhkost déle." } },
+        { "@type": "Question", "name": "Proč mám na rajčatech hnědé dno plodů?", "acceptedAnswer": { "@type": "Answer", "text": "Hnědnutí dna rajčat (blossom end rot) způsobuje nedostatek vápníku při nerovnoměrném příjmu vody — střídání sucha a přelití. Řešení: pravidelná zálivka, mulčování pro udržení vlhkosti a případně postřik s vápenatou vodou na listy." } },
+      ],
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-zalevat#howto",
+    "name": "Jak správně zalévat zahradu – ráno nebo večer, kolik vody 2026",
+    "description": "Kdy a jak zalévat zahradu, záhony a trávník. Ráno nebo večer? Kapková závlaha vs. postřikovač. Jak nezalít příliš ani málo – praktický průvodce zálivkou.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kolik vody potřebují rostliny", "text": "Základní pravidlo: zalévat méně často ale více. Mělká každodenní zálivka způsobuje povrchové kořenění — rostliny jsou pak náchylnější k suchu. Hluboká zálivka 2–3× týdně podporuje hluboké kořeny odolné vůči suchu." },
+      { "@type": "HowToStep", "name": "Zalévání zeleniny – co potřebuje co", "text": "Zalévání zeleniny – co potřebuje co" },
+      { "@type": "HowToStep", "name": "Zalévání trávníku", "text": "Trávník je nejodolnější část zahrady — zhnědnutý trávník v suchu nevypadá hezky, ale není mrtvý. Ozelená se při prvním dešti. Nepřelévej trávník ze strachu — přelití podporuje povrchové kořenění a plísně." },
+      { "@type": "HowToStep", "name": "Zalévání nádobových rostlin", "text": "Nádobové rostliny jsou nejnáchylnější na nesprávnou zálivku — nádoba nemá zásobník jako zahrada a přeschnout nebo přelít je snadné." },
+      { "@type": "HowToStep", "name": "Závlahové systémy – kdy se vyplatí", "text": "Závlahové systémy – kdy se vyplatí" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-zalevat#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně zalévat zahradu – ráno nebo večer, kolik vody 2026", "item": "https://www.domovniguru.cz/blog/jak-spravne-zalevat" }
+    ]
+  }
+  ],
 };
 
 const RELATED = [
-  { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
-  { title: "Jak hnojit zahradu – organicky i minerálně", href: "/blog/jak-hnojit-zahradu", read: "6 min" },
+  { title: "Jak správně sekat trávník – hustý pažit bez plevele", href: "/blog/jak-sekat-travnik", read: "8 min" },
   { title: "Jak se zbavit plevele bez chemie", href: "/blog/zbavit-se-plevele-bez-chemie", read: "4 min" },
-  { title: "Jak kompostovat doma a na zahradě", href: "/blog/jak-kompostovat", read: "4 min" },
+  { title: "Jak hnojit zahradu – organicky i minerálně", href: "/blog/jak-hnojit-zahradu", read: "6 min" },
+  { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +88,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně zalévat zahradu – ráno nebo večer, kolik vody</h1>
               <p className="article-lead">Příliš mnoho vody rostliny dusí, příliš málo je stresuje. Zálivka ve špatný čas podporuje plísně nebo plýtvá vodou výparem. Tady jsou pravidla která fungují pro každou zahradu.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-spravne-zalevat" title="Jak správně zalévat zahradu – ráno nebo večer, kolik vody 2026" />
             </header>
 
@@ -144,7 +178,7 @@ export default function ArticlePage() {
 
             <section id="kolik">
               <h2>Kolik vody potřebují rostliny</h2>
-              <p>Základní pravidlo: <strong>zalévat méně často ale více</strong>. Mělká každodenní zálivka způsobuje povrchové kořenění — rostliny jsou pak náchylnější k suchu. Hluboká zálivka 2–3× týdně podporuje hluboké kořeny odolné vůči suchu.</p>
+              <p>Základní pravidlo: <strong>zalévat méně často ale více</strong>. Mělká každodenní zálivka způsobuje povrchové kořenění — rostliny jsou pak náchylnější k suchu. Hluboká zálivka 2–3× týdně podporuje hluboké kořeny odolné vůči suchu. Přesné množství vody pro svoji zahradu nebo záhon spočítáš v <Link href="/kalkulacky/kolik-zavlahy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce zavlažování</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Typ rostliny / plochy</th><th>Množství vody</th><th>Frekvence</th><th>Poznámka</th></tr></thead>
@@ -174,7 +208,7 @@ export default function ArticlePage() {
 
             <section id="travnik">
               <h2>Zalévání trávníku</h2>
-              <p>Trávník je nejodolnější část zahrady — zhnědnutý trávník v suchu nevypadá hezky, ale není mrtvý. Ozelená se při prvním dešti. Nepřelévej trávník ze strachu — přelití podporuje povrchové kořenění a plísně.</p>
+              <p>Trávník je nejodolnější část zahrady — zhnědnutý trávník v suchu nevypadá hezky, ale není mrtvý. Ozelená se při prvním dešti. Nepřelévej trávník ze strachu — přelití podporuje povrchové kořenění a plísně. Zdravý trávník potřebuje nejen správnou zálivku, ale i <Link href="/blog/jak-sekat-travnik">správnou techniku sekání</Link> — výška trávy přímo ovlivňuje jak rychle půda vysychá.</p>
               <ul>
                 <li><strong>Jak poznat že trávník potřebuje vodu:</strong> Šlápnutí zanechá otisk — tráva se nevrací. Nebo trávník začíná šednout a stáčet listy.</li>
                 <li><strong>Hloubka zálivky:</strong> Cíl je promočit půdu do hloubky 15–20 cm. Krátký déšť nebo krátká zálivka trávník jen "oblíbí" — voda se nevstřebá ke kořenům.</li>

@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni#article",
     "headline": "Péče o podlahové topení – teplota, provoz a údržba 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["péče o podlahové topení", "podlahové topení teplota", "podlahové topení provoz", "teplovodní podlahové topení údržba", "jak nastavit podlahové topení"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Proč podlahové topení nehřeje rovnoměrně?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: vzduch v systému (bublání, studená místa), nesprávně seřízené průtoky na rozdělovači (vyvažování okruhů), ucpaný filtr, nebo koberec/nábytek nad konkrétním okruhem. Zavolej technika — vyvážení podlahových okruhů je odborná práce." } },
+      { "@type": "Question", "name": "Lze na podlahové topení položit koberec?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale koberec výrazně snižuje výkon topení (funguje jako izolátor) a způsobuje přehřívání hadnic. Pokud musíš — maximální tepelný odpor koberce 0,15 m²K/W (na etiketě koberce). Tenké koberce s nízkou hustotou jsou méně problematické než husté tlusté koberce." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží podlahové topení?", "acceptedAnswer": { "@type": "Answer", "text": "Teplovodní plastové hadnice (PEX, PE-RT) mají životnost 50+ let při správném provozování. Elektrické topné kabely 20–30 let. Nejčastěji se vymění termostat (10–15 let) nebo čerpadlo/rozdělovač. Celý systém by měl přežít několik rekonstrukcí podlah — hadnice jsou zabetonovány a nenahrazují se." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni#howto",
+    "name": "Péče o podlahové topení – teplota, provoz a údržba 2026",
+    "description": "Jak správně provozovat a pečovat o podlahové topení. Optimální teplota, jak rychle reaguje, čištění podlah nad topením a jak ušetřit na provozu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Správná teplota podlahového topení", "text": "Teplota podlahového topení se nastavuje ve dvou hodnotách: teplota teplonosné vody (u teplovodního) a teplota povrchu podlahy." },
+      { "@type": "HowToStep", "name": "Jak správně provozovat podlahové topení", "text": "Jak správně provozovat podlahové topení" },
+      { "@type": "HowToStep", "name": "Péče o podlahy nad topením", "text": "Péče o podlahy nad topením" },
+      { "@type": "HowToStep", "name": "Údržba teplovodního podlahového topení", "text": "Údržba teplovodního podlahového topení" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Péče o podlahové topení – teplota, provoz a údržba 2026", "item": "https://www.domovniguru.cz/blog/pece-o-podlahove-topeni" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -53,7 +83,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Péče o podlahové topení – teplota, provoz a údržba</h1>
               <p className="article-lead">Podlahové topení je nejkomfortnější způsob vytápění — ale jen pokud je správně nastavené a udržované. Špatné nastavení zvyšuje náklady a zkracuje životnost systému.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/pece-o-podlahove-topeni" title="Péče o podlahové topení – teplota, provoz a údržba 2026" />
             </header>
 
@@ -96,7 +126,7 @@ export default function ArticlePage() {
 
             <section id="teplota">
               <h2>Správná teplota podlahového topení</h2>
-              <p>Teplota podlahového topení se nastavuje ve dvou hodnotách: teplota teplonosné vody (u teplovodního) a teplota povrchu podlahy.</p>
+              <p>Teplota podlahového topení se nastavuje ve dvou hodnotách: teplota teplonosné vody (u teplovodního) a teplota povrchu podlahy. Výkon a náklady svého systému snadno spočítáš v naší <Link href="/kalkulacky/podlahove-topeni" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce podlahového topení</Link>.</p>
               <ul>
                 <li><strong>Teplota povrchu podlahy:</strong> Max. 29 °C pro obytné místnosti. Max. 27 °C pro plovoucí a vinylové podlahy. Příliš horká podlaha je nepohodlná pro chůzi naboso a poškozuje podlahoviny.</li>
                 <li><strong>Teplota vody (teplovodní):</strong> Standardně 35–45 °C (nízkoteplotní systém). Klasické kotle nastavené na 70–80 °C je třeba doplnit směšovacím ventilem pro snížení teploty na podlahu.</li>

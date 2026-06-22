@@ -17,12 +17,45 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#article",
     "headline": "Jak opravit škrábance a díry ve zdi před malováním 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak opravit díry ve zdi", "tmel na zeď", "oprava škrábanců zeď", "díra po hmoždince", "vyrovnat zeď před malováním", "sádra na zeď oprava"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Musím penetrovat před tmelem?", "acceptedAnswer": { "@type": "Answer", "text": "Na savých nebo nových omítkách ano — penetrace sníží savost a tmel se nevytáhne do omítky příliš rychle. Na standardní malované stěně penetrace před tmelem není nutná. Po tmelu a broušení vždy penetruj opravená místa před malováním — zabrání rozdílné savosti povrchu." } },
+      { "@type": "Question", "name": "Jak dlouho čekat před malováním po opravě?", "acceptedAnswer": { "@type": "Answer", "text": "Akrylátový tmel: min. 4 hodiny, ideálně 24 hodin. Sádrový tmel: min. 2 hodiny. Penetrace: 2–4 hodiny před malováním. Vždy zkontroluj zda je opravené místo úplně suché — vlhký tmel pod barvou způsobí praskání a odpadávání." } },
+      { "@type": "Question", "name": "Jak opravit díru v sádrokartonu?", "acceptedAnswer": { "@type": "Answer", "text": "Pro malé díry (do 15 mm) funguje tmelový sprej nebo sádrový tmel se síťkou. Pro větší díry použij záplatu ze sádrokartonu — ořízni díru na čtverec, připrav záplatu stejné velikosti, přilep síťku, nanes tmel ve 2–3 vrstvách a přebrousíme po zaschnutí." } },
+      { "@type": "Question", "name": "Jaký tmel použít na díry ve zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Pro malé škrábance a díry do 5 mm: akrylátový tmel (Knauf, Baumit) — flexibilní, nesráží se. Pro větší díry (5–30 mm): sádrová hmota nebo jemná štuková sádra — tuhne rychle a dobře se brousí. Pro díry nad 30 mm: použij síťku jako výztuž proti praskání." } },
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#howto",
+    "name": "Jak opravit škrábance a díry ve zdi před malováním 2026",
+    "description": "Tmel, sádra nebo sprej? Jak vyrovnat povrch zdi před malováním – od malých škrábanců po větší díry po hmoždinkách. Postup krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jaký tmel nebo sádru koupit", "text": "Jaký tmel nebo sádru koupit" },
+      { "@type": "HowToStep", "name": "Škrábance a drobné vrypy (do 2 mm)", "text": "Nejjednodušší oprava — akrylátový tmel nanesen špachtlí nebo prstem, přebroušen jemným papírem." },
+      { "@type": "HowToStep", "name": "Díry po hmoždinkách a šroubech (5–15 mm)", "text": "Nejčastější typ opravy — po přestěhování nábytku nebo sejmutí obrazů. Sádrový tmel je ideální — rychlé schnutí a pevný výsledek." },
+      { "@type": "HowToStep", "name": "Větší díry (15–50 mm) – síťka a tmel", "text": "Větší díry vyžadují výztuhu aby tmel při schnutí nepraskl a nedroble." },
+      { "@type": "HowToStep", "name": "Velké díry (nad 50 mm) – záplata ze sádrokartonu", "text": "Velké díry nelze vyplnit tmelem — praskaly by. Nejlepší řešení je záplata ze sádrokartonu." },
+      { "@type": "HowToStep", "name": "Broušení a finální příprava před malováním", "text": "Broušení je posledním a nejdůležitějším krokem před malováním. Neopravené nebo špatně přebroušené místo bude pod barvou viditelné jako vyvýšenina nebo prohlubeň." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak opravit škrábance a díry ve zdi před malováním 2026", "item": "https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak opravit škrábance a díry ve zdi před malováním</h1>
               <p className="article-lead">Přemalování zdi bez opravy povrchu je plýtvání barvou — každý škrábanec a díra bude pod nátěrem vidět. Správná příprava povrchu trvá hodinu a zajistí profesionální výsledek.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/opravit-skrabance-diry-ve-zdi" title="Jak opravit škrábance a díry ve zdi před malováním 2026" />
             </header>
 
@@ -116,6 +149,7 @@ export default function ArticlePage() {
                 </table>
               </div>
               <div className="article-tip"><strong>💡 Tip:</strong> Na většinu běžných oprav v bytě stačí jeden kg akrylátového tmelu a jeden kg sádrového tmelu. Nekupuj velké balení — otevřený tmel vyschne do týdne.</div>
+              <p>Přesné množství stěrky nebo tmelu pro vyrovnání povrchu si snadno spočítáte v naší <Link href="/kalkulacky/kolik-sterky" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce stěrky</Link>.</p>
             </section>
 
             <section id="skrabance">

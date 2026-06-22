@@ -11,12 +11,24 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Penetrace před malováním – kdy je nutná?", description: "Kompletní průvodce: kdy penetraci použít a kdy ji přeskočit." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/penetrace-pred-malovanim#article", "headline": "Penetrace před malováním – kdy je nutná a kdy ji přeskočit?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["penetrace před malováním", "penetrace na zeď", "kdy dát penetraci", "penetrace sádrokarton"] }, { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" }, { "@type": "ListItem", "position": 4, "name": "Penetrace před malováním", "item": "https://www.domovniguru.cz/blog/penetrace-pred-malovanim" }] }, { "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Musím dávat penetraci vždy před malováním?", "acceptedAnswer": { "@type": "Answer", "text": "Ne vždy. Na dobře malovanou zeď v dobrém stavu penetraci přeskočit lze. Nutná je na nové omítky, sádrokarton, po stržení tapet a na savé podklady." } }, { "@type": "Question", "name": "Jak dlouho schne penetrace?", "acceptedAnswer": { "@type": "Answer", "text": "Většina penetrací schne 2–4 hodiny. Na nových nebo velmi savých omítkách doporučujeme počkat 4–6 hodin." } }] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/penetrace-pred-malovanim#article", "headline": "Penetrace před malováním – kdy je nutná a kdy ji přeskočit?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["penetrace před malováním", "penetrace na zeď", "kdy dát penetraci", "penetrace sádrokarton"] }, { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" }, { "@type": "ListItem", "position": 4, "name": "Penetrace před malováním", "item": "https://www.domovniguru.cz/blog/penetrace-pred-malovanim" }] }, { "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Musím dávat penetraci vždy před malováním?", "acceptedAnswer": { "@type": "Answer", "text": "Ne vždy. Na dobře malovanou zeď v dobrém stavu penetraci přeskočit lze. Nutná je na nové omítky, sádrokarton, po stržení tapet a na savé podklady." } }, { "@type": "Question", "name": "Jak dlouho schne penetrace?", "acceptedAnswer": { "@type": "Answer", "text": "Většina penetrací schne 2–4 hodiny. Na nových nebo velmi savých omítkách doporučujeme počkat 4–6 hodin." } }]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/penetrace-pred-malovanim#howto",
+    "name": "Penetrace před malováním – kdy je nutná a kdy ji přeskočit?",
+    "description": "Penetrace před malováním: kdy ji použít, kdy ji vynechat a jak ji správně nanést. Kompletní průvodce pro každý typ podkladu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co je penetrace a jak funguje", "text": "Penetrace (neboli penetrační nátěr nebo hloubkový penetrátor) je tekutý přípravek, který se nanáší na zeď nebo strop před malováním. Obsahuje pojiva, která pronikají do povrchu podkladu a zpevňují ho." },
+      { "@type": "HowToStep", "name": "Druhy penetrací – která pro jaký podklad", "text": "Druhy penetrací – která pro jaký podklad" },
+      { "@type": "HowToStep", "name": "Jak penetraci nanést – krok za krokem", "text": "Penetrace sníží savost podkladu a ušetří barvu. Spočítej si přesné množství naší kalkulačkou." }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce pro začátečníky", href: "/blog/jak-malovat-zed", read: "5 min" },
   { title: "Latexová vs. akrylátová barva – jaký je rozdíl?", href: "/blog/latexova-vs-akrylatova-barva", read: "4 min" },
-  { title: "Jak malovat přes tmavou barvu na světlo", href: "/blog/malovat-pres-tmavou-barvu", read: "3 min" },
+  { title: "Proč se barva loupe – příčiny a jak to opravit", href: "/blog/barva-se-loupe", read: "5 min" },
   { title: "Jak se zbavit plísně na zdi natrvalo", href: "/blog/jak-odstranit-plisen-na-zdi", read: "5 min" },
 ];
 
@@ -40,8 +52,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Penetrace před malováním – kdy je nutná a kdy ji přeskočit?</h1>
               <p className="article-lead">Penetrace je jedním z nejpodceňovanějších kroků při malování. Někdo ji dává vždy, někdo nikdy. Pravda je uprostřed – záleží na podkladu. Tenhle článek ti řekne přesně, kdy ji nutně potřebuješ a kdy ji klidně vynecháš.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/penetrace-pred-malovanim" title="Penetrace před malováním – kdy je nutná?" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
@@ -72,7 +83,7 @@ export default function ArticlePage() {
             <section id="kdy-nutna">
               <h2>Kdy je penetrace nutná</h2>
               <h3>Nová nebo opravená omítka</h3>
-              <p>Nová omítka je velmi savá. Bez penetrace barva okamžitě zasychá v povrchu, nevytváří pevný film a spotřebuješ 2–3× více barvy. Penetrace savost sníží a vytvoří rovnoměrný podklad.</p>
+              <p>Nová omítka je velmi savá. Bez penetrace barva okamžitě zasychá v povrchu, nevytváří pevný film a spotřebuješ 2–3× více barvy. Penetrace savost sníží a vytvoří rovnoměrný podklad. Kolik penetrace budete potřebovat, zjistíte pomocí naší <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky penetrace</Link>.</p>
               <h3>Sádrokarton</h3>
               <p>Sádrokarton má papírový povrch, který je extrémně savý. Bez penetrace barva nedrží, papír se může zvlnit nebo odtrhnout. Zde penetrace není volitelná – je povinná.</p>
               <h3>Po stržení tapet</h3>

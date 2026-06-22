@@ -4,19 +4,53 @@ import Link from "next/link";
 
 export default function KalkulackyHub() {
   const kalkulacky = [
+    // Materiály – malování & stěny
     { icon: "🪣", title: "Kolik barvy potřebuji?", desc: "Plocha, vrstvy, litry. Bez přemýšlení.", href: "/kalkulacky/kolik-barvy" },
+    { icon: "🪣", title: "Kolik penetrace (primeru)?", desc: "Plocha, vydatnost, počet vrstev – litry ihned.", href: "/kalkulacky/kolik-primeru" },
+    { icon: "🪚", title: "Kolik stěrky a tmelu?", desc: "Plocha, tloušťka vrstvy – kg a pytlů.", href: "/kalkulacky/kolik-sterky" },
+    { icon: "🖼️", title: "Kolik tapet potřebuji?", desc: "Obvod místnosti, výška, počet rolí.", href: "/kalkulacky/kolik-tapet" },
+    { icon: "🖌️", title: "Kolik stojí malování?", desc: "Plocha, sazba a materiál – celkový odhad.", href: "/kalkulacky/cena-malovani" },
+    // Materiály – podlahy & konstrukce
     { icon: "📐", title: "Kolik laminátu potřebuji?", desc: "m² + rezerva + počet balení.", href: "/kalkulacky/kolik-laminatu" },
     { icon: "🧱", title: "Kolik dlažby potřebuji?", desc: "Plocha, spáry, odpad. Přesně na balení.", href: "/kalkulacky/kolik-dlazby" },
+    { icon: "🪵", title: "Kolik prken na terasu?", desc: "Rozměry terasy a prken – počet kusů ihned.", href: "/kalkulacky/kolik-prknu" },
+    { icon: "🪵", title: "Kolik stojí nová podlaha?", desc: "Materiál, podložka, pokládka – celkem.", href: "/kalkulacky/cena-podlahy" },
+    { icon: "🧱", title: "Kolik sádrokartonu?", desc: "Plocha příčky nebo podhledu – počet desek.", href: "/kalkulacky/kolik-sadrokartonu" },
+    { icon: "🧱", title: "Kolik cihel na zeď?", desc: "Plocha zdi, formát – přesný počet kusů.", href: "/kalkulacky/kolik-cihel" },
     { icon: "🏗️", title: "Kolik betonu potřebuji?", desc: "Objem, pytlů nebo m³ hotového betonu.", href: "/kalkulacky/kolik-betonu" },
-    { icon: "🖼️", title: "Kolik tapet potřebuji?", desc: "Obvod místnosti, výška, počet rolí.", href: "/kalkulacky/kolik-tapet" },
-    { icon: "🪴", title: "Kolik hlíny potřebuji?", desc: "Objem květináčů, truhlíků a litry substrátu.", href: "/kalkulacky/kolik-hliny" }, // ✅ NOVÁ KALKULAČKA
+    { icon: "💨", title: "Kolik montážní pěny?", desc: "Počet oken a dveří – počet plechovek.", href: "/kalkulacky/kolik-montazni-peny" },
+    { icon: "🏠", title: "Kolik střešních tašek?", desc: "Plocha, sklon střechy – počet tašek s rezervou.", href: "/kalkulacky/kolik-stresni-tasek" },
+    // Rekonstrukce & náklady
+    { icon: "🚿", title: "Cena rekonstrukce koupelny", desc: "Plocha a standard – orientační odhad nákladů.", href: "/kalkulacky/cena-rekonstrukce-koupelny-odhad" },
+    // Energie & provoz
     { icon: "💧", title: "Kolik tepelné izolace?", desc: "Plocha stěny, tloušťka, počet desek.", href: "/kalkulacky/tepelna-izolace" },
+    { icon: "🌡️", title: "Podlahové topení – délka trubky", desc: "Plocha a rozteč – délka potrubí a výkon.", href: "/kalkulacky/podlahove-topeni" },
+    { icon: "🚿", title: "Jaký bojler potřebuji?", desc: "Počet osob a sprchování – doporučený objem.", href: "/kalkulacky/velikost-bojleru" },
+    { icon: "⚡", title: "Spotřeba elektřiny domácnosti", desc: "Spotřebiče, hodiny provozu – Kč/rok.", href: "/kalkulacky/spotreba-elektriciny" },
+    { icon: "🔥", title: "Spotřeba plynu na vytápění", desc: "Plocha domu, třída izolace – m³ a Kč/rok.", href: "/kalkulacky/spotreba-plynu" },
     { icon: "♨️", title: "Návratnost tepelného čerpadla", desc: "Investice, dotace NZÚ, roky návratnosti.", href: "/kalkulacky/tepelne-cerpadlo" },
+    { icon: "☀️", title: "Kolik solárních panelů?", desc: "Spotřeba – počet panelů, úspora, návratnost.", href: "/kalkulacky/solarni-panely" },
     { icon: "💡", title: "Kolik ušetřím LED žárovkami?", desc: "Příkon, počet žárovek, roční úspora v Kč.", href: "/kalkulacky/led-uspora" },
+    { icon: "❄️", title: "Výkon klimatizace – kolik kW?", desc: "Plocha, výška, orientace – kW a BTU ihned.", href: "/kalkulacky/vykon-klimatizace" },
+    { icon: "💧", title: "Spotřeba vody domácnosti", desc: "Sprcha, vana, WC, pračka – m³ a Kč/rok.", href: "/kalkulacky/spotreba-vody" },
+    { icon: "🏦", title: "Kalkulačka hypotéky", desc: "Výše úvěru, sazba, splatnost – měsíční splátka a přeplacení.", href: "/kalkulacky/splaceni-hypoteky" },
+    { icon: "🏠", title: "Kolik ušetřím po zateplení?", desc: "Rozsah zateplení, náklady – roční úspora a návratnost.", href: "/kalkulacky/uspora-zatepleni" },
+    { icon: "🍳", title: "Kolik stojí nová kuchyně?", desc: "Délka linky, standard, spotřebiče – celková cena.", href: "/kalkulacky/cena-kuchyne" },
     { icon: "🧱", title: "Kolik SDK desek potřebuji?", desc: "Desky, profily, šrouby a tmel na příčku.", href: "/kalkulacky/kolik-sdk" },
-    { icon: "🏠", title: "Kolik cihel/tvárnic potřebuji?", desc: "Ytong, Porotherm nebo klasická cihla – počet kusů a palet.", href: "/kalkulacky/kolik-cihel" },
-    { icon: "🌿", title: "Kolik trávníkového osiva potřebuji?", desc: "Plocha, typ trávníku, kg osiva a hnojiva.", href: "/kalkulacky/kolik-osiva" },
     { icon: "🏡", title: "Kolik střešních tašek potřebuji?", desc: "Plocha střechy, typ krytiny, počet tašek a palet.", href: "/kalkulacky/kolik-stresnych-tasek" },
+    // Zahrada
+    { icon: "🌱", title: "Kolik osiva na trávník?", desc: "Plocha a dávka – kg a počet pytlíků.", href: "/kalkulacky/kolik-osiva" },
+    { icon: "🌱", title: "Kolik hnojiva potřebuji?", desc: "Plocha, dávka g/m² – kg a počet pytlíků.", href: "/kalkulacky/kolik-hnojiva" },
+    { icon: "🌿", title: "Kolik mulče na záhony?", desc: "Plocha, tloušťka vrstvy – litry a pytlů.", href: "/kalkulacky/kolik-mulce" },
+    { icon: "♻️", title: "Kolik kompostu na záhony?", desc: "Plocha, tloušťka vrstvy – litry a pytlů.", href: "/kalkulacky/kolik-kompostu" },
+    { icon: "💧", title: "Kolik vody na zavlažování?", desc: "Plocha, typ rostlin – litry/zavlažování.", href: "/kalkulacky/kolik-zavlahy" },
+    { icon: "🪴", title: "Kolik hlíny potřebuji?", desc: "Objem květináčů, truhlíků a litry substrátu.", href: "/kalkulacky/kolik-hliny" },
+    { icon: "🏊", title: "Kolik vody do bazénu?", desc: "Objem bazénu v litrech a dávkování chlóru.", href: "/kalkulacky/kolik-vody-do-bazenu" },
+    { icon: "🌼", title: "Rozestup rostlin na záhonu", desc: "Plocha a rozestup – kolik rostlin potřebuješ.", href: "/kalkulacky/rozestup-rostlin-kalkulacka" },
+    // Elektrika & osvětlení
+    { icon: "💡", title: "Kolik žárovek potřebuji?", desc: "Plocha, typ místnosti a výkon – počet žárovek.", href: "/kalkulacky/kolik-zarovek-potrebuji" },
+    // Rekonstrukce & náklady
+    { icon: "🏗️", title: "Kalkulačka rozpočtu rekonstrukce", desc: "Plocha, standard a mokré provozy – celkový rozpočet.", href: "/kalkulacky/kalkulacka-rozpoctu-rekonstrukce" },
   ];
 
   return (

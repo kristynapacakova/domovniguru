@@ -10,7 +10,21 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak vyměnit vypínač – krok za krokem", description: "Bezpečný postup výměny vypínače svépomocí za 20 minut." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-vymenit-vypinac#article", "headline": "Jak vyměnit vypínač – krok za krokem bez elektrikáře", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vyměnit vypínač", "výměna vypínače", "vypínač světla postup", "elektrika svépomocí"] }, { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" }, { "@type": "ListItem", "position": 4, "name": "Jak vyměnit vypínač", "item": "https://www.domovniguru.cz/blog/jak-vymenit-vypinac" }] }, { "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Je výměna vypínače bezpečná svépomocí?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud dodržíš základní pravidlo: před prací vždy vypni jistič a ověř zkoušečkou, že vedení není pod napětím. Výměna samotného vypínače (ne instalace nového vedení) je pro laika bezpečná." } }, { "@type": "Question", "name": "Kdy je nutný elektrikář?", "acceptedAnswer": { "@type": "Answer", "text": "Elektrikář je nutný při instalaci nového vedení, přidávání nových okruhů, práci v rozvaděči nebo pokud si nejsi jistý zapojením. Samotnou výměnu 1:1 zvládneš sám." } }] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-vymenit-vypinac#article", "headline": "Jak vyměnit vypínač – krok za krokem bez elektrikáře", "datePublished": "2025-02-05T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak vyměnit vypínač", "výměna vypínače", "vypínač světla postup", "elektrika svépomocí"] }, { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" }, { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" }, { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" }, { "@type": "ListItem", "position": 4, "name": "Jak vyměnit vypínač", "item": "https://www.domovniguru.cz/blog/jak-vymenit-vypinac" }] }, { "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Je výměna vypínače bezpečná svépomocí?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, pokud dodržíš základní pravidlo: před prací vždy vypni jistič a ověř zkoušečkou, že vedení není pod napětím. Výměna samotného vypínače (ne instalace nového vedení) je pro laika bezpečná." } }, { "@type": "Question", "name": "Kdy je nutný elektrikář?", "acceptedAnswer": { "@type": "Answer", "text": "Elektrikář je nutný při instalaci nového vedení, přidávání nových okruhů, práci v rozvaděči nebo pokud si nejsi jistý zapojením. Samotnou výměnu 1:1 zvládneš sám." } }]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-vymenit-vypinac#howto",
+    "name": "Jak vyměnit vypínač – krok za krokem bez elektrikáře",
+    "description": "Výměna vypínače světla svépomocí: bezpečný postup krok za krokem, co potřebuješ a jak se vyhnout chybám. Hotovo za 20 minut.",
+    "step": [
+      { "@type": "HowToStep", "name": "Bezpečnost na prvním místě", "text": "Elektřina je nebezpečná. Než začneš cokoliv dělat, musíš dodržet tato pravidla:" },
+      { "@type": "HowToStep", "name": "Co budeš potřebovat", "text": "Co budeš potřebovat" },
+      { "@type": "HowToStep", "name": "Postup výměny krok za krokem", "text": "Jdi k rozvaděči a vypni jistič příslušného okruhu. Přejdi k vypínači a zkoušečkou ověř, že není pod napětím. Pokud zkoušečka svítí – jistič je špatný nebo máš v krabičce více okruhů." },
+      { "@type": "HowToStep", "name": "Typy vypínačů a jejich zapojení", "text": "Typy vypínačů a jejich zapojení" },
+      { "@type": "HowToStep", "name": "Časté problémy a jejich řešení", "text": "Zkontroluj: jsou dráty správně v svorkách? Je zapnut jistič? Zkontroluj zapojení dle fotky nebo schématu. Pokud problém přetrvává, zavolej elektrikáře." }
+    ]
+  }]
+};
 
 const RELATED = [
   { title: "LED vs. žárovky – co se skutečně vyplatí?", href: "/blog/led-vs-zarovky", read: "4 min" },
@@ -39,8 +53,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vyměnit vypínač – krok za krokem bez elektrikáře</h1>
               <p className="article-lead">Rozbil se vypínač nebo chceš modernější design? Výměna vypínače je jedna z mála elektrikářských prací, které bezpečně zvládneš sám – pokud dodržíš základní pravidla. Hotovo za 20 minut.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-vymenit-vypinac" title="Jak vyměnit vypínač – krok za krokem bez elektrikáře 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">

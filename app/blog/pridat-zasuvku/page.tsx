@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/pridat-zasuvku#article",
     "headline": "Jak přidat zásuvku do místnosti – povrchová nebo zapuštěná 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak přidat zásuvku", "přidání zásuvky do místnosti", "povrchová zásuvka lišta", "zapuštěná zásuvka", "elektrikář nová zásuvka", "kabelová lišta zásuvka"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/pridat-zasuvku#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik zásuvek mohu napojit na jednu existující?", "acceptedAnswer": { "@type": "Answer", "text": "Technicky lze napojit více zásuvek za sebou, ale musíš hlídat celkové zatížení okruhu. Standardní okruh 16 A unese 3 680 W (16 A × 230 V). Sečti příkony všech spotřebičů na daném okruhu — nesmí přesáhnout 80 % jmenovité hodnoty jističe (tedy 2 944 W pro 16 A). Přetížení = jistič vybaví nebo v horším případě přehřívání." } },
+      { "@type": "Question", "name": "Potřebuji povolení na novou zásuvku?", "acceptedAnswer": { "@type": "Answer", "text": "Na přidání zásuvky v bytě stavební povolení nepotřebuješ. Elektrikářské práce ale musí provést osoba s příslušnou elektrotechnickou kvalifikací (vyhláška č. 50/1978 Sb.). Pokud se rozhodneš pro pojistné plnění po požáru způsobeném elektroinstalací, pojišťovna může žádat doklad o provedení prací certifikovanou osobou." } },
+      { "@type": "Question", "name": "Jaký kabel použít pro novou zásuvku?", "acceptedAnswer": { "@type": "Answer", "text": "Pro standardní zásuvky 230 V do 16 A: kabel CYKY-J 3×1,5 mm² (tři vodiče s ochranným zemněním). Pro silnější spotřebiče (pračka, myčka do 20 A): CYKY-J 3×2,5 mm². Kabel v chráničce pro vedení v zemi nebo za sádrokartonem. Barvy vodičů: L = hnědá, N = modrá, PE = zeleno-žlutá." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pridat-zasuvku#howto",
+    "name": "Jak přidat zásuvku do místnosti – povrchová nebo zapuštěná 2026",
+    "description": "Jak přidat novou elektrickou zásuvku do místnosti. Povrchová lišta bez bourání nebo zapuštěná do zdi – kdy potřebuješ elektrikáře a kdy to zvládneš sám.",
+    "step": [
+      { "@type": "HowToStep", "name": "Povrchová zásuvka v kabelové liště – jak na to sám", "text": "Povrchová zásuvka v elektroinstalační liště je nejrychlejší způsob jak přidat zásuvku bez elektrikáře a bez bourání. Kabel vedete po povrchu zdi v plastové liště." },
+      { "@type": "HowToStep", "name": "Zapuštěná zásuvka – kdy a jak", "text": "Zapuštěná zásuvka vypadá profesionálně — kabel je skrytý ve zdi, zásuvka je zapuštěná do krabice. Vyžaduje ale bourání drážky a zapojení elektrikářem." },
+      { "@type": "HowToStep", "name": "Kdy nutně potřebuješ elektrikáře", "text": "Kdy nutně potřebuješ elektrikáře" },
+      { "@type": "HowToStep", "name": "Orientační ceny 2026", "text": "Orientační ceny 2026" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pridat-zasuvku#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak přidat zásuvku do místnosti – povrchová nebo zapuštěná 2026", "item": "https://www.domovniguru.cz/blog/pridat-zasuvku" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +84,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak přidat zásuvku do místnosti – povrchová nebo zapuštěná</h1>
               <p className="article-lead">Chybí ti zásuvka u postele, za televizí nebo na pracovním stole? Povrchová zásuvka v liště je rychlé řešení bez elektrikáře. Zapuštěná vypadá lépe ale vyžaduje odborníka. Tady je rozdíl a jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/pridat-zasuvku" title="Jak přidat zásuvku do místnosti – povrchová nebo zapuštěná 2026" />
             </header>
 

@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly#article",
     "headline": "Jak zasít trávník od nuly – příprava půdy, setí, péče 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak zasít trávník", "setí trávníku", "příprava půdy pro trávník", "travní semeno výběr", "nový trávník postup", "trávník od nuly"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik stojí nový trávník na 100 m²?", "acceptedAnswer": { "@type": "Answer", "text": "Semeno (4 kg, 40 g/m²): 300–600 Kč. Startovací hnojivo: 300–600 Kč. Kompost nebo písek: 500–1 500 Kč. Půdní fréza (pronájem): 500–800 Kč. Celkem DIY: 1 500–3 500 Kč. Profesionální setí (včetně práce): 3 000–8 000 Kč za 100 m²." } },
+      { "@type": "Question", "name": "Trávník vs. travní koberec – co je lepší?", "acceptedAnswer": { "@type": "Answer", "text": "Travní koberec (hotový trávník na rolích) je okamžité řešení — po položení máš ihned zeleno. Cena 80–150 Kč/m² jen za materiál + pokládka. Výhodný pro malé plochy nebo kde potřebuješ rychlý výsledek. Setí je 5–10× levnější ale výsledek vidíš za 6–8 týdnů." } },
+      { "@type": "Question", "name": "Proč trávník nevyklíčil?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: semeno vyschlo (zálivka jen 1× denně nestačí), semeno zapraveno příliš hluboko (nad 2 cm), teplota půdy pod 8 °C, staré semeno s nízkou klíčivostí. Zkontroluj datum spotřeby na obalu — trávníkové semeno má obvykle klíčivost 2–3 roky." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly#howto",
+    "name": "Jak zasít trávník od nuly – příprava půdy, setí, péče 2026",
+    "description": "Jak zasít nový trávník krok za krokem. Příprava půdy, výběr travní směsi, správné setí a péče po vzejití. Krásný hustý trávník za 6–8 týdnů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kdy zasít – nejlepší termín", "text": "Kdy zasít – nejlepší termín" },
+      { "@type": "HowToStep", "name": "Výběr travní směsi", "text": "Výběr travní směsi" },
+      { "@type": "HowToStep", "name": "Příprava půdy – krok za krokem", "text": "Příprava půdy je nejdůležitější část. Špatná příprava = nerovný, plevelnatý, špatně rostoucí trávník." },
+      { "@type": "HowToStep", "name": "Setí travního semene", "text": "Setí travního semene" },
+      { "@type": "HowToStep", "name": "Péče po vzejití", "text": "Péče po vzejití" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak zasít trávník od nuly – příprava půdy, setí, péče 2026", "item": "https://www.domovniguru.cz/blog/zasit-travnik-od-nuly" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak zasít trávník od nuly – příprava půdy, setí, péče</h1>
               <p className="article-lead">Nový trávník od nuly není složitý — ale vyžaduje správnou přípravu půdy. 80 % úspěchu je v přípravě podkladu. Samotné setí trvá hodinu, příprava půdy celý den. Tady je kompletní postup.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zasit-travnik-od-nuly" title="Jak zasít trávník od nuly – příprava půdy, setí, péče 2026" />
             </header>
 
@@ -143,7 +174,7 @@ export default function ArticlePage() {
             <section id="seti">
               <h2>Setí travního semene</h2>
               <ul>
-                <li><strong>Množství semene:</strong> 30–40 g/m² pro nový trávník. Více než polovina zahrádkářů seji příliš málo — výsledek je řídký trávník.</li>
+                <li><strong>Množství semene:</strong> 30–40 g/m² pro nový trávník. Více než polovina zahrádkářů seji příliš málo — výsledek je řídký trávník. Přesné množství osiva pro svoji plochu snadno spočítáš v <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce osiva</Link>.</li>
                 <li><strong>Technika setí:</strong> Rozděl semeno na dvě poloviny. Jednu nanes podél plochy, druhou napříč (křížem). Zajistí rovnoměrné pokrytí.</li>
                 <li><strong>Pro velké plochy</strong> použij rozmetadlo hnojiva (pronájem 200 Kč/den nebo koupě 500–1 500 Kč).</li>
                 <li><strong>Zapravení semene:</strong> Po setí přejdi hráběmi lehce po povrchu — semeno zaprav 0,5–1 cm hluboko. Hlubší = nezklijí, mělčeji = vyschnou.</li>

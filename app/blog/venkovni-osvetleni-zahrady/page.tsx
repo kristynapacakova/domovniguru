@@ -17,19 +17,50 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#article",
     "headline": "Venkovní osvětlení zahrady – typy a instalace",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["venkovní osvětlení zahrady", "solární osvětlení zahrada", "zahradní svítidla", "osvětlení terasy", "kabelové osvětlení zahrada", "IP65 zahradní svítidla"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak hluboko musí být kabel v zemi?", "acceptedAnswer": { "@type": "Answer", "text": "Kabel 230 V v zemi musí být uložen min. 35 cm hluboko (pod trávníkem) nebo 60 cm pod pojezdovými plochami. Vždy v chráničce. Kabel 12 V nebo 24 V z nízkonapěťového transformátoru nemá předepsanou minimální hloubku — stačí několik centimetrů." } },
+      { "@type": "Question", "name": "Jsou solární světla dostatečně jasná?", "acceptedAnswer": { "@type": "Answer", "text": "Pro dekoraci a osvětlení cest ano. Pro bezpečnostní osvětlení vstupu nebo osvětlení pracovní plochy (gril, stůl) jsou slabší. Moderní solární světla s baterií dosahují 200–800 lm — srovnatelné s kabelovými pro dekorativní účely. Výkon závisí na množství slunečního světla — v zimě svítí kratší dobu." } },
+      { "@type": "Question", "name": "Potřebuji elektrikáře na venkovní osvětlení?", "acceptedAnswer": { "@type": "Answer", "text": "Pro připojení svítidla na existující venkovní zásuvku elektrikáře nepotřebuješ. Pro vedení nového kabelu z rozvaděče nebo instalaci nové venkovní zásuvky elektrikáře potřebuješ. Nízkonapěťové systémy (12 V) s transformátorem zvládneš sám bez elektrikáře." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#howto",
+    "name": "Venkovní osvětlení zahrady – typy a instalace",
+    "description": "Jak osvětlit zahradu, terasu nebo příjezdovou cestu. Solární nebo kabelové osvětlení? Typy svítidel, instalace a jak vytvořit krásnou večerní atmosféru.",
+    "step": [
+      { "@type": "HowToStep", "name": "Solární vs. kabelové osvětlení – co vybrat", "text": "Solární vs. kabelové osvětlení – co vybrat" },
+      { "@type": "HowToStep", "name": "Typy zahradních svítidel", "text": "Typy zahradních svítidel" },
+      { "@type": "HowToStep", "name": "Co znamená IP krytí pro venkovní svítidla", "text": "Venkovní svítidla musí být odolná vůči vlhkosti a prachu. IP krytí určuje jejich odolnost — první číslice = prach, druhá = voda." },
+      { "@type": "HowToStep", "name": "Instalace kabelového osvětlení", "text": "Instalace kabelového osvětlení" },
+      { "@type": "HowToStep", "name": "Jak vytvořit večerní atmosféru na zahradě", "text": "Jak vytvořit večerní atmosféru na zahradě" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Venkovní osvětlení zahrady – typy a instalace", "item": "https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak vybrat svítidla do místnosti", href: "/blog/vybrat-svitidla-do-mistnosti", read: "6 min" },
   { title: "Chytrá domácnost – jak začít", href: "/blog/chytra-domacnost-zaciname", read: "7 min" },
-  { title: "Jak postavit pergolu na terasu", href: "/blog/pergola-postup-stavba", read: "9 min" },
   { title: "Jak připravit zahradu na jaro", href: "/blog/jarni-zahrada", read: "7 min" },
+  { title: "Jak nainstalovat pohybový senzor krok za krokem", href: "/blog/instalovat-pohybovy-senzor", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Venkovní osvětlení zahrady – solární nebo kabelové?</h1>
               <p className="article-lead">Správné osvětlení zahrady prodlouží čas strávený venku, zvýší bezpečnost a dodá večerní atmosféru. Solární nebo kabelové? Tady je jak vybrat a jak nainstalovat.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/venkovni-osvetleni-zahrady" title="Venkovní osvětlení zahrady – typy a instalace" />
             </header>
 
@@ -150,7 +181,7 @@ export default function ArticlePage() {
 
             <section id="ip">
               <h2>Co znamená IP krytí pro venkovní svítidla</h2>
-              <p>Venkovní svítidla musí být odolná vůči vlhkosti a prachu. IP krytí určuje jejich odolnost — první číslice = prach, druhá = voda.</p>
+              <p>Venkovní svítidla musí být odolná vůči vlhkosti a prachu. IP krytí určuje jejich odolnost — první číslice = prach, druhá = voda. Roční náklady na provoz zahradního osvětlení zjistíš pomocí naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky spotřeby elektřiny</Link>. Kolik ušetříš přechodem na LED svítidla ti ukáže <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka úspory LED</Link>.</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>IP krytí</th><th>Odolnost</th><th>Vhodné pro</th></tr></thead>

@@ -18,7 +18,7 @@ const jsonLd = {
       "@id": "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte#article",
       "headline": "Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026",
       "datePublished": "2026-04-13T08:00:00Z",
-      "dateModified": "2026-04-13T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
@@ -31,8 +31,35 @@ const jsonLd = {
         { "@type": "Question", "name": "Jaká je ideální vlhkost vzduchu v bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Ideální relativní vlhkost vzduchu v obytných prostorách je 40–60 %. Pod 30 % je vzduch příliš suchý — dráždí sliznice a způsobuje statickou elektřinu. Nad 65 % začíná riziko plísně, nad 70 % plíseň aktivně roste." } },
         { "@type": "Question", "name": "Proč mi kondenzuje voda na oknech?", "acceptedAnswer": { "@type": "Answer", "text": "Kondenzace na vnitřní straně okna znamená že vzduch v místnosti je příliš vlhký a okno je nejchladnější plocha kde vodní pára zkondenzuje. Řešení: zlepšit větrání, snížit zdroje vlhkosti (sušení prádla, vaření bez digestoře) a případně vyměnit okna za lepší izolační zasklení." } },
         { "@type": "Question", "name": "Pomáhá odvlhčovač proti plísni?", "acceptedAnswer": { "@type": "Answer", "text": "Odvlhčovač je účinné dočasné řešení — sníží vlhkost pod 60 % a zabrání růstu plísně. Není ale náhradou za větrání ani za odstranění příčiny. Pokud vlhkost pochází ze stavební závady (zatékání, tepelný most), odvlhčovač problém nevyřeší — jen potlačí příznaky." } },
+        { "@type": "Question", "name": "Jak snížit vlhkost vzduchu v bytě rychle?", "acceptedAnswer": { "@type": "Answer", "text": "Nejrychlejší snížení vlhkosti: (1) křížové větrání 10 minut, (2) odvlhčovač — snižuje vlhkost o 5–10 % za hodinu, (3) přestaň sušit prádlo uvnitř. Bez identifikace zdroje vlhkosti je ale každé snížení jen dočasné." } },
+        { "@type": "Question", "name": "Jak dlouho větrat byt?", "acceptedAnswer": { "@type": "Answer", "text": "Optimální délka větrání je 5–10 minut intenzivního křížového větrání (otevřená okna na obou stranách bytu). Tato výměna vzduchu odvede vlhkost bez výrazného ochlazení místnosti. Větrání 2–3× denně — ráno po vstávání, po sprchování a po vaření." } },
+        { "@type": "Question", "name": "Proč je vlhkost v bytě vysoká i v zimě?", "acceptedAnswer": { "@type": "Answer", "text": "Vysoká vlhkost v zimě přes topení signalizuje nedostatečné větrání nebo nadměrné zdroje vlhkosti. Topení vzduch suší, ale pokud se nevětrá, vlhkost ze sprchování, vaření a dýchání se hromadí. Větrání v zimě je důležitější než v létě." } }
       ]
-    }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte#howto",
+      "name": "Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026",
+      "description": "Kondenzace na oknech, vlhké stěny nebo plíseň? Jak změřit vlhkost, najít příčinu a trvale vyřešit problém s vlhkostí v bytě bez drahých rekonstrukcí.",
+      "step": [
+        { "@type": "HowToStep", "name": "Příčiny vlhkosti – kde bere voda v bytě", "text": "Vlhkost v bytě má vždy konkrétní zdroj. Bez jeho identifikace je jakékoli řešení jen dočasné. Průměrná domácnost produkuje 7–8 litrů vodní páry denně — a to musí někam odejít." },
+        { "@type": "HowToStep", "name": "Jak změřit vlhkost vzduchu", "text": "Bez měření větráš naslepo. Vlhkoměr (hygrometr) je nejdůležitější pomůcka při řešení problémů s vlhkostí — a stojí 100–500 Kč." },
+        { "@type": "HowToStep", "name": "Typy vlhkosti – jak je rozlišit", "text": "Různé typy vlhkosti vyžadují různá řešení. Špatná diagnóza = zbytečné výdaje a přetrvávající problém." },
+        { "@type": "HowToStep", "name": "Jak snížit vlhkost – postup podle příčiny", "text": "Postup řešení závisí na typu vlhkosti. Začni vždy od nejjednodušších a nejlevnějších kroků." },
+        { "@type": "HowToStep", "name": "Odvlhčovač – kdy ano a jak vybrat", "text": "Odvlhčovač je účinné doplňkové řešení — ale není náhradou za větrání ani za opravu stavební závady. Používej ho jako podporu, ne jako hlavní řešení." },
+        { "@type": "HowToStep", "name": "Vlhkost v zimě vs. v létě – různé problémy", "text": "Vlhkost v bytě se chová jinak v různých ročních obdobích a vyžaduje různý přístup." }
+      ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026", "item": "https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte" }
+    ]
+  }
   ]
 };
 
@@ -40,7 +67,7 @@ const RELATED = [
   { title: "Jak se zbavit plísně v bytě jednou provždy", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
   { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "6 min" },
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
-  { title: "Jak odvzdušnit radiátor – krok za krokem", href: "/blog/jak-odvzdusnit-radiatory", read: "5 min" },
+  { title: "Jak se zbavit zápachu po rekonstrukci – rychle a natrvalo", href: "/blog/zbavit-byt-zapachu-po-rekonstrukci", read: "4 min" },
 ];
 
 export default function ArticlePage() {
@@ -65,7 +92,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení</h1>
               <p className="article-lead">Kondenzace na oknech, vlhké fleky na stěnách nebo opakující se plíseň – to vše jsou příznaky přílišné vlhkosti. Ukážeme ti jak vlhkost změřit, najít její zdroj a trvale vyřešit problém.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zbavit-se-vlhkosti-v-byte" title="Jak se zbavit vlhkosti v bytě – příčiny, měření a řešení 2026" />
             </header>
 
@@ -195,7 +222,8 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Sprchování a koupání:</strong> ~2 litry vodní páry na sprchu. Největší jednorázový zdroj vlhkosti v bytě.</li>
                 <li><strong>Vaření:</strong> ~1 litr za vaření. Digestoř bez odtahu do fasády (recirkulační) vlhkost neodvádí — jen filtruje pachy.</li>
-                <li><strong>Sušení prádla uvnitř:</strong> Každý kus mokrého prádla uvolní 0,5–1 litr vody. Celá pračka = 2 litry vlhkosti do vzduchu.</li>
+                <li><strong>Sušení prádla uvnitř:</strong> Každý kus mokrého prádla uvolní 0,5–1 litr vody. Celá pračka = 2 litry vlhkosti do vzduchu. Špinavá pračka navíc produkuje zápachy — pravidelné <Link href="/blog/jak-vycistit-pracku">čištění pračky</Link> pomáhá i s kontrolou vlhkosti.</li>
+                <li><strong>Kapající kohoutek nebo netěsné potrubí:</strong> I malý únik vody způsobuje trvalou vlhkost ve stěnách a podlaze. <Link href="/blog/jak-opravit-kapajici-kohoutek">Oprava kapajícího kohoutku</Link> je snadná a může zabránit dlouhodobému plesnivění.</li>
                 <li><strong>Dýchání a pocení:</strong> Dvě osoby produkují spánkem ~1,5 litru za noc.</li>
                 <li><strong>Zatékání nebo stavební závada:</strong> Mokrá skvrna na stropě nebo stěně bez zjevného zdroje = podezření na zatékání nebo poruchu hydroizolace. Toto nelze vyřešit větrání — nutná oprava.</li>
                 <li><strong>Kapilární vzlínání:</strong> Ve starších domech bez hydroizolace vlhkost vzlíná ze základů do zdí. Charakteristické solné výkvěty na stěnách a odpadávající omítka u podlahy.</li>
@@ -276,6 +304,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
+              <p>Spotřebu elektřiny odvlhčovače si předem spočítáš v naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby elektřiny</Link>.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Odvlhčovač nastav na cílovou vlhkost 50–55 % — pak se automaticky vypne a šetří energii. Nepřehánět to na 30 % — příliš suchý vzduch dráždí sliznice a způsobuje praskání dřevěného nábytku.</div>
             </section>
 
@@ -323,6 +352,18 @@ export default function ArticlePage() {
                 <details className="faq-item">
                   <summary className="faq-summary">Kdy volat odborníka na vlhkost?<span className="faq-icon">▾</span></summary>
                   <div className="faq-body">Odborníka vol pokud: vlhkost přetrvává i po pravidelném větrání a odvlhčovači, jsou viditelné mokré fleky které se po dešti zvětšují, jsou přítomny solné výkvěty nebo odpadávající omítka u podlahy, nebo pokud plíseň opakovaně roste na stejném místě i po ošetření. Stavební průzkum vlhkosti stojí 2 000–5 000 Kč a ušetří zbytečné výdaje na neúčinná řešení.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Jak snížit vlhkost vzduchu v bytě rychle?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Nejrychlejší snížení vlhkosti: (1) křížové větrání 10 minut — výměna celého vzduchu, (2) odvlhčovač snižuje vlhkost o 5–10 % za hodinu, (3) přestaň sušit prádlo uvnitř — každá pračka uvolní 2 litry páry. Bez identifikace a odstranění zdroje vlhkosti je ale každé snížení jen dočasné.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Jak dlouho větrat byt?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Optimálně 5–10 minut intenzivního křížového větrání (otevřená okna na obou stranách bytu) 2–3× denně. Ráno po vstávání, po každém sprchování a po vaření. Tato krátká výměna vzduchu odvede vlhkost a CO₂ bez výrazného ochlazení místnosti — účinnější než celý den pootevřené okno.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Proč je vlhkost v bytě vysoká i v zimě při topení?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Topení vzduch suší, ale pokud se nevětrá, vlhkost ze sprchování, vaření a dýchání se hromadí. Dva lidé v uzavřeném bytě produkují spánkem 1,5 litru páry za noc. Větrání v zimě je paradoxně důležitější než v létě — venkovní studený vzduch je velmi suchý a po zahřátí pojme hodně vlhkosti z bytu.</div>
                 </details>
               </div>
             </section>

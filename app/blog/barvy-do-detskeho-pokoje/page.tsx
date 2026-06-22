@@ -17,12 +17,31 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje#article",
     "headline": "Barvy do dětského pokoje – jak vybrat bezpečné a správné 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["barvy do dětského pokoje", "bezpečné barvy pro děti", "barvy bez VOC dětský pokoj", "jakou barvu do dětského pokoje", "dětský pokoj barva stěny"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy po malování může dítě spát v pokoji?", "acceptedAnswer": { "@type": "Answer", "text": "Minimálně 48 hodin po vymalování, ideálně 72 hodin. Tuto dobu větr s otevřenými okny. Pro kojence a alergiky doporučujeme týden. Low VOC barvy mají výrazně méně zápachu a emisí — ale přesto větrání doporučujeme." } },
+      { "@type": "Question", "name": "Jaká barva pomáhá dětem lépe spát?", "acceptedAnswer": { "@type": "Answer", "text": "Světlá modrá, levandulová a světlé pastelové zelené jsou nejlepší pro spánek. Věda potvrzuje že modré tóny snižují srdeční tep a podporují relaxaci. Červená, oranžová a jasná žlutá naopak spánek narušují. Pro nejlepší výsledek kombinuj uklidňující barvu stěn s tmavými závěsy (blackout)." } },
+      { "@type": "Question", "name": "Smím dát výraznou barvu do dětského pokoje?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale s mírou. Výrazná barva jako akcent (jedna stěna, nábytek) je v pořádku. Čtyři výrazně červené nebo tmavě fialové stěny mohou být pro dítě přestimulující nebo rušivé. Pokud dítě trvá na výrazné barvě, nabídni kompromis — jedna akcentní stěna." } }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Barvy do dětského pokoje – jak vybrat bezpečné a správné 2026", "item": "https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +73,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Barvy do dětského pokoje – jak vybrat bezpečné a správné</h1>
               <p className="article-lead">Barvy v dětském pokoji ovlivňují náladu, soustředění i kvalitu spánku. A ne každá barva je pro děti bezpečná. Tady je jak vybrat správně — bezpečně i esteticky.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/barvy-do-detskeho-pokoje" title="Barvy do dětského pokoje – jak vybrat bezpečné a správné 2026" />
             </header>
 
@@ -153,7 +172,7 @@ export default function ArticlePage() {
             <section id="tipy">
               <h2>Praktické tipy pro malování dětského pokoje</h2>
               <ul>
-                <li><strong>Omyvatelná barva je nutnost:</strong> Dětský pokoj = kresby na zdech, šmouhy, otisky rukou. Vždy vol barvu s třídou omyvatelnosti 1 (nejvyšší).</li>
+                <li><strong>Omyvatelná barva je nutnost:</strong> Dětský pokoj = kresby na zdech, šmouhy, otisky rukou. Vždy vol barvu s třídou omyvatelnosti 1 (nejvyšší). Kolik barvy na celý pokoj budeš potřebovat, snadno spočítáš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</li>
                 <li><strong>Testovací vzorník:</strong> Kup testovací balení (50–100 Kč) a nanes na zeď. Nechej zaschnout 24 hodin a pozoruj v různém světle — ráno, odpoledne, večer.</li>
                 <li><strong>Světlost místnosti:</strong> Tmavý pokoj na sever = světlé barvy pro odraz světla. Slunný pokoj na jih = můžeš si dovolit tmavší odstíny.</li>
                 <li><strong>Výška malování:</strong> Pro malé děti přemýšlej o jiné barvě v dolní části zdi (do výšky 1 m) — snadněji se vymaluje po kresbách.</li>

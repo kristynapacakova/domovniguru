@@ -17,12 +17,41 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/malovat-cely-byt-za-vikend#article",
     "headline": "Jak namalovat celý byt za víkend – plán a postup 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["malovat celý byt za víkend", "jak vymalovat byt rychle", "plán malování bytu", "pořadí místností malování", "vymalovat byt sám"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/malovat-cely-byt-za-vikend#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kolik barvy potřebuji na celý byt 3+1?", "acceptedAnswer": { "@type": "Answer", "text": "Pro byt 3+1 (~80 m² podlahové plochy) počítej přibližně 80–100 m² plochy zdí (zdi jsou vyšší než podlaha a je jich víc). Spotřeba barvy: 8–12 litrů pro 2 vrstvy (závisí na savosti povrchu a barvě). Strop: dalších 20–30 m² = 3–4 litry. Celkem: 11–16 litrů. Kup raději o 2 litry více." } },
+      { "@type": "Question", "name": "Lze malovat stejný den penetraci i barvu?", "acceptedAnswer": { "@type": "Answer", "text": "Závisí na penetraci. Rychleschnoucí penetrace schne 2–4 hodiny — pak lze malovat. Standardní penetrace vyžaduje 4–8 hodin. Pokud penetruješ v sobotu ráno, první vrstvu barvy dáš odpoledne. Přes noc schne a v neděli dáš druhou vrstvu. Nikdy nemaluj na mokrou penetraci — barva nepřilne." } },
+      { "@type": "Question", "name": "Co s nábytkem během malování?", "acceptedAnswer": { "@type": "Answer", "text": "Těžký nábytek přesuň do středu místnosti a zakryj fólií nebo starými prostěradly. Lehký nábytek přesuň do jiné místnosti. Nemaž za nábytkem přisunutým ke zdi — tuto práci udělej teprve po přesunutí. Po malování nechej barvu zaschnout min. 24–48 hodin před vrácením nábytku ke zdi." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/malovat-cely-byt-za-vikend#howto",
+    "name": "Jak namalovat celý byt za víkend – plán a postup 2026",
+    "description": "Realistický plán jak vymalovat celý byt za dva dny. Pořadí místností, příprava, správné nářadí a jak nepracovat přesčas. Fungující strategie krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Je to reálné?", "text": "Ano — ale záleží na velikosti bytu a zkušenostech. Orientační časy pro jednoho člověka:" },
+      { "@type": "HowToStep", "name": "Příprava v pátek večer", "text": "Příprava v pátek je klíč. Ztracená hodina ráno hledáním malířské pásky nebo nářadí zruinuje harmonogram." },
+      { "@type": "HowToStep", "name": "Pořadí místností – proč záleží", "text": "Pořadí místností – proč záleží" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/malovat-cely-byt-za-vikend#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Jak namalovat celý byt za víkend – plán a postup 2026", "item": "https://www.domovniguru.cz/blog/malovat-cely-byt-za-vikend" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +83,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak namalovat celý byt za víkend – plán a postup</h1>
               <p className="article-lead">Vymalovat celý byt za víkend je reálné — ale vyžaduje plán, správné pořadí místností a disciplínu. Bez plánu skončíš v neděli večer s rozemalovanou ložnicí a mokrým obývákem.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/malovat-cely-byt-za-vikend" title="Jak namalovat celý byt za víkend – plán a postup 2026" />
             </header>
 
@@ -164,6 +193,7 @@ export default function ArticlePage() {
                 <li><strong>Jedna barva na vše:</strong> Pokud je to možné, jedna barva na celý byt = jedno míchání, žádné přepínání, méně odpadu.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Kup o 10–15 % více barvy než kolik potřebuješ. Doobjednávat během víkendu zdržuje. Zbytek vrátíš nebo uschovej pro opravy.</div>
+              <p>Chceš vědět, co tě celé malování bytu bude stát? Orientační cenu za práci i materiál zjistíš v <Link href="/kalkulacky/cena-malovani" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce ceny malování</Link>.</p>
             </section>
 
             <section id="chyby">

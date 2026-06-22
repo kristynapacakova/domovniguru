@@ -17,12 +17,31 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny#article",
     "headline": "Kolik stojí rekonstrukce koupelny – ceny 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["kolik stojí rekonstrukce koupelny", "cena rekonstrukce koupelny 2026", "rekonstrukce koupelny cena práce", "obklady koupelna cena", "sanitární vybavení cena"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho trvá rekonstrukce koupelny?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní rekonstrukce koupelny 6–8 m² trvá 3–6 týdnů. Závisí na rozsahu prací, dostupnosti řemeslníků a složitosti instalací. Počítej s tím že bude koupelna 3–5 týdnů nedostupná — zajisti si přístup k jiné koupelně." } },
+      { "@type": "Question", "name": "Vyplatí se rekonstrukce koupelny při prodeji bytu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — nová koupelna zvyšuje hodnotu bytu a urychluje prodej. Ekonomická rekonstrukce (100 000–150 000 Kč) se při prodeji vrátí v ceně o 150 000–250 000 Kč. Prémiová rekonstrukce se nemusí plně vrátit — záleží na lokalitě a trhu." } },
+      { "@type": "Question", "name": "Potřebuji hydroizolaci pod obklady?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — hydroizolace pod obklady je nutná v mokrých zónách (sprchový kout, vana, oblast kolem umyvadla). Bez hydroizolace voda pronikne pod obklady a způsobí vlhkost, plíseň a poškození stropů sousedů. Cena hydroizolace je 200–500 Kč/m² — vyplatí se vždy." } }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Kolik stojí rekonstrukce koupelny – ceny 2026", "item": "https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +73,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Kolik stojí rekonstrukce koupelny – ceny 2026</h1>
               <p className="article-lead">Rekonstrukce koupelny je jedna z nejdražších investic do bytu — a zároveň jedna z nejvíce se vracejících. Tady jsou realistické ceny pro rok 2026 a kde lze ušetřit bez kompromisů na kvalitě.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/cena-rekonstrukce-koupelny" title="Kolik stojí rekonstrukce koupelny – ceny 2026" />
             </header>
 
@@ -107,7 +126,7 @@ export default function ArticlePage() {
 
             <section id="celkove">
               <h2>Celkové náklady – tři scénáře</h2>
-              <p>Cena rekonstrukce koupelny závisí především na velikosti, kvalitě materiálů a rozsahu prací. Pro koupelnu 6–8 m² počítej s těmito rozsahy:</p>
+              <p><Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>Cena rekonstrukce koupelny</Link> závisí především na velikosti, kvalitě materiálů a rozsahu prací. Pro koupelnu 6–8 m² počítej s těmito rozsahy:</p>
               <div className="article-table-wrap">
                 <table className="article-table">
                   <thead><tr><th>Scénář</th><th>Celková cena (6–8 m²)</th><th>Co zahrnuje</th></tr></thead>
@@ -171,6 +190,7 @@ export default function ArticlePage() {
 
             <section id="usporit">
               <h2>Kde ušetřit bez kompromisů na kvalitě</h2>
+              <p>Pokud nevíš kde začít, <Link href="/blog/najit-proveri-remeslnika" style={{ color: "#2a6496", textDecoration: "underline" }}>tipy na výběr spolehlivého řemeslníka</Link> ti pomohou vyhnout se nepříjemným překvapením.</p>
               <ul>
                 <li><strong>Zachovej rozmístění rozvodů:</strong> Přesunutí WC nebo sprchy na jiné místo zdražuje instalatérské práce o 20 000–50 000 Kč. Pokud to není nutné, zachovej stávající rozmístění.</li>
                 <li><strong>Obklady z výprodeje nebo přebytků:</strong> Stavební prodejny mají výprodejní sklady s plně funkčními obklady za zlomek ceny. Nutné koupit najednou (nestejné šarže se liší odstínem).</li>

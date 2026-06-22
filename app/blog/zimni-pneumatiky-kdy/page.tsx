@@ -17,12 +17,31 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy#article",
     "headline": "Zimní pneumatiky – kdy přezout a jak vybrat 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["zimní pneumatiky kdy přezout", "přezutí na zimní pneumatiky", "zimní vs celoroční pneumatiky", "zákon zimní pneumatiky ČR", "výběr zimních pneumatik", "uskladnění pneumatik"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu jezdit s zimními pneumatikami celý rok?", "acceptedAnswer": { "@type": "Answer", "text": "Zákon to nezakazuje, ale je to nevýhodné. Zimní pneumatiky mají měkčí gumovou směs která se v létě rychleji opotřebí, má horší handling při vysokých teplotách a vyšší spotřebu paliva. Průměrná zimní pneumatika celoroční jízdou vydrží jen 2–3 sezóny místo 5–6. Ekonomicky se nevyplatí." } },
+      { "@type": "Question", "name": "Kolik stojí přezutí pneumatik?", "acceptedAnswer": { "@type": "Answer", "text": "Přezutí (výměna kol na diskách): 200–400 Kč za auto. Přezutí s přehozením pneumatik na disky + vyvážení: 600–1 200 Kč za auto. Sezónní přezutí s uskladněním: 800–1 500 Kč. Ceny se liší dle lokality — Praha a velká města jsou dražší." } },
+      { "@type": "Question", "name": "Jak poznám že zimní pneumatika je opotřebená?", "acceptedAnswer": { "@type": "Answer", "text": "Hloubka dezénu pod 4 mm (zákonné minimum 1,6 mm ale bezpečnostní minimum 4 mm). Dezén má ukazatele opotřebení (TWI) — malé výstupky v drážkách dezénu. Když je dezén na úrovni těchto výstupků, pneumatika je opotřebená. Měř pomocí hloubkoměru dezénu (20–50 Kč v hobbymarketu)." } }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Zimní pneumatiky – kdy přezout a jak vybrat 2026", "item": "https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +73,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Zimní pneumatiky – kdy přezout a jak vybrat</h1>
               <p className="article-lead">Přezutí na zimní pneumatiky není jen zákonná povinnost — je to otázka bezpečnosti. Letní pneumatika na sněhu zastaví o 40 % hůře než zimní. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zimni-pneumatiky-kdy" title="Zimní pneumatiky – kdy přezout a jak vybrat 2026" />
             </header>
 

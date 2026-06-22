@@ -17,12 +17,41 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#article",
     "headline": "Elektrické podlahové topení – typy a instalace",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["elektrické podlahové topení", "topná rohož", "podlahové topení koupelna", "provozní náklady podlahové topení", "instalace podlahového topení", "topný kabel"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Lze elektrické podlahové topení nainstalovat pod plovoucí podlahu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — ale jen infračervenou fólii nebo speciální topný kabel určený pro plovoucí podlahy. Teplota podlahy musí být max. 27 °C aby nedocházelo k roztahování laminátové nebo vinylové podlahy. Topná rohož v tmelu pod plovoucí podlahu nepatří." } },
+      { "@type": "Question", "name": "Je elektrické podlahové topení bezpečné v koupelně?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — při správné instalaci je zcela bezpečné. Musí být zapojen proudový chránič (RCD) 30 mA, instalaci provede elektrikář, a rohož musí mít certifikaci pro mokré prostory. Topný kabel je zalitý v tmelu — není v přímém kontaktu s vodou." } },
+      { "@type": "Question", "name": "Mohu zapnout topení hned po pokládce dlažby?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — čekej minimálně 28 dní od pokládky dlažby. Tmel a spárovací hmota potřebují zaschnout bez tepla. Předčasné zapnutí způsobí nerovnoměrné schnutí, praskání spár a odlepení dlažby. Výjimka: výrobce udává kratší dobu — dodržuj jeho pokyny." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#howto",
+    "name": "Elektrické podlahové topení – typy a instalace",
+    "description": "Elektrické podlahové topení – topná rohož nebo kabel? Jak se instaluje, kolik stojí provoz a je to lepší než radiátory? Průvodce pro každého kdo to zvažuje.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy elektrického podlahového topení", "text": "Typy elektrického podlahového topení" },
+      { "@type": "HowToStep", "name": "Instalace topné rohože – postup", "text": "Topná rohož pod dlažbu je nejčastější a nejjednodušší varianta elektrického podlahového topení. Zvládneš ji sám — ale zapojení do elektriky musí provést elektrikář." },
+      { "@type": "HowToStep", "name": "Termostat a ovládání", "text": "Termostat a ovládání" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Elektrické podlahové topení – typy a instalace", "item": "https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +83,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Elektrické podlahové topení – typy, instalace a provozní náklady</h1>
               <p className="article-lead">Teplá podlaha v koupelně je luxus který si dnes může dovolit skoro každý. Topná rohož do dlažby stojí 2 000–5 000 Kč a provoz vyjde na 200–600 Kč měsíčně. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/elektricke-podlahove-topeni" title="Elektrické podlahové topení – typy a instalace" />
             </header>
 
@@ -129,7 +158,7 @@ export default function ArticlePage() {
               <h2>Provozní náklady – kolik to stojí</h2>
               <p>Elektrické podlahové topení je dražší na provoz než teplovodní systém, ale levnější na instalaci. Ideální jako doplňkové nebo komfortní topení, ne jako primární zdroj tepla pro celý byt.</p>
               <ul>
-                <li><strong>Příklad — koupelna 6 m², 150 W/m²:</strong> Celkový výkon 900 W. Při 4 hodinách denně: 900 W × 4 h = 3,6 kWh/den. Při ceně 6 Kč/kWh = 21,6 Kč/den = 650 Kč/měsíc.</li>
+                <li><strong>Příklad — koupelna 6 m², 150 W/m²:</strong> Celkový výkon 900 W. Při 4 hodinách denně: 900 W × 4 h = 3,6 kWh/den. Při ceně 6 Kč/kWh = 21,6 Kč/den = 650 Kč/měsíc. Náklady pro svou místnost spočítáš v naší <Link href="/kalkulacky/podlahove-topeni" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce podlahového topení</Link>.</li>
                 <li><strong>Termostat ušetří 40–60 %:</strong> Programovatelný termostat spouští topení jen když je potřeba — ráno před vstáváním a večer. Bez termostatu topení běží neustále.</li>
                 <li><strong>Srovnání s radiátorem:</strong> Radiátor (teplovodní) má nižší provozní náklady ale vyšší investici. Elektrické podlahové topení je levnější na instalaci ale dražší na provoz.</li>
               </ul>

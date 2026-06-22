@@ -10,13 +10,57 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak se zbavit plevele bez chemie 2026", description: "Vroucí voda, ocet, mechanicky. Průvodce bez herbicidů." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#article", "headline": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak se zbavit plevele bez chemie", "plevel v travniku", "plevel v dlazbe", "ocet na plevel", "mulcovani plevele", "vyryvak plevele"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "Article",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#article",
+    "headline": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)",
+    "datePublished": "2026-03-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
+    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+    "inLanguage": "cs",
+    "keywords": ["jak se zbavit plevele bez chemie", "plevel v travniku", "plevel v dlazbe", "ocet na plevel", "mulcovani plevele", "vyryvak plevele"]
+  }, {
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak se zbavit plevele v dlažbě bez chemie?", "acceptedAnswer": { "@type": "Answer", "text": "Nejúčinnější přírodní metody na plevel v dlažbě: (1) vroucí voda přímo z konvice — zničí buňky plevele, (2) plynový hořák — zahřej na 70–80 °C dokud stéblo nezčervená, (3) ocet 10–20 % ve slunný den, (4) trvalé řešení: fugování spár polymersandem." } },
+      { "@type": "Question", "name": "Jak se zbavit plevele v trávníku?", "acceptedAnswer": { "@type": "Answer", "text": "V trávníku plevel odstraňuj výhradně mechanicky — vypichovakem s celým kořenem. Vroucí voda ani ocet v trávníku nefungují — zničí i trávu. Pravidelné sekání na 4–5 cm a jarní hnojení dusíkem posiluje trávu a přirozeně vytlačuje plevel." } },
+      { "@type": "Question", "name": "Co na plevel v záhonu?", "acceptedAnswer": { "@type": "Answer", "text": "Záhony: (1) mulčování organickým mulčem 5–8 cm blokuje světlo a klíčení, (2) krajinná textilie pod mulč pro dlouhodobý efekt, (3) mechanické vytrhávání po dešti kdy se kořen snadněji vytáhne. Ocet a sůl v záhonech nepoužívat — okyselují a zasolují půdu." } },
+      { "@type": "Question", "name": "Funguje ocet na plevel?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, ale jen na dlažbě a chodnících. Ocet (alespoň 10 %) ničí nadzemní části rostlin. Na trávník a záhony ho nepoužívej — není selektivní, zabije i žádoucí rostliny a okyselí půdu. Aplikuj přesně ve slunný den přímým postřikem na plevel." } },
+      { "@type": "Question", "name": "Jak se natrvalo zbavit plevele?", "acceptedAnswer": { "@type": "Answer", "text": "Trvalé řešení kombinuje mechanické odstranění (celý kořen) + prevenci: mulčování záhonů, fugování dlažebních spár polymersandem a hustý zdravý trávník. Klíč je odstraňovat plevel před dozráním semen — jinak rozséváš tisíce nových semen po zahradě." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#howto",
+    "name": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)",
+    "description": "Mechanické vytrhávání, vroucí voda, ocet a plamen. Kompletní průvodce likvidací plevele bez herbicidů – bezpečně pro lidi, zvířata i půdu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Přírodní metody likvidace plevele – srovnání", "text": "Každá metoda má svůj kontext — co funguje skvěle na dlažbě, může zničit trávník. Tabulka ti pomůže vybrat správnou metodu pro správný povrch." },
+      { "@type": "HowToStep", "name": "Plevel v trávníku vs. na dlažbě – rozdílné přístupy", "text": "Největší chyba kterou zahradníci dělají je aplikovat stejnou metodu na všechny povrchy. Vroucí voda nebo ocet na dlažbě funguje skvěle — ale na trávníku zničí trávu i s plevelem." },
+      { "@type": "HowToStep", "name": "Domácí recepty na přírodní postřiky – bezpečné poměry", "text": "Přírodní postřiky jsou levné a snadno dostupné. Ale pozor — ocet a sůl mohou při nadměrném použití okyselit nebo zasolit půdu. Používej je cíleně, s rozumem a jen na nechtěné plochy." },
+      { "@type": "HowToStep", "name": "Prevence – jak plevel zastavit dřív než začne", "text": "Nejlepší boj s plevelem je ten, ke kterému nedojde. Preventivní opatření jsou méně práce než opakovaná likvidace." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)", "item": "https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Jak správně sekat trávník – průvodce pro hustý pažit", href: "/blog/jak-sekat-travnik", read: "8 min" },
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
   { title: "Jak správně zalévat zahradu", href: "/blog/jak-spravne-zalevat", read: "5 min" },
-  { title: "Vyvýšené záhony: Kompletní průvodce od stavby po sklizeň", href: "/blog/vyvysene-zahony", read: "10 min" },
+  { title: "Jak se zbavit krtků na zahradě – co funguje a co ne", href: "/blog/zbavit-se-krtku", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -43,7 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak se zbavit plevele v trávníku i na dlažbě bez chemie</h1>
               <p className="article-lead">Herbicidy jsou rychlé, ale ničí půdní mikrobiom, ohrožují děti a domácí zvířata a jejich efekt je dočasný. Tyhle přírodní metody jsou pomalejší — ale trvalejší, bezpečné a většinu zvládneš s tím co doma máš.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 21. března 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/zbavit-se-plevele-bez-chemie"
                 title="Jak se zbavit plevele v trávníku i na dlažbě bez chemie (2026)"
@@ -354,7 +398,7 @@ export default function ArticlePage() {
               <h2>Prevence – jak plevel zastavit dřív než začne</h2>
               <p>Nejlepší boj s plevelem je ten, ke kterému nedojde. Preventivní opatření jsou méně práce než opakovaná likvidace.</p>
               <ul>
-                <li><strong>Mulčování záhonů:</strong> Vrstva mulče (kůra, štěpka, listí) 5–8 cm na záhonech blokuje světlo a zabraňuje klíčení semen plevele. Zároveň udržuje vlhkost a obohacuje půdu. Obnovuj každý rok na jaře.</li>
+                <li><strong>Mulčování záhonů:</strong> Vrstva mulče (kůra, štěpka, listí) 5–8 cm na záhonech blokuje světlo a zabraňuje klíčení semen plevele. Zároveň udržuje vlhkost a obohacuje půdu. Přesné množství mulče pro svůj záhon snadno spočítáš pomocí naší <Link href="/kalkulacky/kolik-mulce" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky mulče</Link>. Obnovuj každý rok na jaře.</li>
                 <li><strong>Krajinná textilie:</strong> Pod mulč nebo štěrk polož krajinnou (geotextilní) textilii — zabrání plevelu proniknout zdola a zároveň propouští vodu. Trvanlivost 5–10 let.</li>
                 <li><strong>Fugování dlažebních spár:</strong> Polymersand nebo spárovací malta ve spárách dlažby fyzicky zabrání klíčení semen. Jednou zaférovné spáry jsou bez plevele roky.</li>
                 <li><strong>Hustý trávník:</strong> Zdravý, hustý a pravidelně sekávaný trávník je nejlepší prevence plevele. Tráva stíní půdu a obsazuje místo kde by plevel klíčil.</li>

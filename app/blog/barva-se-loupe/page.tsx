@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#article",
     "headline": "Proč se barva loupe – příčiny a jak to opravit 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["proč se barva loupe", "odlupující se barva zeď", "barva praská a loupe", "jak opravit loupající barvu", "barva se loupe příčiny", "oprava odlupující se barvy"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu přemalovat přes loupající se barvu?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — nová barva nanášená přes nestabilní starý podklad se začne loupit s ním brzy. Vždy odstraň vše co se loupe, oprav povrch, penetruj a teprve pak mal. Přemalování bez opravy podkladu způsobí opakování problému za 6–12 měsíců." } },
+      { "@type": "Question", "name": "Proč se barva loupe jen v koupelně nebo kuchyni?", "acceptedAnswer": { "@type": "Answer", "text": "Vlhkost a mastnota — typické problémy koupelny a kuchyně. V koupelně: nedostatečné větrání způsobí kondenzaci páry na stěnách. V kuchyni: mastnota z vaření se usazuje na zdi. Řešení: použít speciální koupelnovou nebo kuchyňskou barvu s vyšší odolností a zlepšit větrání." } },
+      { "@type": "Question", "name": "Jak poznat jestli je starý nátěr kompatibilní s novou barvou?", "acceptedAnswer": { "@type": "Answer", "text": "Jednoduchý test: otři zeď isopropylalkoholem (lihem). Pokud se barva rozpustí nebo rozmaže — je to olejová barva. Pokud se nerozpustí — je to akrylát nebo latex. Olejový nátěr přetírat olejovým, akrylát akrátem. Akrylát nad starý olej bez přípravy způsobí loupaní." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#howto",
+    "name": "Proč se barva loupe – příčiny a jak to opravit 2026",
+    "description": "Proč se barva na zdi nebo dřevě loupe, praskáte a odlupuje? Nejčastější příčiny a jak správně opravit odlupující se barvu bez nutnosti přemalovat celou zeď.",
+    "step": [
+      { "@type": "HowToStep", "name": "Nejčastější příčiny loupající se barvy", "text": "Nejčastější příčiny loupající se barvy" },
+      { "@type": "HowToStep", "name": "Vlhkost – nejzákeřnější příčina", "text": "Pokud se barva loupe ve formě bublin nebo se začíná od spodního okraje zdi, je velmi pravděpodobná vlhkost. Přemalování bez odstranění příčiny vlhkosti způsobí totéž za 6–12 měsíců." },
+      { "@type": "HowToStep", "name": "Jak opravit loupající se barvu", "text": "Jak opravit loupající se barvu" },
+      { "@type": "HowToStep", "name": "Jak předejít loupání v budoucnu", "text": "Jak předejít loupání v budoucnu" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/barva-se-loupe#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Proč se barva loupe – příčiny a jak to opravit 2026", "item": "https://www.domovniguru.cz/blog/barva-se-loupe" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +84,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Proč se barva loupe – příčiny a jak to opravit</h1>
               <p className="article-lead">Loupající se barva není jen estetický problém — je to signál že příprava povrchu nebo samotné malování neproběhlo správně. Správná oprava trvá déle než přemalování, ale výsledek drží roky.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/barva-se-loupe" title="Proč se barva loupe – příčiny a jak to opravit 2026" />
             </header>
 
@@ -126,7 +156,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 1 — Odstraň vše co se loupe:</strong> Škrabkou nebo bruskou odstraň vše co není pevně spojeno s podkladem. Loupe-li se víc než si myslíš — je to normální, odstraň vše nestabilní.</li>
                 <li><strong>Krok 2 — Přebrousit hrany:</strong> Na hranách kde barva přechází od odlupujícího se místa k pevnému podkladu přebrousit jemným papírem — vytvoříš plynulý přechod.</li>
                 <li><strong>Krok 3 — Oprav povrch:</strong> Prohlubně a nerovnosti vyplň tmelem nebo omítkovinou. Nechej zaschnout.</li>
-                <li><strong>Krok 4 — Penetruj:</strong> Penetrace je povinná — sjednotí savost a zlepší přilnavost nové barvy.</li>
+                <li><strong>Krok 4 — Penetruj:</strong> Penetrace je povinná — sjednotí savost a zlepší přilnavost nové barvy. Kolik penetrace budete potřebovat, spočítáte v naší <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce penetrace</Link>.</li>
                 <li><strong>Krok 5 — Namaluj novou vrstvu:</strong> Dvě tenké vrstvy barvy, nechej každou vrstvu řádně zaschnout.</li>
               </ul>
               <div className="article-tip"><strong>⚠️ Varování:</strong> Nestříkej novou barvu přes loupající se povrch bez opravy — nová barva se začne loupit s tou starou brzy. Je to ztráta času a peněz.</div>

@@ -17,12 +17,45 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#article",
     "headline": "Jak pokládat betonové dlaždice na terasu – postup 2026",
     "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak pokládat betonové dlaždice", "pokládka dlaždic terasa", "příprava podloží dlaždice", "spád terasy", "spárování dlaždic", "betonové dlaždice postup"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak hluboký výkop potřebuji pro betonové dlaždice?", "acceptedAnswer": { "@type": "Answer", "text": "Pro pěší terasu s dlaždicemi tloušťky 5 cm: výkop 22–25 cm (5 cm dlaždice + 4 cm písek + 13 cm štěrk + rezerva). Pro pojezdovou plochu osobním autem: min. 30 cm s dlaždicemi 8 cm tloušťky. Výkop vždy zahrnuj rezervu pro geotextilii a zhutnění." } },
+      { "@type": "Question", "name": "Je nutná geotextilie?", "acceptedAnswer": { "@type": "Answer", "text": "Geotextilie není povinná ale výrazně prodlužuje životnost terasy. Zabrání promíchávání štěrku se zeminou (štěrk by se postupně propadal), prorůstání plevele spárami a zlepšuje odvodnění. Cena je nízká (15–25 Kč/m²) a montáž trvá minuty — vyplatí se vždy." } },
+      { "@type": "Question", "name": "Mohu položit dlaždice sám nebo potřebuji řemeslníka?", "acceptedAnswer": { "@type": "Answer", "text": "Pokládka betonových dlaždic na sucho (bez lepení) je DIY přístupná práce. Nejtěžší část je příprava podloží — zhutnění štěrku vyžaduje vibrační desku. Malé plochy (do 20 m²) zvládne šikovný laik za víkend. Větší plochy nebo složité vzory jsou lepší svěřit dlaždiči." } },
+      { "@type": "Question", "name": "Jak čistit betonové dlaždice od mechů a řas?", "acceptedAnswer": { "@type": "Answer", "text": "Tlakový čistič (100–150 bar) je nejúčinnější. Pro mech a řasy použij roztok jedlé sody (3 lžíce/litr) nebo speciální přípravek na čištění dlaždic. Po vyčištění lze nanést impregnaci proti prorůstání mechu — vydrží 2–3 sezóny." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#howto",
+    "name": "Jak pokládat betonové dlaždice na terasu – postup 2026",
+    "description": "Pokládka betonových dlaždic na terasu nebo chodník krok za krokem. Příprava podloží, spád, kladení a spárování. Trvanlivý výsledek bez vydlážděných pruhů.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava a plánování", "text": "Než začneš kopat, urči přesné rozměry terasy, typ a velikost dlaždic a vyznač spád. Špatné plánování znamená zbytečné přeřezávání dlaždic a nevzhledné řešení u okrajů." },
+      { "@type": "HowToStep", "name": "Příprava podloží – klíčový krok", "text": "Toto je nejdůležitější část celé práce. Špatné podloží způsobí zdvihnutí, propadnutí nebo prasknutí dlaždic po první zimě. Věnuj přípravě podloží stejně času jako samotné pokládce." },
+      { "@type": "HowToStep", "name": "Spád – proč je kritický", "text": "Terasa musí mít spád minimálně 2 % (2 cm na 1 m) a musí být vždy od domu směrem ven. Bez spádu se voda hromadí u základů domu a způsobuje vlhkost ve sklepě nebo podmáčení základů." },
+      { "@type": "HowToStep", "name": "Kladení dlaždic", "text": "Kladení dlaždic" },
+      { "@type": "HowToStep", "name": "Spárování – finální krok", "text": "Spárování uzavře spáry, zabrání prorůstání plevele a dá terasu finální vzhled." },
+      { "@type": "HowToStep", "name": "Kolik materiálu potřebuješ", "text": "Kolik materiálu potřebuješ" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak pokládat betonové dlaždice na terasu – postup 2026", "item": "https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak pokládat betonové dlaždice na terasu – příprava podloží, spád a spárování</h1>
               <p className="article-lead">Špatně položená terasa se po první zimě zdvihne, praskne nebo zamokří. Správná příprava podloží je 80 % práce — samotná pokládka dlaždic pak trvá odpoledne. Tady je jak na to.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/pokladat-betonove-dlazdice" title="Jak pokládat betonové dlaždice na terasu – postup 2026" />
             </header>
 
@@ -164,7 +197,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Rozměry a layout:</strong> Nakresli si půdorys terasy na papír. Dlaždice rozmísti tak aby byly u viditelných hran celé — řezané dlaždice nechej u zdi nebo za nábytkem. Ideálně začni od středu nebo od nejviditelnějšího rohu.</li>
                 <li><strong>Výběr dlaždic:</strong> Betonové dlaždice pro exteriér musí mít mrazuvzdornost (označení C3 nebo W4). Tloušťka min. 5 cm pro pěší provoz, 8+ cm pro pojezdové plochy. Povrchová textura (protiskluznost) je důležitá — hladká dlaždice je kluzká za mokra.</li>
-                <li><strong>Nákup materiálu:</strong> Dlaždice + 10 % rezerva na odpad a řezání. Štěrk: plocha × 0,15 m = m³. Písek: plocha × 0,05 m = m³. Geotextilie: plocha + 20 % přesah.</li>
+                <li><strong>Nákup materiálu:</strong> Dlaždice + 10 % rezerva na odpad a řezání — přesný počet dlaždic pro svou plochu ti spočítá naše <Link href="/kalkulacky/kolik-dlazby" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka dlažby</Link>. Štěrk: plocha × 0,15 m = m³. Písek: plocha × 0,05 m = m³. Geotextilie: plocha + 20 % přesah.</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Před nákupem dlaždic polož 2–3 kusy na zem a dívej se na ně za různého osvětlení. Barva a textura v obchodě vypadá jinak než venku na přímém slunci.</div>
             </section>

@@ -17,12 +17,41 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou#article",
     "headline": "Ochrana rostlin před zimou – co zakrýt",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["ochrana rostlin před zimou", "přezimování rostlin", "jak zakrýt rostliny před mrazem", "mulčování záhonů zima", "přezimování balkónových rostlin"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Přežijí hortenzie českou zimu bez ochrany?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na druhu. Hortenzie velkolistá (Hydrangea macrophylla) — citlivá, pupeny mohou odmrznout i při mírné zimě. Zakrýt jutou nebo agrotextilií přes zimu. Hortenzie stromková (H. arborescens) a lat' natá (H. paniculata) — otužilé, přezimují bez ochrany. Klíč je chránit pupeny, ne celou rostlinu." } },
+      { "@type": "Question", "name": "Musím záhony na zimu přikrýt nebo je to zbytečné?", "acceptedAnswer": { "@type": "Answer", "text": "Přikrytí mulčem záhonů s trvalkami je vždy přínosné — chrání kořeny před střídáním teplot (zamrznutí a rozmrznutí poškozuje kořeny více než konstantní mráz). U dobře zavedených odolných trvalek (kopretina, bergenie, rozchodník) přikrytí není nutné. U citlivějších (hosta, echinacea, třapatka) doporučujeme vrstvu chvojí nebo listí." } },
+      { "@type": "Question", "name": "Kdy vyndat přezimující rostliny ven na jaře?", "acceptedAnswer": { "@type": "Answer", "text": "Po \"ledových mužích\" (12.–15. května) kdy přestane hrozit pozdní mráz. Pro otužilé druhy (oleander, levandule) lze začít koncem dubna při stabilním počasí. Rostliny přesunuté ze zimoviště aklimatizuj postupně — nejdřív do polostínu a chráněného místa, pak na plné slunce. Náhlý přesun ze tmy na přímé slunce způsobí spálení listů." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou#howto",
+    "name": "Ochrana rostlin před zimou – co zakrýt",
+    "description": "Jak ochránit zahradní rostliny před zimou. Co zakrýt jutou nebo mulčem, co přestěhovat do skleníku a co přezimuje samo. Průvodce pro zahradu i balkon.",
+    "step": [
+      { "@type": "HowToStep", "name": "Co zakrýt a jak", "text": "Co zakrýt a jak" },
+      { "@type": "HowToStep", "name": "Co přestěhovat dovnitř", "text": "Co přestěhovat dovnitř" },
+      { "@type": "HowToStep", "name": "Mulčování záhonů – jednoduchá ochrana", "text": "Mulčování záhonů – jednoduchá ochrana" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Ochrana rostlin před zimou – co zakrýt", "item": "https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" }
+    ]
+  }
+  ]
 };
 
 const PLANT_GROUPS = [
@@ -61,7 +90,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Ochrana rostlin před zimou – co zakrýt, přestěhovat a nechat</h1>
               <p className="article-lead">Ne každá rostlina potřebuje zimní ochranu — ale ta správná ve správný čas zachrání i rostliny za tisíce korun. Tady je přehledný návod co s čím udělat.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/ochrana-rostlin-pred-zimou" title="Ochrana rostlin před zimou – co zakrýt" />
             </header>
 

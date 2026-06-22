@@ -9,7 +9,41 @@ export const metadata: Metadata = {
   openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20funguje%20chytr%C3%A1%20dom%C3%A1cnost%20%E2%80%93%20za%C4%8D%C3%ADn%C3%A1me%20bez%20rekonstrukce%202025&cat=blog", width: 1200, height: 630, alt: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025" }] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs" }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["chytrá domácnost", "smart home začátečníci", "chytré osvětlení", "chytré zásuvky", "Zigbee Z-Wave WiFi", "home automation"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Musím mít hub (centrální jednotku) pro chytrou domácnost?", "acceptedAnswer": { "@type": "Answer", "text": "Pro začátek ne. WiFi zařízení fungují přímo přes domácí síť bez hubu. Hub oceníš až při více než 20–30 zařízeních nebo pokud chceš Zigbee/Z-Wave produkty." } },
+      { "@type": "Question", "name": "Jaká je nejlevnější cesta jak začít s chytrou domácností?", "acceptedAnswer": { "@type": "Answer", "text": "Chytrá žárovka za 200–500 Kč nebo chytrá zásuvka za 300–600 Kč. Žádná rekonstrukce, žádný elektrikář – jen vyšroubuj starou žárovku nebo zasuň zásuvku do stěnové." } },
+      { "@type": "Question", "name": "Jsou chytrá WiFi zařízení bezpečná?", "acceptedAnswer": { "@type": "Answer", "text": "Základní bezpečnost: změň výchozí hesla ke každému zařízení, pravidelně aktualizuj firmware a ideálně vytvoř oddělená IoT síť (host network). Levná čínská zařízení mají méně spolehlivé bezpečnostní záplaty." } },
+      { "@type": "Question", "name": "Fungují chytrá zařízení bez internetu?", "acceptedAnswer": { "@type": "Answer", "text": "WiFi zařízení bez internetu nefungují – potřebují cloudové servery výrobce. Výjimkou jsou zařízení s lokálním řízením (Home Assistant, některé Zigbee produkty), která fungují i při výpadku internetu." } },
+      { "@type": "Question", "name": "Co je Matter a proč se o něm mluví?", "acceptedAnswer": { "@type": "Answer", "text": "Matter je nový universální standard pro chytrá zařízení, který zajišťuje kompatibilitu mezi různými ekosystémy (Apple, Google, Amazon, Samsung). Nová zařízení s Matter certifikací fungují s kteroukoli platformou – nemusíš si vybírat jeden ekosystém." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#howto",
+    "name": "Jak funguje chytrá domácnost – začínáme",
+    "description": "Chytré zásuvky, žárovky a reproduktory bez vrtání a elektrikáře. Jak začít s chytrou domácností za pár stovek.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak chytrá domácnost funguje", "text": "Chytrá domácnost je systém zařízení která se připojují k domácí WiFi nebo jinému bezdrátovému protokolu a lze je ovládat přes telefon, hlasem nebo automatickými pravidly." },
+      { "@type": "HowToStep", "name": "Kde začít – nejjednodušší kroky", "text": "Vyšroubuj starou žárovku, zašroubuj chytrou LED — hotovo. Ovládáš jas, barvu světla a nastavíš časovače přes aplikaci. Cena od 200–500 Kč za žárovku." },
+      { "@type": "HowToStep", "name": "Zigbee, Z-Wave nebo WiFi?", "text": "Zigbee, Z-Wave nebo WiFi?" },
+      { "@type": "HowToStep", "name": "Potřebuji hub?", "text": "Pro začátek ne. WiFi zařízení fungují přímo přes tvoji domácí síť. Hub (centrální řídící jednotka) oceníš až když:" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak funguje chytrá domácnost – začínáme", "item": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Jak vybrat správnou LED žárovku", href: "/blog/jak-vybrat-led-zarovku", read: "5 min" },
@@ -39,8 +73,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak funguje chytrá domácnost – začínáme</h1>
               <p className="article-lead">Chytrá domácnost neznamená rekonstrukci ani desítky tisíc za instalaci. Začít se dá za pár stovek s chytrou žárovkou nebo zásuvkou — bez vrtání a elektrikáře.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" title="Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025" />
             </header>
 
@@ -133,7 +166,7 @@ export default function ArticlePage() {
               <h3>1. Chytré žárovky (nejjednodušší start)</h3>
               <p>Vyšroubuj starou žárovku, zašroubuj chytrou LED — hotovo. Ovládáš jas, barvu světla a nastavíš časovače přes aplikaci. Cena od 200–500 Kč za žárovku.</p>
               <h3>2. Chytré zásuvky</h3>
-              <p>Zasuň do normální zásuvky — získáš dálkové ovládání vypínání/zapínání a měření spotřeby. Ideální pro lampy, nabíječky nebo spotřebiče které chceš automaticky vypínat. Cena od 300–600 Kč.</p>
+              <p>Zasuň do normální zásuvky — získáš dálkové ovládání vypínání/zapínání a měření spotřeby. Ideální pro lampy, nabíječky nebo spotřebiče které chceš automaticky vypínat. Cena od 300–600 Kč. Jak moc vaše domácnost spotřebovává elektřiny celkem, ti pomůže zjistit naše <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka spotřeby elektřiny</Link>.</p>
               <h3>3. Chytrý termostat</h3>
               <p>Výměna za stávající termostat — snížíš náklady na vytápění o 15–25 % díky přesnému plánování. Cena od 1500–4000 Kč.</p>
               <h3>4. Chytré bezpečnostní kamery</h3>

@@ -17,19 +17,39 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/tapety-vs-barva#article",
     "headline": "Tapety vs. barva na zeď – co je lepší volba pro váš byt 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["tapety vs barva", "tapety nebo malování", "výhody tapet", "tapety výhody nevýhody", "malování zdi výhody", "tapety cena vs barva"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/tapety-vs-barva#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je lepší tapeta nebo barva do obýváku?", "acceptedAnswer": { "@type": "Answer", "text": "Záleží na stylu a rozpočtu. Barva je flexibilnější a levnější — vhodná pro celý pokoj. Tapeta dá pokoji osobitý výraz ale je dražší a složitější. Nejlepší kompromis: malování + jedna tapetovaná akcentní stěna za pohovkou." } },
+      { "@type": "Question", "name": "Jak dlouho vydrží tapeta vs. barva?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní vinyl tapeta vydrží 10–15 let bez výrazného opotřebení. Malování barvou vydrží 5–8 let, pak začínají být patrné šmouhy nebo blednutí. Tapeta tedy vydrží déle, ale je dražší pořizovací investicí." } },
+      { "@type": "Question", "name": "Mohu lepit tapety přes staré tapety?", "acceptedAnswer": { "@type": "Answer", "text": "Nedoporučujeme. Stará tapeta může bobtnout nebo odpadnout pod vlhkostí lepidla — nová tapeta se pak nerovnoměrně přichytí. Staré tapety vždy odstraň, zeď vyrovnej a penetruj. Výjimka: tenká papírová tapeta na rovné zdi bez bublin." } },
+      { "@type": "Question", "name": "Kolik rolí tapet potřebuji?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní role tapety pokryje 5–5,5 m². Pro místnost 4×3 m (obvod 14 m, výška 2,5 m = 35 m²) potřebuješ 7–8 rolí. Pro tapety se vzorem přidej 1–2 role navíc na sladění vzoru. Vždy kup o jednu roli více — doobjednat stejnou šarži může být problém." } }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/tapety-vs-barva#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Malování & barvy", "item": "https://www.domovniguru.cz/blog/kategorie/malovani" },
+      { "@type": "ListItem", "position": 4, "name": "Tapety vs. barva na zeď – co je lepší volba pro váš byt 2026", "item": "https://www.domovniguru.cz/blog/tapety-vs-barva" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak malovat zeď – kompletní průvodce", href: "/blog/jak-malovat-zed", read: "5 min" },
   { title: "Jak vybrat barvu na zeď", href: "/blog/jak-vybrat-barvu-na-zed", read: "9 min" },
   { title: "Jak opravit škrábance a díry ve zdi", href: "/blog/opravit-skrabance-diry-ve-zdi", read: "5 min" },
-  { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "5 min" },
+  { title: "Barvy do dětského pokoje – jak vybrat bezpečné a správné", href: "/blog/barvy-do-detskeho-pokoje", read: "6 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +74,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Tapety vs. barva na zeď – co je lepší volba</h1>
               <p className="article-lead">Tapety prožívají renesanci — moderní vzory a vinyl tapety daleko překonaly staré papírové role. Ale malování je stále rychlejší, levnější a flexibilnější. Jak se rozhodnout pro svůj byt?</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/tapety-vs-barva" title="Tapety vs. barva na zeď – co je lepší volba pro váš byt 2026" />
             </header>
 
@@ -200,7 +220,7 @@ export default function ArticlePage() {
 
             <section id="kombinace">
               <h2>Kombinace – akcentní stěna s tapetou</h2>
-              <p>Nejpopulárnější moderní řešení — jedna stěna s tapetou, zbytek místnosti malovaný. Tato kombinace dá pokoji výraz a charakter bez nutnosti tapetovat celý byt.</p>
+              <p>Nejpopulárnější moderní řešení — jedna stěna s tapetou, zbytek místnosti malovaný. Tato kombinace dá pokoji výraz a charakter bez nutnosti tapetovat celý byt. Kolik rolí tapet budete potřebovat na akcentní stěnu, zjistíte pomocí naší <Link href="/kalkulacky/kolik-tapet" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky tapet</Link>, a množství barvy pro zbytek místnosti vám spočítá <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka barvy</Link>.</p>
               <ul>
                 <li><strong>Která stěna:</strong> Zpravidla stěna za postelí (ložnice), za pohovkou (obývák) nebo vstupní stěna u dveří (chodba).</li>
                 <li><strong>Jak kombinovat barvy:</strong> Tapeta s dominantní barvou → vybrat jeden odstín z tapety pro zbytek místnosti. Nebo neutrální tapeta (béžová, šedá) + výrazná barva stěn.</li>

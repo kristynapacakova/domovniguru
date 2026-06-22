@@ -17,19 +17,49 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#article",
     "headline": "Jak vyčistit okapy – postup a prevence ucpání",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak vyčistit okapy", "čištění okapů", "ucpané okapy", "čistění okapního svodu", "ochrana okapů před listím", "okapy postup čištění"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak poznám že jsou okapy ucpané?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější signály: voda přetéká přes okraj okapu při dešti (ne jen ze svodu), ze svodu neteče voda nebo teče slabě, okapy jsou viditelně plné listí, ze spodní části svodu vytéká voda i při suchém počasí (kondenzace nebo ucpání). Ideálně zkontroluj okapy při každém vydatném dešti." } },
+      { "@type": "Question", "name": "Mohu čistit okapy sám nebo potřebuji odborníka?", "acceptedAnswer": { "@type": "Answer", "text": "Přízemní a jednopodlažní domy zvládneš sám se stabilním žebříkem. Domy se dvěma a více patry nebo se strmou střechou jsou nebezpečné pro laika — najmi odbornou firmu. Cena profesionálního čištění: 500–2 000 Kč podle délky okapů a výšky domu. Jednou za 2–3 roky je to rozumná investice." } },
+      { "@type": "Question", "name": "Kdy vyměnit okapy místo čistit?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna okapů je nutná pokud: okap je prasklý nebo silně zkorodovaný (netěsní ani po opravě), okap se prohýbá a nejde vrátit do původního spádu, spoje konstantně zatékají i po opravě, nebo okapy jsou starší 25–30 let. Cena výměny okapů na rodinném domě: 15 000–50 000 Kč." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#howto",
+    "name": "Jak vyčistit okapy – postup a prevence ucpání",
+    "description": "Ucpané okapy způsobují zatékání do zdí a škody tisíce korun. Jak vyčistit okapy bezpečně sám, kdy to dělat a jak ucpání předejít jednou provždy.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak čistit okapy – postup", "text": "Jak čistit okapy – postup" },
+      { "@type": "HowToStep", "name": "Čištění okapních svodů", "text": "Ucpaný svod je zákeřnější než ucpaný okap — ucpání je skryté a voda hledá cestu ven přes spoje nebo zatéká ke grundu." },
+      { "@type": "HowToStep", "name": "Co při čištění zkontrolovat", "text": "Co při čištění zkontrolovat" },
+      { "@type": "HowToStep", "name": "Prevence ucpání – jak čistit méně často", "text": "Prevence ucpání – jak čistit méně často" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-vycistit-okapy#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak vyčistit okapy – postup a prevence ucpání", "item": "https://www.domovniguru.cz/blog/jak-vycistit-okapy" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Příprava domu na zimu – kompletní checklist", href: "/blog/priprava-domu-na-zimu", read: "10 min" },
-  { title: "Jak se zbavit plísně na zdi", href: "/blog/jak-odstranit-plisen-na-zdi", read: "12 min" },
   { title: "Jak se zbavit vlhkosti v bytě", href: "/blog/zbavit-se-vlhkosti-v-byte", read: "7 min" },
   { title: "Jak zkontrolovat kotel před zimou", href: "/blog/zkontrolovat-kotel-pred-zimou", read: "6 min" },
+  { title: "Jak bezpečně odlehčit střechu od sněhu", href: "/blog/odlehcit-strechu-od-snehu", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +84,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak vyčistit okapy – postup, kdy čistit a jak předejít ucpání</h1>
               <p className="article-lead">Ucpané okapy jsou tichý nepřítel domu — voda přetéká přes okraj, zatéká do zdí a způsobuje škody tisíce korun. Čištění okapů trvá hodinu a ušetří roky problémů.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-vycistit-okapy" title="Jak vyčistit okapy – postup a prevence ucpání" />
             </header>
 

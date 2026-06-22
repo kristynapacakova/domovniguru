@@ -17,12 +17,42 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace#article",
     "headline": "Jak čistit filtr klimatizace doma – postup krok za krokem 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak čistit filtr klimatizace", "čištění filtru klimatizace", "výměna filtru klimatizace", "klimatizace filtr doma", "údržba klimatizace"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Proč klimatizace zapáchá po spuštění?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčina: plíseň nebo bakterie na výparníku nebo ve výparníkové vaně. Čistění filtru pomůže ale nestačí — nutné profesionální čistění výparníku antibakteriálním sprejem. Druhá příčina: zanesený uhlíkový filtr — vyměnit. Třetí: kondenzační vana plná nečistot — vyčistit odtokovou hadici." } },
+      { "@type": "Question", "name": "Mohu klimatizaci čistit vysavačem místo vodou?", "acceptedAnswer": { "@type": "Answer", "text": "Vysavač je dobrý první krok pro odstranění hrubého prachu, ale neodstraní jemné nečistoty, mastnotu a bakterie. Pro kompletní čistění je nutné opláchnout filtr vodou. Použij vysavač jako první krok, pak opláchni vodou." } },
+      { "@type": "Question", "name": "Co dělat když klimatizace kape vodu dovnitř?", "acceptedAnswer": { "@type": "Answer", "text": "Kapající voda z vnitřní jednotky je nejčastěji ucpaná kondenzační vana nebo odtoková hadice. Zanesený filtr zpomaluje průtok vzduchu, výparník přemrzne a při rozmrznutí kape voda. Řešení: vyčistit filtr, vyčistit kondenzační hadici (propláchnout vodou nebo foukáním), zavolat technika pro čistění výparníku." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace#howto",
+    "name": "Jak čistit filtr klimatizace doma – postup krok za krokem 2026",
+    "description": "Jak vyčistit nebo vyměnit filtr klimatizace sám doma. Jak často čistit, jak filtr vyjmout, umýt a vrátit zpět. Ušetři na servisním výjezdu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak často čistit filtr klimatizace", "text": "Jak často čistit filtr klimatizace" },
+      { "@type": "HowToStep", "name": "Postup čistění filtru krok za krokem", "text": "Postup čistění filtru krok za krokem" },
+      { "@type": "HowToStep", "name": "Typy filtrů – mytí nebo výměna", "text": "Většina domácích klimatizací má hrubé síťové filtry (mytí) a volitelné sekundární filtry (výměna). Zkontroluj návod k tvé klimatizaci jaké typy filtrů obsahuje." },
+      { "@type": "HowToStep", "name": "Co zvládneš sám a co vyžaduje technika", "text": "Co zvládneš sám a co vyžaduje technika" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak čistit filtr klimatizace doma – postup krok za krokem 2026", "item": "https://www.domovniguru.cz/blog/cistit-filtr-klimatizace" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -53,7 +83,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak čistit filtr klimatizace doma – postup krok za krokem</h1>
               <p className="article-lead">Zanesený filtr klimatizace snižuje výkon o 15–25 %, zvyšuje spotřebu elektřiny a šíří prach a bakterie. Čištění filtru trvá 10 minut a nepotřebuješ technika.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/cistit-filtr-klimatizace" title="Jak čistit filtr klimatizace doma – postup krok za krokem 2026" />
             </header>
 
@@ -101,7 +131,7 @@ export default function ArticlePage() {
                 <li><strong>Na konci sezóny (podzim):</strong> Vyčistit před odstavením — čistý filtr neplesniví přes zimu.</li>
                 <li><strong>Signály zanešeného filtru:</strong> Slabší chlazení, vyšší hluk, nepříjemný zápach při spuštění, viditelný šedý povlak na filtru.</li>
               </ul>
-              <div className="article-tip"><strong>💡 Ekonomický důvod:</strong> Zanesený filtr zvyšuje spotřebu elektřiny o 15–25 %. Při klimatizaci s příkonem 1 kW a ceně 6 Kč/kWh a 8 hodinách provozu denně = úspora 18–36 Kč denně po vyčistění filtru.</div>
+              <div className="article-tip"><strong>💡 Ekonomický důvod:</strong> Zanesený filtr zvyšuje spotřebu elektřiny o 15–25 %. Při klimatizaci s příkonem 1 kW a ceně 6 Kč/kWh a 8 hodinách provozu denně = úspora 18–36 Kč denně po vyčistění filtru. Celkové náklady na provoz klimatizace spočítáš v naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby elektřiny</Link>.</div>
             </section>
 
             <section id="postup">

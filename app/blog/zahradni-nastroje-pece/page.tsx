@@ -10,13 +10,48 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#article", "headline": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "datePublished": "2025-03-15T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["péče o zahradní nástroje", "broušení nářadí", "čištění zahradního nářadí", "údržba lopaty", "mazání nářadí"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#article", "headline": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "datePublished": "2025-03-15T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["péče o zahradní nástroje", "broušení nářadí", "čištění zahradního nářadí", "údržba lopaty", "mazání nářadí"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak poznám, že zahradní nůžky potřebují nabrousit?", "acceptedAnswer": { "@type": "Answer", "text": "Ostré nůžky listy a stonky čistě řežou. Tupé listy spíše trhají, drtí a kloubí se na větvičce. Praktický test: zkus přestřihnout arch papíru – tupé nůžky papír mačkají místo řezu." } },
+      { "@type": "Question", "name": "Čím namazat zahradní nůžky a jak často?", "acceptedAnswer": { "@type": "Answer", "text": "Kapka strojního oleje nebo WD-40 na kloub po každém použití – zvláště po mytí vodou. Kovové části lopaty, motyky a hráb chraň lněným olejem před zimním uskladněním. Přemaz přitahuje prach, takže stačí tenká vrstva." } },
+      { "@type": "Question", "name": "Jak opravit uvolněný nebo zlomený dřevěný násad lopaty?", "acceptedAnswer": { "@type": "Answer", "text": "Uvolněný násad: zasaď a zajisti klín nebo šroub přes otvor v kovové hlavici. Zlomený: kup náhradní násad (80–200 Kč v zahradnictví), vyšroubuj staré zbytky a nahraď. Povolený násad oprav okamžitě – uvolněná hlavice ve švihu je vážné riziko úrazu." } },
+      { "@type": "Question", "name": "Proč silikonový sprej není vhodný na zahradní nářadí?", "acceptedAnswer": { "@type": "Answer", "text": "Silikonový sprej kontaminuje půdu a zhoršuje její strukturu. Používej ho pouze na části které se nedotýkají země (panty nůžek, osy). Na kovové díly lopatek, motyk a hráb používej místo silikonu lněný nebo řepkový olej." } },
+      { "@type": "Question", "name": "Jak skladovat nářadí přes zimu, aby nerezavělo?", "acceptedAnswer": { "@type": "Answer", "text": "Vyčisti, osuš, nabrousíš a promažeš lněným olejem. Skladuj zavěšené nebo ve stojanu – nikdy přímo na zemi (vzdušná vlhkost). Silikagel v uzavřeném kufříku s malým nářadím pohltí vlhkost i v nevytápěné kůlně." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#howto",
+    "name": "Zahradní nástroje – jak o ně pečovat, aby vydržely",
+    "description": "Dobré zahradní nástroje vydrží desítky let – ale jen pokud o ně pečuješ. Čištění, broušení, mazání a skladování krok za krokem.",
+    "step": [
+      { "@type": "HowToStep", "name": "Čištění po každém použití", "text": "Největší chyba je odložit nářadí s blátem. Vlhkost + hlína = koroze. Stačí 2 minuty po každém použití:" },
+      { "@type": "HowToStep", "name": "Broušení – kdy a jak", "text": "Brousíš tehdy, když nářadí přestane krájet ale začne trhat nebo klouzat. U nůžek to poznáš okamžitě, u lopaty nebo motyky méně – zkus přejet prstem (opatrně!) po ostří. Pokud cítíš hrany a nerovnosti, je čas brousit." },
+      { "@type": "HowToStep", "name": "Mazání a ochrana kovu", "text": "Každý kov v zahradě potřebuje ochranu před vlhkostí. Stačí tenká vrstva – přemaz dělá víc škody než dobra, přitahuje prach a špiní ruce." },
+      { "@type": "HowToStep", "name": "Péče o dřevěné násady", "text": "Dřevěné násady jsou slabým místem každého nářadí. Suché dřevo praská, mokré bobtnáme a pouštíme kovovou hlavici. Jednou ročně (ideálně na podzim) obruste násadu jemným smirkem a natři lněným olejem – nechej vsáknout přes noc, přebytek setři." },
+      { "@type": "HowToStep", "name": "Skladování přes zimu", "text": "Podzimní příprava nářadí na zimu ti ušetří hodiny práce na jaře:" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Zahradní nástroje – jak o ně pečovat, aby vydržely", "item": "https://www.domovniguru.cz/blog/zahradni-nastroje-pece" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
   { title: "Jak stříhat keře – průvodce pro každého", href: "/blog/jak-strihat-kere", read: "4 min" },
-  { title: "Jak pěstovat rajčata – od výsevu po sklizeň", href: "/blog/jak-pestovat-rajcata", read: "7 min" },
   { title: "Ochrana rostlin před zimou – co, kdy a jak", href: "/blog/ochrana-rostlin-pred-zimou", read: "5 min" },
+  { title: "Jak se zbavit krtků na zahradě – co funguje a co ne", href: "/blog/zbavit-se-krtku", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -40,8 +75,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Zahradní nástroje – jak o ně pečovat, aby vydržely</h1>
               <p className="article-lead">Kvalitní lopata nebo nůžky vydrží celý život – pokud je po každém použití očistíš, občas nabrousíš a před zimou promaštíš. Většina nářadí nerezaví stářím, ale zanedbáním.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/zahradni-nastroje-pece" title="Zahradní nástroje – jak o ně pečovat, aby vydržely 2025" />
             </header>
 
@@ -165,7 +199,7 @@ export default function ArticlePage() {
             <section id="proc-pecovat">
               <h2>Proč se péče o nářadí vyplatí</h2>
               <p>Kvalitní zahradní nástroje nekupuješ každý rok. Kovářská lopata nebo profesionální zahradní nůžky stojí 500–2 000 Kč a při dobré péči vydrží 20–30 let. Při zanedbání zreziví a otupí za dvě sezóny.</p>
-              <p>Tupé a rezavé nářadí je navíc nebezpečné – klouže, vyžaduje větší sílu a zvyšuje riziko úrazu. Ostré nůžky dělají čistý řez který se lépe hojí, tupé listy drtí a trhají – a to je vstupní brána pro choroby rostliny.</p>
+              <p>Tupé a rezavé nářadí je navíc nebezpečné – klouže, vyžaduje větší sílu a zvyšuje riziko úrazu. Ostré nůžky dělají čistý řez který se lépe hojí, tupé listy drtí a trhají – a to je vstupní brána pro choroby rostliny. Až budeš na jaře připravovat trávník, pomůže ti naše <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka osiva na trávník</Link>.</p>
             </section>
 
             <section id="cisteni">

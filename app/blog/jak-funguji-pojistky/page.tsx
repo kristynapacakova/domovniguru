@@ -17,19 +17,51 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#article",
     "headline": "Jak fungují pojistky a jističe – výměna a bezpečnost 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak fungují pojistky", "výměna pojistky", "pojistky vs jističe", "starý rozvaděč pojistky", "bytový rozvaděč", "jak vyměnit pojistku"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu vyměnit pojistku sám nebo potřebuji elektrikáře?", "acceptedAnswer": { "@type": "Answer", "text": "Výměna přepálené pojistky za stejnou hodnotu je považována za drobnou údržbu — laik ji může provést pokud bezpečně vypne hlavní přívod. Výměna celého rozvaděče nebo přidání nových okruhů vyžaduje elektrikáře a revizi." } },
+      { "@type": "Question", "name": "Co se stane když dám pojistku s vyšší hodnotou?", "acceptedAnswer": { "@type": "Answer", "text": "Pojistka s vyšší hodnotou nechrání vedení — kabel se může přehřát a vznítit dříve než pojistka reaguje. Toto je velmi nebezpečné a častá příčina elektrických požárů. Vždy používej pojistku se stejnou nebo nižší hodnotou." } },
+      { "@type": "Question", "name": "Jak často se pojistky přepalují v normálním provozu?", "acceptedAnswer": { "@type": "Answer", "text": "Správně dimenzovaná pojistka by se neměla přepalovat vůbec — nebo jen výjimečně při zapnutí příliš mnoha spotřebičů najednou. Opakované přepalování signalizuje přetíženou instalaci nebo zkrat ve vedení. Oba případy vyžadují řešení, ne jen výměnu pojistky." } },
+      { "@type": "Question", "name": "Kde koupím pojistky?", "acceptedAnswer": { "@type": "Answer", "text": "Pojistky koupíš v elektroobchodech (Mall, specializované elektro prodejny) nebo v hobbymarketech (Hornbach, Bauhaus, OBI). Cena 10–30 Kč za kus. Při nákupu nes s sebou starou pojistku nebo si zapiš přesný typ a hodnotu v ampérech." } },
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#howto",
+    "name": "Jak fungují pojistky a jističe – výměna a bezpečnost 2026",
+    "description": "Starý bytový rozvaděč s pojistkami nebo moderní jističe? Jak fungují, jak je bezpečně vyměnit a kdy je čas přejít na moderní rozvaděč. Průvodce pro laiky.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jak pojistky fungují", "text": "Tavná pojistka je jednoduchý ochranný prvek — uvnitř je tenký drát z kovu s nízkou teplotou tání. Při přetížení obvodem proteče větší proud než je pojistka dimenzována, drát se zahřeje, přetaví a přeruší obvod. Tím ochrání vedení a spotřebiče před poškozením nebo požárem." },
+      { "@type": "HowToStep", "name": "Pojistka vs. jistič – hlavní rozdíly", "text": "Pojistka vs. jistič – hlavní rozdíly" },
+      { "@type": "HowToStep", "name": "Jak vyměnit přepálenou pojistku", "text": "Jak vyměnit přepálenou pojistku" },
+      { "@type": "HowToStep", "name": "Hodnoty pojistek – co kam patří", "text": "Vždy používej pojistku se stejnou nebo nižší hodnotou než originál. Vyšší hodnota nechrání vedení — drát se může přehřát a vznítit dříve než pojistka vypadne." },
+      { "@type": "HowToStep", "name": "Kdy přejít na moderní rozvaděč s jističi", "text": "Starý rozvaděč s pojistkami není nutně nebezpečný — ale moderní rozvaděč s jističi a chrániči nabízí výrazně lepší ochranu. Výměna stojí 5 000–15 000 Kč včetně práce elektrikáře a revize." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-funguji-pojistky#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak fungují pojistky a jističe – výměna a bezpečnost 2026", "item": "https://www.domovniguru.cz/blog/jak-funguji-pojistky" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Co dělat když nejde proud v části bytu", href: "/blog/nejde-proud-cast-bytu", read: "5 min" },
   { title: "Proč mi vypadává jistič?", href: "/blog/proc-vypadava-jistic", read: "4 min" },
   { title: "Jak vyměnit zásuvku sám", href: "/blog/jak-vymenit-zasuvku", read: "6 min" },
-  { title: "Jak snížit účet za elektřinu doma", href: "/blog/snizit-ucet-za-elektrinu", read: "7 min" },
+  { title: "Jak číst elektroměr – jednofázový i třífázový", href: "/blog/jak-cist-elektromer", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +86,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak fungují pojistky a jističe – výměna a bezpečnost</h1>
               <p className="article-lead">Máš v bytě starý rozvaděč s pojistkami místo jističů? Nebo nevíš jaký je rozdíl? Pojistky chrání elektroinstalaci před přetížením — ale jejich čas pomalu míjí. Tady je vše co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-funguji-pojistky" title="Jak fungují pojistky a jističe – výměna a bezpečnost 2026" />
             </header>
 

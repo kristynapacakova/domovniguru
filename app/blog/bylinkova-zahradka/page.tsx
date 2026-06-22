@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#article",
     "headline": "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["bylinková zahradka", "pěstování bylinek doma", "bylinky na parapetu", "bylinky balkon", "jak pěstovat bazalku", "bylinky pro začátečníky"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu pěstovat bylinky bez přirozeného světla?", "acceptedAnswer": { "@type": "Answer", "text": "S přirozeným světlem je to vždy lepší, ale speciální LED lampy (grow lights) přirozené světlo nahradí. LED panel (400–1 500 Kč) zavěšený 20–30 cm nad bylinkami 12–16 hodin denně umožní pěstování i v tmavé místnosti nebo v bytě bez slunečního okna." } },
+      { "@type": "Question", "name": "Proč bazalka z obchodu rychle uhyne?", "acceptedAnswer": { "@type": "Answer", "text": "Supermarketové bylinky jsou pěstované v hydroponii za intenzivního osvětlení — jsou přemnožené a stresované prodejem. Na parapetu jim chybí světlo. Řešení: přesadit do většího květináče, oddělit trs na 3–4 menší části, přemístit na nejsvětlejší místo v bytě." } },
+      { "@type": "Question", "name": "Kdy přesadit bylinky ven po zimě?", "acceptedAnswer": { "@type": "Answer", "text": "Trvalky (pažitka, máta, tymián) lze přesunout ven jakmile nehrozí mráz — typicky po polovině května (po zmrzlých). Bazalku venku sázej nejdříve koncem května kdy jsou noci teplé — bazalka je tropická rostlina a mráz ji okamžitě zničí." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#howto",
+    "name": "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026",
+    "description": "Jak založit bylinkovou zahrádku na parapetu, balkonu nebo v zahradě. Které bylinky jsou nejjednodušší a jak je sázet.",
+    "step": [
+      { "@type": "HowToStep", "name": "Kde pěstovat – parapet, balkon nebo zahrada", "text": "Kde pěstovat – parapet, balkon nebo zahrada" },
+      { "@type": "HowToStep", "name": "Jak začít – semena nebo sazenice", "text": "Jak začít – semena nebo sazenice" },
+      { "@type": "HowToStep", "name": "Péče o bylinky", "text": "Péče o bylinky" },
+      { "@type": "HowToStep", "name": "Jak správně sklízet bylinky", "text": "Jak správně sklízet bylinky" },
+      { "@type": "HowToStep", "name": "Nejčastější problémy", "text": "Nejčastější problémy" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/bylinkova-zahradka#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Bylinková zahradka – jak pěstovat bylinky doma i venku 2026", "item": "https://www.domovniguru.cz/blog/bylinkova-zahradka" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -63,7 +94,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Bylinková zahradka – jak pěstovat bylinky doma i venku</h1>
               <p className="article-lead">Čerstvé bylinky jsou nejjednodušší zahradničení jaké existuje — nevyžadují zahradu, stačí parapet nebo balkon. Za pár týdnů máš bazalku, pažitku i rozmarýn kdykoliv po ruce.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/bylinkova-zahradka" title="Bylinková zahradka – jak pěstovat bylinky doma i venku 2026" />
             </header>
 
@@ -119,7 +150,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Sazenice (koupit hotové):</strong> Nejrychlejší start — koupíš hotovou rostlinu v zahradnictví nebo supermarketu. Přesaď do většího květináče s čerstvým substrátem. Dostaneš bylinky ihned.</li>
                 <li><strong>Semena:</strong> Levnější ale pomalejší. Pažitka klíčí za 7–10 dní, bazalka 5–7 dní, petržel 3–4 týdny. Semena sej do vlhkého substrátu, přikryj fólií do vzejití, drž na teple (20–25 °C).</li>
-                <li><strong>Substrát:</strong> Bylinky potřebují propustný substrát — smíchej zahradní hlínu s pískem nebo perlitem (3:1). Ucpávající se těžká zemina způsobí hnilobu kořenů.</li>
+                <li><strong>Substrát:</strong> Bylinky potřebují propustný substrát — smíchej zahradní hlínu s pískem nebo perlitem (3:1). Kolik substrátu a hlíny pro své nádoby potřebuješ zjistíš v <Link href="/kalkulacky/kolik-hliny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce hlíny a substrátu</Link>. Ucpávající se těžká zemina způsobí hnilobu kořenů.</li>
                 <li><strong>Dobrý start:</strong> Při přesazování z supermarketové nádoby přesaď celý trs do 2× většího květináče s čerstvým substrátem. Supermarketové bylinky jsou přemnoženévystresované — v nové nádobě se zotaví.</li>
               </ul>
             </section>

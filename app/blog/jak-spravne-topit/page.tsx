@@ -17,12 +17,41 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#article",
     "headline": "Jak správně topit – teploty, větrání a úspora energie 2026",
     "datePublished": "2026-05-01T08:00:00Z",
-    "dateModified": "2026-05-01T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak správně topit", "optimální teplota místnosti", "větrání při topení", "úspora vytápění", "správné vytápění domu"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Je lepší topit méně ale nepřerušeně nebo více ale jen ráno a večer?", "acceptedAnswer": { "@type": "Answer", "text": "Pro teplovodní radiátory (velká tepelná kapacita): plynulé topení na nižší teplotu je efektivnější než přerušované topení na vyšší teplotu. Pro elektrické přímotopy (malá tepelná kapacita): přerušované topení může být výhodnější — rychle hřejí a rychle chladnou. Obecně: programovatelný termostat s nočním útlumem je optimální kompromis pro oba systémy." } },
+      { "@type": "Question", "name": "Proč je v bytě sucho při topení a jak to řešit?", "acceptedAnswer": { "@type": "Answer", "text": "Topení vysušuje vzduch — ohřátý vzduch má relativně nižší vlhkost. Řešení: zvlhčovač vzduchu (elektrický nebo pasivní nádoba na radiátor), pokojové rostliny, časté větrání (přináší vlhčí venkovní vzduch v mrazivém počasí — ale v oblačném počasí venkovní vzduch může být vlhčí). Ideální vlhkost: 40–60 %. Měř hygrometrem (200–500 Kč)." } },
+      { "@type": "Question", "name": "Kdy spustit topení na podzim?", "acceptedAnswer": { "@type": "Answer", "text": "Topnou sezónu spusť když průměrná venkovní teplota klesne pod 13 °C po dobu alespoň 2 dnů — to je standardní definice začátku topné sezóny v ČR. Prakticky: když je v bytě chladněji než 18–20 °C i přes den. Nečekej až bude zima — studené stěny se ohřívají pomalu a musíš topit více." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#howto",
+    "name": "Jak správně topit – teploty, větrání a úspora energie 2026",
+    "description": "Jak správně topit aby bylo teplo, zdravý vzduch a nízké náklady. Optimální teploty v místnostech, jak větrat při topení a nejčastější chyby při vytápění.",
+    "step": [
+      { "@type": "HowToStep", "name": "Optimální teploty v místnostech", "text": "Různé místnosti mají různé nároky na teplotu. Topit celý byt na stejnou teplotu je neekonomické a nepohodlné." },
+      { "@type": "HowToStep", "name": "Jak větrat při topení", "text": "Větrání při topení je nutné — bez výměny vzduchu se hromadí vlhkost, CO₂ a znečišťující látky. Ale špatné větrání zbytečně prodraží topení." },
+      { "@type": "HowToStep", "name": "Správné nastavení radiátorů", "text": "Správné nastavení radiátorů" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-spravne-topit#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně topit – teploty, větrání a úspora energie 2026", "item": "https://www.domovniguru.cz/blog/jak-spravne-topit" }
+    ]
+  }
+  ]
 };
 
 const TEMPS = [
@@ -37,7 +66,7 @@ const RELATED = [
   { title: "Jak ušetřit na vytápění", href: "/blog/usetrit-na-vytapeni", read: "7 min" },
   { title: "Jak odvzdušnit radiátory", href: "/blog/jak-odvzdusnit-radiatory", read: "3 min" },
   { title: "Jak zkontrolovat kotel před zimou", href: "/blog/zkontrolovat-kotel-pred-zimou", read: "6 min" },
-  { title: "Jak správně větrat byt", href: "/blog/spravne-vetrat-byt", read: "4 min" },
+  { title: "Jak vyčistit komín – kdy a jak na to, revize", href: "/blog/vycistit-komin", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -61,7 +90,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně topit – teploty, větrání a úspora energie</h1>
               <p className="article-lead">Přetápění je nejčastější chyba — za každý 1 °C navíc platíš o 6 % více. Správné nastavení teplot v jednotlivých místnostech a správné větrání jsou klíč ke komfortu i úspoře.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. května 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-spravne-topit" title="Jak správně topit – teploty, větrání a úspora energie 2026" />
             </header>
 
@@ -123,7 +152,7 @@ export default function ArticlePage() {
             <section id="chyby">
               <h2>Nejčastější chyby při topení</h2>
               <ul>
-                <li><strong>Přetápění:</strong> Každý 1 °C navíc = 6 % více na účtu. 24 °C v obýváku místo 21 °C = o 18 % vyšší náklady. Nastav termostat na 20–21 °C a oblékni se.</li>
+                <li><strong>Přetápění:</strong> Každý 1 °C navíc = 6 % více na účtu. 24 °C v obýváku místo 21 °C = o 18 % vyšší náklady — přesnou spotřebu plynu zjistíš v naší <Link href="/kalkulacky/spotreba-plynu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby plynu</Link>. Nastav termostat na 20–21 °C a oblékni se.</li>
                 <li><strong>Zakrytí radiátorů:</strong> Nábytek nebo záclony před radiátorem blokují cirkulaci vzduchu. Radiátor hřeje jen okolní vzduch, který stoupá ke stropu místo do místnosti. Vždy min. 30 cm volného prostoru před radiátorem.</li>
                 <li><strong>Topení a přitom otevřená okna:</strong> Topíš ven — doslova. Buď topíš nebo větráš — ne oboje najednou.</li>
                 <li><strong>Nezavřené dveře v noci:</strong> Teplo z vytápěných místností uniká do nevytápěných prostor. Zavírej dveře — každá místnost by měla mít svou teplotní zónu.</li>

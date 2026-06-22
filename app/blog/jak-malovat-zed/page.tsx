@@ -2,6 +2,7 @@ import ShareButtons from "@/app/components/ShareButtons";
 import type { Metadata } from "next";
 import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
@@ -35,7 +36,7 @@ const jsonLd = {
       "headline": "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
       "description": "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování.",
       "datePublished": "2025-01-15T08:00:00Z",
-      "dateModified": "2026-04-12T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.domovniguru.cz/blog/jak-malovat-zed" },
@@ -61,16 +62,30 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak dlouho schne barva na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Latexové a akrylátové barvy schnou k dotyku za 1–2 hodiny. Plnou odolnosti dosáhnou za 24–48 hodin. Druhou vrstvu nanášejte nejdříve po 4 hodinách." } },
         { "@type": "Question", "name": "Jak odhadnout, kolik barvy budu potřebovat?", "acceptedAnswer": { "@type": "Answer", "text": "Standardní výdej je 8–12 m² na litr při jedné vrstvě. Spočítej plochu stěn, odečti okna a dveře, vyděl vydatností barvy a přidej 10 % rezervu." } },
         { "@type": "Question", "name": "Jaká barva je nejlepší na zeď v obývacím pokoji?", "acceptedAnswer": { "@type": "Answer", "text": "Do obýváku se hodí latexová nebo akrylátová barva s jemným hedvábným leskem – snadno se otírá a dobře vypadá. Matný povrch zakryje nerovnosti, lesklý je trvanlivější." } },
+        { "@type": "Question", "name": "Jak malovat zeď za radiátorem?", "acceptedAnswer": { "@type": "Answer", "text": "Na malování za radiátorem použij mini váleček s prodlouženou (ohnutou) rukojetí — tzv. radiátorový váleček (cca 150–300 Kč). Nejdřív naber barvu, opatrně protáhni shora za radiátor, pak zdola. Pro dokonalý výsledek odmontuj radiátor od zdi — zvedne se z konzol nahoru, zeď vymaluj a radiátor vrať zpět." } },
+        { "@type": "Question", "name": "Jak malovat pruhy na zdi?", "acceptedAnswer": { "@type": "Answer", "text": "Pruhy na zdi: (1) namaluj základní barvu a nech 24 hodin zaschnout, (2) vyznač pruhy tužkou a pravítkem, (3) přelep malířskou páskou přesně po okraji, (4) namaž hranu pásky rukou aby barva nepodtekla, (5) nanes vrchní barvu a pásku stáhni hned po nanesení — nejlépe dokud je barva ještě mírně mokrá. Pásku stahuj šikmo pod úhlem 45°." } },
       ],
-    },
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-malovat-zed#howto",
+    "name": "Jak malovat zeď – kompletní průvodce pro začátečníky 2026",
+    "description": "Krok za krokem: příprava podkladu, penetrace, výběr barvy, technika malování. Bez chyb, bez přemalování. Průvodce pro každého.",
+    "step": [
+      { "@type": "HowToStep", "name": "Příprava podkladu – nejdůležitější krok", "text": "Příprava zabere 30–50 % celkového času, ale je to krok, který nejvíce rozhoduje o výsledku. Špatně připravená zeď = barva se loupe nebo jsou vidět každá nerovnost." },
+      { "@type": "HowToStep", "name": "Penetrace – kdy a proč", "text": "Penetrace zlepšuje přilnavost barvy, sjednocuje savost podkladu a zabraňuje „vsakování\" barvy do zdi. Výsledek je rovnoměrnější a barva vydrží déle." },
+      { "@type": "HowToStep", "name": "Jak vybrat správnou barvu na zeď", "text": "Do koupelny, kuchyně nebo sklepa vždy vybírej barvu označenou jako „do vlhkých prostor\" nebo s označením odolnosti vůči plísni. Běžná barva v koupelně skončí plísní do pár měsíců." },
+      { "@type": "HowToStep", "name": "Technika malování – krok za krokem", "text": "Přelep malířskou páskou lišty, zárubně, vypínače a zásuvky. Podlahu zakryj fólií nebo starými novinami. Čas strávený zakrýváním ušetří hodiny čištění." },
+      { "@type": "HowToStep", "name": "Kolik barvy budeš potřebovat?", "text": "Standardní vydatnost malířské barvy je 8–12 m² na litr při jedné vrstvě. Pro dvě vrstvy tedy potřebuješ přibližně dvojnásobek." }
+    ]
+  }
   ],
 };
 
 const RELATED = [
   { title: "Jak malovat rohy a lišty bez přetahování", href: "/blog/jak-malovat-rohy-a-listy", read: "3 min" },
-  { title: "Jak se zbavit plísně na zdi natrvalo", href: "/blog/jak-odstranit-plisen-na-zdi", read: "10 min" },
   { title: "Jak vybrat barvu na zeď", href: "/blog/jak-vybrat-barvu-na-zed", read: "5 min" },
-  { title: "Jak malovat radiátor", href: "/blog/jak-malovat-radiator", read: "4 min" },
+  { title: "Proč se barva loupe – příčiny a jak to opravit", href: "/blog/barva-se-loupe", read: "5 min" },
+  { title: "Fasádní barva – jak vybrat správný typ a jak nanášet", href: "/blog/fasadni-barva-vyber", read: "7 min" },
 ];
 
 export default function ArticlePage() {
@@ -97,7 +112,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak malovat zeď – kompletní průvodce pro začátečníky 2026</h1>
               <p className="article-lead">Malování zdi zvládne každý – ale bez správné přípravy skončíš s pruhy, loupanou barvou nebo přemalováváním. Tenhle průvodce tě provede od prázdné místnosti k perfektnímu výsledku krok za krokem.</p>
               <div className="article-meta-row">
-                <span>Aktualizováno: 12. dubna 2026</span><span>·</span><span>DomovniGuru</span>
+                <span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span>
               </div>
             
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-malovat-zed" title="Jak malovat zeď – kompletní průvodce pro začátečníky 2026" />
@@ -146,6 +161,15 @@ export default function ArticlePage() {
                 <li><strong>Barva</strong> (viz sekce o výběru)</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Nekupuj nejlevnější váleček. Levné vločkují a zanechávají v barvě chloupky. Dobrý váleček za 150–200 Kč ti ušetří přemalování.</div>
+              {/* Affiliate – nahraď href svým tracking linkem z Dognetu */}
+              <ProductBox
+                icon="🖌️"
+                name="Sada na malování – váleček, vana, teleskopická tyč"
+                store="Alza"
+                price="od 290 Kč"
+                href="https://www.alza.cz/malovani/18854316.htm"
+                why="Kompletní sada na jedno malování: kvalitní váleček s délkou vlasu 12 mm, hliníková vana s mřížkou a teleskopická tyč. Nemusíš kupovat části zvlášť."
+              />
             </section>
 
             <section id="priprava-podkladu">
@@ -153,7 +177,7 @@ export default function ArticlePage() {
               <p>Příprava zabere 30–50 % celkového času, ale je to krok, který nejvíce rozhoduje o výsledku. Špatně připravená zeď = barva se loupe nebo jsou vidět každá nerovnost.</p>
               <h3>Čištění a opravy</h3>
               <p>Začni tím, že zeď očistíš od prachu, mastnoty a volně se odlupující barvy. Vlhkým hadrem setři prach, mastná místa odmasti odmašťovačem nebo ředěným prostředkem na nádobí.</p>
-              <p>Díry po hřebících, praskliny a škrábance vyplň tmelem nebo sádrovou hmotou. Po zaschnutí (min. 2 hodiny) přebrousíme brusným papírem naplocho.</p>
+              <p>Díry po hřebících, praskliny a škrábance vyplň tmelem nebo sádrovou hmotou. Po zaschnutí (min. 2 hodiny) přebrousíme brusným papírem naplocho. Pokud máš ve zdi větší <Link href="/blog/jak-opravit-trhlinu-ve-zdi">trhliny</Link>, je potřeba je před malováním správně diagnostikovat a opravit — jinak se trhlina vrátí přes novou barvu.</p>
               <h3>Strhávání starých tapet</h3>
               <p>Pokud máš na zdi tapety, musí pryč – malovat přes ně nelze. Nastříkej vodu nebo použij párovač a tapety opatrně strhni špachtlí. Po stržení nechej zeď dobře vyschnout (alespoň 24–48 hodin) a pak teprve penetruj.</p>
               <h3>Kdy zeď opravdu není připravená</h3>
@@ -177,7 +201,7 @@ export default function ArticlePage() {
               <h3>Kdy penetraci přeskočit lze</h3>
               <p>Na starší dobře přiléhající malované zdi v dobrém stavu – penetraci přeskočit lze. Ale prodlouží životnost a zlepší výsledek i tam.</p>
               <h3>Jak penetraci nanést</h3>
-              <p>Penetraci nanáš válenkem stejně jako barvu – jednou vrstvou. Nechej vyschnout dle pokynů výrobce (obvykle 2–4 hodiny), pak teprve maluj.</p>
+              <p>Penetraci nanáš válenkem stejně jako barvu – jednou vrstvou. Nechej vyschnout dle pokynů výrobce (obvykle 2–4 hodiny), pak teprve maluj. Přesné množství penetrace spočítáte v naší <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce penetrace</Link>.</p>
             </section>
 
             <section id="vyber-barvy">
@@ -243,7 +267,7 @@ export default function ArticlePage() {
 
             <section id="kalkukacka">
               <h2>Kolik barvy budeš potřebovat?</h2>
-              <p>Standardní vydatnost malířské barvy je <strong>8–12 m² na litr</strong> při jedné vrstvě. Pro dvě vrstvy tedy potřebuješ přibližně dvojnásobek.</p>
+              <p>Standardní vydatnost malířské barvy je <strong>8–12 m² na litr</strong> při jedné vrstvě. Pro dvě vrstvy tedy potřebuješ přibližně dvojnásobek. Přesné množství vám spočítá naše <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka barvy</Link>.</p>
               <p>Rychlý vzorec: <strong>(plocha stěn v m² ÷ vydatnost barvy) × počet vrstev + 10 % rezerva</strong>.</p>
               <PaintCalculator />
               <div className="article-cta-box">
@@ -265,6 +289,8 @@ export default function ArticlePage() {
                   { q: "Jak dlouho schne barva na zdi?", a: "Latexové a akrylátové barvy schnou k dotyku za 1–2 hodiny. Plnou odolnosti dosáhnou za 24–48 hodin. Druhou vrstvu nanášejte nejdříve po 4 hodinách." },
                   { q: "Jak odhadnout, kolik barvy budu potřebovat?", a: "Standardní výdej je 8–12 m² na litr při jedné vrstvě. Spočítej plochu stěn, odečti okna a dveře, vyděl vydatností barvy a přidej 10 % rezervu." },
                   { q: "Jaká barva je nejlepší na zeď v obývacím pokoji?", a: "Do obýváku se hodí latexová nebo akrylátová barva s jemným hedvábným leskem – snadno se otírá a dobře vypadá. Matný povrch zakryje nerovnosti, lesklý je trvanlivější." },
+                  { q: "Jak malovat zeď za radiátorem?", a: "Na malování za radiátorem použij mini váleček s prodlouženou (ohnutou) rukojetí — tzv. radiátorový váleček (cca 150–300 Kč). Nejdřív naber barvu, opatrně protáhni shora za radiátor, pak zdola. Pro dokonalý výsledek odmontuj radiátor od zdi — zvedne se z konzol nahoru, zeď vymaluj a radiátor vrať zpět." },
+                  { q: "Jak malovat pruhy na zdi?", a: "Pruhy na zdi: (1) namaluj základní barvu a nech 24 hodin zaschnout, (2) vyznač pruhy tužkou a pravítkem, (3) přelep malířskou páskou přesně po okraji, (4) namaž hranu pásky rukou aby barva nepodtekla, (5) nanes vrchní barvu a pásku stáhni hned po nanesení — nejlépe dokud je barva ještě mírně mokrá. Pásku stahuj šikmo pod úhlem 45°." },
                 ].map(({ q, a }) => (
                   <details key={q} className="faq-item">
                     <summary className="faq-q">{q}</summary>

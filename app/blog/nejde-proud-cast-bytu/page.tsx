@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Co dělat když nejde proud v části bytu – postup 2026",
-  description: "Vypadl jistič nebo chránič? Postup krok za krokem jak najít příčinu výpadku proudu v části bytu, jak resetovat jistič a kdy volat elektrikáře.",
+  description: "Nefungují zásuvky ale světla svítí? Nebo nejde proud v celé části bytu? Krok za krokem: jistič, chránič, přetížení nebo závada – rychlý postup jak to vyřešit.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu" },
   openGraph: { title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Co%20d%C4%9Blat%20kdy%C5%BE%20nejde%20proud%20v%20%C4%8D%C3%A1sti%20bytu%20%E2%80%93%20postup%202026&cat=blog", width: 1200, height: 630, alt: "Co dělat když nejde proud v části bytu – postup 2026" }] },
   twitter: { card: "summary_large_image", title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu." },
@@ -12,17 +13,52 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@graph": [{
-    "@type": "Article",
-    "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#article",
-    "headline": "Co dělat když nejde proud v části bytu – postup 2026",
-    "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
-    "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
-    "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
-    "inLanguage": "cs",
-    "keywords": ["nejde proud část bytu", "vypadl jistič", "jak resetovat jistič", "výpadek proudu byt", "chránič proudu", "přetížení obvodu", "vypadl chránič"]
-  }]
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#article",
+      "headline": "Co dělat když nejde proud v části bytu – postup 2026",
+      "datePublished": "2026-04-14T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
+      "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
+      "inLanguage": "cs",
+      "keywords": ["nejde proud část bytu", "vypadl jistič", "jak resetovat jistič", "výpadek proudu byt", "chránič proudu", "přetížení obvodu", "vypadl chránič"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Mohu jistič resetovat sám nebo potřebuji elektrikáře?", "acceptedAnswer": { "@type": "Answer", "text": "Reset jističe nebo chrániče po přetížení zvládneš sám — nejde o práci na elektroinstalaci. Stačí odpojit spotřebiče a přepnout páčku zpět do polohy ON. Elektrikáře potřebuješ pokud jistič vypadne okamžitě po resetu, opakovaně bez zjevné příčiny, nebo pokud cítíš spálený plastik." } },
+        { "@type": "Question", "name": "Nefungují zásuvky ale světla svítí – co to znamená?", "acceptedAnswer": { "@type": "Answer", "text": "Světla a zásuvky jsou v bytě typicky na oddělených okruzích — každý má vlastní jistič. Když nefungují zásuvky ale světla svítí, vypadl jistič pouze pro zásuvkový okruh. Jdi k rozvaděči, najdi přepnutý jistič (jiná poloha než ostatní) a přepni ho zpět po odpojení spotřebičů." } },
+        { "@type": "Question", "name": "Jak poznám který jistič je přepnutý?", "acceptedAnswer": { "@type": "Answer", "text": "Přepnutý jistič je v jiné poloze než ostatní — buď v mezilehlé poloze nebo úplně dole (OFF). Některé jističe mají červené okénko viditelné při výpadku. Pokud jsou všechny jističe stejně orientované, zkus každý otočit — přepnutý půjde snáze do polohy OFF bez odporu." } },
+        { "@type": "Question", "name": "Proč chránič vypadává i bez vadného spotřebiče?", "acceptedAnswer": { "@type": "Answer", "text": "Chránič může vypadávat bez zjevně vadného spotřebiče kvůli: vlhkosti v zásuvce nebo krabici, stárnutí izolace vedení, příliš citlivému chrániči (30 mA vs. 300 mA), nebo rušení od frekvenčních měničů a UPS. Pokud nelze najít příčinu, zavolej elektrikáře na diagnostiku." } },
+        { "@type": "Question", "name": "Co dělat když nejde proud v celém bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Nejprve zkontroluj zda nejde o výpadek v celém domě nebo oblasti — podívej se z okna na světla sousedů. Pokud je výpadek jen u tebe, zkontroluj hlavní jistič v rozvaděči (největší nebo nejvýše umístěný). Pokud je v pořádku, kontaktuj dodavatele elektřiny nebo správce budovy." } },
+      ],
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#howto",
+    "name": "Co dělat když nejde proud v části bytu – postup 2026",
+    "description": "Nefungují zásuvky ale světla svítí? Nebo nejde proud v celé části bytu? Krok za krokem: jistič, chránič, přetížení nebo závada – rychlý postup jak to vyřešit.",
+    "step": [
+      { "@type": "HowToStep", "name": "Proč nejde proud jen v části bytu", "text": "Moderní elektroinstalace bytu je rozdělena do několika okruhů — každý okruh má svůj jistič nebo chránič v rozvaděči. Pokud vypadne jen část bytu, problém je téměř vždy v jednom konkrétním okruhu." },
+      { "@type": "HowToStep", "name": "Postup krok za krokem", "text": "Postup krok za krokem" },
+      { "@type": "HowToStep", "name": "Jistič vs. chránič – jaký je rozdíl", "text": "V rozvaděči jsou dva typy ochranných prvků — liší se funkcí i tím jak je poznáš." },
+      { "@type": "HowToStep", "name": "Jak najít vadný spotřebič", "text": "Pokud jistič nebo chránič po resetu drží ale vypadne při připojení určitého spotřebiče, postup je jednoduchý:" },
+      { "@type": "HowToStep", "name": "Kdy volat elektrikáře", "text": "Kdy volat elektrikáře" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Co dělat když nejde proud v části bytu – postup 2026", "item": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu" }
+    ]
+  }
+  ],
 };
 
 const RELATED = [
@@ -54,7 +90,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Co dělat když nejde proud v části bytu</h1>
               <p className="article-lead">Najednou nefungují zásuvky v kuchyni nebo zhasnulo světlo v celém pokoji — ale zbytek bytu funguje. Příčinou je téměř vždy vypadlý jistič nebo chránič. Tady je postup jak to vyřešit za 5 minut.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/nejde-proud-cast-bytu" title="Co dělat když nejde proud v části bytu – postup 2026" />
             </header>
 
@@ -165,6 +201,15 @@ export default function ArticlePage() {
                 <li><strong>Krok 5 — Připojuj spotřebiče postupně:</strong> Jeden po druhém připojuj spotřebiče. Ten který způsobí opětovný výpadek je vadný — odlož ho a nechej opravit nebo vyměnit.</li>
               </ul>
               <div className="article-tip"><strong>⚠️ Pozor:</strong> Pokud jistič vypadne okamžitě po resetu ještě před připojením jakéhokoli spotřebiče, jde o problém v samotné elektroinstalaci (zkrat ve vedení nebo zásuvce) — volej elektrikáře.</div>
+              {/* Affiliate – nahraď href svým tracking linkem z Dognetu */}
+              <ProductBox
+                icon="🔦"
+                name="Fázová tužka – indikátor napětí"
+                store="Alza"
+                price="od 89 Kč"
+                href="https://www.alza.cz/fazova-tuzka/18854317.htm"
+                why="Než sáhneš na cokoliv v rozvaděči, ověř si kde je napětí. Fázová tužka ti za sekundu poví, který vodič je pod proudem — základní bezpečnostní pomůcka každé domácnosti."
+              />
             </section>
 
             <section id="jistic-vs-chranič">
@@ -203,6 +248,10 @@ export default function ArticlePage() {
             <section id="faq">
               <h2>Časté otázky (FAQ)</h2>
               <div className="faq-list">
+                <details className="faq-item">
+                  <summary className="faq-summary">Nefungují zásuvky ale světla svítí – co to znamená?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Světla a zásuvky jsou v bytě na oddělených okruzích — každý má vlastní jistič. Když nefungují zásuvky ale světla svítí, vypadl jistič pouze pro zásuvkový okruh. Jdi k rozvaděči, najdi přepnutý jistič (jiná poloha než ostatní) a přepni ho zpět po odpojení spotřebičů.</div>
+                </details>
                 <details className="faq-item">
                   <summary className="faq-summary">Mohu jistič resetovat sám nebo potřebuji elektrikáře?<span className="faq-icon">▾</span></summary>
                   <div className="faq-body">Reset jističe nebo chrániče po přetížení zvládneš sám — nejde o práci na elektroinstalaci. Stačí odpojit spotřebiče a přepnout páčku zpět. Elektrikáře potřebuješ pokud jistič vypadne okamžitě po resetu, opakovaně bez zjevné příčiny nebo pokud cítíš spálený plastik.</div>

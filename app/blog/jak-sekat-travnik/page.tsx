@@ -10,7 +10,44 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak správně sekat trávník 2026", description: "Pravidlo 1/3, výška sekání, ostrý nůž a mulčování." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#article", "headline": "Jak správně sekat trávník – hustý pažit bez plevele", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-03-21T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak sekat travnik", "sekani travniku vyska", "pravidlo jedne tretiny travnik", "kdy sekat travnik", "mulcovani travniku"] }] };
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#article", "headline": "Jak správně sekat trávník – hustý pažit bez plevele", "datePublished": "2026-03-01T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak sekat travnik", "sekani travniku vyska", "pravidlo jedne tretiny travnik", "kdy sekat travnik", "mulcovani travniku"] },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Mohu sekat mokrou trávu?", "acceptedAnswer": { "@type": "Answer", "text": "Nedoporučuje se. Mokrá tráva se lepí na nůž, neseká se čistě a hromadí se ve sečníku jako hrudky, které dusí trávník pod sebou a způsobují žluté skvrny. Počkej alespoň 2–3 hodiny po dešti nebo rose." } },
+        { "@type": "Question", "name": "Jak vysoký má být trávník po sekání?", "acceptedAnswer": { "@type": "Answer", "text": "Ideální výška trávníku po sekání je 4–6 cm pro okrasný trávník a 5–7 cm pro rekreační/rodinný trávník. Nikdy nesekat níž než 3 cm — příliš krátká tráva trpí suchem a zarůstá mechem. V létě za sucha nastav sekačku o 1–2 cm výš." } },
+        { "@type": "Question", "name": "Kdy zahájit první sekání na jaře?", "acceptedAnswer": { "@type": "Answer", "text": "První jarní sekání prováděj až když: (1) teplota půdy je stabilně nad 8–10 °C, (2) tráva je suchá (ne mokrá od roztátého sněhu), (3) tráva dosáhla výšky cca 6–8 cm. První sekání nastav o 1–2 cm výš než je standartní výška — tráva po zimě je oslabená." } },
+        { "@type": "Question", "name": "Jak často sekat trávník?", "acceptedAnswer": { "@type": "Answer", "text": "V hlavní sezóně (duben–říjen) sekat 1× týdně při dodržení pravidla 1/3 — nikdy neuřezávat víc než třetinu výšky najednou. V létě za sucha sekání omez na 1× za 10–14 dní a nastav nůž výš. V září–říjnu frekvenci postupně snižuj." } },
+        { "@type": "Question", "name": "Proč mi trávník po sekání žloutne nebo hnědne?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastější příčiny: (1) Tupý nůž — trhá místo stříhá, konečky stébel hnědnou. Řešení: nabrousit nůž. (2) Příliš nízké sekání — nastav sekačku výš. (3) Porušení pravidla 1/3 — nech trávník 1–2 týdny dorůst a opakuj. (4) Sekání za sucha a horka — seč ráno nebo odpoledne." } },
+      ],
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#howto",
+    "name": "Jak správně sekat trávník – hustý pažit bez plevele",
+    "description": "Pravidlo 1/3, ideální výška sekání, nejlepší čas dne, ostrý nůž a mulčování. Kompletní průvodce sekáním trávníku pro hustý a zdravý pažit celou sezónu.",
+    "step": [
+      { "@type": "HowToStep", "name": "Ideální výška sekání – tabulka podle typu trávníku", "text": "Výška sekání je nejdůležitější parametr pro zdraví trávníku. Příliš nízké sekání oslabuje kořeny, trávník žloutne, rychleji schne a zarůstá plevelem. Příliš vysoké sekání naopak podporuje houby a plísně." },
+      { "@type": "HowToStep", "name": "Zlaté pravidlo jedné třetiny – proč ho nikdy nepřekračovat", "text": "Pravidlo jedné třetiny je nejdůležitější zásada péče o trávník. Říká: při každém sekání odstraň maximálně 1/3 aktuální délky stébla. Pokud je tráva 9 cm vysoká, sečeš maximálně 3 cm — a necháš ji 6 cm." },
+      { "@type": "HowToStep", "name": "Ostrý nůž – proč na tom záleží víc než si myslíš", "text": "Tupý nůž sekačky je druhá nejčastější příčina nezdravého trávníku (po špatné výšce sekání). Tupé ostří nestříhá — trhá. Roztřepený konec stébla žloutne, stává se vstupní branou pro houby a bakterie a trávník získá šedivý nádech který trvá dny." },
+      { "@type": "HowToStep", "name": "Mulčovat nebo dávat do koše – co je lepší", "text": "Posečená tráva je hodnotný organický materiál. Co s ní uděláš, má velký vliv na zdraví a živiny trávníku." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-sekat-travnik#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně sekat trávník – hustý pažit bez plevele", "item": "https://www.domovniguru.cz/blog/jak-sekat-travnik" }
+    ]
+  }
+  ],
+};
 
 const RELATED = [
   { title: "Jak připravit zahradu na jaro – kompletní checklist", href: "/blog/jarni-zahrada", read: "6 min" },
@@ -43,7 +80,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně sekat trávník: Průvodce pro hustý a zelený pažit bez plevele</h1>
               <p className="article-lead">Špatně posečený trávník je jedním z nejčastějších důvodů proč tráva řídne, žloutne a zarůstá plevelem. Pravidlo jedné třetiny, správná výška a ostrý nůž — tři věci které změní váš trávník k nepoznání.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 21. března 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons
                 url="https://www.domovniguru.cz/blog/jak-sekat-travnik"
                 title="Jak správně sekat trávník – hustý pažit bez plevele"
@@ -273,7 +310,7 @@ export default function ArticlePage() {
             {/* SECTION 2 — PRAVIDLO 1/3 */}
             <section id="pravidlo-tretiny">
               <h2>Zlaté pravidlo jedné třetiny – proč ho nikdy nepřekračovat</h2>
-              <p>Pravidlo jedné třetiny je nejdůležitější zásada péče o trávník. Říká: <strong>při každém sekání odstraň maximálně 1/3 aktuální délky stébla</strong>. Pokud je tráva 9 cm vysoká, sečeš maximálně 3 cm — a necháš ji 6 cm.</p>
+              <p>Pravidlo jedné třetiny je nejdůležitější zásada péče o trávník. Říká: <strong>při každém sekání odstraň maximálně 1/3 aktuální délky stébla</strong>. Pokud je tráva 9 cm vysoká, sečeš maximálně 3 cm — a necháš ji 6 cm. Pokud potřebuješ po létě trávník dosít, množství semene pro svoji plochu snadno spočítáš v <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce osiva na dosévání</Link>.</p>
 
               <h3>Proč na tom záleží</h3>
               <p>Stéblo trávy je zásobníkem energie a živin pro kořen. Při sekání dochází k "stresu" — tráva musí obnovit ztracenou listovou plochu a přestane se soustředit na rozvoj kořenů. Čím větší část stébla odstraníš, tím větší stres.</p>

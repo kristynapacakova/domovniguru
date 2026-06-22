@@ -10,13 +10,50 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Co zkontrolovat při přebírání nového bytu", description: "Kompletní checklist pro přebírání bytu nebo domu." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#article", "headline": "Co zkontrolovat při přebírání nového bytu – checklist", "datePublished": "2025-02-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["přebírání bytu checklist", "co zkontrolovat v novém bytě", "předávací protokol byt", "přebírání nemovitosti"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#article", "headline": "Co zkontrolovat při přebírání nového bytu – checklist", "datePublished": "2025-02-20T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["přebírání bytu checklist", "co zkontrolovat v novém bytě", "předávací protokol byt", "přebírání nemovitosti"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Co je předávací protokol a musím ho podepsat?", "acceptedAnswer": { "@type": "Answer", "text": "Předávací protokol je dokument zachycující stav nemovitosti při přebírání – odpočty měřičů, seznam závad a klíče. Vždy ho podepis a uschovej kopii. Je to klíčový doklad pro případné spory o kauci nebo opravy." } },
+      { "@type": "Question", "name": "Kdy a jak nafotit byt při přebírání?", "acceptedAnswer": { "@type": "Answer", "text": "Foť ihned po vstupu, za denního světla, celé místnosti i detaily závad. Fotografie opatři datem a časem (automaticky u smartphonu). Pošli je pronajímateli nebo kupci emailem jako důkaz stavu v čase přebírání." } },
+      { "@type": "Question", "name": "Co dělat, pokud najdu skryté závady po nastěhování?", "acceptedAnswer": { "@type": "Answer", "text": "Skryté závady nahlásit písemně co nejdříve – ideálně do 14 dnů. U pronájmu to zapíšeš pronajímateli, u koupě nemovitosti uplatňuješ odpovědnost za vady vůči prodávajícímu. Dokumentace (fotky, zprávy) je klíčová." } },
+      { "@type": "Question", "name": "Jak najít hlavní uzávěr vody v novém bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Hlavní uzávěr vody bývá pod kuchyňskou dřezem, v koupelně za vanou, nebo v chodbě/předsíni v malé skříňce. Při přebírání požádej předchozího nájemníka nebo majitele, aby ti ho ukázal – budeš ho potřebovat při havárii." } },
+      { "@type": "Question", "name": "Musím hned po nastěhování vyměnit zámky?", "acceptedAnswer": { "@type": "Answer", "text": "Doporučujeme ano. Nevíš, kolik kopií klíčů je v oběhu (předchozí nájemníci, sousedi, údržba). Výměna válce u bezpečnostního zámku stojí 500–1 500 Kč a dá ti jistotu, že máš jediné klíče." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#howto",
+    "name": "Co zkontrolovat při přebírání nového bytu – checklist",
+    "description": "Přebíráš nový byt nebo dům? Kompletní checklist co zkontrolovat: elektrika, voda, topení, okna, stěny, dokumenty. Nic nezapomeneš.",
+    "step": [
+      { "@type": "HowToStep", "name": "Než vstoupíš dovnitř – příprava", "text": "Než vstoupíš dovnitř – příprava" },
+      { "@type": "HowToStep", "name": "Elektrika a osvětlení", "text": "Elektrika a osvětlení" },
+      { "@type": "HowToStep", "name": "Voda a topení", "text": "Voda a topení" },
+      { "@type": "HowToStep", "name": "Okna a dveře", "text": "Okna a dveře" },
+      { "@type": "HowToStep", "name": "Stěny, stropy a podlahy", "text": "Stěny, stropy a podlahy" },
+      { "@type": "HowToStep", "name": "Dokumenty a klíče", "text": "Dokumenty a klíče" },
+      { "@type": "HowToStep", "name": "Kompletní checklist v bodech", "text": "Kompletní checklist v bodech" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Stěhování & rekonstrukce", "item": "https://www.domovniguru.cz/blog/kategorie/stehovani" },
+      { "@type": "ListItem", "position": 4, "name": "Co zkontrolovat při přebírání nového bytu – checklist", "item": "https://www.domovniguru.cz/blog/prebrani-bytu-checklist" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Stěhování bez stresu – kompletní checklist", href: "/blog/stehovani-checklist", read: "5 min" },
   { title: "Jak vymalovat byt před stěhováním", href: "/blog/malovani-pred-stehovani", read: "5 min" },
   { title: "Jak malovat zeď – kompletní průvodce", href: "/blog/jak-malovat-zed", read: "5 min" },
-  { title: "Jak připravit dům na zimu – checklist", href: "/blog/priprava-domu-na-zimu", read: "5 min" },
+  { title: "Jak přihlásit trvalý pobyt na nové adrese – postup", href: "/blog/prihlasit-trvaly-pobyt", read: "4 min" },
 ];
 
 export default function ArticlePage() {
@@ -39,8 +76,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Co zkontrolovat při přebírání nového bytu – kompletní checklist</h1>
               <p className="article-lead">Přebírání bytu je moment, kdy se rozhoduje, za co budeš nebo nebudeš platit. Co nepodchytíš teď, zaplatíš později – buď z vlastní kapsy, nebo po zbytečném sporu s prodávajícím nebo pronajímatelem.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/prebrani-bytu-checklist" title="Co zkontrolovat při přebírání nového bytu – checklist 2025" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
@@ -114,7 +150,7 @@ export default function ArticlePage() {
                 <li><strong>Trhliny ve stěnách</strong> – tenké vlasové trhliny jsou normální; diagonální nebo širší trhliny mohou signalizovat statické problémy</li>
                 <li><strong>Podlahy</strong> – chůzí po celé ploše zkontroluj skřípání, pružnost a uvolněné dlaždice</li>
                 <li><strong>Strop</strong> – skvrny, trhliny, odpadávající omítka</li>
-                <li><strong>Koupelna a WC</strong> – spáry kolem vany a sprchy, stav dlažby, funkce větráku</li>
+                <li><strong>Koupelna a WC</strong> – spáry kolem vany a sprchy, stav dlažby, funkce větráku; pokud koupelna vyžaduje rekonstrukci, cenu odhadneš pomocí <Link href="/kalkulacky/cena-rekonstrukce-koupelny-odhad" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačky ceny rekonstrukce koupelny</Link></li>
               </ul>
             </section>
 

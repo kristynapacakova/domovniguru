@@ -17,12 +17,43 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor#article",
     "headline": "Jak nainstalovat pohybový senzor krok za krokem",
     "datePublished": "2026-04-22T08:00:00Z",
-    "dateModified": "2026-04-22T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak nainstalovat pohybový senzor", "PIR detektor světlo", "pohybový sensor zapojení", "nastavení pohybového senzoru", "pohybový senzor chodba", "motion detector instalace"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Mohu přidat pohybový senzor k existujícímu svítidlu?", "acceptedAnswer": { "@type": "Answer", "text": "Ano — existující svítidlo lze doplnit externím PIR senzorem zapojeným do série. Nebo lze koupit svítidlo s integrovaným senzorem (jednodušší instalace). Externí senzor je flexibilnější — lze ho nasměrovat nezávisle na svítidle." } },
+      { "@type": "Question", "name": "Funguje PIR senzor přes sklo?", "acceptedAnswer": { "@type": "Answer", "text": "Ne — infračervené záření sklo nepropouští. PIR senzor za oknem nedetekuje pohyb venku. Pro venkovní detekci nainstaluj senzor přímo venku s krytím IP65. Mikrovlnný senzor sklem projde — ale je dražší a má více falešných poplachů." } },
+      { "@type": "Question", "name": "Kolik ušetří pohybový senzor na elektřině?", "acceptedAnswer": { "@type": "Answer", "text": "Na chodbě kde svítíte průměrně 4 hodiny denně: senzor zkrátí svícení na 30–60 minut denně (jen při průchodu). Úspora: 75–85 % elektrické energie na daném svítidle. Pro LED svítidlo 10 W = úspora ~50 Kč ročně. Senzor se vrátí za 3–8 let — ale hlavní přínos je pohodlí a bezpečnost." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor#howto",
+    "name": "Jak nainstalovat pohybový senzor krok za krokem",
+    "description": "Jak nainstalovat pohybový senzor na světlo nebo alarm. PIR detektor, nastavení citlivosti a dosahu, zapojení – postup pro začátečníky bez elektrikáře.",
+    "step": [
+      { "@type": "HowToStep", "name": "Typy pohybových senzorů", "text": "Typy pohybových senzorů" },
+      { "@type": "HowToStep", "name": "Kde umístit pohybový senzor", "text": "Kde umístit pohybový senzor" },
+      { "@type": "HowToStep", "name": "Zapojení PIR senzoru – krok za krokem", "text": "PIR senzor se zapojuje do série mezi napájení a světlo. Senzor má zpravidla tři svorky: L (fáze), N (nula) a OUT nebo LOAD (výstup ke světlu)." },
+      { "@type": "HowToStep", "name": "Nastavení citlivosti a dosahu", "text": "Většina PIR senzorů má tři nastavovací prvky — otočné potenciometry nebo přepínače." },
+      { "@type": "HowToStep", "name": "Řešení problémů", "text": "Řešení problémů" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak nainstalovat pohybový senzor krok za krokem", "item": "https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +85,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak nainstalovat pohybový senzor – PIR detektor krok za krokem</h1>
               <p className="article-lead">Pohybový senzor na chodbě nebo před domem ušetří elektřinu a zvýší bezpečnost. Instalace trvá 30 minut a nevyžaduje elektrikáře — stačí správně zapojit tři vodiče.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 22. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/instalovat-pohybovy-senzor" title="Jak nainstalovat pohybový senzor krok za krokem" />
             </header>
 

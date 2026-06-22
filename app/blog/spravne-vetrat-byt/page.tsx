@@ -18,7 +18,7 @@ const jsonLd = {
       "@id": "https://www.domovniguru.cz/blog/spravne-vetrat-byt#article",
       "headline": "Jak správně větrat byt – efektivní větrání v létě i v zimě 2026",
       "datePublished": "2026-04-13T08:00:00Z",
-      "dateModified": "2026-04-13T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
@@ -33,7 +33,30 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak větrat v zimě bez tepelných ztrát?", "acceptedAnswer": { "@type": "Answer", "text": "Krátkým intenzivním větráním (5–10 minut, okna dokořán) vyměníte vzduch a stěny nestihnou vychladnout. Při mikroventilaci (pootevřené okno) naopak stěny chladnou celé hodiny a tepelné ztráty jsou mnohem vyšší." } },
         { "@type": "Question", "name": "Pomáhá větrání proti plísni?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, větrání je nejdůležitější prevence plísně. Vlhkost ze sprchy, vaření a dýchání musí mít kam odejít. Ideální vlhkost je 40–60 %. Větrání 2× denně po 10 minutách výrazně snižuje riziko plísně." } },
       ]
-    }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/spravne-vetrat-byt#howto",
+      "name": "Jak správně větrat byt – efektivní větrání v létě i v zimě 2026",
+      "description": "Křížové větrání, rekuperace nebo mikroventilace? Kompletní průvodce větráním bytu bez plísně, bez tepelných ztrát a se zdravým vzduchem.",
+      "step": [
+        { "@type": "HowToStep", "name": "Způsoby větrání – srovnání", "text": "Ne všechno větrání je stejně efektivní. Tady je přehled od nejhoršího k nejlepšímu." },
+        { "@type": "HowToStep", "name": "Jak větrat v zimě bez tepelných ztrát", "text": "Tady narážíme na největší mýtus o větrání: mikroventilace (pootevřené okno) NENÍ úsporná. Při pootevřeném okně chladnou stěny, podlaha a nábytek po celé hodiny. Pak musíš zahřát celou hmotu bytu znovu — to stojí mnohem víc tepla než 10 minut křížového větrání." },
+        { "@type": "HowToStep", "name": "Jak větrat v létě – strategie pro horké dny", "text": "V létě je strategie opačná — chceš dostat ven teplo a zachovat chlad. Klíčový princip: větrej kdy je venku chladněji než uvnitř." },
+        { "@type": "HowToStep", "name": "Větrání podle místnosti – co kde potřebuješ", "text": "Nejkritičtější místnost. Po každém sprchování nebo koupání musí vlhkost odejít. Bez okna je nutný ventilátor — a to nejlevnější co koupíš (500–1 500 Kč) se ti vrátí na zabráněné škodě od plísně mnohonásobně. Nechej ho běžet 15 minut po sprchování." },
+        { "@type": "HowToStep", "name": "Vlhkost a plíseň – přímá spojitost s větráním", "text": "Plíseň roste při vlhkosti nad 70 % a teplotě 10–35 °C. Větrání je nejdůležitější a nejlevnější prevence — levnější než jakýkoli fungicid nebo renovace." }
+      ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/spravne-vetrat-byt#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Sezónní údržba", "item": "https://www.domovniguru.cz/blog/kategorie/sezonni-udrzba" },
+      { "@type": "ListItem", "position": 4, "name": "Jak správně větrat byt – efektivní větrání v létě i v zimě 2026", "item": "https://www.domovniguru.cz/blog/spravne-vetrat-byt" }
+    ]
+  }
   ]
 };
 
@@ -66,7 +89,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak správně větrat byt – bez plísně a bez tepelných ztrát</h1>
               <p className="article-lead">Větrání není jen o otevření okna. Špatný způsob větrání způsobuje plíseň, zbytečné tepelné ztráty nebo nekvalitní vzduch. Ukážeme ti jak větrat efektivně – v zimě i v létě.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/spravne-vetrat-byt" title="Jak správně větrat byt – efektivní větrání v létě i v zimě 2026" />
             </header>
 
@@ -248,7 +271,7 @@ export default function ArticlePage() {
             <section id="mistnosti">
               <h2>Větrání podle místnosti – co kde potřebuješ</h2>
               <h3>Koupelna</h3>
-              <p>Nejkritičtější místnost. Po každém sprchování nebo koupání musí vlhkost odejít. Bez okna je nutný ventilátor — a to nejlevnější co koupíš (500–1 500 Kč) se ti vrátí na zabráněné škodě od plísně mnohonásobně. Nechej ho běžet 15 minut po sprchování.</p>
+              <p>Nejkritičtější místnost. Po každém sprchování nebo koupání musí vlhkost odejít. Bez okna je nutný ventilátor — a to nejlevnější co koupíš (500–1 500 Kč) se ti vrátí na zabráněné škodě od plísně mnohonásobně. Nechej ho běžet 15 minut po sprchování. Celkovou spotřebu elektřiny domácnosti zjistíš v naší <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce spotřeby elektřiny</Link>.</p>
               <h3>Kuchyně</h3>
               <p>Vaření produkuje vlhkost, pachy a oxid uhličitý. Digestoř odvádí vzduch ven jen pokud má odtah do fasády — recirkulační digestoř pouze filtruje pachy, vlhkost zpět vrací. Při vaření větrej oknem.</p>
               <h3>Ložnice</h3>

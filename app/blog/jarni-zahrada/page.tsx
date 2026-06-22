@@ -17,19 +17,52 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#article",
     "headline": "Jak připravit zahradu na jaro – co udělat v dubnu 2026",
     "datePublished": "2026-04-14T08:00:00Z",
-    "dateModified": "2026-04-14T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["jak připravit zahradu na jaro", "jarní zahrada checklist", "zahrada duben", "jarní prořez", "hnojení jaro zahrada", "co dělat na zahradě v dubnu"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy začít zahradní práce na jaře?", "acceptedAnswer": { "@type": "Answer", "text": "Jakmile teplota půdy překročí 5–8 °C a noční mrazy ustoupí — v ČR typicky konec března až začátek dubna. Půda nesmí být podmáčená. Prořez keřů a stromů lze začít dříve (při teplotách nad 0 °C), výsev studených plodin od dubna." } },
+      { "@type": "Question", "name": "Co je nejdůležitější udělat na zahradě v dubnu?", "acceptedAnswer": { "@type": "Answer", "text": "Top 3 priority: (1) Přihnojit trávník jarním hnojivem — spustí hustý zelený růst. (2) Prokypřit záhony a přidat kompost — základ celé sezóny. (3) Prořezat ovocné stromy a keře — před plným rašením je poslední šance." } },
+      { "@type": "Question", "name": "Můžu sít rajčata a papriky v dubnu?", "acceptedAnswer": { "@type": "Answer", "text": "Sít na semenáče ano — do sadbovače nebo truhlíku uvnitř. Výsadba ven je možná až po 15. května kdy nehrozí mráz. Rajčata a papriky jsou teplomilné — jeden mraz je zničí. V dubnu je ideální čas sít je dovnitř a pěstovat sadbu." } },
+      { "@type": "Question", "name": "Jak dlouho trvá příprava zahrady na jaro?", "acceptedAnswer": { "@type": "Answer", "text": "Průměrná zahrada (200–400 m²) vyžaduje jeden celý víkend — sobota prořez a záhony, neděle trávník a terasa. Větší zahrada nebo po zanedbání může trvat 2–3 víkendy. Pravidelná péče každý rok zkracuje čas potřebný na jarní přípravu." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#howto",
+    "name": "Jak připravit zahradu na jaro – co udělat v dubnu 2026",
+    "description": "Kompletní jarní checklist pro zahradu. Co prořezat, přihnojit, zasít a zkontrolovat v březnu a dubnu. Zahrada připravená na sezónu za jeden víkend.",
+    "step": [
+      { "@type": "HowToStep", "name": "Trávník – jarní obnova po zimě", "text": "Trávník je po zimě oslabený — mráz, sníh a nedostatek světla ho vyčerpaly. Jarní péče v dubnu nastartuje hustý zelený koberec na celé léto." },
+      { "@type": "HowToStep", "name": "Záhony a zahradní půda", "text": "Záhony a zahradní půda" },
+      { "@type": "HowToStep", "name": "Prořez keřů a stromů", "text": "Jaro je ideální čas na prořez většiny keřů a ovocných stromů — před plným rašením nebo těsně při rašení. Po rašení prořez stresuje rostliny." },
+      { "@type": "HowToStep", "name": "Výsev a výsadba – co kdy sít", "text": "Výsev a výsadba – co kdy sít" },
+      { "@type": "HowToStep", "name": "Terasa a zahradní nábytek", "text": "Terasa a zahradní nábytek" },
+      { "@type": "HowToStep", "name": "Kompletní jarní checklist", "text": "Kompletní jarní checklist" }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jarni-zahrada#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak připravit zahradu na jaro – co udělat v dubnu 2026", "item": "https://www.domovniguru.cz/blog/jarni-zahrada" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
   { title: "Jak hnojit zahradu – organicky i minerálně", href: "/blog/jak-hnojit-zahradu", read: "6 min" },
   { title: "Jak správně zalévat zahradu", href: "/blog/jak-spravne-zalevat", read: "4 min" },
   { title: "Jak se zbavit plevele bez chemie", href: "/blog/zbavit-se-plevele-bez-chemie", read: "4 min" },
-  { title: "Jak ošetřit dřevěnou terasu před zimou", href: "/blog/drevo-terasa-zima", read: "4 min" },
+  { title: "Jak stříhat ovocné stromy – kdy a jak správně řezat", href: "/blog/jak-strihat-ovocne-stromy", read: "6 min" },
 ];
 
 export default function ArticlePage() {
@@ -54,7 +87,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak připravit zahradu na jaro – kompletní checklist</h1>
               <p className="article-lead">Duben je nejdůležitější měsíc zahradní sezóny. Co uděláš teď, sklízíš celé léto. Tady je kompletní checklist co prořezat, přihnojit, zasít a zkontrolovat — ideálně za jeden víkend.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 14. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jarni-zahrada" title="Jak připravit zahradu na jaro – co udělat v dubnu 2026" />
             </header>
 
@@ -113,7 +146,7 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>☐ První sečení:</strong> Jakmile tráva dosáhne 8–10 cm, přijde první seč. Nastav sekačku na vyšší výšku (5–6 cm) — příliš krátký první střih oslabí trávník. Sečenou trávu kompostuj.</li>
                 <li><strong>☐ Vertikutace:</strong> Speciální vertikutátor nebo vertikutační nástavec na sekačku provzdušní drn a odstraní mech a filc. Ideálně jednou ročně na jaře. Pronájem vertikutátoru 300–600 Kč/den.</li>
-                <li><strong>☐ Přísev holých míst:</strong> Zimní výpady (mráz, mech, psí moč) přisej trávníkovým semenem. Přimáčkni semena pěchem nebo prochozením pro dobrý kontakt s půdou.</li>
+                <li><strong>☐ Přísev holých míst:</strong> Zimní výpady (mráz, mech, psí moč) přisej trávníkovým semenem — kolik ho budeš potřebovat zjistíš v <Link href="/kalkulacky/kolik-osiva" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce osiva</Link>. Přimáčkni semena pěchem nebo prochozením pro dobrý kontakt s půdou.</li>
                 <li><strong>☐ Jarní hnojení:</strong> NPK hnojivo s vyšším dusíkem (jarní trávníkové hnojivo), dávka dle návodu. Více v článku <Link href="/blog/jak-hnojit-zahradu" style={{color:"#5a9e6f",fontWeight:600}}>Jak hnojit zahradu →</Link></li>
                 <li><strong>☐ Vápnění (pokud je potřeba):</strong> Mech na trávníku = kyselá půda. Test pH a případné vápnění dolomitickým vápencem.</li>
               </ul>

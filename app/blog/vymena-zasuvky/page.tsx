@@ -17,12 +17,40 @@ const jsonLd = {
     "@id": "https://www.domovniguru.cz/blog/vymena-zasuvky#article",
     "headline": "Výměna zásuvky – kdy a jak ji vyměnit správně 2026",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-04-15T08:00:00Z",
+    "dateModified": "2026-06-04T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
     "keywords": ["výměna zásuvky", "kdy vyměnit zásuvku", "poškozená zásuvka", "zásuvka jiskří", "uvolněná zásuvka", "zastaralá zásuvka výměna"]
-  }]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/vymena-zasuvky#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Jak dlouho vydrží elektrická zásuvka?", "acceptedAnswer": { "@type": "Answer", "text": "Kvalitní zásuvka vydrží 10–20 let při normálním používání. Zásuvky na frekventovaných místech (kuchyň, chodba) opotřebují rychleji. Každá zásuvka má certifikovaný počet zasunutí a vysunutí (typicky 5 000–10 000×) — při častém používání může životnost klesnout na 5–8 let." } },
+      { "@type": "Question", "name": "Proč zásuvka jiskří?", "acceptedAnswer": { "@type": "Answer", "text": "Malá jiskra při zasouvání je normální — vzniká při prvním kontaktu pod napětím. Velká jiskra, opakované jiskření nebo jiskra při pouhém dotyku zástrčky signalizuje problém: poškozené kontakty, uvolněný spoj nebo zkrat. Takovou zásuvku okamžitě přestaň používat." } },
+      { "@type": "Question", "name": "Mohu použít prodlužovací kabel místo výměny zásuvky?", "acceptedAnswer": { "@type": "Answer", "text": "Prodlužovací kabel je dočasné řešení, ne náhrada za opravu. Pokud je zásuvka poškozená, jiskří nebo se přehřívá, prodlužovák problém nevyřeší — jen ho přesune. Poškozenou zásuvku vyměň co nejdříve." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/vymena-zasuvky#howto",
+    "name": "Výměna zásuvky – kdy a jak ji vyměnit správně 2026",
+    "description": "Kdy je čas vyměnit zásuvku? Poškozená, uvolněná nebo zastaralá zásuvka je bezpečnostní riziko. Jak poznat že je čas na výměnu a jak ji provést správně.",
+    "step": [
+      { "@type": "HowToStep", "name": "Jakou zásuvku koupit jako náhradu", "text": "Při výběru nové zásuvky dbej na kompatibilitu s existující krabicí a elektroinstalací." },
+      { "@type": "HowToStep", "name": "Jak na výměnu – postup krok za krokem", "text": "Výměna zásuvky je práce pro šikovného laika — ale vyžaduje přísné dodržení bezpečnostního postupu. Nejdůležitější je vždy vypnout jistič a ověřit absenci napětí fázovou tužkou." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/vymena-zasuvky#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Výměna zásuvky – kdy a jak ji vyměnit správně 2026", "item": "https://www.domovniguru.cz/blog/vymena-zasuvky" }
+    ]
+  }
+  ]
 };
 
 const RELATED = [
@@ -54,7 +82,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Výměna zásuvky – kdy je čas a jak na to</h1>
               <p className="article-lead">Jiskřící, uvolněná nebo žlutě zbarvená zásuvka není jen estetický problém — je to bezpečnostní riziko. Jak poznáš že je čas vyměnit zásuvku a co dělat jako první krok.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 15. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vymena-zasuvky" title="Výměna zásuvky – kdy a jak ji vyměnit správně 2026" />
             </header>
 

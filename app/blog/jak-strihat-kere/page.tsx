@@ -10,13 +10,45 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "Jak stříhat keře", description: "Kdy, jak a čím stříhat okrasné i ovocné keře." },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#article", "headline": "Jak stříhat keře – průvodce pro každého", "datePublished": "2025-03-20T08:00:00Z", "dateModified": "2025-03-01T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak stříhat keře", "řez keřů", "kdy stříhat keře", "stříhání živého plotu", "řez růží"] }] };
+const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#article", "headline": "Jak stříhat keře – průvodce pro každého", "datePublished": "2025-03-20T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["jak stříhat keře", "řez keřů", "kdy stříhat keře", "stříhání živého plotu", "řez růží"]
+  }, {
+    "@type": "FAQPage",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#faq",
+    "mainEntity": [
+      { "@type": "Question", "name": "Kdy stříhat šeřík?", "acceptedAnswer": { "@type": "Answer", "text": "Šeřík stříhej ihned po odkvětu, nejpozději do konce června. Šeřík tvoří pupeny na příští rok hned po odkvětu – pokud ho ostříháš na podzim nebo v zimě, přijdeš o celé kvetení příští sezóny." } },
+      { "@type": "Question", "name": "O kolik maximálně ostřihat keř najednou?", "acceptedAnswer": { "@type": "Answer", "text": "Nikdy ne více než třetinu keře najednou. Radikálnější řez keř silně stresuje a může ho oslabit nebo zastavit kvetení na celou sezónu. Větší omlazení rozlož na 2–3 roky." } },
+      { "@type": "Question", "name": "Musím dezinfikovat zahradní nůžky před každým keřem?", "acceptedAnswer": { "@type": "Answer", "text": "Ideálně ano, zejména pokud jsi stříhal nemocné rostliny. Lihem nebo Savolem otřená čepel zabrání přenosu chorob z keře na keř. Jde to rychle – stačí otřít hadříkem namočeným v lihu." } },
+      { "@type": "Question", "name": "Proč keř po řezu méně kvete?", "acceptedAnswer": { "@type": "Answer", "text": "Nejčastěji proto, že jsi stříhal ve špatnou dobu – po vytvoření pupenů. Zkontroluj typ keře: keře kvetoucí na jaře (forsythie, šeřík) stříhej hned po odkvětu, keře kvetoucí v létě (růže, komule) stříhej na jaře." } },
+      { "@type": "Question", "name": "Jak poznat správný úhel řezu?", "acceptedAnswer": { "@type": "Answer", "text": "Řez veď šikmo pod úhlem 45°, těsně nad pupenem (max. 5 mm pahýl). Šikmý řez zajistí, že voda stéká pryč od pupene a nezpůsobuje hnilobu. Rovný řez zadržuje vlhkost a hůře se hojí." } }
+    ]
+  }, {
+    "@type": "HowTo",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#howto",
+    "name": "Jak stříhat keře – průvodce pro každého",
+    "description": "Kdy, jak a čím stříhat okrasné i ovocné keře. Správný řez prodlouží život keře a zdvojnásobí kvetení.",
+    "step": [
+      { "@type": "HowToStep", "name": "Technika řezu", "text": "Jak řez provedeš je stejně důležité jako kdy ho provedeš. Špatný řez poškozuje větvičku a zpomaluje hojení." },
+      { "@type": "HowToStep", "name": "Různé keře, různý přístup", "text": "Stříhají se na jaře (březen) těsně před rašením. Čajohybridní růže zkrať na 3–5 zdravých pupenů od země (výška asi 20–30 cm). Půdopokryvné a pnoucí růže stříhej méně agresivně – jen odstraň staré dřevo a zkrať výhony o třetinu." }
+    ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/jak-strihat-kere#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Zahrada & terasa", "item": "https://www.domovniguru.cz/blog/kategorie/zahrada" },
+      { "@type": "ListItem", "position": 4, "name": "Jak stříhat keře – průvodce pro každého", "item": "https://www.domovniguru.cz/blog/jak-strihat-kere" }
+    ]
+  }
+  ]
+};
 
 const RELATED = [
   { title: "Jak správně zalévat rostliny", href: "/blog/jak-spravne-zalevat", read: "5 min" },
   { title: "Zahradní nástroje – jak o ně pečovat", href: "/blog/zahradni-nastroje-pece", read: "4 min" },
-  { title: "Ochrana rostlin před zimou", href: "/blog/prezimovat-zahradni-rostliny", read: "5 min" },
   { title: "Jak hnojit zahradu", href: "/blog/jak-hnojit-zahradu", read: "5 min" },
+  { title: "Jak stříhat ovocné stromy – kdy a jak správně řezat", href: "/blog/jak-strihat-ovocne-stromy", read: "6 min" },
 ];
 
 export default function ArticlePage() {
@@ -40,8 +72,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak stříhat keře – průvodce pro každého</h1>
               <p className="article-lead">Správný řez keře nezničí – naopak ho omlazuje, podpoří kvetení a udrží tvar. Špatný řez ve špatnou dobu ale může zahubit i letitý keř. Tady je co potřebuješ vědět.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 1. března 2025</span><span>·</span><span>DomovniGuru</span></div>
-            
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/jak-strihat-kere" title="Jak stříhat keře – průvodce pro každého 2025" />
             </header>
 

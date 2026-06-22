@@ -18,7 +18,7 @@ const jsonLd = {
       "@id": "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu#article",
       "headline": "Jak snížit účet za elektřinu doma – 12 tipů bez investic 2026",
       "datePublished": "2026-04-13T08:00:00Z",
-      "dateModified": "2026-04-13T08:00:00Z",
+      "dateModified": "2026-06-04T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
@@ -32,7 +32,32 @@ const jsonLd = {
         { "@type": "Question", "name": "Co nejvíce spotřebovává elektřinu v domácnosti?", "acceptedAnswer": { "@type": "Answer", "text": "Největší spotřebičí jsou: ohřev vody (20–30 % celkové spotřeby), lednička (10–15 %), pračka a sušička (10–15 %), vaření (10 %), svícení (5–10 %), stand-by spotřeba všech spotřebičů (5–10 %). Vytápění elektřinou může tvořit 30–50 % celkové spotřeby." } },
         { "@type": "Question", "name": "Vyplatí se noční tarif elektřiny?", "acceptedAnswer": { "@type": "Answer", "text": "Noční tarif (D25d, D26d, D55d) se vyplatí pokud máte velký objem levné elektřiny — ohřev vody, akumulační kamna nebo dobíjení elektromobilu. Bez těchto spotřebičů je paušál za distribuci v dvousazbovém tarifu vyšší a celkový účet může být paradoxně vyšší." } },
       ]
-    }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu#howto",
+      "name": "Jak snížit účet za elektřinu doma – 12 tipů bez investic 2026",
+      "description": "Kde v domácnosti teče elektřina zbytečně? Stand-by spotřeba, neefektivní spotřebiče a špatné návyky – 12 tipů bez investic.",
+      "step": [
+        { "@type": "HowToStep", "name": "Stand-by spotřeba – tichý zloděj v zásuvce", "text": "Každý spotřebič v pohotovostním režimu spotřebovává elektřinu. Televize, set-top box, nabíječky, tiskárna, mikrovlnka s displejem — to vše tikne 24 hodin denně. V průměrné domácnosti jde stand-by spotřeba na 200–400 kWh ročně, tedy 1 000–2 400 Kč za elektřinu která jde doslova do vzduchu." },
+        { "@type": "HowToStep", "name": "Osvětlení – přechod na LED žárovky", "text": "Pokud ještě nemáš LED žárovky, toto je jednorázová investice s nejkratší návratností ze všeho. LED spotřebuje 5–8× méně elektřiny než klasická žárovka a vydrží 15–25× déle." },
+        { "@type": "HowToStep", "name": "Lednička a mraznička – běží 24/7", "text": "Lednička je jediný spotřebič v domácnosti který nikdy nevypneš. Za rok spotřebuje 200–500 kWh (1 000–3 000 Kč), záleží na stáří, velikosti a umístění." },
+        { "@type": "HowToStep", "name": "Pračka, myčka a sušička – velcí spotřebitelé", "text": "Pračka a myčka spotřebují 80–90 % energie na ohřev vody. Nejjednodušší úspora: pere a myj na nižší teplotu." },
+        { "@type": "HowToStep", "name": "Ohřev vody – největší položka po vytápění", "text": "Pokud ohříváš vodu elektřinou (bojler), jde o 20–30 % celkové spotřeby elektřiny v domácnosti." },
+        { "@type": "HowToStep", "name": "Správný tarif elektřiny – platíš za svůj profil spotřeby?", "text": "Výběr špatného tarifu může znamenat stovky až tisíce korun přeplatku ročně. Distributoři nabízejí různé sazby pro různé profily spotřeby." },
+        { "@type": "HowToStep", "name": "Návyky které šetří – bez nulové investice", "text": "Návyky které šetří – bez nulové investice" }
+      ]
+  },
+  {
+    "@type": "BreadcrumbList",
+    "@id": "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Domů", "item": "https://www.domovniguru.cz" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.domovniguru.cz/blog" },
+      { "@type": "ListItem", "position": 3, "name": "Elektrika & osvětlení", "item": "https://www.domovniguru.cz/blog/kategorie/elektrika" },
+      { "@type": "ListItem", "position": 4, "name": "Jak snížit účet za elektřinu doma – 12 tipů bez investic 2026", "item": "https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu" }
+    ]
+  }
   ]
 };
 
@@ -40,7 +65,7 @@ const RELATED = [
   { title: "LED vs. žárovky – co se skutečně vyplatí?", href: "/blog/led-vs-zarovky", read: "4 min" },
   { title: "Jak vybrat správnou LED žárovku", href: "/blog/jak-vybrat-led-zarovku", read: "5 min" },
   { title: "Jak ušetřit na vytápění bez výměny kotle", href: "/blog/usetrit-na-vytapeni", read: "7 min" },
-  { title: "Tepelné čerpadlo – kompletní průvodce 2026", href: "/blog/tepelne-cerpadlo-pruvodce", read: "11 min" },
+  { title: "Jak číst elektroměr – jednofázový i třífázový", href: "/blog/jak-cist-elektromer", read: "5 min" },
 ];
 
 export default function ArticlePage() {
@@ -65,7 +90,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Jak snížit účet za elektřinu doma – bez výměny spotřebičů</h1>
               <p className="article-lead">Průměrná domácnost platí za elektřinu 15 000–27 000 Kč ročně. Přitom 20–30 % z toho teče zbytečně — stand-by spotřeba, špatné návyky a nevhodný tarif. Tady je kde ušetřit.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 13. dubna 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/snizit-ucet-za-elektrinu" title="Jak snížit účet za elektřinu doma – 12 tipů bez investic 2026" />
             </header>
 
@@ -169,7 +194,7 @@ export default function ArticlePage() {
                   </tbody>
                 </table>
               </div>
-              <p>Při 15 žárovkách v domácnosti je roční úspora při přechodu na LED <strong>4 000–7 000 Kč ročně</strong>. LED žárovka stojí 50–150 Kč a vydrží 15 000–25 000 hodin — tedy 10–17 let při 4 hodinách denně.</p>
+              <p>Při 15 žárovkách v domácnosti je <Link href="/kalkulacky/led-uspora" style={{ color: "#2a6496", textDecoration: "underline" }}>roční úspora při přechodu na LED</Link> <strong>4 000–7 000 Kč ročně</strong>. LED žárovka stojí 50–150 Kč a vydrží 15 000–25 000 hodin — tedy 10–17 let při 4 hodinách denně.</p>
               <div className="article-tip"><strong>💡 Tip:</strong> Při výběru LED žárovek sleduj Kelvinů (barva světla) — 2 700 K = teplá bílá (vhodná do obýváku a ložnice), 4 000 K = neutrální bílá (kuchyň, pracovna), 6 000 K = studená bílá (garáž, sklep). Více v článku <Link href="/blog/jak-vybrat-led-zarovku" style={{color:"#5a9e6f",fontWeight:600}}>Jak vybrat správnou LED žárovku →</Link></div>
             </section>
 
@@ -199,7 +224,7 @@ export default function ArticlePage() {
 
             <section id="ohrev">
               <h2>Ohřev vody – největší položka po vytápění</h2>
-              <p>Pokud ohříváš vodu elektřinou (bojler), jde o 20–30 % celkové spotřeby elektřiny v domácnosti.</p>
+              <p>Pokud ohříváš vodu elektřinou (bojler), jde o 20–30 % celkové <Link href="/kalkulacky/spotreba-elektriciny" style={{ color: "#2a6496", textDecoration: "underline" }}>spotřeby elektřiny v domácnosti</Link>.</p>
               <ul>
                 <li><strong>Správná teplota bojleru:</strong> 55–60 °C je hygienické minimum (eliminace bakterie Legionella). Výše nastavené teploty jen plýtvají energií.</li>
                 <li><strong>Noční tarif pro bojler:</strong> Pokud máš dvousazbový tarif a bojler s časovačem, nastav ohřev na noční hodiny (levnější proud). Úspora 30–40 % nákladů na ohřev vody.</li>
