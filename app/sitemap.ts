@@ -222,6 +222,28 @@ const BLOG_SLUGS = [
   "jak-opravit-kapajici-kohoutek",
   "jak-vycistit-pracku",
   "jak-opravit-trhlinu-ve-zdi",
+
+  // Nové 6 (20 článků)
+  "jak-malovat-drevene-schody",
+  "malirska-paska-jak-spravne-pouzivat",
+  "malovani-akcentove-steny",
+  "odstranit-skvrny-ze-zdi",
+  "instalace-detektoru-oxidu-uhelnateho",
+  "jak-funguje-proudovy-chranic",
+  "nabijecka-pro-elektromobil-doma",
+  "vyber-elektrickeho-sporaku-a-varne-desky",
+  "jak-postavit-komposter-svepomoci",
+  "pestovani-revy-na-zahrade",
+  "vyber-a-instalace-okapoveho-systemu",
+  "osetreni-stareho-plotu-pred-sezonou",
+  "planovani-predsine-a-vstupu",
+  "renovace-starych-drevenych-dveri",
+  "rozdeleni-velkeho-pokoje-na-dve-mistnosti",
+  "vyber-kuchynske-pracovni-desky",
+  "zazimovani-venkovnich-kohoutku-a-hadic",
+  "udrzba-rekuperace-a-ventilace",
+  "udrzba-plynoveho-kotle",
+  "priprava-domu-na-dovolenou",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {
