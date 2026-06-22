@@ -208,6 +208,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 188, cat: "stehovani", title: "Rekonstrukce pronajatého bytu – co můžete a co ne", desc: "Co si nájemník může v pronajatém bytě upravit bez souhlasu a co vyžaduje písemné svolení pronajímatele.", slug: "rekonstrukce-bytu-v-najmu-co-je-mozne", read: "6 min" },
     { id: 189, cat: "stehovani", title: "Jak přežít bydlení během rekonstrukce bytu", desc: "Kdy zůstat bydlet a kdy se odstěhovat, provizorní zázemí a vaření i hygiena bez kuchyně a koupelny.", slug: "jak-bydlet-behem-rekonstrukce", read: "6 min" },
     { id: 190, cat: "stehovani", title: "Demoliční práce svépomocí, nebo najmout firmu?", desc: "Co lze bourat svépomocí, jak zjistit nosnou stěnu, nářadí, odvoz suti a kdy se vyplatí demoliční firma.", slug: "demolicni-prace-svepomoci-vs-firma", read: "6 min" },
+    { id: 194, cat: "stehovani", title: "Jak opravit trhlinu ve zdi", desc: "Diagnostika, tmelení a malba – jak natrvalo opravit trhlinu ve zdi.", slug: "jak-opravit-trhlinu-ve-zdi", read: "5 min" },
   ],
   "sezonni-udrzba": [
     { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "priprava-domu-na-zimu",               read: "5 min" },
@@ -247,6 +248,8 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 191, cat: "sezonni-udrzba", title: "Jak připravit balkon na zimu – kompletní checklist", desc: "Rostliny, nábytek, odtok, dlažba i zábradlí – jak balkon připravit na mráz a sníh bez škod.", slug: "jak-pripravit-balkon-na-zimu", read: "5 min" },
     { id: 192, cat: "sezonni-udrzba", title: "Jak připravit garáž na zimu – kompletní checklist", desc: "Vrata, těsnění, vlhkost, nářadí, auto i elektřina – co zkontrolovat než přijdou mrazy.", slug: "jak-pripravit-garaz-na-zimu", read: "6 min" },
     { id: 193, cat: "sezonni-udrzba", title: "Hasicí přístroj a detektory kouře doma – kontrola a údržba", desc: "Jak často testovat detektor kouře, kdy měnit baterii a jaká je revizní lhůta hasicího přístroje.", slug: "kontrola-hasicich-pristroju-a-detektoru-koure", read: "5 min" },
+    { id: 195, cat: "sezonni-udrzba", title: "Jak opravit kapající kohoutek", desc: "Nejčastější příčina i postup výměny těsnění nebo kartuše.", slug: "jak-opravit-kapajici-kohoutek", read: "4 min" },
+    { id: 196, cat: "sezonni-udrzba", title: "Jak vyčistit pračku a předejít zápachu", desc: "Filtr, zásobník na prášek, čisticí program – kompletní postup.", slug: "jak-vycistit-pracku", read: "4 min" },
   ],
 };
 

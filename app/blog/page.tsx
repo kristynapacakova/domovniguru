@@ -232,6 +232,9 @@ const ARTICLES: Article[] = [
   { id: 191, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak připravit balkon na zimu – kompletní checklist", desc: "Rostliny, nábytek, odtok, dlažba i zábradlí – jak balkon připravit na mráz a sníh bez škod.", slug: "jak-pripravit-balkon-na-zimu", read: "5 min" },
   { id: 192, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak připravit garáž na zimu – kompletní checklist", desc: "Vrata, těsnění, vlhkost, nářadí, auto i elektřina – co zkontrolovat než přijdou mrazy.", slug: "jak-pripravit-garaz-na-zimu", read: "6 min" },
   { id: 193, cat: "sezonni", catLabel: "Sezónní údržba", title: "Hasicí přístroj a detektory kouře doma – kontrola a údržba", desc: "Jak často testovat detektor kouře, kdy měnit baterii a jaká je revizní lhůta hasicího přístroje.", slug: "kontrola-hasicich-pristroju-a-detektoru-koure", read: "5 min" },
+  { id: 194, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak opravit trhlinu ve zdi", desc: "Diagnostika, tmelení a malba – jak natrvalo opravit trhlinu ve zdi.", slug: "jak-opravit-trhlinu-ve-zdi", read: "5 min" },
+  { id: 195, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak opravit kapající kohoutek", desc: "Nejčastější příčina i postup výměny těsnění nebo kartuše.", slug: "jak-opravit-kapajici-kohoutek", read: "4 min" },
+  { id: 196, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak vyčistit pračku a předejít zápachu", desc: "Filtr, zásobník na prášek, čisticí program – kompletní postup.", slug: "jak-vycistit-pracku", read: "4 min" },
 ];
 
 function BlogContent() {
