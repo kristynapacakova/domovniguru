@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Jak pokládat vinylovou podlahu – krok za krokem 2026",
@@ -210,6 +211,14 @@ export default function ArticlePage() {
                 <li><strong>Práh u dveří:</strong> Speciální práh zakryje přechod pod dveřmi. Vybírej výšku prahu odpovídající tloušťce vinylu.</li>
                 <li><strong>Závěrečné čištění:</strong> Vinyl vyčisti vlhkým mopem. Nepoužívej agresivní čisticí prostředky ani abrazivní houby — poškodí povrchovou vrstvu.</li>
               </ul>
+              <ProductBox
+                name="Koberce na doplnění interiéru po pokládce podlahy"
+                store="KoberceKK.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=03dc0e27"
+                why="Po pokládce nové vinylové podlahy se hodí doladit prostor kobercem — ztlumí zvuk, zpříjemní chůzi a v obytných místnostech vytvoří teplejší atmosféru."
+                icon="🧶"
+              />
             </section>
 
             <section id="faq">

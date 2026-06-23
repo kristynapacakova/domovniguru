@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Jak naplánovat dětský pokoj, který poroste s dítětem",
@@ -81,6 +82,14 @@ export default function ArticlePage() {
                 </table>
               </div>
               <p>Při výběru barev nábytku i stěn je dobré počítat s tím, že vkus dítěte se bude měnit. Pomůže zvolit neutrální základ a doplnit ho výměnnými dekoracemi – textiliemi, samolepkami nebo obrázky, které lze snadno obměnit. Pokud plánuješ i přemalování stěn v budoucnu, <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka na spotřebu barvy</Link> ti pomůže odhadnout, kolik materiálu budeš potřebovat.</p>
+              <ProductBox
+                name="Modulární nábytek a doplňky pro dětský pokoj"
+                store="Bonami.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=600e3982"
+                why="Postele s vyjímatelnou bočnicí, nastavitelné psací stoly i modulární regály — na Bonami.cz najdeš nábytek, který poroste s dítětem, i dekorace na snadnou obměnu pokoje."
+                icon="🛋️"
+              />
             </section>
 
             <section id="uloziste">

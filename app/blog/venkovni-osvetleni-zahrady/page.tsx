@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Venkovní osvětlení zahrady – typy a instalace",
@@ -177,6 +178,14 @@ export default function ArticlePage() {
                 <li><strong>Girlandy a světelné řetězy:</strong> Dekorativní osvětlení terasy, pergoly nebo stromů. Teplá atmosféra. Cena 200–1 000 Kč za sadu.</li>
                 <li><strong>LED pásky venkovní (IP65+):</strong> Pod schody, pod lavičkami nebo podél cesty. Cena 200–600 Kč/m.</li>
               </ul>
+              <ProductBox
+                name="Venkovní svítidla a zahradní osvětlení"
+                store="Aulix.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=2b123dfe"
+                why="Od zemních svítidel po sloupková osvětlení — na Aulix.cz najdeš širokou nabídku venkovních svítidel pro každý typ zahrady i rozpočet."
+                icon="💡"
+              />
             </section>
 
             <section id="ip">

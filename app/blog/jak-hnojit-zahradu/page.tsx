@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Jak hnojit zahradu – organicky i minerálně, kdy a čím 2026",
@@ -193,6 +194,14 @@ export default function ArticlePage() {
                 </table>
               </div>
               <div className="article-tip"><strong>💡 Tip:</strong> Nejlepší přístup je kombinace — na podzim zapracuj kompost nebo hnůj pro zlepšení půdy, na jaře přidej minerální hnojivo pro rychlý start sezóny.</div>
+              <ProductBox
+                name="Hnojiva pro trávník, záhony i stromy"
+                store="Hnojík.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=1da58c10"
+                why="Ať volíš organické, minerální nebo pomalu uvolňující hnojivo, na Hnojík.cz najdeš širokou nabídku pro všechny části zahrady — trávník, zeleninové záhony i ovocné stromy."
+                icon="🌱"
+              />
             </section>
 
             <section id="travnik">

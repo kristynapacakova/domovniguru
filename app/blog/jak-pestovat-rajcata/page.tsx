@@ -1,4 +1,5 @@
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -276,6 +277,14 @@ export default function ArticlePage() {
               <p>Rajčata sklízej až jsou plně zbarvená a mírně povolují pod prstem. Nesklízej zelená – dozrají sice při pokojové teplotě, ale bez chuti. Výjimkou je situace kdy hrozí plíseň nebo mráz – pak sklidíš i zelená a necháš dozrát v teple.</p>
               <p><strong>Nikdy nedávej rajčata do lednice</strong> – chlad ničí chuťové látky nevratně. Optimální teplota skladování je 13–18 °C, maximálně týden.</p>
               <p>Přebytek zpracuj: rajčatová passata, sušená rajčata nebo zamraž jako protlak. Syrová rajčata se mrazit nedají – po rozmrazení jsou vodnatá.</p>
+              <ProductBox
+                name="Zavařovací sklenice na rajčatovou passatu a protlak"
+                store="Zavařovacísklo.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=4f262bbb"
+                why="Na zavařování přebytku úrody se vyplatí mít doma zásobu kvalitních zavařovacích sklenic s funkčními víčky — passata i protlak tak vydrží do zimy."
+                icon="🍅"
+              />
             </section>
 
             <section id="faq">

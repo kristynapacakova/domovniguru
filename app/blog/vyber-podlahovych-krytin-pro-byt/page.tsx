@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Jak vybrat podlahovou krytinu do bytu podle místnosti",
@@ -137,6 +138,14 @@ export default function ArticlePage() {
                 </table>
               </div>
               <p>Při kombinaci více krytin v jednom bytě nezapomeňte na sladění barevných odstínů a vyřešení přechodů mezi místnostmi, jak jsme popsali výše. Dobře zvolená kombinace materiálů podle provozu vám ušetří náklady na pozdější opravy a zajistí, že podlaha bude vypadat dobře i po letech používání.</p>
+              <ProductBox
+                name="Podlahové krytiny pro každou místnost"
+                store="NejlevnějšíPodlahy.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=06cfb451"
+                why="Laminát, vinyl i další krytiny z přehledu výše najdeš v široké nabídce na NejlevnějšíPodlahy.cz — vyber podle místnosti a provozu, jak doporučujeme v tabulce."
+                icon="🪵"
+              />
             </section>
 
             <section id="faq">
