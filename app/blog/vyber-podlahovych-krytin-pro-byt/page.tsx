@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ProductBox from "@/app/components/ProductBox";
+import AdBanner from "@/app/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "Jak vybrat podlahovou krytinu do bytu podle místnosti",
@@ -196,6 +197,15 @@ export default function ArticlePage() {
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
               <Link href="/blog/kategorie/stehovani" className="sidebar-cat-link">🏠 Stěhování & rekonstrukce<span>Více článků →</span></Link>
+            </div>
+            <div className="sidebar-widget">
+              <AdBanner
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=06cfb451"
+                src="https://doc.ehub.cz/b/498c8ee2/06cfb451.png"
+                alt="NejlevnějšíPodlahy.cz – podlahové krytiny"
+                width={970}
+                height={250}
+              />
             </div>
           </aside>
         </div>

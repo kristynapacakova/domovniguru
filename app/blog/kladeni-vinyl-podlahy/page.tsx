@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 import ProductBox from "@/app/components/ProductBox";
+import AdBanner from "@/app/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "Jak pokládat vinylovou podlahu – krok za krokem 2026",
@@ -275,6 +276,15 @@ export default function ArticlePage() {
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
               <Link href="/blog/kategorie/stehovani" className="sidebar-cat-link">🏠 Stěhování & rekonstrukce<span>20 článků →</span></Link>
+            </div>
+            <div className="sidebar-widget">
+              <AdBanner
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=03dc0e27"
+                src="https://doc.ehub.cz/b/8a87f697/03dc0e27.jpg"
+                alt="KoberceKK.cz – koberce"
+                width={669}
+                height={669}
+              />
             </div>
           </aside>
         </div>

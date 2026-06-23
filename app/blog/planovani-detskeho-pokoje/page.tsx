@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ProductBox from "@/app/components/ProductBox";
+import AdBanner from "@/app/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "Jak naplánovat dětský pokoj, který poroste s dítětem",
@@ -185,6 +186,15 @@ export default function ArticlePage() {
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
               <Link href="/blog/kategorie/stehovani" className="sidebar-cat-link">🏠 Stěhování & rekonstrukce<span>Více článků →</span></Link>
+            </div>
+            <div className="sidebar-widget">
+              <AdBanner
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=033bd17e"
+                src="https://doc.ehub.cz/b/b5f0fbe9/033bd17e.jpg"
+                alt="Bonami.cz – nábytek a bytové doplňky"
+                width={300}
+                height={300}
+              />
             </div>
           </aside>
         </div>
