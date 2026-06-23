@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import AdBanner from "@/app/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "Jak namalovat akcentovou stěnu – inspirace a postup krok za krokem",
@@ -244,6 +245,15 @@ export default function ArticlePage() {
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
               <Link href="/blog/kategorie/malovani" className="sidebar-cat-link">🎨 Malování & barvy<span>Více článků →</span></Link>
+            </div>
+            <div className="sidebar-widget">
+              <AdBanner
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=0b468a80"
+                src="https://doc.ehub.cz/b/b5f0fbe9/0b468a80.jpg"
+                alt="Bonami.cz – bytové doplňky a dekorace"
+                width={160}
+                height={600}
+              />
             </div>
           </aside>
         </div>
