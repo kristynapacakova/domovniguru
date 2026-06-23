@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Jak postavit dřevěný zahradní plot – postup krok za krokem 2026",
@@ -194,6 +195,14 @@ export default function ArticlePage() {
                 <li><strong>Materiál na 10 m plotu výšky 150 cm:</strong> Sloupky 9×9 cm, délka 250 cm (150 cm viditelná část + 100 cm v zemi): 6 ks. Prkna 2×10 cm, délka dle návrhu — přesný počet prken pro délku svého plotu si spočítáš v <Link href="/kalkulacky/kolik-prknu" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce prken</Link>. Vodorovné latě 5×10 cm. Impregnační přípravek. Šrouby pozinkované nebo nerezové.</li>
                 <li><strong>Příprava terénu:</strong> Vyznač linii plotu šňůrou. Zkontroluj rovnost — plot na nerovném terénu vypadá neupraveně. Zvaž svah — plot může sledovat terén nebo být vodorovný.</li>
               </ul>
+              <ProductBox
+                name="Akumulátorové nářadí pro stavbu plotu"
+                store="Aku-shop.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=9bc93257"
+                why="Na vrtání děr do sloupků a šroubování desítek prken se vyplatí akumulátorová vrtačka/šroubovák s alespoň dvěma bateriemi — ušetříš čas i sílu v zápěstí. Aku-shop.cz má širokou nabídku aku nářadí a příslušenství."
+                icon="🔩"
+              />
             </section>
 
             <section id="sloupky">
