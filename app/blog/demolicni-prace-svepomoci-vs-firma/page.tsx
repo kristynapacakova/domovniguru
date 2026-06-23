@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import ProductBox from "@/app/components/ProductBox";
 
 export const metadata: Metadata = {
   title: "Demoliční práce svépomocí, nebo najmout firmu? 2026",
@@ -157,6 +158,14 @@ export default function ArticlePage() {
                 <li><strong>Velké odpadní pytle nebo přímo kontejner</strong> – na sběr a třídění materiálu (viz další sekce).</li>
               </ul>
               <p>Nářadí na jednorázovou demolici se vyplatí spíš půjčit než kupovat – půjčovny stavebního nářadí nabízí perforátory i bourací kladiva na den nebo víkend.</p>
+              <ProductBox
+                name="Bourací kladivo, perforátor a doplňkové nářadí"
+                store="Nářadí-Praha.cz"
+                price="dle aktuální nabídky"
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=fc349ed4"
+                why="Pokud se rozhodneš nářadí na demolici koupit místo půjčení, Nářadí-Praha.cz má širokou nabídku perforátorů, bouracích kladiv i doplňkového nářadí pro stavební práce."
+                icon="🔨"
+              />
             </section>
 
             <section id="odvoz-suti">
