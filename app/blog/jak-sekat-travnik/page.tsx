@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
+import AdBanner from "@/app/components/AdBanner";
 
 export const metadata: Metadata = {
   title: "Jak správně sekat trávník – hustý pažit bez plevele",
@@ -522,6 +523,15 @@ export default function ArticlePage() {
             <div className="sidebar-widget">
               <div className="sidebar-widget-title">Kategorie</div>
               <Link href="/blog/kategorie/zahrada" className="sidebar-cat-link">🌿 Zahrada & terasa<span>22 článků →</span></Link>
+            </div>
+            <div className="sidebar-widget">
+              <AdBanner
+                href="https://ehub.cz/system/scripts/click.php?a_aid=31989715&a_bid=2f3af11d"
+                src="https://doc.ehub.cz/b/0048402f/2f3af11d.png"
+                alt="Neleňprozeleň.cz – zahradní technika"
+                width={1080}
+                height={1350}
+              />
             </div>
           </aside>
         </div>
