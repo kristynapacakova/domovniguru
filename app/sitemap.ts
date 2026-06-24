@@ -244,6 +244,28 @@ const BLOG_SLUGS = [
   "udrzba-rekuperace-a-ventilace",
   "udrzba-plynoveho-kotle",
   "priprava-domu-na-dovolenou",
+
+  // Nové 7 (20 článků)
+  "jak-nalepit-tapetu",
+  "natrit-drevena-okna-a-okenice",
+  "jak-pouzivat-strikaci-pistoli",
+  "renovace-kuchynskych-linek-naterem",
+  "revize-elektroinstalace-kdy-a-proc",
+  "infrapanely-na-vytapeni",
+  "blikani-svetel-pricina-a-reseni",
+  "jak-vybrat-robotickeho-vysavace",
+  "pestovani-boruvek-a-drobneho-ovoce",
+  "stavba-pristresku-na-auto-carport",
+  "vyber-a-instalace-roboticke-sekacky",
+  "rostliny-do-stinu-na-zahrade",
+  "vyber-schodiste-pri-rekonstrukci",
+  "zvukova-izolace-mezi-patry",
+  "vyber-vestavnych-spotrebicu-do-kuchyne",
+  "zatepleni-podkrovi-a-stropu",
+  "udrzba-krbu-a-kamen-na-drevo",
+  "jak-pecovat-o-susicku-pradla",
+  "priprava-chaty-na-zimu",
+  "suseni-pradla-v-byte-bez-plisne",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {

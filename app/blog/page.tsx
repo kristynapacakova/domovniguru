@@ -22,10 +22,10 @@ type Category = {
 
 const CATS: Category[] = [
 { key: "vse",       label: "Vše",                         count: 113 },
-{ key: "malovani",  label: "🎨 Malování & barvy",         count: 22  },
-{ key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 21  },
-{ key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 28  },
-{ key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 21  },
+{ key: "malovani",  label: "🎨 Malování & barvy",         count: 26  },
+{ key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 25  },
+{ key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 32  },
+{ key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 25  },
 ];
 
 const ARTICLES: Article[] = [
@@ -255,6 +255,27 @@ const ARTICLES: Article[] = [
   { id: 214, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak udržovat rekuperaci a ventilaci, aby fungovala efektivně", desc: "Filtry, výměník, kondenzát i mřížky – kompletní postup pravidelné údržby rekuperační jednotky pro zdravý vzduch a nízkou spotřebu energie.", slug: "udrzba-rekuperace-a-ventilace", read: "6 min" },
   { id: 215, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak udržovat plynový kotel během celého roku", desc: "Tlak v expanzní nádobě, odvzdušnění, povinná roční revize i příznaky problémů – kompletní průvodce péčí o plynový kotel po celý rok.", slug: "udrzba-plynoveho-kotle", read: "6 min" },
   { id: 216, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak připravit dům na dovolenou – bezpečnost a úspora energie", desc: "Voda, topení, spotřebiče i zabezpečení domu – kompletní checklist, jak připravit dům na delší odjezd bez rizika škody nebo vykradení.", slug: "priprava-domu-na-dovolenou", read: "6 min" },
+
+  { id: 217, cat: "malovani", catLabel: "Malování & barvy", title: "Jak nalepit tapetu – kompletní návod krok za krokem", desc: "Příprava stěny, výpočet potřebného množství, nanesení lepidla a postup lepení tapety bez bublin a švů.", slug: "jak-nalepit-tapetu", read: "6 min" },
+  { id: 218, cat: "malovani", catLabel: "Malování & barvy", title: "Jak natřít dřevěná okna a okenice", desc: "Postup broušení, penetrace a nátěru dřevěných oken a okenic, aby vydržely venkovním podmínkám.", slug: "natrit-drevena-okna-a-okenice", read: "5 min" },
+  { id: 219, cat: "malovani", catLabel: "Malování & barvy", title: "Jak používat stříkací pistoli na nátěry", desc: "Výběr stříkací pistole, ředění barvy, technika stříkání a údržba pistole po použití.", slug: "jak-pouzivat-strikaci-pistoli", read: "5 min" },
+  { id: 220, cat: "malovani", catLabel: "Malování & barvy", title: "Jak renovovat kuchyňské linky a skříňky novým nátěrem", desc: "Jak natřít staré kuchyňské skříňky bez výměny linky – příprava povrchu, výběr barvy a finální ochrana.", slug: "renovace-kuchynskych-linek-naterem", read: "6 min" },
+  { id: 221, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Revize elektroinstalace – kdy je nutná a co obsahuje", desc: "Jak často revidovat elektroinstalaci v bytě i domě, co revizní technik kontroluje a kolik revize stojí.", slug: "revize-elektroinstalace-kdy-a-proc", read: "5 min" },
+  { id: 222, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Infrapanely na vytápění – jak fungují a kdy se vyplatí", desc: "Princip infrapanelů, srovnání s konvekčním vytápěním, výpočet výkonu a reálné provozní náklady.", slug: "infrapanely-na-vytapeni", read: "6 min" },
+  { id: 223, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Proč blikají světla v bytě a jak to vyřešit", desc: "Nejčastější příčiny blikání žárovek a LED svítidel – od stmívače po uvolněný vodič – a jak problém odstranit.", slug: "blikani-svetel-pricina-a-reseni", read: "5 min" },
+  { id: 224, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Jak vybrat robotický vysavač domů", desc: "Navigace, výkon sání, mopování a baterie – na co se zaměřit při výběru robotického vysavače.", slug: "jak-vybrat-robotickeho-vysavace", read: "5 min" },
+  { id: 225, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jak pěstovat borůvky a další drobné ovoce na zahradě", desc: "Výběr odrůd, kyselost půdy, výsadba a péče o borůvky, rybíz a další drobné ovoce na zahradě.", slug: "pestovani-boruvek-a-drobneho-ovoce", read: "5 min" },
+  { id: 226, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jak postavit přístřešek na auto (carport) svépomocí", desc: "Výběr konstrukce, materiálu a postup stavby dřevěného nebo ocelového carportu na zahradě.", slug: "stavba-pristresku-na-auto-carport", read: "7 min" },
+  { id: 227, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jak vybrat a nainstalovat robotickou sekačku", desc: "Výkon, ohraničení pozemku, instalace nabíjecí stanice a údržba robotické sekačky na trávník.", slug: "vyber-a-instalace-roboticke-sekacky", read: "6 min" },
+  { id: 228, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jaké rostliny vysadit do stínu na zahradě", desc: "Přehled trvalek, keřů a okrasných rostlin, které zvládnou polostín i hluboký stín pod stromy a u domu.", slug: "rostliny-do-stinu-na-zahrade", read: "5 min" },
+  { id: 229, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak vybrat nové schodiště při rekonstrukci domu", desc: "Materiály, typy konstrukce a bezpečnostní normy – na co se zaměřit při výběru nového schodiště.", slug: "vyber-schodiste-pri-rekonstrukci", read: "6 min" },
+  { id: 230, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak vyřešit zvukovou izolaci mezi patry a sousedy", desc: "Kročejový a vzduchový hluk, vhodné materiály a postupy, jak ztlumit hluk mezi patry nebo od sousedů.", slug: "zvukova-izolace-mezi-patry", read: "6 min" },
+  { id: 231, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak vybrat vestavné spotřebiče do nové kuchyně", desc: "Trouba, varná deska, myčka i lednice – na co se zaměřit při výběru vestavných spotřebičů a jejich rozměrů.", slug: "vyber-vestavnych-spotrebicu-do-kuchyne", read: "6 min" },
+  { id: 232, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak zateplit podkroví a strop, aby teplo zůstalo v domě", desc: "Výběr izolačního materiálu, tloušťka vrstvy a postup zateplení podkroví a stropu pod nevytápěnou půdou.", slug: "zatepleni-podkrovi-a-stropu", read: "7 min" },
+  { id: 233, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak udržovat krb a kamna na dřevo během sezóny", desc: "Čištění skla, komína a popelníku, výběr dřeva a bezpečnostní zásady provozu krbu nebo kamen na dřevo.", slug: "udrzba-krbu-a-kamen-na-drevo", read: "5 min" },
+  { id: 234, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak pečovat o sušičku prádla, aby fungovala efektivně", desc: "Čištění filtru, kondenzátoru a odvodu vzduchu – pravidelná údržba sušičky prádla krok za krokem.", slug: "jak-pecovat-o-susicku-pradla", read: "5 min" },
+  { id: 235, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak připravit chatu nebo chalupu na zimu", desc: "Voda, topení, okna i zabezpečení – kompletní checklist, jak chatu nebo chalupu připravit na zimní odstávku.", slug: "priprava-chaty-na-zimu", read: "6 min" },
+  { id: 236, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak sušit prádlo v bytě v zimě bez plísně", desc: "Větrání, odvlhčování a správné rozmístění prádla, aby sušení v zimě nezpůsobilo plíseň a vlhkost v bytě.", slug: "suseni-pradla-v-byte-bez-plisne", read: "5 min" },
 ];
 
 function BlogContent() {
