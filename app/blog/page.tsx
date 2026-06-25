@@ -22,10 +22,10 @@ type Category = {
 
 const CATS: Category[] = [
 { key: "vse",       label: "Vše",                         count: 113 },
-{ key: "malovani",  label: "🎨 Malování & barvy",         count: 26  },
-{ key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 25  },
-{ key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 32  },
-{ key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 25  },
+{ key: "malovani",  label: "🎨 Malování & barvy",         count: 30  },
+{ key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 29  },
+{ key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 36  },
+{ key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 29  },
 ];
 
 const ARTICLES: Article[] = [
@@ -276,6 +276,27 @@ const ARTICLES: Article[] = [
   { id: 234, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak pečovat o sušičku prádla, aby fungovala efektivně", desc: "Čištění filtru, kondenzátoru a odvodu vzduchu – pravidelná údržba sušičky prádla krok za krokem.", slug: "jak-pecovat-o-susicku-pradla", read: "5 min" },
   { id: 235, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak připravit chatu nebo chalupu na zimu", desc: "Voda, topení, okna i zabezpečení – kompletní checklist, jak chatu nebo chalupu připravit na zimní odstávku.", slug: "priprava-chaty-na-zimu", read: "6 min" },
   { id: 236, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak sušit prádlo v bytě v zimě bez plísně", desc: "Větrání, odvlhčování a správné rozmístění prádla, aby sušení v zimě nezpůsobilo plíseň a vlhkost v bytě.", slug: "suseni-pradla-v-byte-bez-plisne", read: "5 min" },
+
+  { id: 237, cat: "malovani", catLabel: "Malování & barvy", title: "Jak natřít plastová okna a parapety", desc: "Speciální barvy na plast, příprava povrchu a postup nátěru plastových oken a parapetů, aby barva dobře držela.", slug: "natrit-plastova-okna-a-parapety", read: "5 min" },
+  { id: 238, cat: "malovani", catLabel: "Malování & barvy", title: "Jak opravit poškozenou tapetu", desc: "Odlepené švy, díry a skvrny na tapetě – jak je nenápadně opravit bez nutnosti vyměnit celý pás.", slug: "jak-opravit-poskozenou-tapetu", read: "5 min" },
+  { id: 239, cat: "malovani", catLabel: "Malování & barvy", title: "Malování ve výškách – kdy použít žebřík a kdy lešení", desc: "Bezpečné pomůcky pro malování vysokých stropů a schodišť, výběr žebříku nebo lešení a zásady bezpečné práce ve výšce.", slug: "malovani-ve-vyskach-lesteni-a-zebriky", read: "5 min" },
+  { id: 240, cat: "malovani", catLabel: "Malování & barvy", title: "Jak vybrat nářadí na štukování a opravu omítek", desc: "Hladítka, špachtle a brusné pomůcky pro hlazení omítek a štuků – jak vybrat správné nářadí a jak s ním zacházet.", slug: "vyber-naradi-na-stukovani-a-omitky", read: "5 min" },
+  { id: 241, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Jak vybrat a nainstalovat domácí alarm", desc: "Bezdrátové vs. drátové zabezpečovací systémy, čidla, ústředna a napojení na mobilní aplikaci nebo pult ostrahy.", slug: "domaci-alarm-a-zabezpecovaci-system", read: "6 min" },
+  { id: 242, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Jak vybrat a nainstalovat kamerový systém pro dům a zahradu", desc: "IP kamery vs. analogové, ukládání záznamu, krytí pro venkovní použití a zásady instalace kamerového systému.", slug: "kamerovy-system-pro-dum-a-zahradu", read: "6 min" },
+  { id: 243, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Akumulační kamna – jak fungují a kdy se vyplatí", desc: "Princip akumulačního vytápění, dvoutarifní sazba, výpočet výkonu a srovnání s jinými způsoby elektrického vytápění.", slug: "akumulacni-kamna-elektricke-vytapeni", read: "6 min" },
+  { id: 244, cat: "elektrika", catLabel: "Elektrika & osvětlení", title: "Jak vybrat průtokový ohřívač vody", desc: "Elektrický průtokový ohřívač vody – kdy se vyplatí, jak vybrat výkon a na co dát pozor při instalaci.", slug: "prutokovy-ohrivac-vody-vyber", read: "5 min" },
+  { id: 245, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jak pěstovat brambory na zahradě", desc: "Výběr sadby, výsadba, hrobkování a sklizeň brambor – kompletní postup pro zahradu i menší záhon.", slug: "jak-pestovat-brambory", read: "6 min" },
+  { id: 246, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jak pěstovat květiny na řez na zahradě", desc: "Výběr odrůd, výsadba a péče o květiny určené k řezu – jak mít čerstvou kytici z vlastní zahrady celé léto.", slug: "pestovani-kvetin-na-rez", read: "5 min" },
+  { id: 247, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jak vybrat a sázet okrasné trávy na zahradě", desc: "Druhy okrasných trav, vhodné kombinace s trvalkami a péče o trávy během roku včetně zimního řezu.", slug: "okrasne-travy-na-zahrade", read: "5 min" },
+  { id: 248, cat: "zahrada", catLabel: "Zahrada & terasa", title: "Jak postavit opěrnou zídku na svažité zahradě", desc: "Materiály, odvodnění a postup stavby nízké opěrné zídky, která zpevní svah a vytvoří rovinaté záhony.", slug: "stavba-oprene-zidky-na-zahrade", read: "7 min" },
+  { id: 249, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak naplánovat pracovnu nebo home office v bytě", desc: "Výběr místa, osvětlení, akustika a úložné prostory pro funkční domácí kancelář i v malém bytě.", slug: "planovani-pracovny-home-office", read: "6 min" },
+  { id: 250, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak postavit vestavěnou skříň na míru svépomocí", desc: "Návrh rozměrů, materiály, postup montáže korpusu a dveří vestavěné skříně přizpůsobené prostoru.", slug: "stavba-vestavene-skrine-na-miru", read: "7 min" },
+  { id: 251, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak vybrat vnitřní dveře a zárubně při rekonstrukci", desc: "Typy zárubní, materiály dveří, otevírání a zvuková izolace – na co se zaměřit při výběru vnitřních dveří.", slug: "jak-vybrat-vnitrni-dvere-a-zarubne", read: "6 min" },
+  { id: 252, cat: "stehovani", catLabel: "Stěhování & rekonstrukce", title: "Jak zrekonstruovat balkon nebo lodžii", desc: "Hydroizolace, dlažba, zábradlí a zasklení – kompletní postup rekonstrukce balkonu nebo lodžie.", slug: "rekonstrukce-balkonu-a-lodzie", read: "6 min" },
+  { id: 253, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak pečovat o lednici a mrazák, aby šetřily energii", desc: "Odmrazování, čištění těsnění a kondenzátoru – pravidelná údržba lednice a mrazáku pro nižší spotřebu energie.", slug: "jak-pecovat-o-lednici-a-mrazak", read: "5 min" },
+  { id: 254, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak čistit a udržovat digestoř v kuchyni", desc: "Tukové a uhlíkové filtry, čištění odsávání a kdy filtr vyměnit – údržba digestoře krok za krokem.", slug: "udrzba-digestore-a-odsavani", read: "4 min" },
+  { id: 255, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak zvládnout podzimní úklid listí na zahradě", desc: "Hrabání, mulčování nebo kompostování listí – efektivní postupy podzimního úklidu zahrady.", slug: "podzimni-uklid-listi-na-zahrade", read: "5 min" },
+  { id: 256, cat: "sezonni", catLabel: "Sezónní údržba", title: "Jak vyčistit závěsy, záclony a žaluzie", desc: "Praní záclon, čištění látkových i horizontálních žaluzií a péče o rolety – sezónní úklid oken.", slug: "cisteni-zaclon-a-zaluzii", read: "4 min" },
 ];
 
 function BlogContent() {

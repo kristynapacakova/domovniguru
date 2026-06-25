@@ -266,6 +266,28 @@ const BLOG_SLUGS = [
   "jak-pecovat-o-susicku-pradla",
   "priprava-chaty-na-zimu",
   "suseni-pradla-v-byte-bez-plisne",
+
+  // Nové 8 (20 článků)
+  "natrit-plastova-okna-a-parapety",
+  "jak-opravit-poskozenou-tapetu",
+  "malovani-ve-vyskach-lesteni-a-zebriky",
+  "vyber-naradi-na-stukovani-a-omitky",
+  "domaci-alarm-a-zabezpecovaci-system",
+  "kamerovy-system-pro-dum-a-zahradu",
+  "akumulacni-kamna-elektricke-vytapeni",
+  "prutokovy-ohrivac-vody-vyber",
+  "jak-pestovat-brambory",
+  "pestovani-kvetin-na-rez",
+  "okrasne-travy-na-zahrade",
+  "stavba-oprene-zidky-na-zahrade",
+  "planovani-pracovny-home-office",
+  "stavba-vestavene-skrine-na-miru",
+  "jak-vybrat-vnitrni-dvere-a-zarubne",
+  "rekonstrukce-balkonu-a-lodzie",
+  "jak-pecovat-o-lednici-a-mrazak",
+  "udrzba-digestore-a-odsavani",
+  "podzimni-uklid-listi-na-zahrade",
+  "cisteni-zaclon-a-zaluzii",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {
