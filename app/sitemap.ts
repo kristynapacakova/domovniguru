@@ -288,6 +288,28 @@ const BLOG_SLUGS = [
   "udrzba-digestore-a-odsavani",
   "podzimni-uklid-listi-na-zahrade",
   "cisteni-zaclon-a-zaluzii",
+
+  // Nové 9 (20 článků)
+  "psychologie-barev-v-interieru",
+  "malovani-schodiste-a-chodby",
+  "jak-vybrat-malire-a-firmu",
+  "barva-na-beton-a-venkovni-povrchy",
+  "ventilator-do-koupelny-a-wc",
+  "led-pasky-instalace-a-vyber",
+  "chytra-zasuvka-a-mereni-spotreby",
+  "stropni-ventilator-instalace",
+  "jak-pestovat-mrkev-a-koreninovou-zeleninu",
+  "zahrada-pro-opylovace",
+  "mulcovani-zahrady",
+  "zahradni-branka-a-vjezdova-brana",
+  "kladeni-dlazby-v-koupelne",
+  "jak-vybrat-sanitarni-keramiku",
+  "jak-vybrat-koupelnovy-nabytek",
+  "krocejova-a-tepelna-izolace-podlahy",
+  "jarni-revize-domu-checklist",
+  "cisteni-a-odvlhceni-sklepa",
+  "cisteni-venkovnich-povrchu-tlakovou-vodou",
+  "jarni-osetreni-terasy-a-balkonu",
 ];
 
 function getArticleLastModified(slug: string): Date | undefined {

@@ -97,6 +97,10 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 238, cat: "malovani", title: "Jak opravit poškozenou tapetu", desc: "Odlepené švy, díry a skvrny na tapetě – jak je nenápadně opravit bez nutnosti vyměnit celý pás.", slug: "jak-opravit-poskozenou-tapetu", read: "5 min" },
     { id: 239, cat: "malovani", title: "Malování ve výškách – kdy použít žebřík a kdy lešení", desc: "Bezpečné pomůcky pro malování vysokých stropů a schodišť, výběr žebříku nebo lešení a zásady bezpečné práce ve výšce.", slug: "malovani-ve-vyskach-lesteni-a-zebriky", read: "5 min" },
     { id: 240, cat: "malovani", title: "Jak vybrat nářadí na štukování a opravu omítek", desc: "Hladítka, špachtle a brusné pomůcky pro hlazení omítek a štuků – jak vybrat správné nářadí a jak s ním zacházet.", slug: "vyber-naradi-na-stukovani-a-omitky", read: "5 min" },
+    { id: 257, cat: "malovani", title: "Psychologie barev v interiéru: jak barvy ovlivňují náladu", desc: "Které barvy zklidňují, dodávají energii nebo opticky zvětšují prostor – praktický průvodce psychologií barev pro každou místnost.", slug: "psychologie-barev-v-interieru", read: "5 min" },
+    { id: 258, cat: "malovani", title: "Malování schodiště a chodby: na co si dát pozor", desc: "Výběr odolné barvy, práce ve výškách, ochrana madel a obkladů – specifika malování schodiště a úzkých prostor chodby.", slug: "malovani-schodiste-a-chodby", read: "4 min" },
+    { id: 259, cat: "malovani", title: "Jak vybrat malíře nebo malířskou firmu", desc: "Na co se zeptat při poptávce, jak srovnat nabídky a co musí obsahovat smlouva – výběr malíře bez nepříjemných překvapení.", slug: "jak-vybrat-malire-a-firmu", read: "5 min" },
+    { id: 260, cat: "malovani", title: "Barva na beton a venkovní povrchy", desc: "Speciální nátěry na betonové podlahy, terasy a sokly – výběr produktu, příprava povrchu a aplikace barvy na beton.", slug: "barva-na-beton-a-venkovni-povrchy", read: "5 min" },
   ],
   elektrika: [
     { id: 21, cat: "elektrika", title: "Jak vyměnit zásuvku sám – bezpečný postup",             desc: "Vypni jistič, odšroubuj, přepoj. Krok za krokem.",                 slug: "jak-vymenit-zasuvku",                 read: "5 min" },
@@ -143,6 +147,10 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 242, cat: "elektrika", title: "Jak vybrat a nainstalovat kamerový systém pro dům a zahradu", desc: "IP kamery vs. analogové, ukládání záznamu, krytí pro venkovní použití a zásady instalace kamerového systému.", slug: "kamerovy-system-pro-dum-a-zahradu", read: "6 min" },
     { id: 243, cat: "elektrika", title: "Akumulační kamna – jak fungují a kdy se vyplatí", desc: "Princip akumulačního vytápění, dvoutarifní sazba, výpočet výkonu a srovnání s jinými způsoby elektrického vytápění.", slug: "akumulacni-kamna-elektricke-vytapeni", read: "6 min" },
     { id: 244, cat: "elektrika", title: "Jak vybrat průtokový ohřívač vody", desc: "Elektrický průtokový ohřívač vody – kdy se vyplatí, jak vybrat výkon a na co dát pozor při instalaci.", slug: "prutokovy-ohrivac-vody-vyber", read: "5 min" },
+    { id: 261, cat: "elektrika", title: "Ventilátor do koupelny a WC: výběr a montáž", desc: "Jak vybrat správně dimenzovaný ventilátor, kde ho umístit a jak ho zapojit – odvětrání koupelny a WC svépomocí.", slug: "ventilator-do-koupelny-a-wc", read: "4 min" },
+    { id: 262, cat: "elektrika", title: "LED pásky: jak vybrat a nainstalovat", desc: "Výběr LED pásků podle teploty světla a krytí IP, napájení, způsoby montáže a bezpečné napojení na zdroj.", slug: "led-pasky-instalace-a-vyber", read: "5 min" },
+    { id: 263, cat: "elektrika", title: "Chytré zásuvky a měření spotřeby v domácnosti", desc: "Jak pomocí chytrých zásuvek zjistit spotřebu spotřebičů, nastavit časovač a snížit náklady na elektřinu.", slug: "chytra-zasuvka-a-mereni-spotreby", read: "5 min" },
+    { id: 264, cat: "elektrika", title: "Stropní ventilátor: výběr a instalace", desc: "Jak vybrat stropní ventilátor do obývacího pokoje nebo ložnice, správné zavěšení a zapojení do elektroinstalace.", slug: "stropni-ventilator-instalace", read: "5 min" },
     { id: 113, cat: "elektrika", title: "Výměna zásuvky – kdy a jak ji vyměnit správně", desc: "Jiskření, přehřívání, uvolněná zástrčka – jak poznat kdy je čas.", slug: "vymena-zasuvky", read: "4 min" },
   ],
   zahrada: [
@@ -201,6 +209,10 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 246, cat: "zahrada", title: "Jak pěstovat květiny na řez na zahradě", desc: "Výběr odrůd, výsadba a péče o květiny určené k řezu – jak mít čerstvou kytici z vlastní zahrady celé léto.", slug: "pestovani-kvetin-na-rez", read: "5 min" },
     { id: 247, cat: "zahrada", title: "Jak vybrat a sázet okrasné trávy na zahradě", desc: "Druhy okrasných trav, vhodné kombinace s trvalkami a péče o trávy během roku včetně zimního řezu.", slug: "okrasne-travy-na-zahrade", read: "5 min" },
     { id: 248, cat: "zahrada", title: "Jak postavit opěrnou zídku na svažité zahradě", desc: "Materiály, odvodnění a postup stavby nízké opěrné zídky, která zpevní svah a vytvoří rovinaté záhony.", slug: "stavba-oprene-zidky-na-zahrade", read: "7 min" },
+    { id: 265, cat: "zahrada", title: "Pěstování mrkve a kořenové zeleniny", desc: "Příprava záhonu, výsev, řídkování a ochrana mrkve, pastináku a petržele před škůdci – průvodce pěstováním kořenové zeleniny.", slug: "jak-pestovat-mrkev-a-koreninovou-zeleninu", read: "5 min" },
+    { id: 266, cat: "zahrada", title: "Zahrada pro opylovače: záhon pro včely a motýly", desc: "Výběr rostlin přitahujících hmyz, rozložení záhonu a péče o opylovací záhon – jak proměnit zahradu v útočiště pro opylovače.", slug: "zahrada-pro-opylovace", read: "5 min" },
+    { id: 267, cat: "zahrada", title: "Mulčování záhonů: proč a jak mulčovat zahradu", desc: "Výběr mulčovacího materiálu, správná vrstva a technika nanášení – jak mulčování šetří vodu, potlačuje plevel a zlepšuje půdu.", slug: "mulcovani-zahrady", read: "4 min" },
+    { id: 268, cat: "zahrada", title: "Zahradní branka a vjezdová brána: výběr a montáž", desc: "Typy zahradních branek a bran, materiály, automatický pohon a postup svépomocné montáže do sloupků nebo zdi.", slug: "zahradni-branka-a-vjezdova-brana", read: "5 min" },
   ],
   stehovani: [
     { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },
@@ -258,6 +270,10 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 250, cat: "stehovani", title: "Jak postavit vestavěnou skříň na míru svépomocí", desc: "Návrh rozměrů, materiály, postup montáže korpusu a dveří vestavěné skříně přizpůsobené prostoru.", slug: "stavba-vestavene-skrine-na-miru", read: "7 min" },
     { id: 251, cat: "stehovani", title: "Jak vybrat vnitřní dveře a zárubně při rekonstrukci", desc: "Typy zárubní, materiály dveří, otevírání a zvuková izolace – na co se zaměřit při výběru vnitřních dveří.", slug: "jak-vybrat-vnitrni-dvere-a-zarubne", read: "6 min" },
     { id: 252, cat: "stehovani", title: "Jak zrekonstruovat balkon nebo lodžii", desc: "Hydroizolace, dlažba, zábradlí a zasklení – kompletní postup rekonstrukce balkonu nebo lodžie.", slug: "rekonstrukce-balkonu-a-lodzie", read: "6 min" },
+    { id: 269, cat: "stehovani", title: "Kladení dlažby v koupelně svépomocí", desc: "Příprava podkladu, rozvrhování vzoru, lepení a spárování koupelnové dlažby – krok za krokem pro začátečníky.", slug: "kladeni-dlazby-v-koupelne", read: "6 min" },
+    { id: 270, cat: "stehovani", title: "Jak vybrat sanitární keramiku do koupelny", desc: "Výběr umyvadla, WC, bidetu a sprchové vaničky – rozměry, materiály a srovnání cenových kategorií sanitární keramiky.", slug: "jak-vybrat-sanitarni-keramiku", read: "5 min" },
+    { id: 271, cat: "stehovani", title: "Jak vybrat koupelnový nábytek a zrcadla", desc: "Skříňky pod umyvadlo, závěsné zrcadlové skříňky a osvětlení u zrcadla – průvodce výběrem koupelnového nábytku.", slug: "jak-vybrat-koupelnovy-nabytek", read: "5 min" },
+    { id: 272, cat: "stehovani", title: "Kročejová a tepelná izolace podlahy", desc: "Výběr podložky pod plovoucí podlahu nebo koberec, typy kročejové izolace a jak správně položit tlumící vrstvu.", slug: "krocejova-a-tepelna-izolace-podlahy", read: "5 min" },
   ],
   "sezonni-udrzba": [
     { id: 81,  cat: "sezonni-udrzba", title: "Jak připravit dům na zimu",                        desc: "Kotel, okna, okapy, voda.",                                        slug: "priprava-domu-na-zimu",               read: "5 min" },
@@ -311,6 +327,10 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
     { id: 254, cat: "sezonni-udrzba", title: "Jak čistit a udržovat digestoř v kuchyni", desc: "Tukové a uhlíkové filtry, čištění odsávání a kdy filtr vyměnit – údržba digestoře krok za krokem.", slug: "udrzba-digestore-a-odsavani", read: "4 min" },
     { id: 255, cat: "sezonni-udrzba", title: "Jak zvládnout podzimní úklid listí na zahradě", desc: "Hrabání, mulčování nebo kompostování listí – efektivní postupy podzimního úklidu zahrady.", slug: "podzimni-uklid-listi-na-zahrade", read: "5 min" },
     { id: 256, cat: "sezonni-udrzba", title: "Jak vyčistit závěsy, záclony a žaluzie", desc: "Praní záclon, čištění látkových i horizontálních žaluzií a péče o rolety – sezónní úklid oken.", slug: "cisteni-zaclon-a-zaluzii", read: "4 min" },
+    { id: 273, cat: "sezonni-udrzba", title: "Jarní revize domu: co zkontrolovat po zimě", desc: "Checklist pro jarní prohlídku střechy, okapů, fasády, oken a zahrady – co opravit a ošetřit po zimní sezoně.", slug: "jarni-revize-domu-checklist", read: "5 min" },
+    { id: 274, cat: "sezonni-udrzba", title: "Čištění a odvlhčení sklepa", desc: "Jak provětrat, vyčistit a odvlhčit sklep po zimě – prevence plísní, volba odvlhčovače a ochrana uskladněných věcí.", slug: "cisteni-a-odvlhceni-sklepa", read: "4 min" },
+    { id: 275, cat: "sezonni-udrzba", title: "Čištění venkovních povrchů tlakovou vodou", desc: "Jak tlakovou myčkou vyčistit terasu, chodník, plot a fasádu – výběr trysky, tlak vody a ochrana okolí před postřikem.", slug: "cisteni-venkovnich-povrchu-tlakovou-vodou", read: "4 min" },
+    { id: 276, cat: "sezonni-udrzba", title: "Jarní ošetření terasy a balkonu", desc: "Natírání dřevěných teras, čištění dlažby a ošetření kovových prvků po zimě – jarní příprava venkovního prostoru.", slug: "jarni-osetreni-terasy-a-balkonu", read: "5 min" },
   ],
 };
 
