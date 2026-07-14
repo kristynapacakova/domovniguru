@@ -17,20 +17,18 @@ export default function ArticleFeedback() {
   const [visible, setVisible] = useState(false);
   const [gone, setGone]       = useState(false);
 
-  // Appear after 1.5 s
   useEffect(() => {
     if (!slug) return;
     const t = setTimeout(() => setVisible(true), 1500);
     return () => clearTimeout(t);
   }, [slug]);
 
-  // Load previous vote + counts
   useEffect(() => {
     if (!slug) return;
     const stored = localStorage.getItem(`article_vote_${slug}`) as VoteType | null;
     if (stored === "helpful" || stored === "not_helpful") {
       setVoted(stored);
-      setGone(true); // already voted — hide bar
+      setGone(true);
     }
     if (!supabase) return;
     Promise.all([
@@ -51,104 +49,105 @@ export default function ArticleFeedback() {
           : null);
       }
     }
-    // Always update UI and localStorage, even if Supabase failed
     localStorage.setItem(`article_vote_${slug}`, type);
     setVoted(type);
-    setTimeout(() => setGone(true), 2500);
+    setTimeout(() => setGone(true), 3000);
   }
 
   const total = (counts?.helpful ?? 0) + (counts?.notHelpful ?? 0);
 
   return (
-    <div style={{
-      position: "fixed",
-      bottom: 0,
-      left: 0,
-      right: 0,
-      zIndex: 200,
-      background: "#1e1e1c",
-      borderTop: "1px solid #3a3a38",
-      boxShadow: "0 -4px 24px rgba(0,0,0,0.18)",
-      transform: visible ? "translateY(0)" : "translateY(100%)",
-      transition: "transform 350ms ease",
-      padding: "0 24px",
-    }}>
+    <>
+      <style>{`
+        @keyframes feedbackIn {
+          from { opacity: 0; transform: translateY(32px) scale(0.96); }
+          to   { opacity: 1; transform: translateY(0)    scale(1); }
+        }
+        .fb-btn {
+          display: flex; flex-direction: column; align-items: center;
+          gap: 6px; padding: 16px 28px;
+          border-radius: 14px; border: 2px solid transparent;
+          cursor: pointer; font-family: inherit;
+          transition: transform 120ms, box-shadow 120ms;
+          min-width: 130px;
+        }
+        .fb-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+        .fb-btn:active { transform: translateY(0); }
+        .fb-yes { background: #edfaf3; border-color: #6fcf97; color: #1a5c38; }
+        .fb-no  { background: #fff4f0; border-color: #f4a37a; color: #7a3010; }
+      `}</style>
+
       <div style={{
-        maxWidth: "760px",
-        margin: "0 auto",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        gap: "16px",
-        flexWrap: "wrap",
-        padding: "14px 0",
+        position: "fixed",
+        bottom: "32px",
+        left: "50%",
+        transform: visible
+          ? "translateX(-50%) translateY(0)"
+          : "translateX(-50%) translateY(120px)",
+        opacity: visible ? 1 : 0,
+        transition: "transform 420ms cubic-bezier(0.34,1.56,0.64,1), opacity 300ms ease",
+        zIndex: 300,
+        width: "calc(100% - 32px)",
+        maxWidth: "480px",
       }}>
-        {voted ? (
-          <span style={{ fontSize: "14px", color: "#a0e0b8", fontWeight: 600 }}>
-            Děkujeme za zpětnou vazbu! 🙌
-            {counts !== null && total > 0 && (
-              <span style={{ marginLeft: "10px", color: "#7a9a80", fontWeight: 400, fontSize: "13px" }}>
-                {counts.helpful} z {total} čtenářů říká, že ano
-              </span>
-            )}
-          </span>
-        ) : (
-          <>
-            <span style={{ fontSize: "14px", color: "#c8c8c0", fontWeight: 500, flexShrink: 0 }}>
-              Pomohl vám tento článek?
-            </span>
-            <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
-              <button
-                onClick={() => vote("helpful")}
-                style={{
-                  display: "flex", alignItems: "center", gap: "6px",
-                  padding: "8px 18px",
-                  border: "1.5px solid #3a6a4a",
-                  borderRadius: "8px",
-                  background: "#243a2a",
-                  cursor: "pointer",
-                  fontSize: "14px",
-                  fontWeight: 600,
-                  color: "#7ad8a0",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                👍 Ano, pomohl
-                {counts !== null && (
-                  <span style={{ fontSize: "12px", fontWeight: 400, color: "#4a8a60" }}>{counts.helpful}</span>
-                )}
-              </button>
-              <button
-                onClick={() => vote("not_helpful")}
-                style={{
-                  display: "flex", alignItems: "center", gap: "6px",
-                  padding: "8px 18px",
-                  border: "1.5px solid #5a3a2a",
-                  borderRadius: "8px",
-                  background: "#2e1e14",
-                  cursor: "pointer",
-                  fontSize: "14px",
-                  fontWeight: 600,
-                  color: "#d8a080",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                👎 Moc ne
-                {counts !== null && (
-                  <span style={{ fontSize: "12px", fontWeight: 400, color: "#8a5a40" }}>{counts.notHelpful}</span>
-                )}
-              </button>
-              <button
-                onClick={() => setGone(true)}
-                aria-label="Zavřít"
-                style={{ background: "none", border: "none", cursor: "pointer", color: "#4a4a40", fontSize: "18px", padding: "4px 8px", lineHeight: 1 }}
-              >
-                ×
-              </button>
+        <div style={{
+          background: "#ffffff",
+          borderRadius: "20px",
+          boxShadow: "0 8px 40px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.08)",
+          padding: "28px 28px 24px",
+          textAlign: "center",
+          position: "relative",
+        }}>
+          <button
+            onClick={() => setGone(true)}
+            aria-label="Zavřít"
+            style={{
+              position: "absolute", top: "12px", right: "14px",
+              background: "none", border: "none", cursor: "pointer",
+              fontSize: "20px", color: "#b0b0a8", lineHeight: 1, padding: "4px",
+            }}
+          >×</button>
+
+          {voted ? (
+            <div style={{ animation: "feedbackIn 400ms ease forwards" }}>
+              <div style={{ fontSize: "42px", marginBottom: "10px" }}>🙌</div>
+              <div style={{ fontSize: "17px", fontWeight: 700, color: "#1a1a18", marginBottom: "4px" }}>
+                Děkujeme za zpětnou vazbu!
+              </div>
+              {counts !== null && total > 0 && (
+                <div style={{ fontSize: "13px", color: "#8a8a80" }}>
+                  {counts.helpful} z {total} čtenářů říká, že článek pomohl
+                </div>
+              )}
             </div>
-          </>
-        )}
+          ) : (
+            <>
+              <div style={{ fontSize: "17px", fontWeight: 700, color: "#1a1a18", marginBottom: "6px" }}>
+                Pomohl vám tento článek?
+              </div>
+              <div style={{ fontSize: "13px", color: "#8a8a80", marginBottom: "22px" }}>
+                Hlasujte anonymně — pomáhá nám to psát lepší obsah.
+              </div>
+              <div style={{ display: "flex", gap: "12px", justifyContent: "center" }}>
+                <button className="fb-btn fb-yes" onClick={() => vote("helpful")}>
+                  <span style={{ fontSize: "32px" }}>👍</span>
+                  <span style={{ fontSize: "15px", fontWeight: 700 }}>Ano, pomohl</span>
+                  {counts !== null && (
+                    <span style={{ fontSize: "12px", color: "#4a9a6a" }}>{counts.helpful} hlasů</span>
+                  )}
+                </button>
+                <button className="fb-btn fb-no" onClick={() => vote("not_helpful")}>
+                  <span style={{ fontSize: "32px" }}>👎</span>
+                  <span style={{ fontSize: "15px", fontWeight: 700 }}>Moc ne</span>
+                  {counts !== null && (
+                    <span style={{ fontSize: "12px", color: "#b06040" }}>{counts.notHelpful} hlasů</span>
+                  )}
+                </button>
+              </div>
+            </>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
