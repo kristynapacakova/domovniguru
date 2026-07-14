@@ -3,11 +3,11 @@ import ArticleFeedback from "@/app/components/ArticleFeedback";
 
 export const metadata: Metadata = {
   title: "Blog o domácnosti – tipy, návody a rady | DomovniGuru",
-  description: "Přes 110 článků o malování, elektrice, zahradě, stěhování a sezónní údržbě. Praktické rady bez zbytečné teorie.",
+  description: "Přes 270 článků o malování, elektrice, zahradě, stěhování a sezónní údržbě. Praktické rady bez zbytečné teorie.",
   alternates: { canonical: "https://www.domovniguru.cz/blog" },
   openGraph: {
     title: "Blog o domácnosti – DomovniGuru",
-    description: "Přes 110 praktických článků. Malování, elektrika, zahrada, stěhování a sezónní údržba.",
+    description: "Přes 270 praktických článků. Malování, elektrika, zahrada, stěhování a sezónní údržba.",
     url: "https://www.domovniguru.cz/blog",
     type: "website",
   },

@@ -211,7 +211,7 @@ export default function HomePage() {
       <div className="wrap">
         <div className="cta-strip">
           <div>
-            <div className="cta-strip-heading">100 článků v 5 kategoriích</div>
+            <div className="cta-strip-heading">276 článků v 5 kategoriích</div>
             <div className="tag-cloud">
               {BLOG_CATS.map((c) => (
                 <Link key={c.href} href={c.href} className="tag">
