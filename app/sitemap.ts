@@ -387,6 +387,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/rozestup-rostlin-kalkulacka`,       changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-zarovek-potrebuji`,           changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kalkulacka-rozpoctu-rekonstrukce`,  changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-sparovacky`,                  changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-lepidla-na-dlazbu`,           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/cena-stehovani`,                    changeFrequency: "monthly", priority: 0.7 },
     // Návody
     { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`,    changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/navody/jak-odvzdusnit-radiator`,       changeFrequency: "monthly", priority: 0.7 },

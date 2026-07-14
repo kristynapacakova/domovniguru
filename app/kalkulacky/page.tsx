@@ -13,6 +13,8 @@ export default function KalkulackyHub() {
     // Materiály – podlahy & konstrukce
     { icon: "📐", title: "Kolik laminátu potřebuji?", desc: "m² + rezerva + počet balení.", href: "/kalkulacky/kolik-laminatu" },
     { icon: "🧱", title: "Kolik dlažby potřebuji?", desc: "Plocha, spáry, odpad. Přesně na balení.", href: "/kalkulacky/kolik-dlazby" },
+    { icon: "🪣", title: "Kolik spárovačky potřebuji?", desc: "Plocha, rozměry dlaždic, šíře spár – kg a pytlů ihned.", href: "/kalkulacky/kolik-sparovacky" },
+    { icon: "🏗️", title: "Kolik lepidla na dlažbu?", desc: "Plocha a typ lepidla – kg a pytlů ihned.", href: "/kalkulacky/kolik-lepidla-na-dlazbu" },
     { icon: "🪵", title: "Kolik prken na terasu?", desc: "Rozměry terasy a prken – počet kusů ihned.", href: "/kalkulacky/kolik-prknu" },
     { icon: "🪵", title: "Kolik stojí nová podlaha?", desc: "Materiál, podložka, pokládka – celkem.", href: "/kalkulacky/cena-podlahy" },
     { icon: "🧱", title: "Kolik sádrokartonu?", desc: "Plocha příčky nebo podhledu – počet desek.", href: "/kalkulacky/kolik-sadrokartonu" },
@@ -22,6 +24,7 @@ export default function KalkulackyHub() {
     { icon: "🏠", title: "Kolik střešních tašek?", desc: "Plocha, sklon střechy – počet tašek s rezervou.", href: "/kalkulacky/kolik-stresni-tasek" },
     // Rekonstrukce & náklady
     { icon: "🚿", title: "Cena rekonstrukce koupelny", desc: "Plocha a standard – orientační odhad nákladů.", href: "/kalkulacky/cena-rekonstrukce-koupelny-odhad" },
+    { icon: "🚚", title: "Cena stěhování", desc: "Místnosti, vzdálenost, patro – orientační cena v Kč.", href: "/kalkulacky/cena-stehovani" },
     // Energie & provoz
     { icon: "💧", title: "Kolik tepelné izolace?", desc: "Plocha stěny, tloušťka, počet desek.", href: "/kalkulacky/tepelna-izolace" },
     { icon: "🌡️", title: "Podlahové topení – délka trubky", desc: "Plocha a rozteč – délka potrubí a výkon.", href: "/kalkulacky/podlahove-topeni" },
