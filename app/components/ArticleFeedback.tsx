@@ -4,13 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { supabase } from "@/lib/supabaseClient";
 
-interface FeedbackRow {
-  id: string;
-  rating: number;
-  comment: string | null;
-  name: string | null;
-  created_at: string;
-}
+type VoteType = "helpful" | "not_helpful";
 
 export default function ArticleFeedback() {
   const pathname = usePathname();
@@ -18,126 +12,128 @@ export default function ArticleFeedback() {
   const isArticle = segments[0] === "blog" && segments.length === 2;
   const slug = isArticle ? segments[1] : null;
 
-  const [rows, setRows] = useState<FeedbackRow[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [rating, setRating] = useState(0);
-  const [hoverRating, setHoverRating] = useState(0);
-  const [comment, setComment] = useState("");
-  const [name, setName] = useState("");
-  const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
+  const [counts, setCounts] = useState<{ helpful: number; notHelpful: number } | null>(null);
+  const [voted, setVoted] = useState<VoteType | null>(null);
 
   useEffect(() => {
-    if (!slug || !supabase) {
-      setLoading(false);
-      return;
-    }
-    supabase
-      .from("article_feedback")
-      .select("id, rating, comment, name, created_at")
-      .eq("slug", slug)
-      .order("created_at", { ascending: false })
-      .limit(50)
-      .then(({ data }) => {
-        setRows(data ?? []);
-        setLoading(false);
-      });
+    if (!slug) return;
+    const stored = localStorage.getItem(`article_vote_${slug}`) as VoteType | null;
+    if (stored === "helpful" || stored === "not_helpful") setVoted(stored);
+
+    if (!supabase) return;
+    Promise.all([
+      supabase.from("article_votes").select("*", { count: "exact", head: true }).eq("slug", slug).eq("type", "helpful"),
+      supabase.from("article_votes").select("*", { count: "exact", head: true }).eq("slug", slug).eq("type", "not_helpful"),
+    ]).then(([h, n]) => {
+      setCounts({ helpful: h.count ?? 0, notHelpful: n.count ?? 0 });
+    });
   }, [slug]);
 
   if (!slug || !supabase) return null;
 
-  const avg = rows.length ? rows.reduce((s, r) => s + r.rating, 0) / rows.length : 0;
-  const comments = rows.filter((r) => r.comment && r.comment.trim().length > 0);
-
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    if (rating === 0 || !supabase) return;
-    setSubmitting(true);
-    const trimmedComment = comment.trim() || null;
-    const trimmedName = name.trim() || null;
-    const { error } = await supabase.from("article_feedback").insert({
-      slug,
-      rating,
-      comment: trimmedComment,
-      name: trimmedName,
-    });
-    setSubmitting(false);
-    if (!error) {
-      setSubmitted(true);
-      setRows((prev) => [
-        { id: `local-${Date.now()}`, rating, comment: trimmedComment, name: trimmedName, created_at: new Date().toISOString() },
-        ...prev,
-      ]);
-      setComment("");
-      setName("");
-    }
+  async function vote(type: VoteType) {
+    if (voted || !supabase || !slug) return;
+    const { error } = await supabase.from("article_votes").insert({ slug, type });
+    if (error) return;
+    localStorage.setItem(`article_vote_${slug}`, type);
+    setVoted(type);
+    setCounts(prev =>
+      prev
+        ? {
+            helpful: prev.helpful + (type === "helpful" ? 1 : 0),
+            notHelpful: prev.notHelpful + (type === "not_helpful" ? 1 : 0),
+          }
+        : null
+    );
   }
 
-  return (
-    <section style={{ margin: "48px 0", padding: "28px", background: "#faf8f5", border: "1px solid #ede8e0", borderRadius: "12px" }}>
-      <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "8px", color: "#1a1a18" }}>Líbil se ti článek?</h3>
+  const total = (counts?.helpful ?? 0) + (counts?.notHelpful ?? 0);
+  const helpfulPct = total > 0 ? Math.round(((counts?.helpful ?? 0) / total) * 100) : null;
 
-      {!loading && rows.length > 0 && (
-        <div style={{ fontSize: "13px", color: "#6a6a60", marginBottom: "16px" }}>
-          Průměrné hodnocení: <strong>{avg.toFixed(1)} / 5</strong> ({rows.length} {rows.length === 1 ? "hodnocení" : "hodnocení"})
+  const pluralHlasu = (n: number) => (n === 1 ? "hlas" : n >= 2 && n <= 4 ? "hlasy" : "hlasů");
+
+  return (
+    <section
+      style={{
+        margin: "48px 0 32px",
+        padding: "24px 28px",
+        background: "#faf8f5",
+        border: "1px solid #ede8e0",
+        borderRadius: "12px",
+        maxWidth: "680px",
+      }}
+    >
+      <div style={{ fontSize: "15px", fontWeight: 600, color: "#2a2a28", marginBottom: "16px" }}>
+        Pomohl vám tento článek?
+      </div>
+
+      {voted ? (
+        <div style={{ display: "flex", alignItems: "center", gap: "12px", flexWrap: "wrap" }}>
+          <span style={{ fontSize: "14px", color: "#3a7a5a", fontWeight: 600 }}>
+            Děkujeme za zpětnou vazbu! 🙌
+          </span>
+          {counts !== null && total > 0 && (
+            <span style={{ fontSize: "13px", color: "#8a8a80" }}>
+              {counts.helpful} z {total} čtenářů říká, že ano
+            </span>
+          )}
+        </div>
+      ) : (
+        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+          <button
+            onClick={() => vote("helpful")}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              padding: "10px 20px",
+              border: "1.5px solid #c0dcc8",
+              borderRadius: "8px",
+              background: "#f0f8f3",
+              cursor: "pointer",
+              fontSize: "14px",
+              fontWeight: 600,
+              color: "#2a5a3a",
+              transition: "border-color 150ms",
+            }}
+          >
+            👍 Ano, pomohl
+            {counts !== null && (
+              <span style={{ fontSize: "12px", fontWeight: 400, color: "#6a9a7a", marginLeft: "2px" }}>
+                {counts.helpful}
+              </span>
+            )}
+          </button>
+          <button
+            onClick={() => vote("not_helpful")}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              padding: "10px 20px",
+              border: "1.5px solid #ddd0c8",
+              borderRadius: "8px",
+              background: "#faf4f0",
+              cursor: "pointer",
+              fontSize: "14px",
+              fontWeight: 600,
+              color: "#5a3a2a",
+              transition: "border-color 150ms",
+            }}
+          >
+            👎 Moc ne
+            {counts !== null && (
+              <span style={{ fontSize: "12px", fontWeight: 400, color: "#9a7a6a", marginLeft: "2px" }}>
+                {counts.notHelpful}
+              </span>
+            )}
+          </button>
         </div>
       )}
 
-      {submitted ? (
-        <p style={{ color: "#2a6e4a", fontWeight: 600, fontSize: "14px" }}>Děkujeme za hodnocení! 🙌</p>
-      ) : (
-        <form onSubmit={handleSubmit}>
-          <div style={{ display: "flex", gap: "4px", marginBottom: "12px" }}>
-            {[1, 2, 3, 4, 5].map((n) => (
-              <button
-                key={n}
-                type="button"
-                onClick={() => setRating(n)}
-                onMouseEnter={() => setHoverRating(n)}
-                onMouseLeave={() => setHoverRating(0)}
-                aria-label={`Hodnotit ${n} z 5`}
-                style={{ background: "none", border: "none", cursor: "pointer", fontSize: "26px", lineHeight: 1, padding: 0, color: (hoverRating || rating) >= n ? "#f5b942" : "#d8d2c8" }}
-              >
-                ★
-              </button>
-            ))}
-          </div>
-          <textarea
-            value={comment}
-            onChange={(e) => setComment(e.target.value)}
-            placeholder="Napiš svou zkušenost nebo dotaz (nepovinné)…"
-            rows={3}
-            maxLength={1000}
-            style={{ width: "100%", padding: "10px 12px", borderRadius: "8px", border: "1px solid #ddd6cc", fontSize: "14px", fontFamily: "inherit", resize: "vertical", marginBottom: "10px", boxSizing: "border-box" }}
-          />
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Jméno (nepovinné)"
-            maxLength={60}
-            style={{ width: "100%", padding: "8px 12px", borderRadius: "8px", border: "1px solid #ddd6cc", fontSize: "14px", marginBottom: "12px", boxSizing: "border-box" }}
-          />
-          <button
-            type="submit"
-            disabled={rating === 0 || submitting}
-            style={{ background: rating === 0 ? "#ccc" : "#1a1a18", color: "#fff", border: "none", borderRadius: "8px", padding: "10px 20px", fontWeight: 600, fontSize: "14px", cursor: rating === 0 ? "default" : "pointer" }}
-          >
-            {submitting ? "Odesílám…" : "Odeslat hodnocení"}
-          </button>
-        </form>
-      )}
-
-      {comments.length > 0 && (
-        <div style={{ marginTop: "24px", borderTop: "1px solid #ede8e0", paddingTop: "20px" }}>
-          <div style={{ fontSize: "13px", fontWeight: 700, marginBottom: "12px", color: "#6a6a60", textTransform: "uppercase", letterSpacing: ".04em" }}>Komentáře čtenářů</div>
-          {comments.slice(0, 10).map((c) => (
-            <div key={c.id} style={{ marginBottom: "16px", fontSize: "14px" }}>
-              <div style={{ color: "#f5b942", fontSize: "13px" }}>{"★".repeat(c.rating)}{"☆".repeat(5 - c.rating)}</div>
-              <div style={{ color: "#3a3a38", lineHeight: 1.55 }}>{c.comment}</div>
-              {c.name && <div style={{ fontSize: "12px", color: "#9a9a90", marginTop: "2px" }}>– {c.name}</div>}
-            </div>
-          ))}
+      {!voted && helpfulPct !== null && total > 0 && (
+        <div style={{ fontSize: "12px", color: "#9a9a90", marginTop: "10px" }}>
+          {helpfulPct} % čtenářů označilo článek za užitečný · {total} {pluralHlasu(total)} celkem
         </div>
       )}
     </section>
