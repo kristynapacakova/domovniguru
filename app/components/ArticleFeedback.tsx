@@ -29,27 +29,30 @@ export default function ArticleFeedback() {
     });
   }, [slug]);
 
-  if (!slug || !supabase) return null;
+  if (!slug) return null;
 
   async function vote(type: VoteType) {
-    if (voted || !supabase || !slug) return;
-    const { error } = await supabase.from("article_votes").insert({ slug, type });
-    if (error) return;
+    if (voted || !slug) return;
+    if (supabase) {
+      const { error } = await supabase.from("article_votes").insert({ slug, type });
+      if (error) return;
+    }
     localStorage.setItem(`article_vote_${slug}`, type);
     setVoted(type);
-    setCounts(prev =>
-      prev
-        ? {
-            helpful: prev.helpful + (type === "helpful" ? 1 : 0),
-            notHelpful: prev.notHelpful + (type === "not_helpful" ? 1 : 0),
-          }
-        : null
-    );
+    if (supabase) {
+      setCounts(prev =>
+        prev
+          ? {
+              helpful: prev.helpful + (type === "helpful" ? 1 : 0),
+              notHelpful: prev.notHelpful + (type === "not_helpful" ? 1 : 0),
+            }
+          : null
+      );
+    }
   }
 
   const total = (counts?.helpful ?? 0) + (counts?.notHelpful ?? 0);
   const helpfulPct = total > 0 ? Math.round(((counts?.helpful ?? 0) / total) * 100) : null;
-
   const pluralHlasu = (n: number) => (n === 1 ? "hlas" : n >= 2 && n <= 4 ? "hlasy" : "hlasů");
 
   return (
@@ -94,7 +97,6 @@ export default function ArticleFeedback() {
               fontSize: "14px",
               fontWeight: 600,
               color: "#2a5a3a",
-              transition: "border-color 150ms",
             }}
           >
             👍 Ano, pomohl
@@ -118,7 +120,6 @@ export default function ArticleFeedback() {
               fontSize: "14px",
               fontWeight: 600,
               color: "#5a3a2a",
-              transition: "border-color 150ms",
             }}
           >
             👎 Moc ne
