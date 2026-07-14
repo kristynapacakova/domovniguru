@@ -17,12 +17,11 @@ export default function ArticleFeedback() {
   const [visible, setVisible] = useState(false);
   const [gone, setGone]       = useState(false);
 
-  // Appear after 300 px of scrolling
+  // Appear after 1.5 s
   useEffect(() => {
     if (!slug) return;
-    const onScroll = () => { if (window.scrollY > 300) setVisible(true); };
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    const t = setTimeout(() => setVisible(true), 1500);
+    return () => clearTimeout(t);
   }, [slug]);
 
   // Load previous vote + counts
@@ -46,11 +45,13 @@ export default function ArticleFeedback() {
     if (voted || !slug) return;
     if (supabase) {
       const { error } = await supabase.from("article_votes").insert({ slug, type });
-      if (error) return;
-      setCounts(prev => prev
-        ? { helpful: prev.helpful + (type === "helpful" ? 1 : 0), notHelpful: prev.notHelpful + (type === "not_helpful" ? 1 : 0) }
-        : null);
+      if (!error) {
+        setCounts(prev => prev
+          ? { helpful: prev.helpful + (type === "helpful" ? 1 : 0), notHelpful: prev.notHelpful + (type === "not_helpful" ? 1 : 0) }
+          : null);
+      }
     }
+    // Always update UI and localStorage, even if Supabase failed
     localStorage.setItem(`article_vote_${slug}`, type);
     setVoted(type);
     setTimeout(() => setGone(true), 2500);
