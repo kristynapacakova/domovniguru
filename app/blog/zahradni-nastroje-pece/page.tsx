@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Zahradní nástroje – jak o ně pečovat, aby vydržely 2025",
+  title: "Zahradní nástroje – jak o ně pečovat, aby vydržely 2026",
   description: "Dobré zahradní nástroje vydrží desítky let – ale jen pokud o ně pečuješ. Čištění, broušení, mazání a skladování krok za krokem.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece" },
-  openGraph: { title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování. Nástroje které vydrží desítky let.", url: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Zahradn%C3%AD%20n%C3%A1stroje%20%E2%80%93%20jak%20o%20n%C4%9B%20pe%C4%8Dovat%2C%20aby%20vydr%C5%BEely%202025&cat=blog", width: 1200, height: 630, alt: "Zahradní nástroje – jak o ně pečovat, aby vydržely 2025" }] },
+  openGraph: { title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování. Nástroje které vydrží desítky let.", url: "https://www.domovniguru.cz/blog/zahradni-nastroje-pece", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Zahradn%C3%AD%20n%C3%A1stroje%20%E2%80%93%20jak%20o%20n%C4%9B%20pe%C4%8Dovat%2C%20aby%20vydr%C5%BEely%202026&cat=blog", width: 1200, height: 630, alt: "Zahradní nástroje – jak o ně pečovat, aby vydržely 2026" }] },
   twitter: { card: "summary_large_image", title: "Zahradní nástroje – jak o ně pečovat", description: "Čištění, broušení, mazání a skladování." },
 };
 
@@ -76,7 +76,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Zahradní nástroje – jak o ně pečovat, aby vydržely</h1>
               <p className="article-lead">Kvalitní lopata nebo nůžky vydrží celý život – pokud je po každém použití očistíš, občas nabrousíš a před zimou promaštíš. Většina nářadí nerezaví stářím, ale zanedbáním.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/zahradni-nastroje-pece" title="Zahradní nástroje – jak o ně pečovat, aby vydržely 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/zahradni-nastroje-pece" title="Zahradní nástroje – jak o ně pečovat, aby vydržely 2026" />
             </header>
 
             {/* HERO ILLUSTRATION */}

@@ -6,14 +6,14 @@ import PaintCalculator from "@/app/components/PaintCalculator";
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 <PaintCalculator />
 export const metadata: Metadata = {
-  title: "Latexová vs. akrylátová barva – jaký je rozdíl? 2025",
+  title: "Latexová vs. akrylátová barva – jaký je rozdíl? 2026",
   description:
     "Latexová nebo akrylátová barva? Porovnání omyvatelnosti, ceny, trvanlivosti a vhodnosti pro různé místnosti. Poradíme, co koupit.",
   alternates: {
     canonical: "https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva",
   },
   openGraph: {
-    title: "Latexová vs. akrylátová barva – jaký je rozdíl? 2025",
+    title: "Latexová vs. akrylátová barva – jaký je rozdíl? 2026",
     description:
       "Porovnání latexové a akrylátové barvy: omyvatelnost, cena, trvanlivost a pro které místnosti se hodí.",
     url: "https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     publishedTime: "2025-01-20T08:00:00Z",
     modifiedTime: "2025-03-01T08:00:00Z",
     authors: ["DomovniGuru"],
-    images: [{ url: "/api/og?title=Latexov%C3%A1%20vs.%20akryl%C3%A1tov%C3%A1%20barva%20%E2%80%93%20jak%C3%BD%20je%20rozd%C3%ADl%3F%202025&cat=blog", width: 1200, height: 630, alt: "Latexová vs. akrylátová barva – jaký je rozdíl? 2025" }],
+    images: [{ url: "/api/og?title=Latexov%C3%A1%20vs.%20akryl%C3%A1tov%C3%A1%20barva%20%E2%80%93%20jak%C3%BD%20je%20rozd%C3%ADl%3F%202026&cat=blog", width: 1200, height: 630, alt: "Latexová vs. akrylátová barva – jaký je rozdíl? 2026" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -41,7 +41,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id": "https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva#article",
-      "headline": "Latexová vs. akrylátová barva – jaký je rozdíl? 2025",
+      "headline": "Latexová vs. akrylátová barva – jaký je rozdíl? 2026",
       "description":
         "Porovnání latexové a akrylátové barvy: omyvatelnost, cena, trvanlivost a pro které místnosti se hodí.",
       "datePublished": "2025-01-20T08:00:00Z",
@@ -192,7 +192,7 @@ export default function ArticlePage() {
                 <span>DomovniGuru</span>
               </div>
             
-              <ShareButtons url="https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva" title="Latexová vs. akrylátová barva – jaký je rozdíl? 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/latexova-vs-akrylatova-barva" title="Latexová vs. akrylátová barva – jaký je rozdíl? 2026" />
             </header>
 
             {/* TOC */}

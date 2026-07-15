@@ -4,10 +4,10 @@ import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
 <PaintCalculator />
 export const metadata: Metadata = {
-  title: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025",
+  title: "Kolik barvy potřebuji? Kalkulačka + vzorec 2026",
   description: "Spočítej přesné množství barvy na místnost. Vzorec, tabulka spotřeby a tipy jak nekoupit zbytečně moc nebo málo.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" },
-  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Kolik%20barvy%20pot%C5%99ebuji%3F%20Kalkula%C4%8Dka%20%2B%20vzorec%202025&cat=blog", width: 1200, height: 630, alt: "Kolik barvy potřebuji? Kalkulačka + vzorec 2025" }] },
+  openGraph: { title: "Kolik barvy potřebuji? Kalkulačka + vzorec", description: "Spočítej přesné množství barvy na místnost.", url: "https://www.domovniguru.cz/blog/kolik-barvy-potrebuji", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Kolik%20barvy%20pot%C5%99ebuji%3F%20Kalkula%C4%8Dka%20%2B%20vzorec%202026&cat=blog", width: 1200, height: 630, alt: "Kolik barvy potřebuji? Kalkulačka + vzorec 2026" }] },
   twitter: { card: "summary_large_image", title: "Kolik barvy potřebuji?", description: "Vzorec, tabulka spotřeby a tipy." },
 };
 
@@ -65,7 +65,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Kolik barvy potřebuji? Kalkulačka + vzorec</h1>
               <p className="article-lead">Zbývající půllitr barvy v koutě skladu nebo naopak druhá cesta do obchodu uprostřed malování — obojí se dá snadno vyhnout. Tady je přesný výpočet.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" title="Kolik barvy potřebuji? Kalkulačka + vzorec 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/kolik-barvy-potrebuji" title="Kolik barvy potřebuji? Kalkulačka + vzorec 2026" />
             </header>
 
             {/* HERO ILLUSTRATION */}

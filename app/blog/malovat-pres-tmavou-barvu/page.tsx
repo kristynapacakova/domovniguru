@@ -4,10 +4,10 @@ import Link from "next/link";
 import PaintCalculator from "@/app/components/PaintCalculator";
 <PaintCalculator />
 export const metadata: Metadata = {
-  title: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2025",
+  title: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2026",
   description: "Tmavá zeď pod světlou barvou? Bez správného postupu budou šmouhy. Tady je jak to vyřešit napoprvé.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" },
-  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20malovat%20p%C5%99es%20tmavou%20barvu%20na%20sv%C4%9Btlo%20%E2%80%93%20bez%20%C5%A1mouh%202025&cat=blog", width: 1200, height: 630, alt: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2025" }] },
+  openGraph: { title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev? Správný postup.", url: "https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20malovat%20p%C5%99es%20tmavou%20barvu%20na%20sv%C4%9Btlo%20%E2%80%93%20bez%20%C5%A1mouh%202026&cat=blog", width: 1200, height: 630, alt: "Jak malovat přes tmavou barvu na světlo – bez šmouh 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak malovat přes tmavou barvu na světlo", description: "Penetrace, základní nátěr nebo víc vrstev?" },
 };
 
@@ -86,7 +86,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak malovat přes tmavou barvu na světlo</h1>
               <p className="article-lead">Jedna vrstva bílé přes tmavě modrou zeď? Skončíš s nerovnoměrnou šedavou plochou. S správným postupem to ale zvládneš čistě a bez zbytečných vrstev.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" title="Jak malovat přes tmavou barvu na světlo – bez šmouh 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/malovat-pres-tmavou-barvu" title="Jak malovat přes tmavou barvu na světlo – bez šmouh 2026" />
             </header>
 
             {/* HERO ILLUSTRATION */}

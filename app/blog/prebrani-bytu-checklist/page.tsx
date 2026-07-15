@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Co zkontrolovat při přebírání nového bytu – checklist 2025",
+  title: "Co zkontrolovat při přebírání nového bytu – checklist 2026",
   description: "Přebíráš nový byt nebo dům? Kompletní checklist co zkontrolovat: elektrika, voda, topení, okna, stěny, dokumenty. Nic nezapomeneš.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist" },
-  openGraph: { title: "Co zkontrolovat při přebírání nového bytu – checklist", description: "Elektrika, voda, topení, okna, dokumenty. Kompletní checklist.", url: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Co%20zkontrolovat%20p%C5%99i%20p%C5%99eb%C3%ADr%C3%A1n%C3%AD%20nov%C3%A9ho%20bytu%20%E2%80%93%20checklist%202025&cat=blog", width: 1200, height: 630, alt: "Co zkontrolovat při přebírání nového bytu – checklist 2025" }] },
+  openGraph: { title: "Co zkontrolovat při přebírání nového bytu – checklist", description: "Elektrika, voda, topení, okna, dokumenty. Kompletní checklist.", url: "https://www.domovniguru.cz/blog/prebrani-bytu-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Co%20zkontrolovat%20p%C5%99i%20p%C5%99eb%C3%ADr%C3%A1n%C3%AD%20nov%C3%A9ho%20bytu%20%E2%80%93%20checklist%202026&cat=blog", width: 1200, height: 630, alt: "Co zkontrolovat při přebírání nového bytu – checklist 2026" }] },
   twitter: { card: "summary_large_image", title: "Co zkontrolovat při přebírání nového bytu", description: "Kompletní checklist pro přebírání bytu nebo domu." },
 };
 
@@ -77,7 +77,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Co zkontrolovat při přebírání nového bytu – kompletní checklist</h1>
               <p className="article-lead">Přebírání bytu je moment, kdy se rozhoduje, za co budeš nebo nebudeš platit. Co nepodchytíš teď, zaplatíš později – buď z vlastní kapsy, nebo po zbytečném sporu s prodávajícím nebo pronajímatelem.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/prebrani-bytu-checklist" title="Co zkontrolovat při přebírání nového bytu – checklist 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/prebrani-bytu-checklist" title="Co zkontrolovat při přebírání nového bytu – checklist 2026" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025",
+  title: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2026",
   description: "Chytré zásuvky, žárovky a reproduktory bez vrtání a elektrikáře. Jak začít s chytrou domácností za pár stovek.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" },
-  openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20funguje%20chytr%C3%A1%20dom%C3%A1cnost%20%E2%80%93%20za%C4%8D%C3%ADn%C3%A1me%20bez%20rekonstrukce%202025&cat=blog", width: 1200, height: 630, alt: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025" }] },
+  openGraph: { title: "Jak funguje chytrá domácnost – začínáme", description: "Chytré zásuvky a žárovky bez rekonstrukce.", url: "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20funguje%20chytr%C3%A1%20dom%C3%A1cnost%20%E2%80%93%20za%C4%8D%C3%ADn%C3%A1me%20bez%20rekonstrukce%202026&cat=blog", width: 1200, height: 630, alt: "Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2026" }] },
 };
 
 const jsonLd = { "@context": "https://schema.org", "@graph": [{ "@type": "Article", "@id": "https://www.domovniguru.cz/blog/chytra-domacnost-zaciname#article", "headline": "Jak funguje chytrá domácnost – začínáme", "datePublished": "2025-01-15T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["chytrá domácnost", "smart home začátečníci", "chytré osvětlení", "chytré zásuvky", "Zigbee Z-Wave WiFi", "home automation"]
@@ -74,7 +74,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak funguje chytrá domácnost – začínáme</h1>
               <p className="article-lead">Chytrá domácnost neznamená rekonstrukci ani desítky tisíc za instalaci. Začít se dá za pár stovek s chytrou žárovkou nebo zásuvkou — bez vrtání a elektrikáře.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" title="Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/chytra-domacnost-zaciname" title="Jak funguje chytrá domácnost – začínáme bez rekonstrukce 2026" />
             </header>
 
             {/* HERO ILLUSTRATION */}

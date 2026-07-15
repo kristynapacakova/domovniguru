@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Proč vypadává jistič? Přetížení nebo zkrat",
-  description: "Jistič vypadává opakovaně? Zjisti proč – přetížení okruhu, zkrat nebo vadný spotřebič. Postup diagnostiky krok za krokem.",
+  title: "Vypadl jistič? Proč vypadává a jak ho nahodit – řešení 2026",
+  description: "Vypadl jistič a nevíte proč? Přetížení, zkrat nebo vadný spotřebič – návod jak najít příčinu, bezpečně jistič nahodit a kdy volat elektrikáře.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/proc-vypadava-jistic" },
-  openGraph: { title: "Proč mi vypadává jistič?", description: "Přetížení, zkrat nebo vadný spotřebič – jak zjistit příčinu.", url: "https://www.domovniguru.cz/blog/proc-vypadava-jistic", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-25T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Pro%C4%8D%20vypad%C3%A1v%C3%A1%20jisti%C4%8D%3F%20P%C5%99et%C3%AD%C5%BEen%C3%AD%20nebo%20zkrat&cat=blog", width: 1200, height: 630, alt: "Proč vypadává jistič? Přetížení nebo zkrat" }] },
+  openGraph: { title: "Vypadl jistič? Proč vypadává a jak ho nahodit", description: "Přetížení, zkrat nebo vadný spotřebič – jak zjistit příčinu a bezpečně nahodit.", url: "https://www.domovniguru.cz/blog/proc-vypadava-jistic", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-25T08:00:00Z", modifiedTime: "2026-07-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Vypadl%20jisti%C4%8D%3F%20Pro%C4%8D%20vypad%C3%A1v%C3%A1%20a%20jak%20ho%20nahodit&cat=blog", width: 1200, height: 630, alt: "Vypadl jistič? Proč vypadává a jak ho nahodit – řešení 2026" }] },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Proč mi vypadává jistič?", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2026-06-04T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["proč vypadává jistič", "jistič vypadává", "přetížení okruhu", "zkrat jistič", "vadný spotřebič jistič", "elektroinstalace pojistky"] },
+    { "@type": "Article", "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#article", "headline": "Vypadl jistič? Proč vypadává a jak ho nahodit", "datePublished": "2025-01-25T08:00:00Z", "dateModified": "2026-07-15T08:00:00Z", "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" }, "inLanguage": "cs", "keywords": ["proč vypadává jistič", "jistič vypadává", "přetížení okruhu", "zkrat jistič", "vadný spotřebič jistič", "elektroinstalace pojistky"] },
     {
       "@type": "FAQPage",
       "@id": "https://www.domovniguru.cz/blog/proc-vypadava-jistic#faq",

@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2025",
+  title: "Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2026",
   description: "Balkon jako venkovní obývák: výběr podlahy, nábytek do malého prostoru, rostliny do nádob. Praktický průvodce pro každý balkon.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/terasa-na-balkone" },
-  openGraph: { title: "Jak zařídit terasu na balkóně", description: "Podlaha, nábytek, rostliny – balkon jako druhý obývák.", url: "https://www.domovniguru.cz/blog/terasa-na-balkone", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-12T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20za%C5%99%C3%ADdit%20terasu%20na%20balk%C3%B3n%C4%9B%20%E2%80%93%20podlaha%2C%20n%C3%A1bytek%2C%20rostliny%202025&cat=blog", width: 1200, height: 630, alt: "Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2025" }] },
+  openGraph: { title: "Jak zařídit terasu na balkóně", description: "Podlaha, nábytek, rostliny – balkon jako druhý obývák.", url: "https://www.domovniguru.cz/blog/terasa-na-balkone", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-12T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20za%C5%99%C3%ADdit%20terasu%20na%20balk%C3%B3n%C4%9B%20%E2%80%93%20podlaha%2C%20n%C3%A1bytek%2C%20rostliny%202026&cat=blog", width: 1200, height: 630, alt: "Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2026" }] },
   twitter: { card: "summary_large_image", title: "Terasa na balkóně", description: "Jak zařídit balkon jako venkovní obývák." },
 };
 
@@ -71,7 +71,7 @@ export default function ArticlePage() {
                 <span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span>
               </div>
             
-              <ShareButtons url="https://www.domovniguru.cz/blog/terasa-na-balkone" title="Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/terasa-na-balkone" title="Jak zařídit terasu na balkóně – podlaha, nábytek, rostliny 2026" />
             </header>
 
             <nav className="toc" aria-label="Obsah článku">

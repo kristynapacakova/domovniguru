@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak vyměnit vypínač – krok za krokem bez elektrikáře 2025",
+  title: "Jak vyměnit vypínač – krok za krokem bez elektrikáře 2026",
   description: "Výměna vypínače světla svépomocí: bezpečný postup krok za krokem, co potřebuješ a jak se vyhnout chybám. Hotovo za 20 minut.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-vymenit-vypinac" },
-  openGraph: { title: "Jak vyměnit vypínač – krok za krokem bez elektrikáře", description: "Bezpečný postup výměny vypínače svépomocí. Hotovo za 20 minut.", url: "https://www.domovniguru.cz/blog/jak-vymenit-vypinac", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20vym%C4%9Bnit%20vyp%C3%ADna%C4%8D%20%E2%80%93%20krok%20za%20krokem%20bez%20elektrik%C3%A1%C5%99e%202025&cat=blog", width: 1200, height: 630, alt: "Jak vyměnit vypínač – krok za krokem bez elektrikáře 2025" }] },
+  openGraph: { title: "Jak vyměnit vypínač – krok za krokem bez elektrikáře", description: "Bezpečný postup výměny vypínače svépomocí. Hotovo za 20 minut.", url: "https://www.domovniguru.cz/blog/jak-vymenit-vypinac", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-05T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20vym%C4%9Bnit%20vyp%C3%ADna%C4%8D%20%E2%80%93%20krok%20za%20krokem%20bez%20elektrik%C3%A1%C5%99e%202026&cat=blog", width: 1200, height: 630, alt: "Jak vyměnit vypínač – krok za krokem bez elektrikáře 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak vyměnit vypínač – krok za krokem", description: "Bezpečný postup výměny vypínače svépomocí za 20 minut." },
 };
 
@@ -54,7 +54,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak vyměnit vypínač – krok za krokem bez elektrikáře</h1>
               <p className="article-lead">Rozbil se vypínač nebo chceš modernější design? Výměna vypínače je jedna z mála elektrikářských prací, které bezpečně zvládneš sám – pokud dodržíš základní pravidla. Hotovo za 20 minut.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/jak-vymenit-vypinac" title="Jak vyměnit vypínač – krok za krokem bez elektrikáře 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-vymenit-vypinac" title="Jak vyměnit vypínač – krok za krokem bez elektrikáře 2026" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak stříhat keře – průvodce pro každého 2025",
+  title: "Jak stříhat keře – průvodce pro každého 2026",
   description: "Kdy, jak a čím stříhat okrasné i ovocné keře. Správný řez prodlouží život keře a zdvojnásobí kvetení.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-strihat-kere" },
-  openGraph: { title: "Jak stříhat keře – průvodce pro každého", description: "Kdy, jak a čím stříhat okrasné i ovocné keře.", url: "https://www.domovniguru.cz/blog/jak-strihat-kere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20st%C5%99%C3%ADhat%20ke%C5%99e%20%E2%80%93%20pr%C5%AFvodce%20pro%20ka%C5%BEd%C3%A9ho%202025&cat=blog", width: 1200, height: 630, alt: "Jak stříhat keře – průvodce pro každého 2025" }] },
+  openGraph: { title: "Jak stříhat keře – průvodce pro každého", description: "Kdy, jak a čím stříhat okrasné i ovocné keře.", url: "https://www.domovniguru.cz/blog/jak-strihat-kere", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-20T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20st%C5%99%C3%ADhat%20ke%C5%99e%20%E2%80%93%20pr%C5%AFvodce%20pro%20ka%C5%BEd%C3%A9ho%202026&cat=blog", width: 1200, height: 630, alt: "Jak stříhat keře – průvodce pro každého 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak stříhat keře", description: "Kdy, jak a čím stříhat okrasné i ovocné keře." },
 };
 
@@ -73,7 +73,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak stříhat keře – průvodce pro každého</h1>
               <p className="article-lead">Správný řez keře nezničí – naopak ho omlazuje, podpoří kvetení a udrží tvar. Špatný řez ve špatnou dobu ale může zahubit i letitý keř. Tady je co potřebuješ vědět.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/jak-strihat-kere" title="Jak stříhat keře – průvodce pro každého 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-strihat-kere" title="Jak stříhat keře – průvodce pro každého 2026" />
             </header>
 
             {/* HERO ILLUSTRATION */}

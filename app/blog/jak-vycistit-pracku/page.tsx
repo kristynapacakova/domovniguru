@@ -3,7 +3,7 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak vyčistit pračku – zbavte se zápachu a vodního kamene",
+  title: "Jak vyčistit pračku za hodinu – zápach, plíseň i vodní kámen 2026",
   description: "Pračka, která páchne nebo zanechává skvrny, potřebuje hloubkové čištění. Jak vyčistit buben, zásobník a filtr doma za hodinu bez drahých přípravků.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-vycistit-pracku" },
   openGraph: { title: "Jak vyčistit pračku – zbavte se zápachu a vodního kamene", description: "Pračka, která páchne nebo zanechává skvrny, potřebuje hloubkové čištění. Jak vyčistit buben, zásobník a filtr doma za hodinu bez drahých přípravků.", url: "https://www.domovniguru.cz/blog/jak-vycistit-pracku", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-06-04T08:00:00Z", modifiedTime: "2026-06-04T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20vy%C4%8Distit%20pra%C4%8Dku%20%E2%80%93%20zbavte%20se%20z%C3%A1pachu%20a%20vodn%C3%ADho%20kamene&cat=blog", width: 1200, height: 630, alt: "Jak vyčistit pračku – zbavte se zápachu a vodního kamene" }] },

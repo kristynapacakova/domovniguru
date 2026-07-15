@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak zapojit nové světlo na strop – L, N, PE vodiče 2025",
+  title: "Jak zapojit nové světlo na strop – L, N, PE vodiče 2026",
   description: "Krabice, L, N, PE vodiče – správné zapojení stropního svítidla krok za krokem. Bezpečně a bez elektrikáře.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop" },
-  openGraph: { title: "Jak zapojit nové světlo na strop", description: "L, N, PE vodiče – správné zapojení krok za krokem.", url: "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-28T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20zapojit%20nov%C3%A9%20sv%C4%9Btlo%20na%20strop%20%E2%80%93%20L%2C%20N%2C%20PE%20vodi%C4%8De%202025&cat=blog", width: 1200, height: 630, alt: "Jak zapojit nové světlo na strop – L, N, PE vodiče 2025" }] },
+  openGraph: { title: "Jak zapojit nové světlo na strop", description: "L, N, PE vodiče – správné zapojení krok za krokem.", url: "https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-01-28T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20zapojit%20nov%C3%A9%20sv%C4%9Btlo%20na%20strop%20%E2%80%93%20L%2C%20N%2C%20PE%20vodi%C4%8De%202026&cat=blog", width: 1200, height: 630, alt: "Jak zapojit nové světlo na strop – L, N, PE vodiče 2026" }] },
 };
 
 const jsonLd = {
@@ -85,7 +85,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak zapojit nové světlo na strop</h1>
               <p className="article-lead">Výměna stropního svítidla je jedna z nejběžnějších domácích elektroinstalací — a zvládne ji každý kdo dodržuje bezpečnostní pravidla. Klíč je vypnout jistič a správně přiřadit vodiče.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop" title="Jak zapojit nové světlo na strop – L, N, PE vodiče 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/zapojit-svetlo-na-strop" title="Jak zapojit nové světlo na strop – L, N, PE vodiče 2026" />
             </header>
 
             {/* HERO ILLUSTRATION */}

@@ -4,10 +4,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jak pěstovat rajčata – od výsevu po sklizeň 2025",
+  title: "Jak pěstovat rajčata – od výsevu po sklizeň 2026",
   description: "Rajčata zvládne vypěstovat každý – ale bez pár základních pravidel skončíš s prázdnými stonky nebo plísní. Kompletní průvodce od výsevu až po sklizeň.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-pestovat-rajcata" },
-  openGraph: { title: "Jak pěstovat rajčata – od výsevu po sklizeň", description: "Kompletní průvodce pěstováním rajčat. Od výsevu přes přesazování až po sklizeň.", url: "https://www.domovniguru.cz/blog/jak-pestovat-rajcata", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-10T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20p%C4%9Bstovat%20raj%C4%8Data%20%E2%80%93%20od%20v%C3%BDsevu%20po%20sklize%C5%88%202025&cat=blog", width: 1200, height: 630, alt: "Jak pěstovat rajčata – od výsevu po sklizeň 2025" }] },
+  openGraph: { title: "Jak pěstovat rajčata – od výsevu po sklizeň", description: "Kompletní průvodce pěstováním rajčat. Od výsevu přes přesazování až po sklizeň.", url: "https://www.domovniguru.cz/blog/jak-pestovat-rajcata", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-03-10T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Jak%20p%C4%9Bstovat%20raj%C4%8Data%20%E2%80%93%20od%20v%C3%BDsevu%20po%20sklize%C5%88%202026&cat=blog", width: 1200, height: 630, alt: "Jak pěstovat rajčata – od výsevu po sklizeň 2026" }] },
   twitter: { card: "summary_large_image", title: "Jak pěstovat rajčata", description: "Od výsevu po sklizeň – kompletní průvodce." },
 };
 
@@ -81,7 +81,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Jak pěstovat rajčata – od výsevu po sklizeň</h1>
               <p className="article-lead">Rajčata jsou nejpěstovanější zelenina na českých zahrádkách – a přitom jich spousta skončí s prázdnými stonky, plísní nebo spálené sluncem. Pět klíčových věcí které to změní.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/jak-pestovat-rajcata" title="Jak pěstovat rajčata – od výsevu po sklizeň 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/jak-pestovat-rajcata" title="Jak pěstovat rajčata – od výsevu po sklizeň 2026" />
             </header>
 
             {/* HERO ILLUSTRATION */}

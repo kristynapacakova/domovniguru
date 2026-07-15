@@ -217,7 +217,7 @@ const ARTICLES_BY_CAT: Record<string, Article[]> = {
   stehovani: [
     { id: 61, cat: "stehovani", title: "Stěhování bez stresu – kompletní checklist",              desc: "Od výpovědi po přihlášení.",                                       slug: "stehovani-checklist",                 read: "5 min" },
     { id: 62, cat: "stehovani", title: "Jak naplánovat rekonstrukci bytu",                        desc: "Rozpočet, pořadí prací, řemeslníci.",                              slug: "planovani-rekonstrukce-bytu",         read: "7 min" },
-    { id: 63, cat: "stehovani", title: "Kolik stojí rekonstrukce koupelny v roce 2025?",          desc: "Průměrné ceny materiálu i práce.",                                 slug: "cena-rekonstrukce-koupelny",          read: "5 min" },
+    { id: 63, cat: "stehovani", title: "Kolik stojí rekonstrukce koupelny v roce 2026?",          desc: "Průměrné ceny materiálu i práce.",                                 slug: "cena-rekonstrukce-koupelny",          read: "5 min" },
     { id: 64, cat: "stehovani", title: "Jak vybrat dobrou stěhovací firmu",                       desc: "Na co se ptát a jak se vyhnout překvapením.",                      slug: "vybrat-stehovaci-firmu",              read: "4 min" },
     { id: 65, cat: "stehovani", title: "Jak sám postavit příčku ze sádrokartonu",                 desc: "Profily, desky, spárování.",                                       slug: "sadrokarton-pricka-postup",            read: "7 min" },
     { id: 66, cat: "stehovani", title: "Jak odhadnout cenu rekonstrukce předem",                  desc: "Sestavit rozpočet a počítat navíc.",                               slug: "odhadnout-cenu-rekonstrukce",         read: "5 min" },

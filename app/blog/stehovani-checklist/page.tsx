@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Stěhování bez stresu – kompletní checklist 2025",
+  title: "Stěhování bez stresu – kompletní checklist 2026",
   description: "Kompletní checklist na stěhování: 6 týdnů před, den D a co udělat po nastěhování. Nic nezapomeneš, nic tě nepřekvapí.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/stehovani-checklist" },
-  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://www.domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=St%C4%9Bhov%C3%A1n%C3%AD%20bez%20stresu%20%E2%80%93%20kompletn%C3%AD%20checklist%202025&cat=blog", width: 1200, height: 630, alt: "Stěhování bez stresu – kompletní checklist 2025" }] },
+  openGraph: { title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování.", url: "https://www.domovniguru.cz/blog/stehovani-checklist", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2025-02-15T08:00:00Z", modifiedTime: "2025-03-01T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=St%C4%9Bhov%C3%A1n%C3%AD%20bez%20stresu%20%E2%80%93%20kompletn%C3%AD%20checklist%202026&cat=blog", width: 1200, height: 630, alt: "Stěhování bez stresu – kompletní checklist 2026" }] },
   twitter: { card: "summary_large_image", title: "Stěhování bez stresu – kompletní checklist", description: "6 týdnů před, den D a co udělat po nastěhování." },
 };
 
@@ -76,7 +76,7 @@ export default function ArticlePage() {
               <h1 className="article-h1">Stěhování bez stresu – kompletní checklist</h1>
               <p className="article-lead">Stěhování je jeden z nejstresovějších životních momentů – ale ne proto, že by bylo tak složité. Stresuje proto, že nikdy nevíš, na co jsi zapomněl. Tenhle checklist to řeší.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
-              <ShareButtons url="https://www.domovniguru.cz/blog/stehovani-checklist" title="Stěhování bez stresu – kompletní checklist 2025" />
+              <ShareButtons url="https://www.domovniguru.cz/blog/stehovani-checklist" title="Stěhování bez stresu – kompletní checklist 2026" />
             </header>
             <nav className="toc" aria-label="Obsah článku">
               <div className="toc-label">Obsah článku</div>

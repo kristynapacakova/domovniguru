@@ -15,7 +15,7 @@ const RELATED = [
   { title: "Jak naplánovat rekonstrukci bytu – rozpočet a pořadí prací 2026", href: "/blog/planovani-rekonstrukce-bytu", read: "7 min" },
   { title: "Jak odhadnout cenu rekonstrukce předem – kalkulace 2026", href: "/blog/odhadnout-cenu-rekonstrukce", read: "5 min" },
   { title: "Kolik stojí rekonstrukce koupelny – ceny 2026", href: "/blog/cena-rekonstrukce-koupelny", read: "6 min" },
-  { title: "Stěhování bez stresu – kompletní checklist 2025", href: "/blog/stehovani-checklist", read: "5 min" },
+  { title: "Stěhování bez stresu – kompletní checklist 2026", href: "/blog/stehovani-checklist", read: "5 min" },
 ];
 
 export default function ArticlePage() {
