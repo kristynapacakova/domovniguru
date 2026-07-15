@@ -61,6 +61,7 @@ export default function ArticleFeedback() {
     }
     localStorage.setItem(`article_vote_${slug}`, type);
     setVoted(type);
+    window.dispatchEvent(new CustomEvent("article-voted", { detail: { slug, type } }));
     setTimeout(() => setGone(true), 3000);
   }
 
