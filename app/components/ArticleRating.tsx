@@ -21,13 +21,10 @@ export default function ArticleRating() {
     ]).then(([h, n]) => setCounts({ helpful: h.count ?? 0, notHelpful: n.count ?? 0 }));
   }, [slug]);
 
-  if (!slug || !counts) return null;
+  if (!slug) return null;
 
-  const total = counts.helpful + counts.notHelpful;
-  if (total === 0) return null;
-
-  const pct = Math.round((counts.helpful / total) * 100);
-  const stars = pct >= 80 ? "⭐⭐⭐⭐⭐" : pct >= 60 ? "⭐⭐⭐⭐" : pct >= 40 ? "⭐⭐⭐" : "⭐⭐";
+  const total = counts ? counts.helpful + counts.notHelpful : null;
+  const pct   = total && total > 0 ? Math.round((counts!.helpful / total) * 100) : null;
 
   return (
     <div className="wrap">
@@ -35,18 +32,24 @@ export default function ArticleRating() {
         display: "inline-flex",
         alignItems: "center",
         gap: "8px",
-        background: pct >= 70 ? "#edfaf3" : "#fff4f0",
-        border: `1px solid ${pct >= 70 ? "#b0dfc0" : "#f0c0a0"}`,
+        background: pct === null ? "#f5f5f2" : pct >= 70 ? "#edfaf3" : "#fff4f0",
+        border: `1px solid ${pct === null ? "#e0e0d8" : pct >= 70 ? "#b0dfc0" : "#f0c0a0"}`,
         borderRadius: "20px",
         padding: "5px 14px",
         fontSize: "13px",
-        color: pct >= 70 ? "#2a5a38" : "#7a3820",
+        color: pct === null ? "#9a9a90" : pct >= 70 ? "#2a5a38" : "#7a3820",
         marginBottom: "4px",
         marginTop: "8px",
       }}>
-        <span>{pct >= 70 ? "👍" : "🤔"}</span>
-        <span style={{ fontWeight: 600 }}>{pct} % čtenářů označilo za užitečný</span>
-        <span style={{ color: pct >= 70 ? "#6a9a78" : "#b08060", fontSize: "12px" }}>· {total} {total === 1 ? "hlas" : total < 5 ? "hlasy" : "hlasů"}</span>
+        {pct === null ? (
+          <span>☆ Zatím bez hodnocení</span>
+        ) : (
+          <>
+            <span>{pct >= 70 ? "👍" : "🤔"}</span>
+            <span style={{ fontWeight: 600 }}>{pct} % čtenářů označilo za užitečný</span>
+            <span style={{ fontSize: "12px", color: pct >= 70 ? "#6a9a78" : "#b08060" }}>· {total} {total === 1 ? "hlas" : total! < 5 ? "hlasy" : "hlasů"}</span>
+          </>
+        )}
       </div>
     </div>
   );
