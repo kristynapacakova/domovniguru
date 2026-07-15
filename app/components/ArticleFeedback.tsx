@@ -33,8 +33,33 @@ export default function ArticleFeedback() {
       return;
     }
 
-    // Show after 1.5 s
-    const t = setTimeout(() => setVisible(true), 1500);
+    // Show only after the reader reaches the end of the article —
+    // primary trigger: the "Mohlo by vás zajímat" section
+    const target = document.querySelector(".related-section");
+    let observer: IntersectionObserver | null = null;
+    if (target) {
+      observer = new IntersectionObserver(
+        entries => {
+          if (entries.some(e => e.isIntersecting)) {
+            setVisible(true);
+            observer?.disconnect();
+          }
+        },
+        { threshold: 0.1 }
+      );
+      observer.observe(target);
+    }
+
+    // Fallback for articles without .related-section: 85 % of page scrolled
+    const onScroll = () => {
+      const scrolled = window.scrollY + window.innerHeight;
+      const totalH = document.documentElement.scrollHeight;
+      if (totalH > 0 && scrolled / totalH >= 0.85) {
+        setVisible(true);
+        window.removeEventListener("scroll", onScroll);
+      }
+    };
+    if (!target) window.addEventListener("scroll", onScroll, { passive: true });
 
     // Load counts
     if (supabase) {
@@ -44,7 +69,10 @@ export default function ArticleFeedback() {
       ]).then(([h, n]) => setCounts({ helpful: h.count ?? 0, notHelpful: n.count ?? 0 }));
     }
 
-    return () => clearTimeout(t);
+    return () => {
+      observer?.disconnect();
+      window.removeEventListener("scroll", onScroll);
+    };
   }, [slug]);
 
   if (!slug || gone) return null;
