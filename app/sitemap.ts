@@ -339,6 +339,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/navody`,          changeFrequency: "weekly",  priority: 0.8 },
     { url: `${BASE}/chyby-ostatnich`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/o-webu`,          changeFrequency: "yearly",  priority: 0.3 },
+    { url: `${BASE}/hodnoceni`,       changeFrequency: "weekly",  priority: 0.3 },
     // Kategorie
     { url: `${BASE}/blog/kategorie/malovani`,        lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE}/blog/kategorie/elektrika`,       lastModified: new Date("2026-06-04"), changeFrequency: "weekly", priority: 0.7 },
