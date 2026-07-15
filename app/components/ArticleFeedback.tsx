@@ -26,16 +26,17 @@ export default function ArticleFeedback() {
     setCounts(null);
     setVisible(false);
 
-    // If already voted on this specific article, hide immediately
+    // If already voted on this specific article, hide (badge click can reopen)
     const stored = localStorage.getItem(`article_vote_${slug}`) as VoteType | null;
-    if (stored === "helpful" || stored === "not_helpful") {
+    const alreadyVoted = stored === "helpful" || stored === "not_helpful";
+    if (alreadyVoted) {
+      setVoted(stored);
       setGone(true);
-      return;
     }
 
     // Show only after the reader reaches the end of the article —
     // primary trigger: the "Mohlo by vás zajímat" section
-    const target = document.querySelector(".related-section");
+    const target = alreadyVoted ? null : document.querySelector(".related-section");
     let observer: IntersectionObserver | null = null;
     if (target) {
       observer = new IntersectionObserver(
@@ -59,7 +60,7 @@ export default function ArticleFeedback() {
         window.removeEventListener("scroll", onScroll);
       }
     };
-    if (!target) window.addEventListener("scroll", onScroll, { passive: true });
+    if (!alreadyVoted && !target) window.addEventListener("scroll", onScroll, { passive: true });
 
     // Load counts
     if (supabase) {
@@ -73,6 +74,17 @@ export default function ArticleFeedback() {
       observer?.disconnect();
       window.removeEventListener("scroll", onScroll);
     };
+  }, [slug]);
+
+  // Badge click opens the popup on demand (even to re-show the thanks + stats)
+  useEffect(() => {
+    if (!slug) return;
+    const onOpen = () => {
+      setGone(false);
+      setVisible(true);
+    };
+    window.addEventListener("article-rating-open", onOpen);
+    return () => window.removeEventListener("article-rating-open", onOpen);
   }, [slug]);
 
   if (!slug || gone) return null;

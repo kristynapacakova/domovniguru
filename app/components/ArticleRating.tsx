@@ -59,18 +59,24 @@ export default function ArticleRating() {
   const pct   = total && total > 0 ? Math.round((counts!.helpful / total) * 100) : null;
 
   const badge = (
-    <div style={{
-      display: "inline-flex",
-      alignItems: "center",
-      gap: "8px",
-      background: pct === null ? "#f5f5f2" : pct >= 70 ? "#edfaf3" : "#fff4f0",
-      border: `1px solid ${pct === null ? "#e0e0d8" : pct >= 70 ? "#b0dfc0" : "#f0c0a0"}`,
-      borderRadius: "20px",
-      padding: "5px 14px",
-      fontSize: "13px",
-      color: pct === null ? "#9a9a90" : pct >= 70 ? "#2a5a38" : "#7a3820",
-      marginTop: "12px",
-    }}>
+    <button
+      onClick={() => window.dispatchEvent(new CustomEvent("article-rating-open"))}
+      title="Ohodnotit článek"
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        gap: "8px",
+        background: pct === null ? "#f5f5f2" : pct >= 70 ? "#edfaf3" : "#fff4f0",
+        border: `1px solid ${pct === null ? "#e0e0d8" : pct >= 70 ? "#b0dfc0" : "#f0c0a0"}`,
+        borderRadius: "20px",
+        padding: "5px 14px",
+        fontSize: "13px",
+        fontFamily: "inherit",
+        color: pct === null ? "#9a9a90" : pct >= 70 ? "#2a5a38" : "#7a3820",
+        marginTop: "12px",
+        cursor: "pointer",
+      }}
+    >
       {pct === null ? (
         <span>☆ Zatím bez hodnocení</span>
       ) : (
@@ -80,7 +86,10 @@ export default function ArticleRating() {
           <span style={{ fontSize: "12px", color: pct >= 70 ? "#6a9a78" : "#b08060" }}>· {total} {total === 1 ? "hlas" : total! < 5 ? "hlasy" : "hlasů"}</span>
         </>
       )}
-    </div>
+      <span style={{ fontWeight: 600, textDecoration: "underline", textUnderlineOffset: "2px", color: pct === null ? "#7a7a70" : pct >= 70 ? "#2a5a38" : "#7a3820" }}>
+        Ohodnotit
+      </span>
+    </button>
   );
 
   return createPortal(badge, container);
