@@ -199,6 +199,7 @@ export default function ArticlePage() {
                 <li><strong>Zkontroluj sazbu:</strong> Na faktuře je cena za kWh v VT a NT tarifu. Vynásob spotřebu sazbou — výsledek musí odpovídat fakturované částce (bez DPH a distribučních poplatků).</li>
                 <li><strong>Podezřele vysoká spotřeba:</strong> Srovnej s předchozím rokem. Výrazný nárůst bez změny návyků = možný problém (vadný spotřebič, krádež elektřiny, chyba elektroměru).</li>
               </ul>
+              <p>Pokud ti vychází spotřeba příliš vysoká, projdi si tipy <Link href="/blog/snizit-ucet-za-elektrinu" style={{ color: "#2a6496", textDecoration: "underline" }}>jak snížit účet za elektřinu</Link> — a jestli platíš vyšší sazbu než je na trhu běžné, zvaž <Link href="/blog/jak-vybrat-dodavatele-elektriny" style={{ color: "#2a6496", textDecoration: "underline" }}>změnu dodavatele elektřiny</Link>.</p>
             </section>
 
             <section id="faq">

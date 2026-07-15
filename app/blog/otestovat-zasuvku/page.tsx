@@ -132,9 +132,9 @@ export default function ArticlePage() {
               <ul>
                 <li><strong>Zkontroluj jistič:</strong> Jdi k rozvaděči a zkontroluj jestli je příslušný jistič v poloze ZAP. Vybavený jistič překlop zpět do polohy ZAP.</li>
                 <li><strong>Otestuj jiný spotřebič:</strong> Zasuň jiný spotřebič (lampa, telefon) do podezřelé zásuvky. Pokud ani ten nefunguje — problém je v zásuvce nebo vedení, ne ve spotřebiči.</li>
-                <li><strong>Otestuj jiné zásuvky:</strong> Nefunguje více zásuvek najednou → pravděpodobně vybavený jistič. Nefunguje jen jedna → problém přímo v té zásuvce.</li>
+                <li><strong>Otestuj jiné zásuvky:</strong> Nefunguje více zásuvek najednou → pravděpodobně vybavený jistič — přesný postup najdeš v článku <Link href="/blog/nejde-proud-cast-bytu">co dělat, když nejde proud v části bytu</Link>. Nefunguje jen jedna → problém přímo v té zásuvce.</li>
               </ul>
-              <div className="article-tip"><strong>💡 90 % případů</strong> nefunkční zásuvky je vybavený jistič nebo proudový chránič. Před jakýmkoli testem zkontroluj rozvaděč.</div>
+              <div className="article-tip"><strong>💡 90 % případů</strong> nefunkční zásuvky je vybavený jistič nebo proudový chránič. Před jakýmkoli testem zkontroluj rozvaděč. Pokud jistič vypadává opakovaně, přečti si <Link href="/blog/proc-vypadava-jistic">proč vypadává jistič</Link>.</div>
             </section>
 
             <section id="tuzka">
@@ -166,6 +166,7 @@ export default function ArticlePage() {
                 <li><strong>Měření L-PE:</strong> Červenou sondou do levé díry (L), černou do středního otvoru (PE — zemnění). Správné napětí: 220–240 V. Nulové napětí = zemnění nefunguje.</li>
                 <li><strong>Měření N-PE:</strong> Správné napětí: 0 V (nebo velmi malé). Pokud je zde napětí — problém v instalaci.</li>
               </ul>
+              <p>Pokud test potvrdí, že je zásuvka vadná (uvolněný kontakt, chybějící zemnění, spálené svorky), návod <Link href="/blog/jak-vymenit-zasuvku">jak vyměnit zásuvku</Link> tě provede výměnou krok za krokem.</p>
               <div className="article-tip"><strong>⚠️ Bezpečnost:</strong> Při měření multimetrem nikdy se nedotýkej kovových částí sond. Drž sondy pouze za plastovými rukojetěmi. Nezapomeň přepnout multimetr na správný rozsah — jinak ho poškodíš nebo způsobíš zkrat.</div>
             </section>
 

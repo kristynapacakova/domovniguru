@@ -179,7 +179,7 @@ export default function ArticlePage() {
                 <li>Vadná zásuvka nebo prodlužovačka</li>
                 <li>Chybné zapojení při opravě</li>
               </ul>
-              <p>Pokud jistič vypadne ihned po zapnutí, odpoj všechny spotřebiče z daného okruhu a zapni jistič znovu. Pokud drží — problém je v jednom ze spotřebičů. Pokud stále vypadne — problém je v samotné instalaci a je nutný elektrikář.</p>
+              <p>Pokud jistič vypadne ihned po zapnutí, odpoj všechny spotřebiče z daného okruhu a zapni jistič znovu. Pokud drží — problém je v jednom ze spotřebičů. Pokud stále vypadne — problém je v samotné instalaci a je nutný elektrikář. Podezření na konkrétní zásuvku můžeš prověřit podle návodu <Link href="/blog/otestovat-zasuvku">jak otestovat zásuvku</Link>.</p>
             </section>
 
             <section id="spotrebic">
@@ -196,7 +196,8 @@ export default function ArticlePage() {
 
             <section id="vadny-jistic">
               <h2>Vadný jistič</h2>
-              <p>Jističe mají životnost 10 000–20 000 sepnutí a mohou po letech provozu začít vypadávat i při normální zátěži. Poznáš to tak že jistič vypadá i při minimální zátěži nebo bez zjevné příčiny.</p>
+              <p>Jističe mají životnost 10 000–20 000 sepnutí a mohou po letech provozu začít vypadávat i při normální zátěži. Poznáš to tak že jistič vypadá i při minimální zátěži nebo bez zjevné příčiny. Ve starších instalacích s keramickými pojistkami platí jiná pravidla — přečti si <Link href="/blog/jak-funguji-pojistky">jak fungují pojistky a jak je vyměnit</Link>.</p>
+              <p>Pokud ti vypadl proud jen v části bytu a nevíš, který jistič za to může, pomůže ti podrobný postup v článku <Link href="/blog/nejde-proud-cast-bytu">co dělat, když nejde proud v části bytu</Link>.</p>
               <p>Výměna jističe patří výhradně elektrikáři — práce v hlavním rozvaděči je nebezpečná a vyžaduje odbornou způsobilost.</p>
             </section>
 

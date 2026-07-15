@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Nefungují zásuvky, ale světla svítí? Nejde proud v části bytu",
   description: "Nefungují zásuvky ale světla svítí? Nebo nejde proud v celé části bytu? Krok za krokem: jistič, chránič, přetížení nebo závada – rychlý postup jak to vyřešit.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu" },
-  openGraph: { title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-04-14T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Co%20d%C4%9Blat%20kdy%C5%BE%20nejde%20proud%20v%20%C4%8D%C3%A1sti%20bytu%20%E2%80%93%20postup%202026&cat=blog", width: 1200, height: 630, alt: "Co dělat když nejde proud v části bytu – postup 2026" }] },
+  openGraph: { title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu a kdy volat elektrikáře.", url: "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-14T08:00:00Z", modifiedTime: "2026-07-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Co%20d%C4%9Blat%20kdy%C5%BE%20nejde%20proud%20v%20%C4%8D%C3%A1sti%20bytu%20%E2%80%93%20postup%202026&cat=blog", width: 1200, height: 630, alt: "Co dělat když nejde proud v části bytu – postup 2026" }] },
   twitter: { card: "summary_large_image", title: "Co dělat když nejde proud v části bytu 2026", description: "Vypadl jistič nebo chránič? Postup jak najít příčinu." },
 };
 
@@ -17,13 +17,13 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id": "https://www.domovniguru.cz/blog/nejde-proud-cast-bytu#article",
-      "headline": "Co dělat když nejde proud v části bytu – postup 2026",
+      "headline": "Nefungují zásuvky, ale světla svítí? Nejde proud v části bytu",
       "datePublished": "2026-04-14T08:00:00Z",
-      "dateModified": "2026-06-04T08:00:00Z",
+      "dateModified": "2026-07-15T08:00:00Z",
       "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
       "inLanguage": "cs",
-      "keywords": ["nejde proud část bytu", "vypadl jistič", "jak resetovat jistič", "výpadek proudu byt", "chránič proudu", "přetížení obvodu", "vypadl chránič"]
+      "keywords": ["nejde proud část bytu", "nefungují zásuvky ale světla ano", "vypadl jistič", "jak resetovat jistič", "výpadek proudu byt", "chránič proudu", "přetížení obvodu", "vypadl chránič", "nejde proud v kuchyni", "vypadává chránič v koupelně"]
     },
     {
       "@type": "FAQPage",
@@ -34,6 +34,8 @@ const jsonLd = {
         { "@type": "Question", "name": "Jak poznám který jistič je přepnutý?", "acceptedAnswer": { "@type": "Answer", "text": "Přepnutý jistič je v jiné poloze než ostatní — buď v mezilehlé poloze nebo úplně dole (OFF). Některé jističe mají červené okénko viditelné při výpadku. Pokud jsou všechny jističe stejně orientované, zkus každý otočit — přepnutý půjde snáze do polohy OFF bez odporu." } },
         { "@type": "Question", "name": "Proč chránič vypadává i bez vadného spotřebiče?", "acceptedAnswer": { "@type": "Answer", "text": "Chránič může vypadávat bez zjevně vadného spotřebiče kvůli: vlhkosti v zásuvce nebo krabici, stárnutí izolace vedení, příliš citlivému chrániči (30 mA vs. 300 mA), nebo rušení od frekvenčních měničů a UPS. Pokud nelze najít příčinu, zavolej elektrikáře na diagnostiku." } },
         { "@type": "Question", "name": "Co dělat když nejde proud v celém bytě?", "acceptedAnswer": { "@type": "Answer", "text": "Nejprve zkontroluj zda nejde o výpadek v celém domě nebo oblasti — podívej se z okna na světla sousedů. Pokud je výpadek jen u tebe, zkontroluj hlavní jistič v rozvaděči (největší nebo nejvýše umístěný). Pokud je v pořádku, kontaktuj dodavatele elektřiny nebo správce budovy." } },
+        { "@type": "Question", "name": "Proč nejde proud jen v kuchyni?", "acceptedAnswer": { "@type": "Answer", "text": "Kuchyň je nejzatíženější okruh v bytě. Rychlovarná konvice, mikrovlnka a trouba na jednom okruhu snadno překročí kapacitu 16A jističe a ten vypadne. Odpoj spotřebiče, nahoď jistič a rozděl spotřebiče do zásuvek na různých okruzích. Nikdy nezapojuj tepelné spotřebiče do prodlužovačky." } },
+        { "@type": "Question", "name": "Proč vypadává chránič v koupelně?", "acceptedAnswer": { "@type": "Answer", "text": "V koupelně téměř vždy vypadává chránič (RCD), ne jistič — vlhkost zvyšuje svodové proudy. Nejčastější viník je pračka se stárnoucím topným tělesem, bojler nebo fén. Pokud chránič vypadne vždy při zapnutí pračky, nech zkontrolovat její topné těleso." } },
       ],
   }, {
     "@type": "HowTo",
@@ -90,7 +92,7 @@ export default function ArticlePage() {
               </div>
               <h1 className="article-h1">Co dělat když nejde proud v části bytu</h1>
               <p className="article-lead">Najednou nefungují zásuvky v kuchyni nebo zhasnulo světlo v celém pokoji — ale zbytek bytu funguje. Příčinou je téměř vždy vypadlý jistič nebo chránič. Tady je postup jak to vyřešit za 5 minut.</p>
-              <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
+              <div className="article-meta-row"><span>Aktualizováno: 15. července 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/nejde-proud-cast-bytu" title="Co dělat když nejde proud v části bytu – postup 2026" />
             </header>
 
@@ -173,6 +175,7 @@ export default function ArticlePage() {
                 <li><a href="#priciny">Proč nejde proud jen v části bytu</a></li>
                 <li><a href="#postup">Postup krok za krokem</a></li>
                 <li><a href="#jistic-vs-chranič">Jistič vs. chránič – jaký je rozdíl</a></li>
+                <li><a href="#jedna-mistnost">Nejde proud jen v jedné místnosti</a></li>
                 <li><a href="#vadny">Jak najít vadný spotřebič</a></li>
                 <li><a href="#elektrikar">Kdy volat elektrikáře</a></li>
                 <li><a href="#faq">FAQ</a></li>
@@ -216,10 +219,23 @@ export default function ArticlePage() {
               <h2>Jistič vs. chránič – jaký je rozdíl</h2>
               <p>V rozvaděči jsou dva typy ochranných prvků — liší se funkcí i tím jak je poznáš.</p>
               <ul>
-                <li><strong>Jistič (MCB):</strong> Chrání vedení před přetížením a zkratem. Vypadne když obvod odebírá příliš velký proud (přetížení) nebo dojde ke zkratu. Resetuje se přepnutím páčky zpět do polohy ON.</li>
+                <li><strong>Jistič (MCB):</strong> Chrání vedení před přetížením a zkratem. Vypadne když obvod odebírá příliš velký proud (přetížení) nebo dojde ke zkratu. Resetuje se přepnutím páčky zpět do polohy ON. Pokud jistič vypadává opakovaně, přečti si podrobný návod <Link href="/blog/proc-vypadava-jistic">proč vypadává jistič a jak najít příčinu</Link>.</li>
                 <li><strong>Chránič / FI relé (RCD):</strong> Chrání osoby před úrazem elektrickým proudem. Vypadne při malém úniku proudu do země (zlomený vodič, vlhkost, vadný spotřebič). Resetuje se stlačením páčky dolů a zpět nahoru. Má tlačítko TEST pro pravidelné testování.</li>
                 <li><strong>RCBO (kombinovaný):</strong> Kombinuje funkci jističe i chrániče v jednom přístroji. Stále běžnější v moderních instalacích.</li>
               </ul>
+              <p>Ve starších bytech místo jističů najdeš keramické pojistky — jak fungují a jak je bezpečně vyměnit popisuje článek <Link href="/blog/jak-funguji-pojistky">jak fungují pojistky</Link>.</p>
+            </section>
+
+            <section id="jedna-mistnost">
+              <h2>Nejde proud jen v jedné místnosti – kuchyň, koupelna, pokoj</h2>
+              <p>Výpadek omezený na jedinou místnost má nejčastěji tyto příčiny podle toho, o kterou místnost jde:</p>
+              <ul>
+                <li><strong>Kuchyň:</strong> Nejzatíženější okruh v bytě. Rychlovarná konvice (2 000 W) + mikrovlnka (1 200 W) + trouba na jedné fázi snadno překročí 16A jistič. Rozděl spotřebiče do různých zásuvek na různých okruzích a nikdy nepoužívej prodlužovačku pro tepelné spotřebiče.</li>
+                <li><strong>Koupelna:</strong> Zde téměř vždy vypadává chránič (RCD), ne jistič — vlhkost zvyšuje svodové proudy. Typický viník: pračka se stárnoucím topným tělesem, bojler nebo fén. Pokud chránič vypadne při zapnutí pračky, nech zkontrolovat topné těleso.</li>
+                <li><strong>Obývák / ložnice:</strong> Podezřívej prodlužovací lišty a starší elektroniku. Přetížená prodlužovačka s TV, konzolí, routerem a lampami je klasika.</li>
+                <li><strong>Jen jedna zásuvka nefunguje:</strong> Pokud zbytek místnosti funguje, problém je v samotné zásuvce — uvolněný spoj nebo spálený kontakt. Jak ji bezpečně prověřit popisuje návod <Link href="/blog/otestovat-zasuvku">jak otestovat zásuvku</Link>, a pokud je vadná, návod <Link href="/blog/jak-vymenit-zasuvku">jak vyměnit zásuvku</Link>.</li>
+              </ul>
+              <div className="article-tip"><strong>💡 Tip:</strong> Po výpadku a resetu jističe zkontroluj i elektroměr — pokud máš podezření, že ti výpadky zvyšují spotřebu, návod <Link href="/blog/jak-cist-elektromer">jak provést odečet elektroměru</Link> ti pomůže srovnat stav s vyúčtováním.</div>
             </section>
 
             <section id="vadny">
@@ -294,6 +310,7 @@ export default function ArticlePage() {
                 <li><a href="#priciny">Proč nejde proud</a></li>
                 <li><a href="#postup">Postup krok za krokem</a></li>
                 <li><a href="#jistic-vs-chranič">Jistič vs. chránič</a></li>
+                <li><a href="#jedna-mistnost">Jedna místnost</a></li>
                 <li><a href="#vadny">Vadný spotřebič</a></li>
                 <li><a href="#elektrikar">Kdy elektrikář</a></li>
                 <li><a href="#faq">FAQ</a></li>

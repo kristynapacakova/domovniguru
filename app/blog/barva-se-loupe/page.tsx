@@ -141,7 +141,7 @@ export default function ArticlePage() {
 
             <section id="vlhkost">
               <h2>Vlhkost – nejzákeřnější příčina</h2>
-              <p>Pokud se barva loupe ve formě bublin nebo se začíná od spodního okraje zdi, je velmi pravděpodobná vlhkost. Přemalování bez odstranění příčiny vlhkosti způsobí totéž za 6–12 měsíců.</p>
+              <p>Pokud se barva loupe ve formě bublin nebo se začíná od spodního okraje zdi, je velmi pravděpodobná vlhkost. Přemalování bez odstranění příčiny vlhkosti způsobí totéž za 6–12 měsíců. Jak vlhkost odhalit a odstranit popisuje článek <Link href="/blog/zbavit-se-vlhkosti-v-byte" style={{ color: "#2a6496", textDecoration: "underline" }}>jak se zbavit vlhkosti v bytě</Link>.</p>
               <ul>
                 <li><strong>Identifikace zdroje vlhkosti:</strong> Bílé výkvěty solí (eflorescence) = vzlínající vlhkost ze základů. Skvrny na stropě nebo horní části zdi = zatékání. Kondenzace = nedostatečné větrání.</li>
                 <li><strong>Vzlínající vlhkost:</strong> Nutná chemická nebo mechanická injektáž — odborná práce. Povrchová oprava bez řešení zdroje je dočasná.</li>
@@ -157,7 +157,7 @@ export default function ArticlePage() {
                 <li><strong>Krok 2 — Přebrousit hrany:</strong> Na hranách kde barva přechází od odlupujícího se místa k pevnému podkladu přebrousit jemným papírem — vytvoříš plynulý přechod.</li>
                 <li><strong>Krok 3 — Oprav povrch:</strong> Prohlubně a nerovnosti vyplň tmelem nebo omítkovinou. Nechej zaschnout.</li>
                 <li><strong>Krok 4 — Penetruj:</strong> Penetrace je povinná — sjednotí savost a zlepší přilnavost nové barvy. Kolik penetrace budete potřebovat, spočítáte v naší <Link href="/kalkulacky/kolik-primeru" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce penetrace</Link>.</li>
-                <li><strong>Krok 5 — Namaluj novou vrstvu:</strong> Dvě tenké vrstvy barvy, nechej každou vrstvu řádně zaschnout.</li>
+                <li><strong>Krok 5 — Namaluj novou vrstvu:</strong> Dvě tenké vrstvy barvy, nechej každou vrstvu řádně zaschnout. Správnou techniku najdeš v návodu <Link href="/blog/jak-malovat-zed" style={{ color: "#2a6496", textDecoration: "underline" }}>jak malovat zeď</Link> a množství barvy spočítá <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačka barvy</Link>.</li>
               </ul>
               <div className="article-tip"><strong>⚠️ Varování:</strong> Nestříkej novou barvu přes loupající se povrch bez opravy — nová barva se začne loupit s tou starou brzy. Je to ztráta času a peněz.</div>
             </section>
