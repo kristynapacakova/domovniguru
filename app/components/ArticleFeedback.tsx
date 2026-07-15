@@ -19,22 +19,32 @@ export default function ArticleFeedback() {
 
   useEffect(() => {
     if (!slug) return;
-    const t = setTimeout(() => setVisible(true), 1500);
-    return () => clearTimeout(t);
-  }, [slug]);
 
-  useEffect(() => {
-    if (!slug) return;
+    // Reset everything for the new article
+    setGone(false);
+    setVoted(null);
+    setCounts(null);
+    setVisible(false);
+
+    // If already voted on this specific article, hide immediately
     const stored = localStorage.getItem(`article_vote_${slug}`) as VoteType | null;
     if (stored === "helpful" || stored === "not_helpful") {
-      setVoted(stored);
       setGone(true);
+      return;
     }
-    if (!supabase) return;
-    Promise.all([
-      supabase.from("article_votes").select("*", { count: "exact", head: true }).eq("slug", slug).eq("type", "helpful"),
-      supabase.from("article_votes").select("*", { count: "exact", head: true }).eq("slug", slug).eq("type", "not_helpful"),
-    ]).then(([h, n]) => setCounts({ helpful: h.count ?? 0, notHelpful: n.count ?? 0 }));
+
+    // Show after 1.5 s
+    const t = setTimeout(() => setVisible(true), 1500);
+
+    // Load counts
+    if (supabase) {
+      Promise.all([
+        supabase.from("article_votes").select("*", { count: "exact", head: true }).eq("slug", slug).eq("type", "helpful"),
+        supabase.from("article_votes").select("*", { count: "exact", head: true }).eq("slug", slug).eq("type", "not_helpful"),
+      ]).then(([h, n]) => setCounts({ helpful: h.count ?? 0, notHelpful: n.count ?? 0 }));
+    }
+
+    return () => clearTimeout(t);
   }, [slug]);
 
   if (!slug || gone) return null;
