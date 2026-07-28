@@ -54,6 +54,17 @@ export default function KalkulackyHub() {
     { icon: "💡", title: "Kolik žárovek potřebuji?", desc: "Plocha, typ místnosti a výkon – počet žárovek.", href: "/kalkulacky/kolik-zarovek-potrebuji" },
     // Rekonstrukce & náklady
     { icon: "🏗️", title: "Kalkulačka rozpočtu rekonstrukce", desc: "Plocha, standard a mokré provozy – celkový rozpočet.", href: "/kalkulacky/kalkulacka-rozpoctu-rekonstrukce" },
+    // Nové 10
+    { icon: "🌡️", title: "Kalkulačka rosného bodu", desc: "Teplota a vlhkost – hrozí kondenzace a plíseň?", href: "/kalkulacky/kalkulacka-rosneho-bodu" },
+    { icon: "💨", title: "Výměna vzduchu – ventilace", desc: "Objem místnosti a typ – potřebný průtok vzduchu.", href: "/kalkulacky/vymena-vzduchu" },
+    { icon: "🔥", title: "Jaký výkon radiátoru potřebuji?", desc: "Plocha, zateplení, typ místnosti – výkon ve W.", href: "/kalkulacky/vykon-radiatoru" },
+    { icon: "🪵", title: "Spotřeba dřeva a pelet na sezónu", desc: "Plocha a zateplení – kg paliva a náklady za rok.", href: "/kalkulacky/spotreba-dreva-pelet" },
+    { icon: "📦", title: "Kolik stěhovacích krabic?", desc: "Počet osob a pokojů – krabice a balicí materiál.", href: "/kalkulacky/kolik-stehovacich-krabic" },
+    { icon: "🏦", title: "Splátky úvěru na rekonstrukci", desc: "Výše úvěru, sazba, doba – měsíční splátka a přeplatek.", href: "/kalkulacky/splatky-uveru-na-rekonstrukci" },
+    { icon: "🚿", title: "Kolik stojí ohřev vody?", desc: "Osoby, spotřeba a zdroj – roční náklady na teplou vodu.", href: "/kalkulacky/naklady-na-ohrev-vody" },
+    { icon: "💡", title: "Kolik LED bodovek do podhledu?", desc: "Plocha a typ místnosti – počet bodů a rozmístění.", href: "/kalkulacky/kolik-bodovek-do-podhledu" },
+    { icon: "⏱️", title: "Za jak dlouho vyschne potěr?", desc: "Tloušťka a typ potěru – doba schnutí před podlahou.", href: "/kalkulacky/doba-schnuti-poteru" },
+    { icon: "🧱", title: "Kolik plotových dílců a sloupků?", desc: "Délka plotu, branky a brány – dílce, sloupky, vzpěry.", href: "/kalkulacky/kolik-plotovych-dilcu" },
   ];
 
   return (

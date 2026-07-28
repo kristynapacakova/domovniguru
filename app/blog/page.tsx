@@ -23,9 +23,9 @@ type Category = {
 const CATS: Category[] = [
 { key: "vse",       label: "Vše",                         count: 113 },
 { key: "malovani",  label: "🎨 Malování & barvy",         count: 34  },
-{ key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 33  },
-{ key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 40  },
-{ key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 33  },
+{ key: "elektrika", label: "⚡ Elektrika & osvětlení",    count: 35  },
+{ key: "zahrada",   label: "🌿 Zahrada & terasa",         count: 41  },
+{ key: "stehovani", label: "🏠 Stěhování & rekonstrukce", count: 36  },
 ];
 
 const ARTICLES: Article[] = [
@@ -318,6 +318,18 @@ const ARTICLES: Article[] = [
   { id: 274, cat: "sezonni",   catLabel: "Sezónní údržba",             title: "Čištění a odvlhčení sklepa",                                    desc: "Jak provětrat, vyčistit a odvlhčit sklep po zimě – prevence plísní, volba odvlhčovače a ochrana uskladněných věcí.",                    slug: "cisteni-a-odvlhceni-sklepa",            read: "4 min" },
   { id: 275, cat: "sezonni",   catLabel: "Sezónní údržba",             title: "Čištění venkovních povrchů tlakovou vodou",                     desc: "Jak tlakovou myčkou vyčistit terasu, chodník, plot a fasádu – výběr trysky, tlak vody a ochrana okolí před postřikem.",                 slug: "cisteni-venkovnich-povrchu-tlakovou-vodou", read: "4 min" },
   { id: 276, cat: "sezonni",   catLabel: "Sezónní údržba",             title: "Jarní ošetření terasy a balkonu",                               desc: "Natírání dřevěných teras, čištění dlažby a ošetření kovových prvků po zimě – jarní příprava venkovního prostoru.",                      slug: "jarni-osetreni-terasy-a-balkonu",       read: "5 min" },
+
+  // ── Nové 10 ──────────────────────────────────────────────────────────────
+  { id: 277, cat: "sezonni",   catLabel: "Sezónní údržba",             title: "Rosný bod a kondenzace: jak zabránit plísni na zdech",           desc: "Co je rosný bod, proč voda kondenzuje na chladných stěnách a jak předejít plísni – větrání, vytápění, izolace a kontrola vlhkosti.",   slug: "rosny-bod-a-kondenzace-na-zdech",        read: "6 min" },
+  { id: 278, cat: "sezonni",   catLabel: "Sezónní údržba",             title: "Jak vybrat a vyměnit radiátor",                                 desc: "Typy radiátorů, dimenzování podle tepelné ztráty a výkonu, způsoby připojení a postup svépomocné výměny krok za krokem.",              slug: "jak-vybrat-a-vymenit-radiator",          read: "6 min" },
+  { id: 279, cat: "sezonni",   catLabel: "Sezónní údržba",             title: "Topení dřevem, peletami nebo plynem: srovnání nákladů",          desc: "Srovnání nákladů na vytápění dřevem, peletami, plynem a tepelným čerpadlem – účinnost, komfort, skladování a návratnost.",            slug: "topeni-drevem-vs-peletami",              read: "7 min" },
+  { id: 280, cat: "stehovani", catLabel: "Stěhování & rekonstrukce",   title: "Jak vybrat stěhovací krabice a balicí materiál",                desc: "Velikosti a typy krabic, kolik jich budete potřebovat, bublinková folie, balicí papír, páska a systém označování.",                   slug: "jak-vybrat-stehovaci-krabice",           read: "5 min" },
+  { id: 281, cat: "sezonni",   catLabel: "Sezónní údržba",             title: "Rekuperace vs. větrání okny: co je lepší",                      desc: "Srovnání řízeného větrání s rekuperací a ručního větrání okny – úspora energie, kvalita vzduchu, náklady a kdy se co vyplatí.",       slug: "rekuperace-vs-vetrani-okny",             read: "6 min" },
+  { id: 282, cat: "elektrika", catLabel: "Elektrika & osvětlení",      title: "Jak snížit náklady na ohřev teplé vody",                        desc: "Kolik stojí ohřev vody, nastavení teploty bojleru, izolace nádrže a potrubí, NT tarif, úsporné sprchy a čerpadlový bojler.",         slug: "jak-snizit-naklady-na-ohrev-vody",       read: "6 min" },
+  { id: 283, cat: "stehovani", catLabel: "Stěhování & rekonstrukce",   title: "Betonový potěr: jak dlouho schne a kdy pokládat podlahu",        desc: "Doba schnutí cementového a anhydritového potěru, měření zbytkové vlhkosti a kdy můžete pokládat dlažbu, vinyl nebo plovoucí podlahu.", slug: "betonovy-poter-doba-schnuti",            read: "5 min" },
+  { id: 284, cat: "elektrika", catLabel: "Elektrika & osvětlení",      title: "Podhled s LED bodovkami: návrh a instalace",                    desc: "Návrh sádrokartonového podhledu s vestavěnými LED bodovkami – počet bodů, rozteč, zapojení, transformátory, stmívání a instalace.",   slug: "podhled-s-led-bodovkami",                read: "6 min" },
+  { id: 285, cat: "stehovani", catLabel: "Stěhování & rekonstrukce",   title: "Jak financovat rekonstrukci: úvěr, hypotéka, úspory",           desc: "Možnosti financování rekonstrukce – úspory, spotřebitelský úvěr, hypotéka, stavební spoření a dotace Nová zelená úsporám.",          slug: "jak-financovat-rekonstrukci",            read: "6 min" },
+  { id: 286, cat: "zahrada",   catLabel: "Zahrada & terasa",           title: "Jak vybrat plot kolem domu: dřevo, pletivo, gabiony",           desc: "Srovnání typů plotů – dřevěný, pletivo, svařované panely, gabiony a betonový – cena, soukromí, údržba, životnost a povolení.",        slug: "jak-vybrat-plot-kolem-domu",             read: "6 min" },
 ];
 
 function BlogContent() {

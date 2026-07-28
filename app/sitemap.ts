@@ -289,6 +289,18 @@ const BLOG_SLUGS = [
   "podzimni-uklid-listi-na-zahrade",
   "cisteni-zaclon-a-zaluzii",
 
+  // Nové 10 (10 článků)
+  "rosny-bod-a-kondenzace-na-zdech",
+  "jak-vybrat-a-vymenit-radiator",
+  "topeni-drevem-vs-peletami",
+  "jak-vybrat-stehovaci-krabice",
+  "rekuperace-vs-vetrani-okny",
+  "jak-snizit-naklady-na-ohrev-vody",
+  "betonovy-poter-doba-schnuti",
+  "podhled-s-led-bodovkami",
+  "jak-financovat-rekonstrukci",
+  "jak-vybrat-plot-kolem-domu",
+
   // Nové 9 (20 článků)
   "psychologie-barev-v-interieru",
   "malovani-schodiste-a-chodby",
@@ -391,6 +403,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/kalkulacky/kolik-sparovacky`,                  changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/kolik-lepidla-na-dlazbu`,           changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/kalkulacky/cena-stehovani`,                    changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kalkulacka-rosneho-bodu`,           changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/vymena-vzduchu`,                    changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/vykon-radiatoru`,                   changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/spotreba-dreva-pelet`,              changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-stehovacich-krabic`,          changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/splatky-uveru-na-rekonstrukci`,     changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/naklady-na-ohrev-vody`,             changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-bodovek-do-podhledu`,         changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/doba-schnuti-poteru`,               changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/kalkulacky/kolik-plotovych-dilcu`,             changeFrequency: "monthly", priority: 0.7 },
     // Návody
     { url: `${BASE}/navody/jak-utesnit-vanu-silikonem`,    changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/navody/jak-odvzdusnit-radiator`,       changeFrequency: "monthly", priority: 0.7 },
