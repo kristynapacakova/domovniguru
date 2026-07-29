@@ -188,7 +188,7 @@ export default function ArticlePage() {
                 <li><strong>Telefon na focení</strong> — nafotografuj původní zapojení</li>
                 <li><strong>Případně kleště a odizolovač</strong> — pokud je potřeba zkrátit vodiče</li>
               </ul>
-              <div className="article-tip"><strong>💡 Tip:</strong> Při nákupu nové zásuvky vezmi starou do obchodu nebo zjisti značku a sérii — většina výrobců (ABB, Schneider, Legrand, OEZ) má více sérií a rámeček musí sedět na stejnou krabici.</div>
+              <div className="article-tip"><strong>💡 Tip:</strong> Při nákupu nové zásuvky vezmi starou do obchodu nebo zjisti značku a sérii — většina výrobců (ABB, Schneider, Legrand, OEZ) má více sérií a rámeček musí sedět na stejnou krabici. Stejným postupem vyměníš i vypínač, návod: <Link href="/blog/jak-vymenit-vypinac">jak vyměnit vypínač</Link>.</div>
             </section>
 
             <section id="bezpecnost">

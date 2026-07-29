@@ -218,7 +218,7 @@ export default function ArticlePage() {
               <div className="article-tip"><strong>⚠️ Bezpečnost na prvním místě:</strong> Před jakoukoliv prací na elektroinstalaci VŽDY vypni příslušný jistič v rozvaděči. Ověř fázovou tužkou nebo multimetrem že v krabici není napětí. Nikdy nepracuj pod napětím.</div>
               <ul>
                 <li><strong>Krok 1 — Vypni jistič:</strong> V rozvaděči vypni jistič pro daný okruh. Přilep štítek nebo zajisti jistič aby ho nikdo nezapnul během práce.</li>
-                <li><strong>Krok 2 — Sundej starý vypínač:</strong> Odšroubuj krycí rámeček, vyšroubuj vypínač z krabice. Poznamenej nebo nafotografuj zapojení vodičů ještě před odpojením.</li>
+                <li><strong>Krok 2 — Sundej starý vypínač:</strong> Odšroubuj krycí rámeček, vyšroubuj vypínač z krabice. Poznamenej nebo nafotografuj zapojení vodičů ještě před odpojením. Postup je v základu stejný jako <Link href="/blog/jak-vymenit-vypinac">jak vyměnit vypínač</Link> za nový.</li>
                 <li><strong>Krok 3 — Identifikuj vodiče:</strong> Fázový vodič (L) — hnědý nebo černý. Nulový (N) — modrý. Ochranný (PE) — žlutozelený. Starší instalace mohou mít jiné barvy — ověř fázovou tužkou.</li>
                 <li><strong>Krok 4 — Přečti návod stmívače:</strong> Každý stmívač má jiné zapojení svorek. Standardně: L_in (příchozí fáze), L_out (fáze do svítidla), N (nula). Některé stmívače N nepotřebují — záleží na modelu.</li>
                 <li><strong>Krok 5 — Zapoj vodiče:</strong> Připoj vodiče dle návodu. Spoje dotáhni šroubkem — uvolněný kontakt způsobuje blikání a přehřívání.</li>
