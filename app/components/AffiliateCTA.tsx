@@ -19,15 +19,18 @@ const MERCHANTS: Record<string, Merchant> = {
   koberce: { store: "KoberceKK.cz",          bid: "03dc0e27" },
 };
 
-export default function AffiliateCTA({ merchant, text }: { merchant: string; text: string }) {
+// `href` (optional): a full eHub deep-link generated in the eHub dashboard for a
+// specific category page (e.g. …&dl=<cíl>). If provided, it overrides the default
+// homepage click-through — higher conversion. Otherwise falls back to the merchant homepage.
+export default function AffiliateCTA({ merchant, text, href }: { merchant: string; text: string; href?: string }) {
   const m = MERCHANTS[merchant];
   if (!m) return null;
-  const href = `https://ehub.cz/system/scripts/click.php?a_aid=${A_AID}&a_bid=${m.bid}`;
+  const finalHref = href ?? `https://ehub.cz/system/scripts/click.php?a_aid=${A_AID}&a_bid=${m.bid}`;
 
   return (
     <div style={{ marginTop: "16px" }}>
       <a
-        href={href}
+        href={finalHref}
         target="_blank"
         rel="noopener noreferrer nofollow sponsored"
         style={{
