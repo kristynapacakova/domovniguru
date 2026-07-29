@@ -3,11 +3,11 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Výměna zásuvky – kdy a jak ji vyměnit správně 2026",
-  description: "Kdy je čas vyměnit zásuvku? Poškozená, uvolněná nebo zastaralá zásuvka je bezpečnostní riziko. Jak poznat že je čas na výměnu a jak ji provést správně.",
+  title: "Kdy vyměnit zásuvku – jiskření, přehřívání a varovné signály 2026",
+  description: "Jiskří zásuvka, hřeje se nebo drží zástrčku volně? Poradíme, podle jakých signálů poznáte, že je čas zásuvku vyměnit, a proč výměnu neodkládat.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/vymena-zasuvky" },
-  openGraph: { title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to – bezpečně a správně.", url: "https://www.domovniguru.cz/blog/vymena-zasuvky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-04-15T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=V%C3%BDm%C4%9Bna%20z%C3%A1suvky%20%E2%80%93%20kdy%20a%20jak%20ji%20vym%C4%9Bnit%20spr%C3%A1vn%C4%9B%202026&cat=blog", width: 1200, height: 630, alt: "Výměna zásuvky – kdy a jak ji vyměnit správně 2026" }] },
-  twitter: { card: "summary_large_image", title: "Výměna zásuvky – kdy a jak 2026", description: "Kdy vyměnit zásuvku a jak na to bezpečně." },
+  openGraph: { title: "Kdy vyměnit zásuvku – varovné signály", description: "Jiskření, přehřívání, uvolněná zástrčka – kdy je čas zásuvku vyměnit.", url: "https://www.domovniguru.cz/blog/vymena-zasuvky", siteName: "DomovniGuru", locale: "cs_CZ", type: "article", publishedTime: "2026-04-15T08:00:00Z", modifiedTime: "2026-07-29T08:00:00Z", authors: ["DomovniGuru"], images: [{ url: "/api/og?title=Kdy%20vym%C4%9Bnit%20z%C3%A1suvku%20%E2%80%93%20varovn%C3%A9%20sign%C3%A1ly&cat=blog", width: 1200, height: 630, alt: "Kdy vyměnit zásuvku – varovné signály" }] },
+  twitter: { card: "summary_large_image", title: "Kdy vyměnit zásuvku – varovné signály", description: "Jiskření, přehřívání, uvolněná zástrčka – kdy zásuvku vyměnit." },
 };
 
 const jsonLd = {
@@ -15,9 +15,9 @@ const jsonLd = {
   "@graph": [{
     "@type": "Article",
     "@id": "https://www.domovniguru.cz/blog/vymena-zasuvky#article",
-    "headline": "Výměna zásuvky – kdy a jak ji vyměnit správně 2026",
+    "headline": "Kdy vyměnit zásuvku – jiskření, přehřívání a varovné signály",
     "datePublished": "2026-04-15T08:00:00Z",
-    "dateModified": "2026-06-04T08:00:00Z",
+    "dateModified": "2026-07-29T08:00:00Z",
     "author": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "publisher": { "@type": "Organization", "name": "DomovniGuru", "url": "https://www.domovniguru.cz" },
     "inLanguage": "cs",
@@ -80,8 +80,8 @@ export default function ArticlePage() {
                 <Link href="/blog/kategorie/elektrika" className="article-cat-pill">⚡ Elektrika & osvětlení</Link>
                 <span className="article-read-time">⏱ 4 min čtení</span>
               </div>
-              <h1 className="article-h1">Výměna zásuvky – kdy je čas a jak na to</h1>
-              <p className="article-lead">Jiskřící, uvolněná nebo žlutě zbarvená zásuvka není jen estetický problém — je to bezpečnostní riziko. Jak poznáš že je čas vyměnit zásuvku a co dělat jako první krok.</p>
+              <h1 className="article-h1">Kdy vyměnit zásuvku – varovné signály</h1>
+              <p className="article-lead">Jiskřící, uvolněná nebo zežloutlá zásuvka není jen estetický problém — je to bezpečnostní riziko. Podle jakých signálů poznáte, že je čas zásuvku vyměnit, proč to neodkládat a kde najdete podrobný postup výměny.</p>
               <div className="article-meta-row"><span>Aktualizováno: 4. června 2026</span><span>·</span><span>DomovniGuru</span></div>
               <ShareButtons url="https://www.domovniguru.cz/blog/vymena-zasuvky" title="Výměna zásuvky – kdy a jak ji vyměnit správně 2026" />
             </header>
