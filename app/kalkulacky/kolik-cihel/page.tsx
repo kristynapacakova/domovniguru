@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import CihelCalculator from "@/app/components/CihelCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka cihel a tvárnic 2026 – kolik kusů a palet potřebuju?",
@@ -36,6 +37,7 @@ export default function KolikCihelPage() {
         </p>
 
         <CihelCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit zdicí materiál" />
         <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-cihel" title="Kalkulačka cihel a tvárnic 2026 – kolik kusů a palet potřebuju?" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>

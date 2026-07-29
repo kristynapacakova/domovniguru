@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import SchnutiPoteruCalculator from "@/app/components/SchnutiPoteruCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka doby schnutí potěru 2026 – kdy pokládat podlahu?",
@@ -20,6 +21,7 @@ export default function DobaSchnutiPoteruPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej tloušťku a typ potěru — kalkulačka spočítá orientační dobu schnutí a připomene, kdy je potěr skutečně připraven na pokládku podlahy.</p>
 
         <SchnutiPoteruCalculator />
+        <AffiliateCTA merchant="podlahy" text="Vybrat podlahové krytiny" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak dlouho nechat potěr schnout před pokládkou podlahy</h2>

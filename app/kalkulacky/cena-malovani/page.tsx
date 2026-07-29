@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import CenaMalovaniCalculator from "@/app/components/CenaMalovaniCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka ceny malování 2026 – kolik stojí vymalovat byt?",
@@ -20,6 +21,7 @@ export default function CenaMalovaniPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu stěn, cenu práce a materiálu — kalkulačka ti okamžitě odhadne celkové náklady na malování v korunách.</p>
 
         <CenaMalovaniCalculator />
+        <AffiliateCTA merchant="naradi" text="Vybavit se na malování" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Ceny malování v ČR – orientační přehled 2026</h2>

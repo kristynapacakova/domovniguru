@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import LedSavingsCalculator from "@/app/components/LedSavingsCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kolik ušetřím LED žárovkami? Kalkulačka úspory 2026",
@@ -44,6 +45,7 @@ export default function LedUsporaPage() {
 
         {/* KALKULAČKA */}
         <LedSavingsCalculator />
+        <AffiliateCTA merchant="aku" text="Nakoupit LED žárovky" />
 
         {/* ══ SEO TEXT ══════════════════════════════════════════════ */}
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8d860", paddingTop: "40px" }}>

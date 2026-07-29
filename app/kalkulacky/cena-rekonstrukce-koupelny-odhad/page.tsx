@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RecKoupelnyCalculator from "@/app/components/RecKoupelnyCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka rekonstrukce koupelny 2026 – kolik stojí přestavba?",
@@ -20,6 +21,7 @@ export default function CenaRekonstrukceKoupelnyPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu koupelny a standard rekonstrukce — kalkulačka ti okamžitě odhadne orientační náklady od základní až po prémium provedení.</p>
 
         <RecKoupelnyCalculator />
+        <AffiliateCTA merchant="bonami" text="Vybavit koupelnu" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Orientační ceny rekonstrukce koupelny v ČR 2026</h2>

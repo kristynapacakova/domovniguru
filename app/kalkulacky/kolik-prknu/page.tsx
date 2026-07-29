@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PrknaCalculator from "@/app/components/PrknaCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka prken na terasu 2026 – kolik kusů potřebuji?",
@@ -20,6 +21,7 @@ export default function KolikPrknuPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej rozměry terasy i prken — kalkulačka ti okamžitě spočítá přesný počet kusů s ohledem na šířku spár.</p>
 
         <PrknaCalculator />
+        <AffiliateCTA merchant="podlahy" text="Nakoupit terasová prkna" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak vybrat dřevo na terasu a správné rozměry prken</h2>

@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import TapetyCalculator from "@/app/components/TapetyCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka tapet – kolik rolí potřebuju",
@@ -24,6 +25,7 @@ export default function KolikTapetPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej obvod místnosti, výšku a rozměry role — kalkulačka počítá správně i s opakováním vzoru (raport).</p>
 
         <TapetyCalculator />
+        <AffiliateCTA merchant="bonami" text="Vybrat tapety a dekorace" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Raport vzoru a šarže – dvě věci které rozhodují o výsledku</h2>

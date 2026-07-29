@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import StresniTaskyCalculator from "@/app/components/StresniTaskyCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka střešních tašek 2026 – kolik tašek na střechu?",
@@ -20,6 +21,7 @@ export default function KolikStresniTaskPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej půdorysnou plochu střechy a koeficient sklonu — kalkulačka ti okamžitě spočítá skutečnou plochu sklonu a počet tašek k nákupu.</p>
 
         <StresniTaskyCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit střešní materiál" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Typy střešních tašek a jak správně vypočítat množství</h2>

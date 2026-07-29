@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import OsivoCalculator from "@/app/components/OsivoCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka osiva trávníku 2026 – kolik kg osiva na zahradu?",
@@ -36,6 +37,7 @@ export default function KolikOsivaPage() {
         </p>
 
         <OsivoCalculator />
+        <AffiliateCTA merchant="hnojik" text="Nakoupit travní osivo" />
         <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-osiva" title="Kalkulačka osiva trávníku 2026 – kolik kg osiva na zahradu?" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>

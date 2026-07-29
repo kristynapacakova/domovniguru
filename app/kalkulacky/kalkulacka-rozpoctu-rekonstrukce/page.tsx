@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RozpocetRekonstrukceCalculator from "@/app/components/RozpocetRekonstrukceCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka rozpočtu rekonstrukce bytu 2026 – odhad ceny",
@@ -20,6 +21,7 @@ export default function KalkulackaRozpoctuRekonstrukcePage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu bytu, vyber standard materiálů a počet mokrých provozů k rekonstrukci — kalkulačka ti okamžitě spočítá orientační rozpočet vč. rezervy na nečekané vícenáklady.</p>
 
         <RozpocetRekonstrukceCalculator />
+        <AffiliateCTA merchant="bonami" text="Vybavit domácnost" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Z čeho se skládá rozpočet rekonstrukce bytu</h2>

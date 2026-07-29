@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import CenaKuchyneCalculator from "@/app/components/CenaKuchyneCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka ceny kuchyně 2026 – IKEA, studio nebo na míru?",
@@ -20,6 +21,7 @@ export default function CenaKuchynePage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Cena kuchyňské linky se liší řádově podle toho, zda sáhnete po IKEA sestavě, kuchyňském studiu nebo truhláři na míru. Zadejte délku linky, typ spotřebičů a materiál pracovní desky — kalkulačka vám okamžitě spočítá orientační celkovou cenu i rozpad nákladů.</p>
 
         <CenaKuchyneCalculator />
+        <AffiliateCTA merchant="bonami" text="Vybavit kuchyni" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak ušetřit na kuchyni bez kompromisů</h2>

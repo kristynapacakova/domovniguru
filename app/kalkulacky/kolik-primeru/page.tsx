@@ -4,6 +4,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PrimerCalculator from "@/app/components/PrimerCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka penetrace 2026 – kolik litrů primeru potřebuji?",
@@ -23,6 +24,7 @@ export default function KolikPrimeruPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu stěn, vydatnost penetrace a počet vrstev — kalkulačka ti okamžitě spočítá přesné množství v litrech.</p>
 
         <PrimerCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit penetraci" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Proč penetrovat a kdy použít dvě vrstvy</h2>

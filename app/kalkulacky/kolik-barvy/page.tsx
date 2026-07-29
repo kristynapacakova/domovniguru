@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import BarvyCalculator from "@/app/components/BarvyCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka barvy na zeď 2026 – kolik litrů potřebuju?",
@@ -36,6 +37,7 @@ export default function KolikBarvyPage() {
         </p>
 
         <BarvyCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit barvy a nářadí" />
 
         <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-barvy" title="Kalkulačka barvy na zeď 2026 – kolik litrů potřebuju?" />
 

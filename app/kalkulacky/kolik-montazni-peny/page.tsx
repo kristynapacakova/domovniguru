@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PenaCalculator from "@/app/components/PenaCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka montážní pěny 2026 – kolik plechovek PU pěny?",
@@ -20,6 +21,7 @@ export default function KolikMontazniPenyPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej počet oken a dveří s jejich obvodem — kalkulačka ti okamžitě spočítá celkovou délku spár a počet plechovek PU pěny.</p>
 
         <PenaCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit montážní pěnu" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak správně aplikovat montážní pěnu a čeho se vyvarovat</h2>

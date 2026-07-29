@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import BazenCalculator from "@/app/components/BazenCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka objemu bazénu 2026 – kolik vody a chlóru potřebujete?",
@@ -20,6 +21,7 @@ export default function KolikVodyDoBazenuPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej rozměry bazénu — kalkulačka okamžitě spočítá objem v m³ i litrech a doporučí dávkování chlóru pro šokovou dezinfekci i běžnou týdenní údržbu.</p>
 
         <BazenCalculator />
+        <AffiliateCTA merchant="zahrada" text="Vybrat bazénovou chemii" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak spočítat objem bazénu a starat se o kvalitu vody</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PlotCalculator from "@/app/components/PlotCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka plotu 2026 – kolik dílců a sloupků potřebuji?",
@@ -20,6 +21,7 @@ export default function KolikPlotovychDilcuPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej délku plotu, šířku jednoho pole a počet branek a bran — kalkulačka spočítá počet dílců, sloupků i vzpěr.</p>
 
         <PlotCalculator />
+        <AffiliateCTA merchant="zahrada" text="Vybavit se na plot" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak spočítat materiál na plot kolem domu</h2>

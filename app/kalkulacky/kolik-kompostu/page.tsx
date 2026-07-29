@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import KompostCalculator from "@/app/components/KompostCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka kompostu 2026 – kolik pytlů kompostu na záhony?",
@@ -20,6 +21,7 @@ export default function KolikKompostuPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu záhonů a tloušťku vrstvy kompostu — kalkulačka ti okamžitě spočítá přesné množství v litrech a počet pytlů k nákupu.</p>
 
         <KompostCalculator />
+        <AffiliateCTA merchant="hnojik" text="Nakoupit kompost a substrát" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Proč kompostovat a jak kompost správně aplikovat</h2>

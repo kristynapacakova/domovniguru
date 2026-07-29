@@ -1,3 +1,4 @@
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 import type { Metadata } from "next";
 import Link from "next/link";
 import ShareButtons from "../../components/ShareButtons";
@@ -27,6 +28,7 @@ export default function SoilCalculatorPage() {
 
         {/* Teď je to čisté a bezpečné */}
         <SoilClient />
+        <AffiliateCTA merchant="hnojik" text="Nakoupit substrát" />
 
         <div style={{ marginTop: "60px", padding: "30px", background: "#f8f9fa", borderRadius: "12px" }}>
           <h3>Jak měřit květináče?</h3>

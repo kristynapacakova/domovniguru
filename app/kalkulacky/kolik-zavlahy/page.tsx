@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ZavlahaCalculator from "@/app/components/ZavlahaCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka zavlažování 2026 – kolik litrů vody na zahradu?",
@@ -20,6 +21,7 @@ export default function KolikZavlahyPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu zahrady a potřebu vody na m² — kalkulačka ti okamžitě spočítá, kolik litrů potřebuješ na jedno zavlažování a za týden.</p>
 
         <ZavlahaCalculator />
+        <AffiliateCTA merchant="zahrada" text="Vybrat zavlažování" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak správně zavlažovat – zásady efektivní zálivky</h2>

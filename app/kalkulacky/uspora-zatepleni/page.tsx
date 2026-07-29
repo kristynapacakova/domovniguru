@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import UsporaZatepleniCalculator from "@/app/components/UsporaZatepleniCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka úspory zateplení 2026 – návratnost investice do izolace",
@@ -20,6 +21,7 @@ export default function UsporaZatepleniPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadejte aktuální náklady na vytápění, zvolte rozsah plánovaného zateplení a kalkulačka okamžitě spočítá roční úsporu v korunách. Zjistíte také orientační dobu návratnosti investice a jak ji zkrátit pomocí dotací NZÚ.</p>
 
         <UsporaZatepleniCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit zateplovací materiál" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Kdy se zateplení skutečně vyplatí</h2>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import LepidloNaDlazbCalculator from "@/app/components/LepidloNaDlazbCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka lepidla na dlažbu 2026 – kolik kg potřebuji?",
@@ -20,6 +21,7 @@ export default function KolikLepidlaNaDlazbPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu a vyber typ lepidla — kalkulačka spočítá kilogramy i počet pytlů s rezervou.</p>
 
         <LepidloNaDlazbCalculator />
+        <AffiliateCTA merchant="podlahy" text="Nakoupit lepidlo na dlažbu" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak vybrat správné lepidlo na dlažbu</h2>

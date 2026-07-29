@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import SdkCalculator from "@/app/components/SdkCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka sádrokartonu 2026 – kolik desek a profilů potřebuju?",
@@ -36,6 +37,7 @@ export default function KolikSdkPage() {
         </p>
 
         <SdkCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit SDK materiál" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>

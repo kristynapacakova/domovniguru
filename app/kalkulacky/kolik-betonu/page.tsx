@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import BetonCalculator from "@/app/components/BetonCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka betonu 2026 – výpočet m³, kubíků a počtu pytlů",
@@ -56,6 +57,7 @@ export default function KolikBetonuPage() {
           </p>
 
           <BetonCalculator />
+          <AffiliateCTA merchant="naradi" text="Nakoupit cement a nářadí" />
 
           <ShareButtons url="https://www.domovniguru.cz/kalkulacky/kolik-betonu" title="Kalkulačka betonu 2026 – výpočet m³, kubíků a počtu pytlů" />
 

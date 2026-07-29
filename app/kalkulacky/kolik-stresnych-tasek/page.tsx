@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import StrechaCalculator from "@/app/components/StrechaCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka střešních tašek 2026 – kolik tašek a palet potřebuju?",
@@ -36,6 +37,7 @@ export default function KolikStrechTasekPage() {
         </p>
 
         <StrechaCalculator />
+        <AffiliateCTA merchant="naradi" text="Nakoupit střešní materiál" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>

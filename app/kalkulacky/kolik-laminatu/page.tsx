@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import LaminatCalculator from "@/app/components/LaminatCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka laminátu – kolik balení podlahy",
@@ -24,6 +25,7 @@ export default function KolikLaminatuPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej rozměry místnosti a m² v balení — kalkulačka přidá rezervu na prořezy a dilataci.</p>
 
         <LaminatCalculator />
+        <AffiliateCTA merchant="podlahy" text="Nakoupit laminátovou podlahu" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>10% rezerva a aklimatizace – proč jsou klíčové</h2>

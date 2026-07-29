@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import BojlerCalculator from "@/app/components/BojlerCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka velikosti bojleru 2026 – kolik litrů potřebuji?",
@@ -20,6 +21,7 @@ export default function VelikostBojleruPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej počet osob v domácnosti a zvyky při koupání — kalkulačka ti doporučí správný objem zásobníkového ohřívače vody.</p>
 
         <BojlerCalculator />
+        <AffiliateCTA merchant="naradi" text="Vybrat bojler" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak vybrat správný bojler – typy, velikosti a tipy</h2>

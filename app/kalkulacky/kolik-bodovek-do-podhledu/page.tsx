@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import BodovkyCalculator from "@/app/components/BodovkyCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka LED bodovek 2026 – kolik bodovek do podhledu?",
@@ -20,6 +21,7 @@ export default function KolikBodovekDoPodhleduPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu místnosti, její typ a světelný tok jedné bodovky — kalkulačka spočítá doporučený počet LED bodovek, jejich rozmístění i celkový příkon.</p>
 
         <BodovkyCalculator />
+        <AffiliateCTA merchant="aku" text="Nakoupit LED bodovky" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Jak správně navrhnout osvětlení podhledu</h2>

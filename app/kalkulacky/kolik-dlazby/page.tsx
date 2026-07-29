@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import ShareButtons from "@/app/components/ShareButtons";
 import Link from "next/link";
 import DlazbCalculator from "@/app/components/DlazbCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka dlažby 2026 – kolik dlaždic potřebuju s rezervou?",
@@ -24,6 +25,7 @@ export default function KolikDlazbyPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej rozměry místnosti a dlaždice — kalkulačka přidá 10% rezervu na prořezy a rohy.</p>
 
         <DlazbCalculator />
+        <AffiliateCTA merchant="podlahy" text="Nakoupit dlažbu" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Proč je 10% rezerva u dlažby nutností, ne volbou</h2>

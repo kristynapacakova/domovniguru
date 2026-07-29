@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PodlahoveTopeniCalculator from "@/app/components/PodlahoveTopeniCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka podlahového topení 2026 – délka trubky a výkon",
@@ -20,6 +21,7 @@ export default function PodlahoveTopeniPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadej plochu místnosti a rozteč trubek nebo kabelu — kalkulačka ti okamžitě spočítá celkovou délku potrubí a instalovaný výkon.</p>
 
         <PodlahoveTopeniCalculator />
+        <AffiliateCTA merchant="podlahy" text="Nakoupit podlahové topení" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Vodní vs. elektrické podlahové topení – jak vybrat a dimenzovat</h2>

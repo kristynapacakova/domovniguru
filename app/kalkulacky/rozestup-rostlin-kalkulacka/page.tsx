@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import RozestupCalculator from "@/app/components/RozestupCalculator";
+import AffiliateCTA from "@/app/components/AffiliateCTA";
 
 export const metadata: Metadata = {
   title: "Kalkulačka rozestupu rostlin 2026 – kolik rostlin na záhon",
@@ -20,6 +21,7 @@ export default function RozestupRostlinKalkulackaPage() {
         <p style={{ fontSize: "17px", color: "#6a6a60", fontWeight: 300, marginBottom: "36px", lineHeight: 1.7 }}>Zadejte plochu záhonu a rozestup mezi rostlinami — kalkulačka vám okamžitě spočítá, kolik rostlin se na záhon vejde a kolik kusů na m².</p>
 
         <RozestupCalculator />
+        <AffiliateCTA merchant="hnojik" text="Nakoupit sadbu a hnojivo" />
 
         <div style={{ marginTop: "56px", borderTop: "1px solid #e8e0d8", paddingTop: "40px" }}>
           <h2 style={{ fontFamily: "var(--font-serif)", fontSize: "22px", fontWeight: 400, marginBottom: "16px" }}>Proč je správný rozestup rostlin tak důležitý</h2>
