@@ -3,11 +3,11 @@ import Link from "next/link";
 import ShareButtons from "@/app/components/ShareButtons";
 
 export const metadata: Metadata = {
-  title: "Jak malovat dřevěné schody a zábradlí, aby barva vydržela",
+  title: "Jaká barva na dřevěné schody – výběr a nátěr, aby vydržela 2026",
   description: "Výběr barvy odolné proti otěru, příprava povrchu i postup nátěru po jednotlivých schodech – návod, jak natřít dřevěné schodiště a zábradlí na roky dopředu.",
   alternates: { canonical: "https://www.domovniguru.cz/blog/jak-malovat-drevene-schody" },
   openGraph: {
-    title: "Jak malovat dřevěné schody a zábradlí, aby barva vydržela",
+    title: "Jaká barva na dřevěné schody – výběr a nátěr, aby vydržela 2026",
     description: "Výběr barvy odolné proti otěru, příprava povrchu i postup nátěru po jednotlivých schodech – návod, jak natřít dřevěné schodiště a zábradlí na roky dopředu.",
     url: "https://www.domovniguru.cz/blog/jak-malovat-drevene-schody",
     siteName: "DomovniGuru",
@@ -31,7 +31,7 @@ const jsonLd = {
     {
       "@type": "Article",
       "@id": "https://www.domovniguru.cz/blog/jak-malovat-drevene-schody#article",
-      "headline": "Jak malovat dřevěné schody a zábradlí, aby barva vydržela",
+      "headline": "Jaká barva na dřevěné schody – výběr a nátěr, aby vydržela",
       "description": "Výběr barvy odolné proti otěru, příprava povrchu i postup nátěru po jednotlivých schodech – návod, jak natřít dřevěné schodiště a zábradlí na roky dopředu.",
       "datePublished": "2026-06-22T08:00:00Z",
       "dateModified": "2026-06-22T08:00:00Z",
@@ -108,7 +108,7 @@ export default function ArticlePage() {
                 <Link href="/blog/kategorie/malovani" className="article-cat-pill">🎨 Malování & barvy</Link>
                 <span className="article-read-time">⏱ 6 min čtení</span>
               </div>
-              <h1 className="article-h1">Jak malovat dřevěné schody a zábradlí, aby barva vydržela</h1>
+              <h1 className="article-h1">Jaká barva na dřevěné schody a jak ji nanést</h1>
               <p className="article-lead">Schody patří k nejvíc namáhaným plochám v domě – chodí se po nich denně, často v botách, a obyčejná barva na dřevo se tu otře během pár měsíců. S vhodným materiálem a správným postupem nátěru ale vydrží schodiště v dobrém stavu klidně několik let.</p>
               <div className="article-meta-row">
                 <span>Aktualizováno: 22. června 2026</span><span>·</span><span>DomovniGuru</span>
