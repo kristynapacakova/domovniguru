@@ -141,7 +141,7 @@ export default function ArticlePage() {
                 </table>
               </div>
               <p>Přesné množství přípravku na ošetřovanou plochu si snadno spočítáš v <Link href="/kalkulacky/kolik-barvy" style={{ color: "#2a6496", textDecoration: "underline" }}>kalkulačce barvy</Link>.</p>
-              <div className="article-tip"><strong>💡 Doporučení:</strong> Pro terasu volte terasový olej nebo tvrdý voskový olej — lak na terase praská a loupe se od šlápání. Na plot a zahradní nábytek lazura. Na okna a dveře venkovní PU lak.</div>
+              <div className="article-tip"><strong>💡 Doporučení:</strong> Pro terasu volte terasový olej nebo tvrdý voskový olej — lak na terase praská a loupe se od šlápání. Na plot a zahradní nábytek lazura. Na okna a dveře venkovní PU lak. Stejný problém s otěrem řeší i schody — vhodný nátěr najdeš v článku <Link href="/blog/jak-malovat-drevene-schody" style={{ color: "#2a6496", textDecoration: "underline" }}>jaká barva na dřevěné schody</Link>.</div>
             </section>
 
             <section id="priprava">

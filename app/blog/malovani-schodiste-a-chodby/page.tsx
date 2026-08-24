@@ -61,7 +61,7 @@ export default function ArticlePage() {
                 <li><strong>Vysoké mechanické zatížení</strong> – otěr bundy o roh zdi, opřená kola kočárku, kontakt dětských rukou se stěnami; povrch musí odolat výrazně víc než stěna v ložnici</li>
                 <li><strong>Otěruvzdornost</strong> – nečistoty z bot, vlhkost a prachu se usazují na spodní části stěn schodiště více než kdekoliv jinde v domě</li>
                 <li><strong>Úzký prostor a obtížný přístup</strong> – na schodišti není kde postavit lešení, malování ve výškách nad schodnicemi vyžaduje speciální pomůcky nebo žebříky</li>
-                <li><strong>Různorodé povrchy na jednom místě</strong> – stěna, madlo, schodnicová lišta, obkladové dlaždice, dřevěné nebo kovové zábradlí; každý materiál chce jiný přístup</li>
+                <li><strong>Různorodé povrchy na jednom místě</strong> – stěna, madlo, schodnicová lišta, obkladové dlaždice, dřevěné nebo kovové zábradlí; každý materiál chce jiný přístup. Samotné dřevěné stupně a zábradlí řeší podrobně článek <Link href="/blog/jak-malovat-drevene-schody" style={{ color: "#2a6496", textDecoration: "underline" }}>jaká barva na dřevěné schody</Link>.</li>
                 <li><strong>Viditelnost každé chyby</strong> – chodba je první a poslední prostor, který vidíte i vaši hosté; špatně provedené malování je hned na očích</li>
               </ul>
               <div className="article-tip"><strong>💡 Tip:</strong> Pokud planujete větší rekonstrukci, malujte chodbu a schodiště jako poslední – v průběhu prací se nevyhnutelně poškrábe nebo ušpiní. Ušetříte si přemalování.</div>
