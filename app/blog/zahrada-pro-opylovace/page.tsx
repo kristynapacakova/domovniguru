@@ -72,7 +72,7 @@ export default function ArticlePage() {
                 <li><strong>Máta (Mentha)</strong> – velmi oblíbená u čmeláků i motýlů, kvete od července, rychle se rozrůstá (výhodné ji pěstovat v nádobě)</li>
                 <li><strong>Yzop (Hyssopus officinalis)</strong> – polokeř s modrými kvítky, kvete od července do září, extrémně atraktivní pro čmeláky a pestřenky</li>
                 <li><strong>Meduňka (Melissa officinalis)</strong> – nenápadné bílé kvítky, ale nesmírně bohaté nektarem; včely na ni doslova létají</li>
-                <li><strong>Šalvěj (Salvia officinalis a S. pratensis)</strong> – modrофialové kvítky se speciálním tvarem, který je vhodný pro čmeláky s delším sosákem</li>
+                <li><strong>Šalvěj (Salvia officinalis a S. pratensis)</strong> – modrofialové kvítky se speciálním tvarem, který je vhodný pro čmeláky s delším sosákem</li>
                 <li><strong>Fenykl (Foeniculum vulgare)</strong> – žluté okoličnaté květy, oblíbené u pestřenek, motýlů (zejména otakárek) a solitérních včel</li>
                 <li><strong>Dobromysl/Oregano (Origanum vulgare)</strong> – skromná, ale pro hmyz velmi cenná rostlina; kvete od července</li>
               </ul>
