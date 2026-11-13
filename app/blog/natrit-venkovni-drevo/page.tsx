@@ -173,6 +173,7 @@ export default function ArticlePage() {
                 <li><strong>Tvrdý voskový olej:</strong> Každé 3–5 let. Před obnovou vyčisti speciálním čističem, nechej vyschnout, přetři novou vrstvou.</li>
                 <li><strong>Lak:</strong> Každých 5–10 let nebo při prvních známkách loupání. Loupající lak obrousit, případně zcela odstranit chemicky, přetřít základním lakem a aplikovat nový nátěr.</li>
               </ul>
+              <p>Venkovní schody do domu stárnou rychleji než terasa — spojují vlhkost s otěrem od bot. Jakmile je dřevo na stupních nerovnoměrně vyšedlé a lazura už ho nesjednotí, vyplatí se přejít na pigmentovaný nátěr; jak se chovají <Link href="/blog/jak-malovat-drevene-schody" style={{ color: "#2a6496", textDecoration: "underline" }}>krycí barvy na dřevěné schody</Link> a kdy mají navrch nad olejem, rozebírá samostatný návod.</p>
             </section>
 
             <section id="faq">

@@ -61,6 +61,8 @@ const jsonLd = {
         { "@type": "Question", "name": "Kolik vrstev barvy je potřeba na schody?", "acceptedAnswer": { "@type": "Answer", "text": "Standardně se doporučují dvě až tři vrstvy – jedna penetrační nebo základní a jedna až dvě vrchní krycí. Více vrstev zvyšuje odolnost proti otěru a prodlužuje životnost nátěru." } },
         { "@type": "Question", "name": "Jak dlouho musí nátěr na schodech zrát, než po něm můžu plně chodit?", "acceptedAnswer": { "@type": "Answer", "text": "Na dotyk je nátěr suchý obvykle za 24 hodin, ale plnou mechanickou odolnost a tvrdost získá až po 5–7 dnech, u dvousložkových laků i déle. První týden je vhodné chodit po schodech jen v ponožkách nebo měkké domácí obuvi." } },
         { "@type": "Question", "name": "Jak udržet natřené schody dlouho v dobrém stavu?", "acceptedAnswer": { "@type": "Answer", "text": "Pod boty u vstupu položte rohožku, schody pravidelně vytírejte jen vlhkým hadrem bez agresivních chemických přípravků a jednou za pár let obnovte vrchní vrstvu laku v nejvíce zatížených místech, než se prodře až na dřevo." } },
+        { "@type": "Question", "name": "Jaká krycí barva na dřevěné schody je nejodolnější?", "acceptedAnswer": { "@type": "Answer", "text": "Nejvyšší odolnost proti otěru má dvousložková polyuretanová krycí barva, případně vodou ředitelná PU-akrylátová podlahová barva určená přímo na podlahy a schody. Běžný syntetický email na dřevo vypadá po nanesení podobně, ale na nášlapné ploše se prodře mnohem dřív. Odolnost dál roste s počtem vrstev – ideální je základní nátěr a dvě vrchní krycí vrstvy." } },
+        { "@type": "Question", "name": "Čím natřít betonové nebo kovové schodiště?", "acceptedAnswer": { "@type": "Answer", "text": "Na betonové schodiště patří epoxidová nebo polyuretanová barva na beton, nanesená na vyzrálý a obroušený podklad se zbytkovou vlhkostí pod zhruba 4 %. Kovové schodiště nejprve zbavte rzi a odmastěte, naneste antikorozní základní barvu a teprve na ni vrchní syntetický nebo polyuretanový email; u pozinkovaných dílů použijte speciální základ na pozink." } },
       ],
     },
     {
@@ -125,6 +127,8 @@ export default function ArticlePage() {
                 <li><a href="#postup">Postup nátěru po jednotlivých schodech</a></li>
                 <li><a href="#zabradli">Nátěr zábradlí a sloupků</a></li>
                 <li><a href="#udrzba">Sušení a údržba</a></li>
+                <li><a href="#kryci-lazura-lak">Krycí barva, lazura nebo lak na schody?</a></li>
+                <li><a href="#podle-materialu">Barvy na schodiště podle materiálu</a></li>
                 <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
@@ -197,6 +201,36 @@ export default function ArticlePage() {
               <p>I kvalitní nátěr se po letech v nejvíc chozených místech – uprostřed schodu – ztenčí. Stačí tato místa včas přebrousit a natřít novou vrstvou laku, než se opotřebení prodře až na dřevo a oprava by byla náročnější.</p>
             </section>
 
+            <section id="kryci-lazura-lak">
+              <h2>Krycí barva, lazura nebo lak na schody?</h2>
+              <p>Nátěry na schody se dělí do tří skupin podle toho, kolik dřeva pod sebou nechají vidět. Krycí barva je plně pigmentovaná a strukturu dřeva zakryje, lazura a olej jsou polotransparentní a kresbu letokruhů naopak zvýrazní, bezbarvý lak dřevo pouze uzavře do ochranného filmu. Rozdíl ale není jen estetický – každá skupina se jinak chová při otěru a jinak se opravuje.</p>
+              <h3>Kdy volit krycí nátěr</h3>
+              <p>Krycí barva na dřevěné schody dává smysl všude tam, kde dřevo není samo o sobě reprezentativní: u schodišť z borovice nebo smrku, po rozsáhlejších opravách tmelem nebo u starých schodů s nerovnoměrně vybledlým povrchem. Jednolitý odstín skryje drobné nerovnosti podkladu a pigment chrání dřevo před UV zářením. O odolnosti ale nerozhoduje krycí schopnost, nýbrž pojivo – hledejte podlahové nebo schodišťové krycí barvy na bázi polyuretanu či alkyduretanu, nikoliv běžný syntetický email na dřevo, který na nášlapné ploše vydrží jen několik měsíců.</p>
+              <h3>Kdy volit lazuru nebo olej</h3>
+              <p>Lazura se hodí spíš na zábradlí, sloupky a svislé čelní plochy schodů než na samotné nášlapné stupně – tenký polotransparentní film se na vodorovné ploše prodírá rychle. Lepší transparentní variantou pro schodnice je tvrdý voskový olej: nevytváří film, který by se mohl odlupovat, a dá se opravit lokálně, bez broušení celého schodiště. Daní za to je častější údržba, obvykle jednou za jeden až tři roky podle zatížení.</p>
+              <h3>Odolnost proti otěru v praxi</h3>
+              <p>Když srovnáme běžně dostupné barvy na schody podle toho, jak snášejí každodenní chůzi v botách, vyjde přibližně následující pořadí:</p>
+              <ul>
+                <li><strong>Dvousložkový polyuretanový lak</strong> – nejvyšší tvrdost a chemická odolnost, ale prodřené místo nelze opravit bodově, přebrušuje se celý stupeň</li>
+                <li><strong>Krycí podlahová barva</strong> – velmi dobrá odolnost proti otěru, snadné přetření další vrstvou, opravené místo není vidět</li>
+                <li><strong>Tvrdý voskový olej</strong> – nižší povrchová tvrdost, zato nejsnadnější lokální oprava a přirozený vzhled dřeva</li>
+                <li><strong>Lazura nebo běžný email</strong> – na zábradlí ano, na nášlapné plochy schodů nevhodné</li>
+              </ul>
+              <div className="article-tip"><strong>💡 Tip:</strong> Obě technologie lze kombinovat – stupně natřít krycí barvou nebo olejem a zábradlí ponechat v lazuře. Nikdy ale nenanášejte olej na lakovaný povrch a naopak: mezi oběma systémy je nutné staré vrstvy obrousit až na dřevo.</div>
+            </section>
+
+            <section id="podle-materialu">
+              <h2>Barvy na schodiště podle materiálu</h2>
+              <p>Barvy na schodiště se nevybírají jen podle zatížení, ale především podle podkladu. Barva na schodiště musí v první řadě spolehlivě držet, a právě v přilnavosti se jednotlivé materiály liší nejvíc: dřevo, beton a kov mají rozdílnou savost i teplotní roztažnost, takže nátěr, který výborně drží na jednom z nich, se z druhého začne po pár měsících odlupovat.</p>
+              <h3>Dřevěné schodiště</h3>
+              <p>Pro dřevo platí vše popsané výše: penetrace nebo základní nátěr, následně dvě vrchní vrstvy podlahové či schodišťové barvy, případně dvousložkový polyuretanový lak. Krycí barvy na schody z měkkého dřeva mají navíc tu výhodu, že spolehlivě zakryjí tmelené spáry, díry po hřebících i sesazené stupně z různých dřevin.</p>
+              <h3>Betonové schodiště</h3>
+              <p>Na beton patří epoxidová nebo polyuretanová podlahová barva. Podklad musí být vyzrálý (u nového betonu nejméně 28 dní), zbavený cementového mléka obroušením nebo frézováním a dostatečně vyschlý – zbytková vlhkost by neměla přesáhnout zhruba 4 %. Před vrchní barvou se nanáší epoxidová penetrace, která zpevní povrch a sjednotí savost. Běžná akrylátová barva na beton obstojí jen ve sklepě nebo na schodech s minimálním provozem.</p>
+              <h3>Kovové schodiště</h3>
+              <p>U kovu rozhoduje protikorozní ochrana. Povrch nejprve zbavte rzi ocelovým kartáčem nebo bruskou a odmastěte, pak naneste antikorozní základní barvu a teprve na ni vrchní syntetický nebo polyuretanový email. U pozinkovaných konstrukcí je nutný speciální základ na pozink – běžná základní barva na zinku nedrží. Variantou pro svépomoc jsou barvy na rez typu 3 v 1, které spojují odrezovač, základ i vrchní nátěr.</p>
+              <div className="article-tip"><strong>💡 Tip:</strong> U betonových a kovových stupňů myslete na protiskluz. Do poslední vrstvy nátěru lze zapracovat jemný korundový písek nebo protiskluzovou přísadu, případně po zaschnutí nalepit protiskluzové pásky na hrany stupňů.</div>
+            </section>
+
             <section id="faq">
               <h2>Časté otázky</h2>
               <div className="faq-list">
@@ -207,6 +241,8 @@ export default function ArticlePage() {
                   { q: "Kolik vrstev barvy je potřeba na schody?", a: "Standardně se doporučují dvě až tři vrstvy – jedna penetrační nebo základní a jedna až dvě vrchní krycí. Více vrstev zvyšuje odolnost proti otěru a prodlužuje životnost nátěru." },
                   { q: "Jak dlouho musí nátěr na schodech zrát, než po něm můžu plně chodit?", a: "Na dotyk je nátěr suchý obvykle za 24 hodin, ale plnou mechanickou odolnost a tvrdost získá až po 5–7 dnech, u dvousložkových laků i déle. První týden je vhodné chodit po schodech jen v ponožkách nebo měkké domácí obuvi." },
                   { q: "Jak udržet natřené schody dlouho v dobrém stavu?", a: "Pod boty u vstupu položte rohožku, schody pravidelně vytírejte jen vlhkým hadrem bez agresivních chemických přípravků a jednou za pár let obnovte vrchní vrstvu laku v nejvíce zatížených místech, než se prodře až na dřevo." },
+                  { q: "Jaká krycí barva na dřevěné schody je nejodolnější?", a: "Nejvyšší odolnost proti otěru má dvousložková polyuretanová krycí barva, případně vodou ředitelná PU-akrylátová podlahová barva určená přímo na podlahy a schody. Běžný syntetický email na dřevo vypadá po nanesení podobně, ale na nášlapné ploše se prodře mnohem dřív. Odolnost dál roste s počtem vrstev – ideální je základní nátěr a dvě vrchní krycí vrstvy." },
+                  { q: "Čím natřít betonové nebo kovové schodiště?", a: "Na betonové schodiště patří epoxidová nebo polyuretanová barva na beton, nanesená na vyzrálý a obroušený podklad se zbytkovou vlhkostí pod zhruba 4 %. Kovové schodiště nejprve zbavte rzi a odmastěte, naneste antikorozní základní barvu a teprve na ni vrchní syntetický nebo polyuretanový email; u pozinkovaných dílů použijte speciální základ na pozink." },
                 ].map(({ q, a }) => (
                   <details key={q} className="faq-item">
                     <summary className="faq-summary">{q}<span className="faq-icon">▾</span></summary>
@@ -243,6 +279,8 @@ export default function ArticlePage() {
                 <li><a href="#postup">Nátěr po jednotlivých schodech</a></li>
                 <li><a href="#zabradli">Nátěr zábradlí</a></li>
                 <li><a href="#udrzba">Sušení a údržba</a></li>
+                <li><a href="#kryci-lazura-lak">Krycí barva, lazura nebo lak</a></li>
+                <li><a href="#podle-materialu">Barvy podle materiálu schodiště</a></li>
                 <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>

@@ -28,7 +28,8 @@ const jsonLd = {
     "mainEntity": [
       { "@type": "Question", "name": "Je lepší topit méně ale nepřerušeně nebo více ale jen ráno a večer?", "acceptedAnswer": { "@type": "Answer", "text": "Pro teplovodní radiátory (velká tepelná kapacita): plynulé topení na nižší teplotu je efektivnější než přerušované topení na vyšší teplotu. Pro elektrické přímotopy (malá tepelná kapacita): přerušované topení může být výhodnější — rychle hřejí a rychle chladnou. Obecně: programovatelný termostat s nočním útlumem je optimální kompromis pro oba systémy." } },
       { "@type": "Question", "name": "Proč je v bytě sucho při topení a jak to řešit?", "acceptedAnswer": { "@type": "Answer", "text": "Topení vysušuje vzduch — ohřátý vzduch má relativně nižší vlhkost. Řešení: zvlhčovač vzduchu (elektrický nebo pasivní nádoba na radiátor), pokojové rostliny, časté větrání (přináší vlhčí venkovní vzduch v mrazivém počasí — ale v oblačném počasí venkovní vzduch může být vlhčí). Ideální vlhkost: 40–60 %. Měř hygrometrem (200–500 Kč)." } },
-      { "@type": "Question", "name": "Kdy spustit topení na podzim?", "acceptedAnswer": { "@type": "Answer", "text": "Topnou sezónu spusť když průměrná venkovní teplota klesne pod 13 °C po dobu alespoň 2 dnů — to je standardní definice začátku topné sezóny v ČR. Prakticky: když je v bytě chladněji než 18–20 °C i přes den. Nečekej až bude zima — studené stěny se ohřívají pomalu a musíš topit více." } }
+      { "@type": "Question", "name": "Kdy spustit topení na podzim?", "acceptedAnswer": { "@type": "Answer", "text": "Topnou sezónu spusť když průměrná venkovní teplota klesne pod 13 °C po dobu alespoň 2 dnů — to je standardní definice začátku topné sezóny v ČR. Prakticky: když je v bytě chladněji než 18–20 °C i přes den. Nečekej až bude zima — studené stěny se ohřívají pomalu a musíš topit více." } },
+      { "@type": "Question", "name": "Jak správně topit, aby se zbytečně neplýtvalo?", "acceptedAnswer": { "@type": "Answer", "text": "Nastav teplotu podle místnosti — obývák kolem 20–21 °C, ložnice 17–18 °C, koupelna asi 23 °C jen v době koupání. Při odchodu z domu topení nevypínej úplně, jen ho stáhni o 2–3 °C, protože opětovné prohřátí vychladlých stěn spotřebuje víc energie, než kolik se ušetří. V noci využij útlum o 2–4 °C. Radiátory nech volné bez nábytku a dlouhých závěsů a větrej krátce a intenzivně dokořán místo trvale pootevřené ventilačky." } }
     ]
   }, {
     "@type": "HowTo",
@@ -121,6 +122,7 @@ export default function ArticlePage() {
                 <li><a href="#vetrani">Jak větrat při topení</a></li>
                 <li><a href="#chyby">Nejčastější chyby při topení</a></li>
                 <li><a href="#radiatory">Správné nastavení radiátorů</a></li>
+                <li><a href="#neplytvat">Jak správně topit a neplýtvat</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ol>
             </nav>
@@ -170,6 +172,20 @@ export default function ArticlePage() {
               </ul>
             </section>
 
+            <section id="neplytvat">
+              <h2>Jak správně topit a neplýtvat</h2>
+              <p>Jak správně topit není otázka toho, kolik stupňů si nastavíš na termostatu, ale jak teplo rozděluješ v čase a po místnostech. Úspora vzniká z drobných návyků, ne z toho, že budeš doma mrznout. Následujících pět zásad pokrývá většinu toho, co se dá v běžné domácnosti bez investic ovlivnit.</p>
+              <ul>
+                <li><strong>Teplotu nastav podle místnosti, ne podle celého bytu.</strong> V obýváku si vystačíš s 20–21 °C, v ložnici stačí 17–18 °C — chladnější vzduch zlepšuje spánek. Koupelnu vytápěj na zhruba 23 °C, ale jen v době, kdy se v ní koupeš nebo sprchuješ, ne nepřetržitě celý den. Každý stupeň navíc znamená přibližně o 6 % vyšší spotřebu, takže rozdíl mezi 21 a 24 °C je na faktuře dobře vidět.</li>
+                <li><strong>Při odchodu topení nevypínej úplně.</strong> Když vytápění na celý den vypneš, vychladnou nejen vzduch, ale hlavně stěny, nábytek a podlaha. Jejich opětovné prohřátí trvá hodiny a spotřebuje víc energie, než kolik se ušetří. Místo vypínání stáhni teplotu o 2–3 °C na takzvanou útlumovou hodnotu, obvykle kolem 17–18 °C. Výjimkou jsou delší odjezdy, kdy má smysl temperovat na 14–16 °C, aby nekondenzovala vlhkost.</li>
+                <li><strong>Využij noční útlum.</strong> Mezi usnutím a ránem snižuj teplotu o 2–4 °C. Programovatelný nebo chytrý termostat to zvládne sám a stihne byt včas znovu prohřát, takže ráno nevstáváš do chladu. U teplovodních radiátorů nastav začátek náběhu zhruba hodinu před budíkem — soustava se prohřívá pozvolna.</li>
+                <li><strong>Nezakrývej radiátory nábytkem ani závěsy.</strong> Pohovka přisunutá k topení, dlouhý závěs splývající přes radiátor nebo police nad ním blokují proudění vzduchu. Teplo pak zůstává za nábytkem a stoupá rovnou ke stropu místo do místnosti. Před radiátorem nech alespoň 30 cm volného prostoru a závěsy zkrať nad parapet. Totéž platí o sušení prádla na radiátoru — snižuje výkon a zvyšuje vlhkost.</li>
+                <li><strong>Větrej krátce a intenzivně, ne ventilačkou.</strong> Otevři okna dokořán na 5–10 minut, klidně i protiproudem přes dvě místnosti. Vzduch se vymění, ale stěny a nábytek zůstanou teplé. Trvale pootevřená ventilačka naopak celé hodiny ochlazuje ostění a zdivo kolem okna, takže topení jede naprázdno. Před větráním stáhni termostatickou hlavici, aby kotel nezačal zbytečně topit do otevřeného okna.</li>
+              </ul>
+              <p>Tyhle návyky spolu souvisí: nižší teplota v ložnici dává smysl jen tehdy, když dveře zavíráš a jednotlivé místnosti mají vlastní teplotní zónu. A krátké větrání funguje jen tam, kde se teplo stihlo nashromáždit v konstrukcích, tedy když během dne netopíš nárazově na maximum.</p>
+              <div className="article-tip"><strong>💡 Tip:</strong> Než začneš šetřit nastavením, zkontroluj základy — odvzdušněné radiátory, funkční termostatické hlavice a utěsněná okna. Bez nich se úspora z chytrého režimu ztratí v netěsnostech.</div>
+            </section>
+
             <section id="faq">
               <h2>Časté otázky (FAQ)</h2>
               <div className="faq-list">
@@ -184,6 +200,10 @@ export default function ArticlePage() {
                 <details className="faq-item">
                   <summary className="faq-summary">Kdy spustit topení na podzim?<span className="faq-icon">▾</span></summary>
                   <div className="faq-body">Topnou sezónu spusť když průměrná venkovní teplota klesne pod 13 °C po dobu alespoň 2 dnů — to je standardní definice začátku topné sezóny v ČR. Prakticky: když je v bytě chladněji než 18–20 °C i přes den. Nečekej až bude zima — studené stěny se ohřívají pomalu a musíš topit více.</div>
+                </details>
+                <details className="faq-item">
+                  <summary className="faq-summary">Jak správně topit, aby se zbytečně neplýtvalo?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Nastav teplotu podle místnosti — obývák kolem 20–21 °C, ložnice 17–18 °C, koupelna asi 23 °C jen v době koupání. Při odchodu z domu topení nevypínej úplně, jen ho stáhni o 2–3 °C, protože opětovné prohřátí vychladlých stěn spotřebuje víc energie, než kolik se ušetří. V noci využij útlum o 2–4 °C. Radiátory nech volné bez nábytku a dlouhých závěsů a větrej krátce a intenzivně dokořán místo trvale pootevřené ventilačky.</div>
                 </details>
               </div>
             </section>
@@ -212,6 +232,7 @@ export default function ArticlePage() {
                 <li><a href="#vetrani">Větrání při topení</a></li>
                 <li><a href="#chyby">Nejčastější chyby</a></li>
                 <li><a href="#radiatory">Nastavení radiátorů</a></li>
+                <li><a href="#neplytvat">Topit a neplýtvat</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ul></nav>
             </div>

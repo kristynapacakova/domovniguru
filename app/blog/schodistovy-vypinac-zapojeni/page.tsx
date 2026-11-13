@@ -170,6 +170,7 @@ export default function ArticlePage() {
                 <li>Výměna starého vypínače za nový <strong>se stejným typem zapojení</strong> — vodiče v krabici zůstávají na svém místě, jen se přesunou na nové svorky.</li>
                 <li>Výměna obou vypínačů za stejný model, např. z důvodu opotřebení nebo designu.</li>
               </ul>
+              <p>Samotná <Link href="/blog/jak-vymenit-vypinac">výměna vypínače</Link> probíhá u střídavého typu stejně jako u obyčejného — jen pracuješ se třemi vodiči místo dvou, takže si o to pečlivěji vyfoť původní zapojení. I tady platí základ: vypnutý jistič a beznapěťový stav ověřený zkoušečkou, a při jakékoliv nejistotě raději elektrikář.</p>
               <h3>Práce pro elektrikáře</h3>
               <ul>
                 <li>Zavádění <strong>nového vedení</strong> tam, kde dosud žádné nebylo (nový druhý vypínač, kam dosud nevedl kabel).</li>

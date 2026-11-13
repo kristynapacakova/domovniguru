@@ -88,6 +88,7 @@ export default function ArticlePage() {
               <h3>Lesk povrchu</h3>
               <p>Lesklé a pololesklé (saténové) povrchy se lépe čistí a jsou odolnější vůči otěru než matné. V chodbách a schodištích proto volte raději <strong>saténový nebo pololesklý povrch</strong>. Plně matná barva je esteticky zajímavá, ale v praktickém provozu vytváří stopy po každém dotyku a špatně se čistí.</p>
               <p>Pokud chcete kompromis – matný vzhled s lepší odolností – hledejte barvy označené jako „soft sheen" nebo „mat omyvatelný", které kombinují vizuální matnost s lepší omyvatelností než standardní matné barvy.</p>
+              <p>Vše výše uvedené platí pro stěny schodišťového prostoru. Samotné stupně, madlo a zábradlí potřebují jiný nátěrový systém odolný proti otěru od bot – přehled, jaké <Link href="/blog/jak-malovat-drevene-schody" style={{ color: "#2a6496", textDecoration: "underline" }}>barvy na schodiště</Link> se hodí na dřevo, beton i kov, najdete v samostatném návodu.</p>
             </section>
 
             <section id="priprava-povrchu">

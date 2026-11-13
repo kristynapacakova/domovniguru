@@ -61,6 +61,7 @@ const jsonLd = {
         { "@type": "Question", "name": "Musím nábytek po křídové barvě voskovat?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, vosk je nutná finální ochrana. Křídová barva je matná a porézní, bez vosku nebo čirého laku se snadno špiní a otírá. Vosk naneste měkkým voskovacím kartáčem a před používáním nábytku počkejte alespoň 24 hodin." } },
         { "@type": "Question", "name": "Je křídová barva odolná vůči vodě a otěru?", "acceptedAnswer": { "@type": "Answer", "text": "Sama o sobě ne – je matná a méně odolná než klasický lak. Po zavoskování nebo přelakování čirým lakem ale zvládne běžné denní používání, otírání i drobné stříkance." } },
         { "@type": "Question", "name": "Je křídová barva levnější než klasické lakování nábytku?", "acceptedAnswer": { "@type": "Answer", "text": "Ano, vychází levněji. Odpadá penetrace, broušení celé plochy i drahý lak – stačí barva, štětec a vosk. Na běžnou komodu nebo židli ušetříte i přes 50 % nákladů i času oproti klasickému lakování." } },
+        { "@type": "Question", "name": "Čím se křídová barva liší od běžné barvy na nábytek?", "acceptedAnswer": { "@type": "Answer", "text": "Křídová barva obsahuje vysoký podíl minerálního plniva, díky kterému zasychá do hlubokého matu se sametovou strukturou a drží i na laku nebo politúře bez broušení a penetrace. Běžný email nebo akrylátový lak vytváří hladký, pololesklý a odolný film, ale vyžaduje přebroušení a napenetrování podkladu. Křídová barva naopak potřebuje finální vosk nebo čirý lak, jinak se špiní a otírá." } },
       ],
     },
     {
@@ -126,6 +127,7 @@ export default function ArticlePage() {
                 <li><a href="#voskovani">Voskování jako finální ochrana</a></li>
                 <li><a href="#udrzba">Údržba a odolnost</a></li>
                 <li><a href="#chyby-a-cena">Typické chyby a cenové srovnání</a></li>
+                <li><a href="#kridova-vs-bezna">Co je křídová barva a čím se liší od běžné</a></li>
                 <li><a href="#faq">Časté otázky</a></li>
               </ol>
             </nav>
@@ -222,6 +224,24 @@ export default function ArticlePage() {
               <p>Díky vynechání broušení, penetrace a drahého laku vychází renovace křídovou barvou výrazně levněji a rychleji – na běžné komodě nebo židli ušetříš klidně přes <strong>50 % času i nákladů</strong> oproti klasickému lakování.</p>
             </section>
 
+            <section id="kridova-vs-bezna">
+              <h2>Co je křídová barva a čím se liší od běžné</h2>
+              <p>Pojem <strong>křídová barva</strong> (anglicky chalk paint) označuje vodou ředitelnou dekorativní barvu, v níž je vedle pigmentu a pojiva výrazný podíl minerálního plniva – nejčastěji jemně mletého vápence nebo křídy. Plnivo dává hmotě hustou, krémovou konzistenci a po zaschnutí mikroporézní, dokonale matný povrch. Běžná barva na nábytek, tedy syntetický email nebo vodou ředitelný akrylátový lak, je naproti tomu složená tak, aby vytvořila souvislý uzavřený film – a ten potřebuje ke spolehlivé přilnavosti připravený, přebroušený a napenetrovaný podklad.</p>
+              <h3>Vzhled a struktura povrchu</h3>
+              <p>Křídové barvy na nábytek zasychají do hlubokého matu bez jakéhokoliv lesku. Povrch je na dotek jemně sametový, mírně drsný a opticky změkčuje tvary i hrany – právě proto se k němu tak dobře pojí vintage a venkovský styl. Běžný email zasychá do hladkého pololesklého nebo lesklého filmu, který naopak zvýrazní každou nerovnost podkladu a působí novějším, industriálnějším dojmem.</p>
+              <h3>Příprava a nanášení</h3>
+              <p>Největší praktický rozdíl je v přípravě. U klasického nátěru se plocha musí odmastit, celá přebrousit a napenetrovat, a teprve pak se nanášejí dvě až tři vrstvy laku. Křídová barva se nanáší přímo na očištěný povrch – drží i na starém laku, politúře nebo mořeném dřevě, protože se na podklad váže převážně mechanicky. Odpadá tak nejpracnější část renovace a z víkendové akce se stane práce na jedno odpoledne.</p>
+              <h3>Finální ochrana je povinná</h3>
+              <p>Za rychlou aplikaci se ale platí nižší odolností. Zaschlá křídová barva je porézní, saje mastnotu i vlhkost a snadno se otírá, takže je nutné ji uzavřít – voskem na nábytek, který dodá jemný hedvábný nádech a prohloubí odstín, nebo čirým vodou ředitelným lakem tam, kde je potřeba vyšší odolnost. Běžný email tuto vrstvu navíc nepotřebuje, protože ochrannou funkci plní sám.</p>
+              <h3>Kde se hodí a kde ne</h3>
+              <ul>
+                <li><strong>Hodí se bez výhrad:</strong> komody, skříně, noční stolky, police, židle, rámy zrcadel a profilovaná dvířka v interiéru, tedy všude tam, kde by broušení detailů zabralo hodiny.</li>
+                <li><strong>Hodí se s podmínkou:</strong> desky jídelních stolů, dětský nábytek a kuchyňská dvířka – jen tehdy, pokud je přelakuješ čirým lakem. Samotný vosk tady odolnost nestačí zajistit.</li>
+                <li><strong>Nehodí se:</strong> nábytek v trvale vlhkém prostředí, pracovní plochy v přímém kontaktu s potravinami a venkovní nábytek vystavený dešti a slunečnímu záření.</li>
+              </ul>
+              <p>Zjednodušeně: pokud hledáš rychlou proměnu s matným vzhledem a nevadí ti přidat finální vosk, je křídová barva lepší volba. Pokud potřebuješ maximálně odolný a dobře omyvatelný povrch, sáhni po klasickém laku.</p>
+            </section>
+
             <section id="faq">
               <h2>Časté otázky</h2>
               <div className="faq-list">
@@ -232,6 +252,7 @@ export default function ArticlePage() {
                   { q: "Musím nábytek po křídové barvě voskovat?", a: "Ano, vosk je nutná finální ochrana. Křídová barva je matná a porézní, bez vosku nebo čirého laku se snadno špiní a otírá. Vosk naneste měkkým voskovacím kartáčem a před používáním nábytku počkejte alespoň 24 hodin." },
                   { q: "Je křídová barva odolná vůči vodě a otěru?", a: "Sama o sobě ne – je matná a méně odolná než klasický lak. Po zavoskování nebo přelakování čirým lakem ale zvládne běžné denní používání, otírání i drobné stříkance." },
                   { q: "Je křídová barva levnější než klasické lakování nábytku?", a: "Ano, vychází levněji. Odpadá penetrace, broušení celé plochy i drahý lak – stačí barva, štětec a vosk. Na běžnou komodu nebo židli ušetříte i přes 50 % nákladů i času oproti klasickému lakování." },
+                  { q: "Čím se křídová barva liší od běžné barvy na nábytek?", a: "Křídová barva obsahuje vysoký podíl minerálního plniva, díky kterému zasychá do hlubokého matu se sametovou strukturou a drží i na laku nebo politúře bez broušení a penetrace. Běžný email nebo akrylátový lak vytváří hladký, pololesklý a odolný film, ale vyžaduje přebroušení a napenetrování podkladu. Křídová barva naopak potřebuje finální vosk nebo čirý lak, jinak se špiní a otírá." },
                 ].map(({ q, a }) => (
                   <details key={q} className="faq-item">
                     <summary className="faq-summary">{q}<span className="faq-icon">▾</span></summary>
@@ -269,6 +290,7 @@ export default function ArticlePage() {
                 <li><a href="#voskovani">Voskování</a></li>
                 <li><a href="#udrzba">Údržba a odolnost</a></li>
                 <li><a href="#chyby-a-cena">Chyby a cena</a></li>
+                <li><a href="#kridova-vs-bezna">Křídová vs. běžná barva</a></li>
                 <li><a href="#faq">Časté otázky</a></li>
               </ul></nav>
             </div>

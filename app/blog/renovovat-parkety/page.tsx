@@ -220,6 +220,7 @@ export default function ArticlePage() {
                 </table>
               </div>
               <div className="article-tip"><strong>💡 Doporučení:</strong> Pro domácnost s dětmi nebo domácími zvířaty volte <strong>polyuretanový lak</strong> — nejodolnější a nejsnáze se udržuje. Pro autentický historický vzhled starého bytu volte <strong>olej nebo tvrdý voskový olej</strong> — přirozený vzhled a snadná lokální oprava.</div>
+              <p>Pokud renovujete i dřevěné schodiště do patra, počítejte s tím, že stupně snášejí násobně vyšší otěr než parkety v pokoji a volba povrchové úpravy je tam přísnější — které <Link href="/blog/jak-malovat-drevene-schody" style={{ color: "#2a6496", textDecoration: "underline" }}>nátěry na schody</Link> denní provoz skutečně vydrží, shrnuje samostatný článek.</p>
             </section>
 
             <section id="chyby">

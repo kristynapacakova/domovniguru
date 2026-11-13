@@ -96,6 +96,8 @@ export default function ArticlePage() {
                 <li><a href="#zasobnik">Čištění zásobníku</a></li>
                 <li><a href="#filtr">Čištění filtru čerpadla</a></li>
                 <li><a href="#prevence">Jak předejít zápachu</a></li>
+                <li><a href="#jak-casto">Jak často pračku čistit</a></li>
+                <li><a href="#cim-cistit">Čím pračku vyčistit – ocet, kyselina citronová, nebo přípravek</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ol>
             </nav>
@@ -165,9 +167,49 @@ export default function ArticlePage() {
               <div className="article-tip"><strong>💡 Tip:</strong> Pračku čistěte zároveň s dalšími domácími úkoly — například jednou za měsíc v den, kdy měníte ložní prádlo. Takto čištění nezapomenete a stane se přirozenou součástí domácí rutiny.</div>
             </section>
 
+            <section id="jak-casto">
+              <h2>Jak často pračku čistit</h2>
+              <p>Jednorázové hloubkové čištění zabere hodinu a uleví okamžitě, jenže bez pravidelného režimu se zápach vrátí během několika týdnů. Jednotlivé části pračky se přitom zanášejí různě rychle, takže nemá smysl čistit všechno najednou. Stačí si zapamatovat čtyři intervaly.</p>
+              <ul>
+                <li><strong>Gumové těsnění – po každém praní:</strong> rozevřete záhyby manžety a otřete je suchou nebo mírně navlhčenou utěrkou. Trvá to deset vteřin a je to jediné opatření, které spolehlivě předchází černé plísni v gumě. Zbytky vlhkosti a vláken se tak nestihnou usadit.</li>
+                <li><strong>Zásobník na prací prostředky – jednou měsíčně:</strong> vyjměte ho, nechte 15–20 minut odmočit v teplé vodě se saponátem a vydrhněte kartáčkem, včetně přihrádky na změkčovač. Zároveň otřete i prostor v pračce, ze kterého jste zásobník vytáhli.</li>
+                <li><strong>Buben údržbovým programem – jednou měsíčně:</strong> spusťte prázdnou pračku na program „čištění bubnu" (drum clean, machine care), a pokud ho vaše pračka nemá, na nejdelší bavlněný program při 60–90 °C. Vysoká teplota rozloží biofilm, který se při praní na 30–40 °C stihne za měsíc usadit.</li>
+                <li><strong>Filtr čerpadla – dvakrát až třikrát ročně:</strong> tedy zhruba jednou za čtyři až šest měsíců. Dříve ho zkontrolujte, pokud pračka pomaleji odčerpává vodu nebo hlásí chybu s vypouštěním. Majitelé psů a koček a domácnosti, které perou hodně froté, by měli filtr otevírat zhruba každé dva měsíce.</li>
+              </ul>
+              <p>Tyto intervaly platí pro běžnou domácnost, která pere dvakrát až třikrát týdně a střídá nízké i vyšší teploty. Pokud perete denně, perete převážně na 30 °C nebo máte velmi tvrdou vodu, zkraťte intervaly přibližně na polovinu – odvápnění a horký cyklus pak zařaďte raději dvakrát do měsíce. Naopak v domácnosti, kde pračka běží jednou týdně a většina praní jede na 60 °C, si vystačíte s údržbovým programem jednou za dva měsíce.</p>
+              <p>Dvakrát ročně se navíc vyplatí projít i věci, na které se při běžném čištění nemyslí: zkontrolovat přívodní hadici a její sítko, nahlédnout za pračku, jestli není odpadní hadice zalomená, a utáhnout vyrovnávací nožičky. Rozviklaná pračka totiž víc vibruje, hlučí a časem si poškodí ložiska bubnu.</p>
+              <div className="article-tip"><strong>💡 Tip:</strong> Navažte měsíční údržbu na pevný bod v kalendáři, třeba na den, kdy měníte ložní prádlo. Horký program bez prádla běží sám a vy mezitím stihnete vyčistit zásobník.</div>
+            </section>
+
+            <section id="cim-cistit">
+              <h2>Čím pračku vyčistit – ocet, kyselina citronová, nebo přípravek</h2>
+              <p>Všechny tři možnosti fungují, ale každá na něco jiného. Vodní kámen rozpouští kyselina, zápach způsobený biofilmem potřebuje hlavně teplotu a mastný povlak z aviváže se nejlépe odstraní tenzidy. Následující srovnání ukazuje, kdy se který prostředek vyplatí.</p>
+              <div className="article-table-wrap">
+                <table className="article-table">
+                  <thead><tr><th>Prostředek</th><th>Na co funguje</th><th>Orientační dávkování</th><th>Na co si dát pozor</th></tr></thead>
+                  <tbody>
+                    <tr><td>Kyselina citronová</td><td>Vodní kámen na topném tělese a v bubnu</td><td>2–3 lžíce (cca 50–100 g) přímo do bubnu, program 60–90 °C</td><td>Nesypat společně s pracím prostředkem – vzájemně se neutralizují</td></tr>
+                    <tr><td>Bílý ocet (6–8 %)</td><td>Vodní kámen i lehký biofilm, pomáhá proti zápachu</td><td>250–500 ml do bubnu, program 60–90 °C</td><td>Silný zápach při praní, při častém použití zatěžuje gumové části</td></tr>
+                    <tr><td>Přípravek na čištění praček</td><td>Mastnota, biofilm a usazeniny v hadicích</td><td>Podle návodu, obvykle jedna dávka na cyklus</td><td>Nejdražší varianta, odvápňovací účinek mívá podobný jako kyselina</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <h3>Rizika octa na gumové části</h3>
+              <p>Ocet je slabá kyselina a v ředěné podobě jednou za měsíc gumové manžetě ani hadicím neuškodí. Problém nastává až při častém nebo koncentrovaném použití: kyselé prostředí postupně vysušuje a zkřehčuje pryž, takže se v manžetě dříve objeví drobné praskliny, kterými pak zatéká. Proto ocet nikdy nenechávejte v bubnu stát přes noc, nenalévejte ho neředěný přímo na manžetu a nekombinujte ho s praním při nízké teplotě, kdy se nestihne dostatečně vypláchnout. Pokud má vaše pračka záruku, nahlédněte do návodu – někteří výrobci použití octa výslovně nedoporučují.</p>
+              <h3>Kyselina citronová jako bezpečnější volba</h3>
+              <p>Kyselina citronová je k těsnění šetrnější, nezapáchá a vyjde levněji než komerční přípravky. Sypte ji vždy přímo do prázdného bubnu, nikdy ne do zásobníku, kde by se smísila se zbytky prášku. Vyšší dávky nemají smysl – více kyseliny vodní kámen nerozpustí rychleji, jen zbytečně zatíží těsnění.</p>
+              <h3>Kdy sáhnout po přípravku</h3>
+              <p>Specializovaný čistič pračky se vyplatí tam, kde je hlavním problémem mastnota a biofilm, tedy u praček, ve kterých se dlouhodobě pralo jen na nízkých teplotách a s velkým množstvím aviváže. Obsahuje tenzidy, které kyselina sama nenahradí. Na samotné odvápnění je ale zbytečně drahý.</p>
+              <div className="article-tip"><strong>💡 Tip:</strong> Nikdy nemíchejte ocet nebo kyselinu citronovou s bělicími prostředky na bázi chlornanu (klasické SAVO). Vzniká při tom dráždivý plyn. Kyselinu a dezinfekci vždy použijte v samostatných cyklech.</div>
+            </section>
+
             <section id="faq">
               <h2>Časté otázky (FAQ)</h2>
               <div className="faq-list">
+                <details className="faq-item">
+                  <summary className="faq-summary">Jak vyčistit pračku krok za krokem?<span className="faq-icon">▾</span></summary>
+                  <div className="faq-body">Postup má čtyři kroky a zabere přibližně hodinu čistého času. (1) Nasypte 2–3 lžíce kyseliny citronové přímo do prázdného bubnu a spusťte nejdelší program při 60–90 °C. (2) Během cyklu vyjměte zásobník na prací prostředky, nechte ho odmočit v teplé vodě se saponátem a vydrhněte kartáčkem, včetně prostoru, ze kterého jste ho vytáhli. (3) Po skončení programu otřete buben a hlavně záhyby gumové manžety hadříkem namočeným v roztoku octa nebo jedlé sody. (4) Nakonec odpojte pračku ze sítě, podložte filtr čerpadla utěrkou a miskou, vyšroubujte ho, vyčistěte a pevně zašroubujte zpět. Pak už stačí dodržovat pravidelné intervaly popsané výše.</div>
+                </details>
                 <details className="faq-item">
                   <summary className="faq-summary">Jak často čistit pračku?<span className="faq-icon">▾</span></summary>
                   <div className="faq-body">Buben čistěte jedním horkým programem (60–90 °C) alespoň jednou měsíčně — zvláště pokud pravidelně perete na nízkých teplotách. Zásobník vyndejte a propláchnete jednou za měsíc. Filtr čerpadla stačí čistit jednou za 3 měsíce, nebo dříve, pokud pračka pomaleji odčerpává vodu. Manžetu otírejte ideálně po každém praní.</div>
@@ -216,6 +258,8 @@ export default function ArticlePage() {
                 <li><a href="#zasobnik">Čištění zásobníku</a></li>
                 <li><a href="#filtr">Čištění filtru</a></li>
                 <li><a href="#prevence">Prevence zápachu</a></li>
+                <li><a href="#jak-casto">Jak často čistit</a></li>
+                <li><a href="#cim-cistit">Ocet, kyselina, nebo přípravek</a></li>
                 <li><a href="#faq">FAQ</a></li>
               </ul></nav>
             </div>
