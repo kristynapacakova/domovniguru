@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import CookieBanner from "./components/CookieBanner";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const WEBSITE_LD = {
@@ -171,6 +172,9 @@ export default function RootLayout({
         </footer>
 
         <CookieBanner />
+        {/* Bezcookie měření návštěvnosti – nevyžaduje souhlas, vidí 100 % návštěv.
+            Běží vedle GA4, které je vázané na souhlas s cookies. */}
+        <Analytics />
       </body>
     </html>
   );
